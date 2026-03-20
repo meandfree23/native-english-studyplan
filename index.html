@@ -167,6 +167,7 @@
     <a href="#" onclick="showView('study')" id="nav-study" class="active">365-Day Plan</a>
     <a href="#" onclick="showView('verbs')" id="nav-verbs">기본동사(Verbs)</a>
     <a href="#" onclick="showView('preps')" id="nav-preps">전치사(Preps)</a>
+    <a href="#" onclick="showView('phrasal')" id="nav-phrasal">구동사(Phrasal)</a>
     <a href="#quiz-section">최종 테스트</a>
     <button class="theme-btn" style="margin-left: 20px;" onclick="toggleTheme()">🌓 테마</button>
   </div>
@@ -205,6 +206,18 @@
       <h2 class="section-heading">공간을 그리는 언어, 전치사 8선</h2>
       <p style="color:var(--text-dim); margin-bottom:30px;">전치사는 위치가 아니라 '관계의 이미지'입니다. 원어민의 머릿속 그림을 따라가보세요.</p>
       <div class="verb-grid" id="prep-grid"></div>
+    </div>
+  </section>
+</div>
+
+<!-- Phrasal Verbs View -->
+<div id="phrasal-view" style="display:none;" class="fade-in">
+  <section class="section">
+    <div class="container">
+      <p class="section-title">Dynamic Fusion</p>
+      <h2 class="section-heading">수학처럼 풀리는 구동사, 8선</h2>
+      <p style="color:var(--text-dim); margin-bottom:30px;">'기본동사의 본질'과 '전치사의 이미지'가 결합되는 원리를 이해하면 구동사는 암기 대상이 아닙니다.</p>
+      <div class="verb-grid" id="phrasal-grid"></div>
     </div>
   </section>
 </div>
@@ -781,18 +794,63 @@
     ]}
   ];
 
+  const phrasalVerbs = [
+    { name: "Get on", nuance: "On의 면에 탑승", core: "Get(변화) + On(표면)", desc: "버스/기차 같은 넓은 표면(On) 위로 올라타는 상태의 변화를 의미합니다.", ex: [
+      { e: "Get on the bus", k: "버스라는 면 위로 올라타다" },
+      { e: "Get on with", k: "~와 원만하게 지내다(흐름 위에 있다)" },
+      { e: "Keep getting on", k: "계속해서 나아가다" }
+    ]},
+    { name: "Take off", nuance: "On에서 Off로 이탈", core: "Take(낚아채기) + Off(분리/이탈)", desc: "딱 붙어있던(On) 면에서 소유권을 낚아채서 떼어내는(Off) 아주 강한 에너지를 나타냅니다.", ex: [
+      { e: "The plane took off", k: "비행기가 지면에서 낚아채듯 떨어지다" },
+      { e: "Take off your hat", k: "머리에 붙은 모자를 떼어내다" },
+      { e: "My business took off", k: "사업이 궤도 위로 솟구치다" }
+    ]},
+    { name: "Put on", nuance: "나의 면에 놓기", core: "Put(두기) + On(접촉)", desc: "옷, 안경 등을 내 몸이라는 표면(On) 위에 가져다 놓는(Put) 구체적인 동작입니다.", ex: [
+      { e: "Put on your glasses", k: "눈 위에 안경을 가져다 두다" },
+      { e: "Put on some weight", k: "몸에 무게를 더하다" },
+      { e: "Put on a show", k: "무대 위에 작품을 올리다" }
+    ]},
+    { name: "Go out", nuance: "경계 밖으로 나아감", core: "Go(진행) + Out(외부)", desc: "내가 현재 속한 내부 경계를 벗어나서 저 멀리(Out)로 의지를 가지고 나아가는 것입니다.", ex: [
+      { e: "Go out for dinner", k: "집 밖으로 저녁 먹으러 나가다" },
+      { e: "The fire went out", k: "불길이 에너지를 잃고 밖으로 사라지다" },
+      { e: "Go out with her", k: "그녀와 외부 활동을 함께하다(사귀다)" }
+    ]},
+    { name: "Come across", nuance: "다루다가 마주침", core: "Come(오다) + Across(지르다)", desc: "지나가는 길에 누군가와 동선이 십자(+)로 딱 교차되어 만나는 뉘앙스입니다.", ex: [
+      { e: "Come across a book", k: "서점에서 어떤 책을 우연히 발견하다" },
+      { e: "Come across as...", k: "상대에게 어떤 인상으로 다가오다" },
+      { e: "Come across the bridge", k: "다리를 가로질러 오다" }
+    ]},
+    { name: "Set up", nuance: "세상 위로 고정", core: "Set(고정/설치) + Up(수직/완성)", desc: "바닥에 있던 것을 수직으로 세워(Up) 바로 사용 가능하게 고정(Set)하는 과정입니다.", ex: [
+      { e: "Set up a meeting", k: "미팅 일정을 잡아 고정하다" },
+      { e: "Set up a business", k: "사업체를 설립하여 가동하다" },
+      { e: "The tent is set up", k: "텐트가 위로 세워져 고정됨" }
+    ]},
+    { name: "Hold on", nuance: "표면에 매달려 쥐기", core: "Hold(쥐기) + On(밀착)", desc: "위태로운 상황에서도 끈을 놓지 않고(Hold) 표면에 착 붙어(On) 버티는 정적인 에너지입니다.", ex: [
+      { e: "Hold on a second", k: "대화의 끈을 놓지 말고 쥐어주세요" },
+      { e: "Hold on to hope", k: "희망에 착 달라붙어 견디다" },
+      { e: "Hold on tight", k: "꽉 붙잡고 버티다" }
+    ]},
+    { name: "Look for", nuance: "지향점을 보다", core: "Look(시선) + For(지향)", desc: "원하는 목표물(For)을 향해 내 시선의 방향(Look)을 계속 고정하고 움직이는 능동적인 탐색입니다.", ex: [
+      { e: "Look for a job", k: "일자리라는 목표를 보려고 애쓰다" },
+      { e: "What are you looking for?", k: "너는 무엇을 지향하고 보고 있니?" },
+      { e: "Looking for an answer", k: "답이라는 지점을 향해 시선을 두다" }
+    ]}
+  ];
+
   function showView(view) {
     const studyView = document.getElementById('study-plan-view');
     const mainContent = document.getElementById('main-content');
     const verbsView = document.getElementById('verbs-view');
     const prepsView = document.getElementById('preps-view');
+    const phrasalView = document.getElementById('phrasal-view');
     const navStudy = document.getElementById('nav-study');
     const navVerbs = document.getElementById('nav-verbs');
     const navPreps = document.getElementById('nav-preps');
+    const navPhrasal = document.getElementById('nav-phrasal');
 
     // Reset all
-    [studyView, mainContent, verbsView, prepsView].forEach(v => v.style.display = 'none');
-    [navStudy, navVerbs, navPreps].forEach(n => n.classList.remove('active'));
+    [studyView, mainContent, verbsView, prepsView, phrasalView].forEach(v => v.style.display = 'none');
+    [navStudy, navVerbs, navPreps, navPhrasal].forEach(n => n.classList.remove('active'));
 
     if (view === 'study') {
       studyView.style.display = 'block';
@@ -802,10 +860,14 @@
       verbsView.style.display = 'block';
       navVerbs.classList.add('active');
       renderVerbs();
-    } else {
+    } else if (view === 'preps') {
       prepsView.style.display = 'block';
       navPreps.classList.add('active');
       renderPreps();
+    } else {
+      phrasalView.style.display = 'block';
+      navPhrasal.classList.add('active');
+      renderPhrasal();
     }
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
@@ -854,10 +916,33 @@
     `).join('');
   }
 
+  function renderPhrasal() {
+    const grid = document.getElementById('phrasal-grid');
+    grid.innerHTML = phrasalVerbs.map(v => `
+      <div class="verb-card">
+        <div class="verb-header">
+          <div class="verb-name">${v.name}</div>
+          <div class="verb-nuance-tag">${v.nuance}</div>
+        </div>
+        <div class="verb-core">${v.core}</div>
+        <p class="verb-desc">${v.desc}</p>
+        <div class="verb-examples">
+          ${v.ex.map(x => `
+            <div class="v-ex-item">
+              <span class="v-ex-en">${x.e} <span style="font-weight:400; color:var(--text-dim); margin-left:8px;">(${x.k})</span></span>
+              <button class="speak-btn" onclick="speakText('${x.e.replace(/'/g, "\\'")}')">🔊</button>
+            </div>
+          `).join('')}
+        </div>
+      </div>
+    `).join('');
+  }
+
   window.onload = () => {
     loadDay(1);
     renderVerbs();
     renderPreps();
+    renderPhrasal();
   };
 </script>
 </body>
