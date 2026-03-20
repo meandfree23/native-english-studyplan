@@ -152,7 +152,7 @@
     .verb-nuance-tag { background: rgba(82,183,136,0.1); color: var(--accent); padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 700; }
     .verb-core { font-size: 15px; font-weight: 700; margin-bottom: 12px; color: var(--gold); }
     .verb-desc { font-size: 13px; color: var(--text-dim); margin-bottom: 20px; line-height: 1.6; }
-    .verb-examples { border-top: 1px solid var(--border); pt: 15px; }
+    .verb-examples { border-top: 1px solid var(--border); padding-top: 15px; }
     .v-ex-item { font-size: 13px; margin-bottom: 8px; display: flex; align-items: flex-start; justify-content: space-between; }
     .v-ex-en { font-weight: 600; flex: 1; }
     
@@ -166,6 +166,7 @@
   <div class="nav-links">
     <a href="#" onclick="showView('study')" id="nav-study" class="active">365-Day Plan</a>
     <a href="#" onclick="showView('verbs')" id="nav-verbs">기본동사(Verbs)</a>
+    <a href="#" onclick="showView('preps')" id="nav-preps">전치사(Preps)</a>
     <a href="#quiz-section">최종 테스트</a>
     <button class="theme-btn" style="margin-left: 20px;" onclick="toggleTheme()">🌓 테마</button>
   </div>
@@ -192,6 +193,18 @@
       <h2 class="section-heading">원어민의 엔진, 기본동사 8선</h2>
       <p style="color:var(--text-dim); margin-bottom:30px;">단어의 사전적 의미를 넘어, 원어민이 느끼는 '본질적 에너지'를 이해하는 섹션입니다.</p>
       <div class="verb-grid" id="verb-grid"></div>
+    </div>
+  </section>
+</div>
+
+<!-- Prepositions View -->
+<div id="preps-view" style="display:none;" class="fade-in">
+  <section class="section">
+    <div class="container">
+      <p class="section-title">Spatial Awareness</p>
+      <h2 class="section-heading">공간을 그리는 언어, 전치사 8선</h2>
+      <p style="color:var(--text-dim); margin-bottom:30px;">전치사는 위치가 아니라 '관계의 이미지'입니다. 원어민의 머릿속 그림을 따라가보세요.</p>
+      <div class="verb-grid" id="prep-grid"></div>
     </div>
   </section>
 </div>
@@ -725,26 +738,74 @@
     ]}
   ];
 
+  const basicPreps = [
+    { name: "In", nuance: "영역의 안정감", core: "테두리 안에 안착해 있는 느낌입니다.", desc: "어떠한 경계나 큰 범주 안에 푹 담겨 있는 이미지입니다.", ex: [
+      { e: "In the office", k: "사무실이라는 영역 안에" },
+      { e: "In July", k: "7월이라는 시간의 틀 안에" },
+      { e: "In progress", k: "진행 중이라는 상태 안에" }
+    ]},
+    { name: "On", nuance: "접촉의 에너지", core: "면과 면이 착 달라붙어 있는 이미지입니다.", desc: "물리적 바닥뿐만 아니라 주제, 선상의 어느 점에 붙어 있음을 의미합니다.", ex: [
+      { e: "On the wall", k: "벽 표면에 붙어서" },
+      { e: "On sale", k: "할인이라는 조건에 붙어서" },
+      { e: "On the way", k: "길(선) 위에 붙어 있는" }
+    ]},
+    { name: "At", nuance: "정밀한 지점", core: "지도상의 한 점을 콕 찍는 느낌입니다.", desc: "특정한 장소나 시점, 아주 구체적인 순간의 주소를 나타냅니다.", ex: [
+      { e: "At the exit", k: "출구라는 그 딱 찍은 그 지점에서" },
+      { e: "At noon", k: "정오라는 그 찰나의 순간에" },
+      { e: "At its peak", k: "정점이라는 그 최정상 지점에서" }
+    ]},
+    { name: "To", nuance: "방향과 도달", core: "목표를 향해 날아가 딱 닿는 에너지입니다.", desc: "화살표가 끝까지 날아가 최종 목적지에 안착하는 이미지입니다.", ex: [
+      { e: "Go to London", k: "런던에 최종 도착하는 방향으로" },
+      { e: "Solution to this", k: "이 문제에 딱 맞는 해결책" },
+      { e: "Back to normal", k: "정상 상태로 다시 도달함" }
+    ]},
+    { name: "For", nuance: "마음의 방향", core: "의도와 목적이 그쪽을 향해 나아갑니다.", desc: "물리적 도달보다는 '그것을 위해서'라는 지향성의 에너지입니다.", ex: [
+      { e: "Ready for it", k: "그것을 맞이할 방향을 향해" },
+      { e: "For a long time", k: "긴 시간을 목표로 두고" },
+      { e: "Wait for you", k: "너라는 목적지를 향해 기다림" }
+    ]},
+    { name: "With", nuance: "동반과 도구", core: "함께 공존하거나 수단으로 사용됩니다.", desc: "무언가와 연결되어 있거나 동역하는 조화로운 이미지입니다.", ex: [
+      { e: "With joy", k: "기쁨을 수반한 채로" },
+      { e: "Write with a pen", k: "펜이라는 도구와 함께" },
+      { e: "Agree with you", k: "너의 생각과 함께 가다" }
+    ]},
+    { name: "By", nuance: "근접성과 수단", core: "물리적으로 옆에 있거나 방법이 됩니다.", desc: "가장 가까운 곳에 위치해 영향을 주거나 과정을 가능케 합니다.", ex: [
+      { e: "By the window", k: "창문 바로 옆에 붙어서" },
+      { e: "By credit card", k: "카드를 수단으로 활용하여" },
+      { e: "By the end of day", k: "하루의 끝 지점 근처까지" }
+    ]},
+    { name: "From", nuance: "시각과 출발", core: "뿌리가 어디인지 기점을 나타냅니다.", desc: "모든 에너지나 물건이 시작된 원천에서 멀어지는 근원입니다.", ex: [
+      { e: "From my perspective", k: "나의 시각이라는 출발점에서" },
+      { e: "Away from the chaos", k: "혼란이라는 출발점에서 멀리" },
+      { e: "Made from grapes", k: "포도라는 원천에서부터 만들어진" }
+    ]}
+  ];
+
   function showView(view) {
     const studyView = document.getElementById('study-plan-view');
     const mainContent = document.getElementById('main-content');
     const verbsView = document.getElementById('verbs-view');
+    const prepsView = document.getElementById('preps-view');
     const navStudy = document.getElementById('nav-study');
     const navVerbs = document.getElementById('nav-verbs');
+    const navPreps = document.getElementById('nav-preps');
+
+    // Reset all
+    [studyView, mainContent, verbsView, prepsView].forEach(v => v.style.display = 'none');
+    [navStudy, navVerbs, navPreps].forEach(n => n.classList.remove('active'));
 
     if (view === 'study') {
       studyView.style.display = 'block';
       mainContent.style.display = 'block';
-      verbsView.style.display = 'none';
       navStudy.classList.add('active');
-      navVerbs.classList.remove('active');
-    } else {
-      studyView.style.display = 'none';
-      mainContent.style.display = 'none';
+    } else if (view === 'verbs') {
       verbsView.style.display = 'block';
-      navStudy.classList.remove('active');
       navVerbs.classList.add('active');
       renderVerbs();
+    } else {
+      prepsView.style.display = 'block';
+      navPreps.classList.add('active');
+      renderPreps();
     }
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
@@ -771,9 +832,32 @@
     `).join('');
   }
 
+  function renderPreps() {
+    const grid = document.getElementById('prep-grid');
+    grid.innerHTML = basicPreps.map(v => `
+      <div class="verb-card">
+        <div class="verb-header">
+          <div class="verb-name">${v.name}</div>
+          <div class="verb-nuance-tag">${v.nuance}</div>
+        </div>
+        <div class="verb-core">${v.core}</div>
+        <p class="verb-desc">${v.desc}</p>
+        <div class="verb-examples">
+          ${v.ex.map(x => `
+            <div class="v-ex-item">
+              <span class="v-ex-en">${x.e} <span style="font-weight:400; color:var(--text-dim); margin-left:8px;">(${x.k})</span></span>
+              <button class="speak-btn" onclick="speakText('${x.e.replace(/'/g, "\\'")}')">🔊</button>
+            </div>
+          `).join('')}
+        </div>
+      </div>
+    `).join('');
+  }
+
   window.onload = () => {
     loadDay(1);
     renderVerbs();
+    renderPreps();
   };
 </script>
 </body>
