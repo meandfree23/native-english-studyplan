@@ -142,6 +142,21 @@
       box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
     .speak-btn:hover { background: var(--accent); color: white; transform: scale(1.1); }
+
+    /* VERBS SECTION */
+    .verb-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 30px; }
+    .verb-card { background: var(--surface); border: 1px solid var(--border); border-radius: 20px; padding: 28px; transition: all 0.3s; }
+    .verb-card:hover { border-color: var(--accent); transform: translateY(-5px); }
+    .verb-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 15px; }
+    .verb-name { font-size: 24px; font-weight: 900; color: var(--accent); text-transform: uppercase; }
+    .verb-nuance-tag { background: rgba(82,183,136,0.1); color: var(--accent); padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 700; }
+    .verb-core { font-size: 15px; font-weight: 700; margin-bottom: 12px; color: var(--gold); }
+    .verb-desc { font-size: 13px; color: var(--text-dim); margin-bottom: 20px; line-height: 1.6; }
+    .verb-examples { border-top: 1px solid var(--border); pt: 15px; }
+    .v-ex-item { font-size: 13px; margin-bottom: 8px; display: flex; align-items: flex-start; justify-content: space-between; }
+    .v-ex-en { font-weight: 600; flex: 1; }
+    
+    .nav-links a.active { color: var(--accent); font-weight: 700; }
   </style>
 </head>
 <body>
@@ -149,7 +164,8 @@
 <nav class="nav">
   <div class="nav-logo">📘 Native 365-Day Master</div>
   <div class="nav-links">
-    <a href="#plan">여정지도</a>
+    <a href="#" onclick="showView('study')" id="nav-study" class="active">365-Day Plan</a>
+    <a href="#" onclick="showView('verbs')" id="nav-verbs">기본동사(Verbs)</a>
     <a href="#quiz-section">최종 테스트</a>
     <button class="theme-btn" style="margin-left: 20px;" onclick="toggleTheme()">🌓 테마</button>
   </div>
@@ -162,8 +178,22 @@
   <button class="complete-btn" id="day-complete-btn" onclick="toggleComplete()">미션 완료 체크</button>
 </section>
 
-<div class="day-selector-strip">
-  <div class="container" id="pill-container"></div>
+<div id="study-plan-view">
+  <div class="day-selector-strip">
+    <div class="container" id="pill-container"></div>
+  </div>
+</div>
+
+<!-- Basic Verbs View -->
+<div id="verbs-view" style="display:none;" class="fade-in">
+  <section class="section">
+    <div class="container">
+      <p class="section-title">Core Mastery</p>
+      <h2 class="section-heading">원어민의 엔진, 기본동사 8선</h2>
+      <p style="color:var(--text-dim); margin-bottom:30px;">단어의 사전적 의미를 넘어, 원어민이 느끼는 '본질적 에너지'를 이해하는 섹션입니다.</p>
+      <div class="verb-grid" id="verb-grid"></div>
+    </div>
+  </section>
 </div>
 
 <div id="main-content" class="fade-in">
@@ -652,13 +682,99 @@
     }, 2000);
   }
 
-  function toggleTheme() {
-    const html = document.documentElement;
-    if (html.classList.contains('theme-dark')) html.classList.replace('theme-dark', 'theme-light');
-    else html.classList.replace('theme-light', 'theme-dark');
+  const basicVerbs = [
+    { name: "Take", nuance: "주도적 낚아채기", core: "내 영역 밖의 것을 나의 의지로 낚아챕니다.", desc: "주도적 소유, 선택, 책임의 에너지를 담고 있습니다.", ex: [
+      { e: "Take responsibility", k: "책임을 (주도적으로) 지다" },
+      { e: "Take a taxi", k: "택시를 (선택해서) 타다" },
+      { e: "Take a break", k: "휴식을 (스스로) 취하다" }
+    ]},
+    { name: "Get", nuance: "변화의 찰나", core: "상태의 변화(A → B)를 의미합니다.", desc: "없다가 생기거나, 위치가 바뀌거나, 이해하게 되는 순간입니다.", ex: [
+      { e: "Get angry", k: "화난 상태로 변하다" },
+      { e: "Get it", k: "이해하다 (모름 → 앎)" },
+      { e: "Get home", k: "집에 도착하다 (위치의 변화)" }
+    ]},
+    { name: "Make", nuance: "결과물 창조", core: "무에서 유를 만들거나 결과를 도출합니다.", desc: "창조적 에너지와 구체적인 결과물이 뒤따릅니다.", ex: [
+      { e: "Make a decision", k: "결정을 내리다" },
+      { e: "Make friends", k: "관계를 형성하다" },
+      { e: "Make it happen", k: "실현시키다" }
+    ]},
+    { name: "Have", nuance: "소유와 상태", core: "내 영역 안에 존재하는 정적 상태입니다.", desc: "무언가를 소유하고 있거나 경험하고 있는 안정된 느낌입니다.", ex: [
+      { e: "Have a cold", k: "감기에 걸려 있는 상태" },
+      { e: "Have a party", k: "파티를 열다/경험하다" },
+      { e: "Have a look", k: "한번 훑어보다" }
+    ]},
+    { name: "Do", nuance: "동작과 과정", core: "행위 그 자체와 과정에 집중합니다.", desc: "의무나 활동을 수행하는 에너지를 나타냅니다.", ex: [
+      { e: "Do your best", k: "최선을 다하다" },
+      { e: "Do the dishes", k: "정해진 일을 수행하다" },
+      { e: "Do business", k: "사업 활동을 수행하다" }
+    ]},
+    { name: "Go", nuance: "멀어지는 확장", core: "기준점에서 밖으로 나아가는 에너지입니다.", desc: "현재 상태를 벗어나 확장하거나 나아가는 이동입니다.", ex: [
+      { e: "Go crazy", k: "정상에서 벗어나 미치다" },
+      { e: "Go ahead", k: "앞으로 나아가다" },
+      { e: "Go for it", k: "목표를 향해 나아가다" }
+    ]},
+    { name: "Come", nuance: "다가오는 발생", core: "기준점 쪽으로 가까워지는 에너지입니다.", desc: "현상이 나타나거나 내 영역 안으로 들어오는 조짐입니다.", ex: [
+      { e: "Come true", k: "꿈이 현실로 다가오다" },
+      { e: "Come up with", k: "생각이 떠오르다" },
+      { e: "Come across", k: "우연히 마주치다" }
+    ]},
+    { name: "Give", nuance: "밖으로의 전달", core: "내 것을 타인이나 외부로 방출합니다.", desc: "전달, 방출, 에너지의 이동을 의미합니다.", ex: [
+      { e: "Give a hand", k: "도움을 주다" },
+      { e: "Give up", k: "쥐고 있던 걸 놓다 (포기하다)" },
+      { e: "Give it a try", k: "시도를 바깥으로 내보내다" }
+    ]}
+  ];
+
+  function showView(view) {
+    const studyView = document.getElementById('study-plan-view');
+    const mainContent = document.getElementById('main-content');
+    const verbsView = document.getElementById('verbs-view');
+    const navStudy = document.getElementById('nav-study');
+    const navVerbs = document.getElementById('nav-verbs');
+
+    if (view === 'study') {
+      studyView.style.display = 'block';
+      mainContent.style.display = 'block';
+      verbsView.style.display = 'none';
+      navStudy.classList.add('active');
+      navVerbs.classList.remove('active');
+    } else {
+      studyView.style.display = 'none';
+      mainContent.style.display = 'none';
+      verbsView.style.display = 'block';
+      navStudy.classList.remove('active');
+      navVerbs.classList.add('active');
+      renderVerbs();
+    }
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
-  window.onload = () => loadDay(1);
+  function renderVerbs() {
+    const grid = document.getElementById('verb-grid');
+    grid.innerHTML = basicVerbs.map(v => `
+      <div class="verb-card">
+        <div class="verb-header">
+          <div class="verb-name">${v.name}</div>
+          <div class="verb-nuance-tag">${v.nuance}</div>
+        </div>
+        <div class="verb-core">${v.core}</div>
+        <p class="verb-desc">${v.desc}</p>
+        <div class="verb-examples">
+          ${v.ex.map(x => `
+            <div class="v-ex-item">
+              <span class="v-ex-en">${x.e} <span style="font-weight:400; color:var(--text-dim); margin-left:8px;">(${x.k})</span></span>
+              <button class="speak-btn" onclick="speakText('${x.e.replace(/'/g, "\\'")}')">🔊</button>
+            </div>
+          `).join('')}
+        </div>
+      </div>
+    `).join('');
+  }
+
+  window.onload = () => {
+    loadDay(1);
+    renderVerbs();
+  };
 </script>
 </body>
 </html>
