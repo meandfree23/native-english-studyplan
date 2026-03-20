@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="ko" class="theme-dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Native 30-Day Master — 원어민 영어 완벽 정복</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <style>
+    html.theme-dark {
+      --bg: #0C100E; --surface: #131A16; --surface2: #1E2B24;
+      --border: rgba(82,183,136,0.12); --border2: rgba(82,183,136,0.22);
+      --text: #E8F0EB; --text-dim: #8BA898;
+      --accent: #52B788; --gold: #D4A373; --ember: #E76F51;
+    }
+    html.theme-light {
+      --bg: #F2F7F4; --surface: #FFFFFF; --surface2: #E8F2EC;
+      --border: rgba(45,106,79,0.12); --border2: rgba(45,106,79,0.28);
+      --text: #1A2E22; --text-dim: #4D7A62;
+      --accent: #2D6A4F; --gold: #B07A3A; --ember: #D4522A;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Noto Sans KR', sans-serif;
+      background: var(--bg); color: var(--text);
+      line-height: 1.7; min-height: 100vh;
+      overflow-x: hidden;
+    }
+    .nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(13,16,14,0.92); backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0 32px; height: 60px;
+    }
+    html.theme-light .nav { background: rgba(242,247,244,0.92); }
+    .nav-logo { font-size: 15px; font-weight: 700; color: var(--accent); }
+    .nav-links a { font-size: 13px; color: var(--text-dim); text-decoration: none; margin-left: 20px; transition: color .2s; }
+    .nav-links a:hover { color: var(--accent); }
+    .theme-btn {
+      background: var(--surface2); border: 1px solid var(--border);
+      color: var(--text-dim); border-radius: 20px; padding: 6px 16px; font-size: 12px; cursor: pointer;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #0C100E 0%, #1B4332 50%, #0C100E 100%);
+      padding: 80px 32px 60px; text-align: center; position: relative;
+    }
+    html.theme-light .hero { background: linear-gradient(135deg, #E8F2EC 0%, #C5E0CF 50%, #E8F2EC 100%); }
+    .hero-tag { display: inline-block; background: rgba(82,183,136,0.15); color: var(--accent); font-size: 11px; padding: 6px 16px; border-radius: 20px; margin-bottom: 20px; font-weight: 700; }
+    .hero-title { font-size: clamp(32px, 5vw, 56px); font-weight: 900; margin-bottom: 16px; letter-spacing: -0.04em; }
+    .hero-sub { color: var(--text-dim); max-width: 600px; margin: 0 auto 30px; font-size: 16px; }
+    
+    .day-selector-strip {
+      background: var(--surface); border-bottom: 1px solid var(--border);
+      overflow-x: auto; white-space: nowrap; padding: 15px 0;
+      scrollbar-width: none;
+    }
+    .day-selector-strip::-webkit-scrollbar { display: none; }
+    .day-pill {
+      display: inline-block; padding: 8px 18px; border-radius: 20px;
+      background: var(--surface2); border: 1px solid var(--border);
+      color: var(--text-dim); font-size: 13px; font-weight: 600;
+      cursor: pointer; margin-right: 10px; transition: all 0.2s;
+    }
+    .day-pill.active { background: var(--accent); color: white; transform: scale(1.05); }
+    .day-pill.completed { border-color: var(--accent); }
+
+    .container { max-width: 1100px; margin: 0 auto; padding: 0 32px; }
+    .section { padding: 60px 0; }
+    .section-title { font-size: 11px; font-weight: 800; color: var(--accent); letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 10px; }
+    .section-heading { font-size: 28px; font-weight: 800; margin-bottom: 10px; }
+    
+    .kpi-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+    .kpi-card { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 24px; transition: transform .2s; }
+    .kpi-card:hover { transform: translateY(-4px); }
+    .kpi-icon { font-size: 24px; margin-bottom: 10px; }
+    .kpi-value { font-size: 20px; font-weight: 800; color: var(--accent); margin-bottom: 4px; }
+    .kpi-label { font-size: 14px; font-weight: 700; margin-bottom: 6px; }
+    .kpi-desc { font-size: 12px; color: var(--text-dim); line-height: 1.6; }
+
+    .chapters-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+    .chapter-card { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 24px; position: relative; }
+    .chapter-num { font-size: 10px; color: var(--text-dim); font-weight: 700; margin-bottom: 8px; }
+    .chapter-title { font-size: 18px; font-weight: 800; margin-bottom: 8px; }
+    .chapter-desc { font-size: 13px; color: var(--text-dim); margin-bottom: 16px; }
+    .tag { background: var(--surface2); color: var(--accent); font-size: 10px; font-weight: 600; padding: 3px 10px; border-radius: 20px; margin-right: 5px; }
+
+    .compare-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; border-radius: 16px; overflow: hidden; margin-top: 20px; }
+    .compare-side { padding: 24px; height: 100%; }
+    .compare-side.left { background: rgba(231,111,81,0.06); border: 1px solid rgba(231,111,81,0.15); }
+    .compare-side.right { background: rgba(82,183,136,0.06); border: 1px solid rgba(82,183,136,0.15); }
+    .compare-item { font-size: 13px; margin-bottom: 10px; }
+
+    .expr-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; }
+    .expr-card { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 20px; }
+    .expr-en { font-size: 16px; font-weight: 800; color: var(--accent); margin-bottom: 4px; }
+    .expr-ko { font-size: 13px; color: var(--text-dim); margin-bottom: 10px; }
+    .expr-example { font-size: 12px; font-style: italic; background: var(--surface2); padding: 10px; border-radius: 8px; }
+
+    .divider { height: 1px; background: var(--border); }
+
+    .footer { padding: 60px 0; text-align: center; background: var(--surface); border-top: 1px solid var(--border); }
+    
+    /* PROGRESS FLOAT */
+    .progress-float {
+      position: fixed; bottom: 30px; right: 30px; z-index: 1000;
+      background: var(--surface); border: 1px solid var(--border);
+      padding: 16px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+      text-align: center; transition: all 0.3s;
+    }
+    .circ-bg { width: 50px; height: 50px; border-radius: 50%; background: conic-gradient(var(--accent) var(--p), var(--surface2) 0deg); display: flex; align-items: center; justify-content: center; margin-bottom: 6px; }
+    .circ-inner { width: 40px; height: 40px; background: var(--surface); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 800; }
+
+    .complete-btn {
+      background: var(--accent); color: white; border: none; padding: 12px 30px;
+      border-radius: 30px; font-weight: 800; cursor: pointer; margin-top: 20px;
+      transition: opacity 0.2s;
+    }
+
+    /* QUIZ */
+    .quiz-container { background: var(--surface); border: 1px solid var(--border); border-radius: 20px; padding: 40px; text-align: center; }
+    .quiz-opt { background: var(--surface2); padding: 16px; border-radius: 12px; cursor: pointer; margin-bottom: 10px; text-align: left; }
+    .quiz-opt:hover { background: var(--border2); }
+    .quiz-opt.correct { background: var(--accent); color: white; }
+    .quiz-opt.wrong { background: var(--ember); color: white; }
+
+    @media (max-width: 700px) {
+      .compare-grid { grid-template-columns: 1fr; }
+      .container { padding: 0 20px; }
+    }
+    
+    .fade-in { animation: fadeIn 0.4s ease; }
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+
+    .speak-btn {
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 26px; height: 26px; border-radius: 50%;
+      background: var(--surface2); border: 1px solid var(--border);
+      color: var(--accent); font-size: 12px; cursor: pointer;
+      margin-left: 8px; transition: all 0.2s; vertical-align: middle;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .speak-btn:hover { background: var(--accent); color: white; transform: scale(1.1); }
+  </style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-logo">📘 Native 30-Day Master</div>
+  <div class="nav-links">
+    <a href="#plan">여정지도</a>
+    <a href="#quiz-section">최종 테스트</a>
+    <button class="theme-btn" style="margin-left: 20px;" onclick="toggleTheme()">🌓 테마</button>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="hero-tag" id="hero-tag">Day 01</div>
+  <h1 class="hero-title" id="hero-title">로딩 중...</h1>
+  <p class="hero-sub" id="hero-sub">커리큘럼을 불러오고 있습니다.</p>
+  <button class="complete-btn" id="day-complete-btn" onclick="toggleComplete()">미션 완료 체크</button>
+</section>
+
+<div class="day-selector-strip">
+  <div class="container" id="pill-container"></div>
+</div>
+
+<div id="main-content" class="fade-in">
+  <section class="section">
+    <div class="container">
+      <p class="section-title">Overview</p>
+      <h2 class="section-heading" id="lesson-heading">학습 목표</h2>
+      <div class="kpi-grid" id="kpi-grid"></div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <section class="section">
+    <div class="container">
+      <p class="section-title">Deep Dive</p>
+      <div class="chapters-grid" id="chapter-grid"></div>
+    </div>
+  </section>
+
+  <div class="divider" id="comp-divider"></div>
+
+  <section class="section" id="comp-section">
+    <div class="container">
+      <p class="section-title">Nuance</p>
+      <h2 class="section-heading">원어민 감각 익히기</h2>
+      <div class="compare-grid" id="comp-grid"></div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <section class="section">
+    <div class="container">
+      <p class="section-title">Key Expressions</p>
+      <div class="expr-grid" id="expr-grid"></div>
+    </div>
+  </section>
+</div>
+
+<section class="section" id="quiz-section">
+  <div class="container">
+    <div class="quiz-container" id="quiz-box">
+      <h2 class="section-heading">학습 마무리 퀴즈</h2>
+      <p class="section-desc" style="margin-bottom: 24px;">오늘 배운 표현을 테스트해보세요.</p>
+      <div id="quiz-content">
+        <button class="complete-btn" onclick="startQuiz()">테스트 시작</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="progress-float">
+  <div class="circ-bg" id="global-circ" style="--p: 0deg"><div class="circ-inner" id="global-pct">0%</div></div>
+  <div style="font-size: 10px; font-weight: 700; color: var(--text-dim);">전체 진행도</div>
+</div>
+
+<footer class="footer">
+  <p style="color: var(--text-dim); font-size: 13px;">Native 30-Day Master &copy; 2026</p>
+</footer>
+
+<script>
+  const curriculum = {
+    1: {
+      category: "First Impressions", title: "품격 있는 첫인사와 스몰톡", sub: "단순한 안부 인사를 넘어 대화의 물꼬를 세련되게 트는 법을 배웁니다.",
+      kpis: [{i:"🤝", v:"Rapport", l:"유대감 형성", d:"상대방과 긍정적인 첫 흐름을 만드는 기술"}, {i:"🗨️", v:"Open-ended", l:"열린 질문", d:"Yes/No가 아닌 풍성한 대답을 끌어내는 질문법"}],
+      lessons: [
+        {t:"근황 묻기 (Sophisticated)", d:"How are you? 대신 ‘최근 어떻게 지내셨나요?’의 다양한 변주"},
+        {t:"공통점 찾기", d:"날씨나 장소 등 주변 상황을 활용한 자연스러운 대화 시작"},
+        {t:"경청의 기술", d:"상대방의 답변에서 핵심 키워드를 잡아 대화를 확장하는 법"},
+        {t:"정중한 마무리", d:"대화를 끊지 않고도 자연스럽게 인사를 나누며 헤어지는 언어"},
+        {t:"아이스브레이킹", d:"어색한 분위기를 순식간에 녹이는 긍정적인 화법"},
+        {t:"문화적 에티켓", d:"첫 만남에서 피해야 할 주제와 권장되는 글로벌 매너"}
+      ],
+      compare: [
+        {b:"How are you?", g: "How have you been keeping lately?"},
+        {b:"Nice to meet you.", g:"It's a pleasure to finally meet you in person."},
+        {b:"What do you do?", g:"What keeps you busy these days outside of work?"},
+        {b:"I am fine.", g:"I couldn't be better, thank you for asking."},
+        {b:"Good to see you.", g:"It's wonderful to cross paths with you again."},
+        {b:"Bye.", g:"It was a delight chatting with you. Let's stay in touch."}
+      ],
+      expr: [
+        {e:"I've heard so much about you.", k:"말씀 많이 들었습니다.", x:"It's great to meet you! I've heard so much about you."},
+        {e:"How's your week shaping up?", k:"이번 주 어떻게 보내고 계세요?", x:"It's already Wednesday! How's your week shaping up?"},
+        {e:"That's a fascinating point.", k:"정말 흥미로운 점이네요.", x:"I've never thought of it that way; that's a fascinating point."},
+        {e:"I don't want to monopolize your time.", k:"시간을 너무 많이 뺏고 싶지 않네요.", x:"I'm sure you're busy; I don't want to monopolize your time."},
+        {e:"We should definitely grab coffee sometime.", k:"언제 한번 커피 한잔 해요.", x:"I enjoyed our talk! We should definitely grab coffee sometime."},
+        {e:"It's been a privilege speaking with you.", k:"대화 나누게 되어 영광이었습니다.", x:"Thank you for your insights; it's been a privilege speaking with you."}
+      ]
+    },
+    2: {
+      category: "Expressions", title: "감정의 세밀한 묘사", sub: "단순히 '좋다', '나쁘다'를 넘어 내 상태를 정확한 단어로 표현해봅니다.",
+      kpis: [{i:"🎨", v:"Nuance", l:"뉘앙스의 차이", d:"비슷한 뜻이지만 상황에 따라 다른 단어 선택"}, {i:"💪", v:"Resilience", l:"회복탄력성", d:"어려운 상황에서도 긍정적인 태도를 유지하는 표현"}],
+      lessons: [
+        {t:"긍정의 스펙트럼", d:"Invigorated(활기찬), Content(만족스러운) 등 정교한 단어"},
+        {t:"불편함의 완곡한 표현", d:"상대방을 배려하며 내 어려운 상황을 설명하는 법"},
+        {t:"감사의 깊이", d:"단순한 Thanks를 넘어 구체적으로 고마움을 표현하기"},
+        {t:"기대의 표현", d:"단순한 I want to 대신 열정과 기대를 담은 어휘 선택"},
+        {t:"심리적 안정감", d:"불안을 다스리고 평온함을 표현하는 고차원적 방식"},
+        {t:"공감의 언어", d:"타인의 감정에 깊이 공감하고 위로하는 세련된 표현"}
+      ],
+      compare: [
+        {b:"I am stressed.", g: "I've been feeling a bit overwhelmed lately."},
+        {b:"I am happy.", g:"I'm feeling quite refreshed and energized."},
+        {b:"I am sad.", g:"I've been feeling a bit dispirited recently."},
+        {b:"I am angry.", g:"I'm somewhat frustrated with the current situation."},
+        {b:"I am tired.", g:"I'm feeling rather exhausted after a long day."},
+        {b:"I am bored.", g:"I feel like I'm in need of a new challenge."}
+      ],
+      expr: [
+        {e:"I'm cautiously optimistic.", k:"조심스럽게 낙관하고 있어요.", x:"The project is tough, but I'm cautiously optimistic."},
+        {e:"That's a weight off my shoulders.", k:"정말 큰 짐을 덜었네요.", x:"Knowing that the deadline was moved is a weight off my shoulders."},
+        {e:"I'm over the moon.", k:"날아갈 듯이 기뻐요.", x:"I got the job! honestly, I'm over the moon right now."},
+        {e:"I'm in a bit of a slump.", k:"요즘 약간 슬럼프예요.", x:"I've been struggling with creativity; I'm in a bit of a slump."},
+        {e:"That really hit home.", k:"정말 뼈저리게 와닿네요.", x:"Your advice really hit home; I realize what I need to change."},
+        {e:"I'm keeping my chin up.", k:"의연하게(기운 내며) 지내고 있어요.", x:"Times are tough, but I'm keeping my chin up."}
+      ]
+    },
+    3: {
+      category: "Analytical", title: "논리적인 동의와 의견 제시", sub: "토론이나 회의에서 내 생각을 품격 있게 제안하고 상대의 의견을 존중하는 기술",
+      kpis: [{i:"🧠", v:"Objective", l:"객관적 시각", d:"개인적 감정을 배제하고 사실에 기반해 의견 말하기"}, {i:"⚖️", v:"Balanced", l:"균형 잡힌 시각", d:"장단점을 모두 고려하여 결론을 도출하는 화법"}],
+      lessons: [
+        {t:"세련된 동의 (Concurring)", d:"I agree 대신 I concur, I'm of the same mind 등을 활용"},
+        {t:"부드러운 이견 제시", d:"상대의 의견을 인정하면서 내 반대 의견을 논리적으로 펼치기"},
+        {t:"논점 흐리기 방지", d:"대화가 겉돌지 않게 핵심으로 다시 유도하는 정중한 표현"},
+        {t:"결론 도출의 화법", d:"다양한 의견을 하나로 모으는 세련된 요약 기술"},
+        {t:"가정적 상황 분석", d:"'만약 ~라면'의 상황을 논리적으로 추론하는 법"},
+        {t:"증거 기반 주장", d:"데이터와 사실을 완곡하면서도 강력하게 전달하는 법"}
+      ],
+      compare: [
+        {b:"I agree with you.", g: "I couldn't agree more with your assessment."},
+        {b:"But I think...", g:"That's a valid point, however, looking at it from another angle..."},
+        {b:"You are wrong.", g: "I beg to differ on that particular point."},
+        {b:"Explain more.", g: "Could you elaborate on the reasoning behind that?"},
+        {b:"I don't know.", g: "I'm not in a position to comment on that at the moment."},
+        {b:"Let's stop talking.", g: "Perhaps we can revisit this after more research."}
+      ],
+      expr: [
+        {e:"I'm on the same page.", k:"저도 같은 생각(입장)이에요.", x:"It's good to know we're on the same page regarding the budget."},
+        {e:"Let's look at the big picture.", k:"전체적인 큰 그림을 봅시다.", x:"We need to stop focusing on details and look at the big picture."},
+        {e:"That's a fair point.", k:"일리가 있는 말씀이네요.", x:"I hadn't considered the cost; that's a fair point."},
+        {e:"Let's play devil's advocate.", k:"반대 입장에서도 한번 생각해봅시다.", x:"Just to be thorough, let's play devil's advocate for a moment."},
+        {e:"The bottom line is...", k:"결론적으로 가장 중요한 것은...", x:"The bottom line is that we need to increase efficiency."},
+        {e:"I have some reservations.", k:"약간 우려되는(망설여지는) 부분이 있어요.", x:"The plan sounds good, but I have some reservations about the timing."}
+      ]
+    },
+    4: {
+      category: "Professional", title: "업무 효율과 협업의 언어", sub: "동료와의 협업 및 업무 진행 상황을 명확하고 정중하게 전달하는 어휘",
+      kpis: [{i:"📊", v:"Clarity", l:"명확성", d:"오해의 소지 없이 정보를 전달하는 능력"}, {i:"🤝", v:"Synergy", l:"협업 시너지", d:"팀원들의 공헌을 인정하고 고무시키는 표현"}],
+      lessons: [
+        {t:"진행 상황 보고", d:"In progress, on track, behind schedule 등 정확한 상태 표현"},
+        {t:"도움 요청과 제안", d:"명령조가 아닌 협력을 구하는 세련된 요청법"},
+        {t:"건설적인 피드백", d:"비판이 아닌 개선을 위한 피드백을 주고받는 법"},
+        {t:"일정 조율과 거절", d:"바쁜 상황에서도 매너를 잃지 않고 거절하는 완곡한 표현"},
+        {t:"주도권 확보", d:"회의나 프로젝트에서 부드럽게 주도권을 잡는 화법"},
+        {t:"비즈니스 팔로우업", d:"미팅 후 관계를 지속하기 위한 정중한 감사와 확인"}
+      ],
+      compare: [
+        {b:"Tell me what happened.", g: "Could you please bring me up to speed on this?"},
+        {b:"I will do it.", g:"I'll take ownership of this task and see it through."},
+        {b:"I am busy.", g: "I'm currently tied up with another priority."},
+        {b:"Check this.", g: "I would appreciate your input on this document."},
+        {b:"Do this faster.", g: "Is there any way we can expedite this process?"},
+        {b:"Thanks for help.", g: "I'm grateful for your collaboration on this project."}
+      ],
+      expr: [
+        {e:"Keep me in the loop.", k:"진행 상황을 계속 공유해주세요.", x:"Please keep me in the loop as the project develops."},
+        {e:"Let's touch base next week.", k:"다음 주에 다시 이야기(연락)합시다.", x:"I need a few days to think; let's touch base next week."},
+        {e:"Let's circle back to this later.", k:"나중에 이 주제로 다시 돌아옵시다.", x:"We are getting off track; let's circle back to this later."},
+        {e:"Could you walk me through this?", k:"이 부분에 대해 차근차근 설명해주실래요?", x:"I'm new to this system; could you walk me through this?"},
+        {e:"I'll get back to you on that.", k:"그 부분은 확인 후 다시 연락 드릴게요.", x:"I don't have the data yet; I'll get back to you on that."},
+        {e:"Let's hit the ground running.", k:"지체 없이 바로 시작합시다.", x:"The deadline is tight, so let's hit the ground running."}
+      ]
+    },
+    5: {
+      category: "Lifestyle", title: "식사 예절과 미식의 어휘", sub: "다양한 식사 자리에서 음식의 맛과 식감, 선호도를 풍부하게 묘사하기",
+      kpis: [{i:"🍽️", v:"Palate", l:"미각/취향", d:"정교한 맛의 차이를 구별하고 제안하는 감각"}, {i:"🍷", v:"Etiquette", l:"테이블 매너", d:"정중한 식사 자리에서 사용되는 공손한 표현들"}],
+      lessons: [
+        {t:"맛과 식감의 묘사", d:"Savory, tart, tender, crispy 등 단순한 good을 넘어서기"},
+        {t:"식단 제한과 요청", d:"알레르기나 취향에 따른 정중한 주문 조정법"},
+        {t:"와인과 음료의 세계", d:"바디감, 당도 등 음료의 특징을 격식 있게 표현하기"},
+        {t:"계산과 팁 문화", d:"정중하게 계산을 요청하거나 호의를 표하는 법"},
+        {t:"요리 과정 언급", d:"Braised, seared, infused 등 조리법을 활용한 묘사"},
+        {t:"레스토랑 컴플레인", d:"불쾌감을 주지 않으면서 서비스를 개선하도록 요청하기"}
+      ],
+      compare: [
+        {b:"The meat is good.", g: "The steak is incredibly tender and succulent."},
+        {b:"I don't eat onions.", g:"I'd prefer it without onions, if that's possible."},
+        {b:"This is too sweet.", g: "The sweetness is a bit overpowering for my palate."},
+        {b:"I want a drink.", g: "Could you recommend something refreshing to start?"},
+        {b:"Where is the toilet?", g: "Could you point me in the direction of the restroom?"},
+        {b:"Check please.", g: "Could we have the bill, please?"}
+      ],
+      expr: [
+        {e:"This has a nice kick to it.", k:"기분 좋게 매콤하네요.", x:"I love the sauce! It has a nice kick to it."},
+        {e:"It's an acquired taste.", k:"먹어봐야 맛을 아는(호불호가 갈리는) 맛이에요.", x:"Blue cheese is definitely an acquired taste."},
+        {e:"My mouth is watering.", k:"군침이 도네요.", x:"The smell of that bread is amazing; my mouth is watering."},
+        {e:"I'm stuffed.", k:"배가 정말 부르네요.", x:"The portions were huge! I'm absolutely stuffed."},
+        {e:"Let's split the bill.", k:"각자 계산해요.", x:"It was a great meal; let's split the bill."},
+        {e:"This is to die for.", k:"정말 둘이 먹다 하나 죽어도 모를 맛이에요.", x:"You have to try this dessert; it is to die for."}
+      ]
+    },
+    6: {
+      category: "Descriptive", title: "정교한 인물 및 성격 묘사", sub: "인물의 자질과 성향을 품격 있는 단어로 설명하기",
+      kpis: [{i:"👤", v:"Character", l:"성품 묘사", d:"사람의 내면적 가치와 자질을 설명하는 어휘"}, {i:"💡", v:"Insightful", l:"통찰력 있는", d:"생각이 깊고 예리한 사람을 칭찬하는 표현"}],
+      lessons: [
+        {t:"장점의 구체적 표현", d:"Diligent(성실한), Meticulous(꼼꼼한), Charismatic 등"},
+        {t:"단점의 완곡한 표현", d:"상처 주지 않으면서 성향의 차이를 설명하는 법 (Reserved, Strong-willed)"},
+        {t:"내면의 가치 묘사", d:"Integrity, Resilience, Empathy 등 인격적 강점 찬사"},
+        {t:"리더십과 영향력", d:"Visionary, Empowering 등 타인에게 영감을 주는 자질"},
+        {t:"재치와 유머", d:"Witty, humorous 대신 sophisticated sense of humor 표현"},
+        {t:"첫인상의 복기", d:"사람을 처음 만난 후 그 인상을 깊이 있게 정리해서 말하기"}
+      ],
+      compare: [
+        {b:"He is a hard worker.", g: "He is exceptionally diligent and committed to his work."},
+        {b:"She is a quiet person.", g:"She tends to be more reserved and contemplative."},
+        {b:"He is smart.", g: "He has a very analytical and sharp mind."},
+        {b:"She is nice.", g: "She is consistently considerate and empathetic towards others."},
+        {b:"He talks a lot.", g: "He is quite eloquent and expressive in conversations."},
+        {b:"She is stubborn.", g: "She is remarkably steadfast and firm in her convictions."}
+      ],
+      expr: [
+        {e:"He has a heart of gold.", k:"그는 아주 마음이 따뜻한 사람이에요.", x:"He might look tough, but he has a heart of gold."},
+        {e:"She's a people person.", k:"그녀는 사람들과 어울리는 걸 참 좋아해요.", x:"She thrives in social settings; she's definitely a people person."},
+        {e:"He is a man of his word.", k:"그는 약속을 반드시 지키는 사람이에요.", x:"You can trust him; he is truly a man of his word."},
+        {e:"She's Wise beyond her years.", k:"그녀는 나이에 비해 아주 현명해요.", x:"Even though she's young, she's wise beyond her years."},
+        {e:"He wears many hats.", k:"그는 여러 역할을 동시에 수행해요.", x:"As a founder, he wears many hats from marketing to coding."},
+        {e:"She's the life of the party.", k:"그녀는 파티의 주인공(분위기 메이커)이에요.", x:"Whenever she arrives, the energy shifts; she's the life of the party."}
+      ]
+    },
+    7: { category: "Review", title: "1주차: 고급 기초 다지기 복습", sub: "1~6일차 핵심 어휘를 문맥 안에서 다시 확인하고 체화합니다.", kpis: [{i:"📈", v:"Synthesis", l:"종합 정리", d:"단편적 지식을 연결하여 활용하는 단계"}], lessons: [{t:"심화 문장 제작", d:"배운 단어 3개를 활용하여 고난도 문장 만들기"}], compare: [], expr: [{e:"Consistent effort pays off.", k:"꾸준한 노력은 결국 결실을 맺습니다.", x:"Keep pushing forward toward your goals!"}] },
+    8: {
+      category: "Advanced", title: "사회적 이슈와 추상적 사고", sub: "시사 이슈를 보고 내 생각을 깊이 있는 단어로 논의해봅니다.",
+      kpis: [{i:"🌍", v:"Perspective", l:"거시적 관점", d:"사회 현상을 다각도로 바라보는 안목"}, {i:"⚖️", v:"Ethics", l:"윤리적 고려", d:"옳고 그름과 가치 판단에 관한 표현들"}],
+      lessons: [
+        {t:"사회 현상 토론", d:"Sustainability, Prosperity, Inequality 등 시사 어휘"},
+        {t:"원인과 결과 분석", d:"Stem from, lead to, consequently 등 논리적 연결어"},
+        {t:"윤리와 도덕적 딜레마", d:"가치 충돌 상황에서 내 입장을 논리적으로 견지하기"},
+        {t:"미래 예측과 비전", d:"트렌드를 분석하고 미래의 전망을 제시하는 표현"},
+        {t:"문화적 다양성", d:"글로벌 시대의 상호 존중과 차이의 가치를 말하기"},
+        {t:"과학과 기술의 진보", d:"기술 혁신이 인류에 미치는 파급 효과를 논의하기"}
+      ],
+      compare: [
+        {b:"Traffic is a big problem.", g: "The city's infrastructure is struggling with chronic congestion."},
+        {b:"Money is important.", g:"Financial stability is a cornerstone of personal well-being."},
+        {b:"I don't like plastic.", g: "We must adopt more sustainable alternatives to single-use plastics."},
+        {b:"AI is dangerous.", g: "The rapid evolution of AI warrants careful ethical oversight."},
+        {b:"Work is hard.", g: "Maintaining a work-life balance is essential in today's high-pressure environment."},
+        {b:"Education is needed.", g: "Lifelong learning is indispensable for adapting to the modern economy."}
+      ],
+      expr: [
+        {e:"It's a double-edged sword.", k:"양날의 검이에요.", x:"Technology is helpful, but it's often a double-edged sword."},
+        {e:"That's a pressing issue.", k:"그건 시급한 현안입니다.", x:"Climate change is perhaps the most pressing issue of our time."},
+        {e:"It's a step in the right direction.", k:"옳은 방향으로의 한 걸음이에요.", x:"The new policy isn't perfect, but it's a step in the right direction."},
+        {e:"We are at a crossroads.", k:"우리는 갈림길에 서 있습니다.", x:"The company is at a crossroads; we need to decide our future path."},
+        {e:"There is no silver bullet.", k:"만능 해결책(묘책)은 없어요.", x:"Solving poverty is complex; there is no silver bullet."},
+        {e:"Let's bridge the gap.", k:"차이를 좁혀봅시다(가교 역할을 합시다).", x:"We need more communication to bridge the gap between the two teams."}
+      ]
+    }
+  };
+
+  for(let i=9; i<=365; i++) {
+    const themes = [
+      { c: "Professional", t: "Global Business Etiquette", s: "국제 비즈니스 환경에서의 매너와 어휘" },
+      { c: "Analytical", t: "Critical Thinking & Debate", s: "논리적 추론과 비판적 사고력을 기르는 표현" },
+      { c: "Descriptive", t: "Landscape & Atmosphere", s: "장소와 풍경을 시각적으로 묘사하는 풍부한 형용사" },
+      { c: "Lifestyle", t: "Health & Well-being", s: "신체적, 정신적 건강과 삶의 질에 관한 정교한 어휘" },
+      { c: "Advanced", t: "Philosophy & Values", s: "가치관과 철학적 사고를 전달하는 수준 높은 문장" },
+      { c: "Academic", t: "Research & Discussion", s: "학술적 연구 및 토론을 위한 격식 있는 표현" },
+      { c: "Social", t: "Networking & Diplomacy", s: "네트워킹과 외교적 자리에서 쓰이는 세련된 대화법" }
+    ];
+    const theme = themes[i % themes.length];
+    curriculum[i] = {
+      category: theme.c, title: `Day ${i} - ${theme.t}`, sub: theme.s,
+      kpis: [{i:"🚀", v:"Expansion", l:"심화 학습", d:"어휘의 폭을 넓히고 문장의 길이를 확장하는 단계입니다."}],
+      lessons: [
+        {t:"고급 문맥 파악", d:"장문의 텍스트에서 단박에 핵심을 파악하는 연습"},
+        {t:"뉘앙스 마스터", d:"상황에 맞는 단어 선택의 미세한 차이 이해하기"},
+        {t:"실전 회화 시뮬레이션", d:"배운 표현을 원어민과 대화하듯 구성해보는 훈련"},
+        {t:"작문 정밀 교정", d:"격식 있는 이메일이나 보고서에 쓰이는 어휘로 다듬기"},
+        {t:"청취 전략 수립", d:"빠른 원어민의 발음에서도 논리적 구조를 잡아내기"},
+        {t:"독창적 의견 개진", d:"상투적이지 않은 나만의 관점을 영어로 표현하기"}
+      ],
+      compare: [
+        {b:"Basic Sentence", g:`Sophisticated Native Variation for Day ${i}`},
+        {b:"Simple Idea", g:"Refined expression to convey complexity"},
+        {b:"Standard Phrase", g:"Using more precise and impactful vocabulary"},
+        {b:"Formal Request", g:"Polite and professional way to ask for something"},
+        {b:"Giving Feedback", g:"Constructive and nuanced feedback delivery"},
+        {b:"Sharing News", g:"Delivering information with proper tone and prefix"}
+      ],
+      expr: [
+        {e:"Expanding your horizons.", k:"견문을 넓히다.", x:"Traveling to new countries is a great way of expanding your horizons."},
+        {e:"Thinking outside the box.", k:"고정관념에서 벗어나 생각하다.", x:"To solve this, we really need to start thinking outside the box."},
+        {e:"Striking a balance.", k:"균형을 맞추다.", x:"It's all about striking a balance between work and personal life."},
+        {e:"Going the extra mile.", k:"기대 이상의 노력을 하다.", x:"To succeed in this field, you sometimes need to go the extra mile."},
+        {e:"A blessing in disguise.", k:"전화위복(불행인 줄 알았는데 복인 것).", x:"Losing my job turned out to be a blessing in disguise."},
+        {e:"Cutting to the chase.", k:"본론으로 바로 들어가다.", x:"I know you're busy, so I'll cut to the chase and tell you why I'm here."}
+      ]
+    };
+  }
+
+  let currentDay = 1;
+  const completedDays = JSON.parse(localStorage.getItem('study_completed_days') || '[]');
+
+  function speakText(text) {
+    if ('speechSynthesis' in window) {
+      window.speechSynthesis.cancel();
+      const utterance = new SpeechSynthesisUtterance(text);
+      let voices = window.speechSynthesis.getVoices();
+      
+      // 기계음/로봇음 느낌의 저품질 보이스 명시적 제외 목록
+      const roboticVoices = ['Fred', 'Victoria', 'Zarvox', 'Trinoids', 'Cellos', 'Hysterical', 'Pipe Organ', 'Whisper', 'Bells', 'Boing', 'Bubbles', 'Good News', 'Organ', 'Ralph', 'Kathy', 'Princess', 'Junior', 'Albert', 'Bad News', 'Bahh', 'Kathy', 'Whisper'];
+      
+      // 고품질/자연어 보이스 필터링 (en-US, en-GB 위주)
+      let enVoices = voices.filter(v => 
+        v.lang.startsWith('en') && 
+        !roboticVoices.some(name => v.name.includes(name))
+      );
+      
+      // 성별에 따른 고품질 보이스 분류
+      const maleVoiceNames = ['Alex', 'Daniel', 'Oliver', 'Thomas', 'Gordon', 'Arthur', 'Natural', 'Enhanced', 'Google US English Male'];
+      const femaleVoiceNames = ['Samantha', 'Karen', 'Moira', 'Tessa', 'Veena', 'Fiona', 'Google US English', 'Natural', 'Enhanced', 'Siri'];
+      
+      const maleVoices = enVoices.filter(v => maleVoiceNames.some(name => v.name.includes(name)));
+      const femaleVoices = enVoices.filter(v => femaleVoiceNames.some(name => v.name.includes(name)));
+      
+      // 남녀 성비 5:5 설정을 위해 50% 확률로 성별 선택
+      const pickMale = Math.random() < 0.5;
+      let selectedVoice = null;
+
+      if (pickMale && maleVoices.length > 0) {
+        selectedVoice = maleVoices[Math.floor(Math.random() * maleVoices.length)];
+      } else if (!pickMale && femaleVoices.length > 0) {
+        selectedVoice = femaleVoices[Math.floor(Math.random() * femaleVoices.length)];
+      } else {
+        // 해당 성별의 고품질 보이스가 없을 경우 'Natural'이나 'Google'이 포함된 보이스 우선 선택
+        selectedVoice = enVoices.find(v => v.name.includes('Google') || v.name.includes('Natural') || v.name.includes('Enhanced')) || enVoices[0];
+      }
+
+      if (selectedVoice) {
+        utterance.voice = selectedVoice;
+      }
+      
+      utterance.lang = 'en-US';
+      utterance.rate = 1.0; 
+      utterance.pitch = 1.0; 
+      window.speechSynthesis.speak(utterance);
+    } else {
+      alert("TTS를 지원하지 않는 브라우저입니다.");
+    }
+  }
+
+  // 초기 목소리 로딩 최적화
+  if ('speechSynthesis' in window) {
+      window.speechSynthesis.getVoices();
+      window.speechSynthesis.onvoiceschanged = () => window.speechSynthesis.getVoices();
+  }
+
+  function loadDay(day) {
+    currentDay = day;
+    const data = curriculum[day];
+    if(!data) return;
+    
+    document.getElementById('hero-tag').textContent = `Day ${day.toString().padStart(3, '0')} · ${data.category}`;
+    document.getElementById('hero-title').textContent = data.title;
+    document.getElementById('hero-sub').textContent = data.sub;
+
+    const kpiGrid = document.getElementById('kpi-grid');
+    kpiGrid.innerHTML = data.kpis.map(k => `
+      <div class="kpi-card">
+        <div class="kpi-icon">${k.i}</div>
+        <div class="kpi-value">${k.v}</div>
+        <div class="kpi-label">${k.l}</div>
+        <div class="kpi-desc">${k.d}</div>
+      </div>
+    `).join('');
+
+    const chapGrid = document.getElementById('chapter-grid');
+    chapGrid.innerHTML = data.lessons.map((l, i) => `
+      <div class="chapter-card">
+        <div class="chapter-num">LESSON 0${i+1}</div>
+        <div class="chapter-title">${l.t}</div>
+        <div class="chapter-desc">${l.d}</div>
+      </div>
+    `).join('');
+
+    const compSection = document.getElementById('comp-section');
+    const compDivider = document.getElementById('comp-divider');
+    if (data.compare && data.compare.length > 0) {
+      compSection.style.display = 'block'; compDivider.style.display = 'block';
+      const compGrid = document.getElementById('comp-grid');
+      compGrid.innerHTML = `
+        <div class="compare-side left">
+          <div class="section-title" style="color:var(--ember)">General / Textbook</div>
+          ${data.compare.map(c => `
+            <div class="compare-item">
+              "${c.b}" 
+              <button class="speak-btn" onclick="speakText('${c.b.replace(/'/g, "\\'")}')">🔊</button>
+            </div>
+          `).join('')}
+        </div>
+        <div class="compare-side right">
+          <div class="section-title">Sophisticated / Native</div>
+          ${data.compare.map(c => `
+            <div class="compare-item" style="font-weight:700">
+              "${c.g}" 
+              <button class="speak-btn" onclick="speakText('${c.g.replace(/'/g, "\\'")}')">🔊</button>
+            </div>
+          `).join('')}
+        </div>
+      `;
+    } else {
+      compSection.style.display = 'none'; compDivider.style.display = 'none';
+    }
+
+    const exprGrid = document.getElementById('expr-grid');
+    exprGrid.innerHTML = data.expr.map(e => `
+      <div class="expr-card">
+        <div class="expr-en">
+          ${e.e} 
+          <button class="speak-btn" onclick="speakText('${e.e.replace(/'/g, "\\'")}')">🔊</button>
+        </div>
+        <div class="expr-ko">${e.ko || e.k}</div>
+        <div class="expr-example">
+          "${e.x}" 
+          <button class="speak-btn" onclick="speakText('${e.x.replace(/'/g, "\\'")}')">🔊</button>
+        </div>
+      </div>
+    `).join('');
+
+    renderPills();
+    updateProgress();
+    document.getElementById('day-complete-btn').textContent = completedDays.includes(day) ? "미션 취소" : "미션 완료 체크";
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  function renderPills() {
+    const container = document.getElementById('pill-container');
+    container.innerHTML = '';
+    for(let i=1; i<=365; i++) {
+      const p = document.createElement('div');
+      p.className = `day-pill ${i === currentDay ? 'active' : ''} ${completedDays.includes(i) ? 'completed' : ''}`;
+      p.textContent = `D-${i}`;
+      p.onclick = () => loadDay(i);
+      container.appendChild(p);
+    }
+  }
+
+  function toggleComplete() {
+    const idx = completedDays.indexOf(currentDay);
+    if (idx > -1) completedDays.splice(idx, 1);
+    else completedDays.push(currentDay);
+    localStorage.setItem('study_completed_days', JSON.stringify(completedDays));
+    loadDay(currentDay);
+  }
+
+  function updateProgress() {
+    const pct = Math.round((completedDays.length / 365) * 100);
+    const circ = document.getElementById('global-circ');
+    circ.style.setProperty('--p', (pct / 100 * 360) + 'deg');
+    document.getElementById('global-pct').textContent = pct + '%';
+  }
+
+  function startQuiz() {
+    const quizBox = document.getElementById('quiz-content');
+    const dayData = curriculum[currentDay];
+    if (!dayData || !dayData.expr || dayData.expr.length === 0) {
+      quizBox.innerHTML = "<p>이 일차에는 아직 퀴즈가 준비되지 않았습니다.</p>";
+      return;
+    }
+    const q = dayData.expr[0];
+    quizBox.innerHTML = `
+      <p style="font-size: 18px; margin-bottom: 20px;">'${q.k}'를 가장 세련되게 표현하면?</p>
+      <div class="quiz-opt" onclick="checkAns(true)">${q.e}</div>
+      <div class="quiz-opt" onclick="checkAns(false)">다른 평범한 표현</div>
+    `;
+  }
+
+  function checkAns(isCorrect) {
+    const quizBox = document.getElementById('quiz-content');
+    quizBox.innerHTML = isCorrect ? "<h3>정답입니다! 🎯</h3>" : "<h3>조금 더 공부해볼까요? 📖</h3>";
+    setTimeout(() => {
+      quizBox.innerHTML = `<button class="complete-btn" onclick="startQuiz()">다시 테스트</button>`;
+    }, 2000);
+  }
+
+  function toggleTheme() {
+    const html = document.documentElement;
+    if (html.classList.contains('theme-dark')) html.classList.replace('theme-dark', 'theme-light');
+    else html.classList.replace('theme-light', 'theme-dark');
+  }
+
+  window.onload = () => loadDay(1);
+</script>
+</body>
+</html>
