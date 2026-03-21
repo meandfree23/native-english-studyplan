@@ -1349,10 +1349,20 @@
     `;}).join('<div class="divider" style="margin:60px 0;"></div>');
   }
 
-  const themeBtn = document.getElementById('theme-toggle');
-  if (themeBtn) themeBtn.onclick = toggleTheme;
+  // Expose globals for inline HTML onclick handlers
+  window.showView = showView;
+  window.toggleComplete = toggleComplete;
+  window.selectSentence = selectSentence;
+  window.speakText = speakText;
+  window.saveSentence = saveSentence;
+  window.updateMemoryProgress = updateMemoryProgress;
+  window.loadDay = loadDay;
 
   window.onload = () => {
+    // Bind theme toggle button AFTER DOM is ready
+    const themeBtn = document.getElementById('theme-toggle');
+    if (themeBtn) themeBtn.onclick = toggleTheme;
+
     loadDay(1);
     renderVerbs();
     renderPreps();
