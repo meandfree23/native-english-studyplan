@@ -143,20 +143,89 @@
     }
     .speak-btn:hover { background: var(--accent); color: white; transform: scale(1.1); }
 
-    /* VERBS SECTION */
-    .verb-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 30px; }
-    .verb-card { background: var(--surface); border: 1px solid var(--border); border-radius: 20px; padding: 28px; transition: all 0.3s; }
-    .verb-card:hover { border-color: var(--accent); transform: translateY(-5px); }
-    .verb-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 15px; }
-    .verb-name { font-size: 24px; font-weight: 900; color: var(--accent); text-transform: uppercase; }
-    .verb-nuance-tag { background: rgba(82,183,136,0.1); color: var(--accent); padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 700; }
-    .verb-core { font-size: 15px; font-weight: 700; margin-bottom: 12px; color: var(--gold); }
-    .verb-desc { font-size: 13px; color: var(--text-dim); margin-bottom: 20px; line-height: 1.6; }
-    .verb-examples { border-top: 1px solid var(--border); padding-top: 15px; }
-    .v-ex-item { font-size: 13px; margin-bottom: 8px; display: flex; align-items: flex-start; justify-content: space-between; }
-    .v-ex-en { font-weight: 600; flex: 1; }
-    
+    .memory-indicator {
+      margin-bottom: 15px; position: relative;
+    }
+    .memory-bar-bg {
+      height: 4px; background: var(--surface2); border-radius: 2px; overflow: hidden;
+    }
+    .memory-bar-fill {
+      height: 100%; background: var(--accent); width: 0%; transition: width 0.5s;
+    }
+    .memory-label {
+      font-size: 10px; font-weight: 700; color: var(--text-dim); display: flex; justify-content: space-between; margin-bottom: 4px;
+    }
+    .writing-section {
+      margin-top: 20px; padding-top: 15px; border-top: 1px dashed var(--border);
+    }
+    .writing-input {
+      width: 100%; height: 60px; background: var(--surface2); border: 1px solid var(--border);
+      border-radius: 12px; padding: 10px; color: var(--text); font-size: 12px; resize: none;
+      margin-bottom: 8px; font-family: inherit;
+    }
+    .writing-input:focus { outline: none; border-color: var(--accent); }
+    .writing-save-btn {
+      background: var(--surface2); border: 1px solid var(--border); color: var(--accent);
+      font-size: 10px; font-weight: 700; padding: 4px 12px; border-radius: 8px; cursor: pointer;
+    }
+    .writing-save-btn:hover { background: var(--accent); color: white; }
+
+    .video-master-card {
+      background: var(--surface); border: 1px solid var(--border); border-radius: 20px;
+      padding: 0; overflow: hidden; margin-bottom: 30px;
+    }
+    .video-container {
+      position: relative; padding-bottom: 56.25%; height: 0;
+    }
+    .video-container iframe {
+      position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;
+    }
+
     .nav-links a.active { color: var(--accent); font-weight: 700; }
+
+    /* MASTERY BOX SPLIT LAYOUT */
+    .mastery-split {
+      display: flex; gap: 30px; align-items: flex-start; margin-top: 30px;
+    }
+    .mastery-left { flex: 1; display: grid; grid-template-columns: 1fr; gap: 16px; }
+    .mastery-right {
+      position: sticky; top: 100px; width: 360px;
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 24px; padding: 40px 30px; text-align: center;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .mastery-circle {
+      width: 140px; height: 140px; margin: 0 auto 30px;
+      background: radial-gradient(circle at 30% 30%, var(--gold), var(--ember));
+      border-radius: 50%; display: flex; align-items: center; justify-content: center;
+      box-shadow: 0 10px 25px rgba(231,111,81,0.3);
+      position: relative;
+    }
+    .mastery-verb-name { font-size: 24px; font-weight: 900; color: white; letter-spacing: -0.02em; }
+    .mastery-icon-blob {
+      position: absolute; bottom: -10px; right: -10px;
+      width: 48px; height: 48px; background: white; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1); font-size: 24px;
+    }
+    .mastery-essence { font-size: 22px; font-weight: 800; color: var(--text); margin-bottom: 12px; }
+    .mastery-principle { font-size: 14px; color: var(--text-dim); line-height: 1.6; min-height: 60px; }
+    
+    .sentence-card {
+      background: var(--surface); border: 1px solid var(--border); border-radius: 16px;
+      padding: 20px; cursor: pointer; transition: all 0.2s; position: relative;
+    }
+    .sentence-card:hover { border-color: var(--accent); transform: translateX(5px); }
+    .sentence-card.active { border-color: var(--accent); background: rgba(82,183,136,0.05); box-shadow: 0 0 0 1px var(--accent); }
+    .sentence-en { font-size: 16px; font-weight: 700; color: var(--accent); margin-bottom: 4px; }
+    .sentence-ko { font-size: 13px; color: var(--text-dim); }
+
+    @media (max-width: 900px) {
+      .mastery-split { flex-direction: column; }
+      .mastery-right { position: static; width: 100%; order: -1; margin-bottom: 30px; }
+    }
+
   </style>
 </head>
 <body>
@@ -184,6 +253,18 @@
   <div class="day-selector-strip">
     <div class="container" id="pill-container"></div>
   </div>
+  <div class="container" id="study-plan-video-container" style="margin-bottom: 40px;">
+    <div class="video-master-card fade-in">
+        <div class="video-container">
+          <iframe src="https://www.youtube.com/embed/qMXZvKkhWew" allowfullscreen></iframe>
+        </div>
+        <div style="padding: 24px;">
+          <p class="section-title">Master Class</p>
+          <h3 style="font-size: 20px; margin-bottom: 8px;">🎬 원어민의 기본동사 마스터 클래스</h3>
+          <p style="font-size: 14px; color: var(--text-dim);">학습을 시작하기 전, 영상으로 원어민의 감각을 먼저 익혀보세요.</p>
+        </div>
+    </div>
+  </div>
 </div>
 
 <!-- Basic Verbs View -->
@@ -193,6 +274,15 @@
       <p class="section-title">Core Mastery</p>
       <h2 class="section-heading">원어민의 엔진, 기본동사 8선</h2>
       <p style="color:var(--text-dim); margin-bottom:30px;">단어의 사전적 의미를 넘어, 원어민이 느끼는 '본질적 에너지'를 이해하는 섹션입니다.</p>
+      <div class="video-master-card fade-in">
+        <div class="video-container">
+          <iframe src="https://www.youtube.com/embed/qMXZvKkhWew" allowfullscreen></iframe>
+        </div>
+        <div style="padding: 20px;">
+          <h3 style="font-size: 16px; margin-bottom: 8px;">🎬 원어민의 기본동사 마스터 클래스</h3>
+          <p style="font-size: 13px; color: var(--text-dim);">동사의 본질적인 뉘앙스를 영상을 통해 시각적으로 이해해 보세요.</p>
+        </div>
+      </div>
       <div class="verb-grid" id="verb-grid"></div>
     </div>
   </section>
@@ -600,13 +690,25 @@
     `).join('');
 
     const chapGrid = document.getElementById('chapter-grid');
-    chapGrid.innerHTML = data.lessons.map((l, i) => `
+    chapGrid.innerHTML = data.lessons.map((l, i) => {
+      const lid = `day-${day}-lesson-${i}`;
+      const score = memoryScores[lid] || 0;
+      const savedSent = userSentences[lid] || "";
+      return `
       <div class="chapter-card">
+        <div class="memory-indicator">
+          <div class="memory-label"><span>Memory Level</span><span id="pct-${lid}">${score}%</span></div>
+          <div class="memory-bar-bg"><div class="memory-bar-fill" id="bar-${lid}" style="width:${score}%"></div></div>
+        </div>
         <div class="chapter-num">LESSON 0${i+1}</div>
         <div class="chapter-title">${l.t}</div>
         <div class="chapter-desc">${l.d}</div>
+        <div class="writing-section" style="border-top: 1px dashed var(--border); margin-top: 15px; padding-top: 15px;">
+          <textarea class="writing-input" id="input-${lid}" placeholder="이 레슨에서 배운 표현이나 나만의 문장을 써보세요..." onchange="updateMemoryProgress('${lid}', 5)">${savedSent}</textarea>
+          <button class="writing-save-btn" onclick="saveSentence('${lid}', document.getElementById('input-${lid}').value); this.textContent='저장됨 ✓';">내 문장 저장</button>
+        </div>
       </div>
-    `).join('');
+    `;}).join('');
 
     const compSection = document.getElementById('comp-section');
     const compDivider = document.getElementById('comp-divider');
@@ -710,28 +812,28 @@
 
   const basicVerbs = [
     { name: "Take", nuance: "주도적 낚아채기", core: "내 영역 밖의 것을 나의 의지로 낚아챕니다.", desc: "주도적 소유, 선택, 책임의 에너지를 담고 있습니다.", ex: [
-      { e: "Take responsibility", k: "책임을 (주도적으로) 지다" },
-      { e: "Take a taxi", k: "택시를 (선택해서) 타다" },
-      { e: "Take a break", k: "휴식을 (스스로) 취하다" },
-      { e: "Take a chance", k: "위험을 무릅쓰고 기회를 잡다" },
-      { e: "Take local advice", k: "현지인의 조언을 수용하다" },
-      { e: "Take a seat", k: "자리에 앉다(자리를 점유하다)" },
-      { e: "Take notes", k: "강의 내용을 내 것으로 적다" },
-      { e: "Take an exam", k: "시험에 주도적으로 임하다" },
-      { e: "Take a shower", k: "샤워라는 행위를 취하다" },
-      { e: "Take your time", k: "네 시간을 충분히 주도적으로 써라(천천히 해라)" }
+      { e: "Take responsibility", k: "책임을 (주도적으로) 지다", v: "주도권(Control)", p: "막연한 책임감이 아니라, 내가 이 상황을 끌고 가겠다고 주도적으로 낚아채는 행위입니다." },
+      { e: "Take a taxi", k: "택시를 (선택해서) 타다", v: "선택적 점유", p: "길거리에 많은 차 중 내가 원하는 하나를 콕 찍어서 내 소유 영역으로 잠시 가져오는 행위입니다." },
+      { e: "Take a break", k: "휴식을 (스스로) 취하다", v: "주체적 멈춤", p: "남이 주는 휴식이 아니라, 내가 필요에 의해 시간의 흐름을 낚아채서 멈추는 에너지입니다." },
+      { e: "Take a chance", k: "위험을 무릅쓰고 기회를 잡다", v: "도전적 수용", p: "굴러오는 기회를 단순히 받는게 아니라, 손을 뻗어 적극적으로 내 것으로 만드는 느낌입니다." },
+      { e: "Take local advice", k: "현지인의 조언을 수용하다", v: "의지적 수혈", p: "지식이 밖에서 내 안으로 들어오도록 내가 문을 열어 받아들이는 능동적인 선택입니다." },
+      { e: "Take a seat", k: "자리에 앉다(자리를 점유하다)", v: "공간 확보", p: "비어 있는 물리적 공간 하나를 내 영역으로 낚아채서 내 것으로 만드는 행위입니다." },
+      { e: "Take notes", k: "강의 내용을 내 것으로 적다", v: "정보 포집", p: "공중에 떠다니는 정보를 내 종이 위에 정박시켜 내 영역으로 가져오는 과정입니다." },
+      { e: "Take an exam", k: "시험에 주도적으로 임하다", v: "도전 직면", p: "시험을 수동적으로 당하는 게 아니라, 내가 그 도전 안으로 스스로 걸어 들어가는 능동성입니다." },
+      { e: "Take a shower", k: "샤워라는 행위를 취하다", v: "자극의 점유", p: "쏟아지는 물줄기와 그 행위를 내가 능동적으로 취하며 내 몸에 입히는 에너지입니다." },
+      { e: "Take your time", k: "네 시간을 충분히 써라", v: "시간 통제", p: "시간에 쫓기지 말고, 네가 네 시간의 주인이 되어 주도적으로 속도를 조절하라는 배려입니다." }
     ]},
     { name: "Get", nuance: "변화의 찰나", core: "상태의 변화(A → B)를 의미합니다.", desc: "없다가 생기거나, 위치가 바뀌거나, 이해하게 되는 순간입니다.", ex: [
-      { e: "Get angry", k: "화난 상태로 변하다" },
-      { e: "Get it", k: "이해하다 (모름 → 앎)" },
-      { e: "Get home", k: "집에 도착하다 (위치의 변화)" },
-      { e: "Get a job", k: "직업을 얻게 되다(백수 → 유직)" },
-      { e: "Get married", k: "결혼한 상태로 변화하다" },
-      { e: "Get lost", k: "길을 잃은 상태가 되다" },
-      { e: "Get ready", k: "준비된 상태로 변하다" },
-      { e: "Get sick", k: "아픈 상태가 되다" },
-      { e: "Get better", k: "더 나은 상태로 회복되다" },
-      { e: "Get a discount", k: "할인을 받게 되다" }
+      { e: "Get angry", k: "화난 상태로 변하다", v: "감정의 전이", p: "평온했던 상태(A)에서 화가 난 상태(B)로 급격히 이동하는 변화의 지점입니다." },
+      { e: "Get it", k: "이해하다 (모름 → 앎)", v: "인식의 전환", p: "이해가 안 가던 '모름'의 상태에서 뇌리에 전구가 켜지는 '앎'의 상태로 변화함입니다." },
+      { e: "Get home", k: "집에 도착하다 (위치의 변화)", v: "위치 도달", p: "길 위라는 외부 공간에서 집이라는 내부 공간의 경계를 넘는 변화를 의미합니다." },
+      { e: "Get a job", k: "직업을 얻게 되다", v: "신분 변화", p: "구직자라는 불안정한 상태에서 직장인이라는 새로운 사회적 위치를 획득하는 순간입니다." },
+      { e: "Get married", k: "결혼한 상태로 변화하다", v: "관계 정의", p: "싱글의 영역에서 반려자와 하나가 된 새로운 삶의 단계로 진입함을 뜻합니다." },
+      { e: "Get lost", k: "길을 잃은 상태가 되다", v: "방향 상실", p: "길을 알던 상태에서 갑자기 좌표를 잃어버린 혼돈의 상태로 변화한 것입니다." },
+      { e: "Get ready", k: "준비된 상태로 변하다", v: "임전무태", p: "이완된 상태에서 긴장감을 갖춘 실행 대기 상태로 시스템을 바꾸는 행위입니다." },
+      { e: "Get sick", k: "아픈 상태가 되다", v: "건강의 변곡", p: "정상적인 신체 밸런스가 흐트러져 '질병'이라는 다른 영역으로 넘어가는 찰나입니다." },
+      { e: "Get better", k: "더 나은 상태로 회복되다", v: "상향 전이", p: "나쁜 상태에서 머물지 않고 긍정적인 방향으로 궤적을 틀어 변화하는 역동성입니다." },
+      { e: "Get a discount", k: "할인을 받게 되다", v: "조건 변화", p: "정가라는 벽을 깨고 나에게 유리한 낮은 가격대로 조건이 변화하여 이득을 얻음입니다." }
     ]},
     { name: "Make", nuance: "결과물 창조", core: "무에서 유를 만들거나 결과를 도출합니다.", desc: "창조적 에너지와 구체적인 결과물이 뒤따릅니다.", ex: [
       { e: "Make a decision", k: "결정을 내리다" },
@@ -809,9 +911,9 @@
 
   const basicPreps = [
     { name: "In", nuance: "영역의 안정감", core: "테두리 안에 안착해 있는 느낌입니다.", desc: "어떠한 경계나 큰 범주 안에 푹 담겨 있는 이미지입니다.", ex: [
-      { e: "In the office", k: "사무실이라는 영역 안에" },
-      { e: "In July", k: "7월이라는 시간의 틀 안에" },
-      { e: "In progress", k: "진행 중이라는 상태 안에" },
+      { e: "In the office", k: "사무실이라는 영역 안에", v: "물리적 영역", p: "벽이나 문으로 둘러싸인 3차원적 공간 속에 완전히 들어가 있는 상태입니다." },
+      { e: "In July", k: "7월이라는 시간의 틀 안에", v: "시간적 틀", p: "시작과 끝이 정해진 시간이라는 거대한 테두리 안에 존재함을 의미합니다." },
+      { e: "In progress", k: "진행 중이라는 상태 안에", v: "동적 상태", p: "어떤 행위나 프로세스가 완료되지 않고 그 흐름의 한가운데에 머물러 있는 상태입니다." },
       { e: "In a car", k: "탈 것의 내부라는 좁은 영역에" },
       { e: "In the morning", k: "오전이라는 시간의 덩어리 안에" },
       { e: "In the future", k: "미래라는 거시적인 영역 안에" },
@@ -1005,6 +1107,9 @@
     ]}
   ];
 
+  const memoryScores = JSON.parse(localStorage.getItem('study_memory_scores') || '{}');
+  const userSentences = JSON.parse(localStorage.getItem('study_user_sentences') || '{}');
+
   function showView(view) {
     const studyView = document.getElementById('study-plan-view');
     const mainContent = document.getElementById('main-content');
@@ -1040,70 +1145,151 @@
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
+  function saveSentence(id, val) {
+    userSentences[id] = val;
+    localStorage.setItem('study_user_sentences', JSON.stringify(userSentences));
+    updateMemoryProgress(id, 5);
+  }
+
+  function updateMemoryProgress(id, delta) {
+    const current = memoryScores[id] || 0;
+    memoryScores[id] = Math.min(100, current + delta);
+    localStorage.setItem('study_memory_scores', JSON.stringify(memoryScores));
+    
+    const bar = document.getElementById(`bar-${id}`);
+    const pct = document.getElementById(`pct-${id}`);
+    if (bar) bar.style.width = memoryScores[id] + '%';
+    if (pct) pct.textContent = memoryScores[id] + '%';
+  }
+
+  function updateMastery(category, idx) {
+    const list = category === 'verb' ? basicVerbs : (category === 'prep' ? basicPreps : phrasalVerbs);
+    // find which card/verb we are in
+    // For simplicity in this demo, let's assume we pass the full path or just find by element
+  }
+
+  function selectSentence(type, vIdx, sIdx) {
+    let data;
+    if(type === 'verb') data = basicVerbs[vIdx];
+    else if(type === 'prep') data = basicPreps[vIdx];
+    else data = phrasalVerbs[vIdx];
+
+    const sentence = data.ex[sIdx];
+    const masteryId = `mastery-${type}-${vIdx}`;
+    
+    // Update Mastery Box UI
+    document.getElementById(`essence-${masteryId}`).textContent = sentence.v || data.nuance;
+    document.getElementById(`principle-${masteryId}`).textContent = sentence.p || data.desc;
+    
+    // Update Active Class
+    const cards = document.querySelectorAll(`[data-mastery="${masteryId}"]`);
+    cards.forEach(c => c.classList.remove('active'));
+    document.getElementById(`sent-${type}-${vIdx}-${sIdx}`).classList.add('active');
+  }
+
   function renderVerbs() {
     const grid = document.getElementById('verb-grid');
-    grid.innerHTML = basicVerbs.map(v => `
-      <div class="verb-card">
-        <div class="verb-header">
-          <div class="verb-name">${v.name}</div>
-          <div class="verb-nuance-tag">${v.nuance}</div>
-        </div>
-        <div class="verb-core">${v.core}</div>
-        <p class="verb-desc">${v.desc}</p>
-        <div class="verb-examples">
-          ${v.ex.map(x => `
-            <div class="v-ex-item">
-              <span class="v-ex-en">${x.e} <span style="font-weight:400; color:var(--text-dim); margin-left:8px;">(${x.k})</span></span>
-              <button class="speak-btn" onclick="speakText('${x.e.replace(/'/g, "\\'")}')">🔊</button>
+    grid.innerHTML = basicVerbs.map((v, vIdx) => {
+      const id = `verb-${v.name.toLowerCase()}`;
+      const masteryId = `mastery-verb-${vIdx}`;
+      return `
+      <div class="verb-section-master">
+        <div class="chapter-title" style="font-size: 24px; margin-bottom: 20px;">${v.name} Mastery</div>
+        <div class="mastery-split">
+          <div class="mastery-left">
+            ${v.ex.map((x, sIdx) => `
+              <div class="sentence-card" id="sent-verb-${vIdx}-${sIdx}" data-mastery="${masteryId}" onclick="selectSentence('verb', ${vIdx}, ${sIdx}); updateMemoryProgress('${id}', 1)">
+                <div class="sentence-en">${x.e}</div>
+                <div class="sentence-ko">${x.k}</div>
+                <button class="speak-btn" style="position:absolute; right:20px; top:20px;" onclick="event.stopPropagation(); speakText('${x.e.replace(/'/g, "\\'")}')">🔊</button>
+              </div>
+            `).join('')}
+          </div>
+          <div class="mastery-right" id="${masteryId}">
+            <div class="mastery-circle">
+              <div class="mastery-verb-name">${v.name}</div>
+              <div class="mastery-icon-blob">🎯</div>
             </div>
-          `).join('')}
+            <div class="mastery-essence" id="essence-${masteryId}">${v.nuance}</div>
+            <div class="mastery-principle" id="principle-${masteryId}">${v.desc}</div>
+          </div>
+        </div>
+        <div class="writing-section" style="margin-top:40px;">
+          <textarea class="writing-input" id="input-${id}" placeholder="이 동사를 활용해 직접 문장을 써보세요...">${userSentences[id]||""}</textarea>
+          <button class="writing-save-btn" onclick="saveSentence('${id}', document.getElementById('input-${id}').value); this.textContent='저장됨 ✓';">문장 저장</button>
         </div>
       </div>
-    `).join('');
+    `;}).join('<div class="divider" style="margin:60px 0;"></div>');
   }
 
   function renderPreps() {
     const grid = document.getElementById('prep-grid');
-    grid.innerHTML = basicPreps.map(v => `
-      <div class="verb-card">
-        <div class="verb-header">
-          <div class="verb-name">${v.name}</div>
-          <div class="verb-nuance-tag">${v.nuance}</div>
-        </div>
-        <div class="verb-core">${v.core}</div>
-        <p class="verb-desc">${v.desc}</p>
-        <div class="verb-examples">
-          ${v.ex.map(x => `
-            <div class="v-ex-item">
-              <span class="v-ex-en">${x.e} <span style="font-weight:400; color:var(--text-dim); margin-left:8px;">(${x.k})</span></span>
-              <button class="speak-btn" onclick="speakText('${x.e.replace(/'/g, "\\'")}')">🔊</button>
+    grid.innerHTML = basicPreps.map((v, vIdx) => {
+      const id = `prep-${v.name.toLowerCase()}`;
+      const masteryId = `mastery-prep-${vIdx}`;
+      return `
+      <div class="prep-section-master">
+        <div class="chapter-title" style="font-size: 24px; margin-bottom: 20px;">${v.name} Mastery</div>
+        <div class="mastery-split">
+          <div class="mastery-left">
+            ${v.ex.map((x, sIdx) => `
+              <div class="sentence-card" id="sent-prep-${vIdx}-${sIdx}" data-mastery="${masteryId}" onclick="selectSentence('prep', ${vIdx}, ${sIdx}); updateMemoryProgress('${id}', 1)">
+                <div class="sentence-en">${x.e}</div>
+                <div class="sentence-ko">${x.k}</div>
+                <button class="speak-btn" style="position:absolute; right:20px; top:20px;" onclick="event.stopPropagation(); speakText('${x.e.replace(/'/g, "\\'")}')">🔊</button>
+              </div>
+            `).join('')}
+          </div>
+          <div class="mastery-right" id="${masteryId}">
+            <div class="mastery-circle" style="background: radial-gradient(circle at 30% 30%, var(--accent), var(--gold));">
+              <div class="mastery-verb-name">${v.name}</div>
+              <div class="mastery-icon-blob">📍</div>
             </div>
-          `).join('')}
+            <div class="mastery-essence" id="essence-${masteryId}">${v.nuance}</div>
+            <div class="mastery-principle" id="principle-${masteryId}">${v.desc}</div>
+          </div>
+        </div>
+        <div class="writing-section" style="margin-top:40px;">
+          <textarea class="writing-input" id="input-${id}" placeholder="이 전치사를 활용해 직접 문장을 써보세요...">${userSentences[id]||""}</textarea>
+          <button class="writing-save-btn" onclick="saveSentence('${id}', document.getElementById('input-${id}').value); this.textContent='저장됨 ✓';">문장 저장</button>
         </div>
       </div>
-    `).join('');
+    `;}).join('<div class="divider" style="margin:60px 0;"></div>');
   }
 
   function renderPhrasal() {
     const grid = document.getElementById('phrasal-grid');
-    grid.innerHTML = phrasalVerbs.map(v => `
-      <div class="verb-card">
-        <div class="verb-header">
-          <div class="verb-name">${v.name}</div>
-          <div class="verb-nuance-tag">${v.nuance}</div>
-        </div>
-        <div class="verb-core">${v.core}</div>
-        <p class="verb-desc">${v.desc}</p>
-        <div class="verb-examples">
-          ${v.ex.map(x => `
-            <div class="v-ex-item">
-              <span class="v-ex-en">${x.e} <span style="font-weight:400; color:var(--text-dim); margin-left:8px;">(${x.k})</span></span>
-              <button class="speak-btn" onclick="speakText('${x.e.replace(/'/g, "\\'")}')">🔊</button>
+    grid.innerHTML = phrasalVerbs.map((v, vIdx) => {
+      const id = `phrasal-${v.name.replace(/\s+/g, '-').toLowerCase()}`;
+      const masteryId = `mastery-phrasal-${vIdx}`;
+      return `
+      <div class="phrasal-section-master">
+        <div class="chapter-title" style="font-size: 24px; margin-bottom: 20px;">${v.name} Mastery</div>
+        <div class="mastery-split">
+          <div class="mastery-left">
+            ${v.ex.map((x, sIdx) => `
+              <div class="sentence-card" id="sent-phrasal-${vIdx}-${sIdx}" data-mastery="${masteryId}" onclick="selectSentence('phrasal', ${vIdx}, ${sIdx}); updateMemoryProgress('${id}', 1)">
+                <div class="sentence-en">${x.e}</div>
+                <div class="sentence-ko">${x.k}</div>
+                <button class="speak-btn" style="position:absolute; right:20px; top:20px;" onclick="event.stopPropagation(); speakText('${x.e.replace(/'/g, "\\'")}')">🔊</button>
+              </div>
+            `).join('')}
+          </div>
+          <div class="mastery-right" id="${masteryId}">
+            <div class="mastery-circle" style="background: radial-gradient(circle at 30% 30%, var(--ember), var(--gold));">
+              <div class="mastery-verb-name" style="font-size: 18px;">${v.name}</div>
+              <div class="mastery-icon-blob">⚡</div>
             </div>
-          `).join('')}
+            <div class="mastery-essence" id="essence-${masteryId}">${v.nuance}</div>
+            <div class="mastery-principle" id="principle-${masteryId}">${v.desc}</div>
+          </div>
+        </div>
+        <div class="writing-section" style="margin-top:40px;">
+          <textarea class="writing-input" id="input-${id}" placeholder="이 구동사를 활용해 직접 문장을 써보세요...">${userSentences[id]||""}</textarea>
+          <button class="writing-save-btn" onclick="saveSentence('${id}', document.getElementById('input-${id}').value); this.textContent='저장됨 ✓';">문장 저장</button>
         </div>
       </div>
-    `).join('');
+    `;}).join('<div class="divider" style="margin:60px 0;"></div>');
   }
 
   window.onload = () => {
