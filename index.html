@@ -238,7 +238,7 @@
     <a href="#" onclick="showView('preps')" id="nav-preps">전치사(Preps)</a>
     <a href="#" onclick="showView('phrasal')" id="nav-phrasal">구동사(Phrasal)</a>
     <a href="#quiz-section">최종 테스트</a>
-    <button class="theme-btn" style="margin-left: 20px;" onclick="toggleTheme()">🌓 테마</button>
+    <button id="theme-toggle" class="theme-btn" style="margin-left: 20px;">🌓 테마</button>
   </div>
 </nav>
 
@@ -253,18 +253,7 @@
   <div class="day-selector-strip">
     <div class="container" id="pill-container"></div>
   </div>
-  <div class="container" id="study-plan-video-container" style="margin-bottom: 40px;">
-    <div class="video-master-card fade-in">
-        <div class="video-container">
-          <iframe src="https://www.youtube.com/embed/qMXZvKkhWew" allowfullscreen></iframe>
-        </div>
-        <div style="padding: 24px;">
-          <p class="section-title">Master Class</p>
-          <h3 style="font-size: 20px; margin-bottom: 8px;">🎬 원어민의 기본동사 마스터 클래스</h3>
-          <p style="font-size: 14px; color: var(--text-dim);">학습을 시작하기 전, 영상으로 원어민의 감각을 먼저 익혀보세요.</p>
-        </div>
-    </div>
-  </div>
+  <div id="study-plan-video-area"></div>
 </div>
 
 <!-- Basic Verbs View -->
@@ -274,15 +263,7 @@
       <p class="section-title">Core Mastery</p>
       <h2 class="section-heading">원어민의 엔진, 기본동사 8선</h2>
       <p style="color:var(--text-dim); margin-bottom:30px;">단어의 사전적 의미를 넘어, 원어민이 느끼는 '본질적 에너지'를 이해하는 섹션입니다.</p>
-      <div class="video-master-card fade-in">
-        <div class="video-container">
-          <iframe src="https://www.youtube.com/embed/qMXZvKkhWew" allowfullscreen></iframe>
-        </div>
-        <div style="padding: 20px;">
-          <h3 style="font-size: 16px; margin-bottom: 8px;">🎬 원어민의 기본동사 마스터 클래스</h3>
-          <p style="font-size: 13px; color: var(--text-dim);">동사의 본질적인 뉘앙스를 영상을 통해 시각적으로 이해해 보세요.</p>
-        </div>
-      </div>
+      <div id="verbs-video-area"></div>
       <div class="verb-grid" id="verb-grid"></div>
     </div>
   </section>
@@ -375,6 +356,7 @@
   const curriculum = {
     1: {
       category: "First Impressions", title: "품격 있는 첫인사와 스몰톡", sub: "단순한 안부 인사를 넘어 대화의 물꼬를 세련되게 트는 법을 배웁니다.",
+      videoId: "0I12mA0EejE",
       kpis: [{i:"🤝", v:"Rapport", l:"유대감 형성", d:"상대방과 긍정적인 첫 흐름을 만드는 기술"}, {i:"🗨️", v:"Open-ended", l:"열린 질문", d:"Yes/No가 아닌 풍성한 대답을 끌어내는 질문법"}],
       lessons: [
         {t:"근황 묻기 (Sophisticated)", d:"How are you? 대신 ‘최근 어떻게 지내셨나요?’의 다양한 변주"},
@@ -403,6 +385,7 @@
     },
     2: {
       category: "Expressions", title: "감정의 세밀한 묘사", sub: "단순히 '좋다', '나쁘다'를 넘어 내 상태를 정확한 단어로 표현해봅니다.",
+      videoId: "m_YshVbe2I4",
       kpis: [{i:"🎨", v:"Nuance", l:"뉘앙스의 차이", d:"비슷한 뜻이지만 상황에 따라 다른 단어 선택"}, {i:"💪", v:"Resilience", l:"회복탄력성", d:"어려운 상황에서도 긍정적인 태도를 유지하는 표현"}],
       lessons: [
         {t:"긍정의 스펙트럼", d:"Invigorated(활기찬), Content(만족스러운) 등 정교한 단어"},
@@ -431,6 +414,7 @@
     },
     3: {
       category: "Analytical", title: "논리적인 동의와 의견 제시", sub: "토론이나 회의에서 내 생각을 품격 있게 제안하고 상대의 의견을 존중하는 기술",
+      videoId: "t8A3a8j-sY8",
       kpis: [{i:"🧠", v:"Objective", l:"객관적 시각", d:"개인적 감정을 배제하고 사실에 기반해 의견 말하기"}, {i:"⚖️", v:"Balanced", l:"균형 잡힌 시각", d:"장단점을 모두 고려하여 결론을 도출하는 화법"}],
       lessons: [
         {t:"세련된 동의 (Concurring)", d:"I agree 대신 I concur, I'm of the same mind 등을 활용"},
@@ -458,7 +442,8 @@
       ]
     },
     4: {
-      category: "Professional", title: "업무 효율과 협업의 언어", sub: "동료와의 협업 및 업무 진행 상황을 명확하고 정중하게 전달하는 어휘",
+      category: "Professional", title: "업무 효율과 협업의 언어", sub: "동과와의 협업 및 업무 진행 상황을 명확하고 정중하게 전달하는 어휘",
+      videoId: "nU8m0287k_Y",
       kpis: [{i:"📊", v:"Clarity", l:"명확성", d:"오해의 소지 없이 정보를 전달하는 능력"}, {i:"🤝", v:"Synergy", l:"협업 시너지", d:"팀원들의 공헌을 인정하고 고무시키는 표현"}],
       lessons: [
         {t:"진행 상황 보고", d:"In progress, on track, behind schedule 등 정확한 상태 표현"},
@@ -487,6 +472,7 @@
     },
     5: {
       category: "Lifestyle", title: "식사 예절과 미식의 어휘", sub: "다양한 식사 자리에서 음식의 맛과 식감, 선호도를 풍부하게 묘사하기",
+      videoId: "m_YshVbe2I4",
       kpis: [{i:"🍽️", v:"Palate", l:"미각/취향", d:"정교한 맛의 차이를 구별하고 제안하는 감각"}, {i:"🍷", v:"Etiquette", l:"테이블 매너", d:"정중한 식사 자리에서 사용되는 공손한 표현들"}],
       lessons: [
         {t:"맛과 식감의 묘사", d:"Savory, tart, tender, crispy 등 단순한 good을 넘어서기"},
@@ -515,6 +501,7 @@
     },
     6: {
       category: "Descriptive", title: "정교한 인물 및 성격 묘사", sub: "인물의 자질과 성향을 품격 있는 단어로 설명하기",
+      videoId: "0I12mA0EejE",
       kpis: [{i:"👤", v:"Character", l:"성품 묘사", d:"사람의 내면적 가치와 자질을 설명하는 어휘"}, {i:"💡", v:"Insightful", l:"통찰력 있는", d:"생각이 깊고 예리한 사람을 칭찬하는 표현"}],
       lessons: [
         {t:"장점의 구체적 표현", d:"Diligent(성실한), Meticulous(꼼꼼한), Charismatic 등"},
@@ -530,7 +517,7 @@
         {b:"He is smart.", g: "He has a very analytical and sharp mind."},
         {b:"She is nice.", g: "She is consistently considerate and empathetic towards others."},
         {b:"He talks a lot.", g: "He is quite eloquent and expressive in conversations."},
-        {b:"She is stubborn.", g: "She is remarkably steadfast and firm in her convictions."}
+        {b:"He wears many hats.", g: "He is remarkably steadfast and firm in his convictions."}
       ],
       expr: [
         {e:"He has a heart of gold.", k:"그는 아주 마음이 따뜻한 사람이에요.", x:"He might look tough, but he has a heart of gold."},
@@ -541,9 +528,10 @@
         {e:"She's the life of the party.", k:"그녀는 파티의 주인공(분위기 메이커)이에요.", x:"Whenever she arrives, the energy shifts; she's the life of the party."}
       ]
     },
-    7: { category: "Review", title: "1주차: 고급 기초 다지기 복습", sub: "1~6일차 핵심 어휘를 문맥 안에서 다시 확인하고 체화합니다.", kpis: [{i:"📈", v:"Synthesis", l:"종합 정리", d:"단편적 지식을 연결하여 활용하는 단계"}], lessons: [{t:"심화 문장 제작", d:"배운 단어 3개를 활용하여 고난도 문장 만들기"}], compare: [], expr: [{e:"Consistent effort pays off.", k:"꾸준한 노력은 결국 결실을 맺습니다.", x:"Keep pushing forward toward your goals!"}] },
+    7: { category: "Review", title: "1주차: 고급 기초 다지기 복습", sub: "1~6일차 핵심 어휘를 문맥 안에서 다시 확인하고 체화합니다.", videoId: "mmmEnglish", videoId: "0I12mA0EejE", kpis: [{i:"📈", v:"Synthesis", l:"종합 정리", d:"단편적 지식을 연결하여 활용하는 단계"}], lessons: [{t:"심화 문장 제작", d:"배운 단어 3개를 활용하여 고난도 문장 만들기"}], compare: [], expr: [{e:"Consistent effort pays off.", k:"꾸준한 노력은 결국 결실을 맺습니다.", x:"Keep pushing forward toward your goals!"}] },
     8: {
       category: "Advanced", title: "사회적 이슈와 추상적 사고", sub: "시사 이슈를 보고 내 생각을 깊이 있는 단어로 논의해봅니다.",
+      videoId: "t8A3a8j-sY8",
       kpis: [{i:"🌍", v:"Perspective", l:"거시적 관점", d:"사회 현상을 다각도로 바라보는 안목"}, {i:"⚖️", v:"Ethics", l:"윤리적 고려", d:"옳고 그름과 가치 판단에 관한 표현들"}],
       lessons: [
         {t:"사회 현상 토론", d:"Sustainability, Prosperity, Inequality 등 시사 어휘"},
@@ -574,17 +562,19 @@
 
   for(let i=9; i<=365; i++) {
     const themes = [
-      { c: "Professional", t: "Global Business Etiquette", s: "국제 비즈니스 환경에서의 매너와 어휘" },
-      { c: "Analytical", t: "Critical Thinking & Debate", s: "논리적 추론과 비판적 사고력을 기르는 표현" },
-      { c: "Descriptive", t: "Landscape & Atmosphere", s: "장소와 풍경을 시각적으로 묘사하는 풍부한 형용사" },
-      { c: "Lifestyle", t: "Health & Well-being", s: "신체적, 정신적 건강과 삶의 질에 관한 정교한 어휘" },
-      { c: "Advanced", t: "Philosophy & Values", s: "가치관과 철학적 사고를 전달하는 수준 높은 문장" },
-      { c: "Academic", t: "Research & Discussion", s: "학술적 연구 및 토론을 위한 격식 있는 표현" },
-      { c: "Social", t: "Networking & Diplomacy", s: "네트워킹과 외교적 자리에서 쓰이는 세련된 대화법" }
+      { c: "Professional", t: "Global Business Etiquette", v: "nU8m0287k_Y" },
+      { c: "Analytical", t: "Critical Thinking & Debate", v: "t8A3a8j-sY8" },
+      { c: "Descriptive", t: "Advanced Adjectives & Imagery", v: "0I12mA0EejE" },
+      { c: "Lifestyle", t: "Habits for Success", v: "m_YshVbe2I4" },
+      { c: "Social", t: "Networking & Small Talk", v: "0I12mA0EejE" },
+      { c: "Cultural", t: "Idioms from Movies & TV", v: "eX1u6R6pWl4" },
+      { c: "Scientific", t: "Discussing Technology", v: "jWk7N6-W4Yw" },
+      { c: "Academic", t: "Writing & Argumentation", v: "nU8m0287k_Y" }
     ];
     const theme = themes[i % themes.length];
     curriculum[i] = {
-      category: theme.c, title: `Day ${i} - ${theme.t}`, sub: theme.s,
+      category: theme.c, title: `Day ${i} - ${theme.t}`, sub: `${theme.t} — ${theme.c} 분야의 심화 표현을 학습합니다.`,
+      videoId: theme.v,
       kpis: [{i:"🚀", v:"Expansion", l:"심화 학습", d:"어휘의 폭을 넓히고 문장의 길이를 확장하는 단계입니다."}],
       lessons: [
         {t:"고급 문맥 파악", d:"장문의 텍스트에서 단박에 핵심을 파악하는 연습"},
@@ -690,25 +680,36 @@
     `).join('');
 
     const chapGrid = document.getElementById('chapter-grid');
-    chapGrid.innerHTML = data.lessons.map((l, i) => {
-      const lid = `day-${day}-lesson-${i}`;
-      const score = memoryScores[lid] || 0;
-      const savedSent = userSentences[lid] || "";
-      return `
-      <div class="chapter-card">
-        <div class="memory-indicator">
-          <div class="memory-label"><span>Memory Level</span><span id="pct-${lid}">${score}%</span></div>
-          <div class="memory-bar-bg"><div class="memory-bar-fill" id="bar-${lid}" style="width:${score}%"></div></div>
-        </div>
-        <div class="chapter-num">LESSON 0${i+1}</div>
-        <div class="chapter-title">${l.t}</div>
-        <div class="chapter-desc">${l.d}</div>
-        <div class="writing-section" style="border-top: 1px dashed var(--border); margin-top: 15px; padding-top: 15px;">
-          <textarea class="writing-input" id="input-${lid}" placeholder="이 레슨에서 배운 표현이나 나만의 문장을 써보세요..." onchange="updateMemoryProgress('${lid}', 5)">${savedSent}</textarea>
-          <button class="writing-save-btn" onclick="saveSentence('${lid}', document.getElementById('input-${lid}').value); this.textContent='저장됨 ✓';">내 문장 저장</button>
-        </div>
+    const dayMasteryId = `mastery-day-${day}`;
+    chapGrid.classList.add('mastery-split');
+    chapGrid.innerHTML = `
+      <div class="mastery-left">
+        ${data.lessons.map((l, i) => {
+          const lid = `day-${day}-lesson-${i}`;
+          const score = memoryScores[lid] || 0;
+          return `
+          <div class="sentence-card" id="sent-day-${day}-${i}" data-mastery="${dayMasteryId}" onclick="selectSentence('day', ${day}, ${i}); updateMemoryProgress('${lid}', 5)">
+            <div class="memory-indicator" style="margin-bottom:8px;">
+              <div class="memory-bar-bg"><div class="memory-bar-fill" style="width:${score}%"></div></div>
+            </div>
+            <div class="chapter-num">LESSON 0${i+1}</div>
+            <div class="sentence-en">${l.t}</div>
+            <div class="sentence-ko">${l.d}</div>
+            <div class="writing-section" style="margin-top:12px; display:none;" id="writing-${lid}">
+              <textarea class="writing-input" id="input-${lid}" placeholder="나만의 문장을 써보세요...">${userSentences[lid]||""}</textarea>
+            </div>
+          </div>
+        `;}).join('')}
       </div>
-    `;}).join('');
+      <div class="mastery-right" id="${dayMasteryId}">
+        <div class="mastery-circle" style="background: radial-gradient(circle at 30% 30%, var(--accent), var(--ember));">
+          <div class="mastery-verb-name">Core</div>
+          <div class="mastery-icon-blob">💡</div>
+        </div>
+        <div class="mastery-essence" id="essence-${dayMasteryId}">원어민 감각</div>
+        <div class="mastery-principle" id="principle-${dayMasteryId}">${data.sub}</div>
+      </div>
+    `;
 
     const compSection = document.getElementById('comp-section');
     const compDivider = document.getElementById('comp-divider');
@@ -754,9 +755,23 @@
       </div>
     `).join('');
 
-    renderPills();
-    updateProgress();
-    document.getElementById('day-complete-btn').textContent = completedDays.includes(day) ? "미션 취소" : "미션 완료 체크";
+    // Update Video Area
+    const videoArea = document.getElementById('study-plan-video-area');
+    if (videoArea && data.videoId) {
+      videoArea.innerHTML = `
+        <div class="video-master-card container fade-in" style="margin-bottom: 40px; padding:0;">
+          <div class="video-container" style="padding-bottom: 50%;">
+            <iframe src="https://www.youtube.com/embed/${data.videoId}" allowfullscreen></iframe>
+          </div>
+          <div style="padding: 24px;">
+            <p class="section-title">Master Class</p>
+            <h3 style="font-size: 20px; margin-bottom: 8px;">🎬 Day ${day} 마스터 클래스</h3>
+            <p style="font-size: 14px; color: var(--text-dim);">${data.title}의 품격을 높여주는 마스터 영상입니다.</p>
+          </div>
+        </div>
+      `;
+    }
+
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
@@ -811,7 +826,7 @@
   }
 
   const basicVerbs = [
-    { name: "Take", nuance: "주도적 낚아채기", core: "내 영역 밖의 것을 나의 의지로 낚아챕니다.", desc: "주도적 소유, 선택, 책임의 에너지를 담고 있습니다.", ex: [
+    { name: "Take", nuance: "주도적 낚아채기", core: "내 영역 밖의 것을 나의 의지로 낚아챕니다.", desc: "주도적 소유, 선택, 책임의 에너지를 담고 있습니다.", videoId: "eX1u6R6pWl4", ex: [
       { e: "Take responsibility", k: "책임을 (주도적으로) 지다", v: "주도권(Control)", p: "막연한 책임감이 아니라, 내가 이 상황을 끌고 가겠다고 주도적으로 낚아채는 행위입니다." },
       { e: "Take a taxi", k: "택시를 (선택해서) 타다", v: "선택적 점유", p: "길거리에 많은 차 중 내가 원하는 하나를 콕 찍어서 내 소유 영역으로 잠시 가져오는 행위입니다." },
       { e: "Take a break", k: "휴식을 (스스로) 취하다", v: "주체적 멈춤", p: "남이 주는 휴식이 아니라, 내가 필요에 의해 시간의 흐름을 낚아채서 멈추는 에너지입니다." },
@@ -823,7 +838,7 @@
       { e: "Take a shower", k: "샤워라는 행위를 취하다", v: "자극의 점유", p: "쏟아지는 물줄기와 그 행위를 내가 능동적으로 취하며 내 몸에 입히는 에너지입니다." },
       { e: "Take your time", k: "네 시간을 충분히 써라", v: "시간 통제", p: "시간에 쫓기지 말고, 네가 네 시간의 주인이 되어 주도적으로 속도를 조절하라는 배려입니다." }
     ]},
-    { name: "Get", nuance: "변화의 찰나", core: "상태의 변화(A → B)를 의미합니다.", desc: "없다가 생기거나, 위치가 바뀌거나, 이해하게 되는 순간입니다.", ex: [
+    { name: "Get", nuance: "변화의 찰나", core: "상태의 변화(A → B)를 의미합니다.", desc: "없다가 생기거나, 위치가 바뀌거나, 이해하게 되는 순간입니다.", videoId: "jWk7N6-W4Yw", ex: [
       { e: "Get angry", k: "화난 상태로 변하다", v: "감정의 전이", p: "평온했던 상태(A)에서 화가 난 상태(B)로 급격히 이동하는 변화의 지점입니다." },
       { e: "Get it", k: "이해하다 (모름 → 앎)", v: "인식의 전환", p: "이해가 안 가던 '모름'의 상태에서 뇌리에 전구가 켜지는 '앎'의 상태로 변화함입니다." },
       { e: "Get home", k: "집에 도착하다 (위치의 변화)", v: "위치 도달", p: "길 위라는 외부 공간에서 집이라는 내부 공간의 경계를 넘는 변화를 의미합니다." },
@@ -910,7 +925,7 @@
   ];
 
   const basicPreps = [
-    { name: "In", nuance: "영역의 안정감", core: "테두리 안에 안착해 있는 느낌입니다.", desc: "어떠한 경계나 큰 범주 안에 푹 담겨 있는 이미지입니다.", ex: [
+    { name: "In", nuance: "영역의 안정감", core: "테두리 안에 안착해 있는 느낌입니다.", desc: "어떠한 경계나 큰 범주 안에 푹 담겨 있는 이미지입니다.", videoId: "nU8m0287k_Y", ex: [
       { e: "In the office", k: "사무실이라는 영역 안에", v: "물리적 영역", p: "벽이나 문으로 둘러싸인 3차원적 공간 속에 완전히 들어가 있는 상태입니다." },
       { e: "In July", k: "7월이라는 시간의 틀 안에", v: "시간적 틀", p: "시작과 끝이 정해진 시간이라는 거대한 테두리 안에 존재함을 의미합니다." },
       { e: "In progress", k: "진행 중이라는 상태 안에", v: "동적 상태", p: "어떤 행위나 프로세스가 완료되지 않고 그 흐름의 한가운데에 머물러 있는 상태입니다." },
@@ -1110,6 +1125,23 @@
   const memoryScores = JSON.parse(localStorage.getItem('study_memory_scores') || '{}');
   const userSentences = JSON.parse(localStorage.getItem('study_user_sentences') || '{}');
 
+  function toggleTheme() {
+    const html = document.documentElement;
+    const current = html.classList.contains('theme-dark') ? 'dark' : 'light';
+    const next = current === 'dark' ? 'light' : 'dark';
+    html.classList.remove(`theme-${current}`);
+    html.classList.add(`theme-${next}`);
+    localStorage.setItem('study_theme', next);
+  }
+  window.toggleTheme = toggleTheme;
+
+  // Load saved theme
+  const savedTheme = localStorage.getItem('study_theme');
+  if (savedTheme) {
+    document.documentElement.classList.remove('theme-dark', 'theme-light');
+    document.documentElement.classList.add(`theme-${savedTheme}`);
+  }
+
   function showView(view) {
     const studyView = document.getElementById('study-plan-view');
     const mainContent = document.getElementById('main-content');
@@ -1172,14 +1204,15 @@
     let data;
     if(type === 'verb') data = basicVerbs[vIdx];
     else if(type === 'prep') data = basicPreps[vIdx];
-    else data = phrasalVerbs[vIdx];
+    else if(type === 'phrasal') data = phrasalVerbs[vIdx];
+    else data = curriculum[vIdx]; // day view
 
-    const sentence = data.ex[sIdx];
-    const masteryId = `mastery-${type}-${vIdx}`;
+    const sentence = (type === 'day') ? data.lessons[sIdx] : data.ex[sIdx];
+    const masteryId = (type === 'day') ? `mastery-day-${vIdx}` : `mastery-${type}-${vIdx}`;
     
     // Update Mastery Box UI
-    document.getElementById(`essence-${masteryId}`).textContent = sentence.v || data.nuance;
-    document.getElementById(`principle-${masteryId}`).textContent = sentence.p || data.desc;
+    document.getElementById(`essence-${masteryId}`).textContent = (type === 'day' ? sentence.t : (sentence.v || data.nuance));
+    document.getElementById(`principle-${masteryId}`).textContent = (type === 'day' ? sentence.d : (sentence.p || data.desc));
     
     // Update Active Class
     const cards = document.querySelectorAll(`[data-mastery="${masteryId}"]`);
@@ -1192,9 +1225,17 @@
     grid.innerHTML = basicVerbs.map((v, vIdx) => {
       const id = `verb-${v.name.toLowerCase()}`;
       const masteryId = `mastery-verb-${vIdx}`;
+      const videoHtml = v.videoId ? `
+        <div class="video-master-card" style="margin-bottom:20px; border-radius:16px;">
+          <div class="video-container" style="padding-bottom:50%;">
+            <iframe src="https://www.youtube.com/embed/${v.videoId}" allowfullscreen></iframe>
+          </div>
+        </div>
+      ` : '';
       return `
       <div class="verb-section-master">
         <div class="chapter-title" style="font-size: 24px; margin-bottom: 20px;">${v.name} Mastery</div>
+        ${videoHtml}
         <div class="mastery-split">
           <div class="mastery-left">
             ${v.ex.map((x, sIdx) => `
@@ -1227,9 +1268,17 @@
     grid.innerHTML = basicPreps.map((v, vIdx) => {
       const id = `prep-${v.name.toLowerCase()}`;
       const masteryId = `mastery-prep-${vIdx}`;
+      const videoHtml = v.videoId ? `
+        <div class="video-master-card" style="margin-bottom:20px; border-radius:16px;">
+          <div class="video-container" style="padding-bottom:50%;">
+            <iframe src="https://www.youtube.com/embed/${v.videoId}" allowfullscreen></iframe>
+          </div>
+        </div>
+      ` : '';
       return `
       <div class="prep-section-master">
         <div class="chapter-title" style="font-size: 24px; margin-bottom: 20px;">${v.name} Mastery</div>
+        ${videoHtml}
         <div class="mastery-split">
           <div class="mastery-left">
             ${v.ex.map((x, sIdx) => `
@@ -1262,9 +1311,17 @@
     grid.innerHTML = phrasalVerbs.map((v, vIdx) => {
       const id = `phrasal-${v.name.replace(/\s+/g, '-').toLowerCase()}`;
       const masteryId = `mastery-phrasal-${vIdx}`;
+      const videoHtml = v.videoId ? `
+        <div class="video-master-card" style="margin-bottom:20px; border-radius:16px;">
+          <div class="video-container" style="padding-bottom:50%;">
+            <iframe src="https://www.youtube.com/embed/${v.videoId}" allowfullscreen></iframe>
+          </div>
+        </div>
+      ` : '';
       return `
       <div class="phrasal-section-master">
         <div class="chapter-title" style="font-size: 24px; margin-bottom: 20px;">${v.name} Mastery</div>
+        ${videoHtml}
         <div class="mastery-split">
           <div class="mastery-left">
             ${v.ex.map((x, sIdx) => `
@@ -1291,6 +1348,9 @@
       </div>
     `;}).join('<div class="divider" style="margin:60px 0;"></div>');
   }
+
+  const themeBtn = document.getElementById('theme-toggle');
+  if (themeBtn) themeBtn.onclick = toggleTheme;
 
   window.onload = () => {
     loadDay(1);
