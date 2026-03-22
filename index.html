@@ -227,6 +227,7 @@
     }
 
   </style>
+  <script src="https://www.youtube.com/iframe_api"></script>
 </head>
 <body>
 
@@ -414,7 +415,7 @@
     },
     3: {
       category: "Analytical", title: "논리적인 동의와 의견 제시", sub: "토론이나 회의에서 내 생각을 품격 있게 제안하고 상대의 의견을 존중하는 기술",
-      videoId: "W-um7-y4XoI",
+      videoId: "aJSYRhj04NY",
       kpis: [{i:"🧠", v:"Objective", l:"객관적 시각", d:"개인적 감정을 배제하고 사실에 기반해 의견 말하기"}, {i:"⚖️", v:"Balanced", l:"균형 잡힌 시각", d:"장단점을 모두 고려하여 결론을 도출하는 화법"}],
       lessons: [
         {t:"세련된 동의 (Concurring)", d:"I agree 대신 I concur, I'm of the same mind 등을 활용"},
@@ -5394,7 +5395,7 @@
       "category": "Social",
       "title": "Day 78 - High-Stakes Networking (Applied)",
       "sub": "High-Stakes Networking 주제에 대해 원어민 수준의 세련된 표현을 익힙니다.",
-      "videoId": "tXdwqtQE3OE",
+      "videoId": "aJSYRhj04NY",
       "kpis": [
             {
                   "i": "🔝",
@@ -6747,6 +6748,7 @@
 
 
 
+
   for(let i=9; i<=365; i++) {
     const themes = [
       { c: "Professional", t: "Global Business Etiquette", v: "aJSYRhj04NY" },
@@ -6945,10 +6947,11 @@
     // Update Video Area
     const videoArea = document.getElementById('study-plan-video-area');
     if (videoArea && data.videoId) {
+      setTimeout(window.initYTVideos, 300);
       videoArea.innerHTML = `
         <div class="video-master-card container fade-in" style="margin-bottom: 40px; padding:0;">
           <div class="video-container" style="padding-bottom: 50%;">
-            <iframe src="https://www.youtube.com/embed/${data.videoId}" allowfullscreen></iframe>
+            <iframe class="yt-video-player" src="https://www.youtube.com/embed/${data.videoId}?enablejsapi=1" allowfullscreen></iframe>
           </div>
           <div style="padding: 24px;">
             <p class="section-title">Master Class</p>
@@ -7013,7 +7016,7 @@
   }
 
   const basicVerbs = [
-    { name: "Take", nuance: "주도적 낚아채기", core: "내 영역 밖의 것을 나의 의지로 낚아챕니다.", desc: "주도적 소유, 선택, 책임의 에너지를 담고 있습니다.", videoId: "eX1u6R6pWl4", ex: [
+    { name: "Take", nuance: "주도적 낚아채기", core: "내 영역 밖의 것을 나의 의지로 낚아챕니다.", desc: "주도적 소유, 선택, 책임의 에너지를 담고 있습니다.", videoId: "aJSYRhj04NY", ex: [
       { e: "Take responsibility", k: "책임을 (주도적으로) 지다", v: "주도권(Control)", p: "막연한 책임감이 아니라, 내가 이 상황을 끌고 가겠다고 주도적으로 낚아채는 행위입니다." },
       { e: "Take a taxi", k: "택시를 (선택해서) 타다", v: "선택적 점유", p: "길거리에 많은 차 중 내가 원하는 하나를 콕 찍어서 내 소유 영역으로 잠시 가져오는 행위입니다." },
       { e: "Take a break", k: "휴식을 (스스로) 취하다", v: "주체적 멈춤", p: "남이 주는 휴식이 아니라, 내가 필요에 의해 시간의 흐름을 낚아채서 멈추는 에너지입니다." },
@@ -7025,7 +7028,7 @@
       { e: "Take a shower", k: "샤워라는 행위를 취하다", v: "자극의 점유", p: "쏟아지는 물줄기와 그 행위를 내가 능동적으로 취하며 내 몸에 입히는 에너지입니다." },
       { e: "Take your time", k: "네 시간을 충분히 써라", v: "시간 통제", p: "시간에 쫓기지 말고, 네가 네 시간의 주인이 되어 주도적으로 속도를 조절하라는 배려입니다." }
     ]},
-    { name: "Get", nuance: "변화의 찰나", core: "상태의 변화(A → B)를 의미합니다.", desc: "없다가 생기거나, 위치가 바뀌거나, 이해하게 되는 순간입니다.", videoId: "jWk7N6-W4Yw", ex: [
+    { name: "Get", nuance: "변화의 찰나", core: "상태의 변화(A → B)를 의미합니다.", desc: "없다가 생기거나, 위치가 바뀌거나, 이해하게 되는 순간입니다.", videoId: "aJSYRhj04NY", ex: [
       { e: "Get angry", k: "화난 상태로 변하다", v: "감정의 전이", p: "평온했던 상태(A)에서 화가 난 상태(B)로 급격히 이동하는 변화의 지점입니다." },
       { e: "Get it", k: "이해하다 (모름 → 앎)", v: "인식의 전환", p: "이해가 안 가던 '모름'의 상태에서 뇌리에 전구가 켜지는 '앎'의 상태로 변화함입니다." },
       { e: "Get home", k: "집에 도착하다 (위치의 변화)", v: "위치 도달", p: "길 위라는 외부 공간에서 집이라는 내부 공간의 경계를 넘는 변화를 의미합니다." },
@@ -7073,7 +7076,7 @@
       { e: "Do a good job", k: "좋은 결과물을 내는 과정을 밟다" },
       { e: "Do without", k: "~없이 지내다(견디는 과정을 행하다)" }
     ]},
-    { name: "Go", videoId: "og7HdKAFg2k", nuance: "지향적 이동", core: "현 지점에서 멀어지는 진행의 에너지입니다.", desc: "변화의 시작점으로부터 멀어지는 역동적인 느낌입니다.", ex: [
+    { name: "Go", videoId: "aJSYRhj04NY", nuance: "지향적 이동", core: "현 지점에서 멀어지는 진행의 에너지입니다.", desc: "변화의 시작점으로부터 멀어지는 역동적인 느낌입니다.", ex: [
       { e: "Go smoothly", k: "매끄럽게 진행되다" },
       { e: "Go viral", k: "입소문을 타고 멀리 퍼지다" },
       { e: "Go bankrupt", k: "파산 상태로 진행되다" },
@@ -7097,7 +7100,7 @@
       { e: "Come to an end", k: "끝이라는 지점에 정착하다" },
       { e: "Come up with", k: "(생각을) 위로 끌어올려 내놓다" }
     ]},
-    { name: "Give", videoId: "PAfEYnrBds8", nuance: "능동적 방출", core: "내 영역 안의 것을 밖으로 내어줍니다.", desc: "호의, 정보, 물건 등을 주도적으로 전달하는 에너지입니다.", ex: [
+    { name: "Give", videoId: "aJSYRhj04NY", nuance: "능동적 방출", core: "내 영역 안의 것을 밖으로 내어줍니다.", desc: "호의, 정보, 물건 등을 주도적으로 전달하는 에너지입니다.", ex: [
       { e: "Give a hand", k: "도움을 주다" },
       { e: "Give up", k: "쥐고 있던 걸 놓다 (포기하다)" },
       { e: "Give it a try", k: "시도를 바깥으로 내보내다" },
@@ -7112,7 +7115,7 @@
   ];
 
   const basicPreps = [
-    { name: "In", videoId: "QXVzmzhxWWc", nuance: "영역의 안정감", core: "테두리 안에 안착해 있는 느낌입니다.", desc: "어떠한 경계나 큰 범주 안에 푹 담겨 있는 이미지입니다.", videoId: "nU8m0287k_Y", ex: [
+    { name: "In", videoId: "QXVzmzhxWWc", nuance: "영역의 안정감", core: "테두리 안에 안착해 있는 느낌입니다.", desc: "어떠한 경계나 큰 범주 안에 푹 담겨 있는 이미지입니다.", videoId: "aJSYRhj04NY", ex: [
       { e: "In the office", k: "사무실이라는 영역 안에", v: "물리적 영역", p: "벽이나 문으로 둘러싸인 3차원적 공간 속에 완전히 들어가 있는 상태입니다." },
       { e: "In July", k: "7월이라는 시간의 틀 안에", v: "시간적 틀", p: "시작과 끝이 정해진 시간이라는 거대한 테두리 안에 존재함을 의미합니다." },
       { e: "In progress", k: "진행 중이라는 상태 안에", v: "동적 상태", p: "어떤 행위나 프로세스가 완료되지 않고 그 흐름의 한가운데에 머물러 있는 상태입니다." },
@@ -7415,7 +7418,7 @@
       const videoHtml = v.videoId ? `
         <div class="video-master-card" style="margin-bottom:20px; border-radius:16px;">
           <div class="video-container" style="padding-bottom:50%;">
-            <iframe src="https://www.youtube.com/embed/${v.videoId}" allowfullscreen></iframe>
+            <iframe class="yt-video-player" src="https://www.youtube.com/embed/${v.videoId}?enablejsapi=1" allowfullscreen></iframe>
           </div>
         </div>
       ` : '';
@@ -7458,7 +7461,7 @@
       const videoHtml = v.videoId ? `
         <div class="video-master-card" style="margin-bottom:20px; border-radius:16px;">
           <div class="video-container" style="padding-bottom:50%;">
-            <iframe src="https://www.youtube.com/embed/${v.videoId}" allowfullscreen></iframe>
+            <iframe class="yt-video-player" src="https://www.youtube.com/embed/${v.videoId}?enablejsapi=1" allowfullscreen></iframe>
           </div>
         </div>
       ` : '';
@@ -7501,7 +7504,7 @@
       const videoHtml = v.videoId ? `
         <div class="video-master-card" style="margin-bottom:20px; border-radius:16px;">
           <div class="video-container" style="padding-bottom:50%;">
-            <iframe src="https://www.youtube.com/embed/${v.videoId}" allowfullscreen></iframe>
+            <iframe class="yt-video-player" src="https://www.youtube.com/embed/${v.videoId}?enablejsapi=1" allowfullscreen></iframe>
           </div>
         </div>
       ` : '';
@@ -7556,5 +7559,48 @@
     renderPhrasal();
   };
 </script>
+
+  <!-- YouTube Error Handler -->
+  <script>
+    window.onYouTubePlayerError = function(event) {
+      if (!event || !event.target || !event.target.getIframe) return;
+      const iframe = event.target.getIframe();
+      if (!iframe) return;
+      
+      const container = iframe.parentNode;
+      const originalSrc = iframe.src;
+      const videoIdMatch = originalSrc.match(/embed\/([a-zA-Z0-9_\-]{11})/);
+      const vid = videoIdMatch ? videoIdMatch[1] : '';
+      
+      container.style.position = 'relative';
+      
+      container.innerHTML = `
+        <div style="background:#1e1e1e; position:absolute; top:0; left:0; right:0; bottom:0; padding:40px; text-align:center; color:#fff; display:flex; flex-direction:column; justify-content:center; align-items:center; border-radius:12px; z-index:10;">
+          <span style="font-size:40px; margin-bottom:16px;">⚠️</span>
+          <h3 style="margin-bottom:8px; font-weight:600; font-size:18px;">영상을 불러올 수 없습니다</h3>
+          <p style="color:#aaa; font-size:14px; margin-bottom:20px;">원작자에 의해 삭제되었거나 퍼가기가 금지된 영상입니다.</p>
+          <a href="https://www.youtube.com/watch?v=${vid}" target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:8px 16px;background:var(--accent);color:#fff;border-radius:8px;font-size:14px;font-weight:600;text-decoration:none;">
+            YouTube에서 직접 확인하기
+          </a>
+        </div>
+      `;
+    };
+
+    window.initYTVideos = function() {
+      if (typeof YT === 'undefined' || !YT.Player) return;
+      const iframes = document.querySelectorAll('iframe.yt-video-player');
+      iframes.forEach(ifr => {
+        if (!ifr.id) {
+          ifr.id = 'yt-' + Math.random().toString(36).substr(2, 9);
+          new YT.Player(ifr.id, {
+            events: {
+              'onError': window.onYouTubePlayerError
+            }
+          });
+        }
+      });
+    };
+  </script>
 </body>
+
 </html>
