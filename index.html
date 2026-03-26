@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Native 365-Day Master — 원어민 영어 완벽 정복</title>
+  <title>365일 스터디 코스 — 원어민 영어 완벽 정복</title>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
   <style>
@@ -232,9 +232,9 @@
 <body>
 
 <nav class="nav">
-  <div class="nav-logo">📘 Native 365-Day Master</div>
+  <div class="nav-logo">📘 365일 스터디 코스</div>
   <div class="nav-links">
-    <a href="#" onclick="showView('study')" id="nav-study" class="active">365-Day Plan</a>
+    <a href="#" onclick="showView('study')" id="nav-study" class="active">365일 스터디 코스</a>
     <a href="#" onclick="showView('verbs')" id="nav-verbs">기본동사(Verbs)</a>
     <a href="#" onclick="showView('preps')" id="nav-preps">전치사(Preps)</a>
     <a href="#" onclick="showView('phrasal')" id="nav-phrasal">구동사(Phrasal)</a>
@@ -245,8 +245,8 @@
 
 <section class="hero">
   <div class="hero-tag" id="hero-tag">Day 01</div>
-  <h1 class="hero-title" id="hero-title">로딩 중...</h1>
-  <p class="hero-sub" id="hero-sub">커리큘럼을 불러오고 있습니다.</p>
+  <h1 class="hero-title" id="hero-title">365일 스터디 코스</h1>
+  <p class="hero-sub" id="hero-sub">커리큘럼을 준비하고 있습니다...</p>
   <button class="complete-btn" id="day-complete-btn" onclick="toggleComplete()">미션 완료 체크</button>
 </section>
 
@@ -7553,6 +7553,7 @@
     const themeBtn = document.getElementById('theme-toggle');
     if (themeBtn) themeBtn.onclick = toggleTheme;
 
+    renderPills();
     loadDay(1);
     renderVerbs();
     renderPreps();
