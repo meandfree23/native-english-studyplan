@@ -7441,9 +7441,42 @@
 
   const nativeGrammar = [
     { name: "1. 문장의 시작 (Starting Point)", videoId: "", nuance: "첫 단어(주어)를 무엇으로 던질 것인가?", core: "무생물 주어와 허수아비 It", desc: "한국어는 '내가/우리가'를 생략하는 경우가 많지만, 영어는 무조건 주어로 문장을 시작해야 합니다. '무생물'이 주어가 되어 에너지를 발산하거나(무생물 주어), 날씨/상황에 가벼운 이불을 덮어두고 시작(It)하거나, 무대 위에 조명을 켜듯 새로운 정보를 등장시킬 수(There is) 있습니다.", ex: [
-      { e: "The rain kept me from going out.", k: "비가(주어) 막았어 ➔ 나를 ➔ 나가는 것으로부터 (무생물 주어)" },
-      { e: "It is hard to learn English.", k: "어려워 ➔ 영어를 배우는 게 (허수아비 It으로 일단 상황을 덮어두고 시작)" },
-      { e: "There is a problem.", k: "문제가 하나 등장했어! (무대 조명을 켜듯 'There is'로 새로운 정보 등장)" }
+      { e: "The rain kept me from going out.", k: "비가(주어) 막았어 ➔ 나를 ➔ 나가는 것으로부터 (무생물 주어)", extra: [
+        {e: "The alarm woke me up.", k: "알람이 나를 깨웠다."},
+        {e: "This road will lead you to the station.", k: "이 길은 당신을 역으로 이끌 것이다."},
+        {e: "The news surprised everyone.", k: "그 소식이 모두를 놀라게 했다."},
+        {e: "The heavy snow prevented us from leaving.", k: "폭설이 우리가 떠나는 것을 막았다."},
+        {e: "A short walk will make you feel better.", k: "가벼운 산책이 네 기분을 낫게 만들 것이다."},
+        {e: "The recipe requires three eggs.", k: "이 레시피는 계란 세 개를 요구한다."},
+        {e: "This ticket allows you to enter the museum.", k: "이 티켓은 박물관 입장을 허용한다."},
+        {e: "His success brought him fame.", k: "그의 성공이 그에게 명성을 가져다 주었다."},
+        {e: "The medicine cured his illness.", k: "그 약이 그의 병을 치료했다."},
+        {e: "My new job takes me to many different countries.", k: "내 새 직업이 나를 여러 나라로 데려간다."}
+      ]},
+      { e: "It is hard to learn English.", k: "어려워 ➔ 영어를 배우는 게 (허수아비 It으로 일단 상황을 덮어두고 시작)", extra: [
+        {e: "It takes two hours to get there.", k: "거기 가는 데 2시간 걸려."},
+        {e: "It is important to read books.", k: "책을 읽는 것은 중요해."},
+        {e: "It seems that he is tired.", k: "그는 피곤한 것 같아."},
+        {e: "It feels good to be home.", k: "집에 오니 기분이 좋다."},
+        {e: "It doesn't matter what you wear.", k: "네가 뭘 입는지는 중요하지 않아."},
+        {e: "It makes sense to start early.", k: "일찍 시작하는 것이 이치에 맞다."},
+        {e: "It turned out that she was right.", k: "그녀가 맞았다는 것이 밝혀졌다."},
+        {e: "It is difficult to predict the future.", k: "미래를 예측하는 것은 어렵다."},
+        {e: "It occurred to me that I forgot my keys.", k: "열쇠를 두고 왔다는 생각이 문득 들었다."},
+        {e: "It is a pity that he couldn't come.", k: "그가 오지 못한 것은 유감이다."}
+      ]},
+      { e: "There is a problem.", k: "문제가 하나 등장했어! (무대 조명을 켜듯 'There is'로 새로운 정보 등장)", extra: [
+        {e: "There is a coffee shop around the corner.", k: "저 모퉁이 돌면 커피숍이 하나 있어."},
+        {e: "There are many people waiting in line.", k: "많은 사람들이 줄을 서서 기다리고 있어."},
+        {e: "There must be a misunderstanding.", k: "오해가 있는 게 틀림없어."},
+        {e: "There seems to be no problem.", k: "아무 문제 없는 것 같아."},
+        {e: "There has been a change in the schedule.", k: "일정에 변경이 생겼어."},
+        {e: "Is there anything I can do to help?", k: "내가 도울 수 있는 게 있을까?"},
+        {e: "There is no reason to worry.", k: "걱정할 이유가 없어."},
+        {e: "There happened to be a doctor on the plane.", k: "마침 비행기에 의사가 한 명 있었어."},
+        {e: "There remains a lot of work to do.", k: "해야 할 일이 여전히 많이 남아 있어."},
+        {e: "There are some things you need to know.", k: "네가 알아야 할 몇 가지가 있어."}
+      ]}
     ]},
     { name: "2. 영어의 뼈대 (Linear Flow)", videoId: "", nuance: "나(주어)에서 시작해 뻗어나가는 시선", core: "어순 = 에너지의 흐름", desc: "원어민은 카메라 앵글처럼 주인공(나)에서 시작해 에너지가 미치는 순서대로 단어를 뱉습니다. 주어 -> 동사 -> 대상 -> 장소 -> 시간 순서로 시선이 이동합니다. 형용사는 명사 바로 곁에, 부사는 문장 끝이나 동작 근처에 붙여 에너지를 더합니다.", ex: [
       { e: "I threw the ball hard over the fence yesterday.", k: "내가 ➔ 던진 에너지가 ➔ 공에 닿고 ➔ 세게 ➔ 담장 너머로 ➔ 어제" },
@@ -7762,10 +7795,26 @@
         <div class="mastery-split">
           <div class="mastery-left">
             ${g.ex.map((x, sIdx) => `
-              <div class="sentence-card" id="sent-grammar-${vIdx}-${sIdx}" data-mastery="${masteryId}" onclick="selectSentence('grammar', ${vIdx}, ${sIdx})">
+              <div class="sentence-card" id="sent-grammar-${vIdx}-${sIdx}" data-mastery="${masteryId}" onclick="selectSentence('grammar', ${vIdx}, ${sIdx}); ${x.extra ? `toggleExtra('grammar-${vIdx}-${sIdx}')` : ''}">
                 <div class="sentence-en">${x.e}</div>
                 <div class="sentence-ko">${x.k}</div>
                 <button class="speak-btn" style="position:absolute; right:20px; top:20px;" onclick="event.stopPropagation(); speakText('${x.e.replace(/'/g, "\\'")}')">🔊</button>
+                ${x.extra ? `
+                <div id="extra-grammar-${vIdx}-${sIdx}" style="display:none; margin-top:20px; padding-top:15px; border-top:1px dashed var(--border);">
+                  <div style="font-size:14px; font-weight:bold; color:var(--accent); margin-bottom:12px;">📚 집중 훈련 예문 10선</div>
+                  <div style="display:flex; flex-direction:column; gap:10px;">
+                    ${x.extra.map(ex => `
+                      <div class="extra-item" style="display:flex; justify-content:space-between; align-items:center; background:var(--bg); padding:10px 15px; border-radius:8px; border:1px solid var(--border2);">
+                        <div style="flex:1;">
+                          <div style="font-size:16px; font-weight:500; color:var(--text); margin-bottom:4px;">${ex.e}</div>
+                          <div style="font-size:14px; color:var(--text-dim);">${ex.k}</div>
+                        </div>
+                        <button class="speak-btn" style="position:static; margin-left:10px;" onclick="event.stopPropagation(); speakText('${ex.e.replace(/'/g, "\\'")}')">🔊</button>
+                      </div>
+                    `).join('')}
+                  </div>
+                </div>
+                ` : ''}
               </div>
             `).join('')}
           </div>
@@ -7790,6 +7839,17 @@
   window.saveSentence = saveSentence;
   window.updateMemoryProgress = updateMemoryProgress;
   window.loadDay = loadDay;
+  window.toggleExtra = function(id) {
+    const el = document.getElementById('extra-' + id);
+    if(el) {
+      if(el.style.display === 'none') {
+        el.style.display = 'block';
+        el.style.animation = 'fadeIn 0.3s forwards';
+      } else {
+        el.style.display = 'none';
+      }
+    }
+  };
 
   window.onload = () => {
     // Bind theme toggle button AFTER DOM is ready
