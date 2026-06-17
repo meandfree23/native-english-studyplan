@@ -6968,6 +6968,18 @@
     document.getElementById('hero-title').textContent = data.title;
     document.getElementById('hero-sub').textContent = data.sub;
 
+    const compBtn = document.getElementById('day-complete-btn');
+    if (compBtn) {
+      if (completedDays.includes(day)) {
+        compBtn.textContent = '✅ 미션 완료';
+        compBtn.style.background = 'var(--accent)';
+      } else {
+        compBtn.textContent = '미션 완료 체크';
+        compBtn.style.background = 'var(--surface)';
+      }
+    }
+    updateProgress();
+
     const kpiGrid = document.getElementById('kpi-grid');
     kpiGrid.innerHTML = data.kpis.map(k => `
       <div class="kpi-card">
@@ -6989,7 +7001,7 @@
           return `
           <div class="sentence-card" id="sent-day-${day}-${i}" data-mastery="${dayMasteryId}" onclick="selectSentence('day', ${day}, ${i}); updateMemoryProgress('${lid}', 5)">
             <div class="memory-indicator" style="margin-bottom:8px;">
-              <div class="memory-bar-bg"><div class="memory-bar-fill" style="width:${score}%"></div></div>
+              <div class="memory-bar-bg"><div class="memory-bar-fill" id="bar-${lid}" style="width:${score}%"></div></div>
             </div>
             <div class="chapter-num">LESSON 0${i+1}</div>
             <div class="sentence-en">${l.t}</div>
@@ -7076,6 +7088,7 @@
       `;
     }
 
+    renderPills();
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
