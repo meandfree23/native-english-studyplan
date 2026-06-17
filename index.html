@@ -7479,73 +7479,546 @@
       ]}
     ]},
     { name: "2. 영어의 뼈대 (Linear Flow)", videoId: "", nuance: "나(주어)에서 시작해 뻗어나가는 시선", core: "어순 = 에너지의 흐름", desc: "원어민은 카메라 앵글처럼 주인공(나)에서 시작해 에너지가 미치는 순서대로 단어를 뱉습니다. 주어 -> 동사 -> 대상 -> 장소 -> 시간 순서로 시선이 이동합니다. 형용사는 명사 바로 곁에, 부사는 문장 끝이나 동작 근처에 붙여 에너지를 더합니다.", ex: [
-      { e: "I threw the ball hard over the fence yesterday.", k: "내가 ➔ 던진 에너지가 ➔ 공에 닿고 ➔ 세게 ➔ 담장 너머로 ➔ 어제" },
-      { e: "She bought a beautiful red dress at the mall.", k: "그녀가 ➔ 샀고 ➔ 그건 아름다운 빨간 드레스 ➔ 쇼핑몰에서" },
-      { e: "He walked slowly into the dark room.", k: "그가 ➔ 걸었고 ➔ 느리게 ➔ 어두운 방 안으로" }
+      { e: "I threw the ball hard over the fence yesterday.", k: "내가 ➔ 던진 에너지가 ➔ 공에 닿고 ➔ 세게 ➔ 담장 너머로 ➔ 어제", extra: [
+        {e: "She hit the ball powerfully over the net.", k: "그녀가 공을 네트 너머로 강하게 쳤다."},
+        {e: "I kicked the stone far down the street.", k: "내가 돌을 길 아래로 멀리 찼다."},
+        {e: "They pushed the car slowly up the hill.", k: "그들이 차를 언덕 위로 천천히 밀었다."},
+        {e: "He drove the truck carefully through the rain.", k: "그는 트럭을 빗속에서 조심스럽게 몰았다."},
+        {e: "I painted the wall beautifully in the morning.", k: "나는 아침에 벽을 아름답게 칠했다."},
+        {e: "She sang the song loudly in the shower.", k: "그녀는 샤워 중에 노래를 크게 불렀다."},
+        {e: "He threw his bag angrily on the floor.", k: "그는 가방을 바닥에 화나서 던졌다."},
+        {e: "We watched the movie quietly in the dark.", k: "우리는 어둠 속에서 영화를 조용히 보았다."},
+        {e: "I wrote the letter quickly on the train.", k: "나는 기차에서 편지를 빠르게 썼다."},
+        {e: "She placed the vase carefully on the table.", k: "그녀는 꽃병을 테이블 위에 조심스럽게 놓았다."}
+      ]},
+      { e: "She bought a beautiful red dress at the mall.", k: "그녀가 ➔ 샀고 ➔ 그건 아름다운 빨간 드레스 ➔ 쇼핑몰에서", extra: [
+        {e: "He found an old wooden box in the attic.", k: "그는 다락방에서 낡은 나무 상자를 발견했다."},
+        {e: "I saw a huge black dog in the park.", k: "나는 공원에서 거대한 검은 개를 보았다."},
+        {e: "She baked a delicious chocolate cake in the kitchen.", k: "그녀는 주방에서 맛있는 초콜릿 케이크를 구웠다."},
+        {e: "We drank hot black coffee at the cafe.", k: "우리는 카페에서 뜨거운 블랙 커피를 마셨다."},
+        {e: "He built a small wooden house in the woods.", k: "그는 숲 속에 작은 나무 집을 지었다."},
+        {e: "I bought a cheap plastic toy at the store.", k: "나는 가게에서 싼 플라스틱 장난감을 샀다."},
+        {e: "She wore a shiny silver necklace at the party.", k: "그녀는 파티에서 반짝이는 은목걸이를 착용했다."},
+        {e: "They drove a fast sports car on the highway.", k: "그들은 고속도로에서 빠른 스포츠카를 몰았다."},
+        {e: "We adopted a cute little kitten from the shelter.", k: "우리는 보호소에서 귀여운 작은 새끼 고양이를 입양했다."},
+        {e: "I read a fascinating history book in the library.", k: "나는 도서관에서 흥미로운 역사책을 읽었다."}
+      ]},
+      { e: "He walked slowly into the dark room.", k: "그가 ➔ 걸었고 ➔ 느리게 ➔ 어두운 방 안으로", extra: [
+        {e: "She ran quickly across the empty street.", k: "그녀는 텅 빈 거리를 가로질러 빠르게 뛰었다."},
+        {e: "He crept silently into the sleeping house.", k: "그는 잠든 집 안으로 조용히 기어들어갔다."},
+        {e: "They drove carefully along the icy road.", k: "그들은 빙판길을 따라 조심스럽게 운전했다."},
+        {e: "I flew safely over the vast ocean.", k: "나는 넓은 대양 위를 안전하게 날아갔다."},
+        {e: "She stepped lightly onto the fragile ice.", k: "그녀는 깨지기 쉬운 얼음 위로 가볍게 발을 내디뎠다."},
+        {e: "He jumped boldly into the freezing water.", k: "그는 차가운 물 속으로 대담하게 뛰어들었다."},
+        {e: "We walked peacefully through the silent forest.", k: "우리는 고요한 숲을 평화롭게 걸었다."},
+        {e: "The cat sneaked quietly under the wooden fence.", k: "고양이가 나무 울타리 밑으로 조용히 몰래 들어갔다."},
+        {e: "The balloon floated gently up into the blue sky.", k: "풍선이 파란 하늘 위로 부드럽게 떠올랐다."},
+        {e: "She fell suddenly onto the hard ground.", k: "그녀는 단단한 땅 위로 갑자기 넘어졌다."}
+      ]}
     ]},
     { name: "3. 원어민의 5형식 (Energy Transfer)", videoId: "", nuance: "동사의 에너지가 어디까지 뻗어나가는가?", core: "동사가 품은 힘의 크기", desc: "1~5형식을 수학 공식처럼 외우지 마세요. 주어의 행동 에너지가 자신에게서 끝나는지(1형식), 다른 대상에 부딪히는지(3형식), 대상을 관통해 상태를 변화시키는지(5형식)로 직관적으로 이해해야 합니다.", ex: [
-      { e: "I arrived.", k: "나의 에너지가 도착한 상태로 끝남 (1형식)" },
-      { e: "I hit the wall.", k: "나의 타격 에너지가 벽에 부딪혀 멈춤 (3형식)" },
-      { e: "I made him angry.", k: "나의 에너지가 그를 관통해 화난 상태로 변화시킴 (5형식)" }
+      { e: "I arrived.", k: "나의 에너지가 도착한 상태로 끝남 (1형식)", extra: [
+        {e: "He smiled.", k: "그가 웃었다. (에너지가 스스로에게서 끝남)"},
+        {e: "The sun rises.", k: "해가 뜬다. (스스로의 움직임으로 종결)"},
+        {e: "She laughed.", k: "그녀가 소리내어 웃었다."},
+        {e: "They vanished.", k: "그들이 사라졌다."},
+        {e: "The bomb exploded.", k: "폭탄이 터졌다."},
+        {e: "I sneezed.", k: "내가 재채기를 했다."},
+        {e: "The baby cried.", k: "아기가 울었다."},
+        {e: "The machine stopped.", k: "기계가 멈췄다."},
+        {e: "He collapsed.", k: "그가 쓰러졌다."},
+        {e: "The water boiled.", k: "물이 끓었다."}
+      ]},
+      { e: "I hit the wall.", k: "나의 타격 에너지가 벽에 부딪혀 멈춤 (3형식)", extra: [
+        {e: "I pushed the door.", k: "내가 문을 밀었다. (문이라는 대상에 힘이 전달됨)"},
+        {e: "She kissed the baby.", k: "그녀가 아기에게 뽀뽀했다."},
+        {e: "He kicked the ball.", k: "그가 공을 찼다."},
+        {e: "We built a house.", k: "우리가 집을 지었다."},
+        {e: "I opened the window.", k: "내가 창문을 열었다."},
+        {e: "They caught the thief.", k: "그들이 도둑을 잡았다."},
+        {e: "She wrote a letter.", k: "그녀가 편지를 썼다."},
+        {e: "He drank the coffee.", k: "그가 커피를 마셨다."},
+        {e: "I touched the screen.", k: "내가 화면을 만졌다."},
+        {e: "The car hit the tree.", k: "차가 나무를 들이받았다."}
+      ]},
+      { e: "I made him angry.", k: "나의 에너지가 그를 관통해 화난 상태로 변화시킴 (5형식)", extra: [
+        {e: "The news left me speechless.", k: "그 소식이 나를 말문이 막히게 만들었다."},
+        {e: "She painted the door black.", k: "그녀가 문을 검은색으로 칠했다."},
+        {e: "We elected him president.", k: "우리가 그를 대통령으로 선출했다."},
+        {e: "I found the book interesting.", k: "나는 그 책이 흥미롭다는 것을 발견했다."},
+        {e: "He drove me crazy.", k: "그는 나를 미치게 만들었다."},
+        {e: "She kept the room warm.", k: "그녀는 방을 따뜻하게 유지했다."},
+        {e: "They considered him a hero.", k: "그들은 그를 영웅으로 여겼다."},
+        {e: "I called my dog Max.", k: "나는 내 개를 Max라고 불렀다."},
+        {e: "The music got me excited.", k: "그 음악이 나를 신나게 만들었다."},
+        {e: "He proved them wrong.", k: "그는 그들이 틀렸음을 증명했다."}
+      ]}
     ]},
     { name: "4. 전치사와 부사 (Spatial Awareness)", videoId: "", nuance: "머릿속에 3D 공간 그리기", core: "전치사 = 공간, 부사 = 방향", desc: "전치사는 점(at), 선/면(on), 3차원 공간(in) 같은 철저한 물리적 감각입니다. 부사(out, away, up)는 에너지가 향하는 방향을 추가하는 조미료입니다. 이 둘이 동사와 만나면 무한한 구동사가 만들어집니다.", ex: [
-      { e: "He walked in.", k: "그가 걸어서 (내부라는 공간으로) 향함" },
-      { e: "The coffee spilled on the table.", k: "커피가 쏟아져서 (테이블이라는 면 위에) 접촉함" },
-      { e: "Don't walk away.", k: "걸어서 (나로부터 멀어지는 방향으로) 가지 마" }
+      { e: "He walked in.", k: "그가 걸어서 (내부라는 공간으로) 향함", extra: [
+        {e: "She stepped out.", k: "그녀가 발을 내디뎌 (밖으로) 나감"},
+        {e: "He looked up.", k: "그가 시선을 (위로) 향함"},
+        {e: "They sat down.", k: "그들이 (아래로) 앉음"},
+        {e: "I ran away.", k: "나는 뛰어서 (멀리) 도망감"},
+        {e: "He fell over.", k: "그가 (넘어져서) 엎어짐"},
+        {e: "We drove off.", k: "우리는 차를 몰고 (떠나) 감"},
+        {e: "She bent down.", k: "그녀가 허리를 (아래로) 굽힘"},
+        {e: "He stood up.", k: "그가 (위로) 일어섬"},
+        {e: "I zoomed in.", k: "내가 줌을 (안으로) 당김"},
+        {e: "They moved back.", k: "그들이 (뒤로) 물러남"}
+      ]},
+      { e: "The coffee spilled on the table.", k: "커피가 쏟아져서 (테이블이라는 면 위에) 접촉함", extra: [
+        {e: "The picture hangs on the wall.", k: "그림이 (벽이라는 면에) 걸려 있다."},
+        {e: "He is waiting at the bus stop.", k: "그가 (버스 정류장이라는 점에) 기다리고 있다."},
+        {e: "She put the keys in her bag.", k: "그녀가 열쇠를 (가방이라는 공간 안에) 넣었다."},
+        {e: "The bird flew over the roof.", k: "새가 (지붕 위를 넘어) 날아갔다."},
+        {e: "He hid under the bed.", k: "그가 (침대 밑이라는 공간에) 숨었다."},
+        {e: "They walked along the river.", k: "그들이 (강이라는 선을 따라) 걸었다."},
+        {e: "I leaned against the wall.", k: "나는 (벽에 기대어) 섰다."},
+        {e: "She swam across the lake.", k: "그녀가 (호수를 가로질러) 수영했다."},
+        {e: "The ball rolled down the hill.", k: "공이 (언덕을 따라 아래로) 굴러갔다."},
+        {e: "He walked through the door.", k: "그가 (문을 통과하여) 걸어갔다."}
+      ]},
+      { e: "Don't walk away.", k: "걸어서 (나로부터 멀어지는 방향으로) 가지 마", extra: [
+        {e: "Throw it away.", k: "그것을 던져서 (멀리) 버려라."},
+        {e: "Put the gun down.", k: "총을 (아래로) 내려놔."},
+        {e: "Take your hat off.", k: "모자를 (분리하여) 벗어라."},
+        {e: "Turn the lights on.", k: "불을 (접촉시켜) 켜라."},
+        {e: "Write this down.", k: "이것을 (아래로) 적어라."},
+        {e: "Drink it up.", k: "그것을 (완전히) 마셔버려라."},
+        {e: "Clean the mess up.", k: "이 난장판을 (말끔히) 치워라."},
+        {e: "Bring it back.", k: "그것을 (원래 위치로) 가져와라."},
+        {e: "Leave it out.", k: "그것을 (밖에) 빼놓아라."},
+        {e: "Hand it over.", k: "그것을 (나에게) 넘겨라."}
+      ]}
     ]},
     { name: "5. 관사와 명사 (Articles & Nouns)", videoId: "", nuance: "분류인가, 아니면 공유된 정보인가?", core: "a = 분류표, the = 공유된 대상", desc: "원어민에게 'a'는 수많은 것 중 하나의 '분류나 정체성'을 부여하는 꼬리표입니다. 반면 'the'는 화자와 청자가 눈을 감고도 '아, 그거!' 하고 동일하게 떠올릴 수 있는 '공유된 대상'에 붙입니다.", ex: [
-      { e: "He is a teacher.", k: "수많은 직업 중 (선생이라는 부류에 속함)" },
-      { e: "I bought a car. The car is red.", k: "차를 한 대(분류) 샀어. (너도 이제 아는) 그 차는 빨개." },
-      { e: "Close the door.", k: "문 좀 닫아. (이 공간에서 우리가 공통으로 인식하는 바로 그 문)" }
+      { e: "He is a teacher.", k: "수많은 직업 중 (선생이라는 부류에 속함)", extra: [
+        {e: "She is a doctor.", k: "그녀는 (수많은 의사 중 한 명인) 의사이다."},
+        {e: "I need a pen.", k: "나는 (특정하지 않은 아무) 펜이 하나 필요해."},
+        {e: "He bought a house.", k: "그는 (수많은 집 중 하나의) 집을 샀다."},
+        {e: "We saw a movie.", k: "우리는 (어떤) 영화 한 편을 보았다."},
+        {e: "She drives a sports car.", k: "그녀는 (스포츠카라는 부류의) 차를 몬다."},
+        {e: "I want an apple.", k: "나는 (어떤 것이든 상관없는) 사과 하나를 원한다."},
+        {e: "He is a good guy.", k: "그는 (좋은 사람이라는 부류의) 사람이다."},
+        {e: "It is a cold day.", k: "오늘은 (추운 날이라는 부류에 속하는) 하루다."},
+        {e: "She adopted a dog.", k: "그녀는 (어떤) 개 한 마리를 입양했다."},
+        {e: "I have a question.", k: "나는 (여러 가지 질문 중 하나의) 질문이 있다."}
+      ]},
+      { e: "I bought a car. The car is red.", k: "차를 한 대(분류) 샀어. (너도 이제 아는) 그 차는 빨개.", extra: [
+        {e: "I saw a boy. The boy was crying.", k: "소년을 봤는데, (우리가 지금 아는) 그 소년은 울고 있었다."},
+        {e: "We found a cat. The cat is very cute.", k: "고양이를 발견했어. 그 고양이는 아주 귀여워."},
+        {e: "He wrote a book. The book became a bestseller.", k: "그는 책을 썼다. 그 책은 베스트셀러가 되었다."},
+        {e: "I made a mistake. The mistake cost me dearly.", k: "내가 실수를 했어. 그 실수는 내게 큰 대가를 치르게 했어."},
+        {e: "She had a dream. The dream was terrifying.", k: "그녀는 꿈을 꿨다. 그 꿈은 끔찍했다."},
+        {e: "I ordered a pizza. The pizza arrived cold.", k: "피자를 시켰어. 그 피자는 차갑게 도착했어."},
+        {e: "They built a bridge. The bridge collapsed.", k: "그들이 다리를 지었다. 그 다리가 무너졌다."},
+        {e: "I bought a shirt. The shirt doesn't fit.", k: "셔츠를 하나 샀어. 그 셔츠는 맞지 않아."},
+        {e: "We planted a tree. The tree grew quickly.", k: "우리는 나무를 심었다. 그 나무는 빨리 자랐다."},
+        {e: "He told a joke. The joke wasn't funny.", k: "그가 농담을 했다. 그 농담은 재미없었다."}
+      ]},
+      { e: "Close the door.", k: "문 좀 닫아. (이 공간에서 우리가 공통으로 인식하는 바로 그 문)", extra: [
+        {e: "Turn off the TV.", k: "TV 좀 꺼. (우리가 보고 있는 바로 그 TV)"},
+        {e: "Open the window.", k: "창문 좀 열어. (방 안에 있는 바로 그 창문)"},
+        {e: "Pass me the salt.", k: "소금 좀 건네줘. (식탁 위에 있는 바로 그 소금)"},
+        {e: "Look at the moon.", k: "달 좀 봐. (하늘에 있는 유일한 달)"},
+        {e: "Call the police.", k: "경찰 불러. (우리 지역의 바로 그 경찰)"},
+        {e: "Clean the floor.", k: "바닥 좀 닦아. (우리가 서 있는 이 바닥)"},
+        {e: "Check the oven.", k: "오븐 확인해. (우리 주방에 있는 그 오븐)"},
+        {e: "Lock the car.", k: "차 문 잠가. (우리가 타고 온 그 차)"},
+        {e: "Feed the dog.", k: "개 밥 줘. (우리가 키우는 바로 그 개)"},
+        {e: "Turn down the music.", k: "음악 소리 좀 줄여. (지금 틀어져 있는 바로 그 음악)"}
+      ]}
     ]},
     { name: "6. 시제 (Tenses)", videoId: "", nuance: "나와 사건 사이의 심리적 '거리감'", core: "시제 = 시간표가 아닌 입체적 감각", desc: "시제는 줌인(진행형), 불변의 바위(현재형), 단절(과거형), 그리고 다가오는 에너지(완료형)의 스펙트럼입니다. 미래를 말할 때도 내 확신(will)인지, 이미 굴러가는 기정사실(be going to)인지 기분이 달라집니다.", ex: [
-      { e: "I go to work by bus.", k: "난 버스로 출근해. ('지금'이 아니라 '늘, 항상' 그렇다는 불변의 팩트)" },
-      { e: "I am going to work.", k: "지금 출근하는 중이야. (카메라로 '지금 이 순간'만 일시적으로 줌인)" },
-      { e: "I will do it.", k: "내가 할게! (말하는 순간 결정된 100% 의지나 확신)" },
-      { e: "I am going to do it.", k: "나 그거 할 거야. (미리 마음을 먹어서 이미 굴러가기 시작한 기정사실)" },
-      { e: "I lost my key.", k: "열쇠 잃어버렸어. (과거의 단절된 팩트, 지금 찾았는지는 몰라)" },
-      { e: "I have lost my key.", k: "열쇠 잃어버렸어. (과거에 잃어버려서 '그 결과로 지금 내 손에 없다'는 상태가 밀려옴)" }
+      { e: "I go to work by bus.", k: "난 버스로 출근해. ('지금'이 아니라 '늘, 항상' 그렇다는 불변의 팩트)", extra: [
+        {e: "She wakes up at 7 AM every day.", k: "그녀는 매일 아침 7시에 일어난다."},
+        {e: "The earth goes around the sun.", k: "지구는 태양 주위를 돈다."},
+        {e: "He loves playing the guitar.", k: "그는 기타 치는 것을 매우 좋아한다."},
+        {e: "Water boils at 100 degrees.", k: "물은 100도에서 끓는다."},
+        {e: "I drink coffee in the morning.", k: "나는 아침에 커피를 마신다."},
+        {e: "They live in London.", k: "그들은 런던에 산다."},
+        {e: "It snows a lot in winter here.", k: "여기는 겨울에 눈이 많이 온다."},
+        {e: "My father works at a bank.", k: "나의 아버지는 은행에서 일하신다."},
+        {e: "Dogs bark when they are excited.", k: "개들은 흥분하면 짖는다."},
+        {e: "She speaks three languages.", k: "그녀는 세 개 국어를 구사한다."}
+      ]},
+      { e: "I am going to work.", k: "지금 출근하는 중이야. (카메라로 '지금 이 순간'만 일시적으로 줌인)", extra: [
+        {e: "I am eating lunch right now.", k: "나는 지금 점심을 먹고 있다."},
+        {e: "She is talking on the phone.", k: "그녀는 지금 통화 중이다."},
+        {e: "They are playing soccer in the park.", k: "그들은 공원에서 축구를 하고 있다."},
+        {e: "It is raining outside.", k: "밖에 비가 내리고 있다."},
+        {e: "We are studying for the exam.", k: "우리는 시험 공부를 하는 중이다."},
+        {e: "He is fixing the broken chair.", k: "그는 부서진 의자를 고치고 있다."},
+        {e: "I am looking for my glasses.", k: "나는 내 안경을 찾고 있다."},
+        {e: "She is reading a novel in her room.", k: "그녀는 방에서 소설을 읽고 있다."},
+        {e: "The children are sleeping.", k: "아이들이 자고 있다."},
+        {e: "I am typing an email to my boss.", k: "나는 상사에게 이메일을 타자로 치고 있다."}
+      ]},
+      { e: "I will do it.", k: "내가 할게! (말하는 순간 결정된 100% 의지나 확신)", extra: [
+        {e: "I will help you with that.", k: "내가 그것을 도와줄게."},
+        {e: "We will win this game.", k: "우리는 이 게임을 이길 것이다."},
+        {e: "She will call you back later.", k: "그녀가 나중에 너에게 다시 전화할 것이다."},
+        {e: "I will never forget this.", k: "나는 이것을 결코 잊지 않을 것이다."},
+        {e: "They will arrive soon.", k: "그들은 곧 도착할 것이다."},
+        {e: "I will open the door for you.", k: "내가 널 위해 문을 열어줄게."},
+        {e: "He will pay for the dinner.", k: "그가 저녁 식사 값을 낼 것이다."},
+        {e: "I will take the responsibility.", k: "내가 책임을 지겠다."},
+        {e: "It will be okay.", k: "다 괜찮을 거야."},
+        {e: "I will show you how to do it.", k: "내가 하는 방법을 보여줄게."}
+      ]},
+      { e: "I am going to do it.", k: "나 그거 할 거야. (미리 마음을 먹어서 이미 굴러가기 시작한 기정사실)", extra: [
+        {e: "I am going to visit my parents this weekend.", k: "이번 주말에 부모님을 뵈러 갈 거야."},
+        {e: "She is going to buy a new car.", k: "그녀는 새 차를 살 예정이다."},
+        {e: "We are going to have a baby.", k: "우리는 곧 아이를 가질 예정이다."},
+        {e: "It is going to rain tonight.", k: "오늘 밤에 비가 올 것 같아."},
+        {e: "They are going to move to New York.", k: "그들은 뉴욕으로 이사할 예정이다."},
+        {e: "I am going to start a diet tomorrow.", k: "나는 내일부터 다이어트를 시작할 거야."},
+        {e: "He is going to quit his job.", k: "그는 직장을 그만둘 예정이다."},
+        {e: "We are going to throw a party.", k: "우리는 파티를 열 예정이다."},
+        {e: "She is going to study abroad.", k: "그녀는 유학을 갈 예정이다."},
+        {e: "I am going to tell him the truth.", k: "나는 그에게 진실을 말할 것이다."}
+      ]},
+      { e: "I lost my key.", k: "열쇠 잃어버렸어. (과거의 단절된 팩트, 지금 찾았는지는 몰라)", extra: [
+        {e: "I met him yesterday.", k: "나는 어제 그를 만났다."},
+        {e: "She lived here in 2010.", k: "그녀는 2010년에 여기에 살았다."},
+        {e: "We watched a movie last night.", k: "우리는 어젯밤에 영화를 봤다."},
+        {e: "He broke his arm last week.", k: "그는 지난 주에 팔이 부러졌다."},
+        {e: "I bought this shirt two days ago.", k: "나는 이 셔츠를 이틀 전에 샀다."},
+        {e: "They went to Paris last year.", k: "그들은 작년에 파리에 갔다."},
+        {e: "She graduated from college in 2015.", k: "그녀는 2015년에 대학을 졸업했다."},
+        {e: "The game finished at 9 PM.", k: "경기는 밤 9시에 끝났다."},
+        {e: "I saw her at the station.", k: "나는 역에서 그녀를 보았다."},
+        {e: "He called me this morning.", k: "그가 오늘 아침에 내게 전화했다."}
+      ]},
+      { e: "I have lost my key.", k: "열쇠 잃어버렸어. (과거에 잃어버려서 '그 결과로 지금 내 손에 없다'는 상태가 밀려옴)", extra: [
+        {e: "I have finished my homework.", k: "나는 숙제를 다 끝마친 상태야."},
+        {e: "She has gone to London.", k: "그녀는 런던으로 가버렸어. (그래서 지금 여기 없어)"},
+        {e: "We have lived here for ten years.", k: "우리는 10년째 여기에 살고 있어."},
+        {e: "He has just arrived.", k: "그는 막 도착했어."},
+        {e: "I have seen that movie before.", k: "나는 그 영화를 본 적이 있어."},
+        {e: "They have already eaten dinner.", k: "그들은 이미 저녁을 먹었어."},
+        {e: "I have known him since childhood.", k: "나는 어릴 때부터 그를 알고 지내왔어."},
+        {e: "She has broken her leg.", k: "그녀는 다리가 부러졌어. (그래서 지금 깁스 중이야)"},
+        {e: "Someone has stolen my wallet.", k: "누군가 내 지갑을 훔쳐갔어. (그래서 지갑이 없어)"},
+        {e: "We have finally reached the top.", k: "우리는 마침내 정상에 도달했어."}
+      ]}
     ]},
     { name: "7. 조동사 (Modals)", videoId: "", nuance: "화자의 뇌피셜과 확신도", core: "조동사 = 동사의 기분(Mood)", desc: "조동사는 동사가 팩트가 아님을 나타내는 장치입니다. 화자가 그 사건에 대해 가지는 확신도(will 100% > must 90% > should 70% > can 50% > might 20%)와 태도를 섬세하게 조절합니다.", ex: [
-      { e: "It will rain tomorrow.", k: "내일 비가 올 거야. (내 예측으론 100% 확신)" },
-      { e: "It must be true.", k: "그건 사실임에 틀림없어. (강한 심증과 확신)" },
-      { e: "It might rain later.", k: "이따 비가 올지도 몰라. (확신도 낮음, 혹시나 하는 마음)" }
+      { e: "It will rain tomorrow.", k: "내일 비가 올 거야. (내 예측으론 100% 확신)", extra: [
+        {e: "I will be there at 5 PM.", k: "내가 오후 5시에 거기에 있을게."},
+        {e: "He will pass the exam.", k: "그는 시험에 통과할 거야."},
+        {e: "They will not accept the offer.", k: "그들은 그 제안을 받아들이지 않을 거야."},
+        {e: "The package will arrive on Monday.", k: "소포는 월요일에 도착할 거야."},
+        {e: "I will never give up.", k: "나는 결코 포기하지 않을 거야."},
+        {e: "She will love this gift.", k: "그녀는 이 선물을 마음에 쏙 들어할 거야."},
+        {e: "This will solve the problem.", k: "이것이 문제를 해결할 거야."},
+        {e: "We will find a way.", k: "우리는 방법을 찾을 거야."},
+        {e: "The concert will start soon.", k: "콘서트가 곧 시작할 거야."},
+        {e: "I will stand by you.", k: "나는 네 곁을 지킬 거야."}
+      ]},
+      { e: "It must be true.", k: "그건 사실임에 틀림없어. (강한 심증과 확신)", extra: [
+        {e: "You must be tired.", k: "너 피곤한 게 틀림없어."},
+        {e: "He must be joking.", k: "그는 농담하는 게 틀림없어."},
+        {e: "There must be some mistake.", k: "뭔가 착오가 있는 게 분명해."},
+        {e: "She must have left early.", k: "그녀가 일찍 떠났음이 틀림없어."},
+        {e: "They must know the password.", k: "그들은 비밀번호를 알고 있을 거야."},
+        {e: "It must cost a lot of money.", k: "그건 돈이 많이 드는 게 분명해."},
+        {e: "You must see a doctor.", k: "넌 반드시 의사를 만나봐야 해. (강한 의무)"},
+        {e: "We must finish this by today.", k: "우리는 이것을 오늘까지 무조건 끝내야 해."},
+        {e: "He must be hiding something.", k: "그는 뭔가를 숨기고 있는 게 틀림없어."},
+        {e: "This must be the right place.", k: "여기가 맞는 장소일 거야."}
+      ]},
+      { e: "It might rain later.", k: "이따 비가 올지도 몰라. (확신도 낮음, 혹시나 하는 마음)", extra: [
+        {e: "I might be late.", k: "나 늦을지도 몰라."},
+        {e: "She might not come to the party.", k: "그녀가 파티에 안 올 수도 있어."},
+        {e: "He might know the answer.", k: "그가 정답을 알지도 몰라."},
+        {e: "We might go to the beach this weekend.", k: "우리 이번 주말에 해변에 갈지도 몰라."},
+        {e: "It might be dangerous.", k: "그건 위험할 수도 있어."},
+        {e: "I might have lost my phone.", k: "나 폰을 잃어버렸을지도 몰라."},
+        {e: "They might cancel the flight.", k: "그들이 비행을 취소할 수도 있어."},
+        {e: "She might be sleeping right now.", k: "그녀는 지금 자고 있을지도 몰라."},
+        {e: "You might want to check this.", k: "너 이거 한번 확인해 보는 게 좋을지도 몰라."},
+        {e: "It might take longer than expected.", k: "예상보다 시간이 더 걸릴 수도 있어."}
+      ]}
     ]},
     { name: "8. 수동태 (Passive Voice)", videoId: "", nuance: "시선의 이동과 책임 회피", core: "포커스 전환", desc: "원어민은 주인공(행위자)보다 '당한 대상'이 더 중요할 때, 혹은 누가 했는지 모르거나 굳이 말하고 싶지 않을 때(책임 회피) 카메라 앵글을 돌려 수동태를 씁니다.", ex: [
-      { e: "My car was stolen.", k: "내 차가 도난당했어. (누가 훔쳤는지가 중요한 게 아니라 내 차가 없어졌다는 게 포커스)" },
-      { e: "A mistake was made.", k: "실수가 발생했습니다. (내가 실수했다고 말하기 싫은 책임 회피적 뉘앙스)" },
-      { e: "The window was broken by him.", k: "그 창문이 깨졌는데, (그게 누구냐면) 그 남자 때문이야." }
+      { e: "My car was stolen.", k: "내 차가 도난당했어. (누가 훔쳤는지가 중요한 게 아니라 내 차가 없어졌다는 게 포커스)", extra: [
+        {e: "My wallet was stolen on the subway.", k: "내 지갑을 지하철에서 도난당했어."},
+        {e: "The building was destroyed by the fire.", k: "그 건물은 화재로 파괴되었다."},
+        {e: "He was fired yesterday.", k: "그는 어제 해고당했다."},
+        {e: "The window was left open.", k: "창문이 열린 채로 남겨졌다."},
+        {e: "My computer was hacked.", k: "내 컴퓨터가 해킹당했다."},
+        {e: "The bridge was built in 1990.", k: "그 다리는 1990년에 지어졌다."},
+        {e: "The book was translated into 20 languages.", k: "그 책은 20개 언어로 번역되었다."},
+        {e: "Her ring was lost at the beach.", k: "그녀의 반지가 해변에서 분실되었다."},
+        {e: "The meeting was canceled.", k: "그 회의는 취소되었다."},
+        {e: "I was told to wait here.", k: "나는 여기서 기다리라는 말을 들었다."}
+      ]},
+      { e: "A mistake was made.", k: "실수가 발생했습니다. (내가 실수했다고 말하기 싫은 책임 회피적 뉘앙스)", extra: [
+        {e: "The report was delayed.", k: "보고서가 지연되었습니다."},
+        {e: "Your request was denied.", k: "귀하의 요청은 거부되었습니다."},
+        {e: "The data was lost.", k: "데이터가 유실되었습니다."},
+        {e: "Some rules were broken.", k: "일부 규칙이 위반되었습니다."},
+        {e: "The secret was revealed.", k: "비밀이 폭로되었습니다."},
+        {e: "The money was transferred.", k: "돈이 이체되었습니다."},
+        {e: "An error was found in the system.", k: "시스템에서 오류가 발견되었습니다."},
+        {e: "The project was poorly managed.", k: "프로젝트가 부실하게 관리되었습니다."},
+        {e: "The package was sent to the wrong address.", k: "소포가 잘못된 주소로 발송되었습니다."},
+        {e: "The issue was overlooked.", k: "그 문제는 간과되었습니다."}
+      ]},
+      { e: "The window was broken by him.", k: "그 창문이 깨졌는데, (그게 누구냐면) 그 남자 때문이야.", extra: [
+        {e: "The song was written by John.", k: "그 노래가 쓰여졌는데, 존에 의해서야."},
+        {e: "The picture was taken by a professional.", k: "그 사진이 찍혔는데, 전문가에 의해서야."},
+        {e: "The cake was eaten by the dog.", k: "그 케이크가 먹혔는데, 그 개 때문이야."},
+        {e: "The game was won by our team.", k: "그 경기가 승리되었는데, 우리 팀에 의해서야."},
+        {e: "The novel was loved by many readers.", k: "그 소설은 사랑받았는데, 많은 독자들에 의해서야."},
+        {e: "The machine was fixed by the mechanic.", k: "기계가 수리되었는데, 그 정비공에 의해서야."},
+        {e: "The letter was delivered by the postman.", k: "그 편지가 배달되었는데, 우체부에 의해서야."},
+        {e: "The room was cleaned by her.", k: "그 방이 청소되었는데, 그녀에 의해서야."},
+        {e: "The painting was bought by a collector.", k: "그 그림이 팔렸는데, 한 수집가에 의해서야."},
+        {e: "The city was destroyed by an earthquake.", k: "그 도시가 파괴되었는데, 지진 때문이야."}
+      ]}
     ]},
     { name: "9. 가정법 (Unreal Conditionals)", videoId: "", nuance: "현실과의 완벽한 단절", core: "시제 후퇴 = 현실과의 거리감", desc: "시제를 한 단계 뒤로 미루는 이유는 시간이 과거여서가 아닙니다. 지금 이 순간의 '현실성'에서 한 발짝 물러나(단절되어) 가상의 세계를 상상하기 때문입니다. 시제가 후퇴할수록 가능성도 후퇴합니다.", ex: [
-      { e: "If I have money, I will buy it.", k: "돈이 있으면 살게. (현실성 높음: 진짜 돈이 들어올 가능성이 있음)" },
-      { e: "If I had money, I would buy it.", k: "돈이 있다면 살 텐데. (현실성 낮음: 지금 돈이 없다는 현실과 단절된 상상)" },
-      { e: "I wish I were a bird.", k: "내가 새라면 좋을 텐데. (현실에서 완전히 벗어난 불가능한 소망)" }
+      { e: "If I have money, I will buy it.", k: "돈이 있으면 살게. (현실성 높음: 진짜 돈이 들어올 가능성이 있음)", extra: [
+        {e: "If it rains tomorrow, we will stay home.", k: "내일 비가 오면 우리는 집에 있을 거야."},
+        {e: "If you study hard, you will pass the exam.", k: "네가 열심히 공부하면, 넌 시험에 통과할 거야."},
+        {e: "If she calls me, I will tell her the truth.", k: "그녀가 내게 전화하면, 난 진실을 말할 거야."},
+        {e: "If we leave now, we will catch the train.", k: "우리가 지금 출발하면, 기차를 잡을 거야."},
+        {e: "If you eat too much, you will gain weight.", k: "네가 너무 많이 먹으면 살이 찔 거야."},
+        {e: "If I find your keys, I will let you know.", k: "내가 네 열쇠를 찾으면 알려줄게."},
+        {e: "If they invite me, I will go to the party.", k: "그들이 날 초대하면, 난 파티에 갈 거야."},
+        {e: "If you push this button, the machine will start.", k: "네가 이 버튼을 누르면 기계가 작동할 거야."},
+        {e: "If he apologizes, I will forgive him.", k: "그가 사과하면, 난 그를 용서할 거야."},
+        {e: "If the weather is nice, we will go for a walk.", k: "날씨가 좋으면 우리는 산책을 갈 거야."}
+      ]},
+      { e: "If I had money, I would buy it.", k: "돈이 있다면 살 텐데. (현실성 낮음: 지금 돈이 없다는 현실과 단절된 상상)", extra: [
+        {e: "If I knew his number, I would call him.", k: "내가 그의 번호를 안다면 그에게 전화할 텐데."},
+        {e: "If she were here, she would help us.", k: "그녀가 여기 있다면, 우리를 도와줄 텐데."},
+        {e: "If I had a car, I would drive to work.", k: "나에게 차가 있다면, 운전해서 출근할 텐데."},
+        {e: "If it didn't rain, we could go on a picnic.", k: "비가 오지 않는다면, 피크닉을 갈 수 있을 텐데."},
+        {e: "If I spoke French, I would live in Paris.", k: "내가 불어를 할 줄 안다면, 파리에 살 텐데."},
+        {e: "If he studied harder, he would pass.", k: "그가 더 열심히 공부한다면 통과할 텐데."},
+        {e: "If I were you, I wouldn't do that.", k: "내가 너라면, 난 그렇게 하지 않을 텐데."},
+        {e: "If we left earlier, we wouldn't be late.", k: "우리가 더 일찍 출발했다면, 늦지 않았을 텐데."},
+        {e: "If I had more time, I would travel more.", k: "내게 시간이 더 있다면 여행을 더 많이 할 텐데."},
+        {e: "If she loved him, she would marry him.", k: "그녀가 그를 사랑한다면 그와 결혼할 텐데."}
+      ]},
+      { e: "I wish I were a bird.", k: "내가 새라면 좋을 텐데. (현실에서 완전히 벗어난 불가능한 소망)", extra: [
+        {e: "I wish I had more money.", k: "내가 돈이 더 많으면 좋을 텐데."},
+        {e: "I wish you were here with me.", k: "네가 나와 함께 여기 있다면 좋을 텐데."},
+        {e: "I wish I could fly.", k: "내가 날 수 있으면 좋을 텐데."},
+        {e: "I wish it would stop raining.", k: "비가 좀 그쳤으면 좋겠다."},
+        {e: "I wish I knew the answer.", k: "내가 정답을 알면 좋을 텐데."},
+        {e: "I wish I didn't have to work today.", k: "내가 오늘 일 안 해도 되면 좋을 텐데."},
+        {e: "I wish she loved me back.", k: "그녀가 나를 다시 사랑해 주면 좋을 텐데."},
+        {e: "I wish I were younger.", k: "내가 더 젊다면 좋을 텐데."},
+        {e: "I wish I had a bigger house.", k: "내게 더 큰 집이 있으면 좋을 텐데."},
+        {e: "I wish they would listen to me.", k: "그들이 내 말을 들어주면 좋을 텐데."}
+      ]}
     ]},
     { name: "10. To부정사와 동명사 (To vs -ing)", videoId: "", nuance: "미래로 뻗는 화살표 vs 멈춰진 현실의 덩어리", core: "To = 방향성(미래), -ing = 현실(경험)", desc: "to부정사의 'to'는 전치사처럼 목적지를 향해 날아가는 화살표입니다. 즉, 아직 안 한 일, 미래지향성을 띱니다. 반면 동명사(-ing)는 이미 가지고 있거나 겪고 있는 멈춰진 현실, 경험의 덩어리를 묘사합니다.", ex: [
-      { e: "I want to travel the world.", k: "원해 ➔ (어디로 향하냐면) 세계 여행하는 것을 (아직 안 함)" },
-      { e: "I enjoy traveling.", k: "즐겨 ➔ (이미 해봐서 아는) 여행이라는 현실 덩어리를" },
-      { e: "I forgot to lock the door.", k: "깜빡했어 ➔ (미래로 향해야 할) 문 잠그는 것을 (결국 안 잠금)" },
-      { e: "I forgot locking the door.", k: "깜빡했어 ➔ (과거의 경험인) 문 잠갔던 현실 자체를 (잠가놓고 잊어버림)" }
+      { e: "I want to travel the world.", k: "원해 ➔ (어디로 향하냐면) 세계 여행하는 것을 (아직 안 함)", extra: [
+        {e: "She decided to quit her job.", k: "그녀는 직장을 그만두기로 결정했다. (앞으로 할 일)"},
+        {e: "We plan to visit Japan next year.", k: "우리는 내년에 일본을 방문할 계획이다."},
+        {e: "He promised to pay me back.", k: "그는 내게 돈을 갚겠다고 약속했다."},
+        {e: "I need to buy some milk.", k: "나는 우유를 좀 사야 한다."},
+        {e: "They expect to arrive at 6.", k: "그들은 6시에 도착할 것으로 예상한다."},
+        {e: "She hopes to become a doctor.", k: "그녀는 의사가 되기를 희망한다."},
+        {e: "He offered to carry my bag.", k: "그는 내 가방을 들어주겠다고 제안했다."},
+        {e: "I refused to answer the question.", k: "나는 그 질문에 대답하기를 거절했다."},
+        {e: "We agreed to meet at the cafe.", k: "우리는 카페에서 만나기로 동의했다."},
+        {e: "She learned to drive last year.", k: "그녀는 작년에 운전하는 법을 배웠다."}
+      ]},
+      { e: "I enjoy traveling.", k: "즐겨 ➔ (이미 해봐서 아는) 여행이라는 현실 덩어리를", extra: [
+        {e: "He finished reading the book.", k: "그는 책 읽기를 끝마쳤다."},
+        {e: "I avoid driving in rush hour.", k: "나는 출퇴근 시간에 운전하는 것을 피한다."},
+        {e: "She gave up smoking.", k: "그녀는 담배 피우는 것을 포기했다(끊었다)."},
+        {e: "Do you mind opening the window?", k: "창문 좀 여는 것을 꺼리시나요?"},
+        {e: "They suggested going to the beach.", k: "그들은 해변에 갈 것을 제안했다."},
+        {e: "I miss living in the countryside.", k: "나는 시골에 살던 것이 그립다."},
+        {e: "He keeps interrupting me.", k: "그는 계속해서 내 말을 끊는다."},
+        {e: "We discussed buying a new house.", k: "우리는 새 집을 사는 것에 대해 논의했다."},
+        {e: "She admitted making a mistake.", k: "그녀는 실수한 것을 인정했다."},
+        {e: "I can't help falling in love with you.", k: "나는 너와 사랑에 빠지는 것을 피할 수가 없어."}
+      ]},
+      { e: "I forgot to lock the door.", k: "깜빡했어 ➔ (미래로 향해야 할) 문 잠그는 것을 (결국 안 잠금)", extra: [
+        {e: "Remember to call your mom.", k: "엄마한테 전화할 거 기억해. (앞으로 해야 할 일)"},
+        {e: "I regret to inform you that you failed.", k: "네가 떨어졌다고 알려주게 되어 유감이다. (지금부터 할 말)"},
+        {e: "He stopped to smoke.", k: "그는 담배를 피우기 위해 (가던 길을) 멈췄다."},
+        {e: "Try to open the jar.", k: "그 병을 열려고 노력해 봐. (안간힘을 씀)"},
+        {e: "Don't forget to buy milk.", k: "우유 살 거 잊지 마."},
+        {e: "She remembered to turn off the oven.", k: "그녀는 오븐 끄는 것을 기억해냈다. (그래서 껐음)"},
+        {e: "I stopped to look at the view.", k: "경치를 보려고 멈췄다."},
+        {e: "He tried to solve the puzzle.", k: "그는 그 퍼즐을 풀려고 무진장 애썼다."},
+        {e: "Remember to lock the car.", k: "차 문 잠그는 거 꼭 기억해."},
+        {e: "I regret to say this.", k: "이 말을 하게 되어 유감이다."}
+      ]},
+      { e: "I forgot locking the door.", k: "깜빡했어 ➔ (과거의 경험인) 문 잠갔던 현실 자체를 (잠가놓고 잊어버림)", extra: [
+        {e: "I remember meeting him before.", k: "나는 예전에 그를 만났던 것을 기억해."},
+        {e: "I regret buying this cheap car.", k: "이 싼 차를 샀던 것을 후회해. (이미 산 과거)"},
+        {e: "He stopped smoking.", k: "그는 담배 피우는 것(하던 행동)을 멈췄다(끊었다)."},
+        {e: "Try pushing the green button.", k: "녹색 버튼을 한번 눌러봐. (그냥 한번 시도해봄)"},
+        {e: "She forgot visiting the museum.", k: "그녀는 그 박물관에 방문했던 기억 자체를 잊어버렸다."},
+        {e: "I remember locking the door.", k: "나는 문을 잠갔던 사실이 분명히 기억나."},
+        {e: "They stopped arguing.", k: "그들은 말다툼하던 것을 멈췄다."},
+        {e: "I regret wasting my time.", k: "나는 내 시간을 낭비했던 것을 후회한다."},
+        {e: "Try adding some salt.", k: "소금을 좀 넣어봐. (시험 삼아 해보는 것)"},
+        {e: "He will never forget winning the prize.", k: "그는 그 상을 탔던 것을 결코 잊지 못할 것이다."}
+      ]}
     ]},
     { name: "11. 분사 (Participles)", videoId: "", nuance: "찰나의 시각적 동시 상영", core: "배경 화면 띄우기", desc: "-ing나 p.p로 문장을 시작하는 것은 메인 스토리를 말하기 전에 '현재 이런 상태야'라고 시각적 배경을 먼저 영상처럼 깔아주는 기법입니다. 문장이 훨씬 입체적이고 역동적으로 변합니다.", ex: [
-      { e: "Smiling brightly, she entered the room.", k: "(환하게 웃는 모습을 먼저 영상으로 띄움) ➔ 그녀가 방에 들어왔다." },
-      { e: "Exhausted from work, I went straight to bed.", k: "(일에 지쳐 쓰러질 듯한 상태를 먼저 보여줌) ➔ 난 곧바로 침대로 갔다." },
-      { e: "I saw him running away.", k: "난 봤어 ➔ 그를 ➔ (동시에 영상으로 재생되는) 도망가고 있는 모습을" }
+      { e: "Smiling brightly, she entered the room.", k: "(환하게 웃는 모습을 먼저 영상으로 띄움) ➔ 그녀가 방에 들어왔다.", extra: [
+        {e: "Looking at his phone, he crossed the street.", k: "(폰을 보는 상태로) 그는 길을 건넸다."},
+        {e: "Listening to music, I studied for the test.", k: "(음악을 듣는 상태로) 나는 시험 공부를 했다."},
+        {e: "Crying loudly, the baby woke up the neighbors.", k: "(크게 우는 상태로) 아기가 이웃들을 깨웠다."},
+        {e: "Knowing the truth, she didn't say anything.", k: "(진실을 알고 있는 배경을 깔고) 그녀는 아무 말도 안 했다."},
+        {e: "Opening the door, he saw a huge surprise.", k: "(문을 여는 그 찰나에) 그는 큰 놀라움을 보았다."},
+        {e: "Walking in the park, I met an old friend.", k: "(공원을 걷고 있다가) 나는 옛 친구를 만났다."},
+        {e: "Singing a song, they drove along the coast.", k: "(노래를 부르며) 그들은 해안을 따라 드라이브했다."},
+        {e: "Holding her hand, he walked down the aisle.", k: "(그녀의 손을 잡고서) 그는 식장 복도를 걸어갔다."},
+        {e: "Feeling hungry, I made a sandwich.", k: "(배고픔을 느끼는 상태라서) 나는 샌드위치를 만들었다."},
+        {e: "Thinking deeply, she stared at the wall.", k: "(깊이 생각에 잠긴 채) 그녀는 벽을 응시했다."}
+      ]},
+      { e: "Exhausted from work, I went straight to bed.", k: "(일에 지쳐 쓰러질 듯한 상태를 먼저 보여줌) ➔ 난 곧바로 침대로 갔다.", extra: [
+        {e: "Surprised by the news, she dropped her cup.", k: "(뉴스에 놀란 상태로) 그녀는 컵을 떨어뜨렸다."},
+        {e: "Written in English, the book was hard to read.", k: "(영어로 쓰여진 상태라서) 그 책은 읽기 어려웠다."},
+        {e: "Covered in snow, the mountain looked beautiful.", k: "(눈으로 덮여 있는 상태로) 그 산은 아름다워 보였다."},
+        {e: "Injured in the accident, he was taken to the hospital.", k: "(사고로 다친 상태로) 그는 병원으로 이송되었다."},
+        {e: "Born in Paris, she speaks fluent French.", k: "(파리에서 태어난 배경으로 인해) 그녀는 불어를 유창하게 한다."},
+        {e: "Built 100 years ago, the house is still strong.", k: "(100년 전에 지어진 배경을 가졌지만) 그 집은 여전히 튼튼하다."},
+        {e: "Lost in the woods, they called for help.", k: "(숲에서 길을 잃은 상태로) 그들은 도움을 요청했다."},
+        {e: "Satisfied with the result, he smiled.", k: "(결과에 만족한 상태로) 그는 미소 지었다."},
+        {e: "Disappointed by his answer, I left the room.", k: "(그의 대답에 실망한 채로) 나는 방을 나갔다."},
+        {e: "Hidden under the bed, the box gathered dust.", k: "(침대 밑에 숨겨진 채로) 그 상자는 먼지가 쌓였다."}
+      ]},
+      { e: "I saw him running away.", k: "난 봤어 ➔ 그를 ➔ (동시에 영상으로 재생되는) 도망가고 있는 모습을", extra: [
+        {e: "I heard my name called.", k: "난 들었어 ➔ 내 이름이 ➔ (수동으로) 불려지는 것을"},
+        {e: "She watched the children playing in the yard.", k: "그녀는 봤어 ➔ 아이들이 ➔ 놀고 있는 모습을"},
+        {e: "I felt my heart beating fast.", k: "난 느꼈어 ➔ 내 심장이 ➔ 빠르게 뛰고 있는 것을"},
+        {e: "He found his bike stolen.", k: "그는 발견했어 ➔ 자기 자전거가 ➔ (수동으로) 도난당한 상태를"},
+        {e: "We noticed the dog hiding under the table.", k: "우리는 알아챘어 ➔ 개가 ➔ 테이블 밑에 숨어 있는 것을"},
+        {e: "I caught him stealing the money.", k: "난 현장을 잡았어 ➔ 그가 ➔ 돈을 훔치고 있는 모습을"},
+        {e: "She smelled something burning in the kitchen.", k: "그녀는 냄새를 맡았어 ➔ 무언가가 ➔ 부엌에서 타고 있는 것을"},
+        {e: "I left the engine running.", k: "나는 내버려 뒀어 ➔ 엔진이 ➔ 돌아가고 있는 상태로"},
+        {e: "He kept me waiting for an hour.", k: "그는 날 내버려 뒀어 ➔ 기다리는 상태로 ➔ 한 시간 동안"},
+        {e: "I had my hair cut yesterday.", k: "난 시켰어(경험했어) ➔ 내 머리가 ➔ (수동으로) 잘려진 상태를 ➔ 어제"}
+      ]}
     ]},
     { name: "12. 관계절 (Relative Clauses)", videoId: "", nuance: "일단 뱉고 뒤에서 덧붙이기", core: "명사 + WH-(꼬리물기)", desc: "한국어는 명사를 앞에서 길게 꾸미지만, 원어민은 핵심 명사를 머릿속에 오래 담아두기 싫어합니다. 그래서 일단 명사(The man)를 뱉은 후, 'who', 'which'를 써서 꼬리물기 하듯 부가 설명을 이어갑니다.", ex: [
-      { e: "I met the man who fixed my car.", k: "내가 그 남자를 만났어 ➔ (그 남자가 누구냐면) 내 차를 고쳤던 사람" },
-      { e: "This is the book that changed my life.", k: "이게 그 책이야 ➔ (무슨 책이냐면) 내 삶을 바꾼" },
-      { e: "The cafe where we first met is closing.", k: "그 카페 ➔ (어떤 공간이냐면) 우리가 처음 만났던 거기가 ➔ 닫는대" }
+      { e: "I met the man who fixed my car.", k: "내가 그 남자를 만났어 ➔ (그 남자가 누구냐면) 내 차를 고쳤던 사람", extra: [
+        {e: "She is the girl who won the contest.", k: "그녀가 그 소녀야 ➔ 대회에서 우승한"},
+        {e: "He is the teacher who helped me a lot.", k: "그가 그 선생님이야 ➔ 날 많이 도와주셨던"},
+        {e: "I have a friend who lives in London.", k: "나한테 친구가 있어 ➔ 런던에 사는"},
+        {e: "The man who is standing there is my brother.", k: "저기 서 있는 저 남자 ➔ 내 형이야"},
+        {e: "We need someone who can speak Spanish.", k: "우리는 누군가가 필요해 ➔ 스페인어를 할 줄 아는"},
+        {e: "The doctor who treated me was very kind.", k: "그 의사 ➔ 날 치료했던 분 ➔ 엄청 친절했어"},
+        {e: "I know the boy who broke the window.", k: "난 그 소년을 알아 ➔ 창문을 깬 녀석"},
+        {e: "She married a man who is 10 years older.", k: "그녀는 남편과 결혼했어 ➔ 10살 더 많은"},
+        {e: "The police caught the thief who stole the bag.", k: "경찰이 도둑을 잡았어 ➔ 가방을 훔친"},
+        {e: "Those who want to join should sign here.", k: "사람들 ➔ 가입을 원하는 ➔ 여기에 서명해야 해"}
+      ]},
+      { e: "This is the book that changed my life.", k: "이게 그 책이야 ➔ (무슨 책이냐면) 내 삶을 바꾼", extra: [
+        {e: "I lost the watch which my dad gave me.", k: "난 시계를 잃어버렸어 ➔ 아빠가 내게 주신"},
+        {e: "The car that hit the tree was red.", k: "그 차 ➔ 나무를 들이받은 ➔ 빨간색이었어"},
+        {e: "She bought a bag which cost a fortune.", k: "그녀는 가방을 샀어 ➔ 돈이 엄청나게 든"},
+        {e: "Here is the report that you asked for.", k: "여기 보고서가 있어 ➔ 네가 요청했던"},
+        {e: "I ate the cake which was on the table.", k: "난 케이크를 먹었어 ➔ 테이블 위에 있던"},
+        {e: "The dog that bit me belongs to my neighbor.", k: "그 개 ➔ 날 물었던 ➔ 이웃집 개야"},
+        {e: "We watched a movie that was very boring.", k: "우린 영화를 봤어 ➔ 엄청 지루했던"},
+        {e: "The house which they bought is huge.", k: "그 집 ➔ 걔네가 산 ➔ 엄청 커"},
+        {e: "I found the keys that I had lost.", k: "난 열쇠를 찾았어 ➔ 내가 잃어버렸던"},
+        {e: "Don't eat food that has gone bad.", k: "음식 먹지 마 ➔ 상해버린"}
+      ]},
+      { e: "The cafe where we first met is closing.", k: "그 카페 ➔ (어떤 공간이냐면) 우리가 처음 만났던 거기가 ➔ 닫는대", extra: [
+        {e: "I remember the day when we first met.", k: "난 그날을 기억해 ➔ 우리가 처음 만났던 (그때)"},
+        {e: "This is the reason why I left early.", k: "이게 그 이유야 ➔ 내가 일찍 떠난"},
+        {e: "Tell me the way how you solved it.", k: "방법을 말해줘 ➔ 네가 그걸 푼 (어떻게 풀었는지)"},
+        {e: "The hotel where we stayed was great.", k: "그 호텔 ➔ 우리가 머물렀던 거기가 ➔ 참 좋았어"},
+        {e: "1999 is the year when I was born.", k: "1999년이 그 해다 ➔ 내가 태어난 (그때)"},
+        {e: "I don't know the reason why she is crying.", k: "난 이유를 모르겠어 ➔ 그녀가 우는"},
+        {e: "That's the restaurant where they serve best pasta.", k: "저기가 그 식당이야 ➔ 그들이 최고의 파스타를 서빙하는"},
+        {e: "I can't forget the moment when he arrived.", k: "난 그 순간을 잊을 수 없어 ➔ 그가 도착했던"},
+        {e: "This is the town where I grew up.", k: "여기가 그 마을이야 ➔ 내가 자랐던"},
+        {e: "Do you know the time when the train leaves?", k: "너 그 시간 알아? ➔ 기차가 떠나는"}
+      ]}
     ]},
     { name: "13. 명사절과 부사절 (Clauses)", videoId: "", nuance: "긴 문장을 하나로 묶는 패키징 기술", core: "접속사 = 패키징 테이프", desc: "That, If, Whether 같은 접속사는 뒤에 오는 주어+동사의 긴 문장을 커다란 '상자'에 담아 테이핑하는 역할을 합니다. 이렇게 묶인 상자는 문장 내에서 단어 하나처럼 던져집니다.", ex: [
-      { e: "I know that he is honest.", k: "난 알아 ➔ [그가 정직하다는 것]이라는 상자를" },
-      { e: "Whether you like it or not is important.", k: "[네가 그걸 좋아하든 말든]이라는 덩어리가 ➔ 중요해." },
-      { e: "When I was young, I lived in Seoul.", k: "[내가 어렸을 때]라는 시간적 배경 상자 ➔ 난 서울에 살았어." }
+      { e: "I know that he is honest.", k: "난 알아 ➔ [그가 정직하다는 것]이라는 상자를", extra: [
+        {e: "I think that you are right.", k: "난 생각해 ➔ 네가 맞다는 것을"},
+        {e: "She said that she would come.", k: "그녀는 말했어 ➔ 자신이 올 거라고"},
+        {e: "I believe that we can win.", k: "난 믿어 ➔ 우리가 이길 수 있다는 것을"},
+        {e: "It is true that he lied to us.", k: "그건 사실이야 ➔ 그가 우리에게 거짓말을 했다는 사실이"},
+        {e: "I hope that you feel better soon.", k: "난 바래 ➔ 네가 곧 나아지기를"},
+        {e: "He promised that he wouldn't do it again.", k: "그는 약속했어 ➔ 다시는 그러지 않겠다고"},
+        {e: "The problem is that we don't have time.", k: "문제는 ➔ 우리가 시간이 없다는 거야"},
+        {e: "I heard that they got married.", k: "난 들었어 ➔ 그들이 결혼했다는 것을"},
+        {e: "Did you notice that she was crying?", k: "너 눈치챘어? ➔ 그녀가 울고 있었다는 것을"},
+        {e: "We decided that we should leave.", k: "우리는 결정했어 ➔ 우리가 떠나야 한다고"}
+      ]},
+      { e: "Whether you like it or not is important.", k: "[네가 그걸 좋아하든 말든]이라는 덩어리가 ➔ 중요해.", extra: [
+        {e: "I don't know if he will come.", k: "난 모르겠어 ➔ 그가 올지 안 올지"},
+        {e: "I wonder whether she is still angry.", k: "난 궁금해 ➔ 그녀가 아직도 화가 났는지"},
+        {e: "Ask him if he needs help.", k: "그에게 물어봐 ➔ 도움이 필요한지 아닌지"},
+        {e: "It depends on whether it rains tomorrow.", k: "그건 내일 비가 올지 안 올지에 달려있어."},
+        {e: "I am not sure if this is the right way.", k: "난 확신할 수 없어 ➔ 이게 맞는 길인지"},
+        {e: "Tell me if you are ready.", k: "말해줘 ➔ 준비가 되었는지"},
+        {e: "I doubt whether they will succeed.", k: "난 의심스러워 ➔ 그들이 성공할지 어떨지"},
+        {e: "Let me know if I should bring anything.", k: "알려줘 ➔ 내가 뭘 가져가야 할지"},
+        {e: "The question is whether we can afford it.", k: "문제는 ➔ 우리가 그럴 여유가 되는지야."},
+        {e: "I don't care whether he agrees or not.", k: "난 상관 안 해 ➔ 그가 동의하든 말든"}
+      ]},
+      { e: "When I was young, I lived in Seoul.", k: "[내가 어렸을 때]라는 시간적 배경 상자 ➔ 난 서울에 살았어.", extra: [
+        {e: "Because it was raining, we stayed inside.", k: "[비가 오고 있었기 때문에] ➔ 우리는 실내에 머물렀어."},
+        {e: "If you help me, I will pay you.", k: "[네가 날 돕는다면] ➔ 내가 네게 돈을 줄게."},
+        {e: "Although he is rich, he is not happy.", k: "[그가 부자일지라도] ➔ 그는 행복하지 않아."},
+        {e: "As soon as I arrived, the phone rang.", k: "[내가 도착하자마자] ➔ 전화가 울렸어."},
+        {e: "While I was sleeping, someone knocked.", k: "[내가 자고 있는 동안] ➔ 누군가 문을 두드렸어."},
+        {e: "Since we have no time, we must hurry.", k: "[우리가 시간이 없기 때문에] ➔ 서둘러야 해."},
+        {e: "Before you leave, please close the window.", k: "[네가 떠나기 전에] ➔ 제발 창문 좀 닫아줘."},
+        {e: "After I finished work, I went to the gym.", k: "[내가 일을 마친 후에] ➔ 나는 헬스장에 갔어."},
+        {e: "Even if it is hard, you must try.", k: "[비록 그것이 어려울지라도] ➔ 넌 시도해야 해."},
+        {e: "Unless you hurry, you will be late.", k: "[네가 서두르지 않는 한] ➔ 넌 지각할 거야."}
+      ]}
     ]},
     { name: "14. 비교 구문 (Comparatives)", videoId: "", nuance: "두 대상 간의 에너지 줄다리기", core: "as = 똑같이, more = 기울어짐", desc: "원어민은 비교를 할 때 저울을 머릿속에 그립니다. 'as'는 양쪽 저울의 균형이 팽팽하게 맞는 상태이고, 'more than'은 에너지가 한쪽으로 기울어지는 텐션을 보여줍니다.", ex: [
-      { e: "She is as tall as me.", k: "그녀는 커 ➔ (얼마만큼 똑같이 크냐면) 나만큼" },
-      { e: "He is more experienced than I expected.", k: "그는 더 경험이 많아 ➔ (뭐보다 기울어졌냐면) 내가 예상했던 것보다" },
-      { e: "The sooner, the better.", k: "더 빠를수록 ➔ (그 에너지만큼 비례해서) 더 좋다." }
+      { e: "She is as tall as me.", k: "그녀는 커 ➔ (얼마만큼 똑같이 크냐면) 나만큼", extra: [
+        {e: "He is as old as my brother.", k: "그는 나이가 같아 ➔ 내 형만큼"},
+        {e: "This car is as expensive as that one.", k: "이 차는 비싸 ➔ 저 차만큼"},
+        {e: "I can run as fast as you.", k: "난 빨리 뛸 수 있어 ➔ 너만큼"},
+        {e: "The test was not as hard as I thought.", k: "그 시험은 어렵지 않았어 ➔ 내가 생각했던 것만큼은"},
+        {e: "It is as cold as ice.", k: "그것은 차가워 ➔ 얼음만큼"},
+        {e: "She sings as beautifully as a bird.", k: "그녀는 아름답게 노래해 ➔ 새처럼 똑같이"},
+        {e: "He is not as busy as he looks.", k: "그는 바쁘지 않아 ➔ 그가 보이는 것만큼은"},
+        {e: "This book is as interesting as a movie.", k: "이 책은 흥미로워 ➔ 영화만큼"},
+        {e: "I try to eat as healthy as possible.", k: "난 건강하게 먹으려 노력해 ➔ 가능한 한 똑같이"},
+        {e: "My dog is as heavy as a child.", k: "우리 개는 무거워 ➔ 어린아이만큼"}
+      ]},
+      { e: "He is more experienced than I expected.", k: "그는 더 경험이 많아 ➔ (뭐보다 기울어졌냐면) 내가 예상했던 것보다", extra: [
+        {e: "She is taller than her sister.", k: "그녀는 더 커 ➔ 그녀의 언니보다"},
+        {e: "This laptop is better than the old one.", k: "이 노트북이 더 좋아 ➔ 옛날 것보다"},
+        {e: "I ran faster than him.", k: "난 더 빨리 뛰었어 ➔ 그 남자보다"},
+        {e: "The movie was worse than the book.", k: "영화가 더 별로였어 ➔ 책보다"},
+        {e: "It is colder today than yesterday.", k: "오늘이 더 추워 ➔ 어제보다"},
+        {e: "He speaks English more fluently than me.", k: "그는 영어를 더 유창하게 해 ➔ 나보다"},
+        {e: "This problem is much harder than that.", k: "이 문제는 훨씬 더 어려워 ➔ 저것보다"},
+        {e: "Gold is more valuable than silver.", k: "금이 더 가치있어 ➔ 은보다"},
+        {e: "She arrived earlier than everyone else.", k: "그녀는 더 일찍 도착했어 ➔ 다른 누구보다"},
+        {e: "Living in the city is more expensive than the country.", k: "도시에 사는 게 더 비싸 ➔ 시골보다"}
+      ]},
+      { e: "The sooner, the better.", k: "더 빠를수록 ➔ (그 에너지만큼 비례해서) 더 좋다.", extra: [
+        {e: "The more I study, the more I know.", k: "내가 더 많이 공부할수록 ➔ 더 많이 알게 된다."},
+        {e: "The higher you climb, the colder it gets.", k: "네가 더 높이 올라갈수록 ➔ 날씨는 더 추워진다."},
+        {e: "The more you practice, the better you become.", k: "네가 더 연습할수록 ➔ 너는 더 나아진다."},
+        {e: "The bigger the house, the more expensive it is.", k: "집이 클수록 ➔ 그것은 더 비싸다."},
+        {e: "The harder you work, the luckier you get.", k: "네가 더 열심히 일할수록 ➔ 넌 더 운이 좋아진다."},
+        {e: "The less I see him, the happier I am.", k: "내가 그를 덜 볼수록 ➔ 난 더 행복하다."},
+        {e: "The older we grow, the wiser we become.", k: "우리가 더 나이가 들수록 ➔ 우린 더 현명해진다."},
+        {e: "The darker it gets, the more stars you can see.", k: "더 어두워질수록 ➔ 더 많은 별을 볼 수 있다."},
+        {e: "The more money he makes, the more he spends.", k: "그가 돈을 더 많이 벌수록 ➔ 그는 더 많이 쓴다."},
+        {e: "The closer we got to the city, the heavier the traffic became.", k: "우리가 도시에 더 가까워질수록 ➔ 교통 체증은 더 심해졌다."}
+      ]}
     ]}
   ];
 
