@@ -88,10 +88,10 @@
     .tag { background: var(--surface2); color: var(--accent); font-size: 10px; font-weight: 600; padding: 3px 10px; border-radius: 20px; margin-right: 5px; }
 
     .compare-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; border-radius: 16px; overflow: hidden; margin-top: 20px; }
-    .compare-side { padding: 24px; height: 100%; }
+    .compare-side { padding: 24px; height: 100%; text-align: center; }
     .compare-side.left { background: rgba(231,111,81,0.06); border: 1px solid rgba(231,111,81,0.15); }
     .compare-side.right { background: rgba(82,183,136,0.06); border: 1px solid rgba(82,183,136,0.15); }
-    .compare-item { font-size: 13px; margin-bottom: 10px; }
+    .compare-item { font-size: 14px; margin-bottom: 16px; display: flex; flex-direction: column; align-items: center; }
 
     .expr-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; }
     .expr-card { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 20px; }
@@ -8116,12 +8116,24 @@
     else if(type === 'grammar') data = nativeGrammar[vIdx];
     else data = curriculum[vIdx]; // day view
 
-    const sentence = (type === 'day') ? data.lessons[sIdx] : data.ex[sIdx];
     const masteryId = (type === 'day') ? `mastery-day-${vIdx}` : `mastery-${type}-${vIdx}`;
     
     // Update Mastery Box UI
-    document.getElementById(`essence-${masteryId}`).textContent = (type === 'day' ? sentence.t : (sentence.v || data.nuance));
-    document.getElementById(`principle-${masteryId}`).textContent = (type === 'day' ? sentence.d : (sentence.p || data.desc));
+    if (type === 'day') {
+      const lesson = data.lessons[sIdx];
+      const expression = (data.expr && data.expr[sIdx]) ? data.expr[sIdx] : null;
+      if (expression) {
+        document.getElementById(`essence-${masteryId}`).innerHTML = `"<span style="color:var(--accent);">${expression.e}</span>"<br><span style="font-size:14px;font-weight:400;color:var(--text-dim);">${expression.k}</span>`;
+        document.getElementById(`principle-${masteryId}`).innerHTML = `<span style="font-size:13px; font-style:italic;">"${expression.x}"</span>`;
+      } else {
+        document.getElementById(`essence-${masteryId}`).textContent = lesson.t;
+        document.getElementById(`principle-${masteryId}`).textContent = lesson.d;
+      }
+    } else {
+      const sentence = data.ex[sIdx];
+      document.getElementById(`essence-${masteryId}`).textContent = sentence.v || data.nuance;
+      document.getElementById(`principle-${masteryId}`).textContent = sentence.p || data.desc;
+    }
     
     // Update Active Class
     const cards = document.querySelectorAll(`[data-mastery="${masteryId}"]`);
