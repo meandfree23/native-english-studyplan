@@ -69,8 +69,8 @@
 
     .container { max-width: 1100px; margin: 0 auto; padding: 0 32px; }
     .section { padding: 60px 0; }
-    .section-title { font-size: 11px; font-weight: 800; color: var(--accent); letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 10px; }
-    .section-heading { font-size: 28px; font-weight: 800; margin-bottom: 10px; }
+    .section-title { font-size: 11px; font-weight: 800; color: var(--accent); letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 10px; text-align: center; }
+    .section-heading { font-size: 28px; font-weight: 800; margin-bottom: 10px; text-align: center; }
     
     .kpi-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
     .kpi-card { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 24px; transition: transform .2s; }
@@ -94,7 +94,7 @@
     .compare-item { font-size: 14px; margin-bottom: 16px; display: flex; flex-direction: column; align-items: center; }
 
     .expr-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; }
-    .expr-card { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 20px; }
+    .expr-card { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 20px; text-align: center; }
     .expr-en { font-size: 16px; font-weight: 800; color: var(--accent); margin-bottom: 4px; }
     .expr-ko { font-size: 13px; color: var(--text-dim); margin-bottom: 10px; }
     .expr-example { font-size: 12px; font-style: italic; background: var(--surface2); padding: 10px; border-radius: 8px; }
@@ -8118,6 +8118,15 @@
     else data = curriculum[vIdx]; // day view
 
     const masteryId = (type === 'day') ? `mastery-day-${vIdx}` : `mastery-${type}-${vIdx}`;
+    const activeCard = document.getElementById(`sent-${type}-${vIdx}-${sIdx}`);
+    const isAlreadyActive = activeCard && activeCard.classList.contains('active');
+    
+    // Cycle state logic for 'day' view
+    let nextState = 1;
+    if (type === 'day' && isAlreadyActive) {
+      let curr = parseInt(activeCard.getAttribute('data-roll-state') || '1');
+      nextState = (curr % 3) + 1; // cycles 1 -> 2 -> 3 -> 1
+    }
     
     // Update Mastery Box UI
     if (type === 'day') {
@@ -8148,20 +8157,30 @@
           senEn.textContent = l.t;
           senKo.textContent = l.d;
         }
+        c.setAttribute('data-roll-state', '0');
       }
     });
 
-    const activeCard = document.getElementById(`sent-${type}-${vIdx}-${sIdx}`);
     if (activeCard) {
       activeCard.classList.add('active');
       if (type === 'day') {
+        activeCard.setAttribute('data-roll-state', nextState);
         const expression = (data.expr && data.expr[sIdx]) ? data.expr[sIdx] : null;
-        if (expression) {
+        const lesson = data.lessons[sIdx];
+        if (expression && lesson) {
           const activeEn = activeCard.querySelector('.sentence-en');
           const activeKo = activeCard.querySelector('.sentence-ko');
           if (activeEn && activeKo) {
-            activeEn.textContent = expression.e;
-            activeKo.textContent = expression.k;
+            if (nextState === 1) {
+              activeEn.textContent = expression.e;
+              activeKo.textContent = expression.k;
+            } else if (nextState === 2) {
+              activeEn.textContent = expression.x;
+              activeKo.textContent = "상황 예문 (Context)";
+            } else {
+              activeEn.textContent = lesson.t;
+              activeKo.textContent = lesson.d;
+            }
           }
         }
       }
