@@ -216,6 +216,7 @@
     .sentence-card {
       background: var(--surface); border: 1px solid var(--border); border-radius: 16px;
       padding: 20px; cursor: pointer; transition: all 0.2s; position: relative;
+      text-align: center;
     }
     .sentence-card:hover { border-color: var(--accent); transform: translateX(5px); }
     .sentence-card.active { border-color: var(--accent); background: rgba(82,183,136,0.05); box-shadow: 0 0 0 1px var(--accent); }
@@ -8135,10 +8136,36 @@
       document.getElementById(`principle-${masteryId}`).textContent = sentence.p || data.desc;
     }
     
-    // Update Active Class
+    // Update Active Class and content swapping
     const cards = document.querySelectorAll(`[data-mastery="${masteryId}"]`);
-    cards.forEach(c => c.classList.remove('active'));
-    document.getElementById(`sent-${type}-${vIdx}-${sIdx}`).classList.add('active');
+    cards.forEach((c, idx) => {
+      c.classList.remove('active');
+      if (type === 'day') {
+        const l = data.lessons[idx];
+        const senEn = c.querySelector('.sentence-en');
+        const senKo = c.querySelector('.sentence-ko');
+        if (senEn && senKo && l) {
+          senEn.textContent = l.t;
+          senKo.textContent = l.d;
+        }
+      }
+    });
+
+    const activeCard = document.getElementById(`sent-${type}-${vIdx}-${sIdx}`);
+    if (activeCard) {
+      activeCard.classList.add('active');
+      if (type === 'day') {
+        const expression = (data.expr && data.expr[sIdx]) ? data.expr[sIdx] : null;
+        if (expression) {
+          const activeEn = activeCard.querySelector('.sentence-en');
+          const activeKo = activeCard.querySelector('.sentence-ko');
+          if (activeEn && activeKo) {
+            activeEn.textContent = expression.e;
+            activeKo.textContent = expression.k;
+          }
+        }
+      }
+    }
   }
 
   function renderVerbs() {
