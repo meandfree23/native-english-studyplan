@@ -8132,7 +8132,7 @@
       const lesson = data.lessons[sIdx];
       const expression = (data.expr && data.expr[sIdx]) ? data.expr[sIdx] : null;
       if (expression) {
-        document.getElementById(`essence-${masteryId}`).innerHTML = `"<span style="color:var(--accent);">${expression.e}</span>"<br><span style="font-size:14px;font-weight:400;color:var(--text-dim);">${expression.k}</span>`;
+        document.getElementById(`essence-${masteryId}`).innerHTML = `"<span style="color:var(--accent);">${expression.e}</span>" <button class="speak-btn" style="margin-left:8px;" onclick="event.stopPropagation(); speakText('${expression.e.replace(/'/g, "\\'")}')">🔊</button><br><span style="font-size:14px;font-weight:400;color:var(--text-dim);">${expression.k}</span>`;
         document.getElementById(`principle-${masteryId}`).innerHTML = `<span style="font-size:13px; font-style:italic;">"${expression.x}"</span>`;
       } else {
         document.getElementById(`essence-${masteryId}`).textContent = lesson.t;
@@ -8140,7 +8140,8 @@
       }
     } else {
       const sentence = data.ex[sIdx];
-      document.getElementById(`essence-${masteryId}`).textContent = sentence.v || data.nuance;
+      const enText = sentence.v || data.nuance;
+      document.getElementById(`essence-${masteryId}`).innerHTML = `"<span style="color:var(--accent);">${enText}</span>" <button class="speak-btn" style="margin-left:8px;" onclick="event.stopPropagation(); speakText('${enText.replace(/'/g, "\\'")}')">🔊</button>`;
       document.getElementById(`principle-${masteryId}`).textContent = sentence.p || data.desc;
     }
     
@@ -8171,10 +8172,10 @@
           const activeKo = activeCard.querySelector('.sentence-ko');
           if (activeEn && activeKo) {
             if (nextState === 1) {
-              activeEn.textContent = expression.e;
+              activeEn.innerHTML = `${expression.e} <button class="speak-btn" style="margin-left:8px;" onclick="event.stopPropagation(); speakText('${expression.e.replace(/'/g, "\\'")}')">🔊</button>`;
               activeKo.textContent = expression.k;
             } else if (nextState === 2) {
-              activeEn.textContent = expression.x;
+              activeEn.innerHTML = `${expression.x} <button class="speak-btn" style="margin-left:8px;" onclick="event.stopPropagation(); speakText('${expression.x.replace(/'/g, "\\'")}')">🔊</button>`;
               activeKo.textContent = "상황 예문 (Context)";
             } else {
               activeEn.textContent = lesson.t;
@@ -8206,9 +8207,8 @@
           <div class="mastery-left">
             ${v.ex.map((x, sIdx) => `
               <div class="sentence-card" id="sent-verb-${vIdx}-${sIdx}" data-mastery="${masteryId}" onclick="selectSentence('verb', ${vIdx}, ${sIdx}); updateMemoryProgress('${id}', 1)">
-                <div class="sentence-en">${x.e}</div>
+                <div class="sentence-en">${x.e} <button class="speak-btn" style="margin-left:8px;" onclick="event.stopPropagation(); speakText('${x.e.replace(/'/g, "\\'")}')">🔊</button></div>
                 <div class="sentence-ko">${x.k}</div>
-                <button class="speak-btn" style="position:absolute; right:20px; top:20px;" onclick="event.stopPropagation(); speakText('${x.e.replace(/'/g, "\\'")}')">🔊</button>
               </div>
             `).join('')}
           </div>
@@ -8249,9 +8249,8 @@
           <div class="mastery-left">
             ${v.ex.map((x, sIdx) => `
               <div class="sentence-card" id="sent-prep-${vIdx}-${sIdx}" data-mastery="${masteryId}" onclick="selectSentence('prep', ${vIdx}, ${sIdx}); updateMemoryProgress('${id}', 1)">
-                <div class="sentence-en">${x.e}</div>
+                <div class="sentence-en">${x.e} <button class="speak-btn" style="margin-left:8px;" onclick="event.stopPropagation(); speakText('${x.e.replace(/'/g, "\\'")}')">🔊</button></div>
                 <div class="sentence-ko">${x.k}</div>
-                <button class="speak-btn" style="position:absolute; right:20px; top:20px;" onclick="event.stopPropagation(); speakText('${x.e.replace(/'/g, "\\'")}')">🔊</button>
               </div>
             `).join('')}
           </div>
@@ -8292,9 +8291,8 @@
           <div class="mastery-left">
             ${v.ex.map((x, sIdx) => `
               <div class="sentence-card" id="sent-phrasal-${vIdx}-${sIdx}" data-mastery="${masteryId}" onclick="selectSentence('phrasal', ${vIdx}, ${sIdx}); updateMemoryProgress('${id}', 1)">
-                <div class="sentence-en">${x.e}</div>
+                <div class="sentence-en">${x.e} <button class="speak-btn" style="margin-left:8px;" onclick="event.stopPropagation(); speakText('${x.e.replace(/'/g, "\\'")}')">🔊</button></div>
                 <div class="sentence-ko">${x.k}</div>
-                <button class="speak-btn" style="position:absolute; right:20px; top:20px;" onclick="event.stopPropagation(); speakText('${x.e.replace(/'/g, "\\'")}')">🔊</button>
               </div>
             `).join('')}
           </div>
@@ -8326,9 +8324,8 @@
           <div class="mastery-left">
             ${g.ex.map((x, sIdx) => `
               <div class="sentence-card" id="sent-grammar-${vIdx}-${sIdx}" data-mastery="${masteryId}" onclick="selectSentence('grammar', ${vIdx}, ${sIdx}); ${x.extra ? `toggleExtra('grammar-${vIdx}-${sIdx}')` : ''}">
-                <div class="sentence-en">${x.e}</div>
+                <div class="sentence-en">${x.e} <button class="speak-btn" style="margin-left:8px;" onclick="event.stopPropagation(); speakText('${x.e.replace(/'/g, "\\'")}')">🔊</button></div>
                 <div class="sentence-ko">${x.k}</div>
-                <button class="speak-btn" style="position:absolute; right:20px; top:20px;" onclick="event.stopPropagation(); speakText('${x.e.replace(/'/g, "\\'")}')">🔊</button>
                 ${x.extra ? `
                 <div id="extra-grammar-${vIdx}-${sIdx}" style="display:none; margin-top:20px; padding-top:15px; border-top:1px dashed var(--border);">
                   <div style="font-size:14px; font-weight:bold; color:var(--accent); margin-bottom:12px;">📚 집중 훈련 예문 10선</div>
