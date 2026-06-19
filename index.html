@@ -292,6 +292,7 @@
     <a href="#" onclick="showView('verbs')" id="nav-verbs">기본동사(Verbs)</a>
     <a href="#" onclick="showView('preps')" id="nav-preps">전치사(Preps)</a>
     <a href="#" onclick="showView('phrasal')" id="nav-phrasal">구동사(Phrasal)</a>
+    <a href="#" onclick="showView('kiwi')" id="nav-kiwi">🥝 키위새</a>
     <a href="#quiz-section">최종 테스트</a>
     <button id="theme-toggle" class="theme-btn" style="margin-left: 20px;">🌓 테마</button>
   </div>
@@ -402,6 +403,18 @@
         </div>
       </div>
 
+    </div>
+  </section>
+</div>
+
+<!-- Kiwi Bird View -->
+<div id="kiwi-view" style="display:none;" class="fade-in">
+  <section class="section">
+    <div class="container">
+      <p class="section-title">Kiwi Bird</p>
+      <h2 class="section-heading">eng_kiwi 핵심 표현 & 인사이트</h2>
+      <p style="color:var(--text-dim); margin-bottom:30px; text-align: center;">실전에서 바로 쓸 수 있는 세련된 영어 표현과 깊이 있는 인사이트를 학습합니다.</p>
+      <div class="verb-grid" id="kiwi-grid"></div>
     </div>
   </section>
 </div>
@@ -6905,6 +6918,69 @@
     };
   }
 
+  const kiwiExpressions = [
+    {
+      title: "1. 세련된 비즈니스 & 스몰톡 (Business & Small Talk)",
+      ex: [
+        { 
+          e: "Let's touch base next week.", 
+          k: "다음 주에 다시 연락합시다 / 진행상황 공유합시다.", 
+          x: "단순히 'See you next week'보다 훨씬 프로페셔널한 느낌을 줍니다. 회의나 논의를 마치고 다음을 기약할 때 쓰는 핵심 비즈니스 표현입니다.",
+          examples: [
+            "I'll gather the data and let's touch base tomorrow.",
+            "Let's touch base on this project after the holidays.",
+            "We need to touch base regarding the new client's request."
+          ]
+        },
+        { 
+          e: "Please keep me in the loop.", 
+          k: "진행 상황을 계속 공유해 주세요.", 
+          x: "'루프(고리)' 안에 나를 계속 두라는 의미로, 어떤 일의 진행 상황이나 결정 사항을 이메일 참조나 메신저로 계속 알려달라고 할 때 아주 자주 쓰입니다.",
+          examples: [
+            "Keep me in the loop if anything changes.",
+            "I'm going on vacation, but keep me in the loop.",
+            "Make sure to keep the manager in the loop on this issue."
+          ]
+        },
+        { 
+          e: "I've been keeping busy.", 
+          k: "요즘 바쁘게 지내고 있어요.", 
+          x: "'How have you been?'(어떻게 지냈어?)라는 질문에 'I am fine' 대신 쓸 수 있는 훌륭한 스몰톡 대답입니다. 긍정적이면서도 자연스러운 뉘앙스를 줍니다.",
+          examples: [
+            "I've been keeping busy with work and family.",
+            "We've been keeping busy preparing for the launch.",
+            "I've been keeping busy, but I can't complain."
+          ]
+        }
+      ]
+    },
+    {
+      title: "2. 센스있는 감정 & 태도 표현 (Emotions & Attitudes)",
+      ex: [
+        { 
+          e: "I'm on the fence about it.", 
+          k: "아직 결정하지 못했어요. / 고민 중이에요.", 
+          x: "울타리 위에 앉아 어느 쪽으로 넘어갈지 고민하는 모습을 연상하면 됩니다. 찬성할지 반대할지, 할지 말지 망설일 때 쓰는 아주 네이티브스러운 표현입니다.",
+          examples: [
+            "I'm still on the fence about buying that car.",
+            "He is on the fence regarding the job offer.",
+            "Don't stay on the fence too long, you need to decide."
+          ]
+        },
+        { 
+          e: "It completely slipped my mind.", 
+          k: "깜빡 잊어버렸어요.", 
+          x: "'I forgot'보다 더 변명스럽지 않고 자연스럽게 '아차, 내 마음속에서 미끄러져 나갔네'라는 뉘앙스로, 무언가를 무심코 까먹었을 때 쓰기 좋습니다.",
+          examples: [
+            "I'm so sorry, your birthday completely slipped my mind.",
+            "I meant to call you back, but it slipped my mind.",
+            "Write it down so it doesn't slip your mind."
+          ]
+        }
+      ]
+    }
+  ];
+
   let currentDay = 1;
   const completedDays = JSON.parse(localStorage.getItem('study_completed_days') || '[]');
 
@@ -8050,16 +8126,19 @@
     const phrasalView = document.getElementById('phrasal-view');
     const grammarView = document.getElementById('grammar-view');
     const trainingView = document.getElementById('training-view');
+    const kiwiView = document.getElementById('kiwi-view');
+    
     const navStudy = document.getElementById('nav-study');
     const navVerbs = document.getElementById('nav-verbs');
     const navPreps = document.getElementById('nav-preps');
     const navPhrasal = document.getElementById('nav-phrasal');
     const navGrammar = document.getElementById('nav-grammar');
     const navTraining = document.getElementById('nav-training');
+    const navKiwi = document.getElementById('nav-kiwi');
 
     // Reset all
-    [studyView, mainContent, verbsView, prepsView, phrasalView, grammarView, trainingView].forEach(v => { if(v) v.style.display = 'none'; });
-    [navStudy, navVerbs, navPreps, navPhrasal, navGrammar, navTraining].forEach(n => { if(n) n.classList.remove('active'); });
+    [studyView, mainContent, verbsView, prepsView, phrasalView, grammarView, trainingView, kiwiView].forEach(v => { if(v) v.style.display = 'none'; });
+    [navStudy, navVerbs, navPreps, navPhrasal, navGrammar, navTraining, navKiwi].forEach(n => { if(n) n.classList.remove('active'); });
 
     if (view === 'study') {
       studyView.style.display = 'block';
@@ -8081,6 +8160,10 @@
       grammarView.style.display = 'block';
       navGrammar.classList.add('active');
       renderGrammar();
+    } else if (view === 'kiwi') {
+      kiwiView.style.display = 'block';
+      if(navKiwi) navKiwi.classList.add('active');
+      renderKiwi();
     }
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
@@ -8114,6 +8197,7 @@
     else if(type === 'prep') data = basicPreps[vIdx];
     else if(type === 'phrasal') data = phrasalVerbs[vIdx];
     else if(type === 'grammar') data = nativeGrammar[vIdx];
+    else if(type === 'kiwi') data = kiwiExpressions[vIdx];
     else data = curriculum[vIdx]; // day view
 
     const masteryId = (type === 'day') ? `mastery-day-${vIdx}` : `mastery-${type}-${vIdx}`;
@@ -8137,6 +8221,23 @@
       } else {
         document.getElementById(`essence-${masteryId}`).textContent = lesson.t;
         document.getElementById(`principle-${masteryId}`).textContent = lesson.d;
+      }
+    } else if (type === 'kiwi') {
+      const sentence = data.ex[sIdx];
+      document.getElementById(`essence-${masteryId}`).innerHTML = `"<span style="color:var(--accent);">${sentence.e}</span>" <button class="speak-btn" style="margin-left:8px;" onclick="event.stopPropagation(); speakText('${sentence.e.replace(/'/g, "\\'")}')">🔊</button>`;
+      document.getElementById(`principle-${masteryId}`).innerHTML = `<span style="color:var(--text); font-weight:700;">의미: </span>${sentence.k}<br><br><span style="color:var(--text); font-weight:700;">인사이트: </span>${sentence.x}`;
+      
+      const examplesDiv = document.getElementById(`examples-${masteryId}`);
+      if (examplesDiv && sentence.examples) {
+        examplesDiv.innerHTML = `<div style="font-size:14px; font-weight:800; color:var(--accent); margin-bottom:8px;">📚 실전 예문 3선</div>` + 
+          sentence.examples.map(ex => `
+            <div class="extra-item" style="display:flex; justify-content:space-between; align-items:center; background:var(--bg); padding:12px 16px; border-radius:8px; border:1px solid var(--border2);">
+              <div style="font-size:15px; font-weight:500; color:var(--text);">${ex}</div>
+              <button class="speak-btn" style="position:static; margin-left:10px;" onclick="event.stopPropagation(); speakText('${ex.replace(/'/g, "\\'")}')">🔊</button>
+            </div>
+          `).join('');
+      } else if (examplesDiv) {
+        examplesDiv.innerHTML = '';
       }
     } else {
       const sentence = data.ex[sIdx];
@@ -8358,6 +8459,35 @@
     `;}).join('<div class="divider" style="margin:60px 0;"></div>');
   }
 
+  function renderKiwi() {
+    const grid = document.getElementById('kiwi-grid');
+    grid.innerHTML = kiwiExpressions.map((v, vIdx) => {
+      const masteryId = `mastery-kiwi-${vIdx}`;
+      return `
+      <div class="verb-section-master">
+        <div class="chapter-title" style="font-size: 24px; margin-bottom: 20px; color: var(--accent);">${v.title}</div>
+        <div class="mastery-split">
+          <div class="mastery-left">
+            ${v.ex.map((x, sIdx) => `
+              <div class="sentence-card" id="sent-kiwi-${vIdx}-${sIdx}" data-mastery="${masteryId}" onclick="selectSentence('kiwi', ${vIdx}, ${sIdx})">
+                <div class="sentence-en">${x.e} <button class="speak-btn" style="margin-left:8px;" onclick="event.stopPropagation(); speakText('${x.e.replace(/'/g, "\\'")}')">🔊</button></div>
+                <div class="sentence-ko">${x.k}</div>
+              </div>
+            `).join('')}
+          </div>
+          <div class="mastery-right" id="${masteryId}">
+            <div class="mastery-circle" style="background: var(--surface); border: 1px solid var(--border); border-radius: 20px; padding: 40px; text-align: left; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+              <h3 style="color:var(--accent); font-size: 24px; margin-bottom: 12px; font-weight:800;" id="essence-${masteryId}">표현을 선택하세요</h3>
+              <p style="font-size:15px; color:var(--text-dim); line-height:1.6;" id="principle-${masteryId}">좌측 리스트를 클릭하면 깊이 있는 인사이트와 실전 예문 3개가 나타납니다.</p>
+              <div id="examples-${masteryId}" style="margin-top:24px; display:flex; flex-direction:column; gap:12px;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      `;
+    }).join('<div class="divider" style="margin:60px 0;"></div>');
+  }
+
   // Expose globals for inline HTML onclick handlers
   window.showView = showView;
   window.toggleComplete = toggleComplete;
@@ -8522,6 +8652,8 @@
     renderVerbs();
     renderPreps();
     renderPhrasal();
+    if (typeof renderGrammar === 'function') renderGrammar();
+    if (typeof renderKiwi === 'function') renderKiwi();
   };
 </script>
 
