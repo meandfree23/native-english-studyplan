@@ -31,8 +31,9 @@
       position: sticky; top: 0; z-index: 100;
       background: rgba(13,16,14,0.92); backdrop-filter: blur(12px);
       border-bottom: 1px solid var(--border);
-      display: flex; align-items: center; justify-content: space-between;
+      display: flex; align-items: center; justify-content: center;
       padding: 0 32px; height: 60px;
+      gap: 30px;
     }
     html.theme-light .nav { background: rgba(242,247,244,0.92); }
     .nav-logo { font-size: 15px; font-weight: 700; color: var(--accent); }
@@ -56,6 +57,7 @@
       background: var(--surface); border-bottom: 1px solid var(--border);
       overflow-x: auto; white-space: nowrap; padding: 15px 0;
       scrollbar-width: none;
+      text-align: center;
     }
     .day-selector-strip::-webkit-scrollbar { display: none; }
     .day-pill {
