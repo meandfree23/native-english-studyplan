@@ -7002,10 +7002,7 @@
           const lid = `day-${day}-lesson-${i}`;
           const score = memoryScores[lid] || 0;
           return `
-          <div class="sentence-card" id="sent-day-${day}-${i}" data-mastery="${dayMasteryId}" onclick="selectSentence('day', ${day}, ${i}); updateMemoryProgress('${lid}', 5)">
-            <div class="memory-indicator" style="margin-bottom:8px;">
-              <div class="memory-bar-bg"><div class="memory-bar-fill" id="bar-${lid}" style="width:${score}%"></div></div>
-            </div>
+          <div class="sentence-card" id="sent-day-${day}-${i}" data-mastery="${dayMasteryId}" onclick="selectSentence('day', ${day}, ${i})">
             <div class="chapter-num">LESSON 0${i+1}</div>
             <div class="sentence-en">${l.t}</div>
             <div class="sentence-ko">${l.d}</div>
