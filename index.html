@@ -490,6 +490,14 @@
   <section class="section">
     <div class="container">
       <p class="section-title">Deep Dive</p>
+      <div class="study-toggles">
+        <label class="toggle-label">
+          <input type="checkbox" onchange="toggleHideEn()"> 영어 가리기 (Hover 확인)
+        </label>
+        <label class="toggle-label">
+          <input type="checkbox" onchange="toggleHideKo()"> 한국어 가리기 (Hover 확인)
+        </label>
+      </div>
       <div class="chapters-grid" id="chapter-grid"></div>
     </div>
   </section>
@@ -7478,17 +7486,7 @@
     const chapGrid = document.getElementById('chapter-grid');
     const dayMasteryId = `mastery-day-${day}`;
     chapGrid.classList.add('mastery-split');
-    const toggleHTML = `
-      <div class="study-toggles">
-        <label class="toggle-label">
-          <input type="checkbox" onchange="toggleHideEn()" ${document.body.classList.contains('hide-en-mode') ? 'checked' : ''}> 영어 가리기 (Hover 확인)
-        </label>
-        <label class="toggle-label">
-          <input type="checkbox" onchange="toggleHideKo()" ${document.body.classList.contains('hide-ko-mode') ? 'checked' : ''}> 한국어 가리기 (Hover 확인)
-        </label>
-      </div>
-    `;
-    chapGrid.innerHTML = toggleHTML + `
+    chapGrid.innerHTML = `
       <div class="mastery-left">
         ${data.lessons.map((l, i) => {
           const lid = `day-${day}-lesson-${i}`;
