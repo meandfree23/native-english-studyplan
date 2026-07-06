@@ -705,6 +705,72 @@
             .stats-grid { grid-template-columns: 1fr; gap: 10px; margin-bottom: 25px; }
         }
     
+
+  /* Unified Review Center & Progress Widget */
+  :root {
+    --ember: #f43f5e;
+  }
+  .progress-widget {
+    background: linear-gradient(135deg, rgba(30,41,59,0.9) 0%, rgba(15,23,42,0.95) 100%);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 24px;
+    padding: 25px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+  }
+  .review-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .review-card {
+    background: var(--surface);
+    border-radius: 16px;
+    padding: 20px;
+    border: 1px solid var(--border);
+    position: relative;
+    transition: all 0.3s;
+  }
+  .review-card:hover {
+    transform: translateY(-2px);
+    border-color: var(--accent);
+  }
+  .review-card .star-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: none;
+    border: none;
+    color: #fbbf24;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .review-card .voice-btn {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: opacity 0.2s;
+  }
+  .review-card .voice-btn:hover {
+    opacity: 1;
+  }
+  .review-card .meta {
+    font-size: 10px;
+    font-weight: 800;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+
 </style>
   <script src="https://www.youtube.com/iframe_api"></script>
   
@@ -731,7 +797,8 @@
     <a href="#" onclick="showView('phrasal')" id="nav-phrasal">구동사(Phrasal)</a>
     <a href="#" onclick="showView('kiwi')" id="nav-kiwi">🥝 키위새</a>
     <a href="#quiz-section">최종 테스트</a>
-    <a href="#" onclick="showView('master')" id="nav-master" style="color: var(--accent); font-weight: 700;">💎 Master Dashboard</a>
+    <a href="#" onclick="showView('review')" id="nav-review" style="color: var(--accent); font-weight: 700;">별표 복습 (Review)</a>
+    <a href="master/index.html" id="nav-master" style="color: var(--ember); font-weight: 700; margin-left: 10px;">💎 Master Dashboard</a>
     <button id="theme-toggle" class="theme-btn" style="margin-left: 20px;">🌓 테마</button>
   </div>
 </nav>
@@ -746,6 +813,27 @@
 <div id="study-plan-view">
   <div class="day-selector-strip">
     <div class="container" id="pill-container"></div>
+  </div>
+  
+  <div class="container" style="margin-top: 25px; margin-bottom: 20px;" id="master-progress-widget-container">
+    <div class="progress-widget">
+      <div style="display: flex; align-items: center; gap: 20px;">
+        <div style="font-size: 40px;">💎</div>
+        <div>
+          <h4 style="font-size: 18px; font-weight: 900; color: white; margin-bottom: 4px;">365 마스터 코스 진도율</h4>
+          <p style="font-size: 13px; color: var(--text-dim);" id="master-widget-status">현재 Day 1 학습 중 (익힌 문장: 0/1200)</p>
+        </div>
+      </div>
+      <div style="display: flex; align-items: center; gap: 25px; flex-grow: 1; max-width: 400px;">
+        <div style="background: rgba(255,255,255,0.05); border-radius: 10px; height: 10px; flex-grow: 1; overflow: hidden; position: relative;">
+          <div id="master-widget-progress-bar" style="background: linear-gradient(90deg, var(--accent), var(--ember)); width: 0%; height: 100%; transition: width 0.5s ease;"></div>
+        </div>
+        <span style="font-size: 18px; font-weight: 900; color: white; min-width: 50px; text-align: right;" id="master-widget-pct">0%</span>
+      </div>
+      <a href="master/index.html" class="complete-btn" style="background: var(--accent); color: var(--bg); text-decoration: none; padding: 12px 24px; border-radius: 16px; font-weight: 800; font-size: 14px; transition: all 0.3s; display: inline-flex; align-items: center; gap: 8px;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='none'">
+        훈련 이어가기 <span style="font-size: 12px;">➔</span>
+      </a>
+    </div>
   </div>
   <div id="study-plan-video-area"></div>
 </div>
@@ -916,75 +1004,41 @@
 </section>
 
 
-<div id="master-view" style="display:none;" class="theme-dark master-wrapper">
+<div id="review-view" style="display:none;" class="fade-in">
+  <section class="section">
+    <div class="container">
+      <p class="section-title">My Review Room</p>
+      <h2 class="section-heading">나만의 별표 복습 노트</h2>
+      <p style="color:var(--text-dim); margin-bottom:30px;">기본 코스 및 365 마스터 코스에서 별표(★)를 선택한 문장들을 모아 한눈에 학습하고 가리기 테스트를 할 수 있는 공간입니다.</p>
 
-    <div id="briefing-overlay">
-        <div class="briefing-card">
-            <h1 id="brief-welcome">Good Morning!</h1>
-            <p class="sub">오늘도 매일 5문장의 기적을 이어가 볼까요?</p>
-            
-            <div class="stats-grid">
-                <div class="stat-box">
-                    <span class="stat-val" id="stat-total-progress">0%</span>
-                    <span class="stat-lbl">전체 학습 진도</span>
-                </div>
-                <div class="stat-box">
-                    <span class="stat-val" id="stat-learned-count">0/1200</span>
-                    <span class="stat-lbl">익힌 문장 수</span>
-                </div>
-            </div>
+      <div class="study-toggles" style="margin-bottom: 30px;">
+        <label class="toggle-label">
+          <input type="checkbox" onchange="toggleReviewHideEn(this.checked)"> 영어 가리기 (Hover 확인)
+        </label>
+        <label class="toggle-label">
+          <input type="checkbox" onchange="toggleReviewHideKo(this.checked)"> 한국어 가리기 (Hover 확인)
+        </label>
+      </div>
 
-            <div class="today-focus">
-                <div class="focus-hdr">TODAY'S NERUAL FOCUS</div>
-                <div class="focus-title" id="brief-today-target">Day 1: [Take] 본질 체화</div>
-            </div>
-
-            <button class="start-btn" onclick="masterCloseBriefing()">학습 시작하기</button>
-        </div>
-    </div>
-
-    <div class="sidebar">
-        <div class="logo-area">💎 365 MASTER</div>
-        <div id="month-list"></div>
-    </div>
-
-    <div class="main-dashboard">
-        <div class="master-header">
-            <div class="header-title">
-                <h2 id="current-month-name">Month 1</h2>
-                <p id="current-day-num">Day 1</p>
-            </div>
-            <a href="../index.html" style="color: var(--primary); font-weight: 700; text-decoration: none; border: 1px solid rgba(56,189,248,0.3); padding: 8px 16px; border-radius: 20px; font-size: 14px; transition: all 0.2s;" onmouseover="this.style.background='rgba(56,189,248,0.1)';" onmouseout="this.style.background='transparent';">← Back to 365 Course</a>
+      <div class="review-split-container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px;">
+        <!-- Left: Core Course Bookmarks -->
+        <div class="review-column">
+          <h3 style="font-size: 18px; font-weight:800; border-bottom: 2px solid var(--accent); padding-bottom: 10px; margin-bottom: 20px; color: var(--accent);">
+            📚 코어 코스 오답노트
+          </h3>
+          <div id="core-review-list" class="review-list"></div>
         </div>
 
-        <div class="day-selector" id="day-selector"></div>
-
-        <div class="master-content">
-            <div class="learning-path">
-                <div id="master-video-area"></div>
-                <div class="essence-box">
-                    <h3 id="core-verb-label">VERB: TAKE</h3>
-                    <p id="governing-phrase">외부의 것을 내 의지로 '포획'하여 소유의 영역으로 끌어오다</p>
-                </div>
-                <div id="sentence-container"></div>
-            </div>
-
-            <div class="mastery-panel">
-                <div class="panel-title">NEURAL MASTERY DASHBOARD</div>
-                <div class="visual-container">
-                    <div class="v-icon" id="mastery-icon">🎯</div>
-                    <div class="v-title" id="mastery-title">Cognitive Capture</div>
-                    <div class="v-desc" id="mastery-desc">대상을 내 소유의 영역으로 확정하는 본능적인 동사적 행위입니다.</div>
-                    <div class="neural-mapping" id="neural-mapping">
-                        <div class="map-label">NEURAL TARGET</div>
-                        <div class="map-val" id="neural-target-val">POINT CAPTURE</div>
-                    </div>
-                </div>
-            </div>
+        <!-- Right: 365 Master Bookmarks -->
+        <div class="review-column">
+          <h3 style="font-size: 18px; font-weight:800; border-bottom: 2px solid var(--ember); padding-bottom: 10px; margin-bottom: 20px; color: var(--ember);">
+            💎 365 마스터 코스 오답노트
+          </h3>
+          <div id="master-review-list" class="review-list"></div>
         </div>
+      </div>
     </div>
-
-    
+  </section>
 </div>
 
 <div class="progress-float">
@@ -9563,8 +9617,8 @@
     const navMaster = document.getElementById('nav-master');
 
     // Reset all
-    [studyView, mainContent, verbsView, prepsView, phrasalView, grammarView, trainingView, kiwiView, masterView].forEach(v => { if(v) v.style.display = 'none'; });
-    [navStudy, navVerbs, navPreps, navPhrasal, navGrammar, navTraining, navKiwi, navMaster].forEach(n => { if(n) n.classList.remove('active'); });
+    [studyView, mainContent, verbsView, prepsView, phrasalView, grammarView, trainingView, kiwiView, document.getElementById('review-view')].forEach(v => { if(v) v.style.display = 'none'; });
+    [navStudy, navVerbs, navPreps, navPhrasal, navGrammar, navTraining, navKiwi, document.getElementById('nav-review')].forEach(n => { if(n) n.classList.remove('active'); });
 
     // Handle hero visibility
     const heroSection = document.querySelector('.hero');
@@ -9580,6 +9634,7 @@
       studyView.style.display = 'block';
       mainContent.style.display = 'block';
       if(navStudy) navStudy.classList.add('active');
+      updateMasterWidget();
     } else if (view === 'verbs') {
       verbsView.style.display = 'block';
       if(navVerbs) navVerbs.classList.add('active');
@@ -9600,17 +9655,12 @@
       kiwiView.style.display = 'block';
       if(navKiwi) navKiwi.classList.add('active');
       if(typeof renderKiwi === 'function') renderKiwi();
-    } else if (view === 'master') {
-      masterView.style.display = 'flex'; // master uses flex
-      if(navMaster) navMaster.classList.add('active');
-      if(typeof masterInit === 'function') {
-        if (!window.masterInitialized) {
-            masterInit();
-            window.masterInitialized = true;
-        } else {
-            if(typeof masterLoadDay === 'function') masterLoadDay(masterActiveDay);
-        }
-      }
+    } else if (view === 'review') {
+      const reviewView = document.getElementById('review-view');
+      const navReview = document.getElementById('nav-review');
+      if (reviewView) reviewView.style.display = 'block';
+      if (navReview) navReview.classList.add('active');
+      renderReview();
     }
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
@@ -9748,7 +9798,7 @@
         </div>
       ` : '';
       return `
-      <div class="verb-section-master">
+      <div class="verb-section-master" id="verb-${v.name.toLowerCase()}">
         <div class="chapter-title" style="font-size: 24px; margin-bottom: 20px;">${v.name} Mastery</div>
         ${videoHtml}
         <div class="mastery-split">
@@ -9911,7 +9961,7 @@
     grid.innerHTML = kiwiExpressions.map((v, vIdx) => {
       const masteryId = `mastery-kiwi-${vIdx}`;
       return `
-      <div class="verb-section-master">
+      <div class="verb-section-master" id="verb-${v.name.toLowerCase()}">
         <div class="chapter-title" style="font-size: 24px; margin-bottom: 20px; color: var(--accent);">${v.title}</div>
         <div class="mastery-split">
           <div class="mastery-left">
@@ -10461,6 +10511,153 @@
         // ─────────────────────────────────────────────────────────
     
 // ---------------------------
+
+  // --- Unified Review Center Logic ---
+  let reviewHideEn = false;
+  let reviewHideKo = false;
+
+  function toggleReviewHideEn(checked) {
+    reviewHideEn = checked;
+    const view = document.getElementById('review-view');
+    if (view) view.classList.toggle('hide-en-mode', checked);
+  }
+
+  function toggleReviewHideKo(checked) {
+    reviewHideKo = checked;
+    const view = document.getElementById('review-view');
+    if (view) view.classList.toggle('hide-ko-mode', checked);
+  }
+
+  function renderReview() {
+    const coreList = document.getElementById('core-review-list');
+    const starredSentences = JSON.parse(localStorage.getItem('study_starred_sentences') || '{}');
+    coreList.innerHTML = '';
+    
+    let coreCount = 0;
+    for (const key in starredSentences) {
+      if (starredSentences[key]) {
+        // Core study structure: day-1-lesson-0
+        const match = key.match(/day-(\d+)-lesson-(\d+)/);
+        if (match) {
+          const day = parseInt(match[1]);
+          const lessonIdx = parseInt(match[2]);
+          const dayData = curriculum[day];
+          if (dayData && dayData.lessons && dayData.lessons[lessonIdx]) {
+            coreCount++;
+            const lesson = dayData.lessons[lessonIdx];
+            const card = document.createElement('div');
+            card.className = 'review-card';
+            card.innerHTML = `
+              <div class="meta" style="color:var(--accent);">Day ${day} · Lesson ${lessonIdx + 1}</div>
+              <div class="sentence-en">${escapeHTML(lesson.t)}</div>
+              <div class="sentence-ko">${escapeHTML(lesson.d)}</div>
+              <button class="star-btn" onclick="removeCoreStar(event, '${key}')">★</button>
+              <button class="voice-btn" onclick="event.stopPropagation(); speakText('${lesson.t.replace(/'/g, "\\'")}')">🔊</button>
+            `;
+            coreList.appendChild(card);
+          }
+        }
+      }
+    }
+    if (coreCount === 0) {
+      coreList.innerHTML = `<p style="color: var(--text-dim); text-align: center; padding: 40px 0;">아직 추가된 문장이 없습니다.</p>`;
+    }
+
+    const masterList = document.getElementById('master-review-list');
+    masterList.innerHTML = '';
+    
+    let masterCount = 0;
+    for (const key in starredSentences) {
+      if (starredSentences[key]) {
+        // Master dashboard structure: 61-0 (pure digits and dash)
+        if (key.match(/^\d+-\d+$/)) {
+          const parts = key.split('-');
+          const day = parts[0];
+          const idx = parseInt(parts[1]);
+          const dayData = window.dayData && window.dayData[day];
+          if (dayData && dayData.sentences && dayData.sentences[idx]) {
+            masterCount++;
+            const sentence = dayData.sentences[idx];
+            const text = sentence.txt || sentence.en || '';
+            const card = document.createElement('div');
+            card.className = 'review-card';
+            card.innerHTML = `
+              <div class="meta" style="color:var(--ember);">Day ${day} · Master ${idx + 1}</div>
+              <div class="sentence-en">${escapeHTML(text)}</div>
+              <div class="sentence-ko">${escapeHTML(sentence.t || sentence.kr)}</div>
+              <button class="star-btn" onclick="removeCoreStar(event, '${key}')">★</button>
+              <button class="voice-btn" onclick="event.stopPropagation(); speakText('${text.replace(/'/g, "\\'")}')">🔊</button>
+            `;
+            masterList.appendChild(card);
+          }
+        }
+      }
+    }
+    if (masterCount === 0) {
+      masterList.innerHTML = `<p style="color: var(--text-dim); text-align: center; padding: 40px 0;">아직 추가된 문장이 없습니다.</p>`;
+    }
+  }
+
+  function removeCoreStar(evt, key) {
+    evt.stopPropagation();
+    const starredSentences = JSON.parse(localStorage.getItem('study_starred_sentences') || '{}');
+    delete starredSentences[key];
+    localStorage.setItem('study_starred_sentences', JSON.stringify(starredSentences));
+    
+    // Update local card if visible
+    const starBtn = document.querySelector(`[onclick*="toggleStar(event, '${key}')"]`);
+    if (starBtn) {
+      starBtn.classList.remove('active');
+      starBtn.textContent = '☆';
+    }
+    renderReview();
+  }
+
+  // --- Master Progress Widget Logic ---
+  function updateMasterWidget() {
+    const progress = JSON.parse(localStorage.getItem('365_progress')) || { learnedSentences: {}, completedDays: [] };
+    const learnedSentencesCount = Object.keys(progress.learnedSentences || {}).length;
+    const totalSentences = 1200;
+    const pct = Math.round((learnedSentencesCount / totalSentences) * 100) || 0;
+    
+    let activeDay = 1;
+    for(let i=1; i<=240; i++) {
+        if(!progress.completedDays.includes(i)) {
+            activeDay = i;
+            break;
+        }
+    }
+    
+    const statusEl = document.getElementById('master-widget-status');
+    const barEl = document.getElementById('master-widget-progress-bar');
+    const pctEl = document.getElementById('master-widget-pct');
+    
+    if (statusEl) statusEl.textContent = `현재 Day ${activeDay} 학습 중 (익힌 문장: ${learnedSentencesCount}/${totalSentences})`;
+    if (barEl) barEl.style.width = pct + '%';
+    if (pctEl) pctEl.textContent = pct + '%';
+  }
+
+  // --- Deep-linking URL query logic ---
+  window.addEventListener('DOMContentLoaded', () => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const viewParam = urlParams.get('view');
+    const verbParam = urlParams.get('verb');
+    if (viewParam) {
+      showView(viewParam);
+      if (viewParam === 'verbs' && verbParam) {
+        setTimeout(() => {
+          const targetEl = document.getElementById(`verb-${verbParam.toLowerCase()}`);
+          if (targetEl) {
+            targetEl.scrollIntoView({ behavior: 'smooth' });
+            targetEl.style.outline = '3px solid var(--accent)';
+            setTimeout(() => { targetEl.style.outline = 'none'; }, 2000);
+          }
+        }, 500);
+      }
+    } else {
+      updateMasterWidget();
+    }
+  });
 </script>
 
 </body>
