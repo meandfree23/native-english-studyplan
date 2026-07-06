@@ -723,7 +723,7 @@
 <nav class="nav">
   <div class="nav-logo">📘 365일 스터디 코스</div>
   <div class="nav-links">
-    <a href="#" onclick="showView('study')" id="nav-study" class="active">365일 스터디 코스</a>
+    <a href="#" onclick="showView('study')" id="nav-study" class="active">Overview (기존 코스)</a>
     <a href="#" onclick="showView('grammar')" id="nav-grammar">원어민 영문법</a>
     <a href="#" onclick="showView('training')" id="nav-training">실전 훈련(Training)</a>
     <a href="#" onclick="showView('verbs')" id="nav-verbs">기본동사(Verbs)</a>
@@ -961,6 +961,7 @@
 
         <div class="master-content">
             <div class="learning-path">
+                <div id="master-video-area"></div>
                 <div class="essence-box">
                     <h3 id="core-verb-label">VERB: TAKE</h3>
                     <p id="governing-phrase">외부의 것을 내 의지로 '포획'하여 소유의 영역으로 끌어오다</p>
@@ -9955,6 +9956,7 @@
   };
 
   window.onload = () => {
+    showView('master');
     // Bind theme toggle button AFTER DOM is ready
     const themeBtn = document.getElementById('theme-toggle');
     if (themeBtn) themeBtn.onclick = toggleTheme;
@@ -10321,6 +10323,18 @@
             document.getElementById('mastery-title').innerText = data.vT || "Essence Discovery";
             document.getElementById('mastery-desc').innerText = data.vD || "지각과 인지의 신경망을 고도화하는 과정입니다.";
             document.getElementById('neural-mapping').style.display = 'none';
+
+            // Inject Video
+            const videoArea = document.getElementById('master-video-area');
+            if (videoArea && typeof curriculum !== 'undefined' && curriculum[d] && curriculum[d].videoId) {
+                videoArea.innerHTML = `
+                <div style="border-radius:24px; overflow:hidden; margin-bottom: 25px; box-shadow: 0 15px 35px rgba(0,0,0,0.4); border: 1px solid rgba(255,255,255,0.05);">
+                    <iframe style="width:100%; aspect-ratio:16/9; border:none;" src="https://www.youtube.com/embed/${curriculum[d].videoId}?enablejsapi=1" allowfullscreen></iframe>
+                </div>`;
+            } else if (videoArea) {
+                videoArea.innerHTML = '';
+            }
+
 
             // Sentences
             const container = document.getElementById('sentence-container');
