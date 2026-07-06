@@ -374,6 +374,86 @@
             .essence-box { padding: 20px; }
             .stats-grid { grid-template-columns: 1fr; gap: 10px; margin-bottom: 25px; }
         }
+
+        /* Hide Toggles & Blur */
+        .right-controls {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .study-toggles {
+            display: flex;
+            gap: 15px;
+            background: rgba(255,255,255,0.05);
+            padding: 8px 15px;
+            border-radius: 20px;
+        }
+        .toggle-label {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            cursor: pointer;
+            font-size: 13px;
+            font-weight: 700;
+            color: var(--text-dim);
+            user-select: none;
+            transition: color 0.2s;
+        }
+        .toggle-label:hover { color: white; }
+        .toggle-label input { display: none; }
+        .toggle-btn {
+            width: 36px;
+            height: 20px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 10px;
+            position: relative;
+            transition: background 0.3s;
+        }
+        .toggle-btn::after {
+            content: '';
+            position: absolute;
+            top: 2px; left: 2px;
+            width: 16px; height: 16px;
+            background: white;
+            border-radius: 50%;
+            transition: transform 0.3s cubic-bezier(0.4, 0.0, 0.2, 1);
+        }
+        .toggle-label input:checked + .toggle-btn { background: var(--primary); }
+        .toggle-label input:checked + .toggle-btn::after { transform: translateX(16px); }
+
+        body.hide-en-mode .sentence-en {
+            filter: blur(8px);
+            opacity: 0.5;
+            transition: all 0.3s;
+        }
+        body.hide-en-mode .sentence-en:hover { filter: blur(0); opacity: 1; }
+
+        body.hide-ko-mode .sentence-kr {
+            filter: blur(6px);
+            opacity: 0.5;
+            transition: all 0.3s;
+        }
+        body.hide-ko-mode .sentence-kr:hover { filter: blur(0); opacity: 1; }
+
+        /* Star Bookmark */
+        .star-btn {
+            position: absolute;
+            top: 15px;
+            right: 80px;
+            background: none;
+            border: none;
+            font-size: 20px;
+            color: var(--text-dim);
+            cursor: pointer;
+            transition: all 0.2s;
+            opacity: 0.3;
+        }
+        .star-btn:hover { opacity: 0.8; transform: scale(1.1); }
+        .star-btn.starred {
+            color: #fbbf24;
+            opacity: 1;
+            filter: drop-shadow(0 0 5px rgba(251,191,36,0.5));
+        }
     </style>
 </head>
 <body>
@@ -413,7 +493,19 @@
                 <h2 id="current-month-name">Month 1</h2>
                 <p id="current-day-num">Day 1</p>
             </div>
-            <a href="../index.html" style="color: var(--primary); font-weight: 700; text-decoration: none; border: 1px solid rgba(56,189,248,0.3); padding: 8px 16px; border-radius: 20px; font-size: 14px; transition: all 0.2s;" onmouseover="this.style.background='rgba(56,189,248,0.1)';" onmouseout="this.style.background='transparent';">← Back to 365 Course</a>
+            <div class="right-controls">
+                <div class="study-toggles">
+                    <label class="toggle-label">
+                        <input type="checkbox" id="toggle-en" onchange="document.body.classList.toggle('hide-en-mode', this.checked)">
+                        <div class="toggle-btn"></div> 영어 가리기
+                    </label>
+                    <label class="toggle-label">
+                        <input type="checkbox" id="toggle-ko" onchange="document.body.classList.toggle('hide-ko-mode', this.checked)">
+                        <div class="toggle-btn"></div> 한국어 가리기
+                    </label>
+                </div>
+                <a href="../index.html" style="color: var(--primary); font-weight: 700; text-decoration: none; border: 1px solid rgba(56,189,248,0.3); padding: 8px 16px; border-radius: 20px; font-size: 14px; transition: all 0.2s;" onmouseover="this.style.background='rgba(56,189,248,0.1)';" onmouseout="this.style.background='transparent';">← Back to 365 Course</a>
+            </div>
         </header>
 
         <div class="day-selector" id="day-selector"></div>
@@ -471,6 +563,22 @@
         let activeMonth = 3;
         let activeDay = 61;
         let userProgress = JSON.parse(localStorage.getItem('365_progress')) || {};
+        let starredSentences = JSON.parse(localStorage.getItem('365_starredSentences')) || {};
+
+        function toggleStarMaster(evt, key) {
+            evt.stopPropagation();
+            const btn = evt.currentTarget;
+            if (starredSentences[key]) {
+                delete starredSentences[key];
+                btn.classList.remove('starred');
+                btn.innerText = '☆';
+            } else {
+                starredSentences[key] = true;
+                btn.classList.add('starred');
+                btn.innerText = '★';
+            }
+            localStorage.setItem('365_starredSentences', JSON.stringify(starredSentences));
+        }
         if (!userProgress.learnedSentences) userProgress.learnedSentences = {};
         if (!userProgress.completedDays) userProgress.completedDays = [];
 
@@ -645,6 +753,7 @@
                     <div class="sentence-kr">${safeKr}</div>
                     <div class="sentence-nuance" style="padding-bottom:36px">${safeNuance}</div>
                     <div class="gender-badge">${genderLabel}</div>
+                    <button class="star-btn ${starredSentences[d+'-'+idx] ? 'starred' : ''}" onclick="toggleStarMaster(event, '${d}-${idx}')" title="오답 노트에 저장">${starredSentences[d+'-'+idx] ? '★' : '☆'}</button>
                     <button id="voice-btn-${d}-${idx}" class="voice-btn" title="${genderLabel} 네이티브 스피치 재생" onclick="event.stopPropagation(); saveProgress(${d}, ${idx}); this.closest('.sentence-card').classList.add('completed'); speakSentence('${text.replace(/'/g, "\\'").replace(/"/g, '&quot;')}', '${gender}', 'voice-btn-${d}-${idx}');">🔊</button>
                 `;
                 card.onclick = () => {
