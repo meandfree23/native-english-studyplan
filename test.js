@@ -1,1001 +1,4 @@
-<!DOCTYPE html>
-<html lang="ko" class="theme-dark">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>365일 스터디 코스 — 원어민 영어 완벽 정복</title>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
-  <style>
-    html.theme-dark {
-      --bg: #0C100E; --surface: #131A16; --surface2: #1E2B24;
-      --border: rgba(82,183,136,0.12); --border2: rgba(82,183,136,0.22);
-      --text: #E8F0EB; --text-dim: #8BA898;
-      --accent: #52B788; --gold: #D4A373; --ember: #E76F51;
-    }
-    html.theme-light {
-      --bg: #F2F7F4; --surface: #FFFFFF; --surface2: #E8F2EC;
-      --border: rgba(45,106,79,0.12); --border2: rgba(45,106,79,0.28);
-      --text: #1A2E22; --text-dim: #4D7A62;
-      --accent: #2D6A4F; --gold: #B07A3A; --ember: #D4522A;
-    }
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    body {
-      font-family: 'Noto Sans KR', sans-serif;
-      background: var(--bg); color: var(--text);
-      line-height: 1.7; min-height: 100vh;
-      overflow-x: hidden;
-    }
-    .nav {
-      position: sticky; top: 0; z-index: 100;
-      background: rgba(13,16,14,0.92); backdrop-filter: blur(12px);
-      border-bottom: 1px solid var(--border);
-      display: flex; align-items: center; justify-content: center;
-      padding: 0 32px; height: 60px;
-      gap: 30px;
-    }
-    html.theme-light .nav { background: rgba(242,247,244,0.92); }
-    .nav-logo { font-size: 15px; font-weight: 700; color: var(--accent); }
-    .nav-links a { font-size: 13px; color: var(--text-dim); text-decoration: none; margin-left: 20px; transition: color .2s; }
-    .nav-links a:hover { color: var(--accent); }
-    .theme-btn {
-      background: var(--surface2); border: 1px solid var(--border);
-      color: var(--text-dim); border-radius: 20px; padding: 6px 16px; font-size: 12px; cursor: pointer;
-    }
 
-    .hero {
-      background: linear-gradient(135deg, #0C100E 0%, #1B4332 50%, #0C100E 100%);
-      padding: 80px 32px 60px; text-align: center; position: relative;
-    }
-    html.theme-light .hero { background: linear-gradient(135deg, #E8F2EC 0%, #C5E0CF 50%, #E8F2EC 100%); }
-    .hero-tag { display: inline-block; background: rgba(82,183,136,0.15); color: var(--accent); font-size: 11px; padding: 6px 16px; border-radius: 20px; margin-bottom: 20px; font-weight: 700; }
-    .hero-title { font-size: clamp(32px, 5vw, 56px); font-weight: 900; margin-bottom: 16px; letter-spacing: -0.04em; }
-    .hero-sub { color: var(--text-dim); max-width: 600px; margin: 0 auto 30px; font-size: 16px; }
-    
-    .day-selector-strip {
-      background: var(--surface); border-bottom: 1px solid var(--border);
-      overflow-x: auto; white-space: nowrap; padding: 15px 0;
-      scrollbar-width: none;
-      text-align: center;
-    }
-    .day-selector-strip::-webkit-scrollbar { display: none; }
-    .day-pill {
-      display: inline-block; padding: 8px 18px; border-radius: 20px;
-      background: var(--surface2); border: 1px solid var(--border);
-      color: var(--text-dim); font-size: 13px; font-weight: 600;
-      cursor: pointer; margin-right: 10px; transition: all 0.2s;
-    }
-    .day-pill.active { background: var(--accent); color: white; transform: scale(1.05); }
-    .day-pill.completed { border-color: var(--accent); }
-
-    .container { max-width: 1100px; margin: 0 auto; padding: 0 32px; }
-    .section { padding: 60px 0; }
-    .section-title { font-size: 11px; font-weight: 800; color: var(--accent); letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 10px; text-align: center; }
-    .section-heading { font-size: 28px; font-weight: 800; margin-bottom: 10px; text-align: center; }
-    
-    .kpi-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
-    .kpi-card { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 24px; transition: transform .2s; }
-    .kpi-card:hover { transform: translateY(-4px); }
-    .kpi-icon { font-size: 24px; margin-bottom: 10px; }
-    .kpi-value { font-size: 20px; font-weight: 800; color: var(--accent); margin-bottom: 4px; }
-    .kpi-label { font-size: 14px; font-weight: 700; margin-bottom: 6px; }
-    .kpi-desc { font-size: 12px; color: var(--text-dim); line-height: 1.6; }
-
-    .chapters-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
-    .chapter-card { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 24px; position: relative; }
-    .chapter-num { font-size: 10px; color: var(--text-dim); font-weight: 700; margin-bottom: 8px; }
-    .chapter-title { font-size: 18px; font-weight: 800; margin-bottom: 8px; }
-    .chapter-desc { font-size: 13px; color: var(--text-dim); margin-bottom: 16px; }
-    .tag { background: var(--surface2); color: var(--accent); font-size: 10px; font-weight: 600; padding: 3px 10px; border-radius: 20px; margin-right: 5px; }
-
-    .compare-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; border-radius: 16px; overflow: hidden; margin-top: 20px; }
-    .compare-side { padding: 24px; height: 100%; text-align: center; }
-    .compare-side.left { background: rgba(231,111,81,0.06); border: 1px solid rgba(231,111,81,0.15); }
-    .compare-side.right { background: rgba(82,183,136,0.06); border: 1px solid rgba(82,183,136,0.15); }
-    .compare-item { font-size: 14px; margin-bottom: 16px; display: flex; flex-direction: column; align-items: center; }
-
-    .expr-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; }
-    .expr-card { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 20px; text-align: center; }
-    .expr-en { font-size: 16px; font-weight: 800; color: var(--accent); margin-bottom: 4px; }
-    .expr-ko { font-size: 13px; color: var(--text-dim); margin-bottom: 10px; }
-    .expr-example { font-size: 12px; font-style: italic; background: var(--surface2); padding: 10px; border-radius: 8px; }
-
-    .divider { height: 1px; background: var(--border); }
-
-    .footer { padding: 60px 0; text-align: center; background: var(--surface); border-top: 1px solid var(--border); }
-    
-    /* PROGRESS FLOAT */
-    .progress-float {
-      position: fixed; bottom: 30px; right: 30px; z-index: 1000;
-      background: var(--surface); border: 1px solid var(--border);
-      padding: 16px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-      text-align: center; transition: all 0.3s;
-    }
-    .circ-bg { width: 50px; height: 50px; border-radius: 50%; background: conic-gradient(var(--accent) var(--p), var(--surface2) 0deg); display: flex; align-items: center; justify-content: center; margin-bottom: 6px; }
-    .circ-inner { width: 40px; height: 40px; background: var(--surface); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 800; }
-
-    .complete-btn {
-      background: var(--accent); color: white; border: none; padding: 12px 30px;
-      border-radius: 30px; font-weight: 800; cursor: pointer; margin-top: 20px;
-      transition: opacity 0.2s;
-    }
-
-    /* QUIZ */
-    .quiz-container { background: var(--surface); border: 1px solid var(--border); border-radius: 20px; padding: 40px; text-align: center; }
-    .quiz-opt { background: var(--surface2); padding: 16px; border-radius: 12px; cursor: pointer; margin-bottom: 10px; text-align: left; }
-    .quiz-opt:hover { background: var(--border2); }
-    .quiz-opt.correct { background: var(--accent); color: white; }
-    .quiz-opt.wrong { background: var(--ember); color: white; }
-
-    @media (max-width: 700px) {
-      .compare-grid { grid-template-columns: 1fr; }
-      .container { padding: 0 20px; }
-    }
-    
-    .fade-in { animation: fadeIn 0.4s ease; }
-    @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
-
-    .speak-btn {
-      display: inline-flex; align-items: center; justify-content: center;
-      width: 26px; height: 26px; border-radius: 50%;
-      background: var(--surface2); border: 1px solid var(--border);
-      color: var(--accent); font-size: 12px; cursor: pointer;
-      margin-left: 8px; transition: all 0.2s; vertical-align: middle;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
-    .speak-btn:hover { background: var(--accent); color: white; transform: scale(1.1); }
-
-    .memory-indicator {
-      margin-bottom: 15px; position: relative;
-    }
-    .memory-bar-bg {
-      height: 4px; background: var(--surface2); border-radius: 2px; overflow: hidden;
-    }
-    .memory-bar-fill {
-      height: 100%; background: var(--accent); width: 0%; transition: width 0.5s;
-    }
-    .memory-label {
-      font-size: 10px; font-weight: 700; color: var(--text-dim); display: flex; justify-content: space-between; margin-bottom: 4px;
-    }
-    .writing-section {
-      margin-top: 20px; padding-top: 15px; border-top: 1px dashed var(--border);
-    }
-    .writing-input {
-      width: 100%; height: 60px; background: var(--surface2); border: 1px solid var(--border);
-      border-radius: 12px; padding: 10px; color: var(--text); font-size: 12px; resize: none;
-      margin-bottom: 8px; font-family: inherit;
-    }
-    .writing-input:focus { outline: none; border-color: var(--accent); }
-    .writing-save-btn {
-      background: var(--surface2); border: 1px solid var(--border); color: var(--accent);
-      font-size: 10px; font-weight: 700; padding: 4px 12px; border-radius: 8px; cursor: pointer;
-    }
-    .writing-save-btn:hover { background: var(--accent); color: white; }
-
-    .video-master-card {
-      background: var(--surface); border: 1px solid var(--border); border-radius: 20px;
-      padding: 0; overflow: hidden; margin-bottom: 30px;
-    }
-    .video-container {
-      position: relative; padding-bottom: 56.25%; height: 0;
-    }
-    .video-container iframe {
-      position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;
-    }
-
-    .nav-links a.active { color: var(--accent); font-weight: 700; }
-
-    /* MASTERY BOX SPLIT LAYOUT */
-    .mastery-split {
-      display: flex; gap: 30px; align-items: flex-start; margin-top: 30px;
-    }
-    .mastery-left { flex: 1; display: grid; grid-template-columns: 1fr; gap: 16px; }
-    .mastery-right {
-      position: sticky; top: 100px; width: 360px;
-      background: var(--surface); border: 1px solid var(--border);
-      border-radius: 24px; padding: 40px 30px; text-align: center;
-      box-shadow: 0 20px 40px rgba(0,0,0,0.2);
-      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    }
-    .mastery-circle {
-      width: 140px; height: 140px; margin: 0 auto 30px;
-      background: radial-gradient(circle at 30% 30%, var(--gold), var(--ember));
-      border-radius: 50%; display: flex; align-items: center; justify-content: center;
-      box-shadow: 0 10px 25px rgba(231,111,81,0.3);
-      position: relative;
-    }
-    .mastery-verb-name { font-size: 24px; font-weight: 900; color: white; letter-spacing: -0.02em; }
-    .mastery-icon-blob {
-      position: absolute; bottom: -10px; right: -10px;
-      width: 48px; height: 48px; background: white; border-radius: 50%;
-      display: flex; align-items: center; justify-content: center;
-      box-shadow: 0 5px 15px rgba(0,0,0,0.1); font-size: 24px;
-    }
-    .mastery-essence { font-size: 22px; font-weight: 800; color: var(--text); margin-bottom: 12px; }
-    .mastery-principle { font-size: 14px; color: var(--text-dim); line-height: 1.6; min-height: 60px; }
-    
-    .sentence-card {
-      background: var(--surface); border: 1px solid var(--border); border-radius: 16px;
-      padding: 20px; cursor: pointer; transition: all 0.2s; position: relative;
-      text-align: center;
-    }
-    .sentence-card:hover { border-color: var(--accent); transform: translateX(5px); }
-    .sentence-card.active { border-color: var(--accent); background: rgba(82,183,136,0.05); box-shadow: 0 0 0 1px var(--accent); }
-    .sentence-en { font-size: 16px; font-weight: 700; color: var(--accent); margin-bottom: 4px; }
-    .sentence-ko { font-size: 13px; color: var(--text-dim); }
-
-    @media (max-width: 900px) {
-      .mastery-split { flex-direction: column; }
-      .mastery-right { position: static; width: 100%; order: -1; margin-bottom: 30px; }
-    }
-
-    .scramble-block {
-      background: var(--surface);
-      border: 1px solid var(--border2);
-      padding: 10px 15px;
-      border-radius: 8px;
-      font-size: 18px;
-      font-weight: 500;
-      color: var(--text);
-      cursor: grab;
-      user-select: none;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-      transition: transform 0.1s;
-    }
-    .scramble-block.ghost {
-      opacity: 0.4;
-      background: var(--border);
-    }
-    .scramble-block.success {
-      background: var(--accent);
-      color: white;
-      border-color: var(--accent);
-      box-shadow: 0 0 15px rgba(82,183,136,0.6);
-      transform: scale(1.05);
-      transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    }
-    .expansion-step {
-      display: flex;
-      flex-direction: column;
-      gap: 5px;
-      padding: 10px;
-      background: var(--surface);
-      border-radius: 8px;
-      border-left: 4px solid var(--accent);
-      animation: slideIn 0.3s ease-out forwards;
-    }
-    .expansion-prompt {
-      font-size: 14px;
-      color: var(--ember);
-      font-weight: bold;
-    }
-    .expansion-text {
-      font-size: 18px;
-      color: var(--text);
-    }
-    @keyframes slideIn {
-      from { opacity: 0; transform: translateX(-10px); }
-      to { opacity: 1; transform: translateX(0); }
-    }
-  
-  /* Study Roadmap UI features */
-  .study-toggles {
-    display: flex;
-    gap: 16px;
-    margin-bottom: 24px;
-    justify-content: flex-end;
-    align-items: center;
-    width: 100%;
-  }
-  .toggle-label {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font-size: 14px;
-    color: var(--text-dim);
-    cursor: pointer;
-    background: var(--surface);
-    padding: 8px 16px;
-    border-radius: 8px;
-    border: 1px solid var(--border);
-    transition: all 0.2s;
-  }
-  .toggle-label:hover {
-    border-color: var(--accent);
-  }
-  .hide-en-mode .sentence-en {
-    filter: blur(8px);
-    opacity: 0.5;
-    transition: all 0.3s ease;
-  }
-  .hide-en-mode .sentence-card:hover .sentence-en {
-    filter: blur(0px);
-    opacity: 1;
-  }
-  .hide-ko-mode .sentence-ko {
-    filter: blur(8px);
-    opacity: 0.5;
-    transition: all 0.3s ease;
-  }
-  .hide-ko-mode .sentence-card:hover .sentence-ko {
-    filter: blur(0px);
-    opacity: 1;
-  }
-  .star-btn {
-    background: none;
-    border: none;
-    font-size: 20px;
-    color: var(--text-dim);
-    cursor: pointer;
-    float: right;
-    transition: all 0.2s;
-  }
-  .star-btn.active {
-    color: #FFD700;
-    text-shadow: 0 0 8px rgba(255,215,0,0.5);
-  }
-
-        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700;900&family=Noto+Sans+KR:wght@300;400;700;900&display=swap');
-
-        #master-view {
-            --primary: #38bdf8;
-            --secondary: #f43f5e;
-            --bg-deep: #070c18;
-            --bg-main: #0f172a;
-            --card-bg: #1e293b;
-            --text-main: #f8fafc;
-            --text-dim: #94a3b8;
-        }
-
-        * { box-sizing: border-box; margin: 0; padding: 0; }
-        #master-view {
-            background-color: var(--bg-main);
-            color: var(--text-main);
-            font-family: 'Outfit', 'Noto Sans KR', sans-serif;
-            display: flex;
-            height: 100vh;
-            overflow: hidden;
-        }
-
-        /* Sidebar */
-        .sidebar {
-            width: 300px;
-            background: var(--bg-deep);
-            border-right: 1px solid rgba(255,255,255,0.05);
-            display: flex;
-            flex-direction: column;
-            flex-shrink: 0;
-        }
-
-        .logo-area {
-            padding: 40px 25px;
-            font-size: 24px;
-            font-weight: 900;
-            color: var(--primary);
-            letter-spacing: -0.5px;
-            display: flex;
-            align-items: center;
-            gap: 12px;
-        }
-
-        #month-list {
-            flex: 1;
-            padding: 10px 15px;
-            overflow-y: auto;
-        }
-
-        .month-item {
-            display: flex;
-            flex-direction: column;
-            padding: 18px 20px;
-            border-radius: 16px;
-            margin-bottom: 10px;
-            background: rgba(255,255,255,0.02);
-            border: 1px solid rgba(255,255,255,0.05);
-            cursor: pointer;
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-        }
-
-        .month-item:hover {
-            background: rgba(56,189,248,0.08);
-            border-color: var(--primary);
-        }
-
-        .month-item.active {
-            background: var(--primary);
-            color: var(--bg-deep);
-            border-color: var(--primary);
-            box-shadow: 0 10px 20px rgba(56,189,248,0.2);
-        }
-
-        .month-item span:first-child { font-size: 14px; font-weight: 800; }
-        .month-item span:last-child { font-size: 11px; opacity: 0.7; margin-top: 4px; }
-
-        /* Main Dashboard */
-        .main-dashboard {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            overflow: hidden;
-        }
-
-        .master-header {
-            padding: 30px 40px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-bottom: 1px solid rgba(255,255,255,0.05);
-        }
-
-        .header-title h2 { font-size: 26px; font-weight: 900; color: var(--primary); }
-        .header-title p { font-size: 14px; color: var(--text-dim); margin-top: 5px; font-weight: 500; }
-
-        /* Day Selector */
-        .day-selector {
-            padding: 15px 40px;
-            display: flex;
-            gap: 10px;
-            overflow-x: auto;
-            white-space: nowrap;
-            scrollbar-width: none;
-            flex-shrink: 0;
-            background: rgba(255,255,255,0.01);
-        }
-
-        .day-btn {
-            min-width: 65px;
-            height: 45px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: 12px;
-            background: var(--card-bg);
-            font-size: 13px;
-            font-weight: 700;
-            color: var(--text-dim);
-            cursor: pointer;
-            transition: all 0.2s;
-            border: 1px solid transparent;
-        }
-
-        .day-btn.active {
-            background: var(--secondary);
-            color: white;
-            box-shadow: 0 8px 15px rgba(244,63,94,0.3);
-        }
-
-        /* Content Sections */
-        .master-content {
-            flex: 1;
-            display: flex;
-            padding: 30px 40px;
-            gap: 30px;
-            overflow: hidden;
-        }
-
-        .learning-path {
-            flex: 1.2;
-            overflow-y: auto;
-            padding-right: 10px;
-        }
-
-        .essence-box {
-            background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
-            padding: 30px;
-            border-radius: 24px;
-            margin-bottom: 25px;
-            border-left: 6px solid var(--secondary);
-            box-shadow: 0 15px 35px rgba(0,0,0,0.2);
-        }
-
-        .essence-box h3 { font-size: 18px; color: var(--secondary); margin-bottom: 15px; letter-spacing: -0.5px; }
-        .essence-box p { font-size: 20px; font-weight: 800; line-height: 1.5; color: var(--text-main); }
-
-        .sentence-card {
-            background: var(--card-bg);
-            border-radius: 20px;
-            padding: 25px;
-            margin-bottom: 15px;
-            border: 1px solid rgba(255,255,255,0.05);
-            cursor: pointer;
-            transition: all 0.3s;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .sentence-card:hover { transform: translateY(-3px); border-color: var(--primary); }
-        .sentence-card.active { border-color: var(--secondary); background: rgba(244,63,94,0.03); }
-
-        .master-tag {
-            position: absolute;
-            top: 20px;
-            right: 25px;
-            font-size: 10px;
-            font-weight: 900;
-            padding: 5px 12px;
-            background: rgba(56,189,248,0.1);
-            color: var(--primary);
-            border-radius: 20px;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-
-        .sentence-en { font-size: 22px; font-weight: 800; margin-bottom: 10px; }
-        .sentence-kr { font-size: 15px; color: var(--text-dim); margin-bottom: 8px; }
-        .sentence-nuance { font-size: 13px; color: var(--secondary); font-weight: 700; }
-
-        /* Neural Mastery Dashboard (Right) */
-        .mastery-panel {
-            flex: 0.8;
-            background: var(--bg-deep);
-            border-radius: 30px;
-            display: flex;
-            flex-direction: column;
-            padding: 40px;
-            box-shadow: 0 30px 60px rgba(0,0,0,0.5);
-            position: relative;
-            border: 1px solid rgba(255,255,255,0.03);
-        }
-
-        .panel-title {
-            font-size: 11px;
-            font-weight: 900;
-            letter-spacing: 4px;
-            color: #334155;
-            text-align: center;
-            margin-bottom: 60px;
-        }
-
-        .visual-container {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-        }
-
-        .v-icon {
-            font-size: 100px;
-            margin-bottom: 30px;
-            filter: drop-shadow(0 0 30px rgba(56,189,248,0.3));
-            animation: vibe 4s infinite ease-in-out;
-        }
-
-        @keyframes vibe {
-            0%, 100% { transform: scale(1); }
-            50% { transform: scale(1.1) rotate(5deg); }
-        }
-
-        .v-title { font-size: 28px; font-weight: 900; color: var(--text-main); margin-bottom: 15px; }
-        .v-desc { font-size: 16px; color: var(--text-dim); line-height: 1.7; word-break: keep-all; }
-
-        .neural-mapping {
-            margin-top: 40px;
-            width: 100%;
-            padding: 25px;
-            background: rgba(255,255,255,0.02);
-            border-radius: 20px;
-            display: none;
-            animation: slideUp 0.5s ease;
-        }
-
-        @keyframes slideUp {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-
-        .map-label { font-size: 10px; font-weight: 900; color: var(--primary); letter-spacing: 2px; margin-bottom: 10px; }
-        .map-val { font-size: 20px; font-weight: 900; color: white; }
-
-        .voice-btn {
-            position: absolute;
-            bottom: 20px;
-            right: 20px;
-            background: none;
-            border: none;
-            font-size: 22px;
-            cursor: pointer;
-            opacity: 0.5;
-            transition: all 0.2s ease;
-            line-height: 1;
-            padding: 4px;
-            border-radius: 8px;
-        }
-        .voice-btn:hover {
-            opacity: 1;
-            transform: scale(1.25);
-            background: rgba(56,189,248,0.12);
-        }
-        .voice-btn.speaking {
-            opacity: 1;
-            animation: speakPulse 0.6s infinite alternate ease-in-out;
-        }
-        @keyframes speakPulse {
-            from { transform: scale(1); }
-            to   { transform: scale(1.3); }
-        }
-        .gender-badge {
-            position: absolute;
-            bottom: 20px;
-            right: 60px;
-            font-size: 11px;
-            font-weight: 800;
-            letter-spacing: 1px;
-            opacity: 0.35;
-            color: var(--text-dim);
-        }
-
-        /* Daily Briefing Modal */
-        #briefing-overlay {
-            position: fixed;
-            top: 0; left: 0; width: 100%; height: 100%;
-            background: rgba(7, 12, 24, 0.85);
-            backdrop-filter: blur(15px);
-            z-index: 1000;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            opacity: 0;
-            visibility: hidden;
-            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-        }
-        #briefing-overlay.active {
-            opacity: 1;
-            visibility: visible;
-        }
-        .briefing-card {
-            background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
-            width: 500px;
-            padding: 50px;
-            border-radius: 40px;
-            border: 1px solid rgba(255,255,255,0.1);
-            text-align: center;
-            box-shadow: 0 50px 100px rgba(0,0,0,0.6);
-            transform: translateY(30px) scale(0.95);
-            transition: all 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
-        }
-        #briefing-overlay.active .briefing-card {
-            transform: translateY(0) scale(1);
-        }
-        .briefing-card h1 { font-size: 32px; font-weight: 900; color: var(--primary); margin-bottom: 10px; }
-        .briefing-card p.sub { color: var(--text-dim); margin-bottom: 35px; font-size: 15px; }
-        .stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 40px; }
-        .stat-box { background: rgba(255,255,255,0.03); padding: 20px; border-radius: 20px; border: 1px solid rgba(255,255,255,0.05); }
-        .stat-val { font-size: 24px; font-weight: 900; color: white; display: block; }
-        .stat-lbl { font-size: 11px; font-weight: 800; color: var(--text-dim); letter-spacing: 1px; margin-top: 5px; }
-        .today-focus { background: rgba(56,189,248,0.1); padding: 25px; border-radius: 24px; margin-bottom: 40px; text-align: left; }
-        .focus-hdr { font-size: 10px; font-weight: 900; color: var(--primary); letter-spacing: 2px; margin-bottom: 8px; }
-        .focus-title { font-size: 18px; font-weight: 800; color: white; }
-        .start-btn { 
-            width: 100%; padding: 20px; border-radius: 16px; border: none; 
-            background: var(--primary); color: var(--bg-deep); font-size: 16px; 
-            font-weight: 900; cursor: pointer; transition: all 0.3s;
-            box-shadow: 0 10px 30px rgba(56,189,248,0.3);
-        }
-        .start-btn:hover { transform: translateY(-5px); box-shadow: 0 15px 40px rgba(56,189,248,0.5); }
-
-        /* Progress checkmarks */
-        .day-btn.completed { border: 1px solid #10b981 !important; color: #10b981 !important; position: relative; }
-        .day-btn.completed::after { content: '✓'; position: absolute; top: -5px; right: -5px; background: #10b981; color: white; font-size: 8px; width: 14px; height: 14px; border-radius: 50%; display: flex; align-items: center; justify-content: center; border: 1px solid var(--bg-main); }
-        .sentence-card.completed { border-left: 4px solid #10b981; background: rgba(16, 185, 129, 0.05); }
-
-        @keyframes cardFadeIn {
-            from { opacity: 0; transform: translateY(10px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-        .sentence-card {
-            animation: cardFadeIn 0.5s ease forwards;
-        }
-
-        /* Mobile Responsive */
-        @media (max-width: 768px) {
-            #master-view { flex-direction: column; height: auto; overflow: visible; }
-            .sidebar { width: 100%; max-height: 250px; border-right: none; border-bottom: 1px solid rgba(255,255,255,0.05); flex-shrink: 0; }
-            .logo-area { padding: 20px 25px; }
-            .main-dashboard { overflow: visible; }
-            .master-content { flex-direction: column; padding: 20px; gap: 20px; }
-            .mastery-panel { padding: 30px 20px; }
-            .briefing-card { width: 90%; padding: 30px 20px; }
-            .master-header { padding: 20px; }
-            .day-selector { padding: 10px 20px; }
-            .learning-path { padding-right: 0; overflow-y: visible; }
-            .essence-box { padding: 20px; }
-            .stats-grid { grid-template-columns: 1fr; gap: 10px; margin-bottom: 25px; }
-        }
-    
-</style>
-  <script src="https://www.youtube.com/iframe_api"></script>
-  
-  <!-- Master Dashboard Data -->
-  <script src="master/data/month1.js"></script>
-  <script src="master/data/month2.js"></script>
-  <script src="master/data/month3.js"></script>
-  <script src="master/data/month4.js"></script>
-  <script src="master/data/month5.js"></script>
-  <script src="master/data/month6.js"></script>
-  <script src="master/data/month7.js"></script>
-  <script src="master/data/month8.js"></script>
-</head>
-<body>
-
-<nav class="nav">
-  <div class="nav-logo">📘 365일 스터디 코스</div>
-  <div class="nav-links">
-    <a href="#" onclick="showView('study')" id="nav-study" class="active">365일 스터디 코스</a>
-    <a href="#" onclick="showView('grammar')" id="nav-grammar">원어민 영문법</a>
-    <a href="#" onclick="showView('training')" id="nav-training">실전 훈련(Training)</a>
-    <a href="#" onclick="showView('verbs')" id="nav-verbs">기본동사(Verbs)</a>
-    <a href="#" onclick="showView('preps')" id="nav-preps">전치사(Preps)</a>
-    <a href="#" onclick="showView('phrasal')" id="nav-phrasal">구동사(Phrasal)</a>
-    <a href="#" onclick="showView('kiwi')" id="nav-kiwi">🥝 키위새</a>
-    <a href="#quiz-section">최종 테스트</a>
-    <a href="#" onclick="showView('master')" id="nav-master" style="color: var(--accent); font-weight: 700;">💎 Master Dashboard</a>
-    <button id="theme-toggle" class="theme-btn" style="margin-left: 20px;">🌓 테마</button>
-  </div>
-</nav>
-
-<section class="hero">
-  <div class="hero-tag" id="hero-tag">Day 01</div>
-  <h1 class="hero-title" id="hero-title">365일 스터디 코스</h1>
-  <p class="hero-sub" id="hero-sub">커리큘럼을 준비하고 있습니다...</p>
-  <button class="complete-btn" id="day-complete-btn" onclick="toggleComplete()">미션 완료 체크</button>
-</section>
-
-<div id="study-plan-view">
-  <div class="day-selector-strip">
-    <div class="container" id="pill-container"></div>
-  </div>
-  <div id="study-plan-video-area"></div>
-</div>
-
-<!-- Basic Verbs View -->
-<div id="verbs-view" style="display:none;" class="fade-in">
-  <section class="section">
-    <div class="container">
-      <p class="section-title">Core Mastery</p>
-      <h2 class="section-heading">원어민의 엔진, 기본동사 8선</h2>
-      <p style="color:var(--text-dim); margin-bottom:30px;">단어의 사전적 의미를 넘어, 원어민이 느끼는 '본질적 에너지'를 이해하는 섹션입니다.</p>
-      <div id="verbs-video-area"></div>
-      <div class="verb-grid" id="verb-grid"></div>
-    </div>
-  </section>
-</div>
-
-<!-- Prepositions View -->
-<div id="preps-view" style="display:none;" class="fade-in">
-  <section class="section">
-    <div class="container">
-      <p class="section-title">Spatial Awareness</p>
-      <h2 class="section-heading">공간을 그리는 언어, 전치사 8선</h2>
-      <p style="color:var(--text-dim); margin-bottom:30px;">전치사는 위치가 아니라 '관계의 이미지'입니다. 원어민의 머릿속 그림을 따라가보세요.</p>
-      <div class="verb-grid" id="prep-grid"></div>
-    </div>
-  </section>
-</div>
-
-<!-- Phrasal Verbs View -->
-<div id="phrasal-view" style="display:none;" class="fade-in">
-  <section class="section">
-    <div class="container">
-      <p class="section-title">Dynamic Fusion</p>
-      <h2 class="section-heading">수학처럼 풀리는 구동사, 8선</h2>
-      <p style="color:var(--text-dim); margin-bottom:30px;">'기본동사의 본질'과 '전치사의 이미지'가 결합되는 원리를 이해하면 구동사는 암기 대상이 아닙니다.</p>
-      <div class="verb-grid" id="phrasal-grid"></div>
-    </div>
-  </section>
-</div>
-
-<!-- Native Grammar View -->
-<div id="grammar-view" style="display:none;" class="fade-in">
-  <section class="section">
-    <div class="container">
-      <p class="section-title">Native Mindset</p>
-      <h2 class="section-heading">원어민의 뇌 구조로 이해하는 영문법</h2>
-      <p style="color:var(--text-dim); margin-bottom:30px;">규칙을 외우는 것이 아니라, 원어민이 세상을 인지하고 에너지를 발산하는 순서 그대로 영어를 직관적으로 이해해 봅니다.</p>
-      <div class="verb-grid" id="grammar-grid"></div>
-    </div>
-  </section>
-</div>
-
-<!-- Interactive Training View -->
-<div id="training-view" style="display:none;" class="fade-in">
-  <section class="section">
-    <div class="container">
-      <p class="section-title">Interactive Training</p>
-      <h2 class="section-heading">실전 스피킹 훈련 센터</h2>
-      <p style="color:var(--text-dim); margin-bottom:30px;">어순의 감각을 몸으로 익히는 인터랙티브 훈련입니다.</p>
-      
-      <!-- Module A: Visual Scramble -->
-      <div class="grammar-section-master" style="margin-bottom: 40px;">
-        <div class="chapter-title" style="font-size: 24px; margin-bottom: 10px; color: var(--accent);">Module A: "Verb-is-King" 시각적 퍼즐 훈련</div>
-        <p style="color:var(--text-dim); margin-bottom:20px;">주어(Subject) 블록 바로 옆에 동사(Verb) 블록을 끌어다 놓아야만 통과됩니다.</p>
-        <div class="mastery-split" style="align-items: center;">
-          <div class="mastery-left" style="background: var(--surface2); padding: 20px; border-radius: 12px; border: 1px solid var(--border); min-height: 100px;">
-            <div id="scramble-container" style="display: flex; flex-wrap: wrap; gap: 10px;">
-              <!-- Blocks will be injected here -->
-            </div>
-          </div>
-          <div class="mastery-right" style="display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center;">
-             <button class="primary-btn" onclick="nextScramble()" style="margin-bottom:15px; font-size:16px;">새 문장 시작</button>
-             <div id="scramble-status" style="font-size: 16px; font-weight: bold; color: var(--text-dim);">블록을 드래그하여 문장을 완성하세요.</div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Module B: Progressive Expansion -->
-      <div class="grammar-section-master">
-        <div class="chapter-title" style="font-size: 24px; margin-bottom: 10px; color: var(--accent);">Module B: 점진적 문장 확장 구두 훈련</div>
-        <p style="color:var(--text-dim); margin-bottom:20px;">뼈대 문장을 입 밖으로 내뱉은 후, 타이머에 맞춰 꼬리를 무는 훈련입니다.</p>
-        <div class="mastery-split" style="align-items: flex-start;">
-          <div class="mastery-left" style="background: var(--surface2); padding: 20px; border-radius: 12px; border: 1px solid var(--border); min-height: 200px; display: flex; flex-direction: column; gap: 15px;" id="expansion-container">
-            <!-- Expansion steps will be injected here -->
-            <div style="color:var(--text-dim); text-align:center; padding: 40px 0;">우측의 '훈련 시작하기' 버튼을 눌러주세요.</div>
-          </div>
-          <div class="mastery-right" style="display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center;">
-             <button class="primary-btn" id="btn-expansion-start" onclick="startExpansion()" style="margin-bottom:15px; font-size:16px;">훈련 시작하기</button>
-             <div id="expansion-timer" style="font-size: 48px; font-weight: 800; color: var(--ember); display:none; transition: all 0.2s;">3</div>
-             <div id="expansion-status" style="font-size: 14px; margin-top:10px; color: var(--text-dim);">준비되셨나요?</div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </section>
-</div>
-
-<!-- Kiwi Bird View -->
-<div id="kiwi-view" style="display:none;" class="fade-in">
-  <section class="section">
-    <div class="container">
-      <p class="section-title">Kiwi Bird</p>
-      <h2 class="section-heading">eng_kiwi 핵심 표현 & 인사이트</h2>
-      <p style="color:var(--text-dim); margin-bottom:30px; text-align: center;">실전에서 바로 쓸 수 있는 세련된 영어 표현과 깊이 있는 인사이트를 학습합니다.</p>
-      <div class="verb-grid" id="kiwi-grid"></div>
-    </div>
-  </section>
-</div>
-
-<div id="main-content" class="fade-in">
-  <section class="section">
-    <div class="container">
-      <p class="section-title">Overview</p>
-      <h2 class="section-heading" id="lesson-heading">학습 목표</h2>
-      <div class="kpi-grid" id="kpi-grid"></div>
-    </div>
-  </section>
-
-  <div class="divider"></div>
-
-  <section class="section">
-    <div class="container">
-      <p class="section-title">Deep Dive</p>
-      <div class="study-toggles">
-        <label class="toggle-label">
-          <input type="checkbox" onchange="toggleHideEn()"> 영어 가리기 (Hover 확인)
-        </label>
-        <label class="toggle-label">
-          <input type="checkbox" onchange="toggleHideKo()"> 한국어 가리기 (Hover 확인)
-        </label>
-      </div>
-      <div class="chapters-grid" id="chapter-grid"></div>
-    </div>
-  </section>
-
-  <div class="divider" id="comp-divider"></div>
-
-  <section class="section" id="comp-section">
-    <div class="container">
-      <p class="section-title">Nuance</p>
-      <h2 class="section-heading">원어민 감각 익히기</h2>
-      <div class="compare-grid" id="comp-grid"></div>
-    </div>
-  </section>
-
-  <div class="divider"></div>
-
-  <section class="section">
-    <div class="container">
-      <p class="section-title">Key Expressions</p>
-      <div class="expr-grid" id="expr-grid"></div>
-    </div>
-  </section>
-</div>
-
-<section class="section" id="quiz-section">
-  <div class="container">
-    <div class="quiz-container" id="quiz-box">
-      <h2 class="section-heading">학습 마무리 퀴즈</h2>
-      <p class="section-desc" style="margin-bottom: 24px;">오늘 배운 표현을 테스트해보세요.</p>
-      <div id="quiz-content">
-        <button class="complete-btn" onclick="startQuiz()">테스트 시작</button>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<div id="master-view" style="display:none;" class="theme-dark master-wrapper">
-
-    <div id="briefing-overlay">
-        <div class="briefing-card">
-            <h1 id="brief-welcome">Good Morning!</h1>
-            <p class="sub">오늘도 매일 5문장의 기적을 이어가 볼까요?</p>
-            
-            <div class="stats-grid">
-                <div class="stat-box">
-                    <span class="stat-val" id="stat-total-progress">0%</span>
-                    <span class="stat-lbl">전체 학습 진도</span>
-                </div>
-                <div class="stat-box">
-                    <span class="stat-val" id="stat-learned-count">0/1200</span>
-                    <span class="stat-lbl">익힌 문장 수</span>
-                </div>
-            </div>
-
-            <div class="today-focus">
-                <div class="focus-hdr">TODAY'S NERUAL FOCUS</div>
-                <div class="focus-title" id="brief-today-target">Day 1: [Take] 본질 체화</div>
-            </div>
-
-            <button class="start-btn" onclick="masterCloseBriefing()">학습 시작하기</button>
-        </div>
-    </div>
-
-    <div class="sidebar">
-        <div class="logo-area">💎 365 MASTER</div>
-        <div id="month-list"></div>
-    </div>
-
-    <div class="main-dashboard">
-        <div class="master-header">
-            <div class="header-title">
-                <h2 id="current-month-name">Month 1</h2>
-                <p id="current-day-num">Day 1</p>
-            </div>
-            <a href="../index.html" style="color: var(--primary); font-weight: 700; text-decoration: none; border: 1px solid rgba(56,189,248,0.3); padding: 8px 16px; border-radius: 20px; font-size: 14px; transition: all 0.2s;" onmouseover="this.style.background='rgba(56,189,248,0.1)';" onmouseout="this.style.background='transparent';">← Back to 365 Course</a>
-        </div>
-
-        <div class="day-selector" id="day-selector"></div>
-
-        <div class="master-content">
-            <div class="learning-path">
-                <div class="essence-box">
-                    <h3 id="core-verb-label">VERB: TAKE</h3>
-                    <p id="governing-phrase">외부의 것을 내 의지로 '포획'하여 소유의 영역으로 끌어오다</p>
-                </div>
-                <div id="sentence-container"></div>
-            </div>
-
-            <div class="mastery-panel">
-                <div class="panel-title">NEURAL MASTERY DASHBOARD</div>
-                <div class="visual-container">
-                    <div class="v-icon" id="mastery-icon">🎯</div>
-                    <div class="v-title" id="mastery-title">Cognitive Capture</div>
-                    <div class="v-desc" id="mastery-desc">대상을 내 소유의 영역으로 확정하는 본능적인 동사적 행위입니다.</div>
-                    <div class="neural-mapping" id="neural-mapping">
-                        <div class="map-label">NEURAL TARGET</div>
-                        <div class="map-val" id="neural-target-val">POINT CAPTURE</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    
-</div>
-
-<div class="progress-float">
-  <div class="circ-bg" id="global-circ" style="--p: 0deg"><div class="circ-inner" id="global-pct">0%</div></div>
-  <div style="font-size: 10px; font-weight: 700; color: var(--text-dim);">전체 진행도</div>
-</div>
-
-<footer class="footer">
-  <p style="color: var(--text-dim); font-size: 13px;">Native 365-Day Master &copy; 2026</p>
-</footer>
-
-<script>
   const curriculum = {
     1: {
       category: "First Impressions", title: "품격 있는 첫인사와 스몰톡", sub: "단순한 안부 인사를 넘어 대화의 물꼬를 세련되게 트는 법을 배웁니다.",
@@ -1010,12 +13,12 @@
         {t:"문화적 에티켓", d:"첫 만남에서 피해야 할 주제와 권장되는 글로벌 매너"}
       ],
       compare: [
-        {b:"How are you?", kb: "안녕하세요? (어떻게 지내세요?)", g: "How have you been keeping lately?", kg: "최근에 어떻게 지내셨나요?"},
-        {b:"Nice to meet you.", kb: "만나서 반갑습니다.", g:"It's a pleasure to finally meet you in person.", kg: "드디어 직접 뵙게 되어 정말 기쁩니다."},
-        {b:"What do you do?", kb: "직업이 어떻게 되시나요?", g:"What keeps you busy these days outside of work?", kg: "요즘 일 외에는 어떤 일로 바쁘게 지내시나요?"},
-        {b:"I am fine.", kb: "전 잘 지내요.", g:"I couldn't be better, thank you for asking.", kg: "이보다 더 좋을 수 없어요, 물어봐 주셔서 감사합니다."},
-        {b:"Good to see you.", kb: "만나서 반가워요.", g:"It's wonderful to cross paths with you again.", kg: "다시 만나 뵙게 되어 정말 즐겁네요."},
-        {b:"Bye.", kb: "안녕히 가세요.", g:"It was a delight chatting with you. Let's stay in touch.", kg: "대화 나눠서 즐거웠습니다. 계속 연락하고 지내요."}
+        {b:"How are you?", g: "How have you been keeping lately?"},
+        {b:"Nice to meet you.", g:"It's a pleasure to finally meet you in person."},
+        {b:"What do you do?", g:"What keeps you busy these days outside of work?"},
+        {b:"I am fine.", g:"I couldn't be better, thank you for asking."},
+        {b:"Good to see you.", g:"It's wonderful to cross paths with you again."},
+        {b:"Bye.", g:"It was a delight chatting with you. Let's stay in touch."}
       ],
       expr: [
         {e:"I've heard so much about you.", k:"말씀 많이 들었습니다.", x:"It's great to meet you! I've heard so much about you."},
@@ -1039,12 +42,12 @@
         {t:"공감의 언어", d:"타인의 감정에 깊이 공감하고 위로하는 세련된 표현"}
       ],
       compare: [
-        {b:"I am stressed.", kb: "스트레스 받아요.", g: "I've been feeling a bit overwhelmed lately.", kg: "요즘 약간 압도되는(감당하기 벅찬) 기분이 들어요."},
-        {b:"I am happy.", kb: "기뻐요.", g:"I'm feeling quite refreshed and energized.", kg: "상당히 재충전되고 활기가 넘치는 기분이에요."},
-        {b:"I am sad.", kb: "슬퍼요.", g:"I've been feeling a bit dispirited recently.", kg: "최근에 약간 의기소침한 기분이 들었어요."},
-        {b:"I am angry.", kb: "화가 나요.", g:"I'm somewhat frustrated with the current situation.", kg: "현재 상황에 대해 다소 답답함을 느낍니다."},
-        {b:"I am tired.", kb: "피곤해요.", g:"I'm feeling rather exhausted after a long day.", kg: "긴 하루를 보내고 나니 꽤 지치네요."},
-        {b:"I am bored.", kb: "지루해요.", g:"I feel like I'm in need of a new challenge.", kg: "새로운 도전이 좀 필요한 것 같아요."}
+        {b:"I am stressed.", g: "I've been feeling a bit overwhelmed lately."},
+        {b:"I am happy.", g:"I'm feeling quite refreshed and energized."},
+        {b:"I am sad.", g:"I've been feeling a bit dispirited recently."},
+        {b:"I am angry.", g:"I'm somewhat frustrated with the current situation."},
+        {b:"I am tired.", g:"I'm feeling rather exhausted after a long day."},
+        {b:"I am bored.", g:"I feel like I'm in need of a new challenge."}
       ],
       expr: [
         {e:"I'm cautiously optimistic.", k:"조심스럽게 낙관하고 있어요.", x:"The project is tough, but I'm cautiously optimistic."},
@@ -1068,12 +71,12 @@
         {t:"증거 기반 주장", d:"데이터와 사실을 완곡하면서도 강력하게 전달하는 법"}
       ],
       compare: [
-        {b:"I agree with you.", kb: "당신 말에 동의합니다.", g: "I couldn't agree more with your assessment.", kg: "당신의 평가에 전적으로 동의합니다."},
-        {b:"But I think...", kb: "하지만 제 생각엔...", g:"That's a valid point, however, looking at it from another angle...", kg: "타당한 지적입니다만, 다른 각도에서 보자면..."},
-        {b:"You are wrong.", kb: "당신이 틀렸어요.", g: "I beg to differ on that particular point.", kg: "그 특정 부분에 대해서는 의견을 달리합니다."},
-        {b:"Explain more.", kb: "더 설명해 주세요.", g: "Could you elaborate on the reasoning behind that?", kg: "그렇게 생각하신 이유에 대해 좀 더 자세히 설명해 주시겠어요?"},
-        {b:"I don't know.", kb: "잘 모르겠어요.", g: "I'm not in a position to comment on that at the moment.", kg: "현재로서는 제가 그 부분에 대해 언급할 위치에 있지 않네요."},
-        {b:"Let's stop talking.", kb: "이 얘기 그만합시다.", g: "Perhaps we can revisit this after more research.", kg: "조사를 더 해본 후에 이 주제를 다시 논의해보면 어떨까요."}
+        {b:"I agree with you.", g: "I couldn't agree more with your assessment."},
+        {b:"But I think...", g:"That's a valid point, however, looking at it from another angle..."},
+        {b:"You are wrong.", g: "I beg to differ on that particular point."},
+        {b:"Explain more.", g: "Could you elaborate on the reasoning behind that?"},
+        {b:"I don't know.", g: "I'm not in a position to comment on that at the moment."},
+        {b:"Let's stop talking.", g: "Perhaps we can revisit this after more research."}
       ],
       expr: [
         {e:"I'm on the same page.", k:"저도 같은 생각(입장)이에요.", x:"It's good to know we're on the same page regarding the budget."},
@@ -1097,12 +100,12 @@
         {t:"비즈니스 팔로우업", d:"미팅 후 관계를 지속하기 위한 정중한 감사와 확인"}
       ],
       compare: [
-        {b:"Tell me what happened.", kb: "무슨 일인지 말해주세요.", g: "Could you please bring me up to speed on this?", kg: "이 건에 대해 제가 상황을 파악할 수 있게 설명해 주시겠어요?"},
-        {b:"I will do it.", kb: "제가 할게요.", g:"I'll take ownership of this task and see it through.", kg: "이 업무는 제가 책임지고 끝까지 완수하겠습니다."},
-        {b:"I am busy.", kb: "저 바빠요.", g: "I'm currently tied up with another priority.", kg: "현재 다른 우선순위 업무로 인해 꼼짝할 수가 없네요."},
-        {b:"Check this.", kb: "이것 좀 확인해 주세요.", g: "I would appreciate your input on this document.", kg: "이 문서에 대한 귀하의 의견을 주시면 감사하겠습니다."},
-        {b:"Do this faster.", kb: "이것 좀 더 빨리 해주세요.", g: "Is there any way we can expedite this process?", kg: "이 절차를 조금 더 신속하게 처리할 방법이 있을까요?"},
-        {b:"Thanks for help.", kb: "도와주셔서 감사합니다.", g: "I'm grateful for your collaboration on this project.", kg: "이 프로젝트에 협업해 주셔서 깊이 감사드립니다."}
+        {b:"Tell me what happened.", g: "Could you please bring me up to speed on this?"},
+        {b:"I will do it.", g:"I'll take ownership of this task and see it through."},
+        {b:"I am busy.", g: "I'm currently tied up with another priority."},
+        {b:"Check this.", g: "I would appreciate your input on this document."},
+        {b:"Do this faster.", g: "Is there any way we can expedite this process?"},
+        {b:"Thanks for help.", g: "I'm grateful for your collaboration on this project."}
       ],
       expr: [
         {e:"Keep me in the loop.", k:"진행 상황을 계속 공유해주세요.", x:"Please keep me in the loop as the project develops."},
@@ -1126,12 +129,12 @@
         {t:"레스토랑 컴플레인", d:"불쾌감을 주지 않으면서 서비스를 개선하도록 요청하기"}
       ],
       compare: [
-        {b:"The meat is good.", kb: "고기가 맛있어요.", g: "The steak is incredibly tender and succulent.", kg: "스테이크가 믿을 수 없을 만큼 부드럽고 육즙이 풍부하네요."},
-        {b:"I don't eat onions.", kb: "저 양파 안 먹어요.", g:"I'd prefer it without onions, if that's possible.", kg: "가능하다면 양파는 빼주시면 좋겠습니다."},
-        {b:"This is too sweet.", kb: "이거 너무 달아요.", g: "The sweetness is a bit overpowering for my palate.", kg: "단맛이 제 입맛에는 다소 강하게 느껴지네요."},
-        {b:"I want a drink.", kb: "마실 것 좀 주세요.", g: "Could you recommend something refreshing to start?", kg: "식전에 마실 만한 상큼한 것을 하나 추천해 주시겠어요?"},
-        {b:"Where is the toilet?", kb: "화장실이 어디죠?", g: "Could you point me in the direction of the restroom?", kg: "화장실이 어느 방향인지 알려주시겠습니까?"},
-        {b:"Check please.", kb: "계산해 주세요.", g: "Could we have the bill, please?", kg: "계산서 좀 가져다주시겠어요?"}
+        {b:"The meat is good.", g: "The steak is incredibly tender and succulent."},
+        {b:"I don't eat onions.", g:"I'd prefer it without onions, if that's possible."},
+        {b:"This is too sweet.", g: "The sweetness is a bit overpowering for my palate."},
+        {b:"I want a drink.", g: "Could you recommend something refreshing to start?"},
+        {b:"Where is the toilet?", g: "Could you point me in the direction of the restroom?"},
+        {b:"Check please.", g: "Could we have the bill, please?"}
       ],
       expr: [
         {e:"This has a nice kick to it.", k:"기분 좋게 매콤하네요.", x:"I love the sauce! It has a nice kick to it."},
@@ -1155,12 +158,12 @@
         {t:"첫인상의 복기", d:"사람을 처음 만난 후 그 인상을 깊이 있게 정리해서 말하기"}
       ],
       compare: [
-        {b:"He is a hard worker.", kb: "그는 열심히 일하는 사람이에요.", g: "He is exceptionally diligent and committed to his work.", kg: "그는 유난히 성실하며 자신의 업무에 매우 헌신적입니다."},
-        {b:"She is a quiet person.", kb: "그녀는 조용한 사람이에요.", g:"She tends to be more reserved and contemplative.", kg: "그녀는 다소 내성적이고 사색적인 편입니다."},
-        {b:"He is smart.", kb: "그는 똑똑해요.", g: "He has a very analytical and sharp mind.", kg: "그는 매우 분석적이고 날카로운 지성을 가졌습니다."},
-        {b:"She is nice.", kb: "그녀는 친절해요.", g: "She is consistently considerate and empathetic towards others.", kg: "그녀는 다른 사람들에게 한결같이 사려 깊고 공감 능력이 뛰어납니다."},
-        {b:"He talks a lot.", kb: "그는 말이 많아요.", g: "He is quite eloquent and expressive in conversations.", kg: "그는 대화할 때 상당히 달변이며 표현력이 풍부합니다."},
-        {b:"He is stubborn.", kb: "그는 고집이 세요.", g: "He is remarkably steadfast and firm in his convictions.", kg: "그는 놀라울 정도로 확고하며 자신의 신념에 흔들림이 없습니다."}
+        {b:"He is a hard worker.", g: "He is exceptionally diligent and committed to his work."},
+        {b:"She is a quiet person.", g:"She tends to be more reserved and contemplative."},
+        {b:"He is smart.", g: "He has a very analytical and sharp mind."},
+        {b:"She is nice.", g: "She is consistently considerate and empathetic towards others."},
+        {b:"He talks a lot.", g: "He is quite eloquent and expressive in conversations."},
+        {b:"He wears many hats.", g: "He is remarkably steadfast and firm in his convictions."}
       ],
       expr: [
         {e:"He has a heart of gold.", k:"그는 아주 마음이 따뜻한 사람이에요.", x:"He might look tough, but he has a heart of gold."},
@@ -1185,12 +188,12 @@
         {t:"과학과 기술의 진보", d:"기술 혁신이 인류에 미치는 파급 효과를 논의하기"}
       ],
       compare: [
-        {b:"Traffic is a big problem.", kb: "교통 체증이 큰 문제입니다.", g: "The city's infrastructure is struggling with chronic congestion.", kg: "도시 인프라가 만성적인 교통 체증으로 어려움을 겪고 있습니다."},
-        {b:"Money is important.", kb: "돈이 중요하죠.", g:"Financial stability is a cornerstone of personal well-being.", kg: "재정적 안정은 개인적 웰빙의 초석입니다."},
-        {b:"I don't like plastic.", kb: "플라스틱이 싫어요.", g: "We must adopt more sustainable alternatives to single-use plastics.", kg: "우리는 일회용 플라스틱을 대체할 더 지속 가능한 대안을 채택해야 합니다."},
-        {b:"AI is dangerous.", kb: "AI는 위험합니다.", g: "The rapid evolution of AI warrants careful ethical oversight.", kg: "AI의 급격한 진화는 신중한 윤리적 감시를 필요로 합니다."},
-        {b:"Work is hard.", kb: "일하기 힘드네요.", g: "Maintaining a work-life balance is essential in today's high-pressure environment.", kg: "오늘날과 같은 고압적인 환경에서는 워라밸을 유지하는 것이 필수적입니다."},
-        {b:"Education is needed.", kb: "교육이 필요합니다.", g: "Lifelong learning is indispensable for adapting to the modern economy.", kg: "평생 학습은 현대 경제에 적응하기 위해 없어서는 안 될 필수 요소입니다."}
+        {b:"Traffic is a big problem.", g: "The city's infrastructure is struggling with chronic congestion."},
+        {b:"Money is important.", g:"Financial stability is a cornerstone of personal well-being."},
+        {b:"I don't like plastic.", g: "We must adopt more sustainable alternatives to single-use plastics."},
+        {b:"AI is dangerous.", g: "The rapid evolution of AI warrants careful ethical oversight."},
+        {b:"Work is hard.", g: "Maintaining a work-life balance is essential in today's high-pressure environment."},
+        {b:"Education is needed.", g: "Lifelong learning is indispensable for adapting to the modern economy."}
       ],
       expr: [
         {e:"It's a double-edged sword.", k:"양날의 검이에요.", x:"Technology is helpful, but it's often a double-edged sword."},
@@ -7417,12 +6420,12 @@
         {t:"독창적 의견 개진", d:"상투적이지 않은 나만의 관점을 영어로 표현하기"}
       ],
       compare: [
-        {b:"Basic Sentence", kb: "기본적인 문장", g:`Sophisticated Native Variation for Day ${i}`, kg: `${i}일차 원어민의 세련된 변형 표현`},
-        {b:"Simple Idea", kb: "단순한 아이디어", g:"Refined expression to convey complexity", kg: "복잡성을 전달하기 위해 다듬어진 표현"},
-        {b:"Standard Phrase", kb: "표준적인 문구", g:"Using more precise and impactful vocabulary", kg: "더욱 정확하고 영향력 있는 어휘 사용"},
-        {b:"Formal Request", kb: "격식 있는 요청", g:"Polite and professional way to ask for something", kg: "정중하고 프로페셔널하게 무언가를 요청하는 방법"},
-        {b:"Giving Feedback", kb: "피드백 제공하기", g:"Constructive and nuanced feedback delivery", kg: "건설적이고 미묘한 뉘앙스가 담긴 피드백 전달"},
-        {b:"Sharing News", kb: "소식 공유하기", g:"Delivering information with proper tone and prefix", kg: "적절한 어조와 말머리로 정보 전달하기"}
+        {b:"Basic Sentence", g:`Sophisticated Native Variation for Day ${i}`},
+        {b:"Simple Idea", g:"Refined expression to convey complexity"},
+        {b:"Standard Phrase", g:"Using more precise and impactful vocabulary"},
+        {b:"Formal Request", g:"Polite and professional way to ask for something"},
+        {b:"Giving Feedback", g:"Constructive and nuanced feedback delivery"},
+        {b:"Sharing News", g:"Delivering information with proper tone and prefix"}
       ],
       expr: [
         {e:"Expanding your horizons.", k:"견문을 넓히다.", x:"Traveling to new countries is a great way of expanding your horizons."},
@@ -7433,548 +6436,6 @@
         {e:"Cutting to the chase.", k:"본론으로 바로 들어가다.", x:"I know you're busy, so I'll cut to the chase and tell you why I'm here."}
       ]
     };
-  }
-
-  const kiwiExpressions = [
-    {
-      title: "1. 세련된 비즈니스 & 스몰톡 (Business & Small Talk)",
-      ex: [
-        { 
-          e: "Let's touch base next week.", 
-          k: "다음 주에 다시 연락합시다 / 진행상황 공유합시다.", 
-          x: "단순히 'See you next week'보다 훨씬 프로페셔널한 느낌을 줍니다. 회의나 논의를 마치고 다음을 기약할 때 쓰는 핵심 비즈니스 표현입니다.",
-          examples: [
-            "I'll gather the data and let's touch base tomorrow.",
-            "Let's touch base on this project after the holidays.",
-            "We need to touch base regarding the new client's request."
-          ]
-        },
-        { 
-          e: "Please keep me in the loop.", 
-          k: "진행 상황을 계속 공유해 주세요.", 
-          x: "'루프(고리)' 안에 나를 계속 두라는 의미로, 어떤 일의 진행 상황이나 결정 사항을 이메일 참조나 메신저로 계속 알려달라고 할 때 아주 자주 쓰입니다.",
-          examples: [
-            "Keep me in the loop if anything changes.",
-            "I'm going on vacation, but keep me in the loop.",
-            "Make sure to keep the manager in the loop on this issue."
-          ]
-        },
-        { 
-          e: "I've been keeping busy.", 
-          k: "요즘 바쁘게 지내고 있어요.", 
-          x: "'How have you been?'(어떻게 지냈어?)라는 질문에 'I am fine' 대신 쓸 수 있는 훌륭한 스몰톡 대답입니다. 긍정적이면서도 자연스러운 뉘앙스를 줍니다.",
-          examples: [
-            "I've been keeping busy with work and family.",
-            "We've been keeping busy preparing for the launch.",
-            "I've been keeping busy, but I can't complain."
-          ]
-        }
-      ]
-    },
-    {
-      title: "2. 센스있는 감정 & 태도 표현 (Emotions & Attitudes)",
-      ex: [
-        { 
-          e: "I'm on the fence about it.", 
-          k: "아직 결정하지 못했어요. / 고민 중이에요.", 
-          x: "울타리 위에 앉아 어느 쪽으로 넘어갈지 고민하는 모습을 연상하면 됩니다. 찬성할지 반대할지, 할지 말지 망설일 때 쓰는 아주 네이티브스러운 표현입니다.",
-          examples: [
-            "I'm still on the fence about buying that car.",
-            "He is on the fence regarding the job offer.",
-            "Don't stay on the fence too long, you need to decide."
-          ]
-        },
-        { 
-          e: "It completely slipped my mind.", 
-          k: "깜빡 잊어버렸어요.", 
-          x: "'I forgot'보다 더 변명스럽지 않고 자연스럽게 '아차, 내 마음속에서 미끄러져 나갔네'라는 뉘앙스로, 무언가를 무심코 까먹었을 때 쓰기 좋습니다.",
-          examples: [
-            "I'm so sorry, your birthday completely slipped my mind.",
-            "I meant to call you back, but it slipped my mind.",
-            "Write it down so it doesn't slip your mind."
-          ]
-        }
-      ]
-    },
-    {
-      title: "3. 원어민식 자연스러운 리액션 (Native-like Natural Reactions)",
-      ex: [
-        { 
-          e: "That makes sense.", 
-          k: "이해되네요. / 일리 있네요.", 
-          x: "상대방의 설명을 듣고 '아, 그래서 그렇구나' 하고 납득했을 때 가장 많이 쓰는 완벽한 리액션입니다. 'I understand'보다 훨씬 부드럽습니다.",
-          examples: [
-            "Oh, that makes sense now. Thanks for explaining.",
-            "It makes sense that she was angry.",
-            "Does that make sense to you?"
-          ]
-        },
-        { 
-          e: "Tell me about it.", 
-          k: "내 말이 그 말이야. / 완전 동감해.", 
-          x: "직역하면 '나한테 말해봐'지만, 실제로는 상대의 불평이나 의견에 100% 공감할 때 '누가 아니래?'라는 느낌으로 쓰입니다.",
-          examples: [
-            "A: Traffic was awful today. B: Tell me about it!",
-            "A: It's so hot outside. B: Tell me about it.",
-            "Tell me about it, I've been working all weekend."
-          ]
-        },
-        { 
-          e: "Fair enough.", 
-          k: "그럴 수 있겠네. / 알겠어요 (인정).", 
-          x: "상대방의 의견이나 변명을 듣고 전적으로 동의하진 않더라도 '네 입장에선 그럴 수 있겠다'고 쿨하게 인정할 때 사용합니다.",
-          examples: [
-            "A: I can't come because I'm sick. B: Fair enough.",
-            "Fair enough, we will do it your way.",
-            "I see your point. Fair enough."
-          ]
-        }
-      ]
-    },
-    {
-      title: "4. 상황을 부드럽게 넘기는 표현 (Softening the Situation)",
-      ex: [
-        { 
-          e: "I'll see what I can do.", 
-          k: "제가 뭘 할 수 있을지 알아볼게요. / 확답은 못하지만 해볼게요.", 
-          x: "거절하기는 미안하고 당장 들어주기는 어려울 때, 여지를 남겨두면서 상대를 배려하는 직장인 필수 방어(?) 표현입니다.",
-          examples: [
-            "I can't promise anything, but I'll see what I can do.",
-            "Leave it with me, I'll see what I can do.",
-            "I'll see what I can do to speed up the process."
-          ]
-        },
-        { 
-          e: "Don't take it personally.", 
-          k: "기분 나쁘게 듣지는 마세요. / 개인적인 감정은 없어요.", 
-          x: "상대방에게 비판적인 피드백을 주거나 쓴소리를 하기 직전에, 상처받지 말라고 미리 깔아두는 쿠션어입니다.",
-          examples: [
-            "Don't take it personally, but your presentation needs work.",
-            "He rejects everyone's ideas, so don't take it personally.",
-            "I hope you don't take this personally."
-          ]
-        },
-        { 
-          e: "It is what it is.", 
-          k: "어쩔 수 없지 뭐. / 생긴 대로 살아야지.", 
-          x: "이미 벌어진 일이나 바꿀 수 없는 상황에 대해 체념하거나 쿨하게 현실을 받아들일 때 자주 씁니다.",
-          examples: [
-            "We lost the game, but it is what it is.",
-            "I don't like the new policy, but it is what it is.",
-            "There's nothing we can do about the weather. It is what it is."
-          ]
-        }
-      ]
-    },
-    {
-      title: "5. 일상생활 꿀팁 표현 (Daily Life Tips)",
-      ex: [
-        { 
-          e: "I'll take a rain check.", 
-          k: "다음으로 미룰게요. / 이번엔 패스할게요.", 
-          x: "초대를 거절할 때 '다음에 갈게'라는 의미를 담아 매우 예의 바르고 부드럽게 거절할 수 있는 관용구입니다.",
-          examples: [
-            "I'm too tired tonight, can I take a rain check?",
-            "I'll have to take a rain check on that lunch.",
-            "Mind if I take a rain check? I'm swamped with work."
-          ]
-        },
-        { 
-          e: "I'm feeling under the weather.", 
-          k: "컨디션이 좀 안 좋아요. / 몸이 찌뿌둥해요.", 
-          x: "'I am sick'이라고 하면 많이 아파 보일 수 있지만, 이 표현을 쓰면 가벼운 감기 기운이나 피로감을 나타내기 좋습니다.",
-          examples: [
-            "I'm feeling a bit under the weather today.",
-            "She went home early because she was feeling under the weather.",
-            "I might skip the gym, I'm feeling under the weather."
-          ]
-        },
-        { 
-          e: "Can you fill me in?", 
-          k: "무슨 일인지 (진행 상황을) 나한테도 알려줄래?", 
-          x: "내가 빠진 회의나 모임에서 무슨 이야기가 오갔는지, 빈칸(빈 공간)을 채워달라는 뜻으로 브리핑을 요청할 때 씁니다.",
-          examples: [
-            "I missed the meeting. Can you fill me in?",
-            "Please fill me in on the details later.",
-            "Could someone fill me in on what happened yesterday?"
-          ]
-        }
-      ]
-    },
-    {
-      title: "6. 원어민 필수 구동사 (Essential Phrasal Verbs)",
-      ex: [
-        {
-          e: "Bring it up",
-          k: "그 이야기를 꺼내다 / 화제로 삼다",
-          x: "아래에 가라앉아 있던 주제(it)를 위로(up) 끌어올리는(bring) 이미지를 상상해 보세요. 회의나 대화 중에 어떤 주제를 꺼낼 때 아주 유용합니다.",
-          examples: [
-            "Don't bring it up again, please.",
-            "I didn't want to bring it up, but we have a problem.",
-            "She brought up the issue during the meeting."
-          ]
-        },
-        {
-          e: "Figure it out",
-          k: "알아내다 / 이해하다 / 해결책을 찾다",
-          x: "머릿속에 얽혀있는 문제나 형태(figure)를 바깥으로(out) 끄집어내어 명확하게 만든다는 뉘앙스입니다. 원어민이 입에 달고 사는 표현입니다.",
-          examples: [
-            "I need some time to figure it out.",
-            "We couldn't figure out why it wasn't working.",
-            "Let's figure out a way to solve this."
-          ]
-        },
-        {
-          e: "Put it off",
-          k: "미루다 / 연기하다",
-          x: "어떤 일정이나 일을 내 몸에 붙어있는(on) 상태에서 떼어내어(off) 다른 곳으로 밀어버리는(put) 느낌입니다.",
-          examples: [
-            "We can't put off the meeting any longer.",
-            "I've been putting off going to the dentist.",
-            "Don't put off until tomorrow what you can do today."
-          ]
-        },
-        {
-          e: "Catch up",
-          k: "밀린 이야기를 나누다 / 따라잡다",
-          x: "뒤처져 있던 것(거리든, 소식이든)을 위로(up) 확 잡아서(catch) 같은 선상에 서게 된다는 뜻입니다. 오랜만에 만난 친구와 밀린 수다를 떨 때 꼭 씁니다.",
-          examples: [
-            "It was great catching up with you.",
-            "Let's grab a coffee and catch up.",
-            "I have a lot of work to catch up on."
-          ]
-        },
-        {
-          e: "Turn down",
-          k: "거절하다 / (소리, 온도 등을) 낮추다",
-          x: "제안이나 볼륨을 내리누르는(down) 방향성을 가집니다. 'reject'보다 부드럽고 일상적인 거절 표현입니다.",
-          examples: [
-            "They offered me a job, but I turned it down.",
-            "Please turn down the music, it's too loud.",
-            "I can't believe she turned down his proposal."
-          ]
-        }
-      ]
-    },
-    {
-      title: "7. 실전 관용구 (Practical Idioms)",
-      ex: [
-        {
-          e: "Call it a day",
-          k: "오늘은 여기까지 하자 / 마치자",
-          x: "이 정도면 오늘 '하루(a day)'치 일은 다 했다고 '부르자(call)'는 뜻입니다. 퇴근하거나 하던 일을 멈출 때 쓰는 필수 관용구입니다.",
-          examples: [
-            "I'm exhausted. Let's call it a day.",
-            "We've done enough work. Shall we call it a day?",
-            "After 10 hours of driving, we finally called it a day."
-          ]
-        },
-        {
-          e: "Get the hang of it",
-          k: "~에 감을 잡다 / 익숙해지다",
-          x: "자전거나 악기를 배울 때 처음엔 헤매다가 어느 순간 딱! 하고 '매달려 있는 감각(hang)'을 '얻게 되는(get)' 상황을 묘사합니다.",
-          examples: [
-            "It's hard at first, but you'll get the hang of it.",
-            "I'm finally getting the hang of this new software.",
-            "Once you get the hang of it, it's pretty easy."
-          ]
-        },
-        {
-          e: "Wrap it up",
-          k: "마무리하다",
-          x: "어떤 행사나 회의, 프로젝트를 포장지(wrap)로 싹 싸서 끝까지(up) 마무리 짓는다는 직관적인 뉘앙스입니다.",
-          examples: [
-            "Let's wrap up this meeting by 3 PM.",
-            "I just need a few minutes to wrap things up.",
-            "We wrapped up the project a week early."
-          ]
-        },
-        {
-          e: "Hit the books",
-          k: "열심히 공부하다",
-          x: "책을 때릴 정도로(?) 맹렬하게 파고들어 공부를 시작하겠다는 유쾌하고 캐주얼한 관용구입니다.",
-          examples: [
-            "I have a big exam tomorrow, so I need to hit the books.",
-            "It's time to hit the books.",
-            "She's been hitting the books all weekend."
-          ]
-        },
-        {
-          e: "So far, so good",
-          k: "지금까지는 아주 좋아 / 순조로워",
-          x: "어떤 일이 진행 중일 때, '지금 이 시점(so far)까지는 문제없이 좋다(so good)'라며 안심시킬 때 사용합니다.",
-          examples: [
-            "A: How's the new job? B: So far, so good.",
-            "We haven't had any problems yet. So far, so good.",
-            "So far, so good, but we still have a lot to do."
-          ]
-        }
-      ]
-    },
-    {
-      title: "8. 원어민식 직관적 관용구 (Intuitive Idioms)",
-      ex: [
-        {
-          e: "On the same page",
-          k: "같은 생각(이해)을 공유하고 있는",
-          x: "같은 책의 '같은 페이지'를 펼쳐놓고 보고 있다는 뜻입니다. 팀 프로젝트나 회의에서 서로의 이해도나 목표가 일치하는지 확인할 때 필수적으로 쓰입니다.",
-          examples: [
-            "I want to make sure we are all on the same page.",
-            "Before we start, let's get on the same page.",
-            "It seems like we are not on the same page about this issue."
-          ]
-        },
-        {
-          e: "Out of the blue",
-          k: "갑자기 / 뜬금없이",
-          x: "맑고 파란 하늘(the blue)에서 갑자기 벼락이 떨어지는 모습을 연상해 보세요. 아무런 예고나 조짐 없이 무언가가 발생했을 때 씁니다.",
-          examples: [
-            "He called me completely out of the blue.",
-            "The decision came out of the blue.",
-            "She showed up at my house out of the blue."
-          ]
-        },
-        {
-          e: "Take it for granted",
-          k: "당연하게 여기다 / 소중함을 모르다",
-          x: "어떤 호의나 상황을 '이미 나에게 주어진 것(granted)'으로 덥석 취해버리는(take) 태도를 뜻합니다. 익숙함에 속아 고마움을 모를 때 자주 씁니다.",
-          examples: [
-            "Don't take her kindness for granted.",
-            "I took my health for granted when I was young.",
-            "We often take things like clean water for granted."
-          ]
-        },
-        {
-          e: "Beat around the bush",
-          k: "빙빙 돌려 말하다 / 요점을 피하다",
-          x: "사냥을 할 때 정작 목표물은 치지 못하고 '수풀 주변만(around the bush) 계속 때리는(beat)' 모습입니다. 핵심을 말하지 않고 뜸을 들일 때 씁니다.",
-          examples: [
-            "Stop beating around the bush and tell me the truth.",
-            "I won't beat around the bush; you're fired.",
-            "He kept beating around the bush when I asked about the money."
-          ]
-        },
-        {
-          e: "Give someone a heads-up",
-          k: "미리 알려주다 / 귀띔해주다",
-          x: "공이 날아올 때 '고개 숙이고 있지 말고 고개 들어(heads-up)!'라고 외쳐서 다치지 않게 미리 경고해 주는 뉘앙스입니다.",
-          examples: [
-            "Thanks for the heads-up about the meeting change.",
-            "Just giving you a heads-up that I might be late.",
-            "Could you give me a heads-up before you arrive?"
-          ]
-        }
-      ]
-    },
-    {
-      title: "9. 필수 생존 구동사 2탄 (Advanced Phrasal Verbs)",
-      ex: [
-        {
-          e: "Look forward to",
-          k: "~를 몹시 기대하다 / 고대하다",
-          x: "내 시선(look)을 저 멀리 앞으로(forward) 던져놓고, 그 목적지(to)에 빨리 도달하기만을 애타게 기다리는 그림입니다. (뒤에 반드시 명사나 -ing가 옵니다)",
-          examples: [
-            "I'm looking forward to the weekend.",
-            "We look forward to working with you.",
-            "She is really looking forward to her vacation."
-          ]
-        },
-        {
-          e: "Make up for",
-          k: "~를 보상하다 / 만회하다",
-          x: "부족했던 부분을 위로(up) 가득 채워 만들어내서(make), 원래의 목적(for)을 달성하는 그림입니다. 실수나 결핍을 메꿀 때 사용합니다.",
-          examples: [
-            "I'll buy you dinner to make up for being late.",
-            "Nothing can make up for the lost time.",
-            "He works hard to make up for his lack of experience."
-          ]
-        },
-        {
-          e: "Come up with",
-          k: "아이디어나 해결책을 떠올리다",
-          x: "머릿속 깊은 곳에서 어떤 생각이나 아이디어를 위로(up) 끌고 올라와서(come), 그것과 함께(with) 탁 튀어나오는 모습입니다.",
-          examples: [
-            "We need to come up with a better plan.",
-            "How did you come up with that idea?",
-            "She came up with a brilliant solution to the problem."
-          ]
-        },
-        {
-          e: "Put up with",
-          k: "꾹 참다 / 견디다",
-          x: "도망치거나 쓰러지지 않고, 불편한 상황이나 대상과 함께(with) 나 자신을 위로 꼿꼿이(up) 세워두는(put) 인내심을 묘사합니다.",
-          examples: [
-            "I can't put up with this noise anymore.",
-            "She puts up with a lot of stress at work.",
-            "How do you put up with his bad temper?"
-          ]
-        },
-        {
-          e: "Run out of",
-          k: "~가 다 떨어지다 / 바닥나다",
-          x: "어떤 자원(시간, 돈, 배터리 등)이 경계를 넘어 바깥으로(out) 마구 달려나가 버려서(run), 텅 비어버린 절망적인 뉘앙스입니다.",
-          examples: [
-            "We are running out of time.",
-            "My phone is running out of battery.",
-            "I've run out of patience with you."
-          ]
-        }
-      ]
-    },
-    {
-      title: "10. 유튜브 커뮤니티 최신 업데이트 (Latest Posts)",
-      ex: [
-        {
-          e: "Drop off",
-          k: "내려주다 / 데려다주다 / 맡기다",
-          x: "차에 태우고 가다가 내가 가지고 있던 것(사람이나 물건)을 목적지에 툭 떨어뜨리고(drop), 내 손이나 차에서 분리시키는(off) 이미지입니다.",
-          examples: [
-            "I'll drop you off at the station.",
-            "Can you drop me off near the bank?",
-            "I need to drop off these packages at the post office."
-          ]
-        },
-        {
-          e: "Iron out",
-          k: "조율하다 / 매끄럽게 정리하다 / 해결하다",
-          x: "구겨진 셔츠를 다리미(iron)로 문질러 바깥으로(out) 쫙쫙 펴서 매끄럽게 만드는 이미지입니다. 계약이나 일정의 자잘한 문제나 갈등을 해결하고 다듬을 때 씁니다.",
-          examples: [
-            "We need to iron out a few details before signing the contract.",
-            "They are trying to iron out their differences.",
-            "Let's iron out the schedule for next week."
-          ]
-        },
-        {
-          e: "Rule out",
-          k: "배제하다 / 제외하다 / 불가능하다고 판정하다",
-          x: "명단이나 목록에 자(rule)를 대고 줄을 쭉 그어서 바깥으로(out) 지워버리는 이미지입니다. 가능성을 완전히 차단할 때 씁니다.",
-          examples: [
-            "We can't rule out the possibility.",
-            "The police have ruled out murder.",
-            "Don't rule him out just yet."
-          ]
-        },
-        {
-          e: "Narrow down",
-          k: "좁혀가다 / 압축하다",
-          x: "넓게 퍼져있던 여러 개의 선택지를 아래로(down) 내려가면서 점점 좁게(narrow) 만들어가는 깔때기 같은 이미지입니다.",
-          examples: [
-            "We narrowed down the list to three candidates.",
-            "Can you narrow down your search?",
-            "It's hard to narrow down the options."
-          ]
-        },
-        {
-          e: "Hold off",
-          k: "미루다 / 보류하다 / (비가) 내리지 않다",
-          x: "어떤 결정이나 행동을 꽉 붙잡고(hold) 일정 시간 동안 나에게서 떨어뜨려 두는(off) 이미지입니다. 비가 쏟아지지 않고 참아줄 때도 씁니다.",
-          examples: [
-            "Let's hold off on making a decision until tomorrow.",
-            "The rain held off until we finished the game.",
-            "They decided to hold off buying a house."
-          ]
-        }
-      ]
-    },
-    {
-      title: "11. 유튜브 커뮤니티 최신 업데이트 2탄 (Latest Posts 2)",
-      ex: [
-        {
-          e: "Back out",
-          k: "빠지다 / 발을 빼다 / 취소하다",
-          x: "처음에는 하겠다고 했지만, 나중에 뒤로 물러나면서(back) 밖으로 빠져나가는(out) 이미지입니다. 참여하지 않거나 약속을 취소할 때 씁니다.",
-          examples: [
-            "He backed out at the last minute.",
-            "Sorry, I have to back out. Something came up.",
-            "Don't back out on me."
-          ]
-        },
-        {
-          e: "Pin on",
-          k: "누군가의 탓으로 돌리다",
-          x: "핀(pin)으로 (죄가 적힌) 종이를 사람 옷 표면(on)에 딱 꽂으면서 '이건 네 책임이야!'라고 떠넘기는 뉘앙스입니다.",
-          examples: [
-            "Don't try to pin it on me!",
-            "They tried to pin the mistake on me.",
-            "He always pins everything on someone else."
-          ]
-        },
-        {
-          e: "Figure in",
-          k: "(계산에) 포함하다 / 반영하다",
-          x: "figure는 원래 숫자(number)를 뜻합니다. 그래서 '숫자를 계산 영역 안으로(in) 넣다'라는 개념으로 무언가를 고려하거나 반영할 때 씁니다.",
-          examples: [
-            "We need to figure in taxes.",
-            "Did you figure in shipping costs?",
-            "His name figured in the conversation several times."
-          ]
-        },
-        {
-          e: "Pencil in",
-          k: "일단 가볍게 잡아두다 / 임시로 예정해 두다",
-          x: "펜(pen)이 아닌 연필(pencil)로 적어두는 이미지입니다. 나중에 지우거나 바꿀 수 있으므로, 확정은 아니지만 일단 일정표에 넣어둘 때 사용합니다.",
-          examples: [
-            "Let's pencil in Friday for now.",
-            "Let me pencil you in for Thursday at 2.",
-            "Can we pencil in a meeting for next week?"
-          ]
-        },
-        {
-          e: "Follow up",
-          k: "후속 조치하다 / 다시 확인하다 / 이어가다",
-          x: "한 번 하고 끝내는 게 아니라, 그 일이나 대화 뒤를 따라가서(follow) 끝까지 끌어올려(up) 챙기고 이어가는 것을 의미해요.",
-          examples: [
-            "I need to follow up on that email.",
-            "Did you follow up with the client?",
-            "No follow-up needed."
-          ]
-        },
-        {
-          e: "Get by",
-          k: "어떻게든 해내다 / 그럭저럭 살아가다 / 버텨내다",
-          x: "완벽하거나 넉넉한 상태는 아니지만, 장애물을 간신히 스쳐 지나가며(by) 생존과 필요한 것을 얻어내는(get) 느낌입니다.",
-          examples: [
-            "We're not rich, but we get by.",
-            "My English isn't perfect, but I can get by.",
-            "We're short on staff, so we're just getting by for now."
-          ]
-        },
-        {
-          e: "Egg on",
-          k: "누군가를 부추기다 / 바람넣다",
-          x: "보통 안 좋은 행동이나 위험한 행동을 하도록 옆에서 '해봐!', '더 해!' 하면서 분위기를 띄우고 충동질할 때 많이 씁니다.",
-          examples: [
-            "Stop egging me on. I'm not going to do it.",
-            "My friends kept egging me on to text him.",
-            "Why did you egg her on?"
-          ]
-        }
-      ]
-    }
-  ];
-
-
-  const starredSentences = JSON.parse(localStorage.getItem('study_starred_sentences') || '{}');
-
-  function toggleStar(event, lid) {
-    event.stopPropagation();
-    starredSentences[lid] = !starredSentences[lid];
-    localStorage.setItem('study_starred_sentences', JSON.stringify(starredSentences));
-    const btn = event.currentTarget;
-    if(starredSentences[lid]) {
-      btn.classList.add('active');
-      btn.innerHTML = '★';
-    } else {
-      btn.classList.remove('active');
-      btn.innerHTML = '☆';
-    }
-  }
-
-  function toggleHideEn() {
-    document.body.classList.toggle('hide-en-mode');
-  }
-  function toggleHideKo() {
-    document.body.classList.toggle('hide-ko-mode');
   }
 
   let currentDay = 1;
@@ -8043,18 +6504,6 @@
     document.getElementById('hero-title').textContent = data.title;
     document.getElementById('hero-sub').textContent = data.sub;
 
-    const compBtn = document.getElementById('day-complete-btn');
-    if (compBtn) {
-      if (completedDays.includes(day)) {
-        compBtn.textContent = '✅ 미션 완료';
-        compBtn.style.background = 'var(--accent)';
-      } else {
-        compBtn.textContent = '미션 완료 체크';
-        compBtn.style.background = 'var(--surface)';
-      }
-    }
-    updateProgress();
-
     const kpiGrid = document.getElementById('kpi-grid');
     kpiGrid.innerHTML = data.kpis.map(k => `
       <div class="kpi-card">
@@ -8074,8 +6523,10 @@
           const lid = `day-${day}-lesson-${i}`;
           const score = memoryScores[lid] || 0;
           return `
-          <div class="sentence-card" id="sent-day-${day}-${i}" data-mastery="${dayMasteryId}" onclick="selectSentence('day', ${day}, ${i})">
-            <button class="star-btn ${starredSentences[lid] ? 'active' : ''}" onclick="toggleStar(event, '${lid}')">${starredSentences[lid] ? '★' : '☆'}</button>
+          <div class="sentence-card" id="sent-day-${day}-${i}" data-mastery="${dayMasteryId}" onclick="selectSentence('day', ${day}, ${i}); updateMemoryProgress('${lid}', 5)">
+            <div class="memory-indicator" style="margin-bottom:8px;">
+              <div class="memory-bar-bg"><div class="memory-bar-fill" style="width:${score}%"></div></div>
+            </div>
             <div class="chapter-num">LESSON 0${i+1}</div>
             <div class="sentence-en">${l.t}</div>
             <div class="sentence-ko">${l.d}</div>
@@ -8105,8 +6556,8 @@
           <div class="section-title" style="color:var(--ember)">General / Textbook</div>
           ${data.compare.map(c => `
             <div class="compare-item">
-              <div>"${c.b}" <button class="speak-btn" style="margin-left:8px;" onclick="speakText('${c.b.replace(/'/g, "\\'")}')">🔊</button></div>
-              ${c.kb ? `<div style="font-size:14px; color:var(--text-dim); margin-top:6px; font-weight:400;">${c.kb}</div>` : ''}
+              "${c.b}" 
+              <button class="speak-btn" onclick="speakText('${c.b.replace(/'/g, "\\'")}')">🔊</button>
             </div>
           `).join('')}
         </div>
@@ -8114,8 +6565,8 @@
           <div class="section-title">Sophisticated / Native</div>
           ${data.compare.map(c => `
             <div class="compare-item" style="font-weight:700">
-              <div>"${c.g}" <button class="speak-btn" style="margin-left:8px;" onclick="speakText('${c.g.replace(/'/g, "\\'")}')">🔊</button></div>
-              ${c.kg ? `<div style="font-size:14px; color:var(--text-dim); margin-top:6px; font-weight:400;">${c.kg}</div>` : ''}
+              "${c.g}" 
+              <button class="speak-btn" onclick="speakText('${c.g.replace(/'/g, "\\'")}')">🔊</button>
             </div>
           `).join('')}
         </div>
@@ -8149,7 +6600,7 @@
       }
       videoArea.innerHTML = `
         <div class="video-master-card container fade-in" style="margin-bottom: 40px; padding:0;">
-          <div class="video-container">
+          <div class="video-container" style="padding-bottom: 50%;">
             <iframe class="yt-video-player" src="https://www.youtube.com/embed/${data.videoId}?enablejsapi=1" allowfullscreen></iframe>
           </div>
           <div style="padding: 24px;">
@@ -8161,7 +6612,6 @@
       `;
     }
 
-    renderPills();
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
@@ -8513,1013 +6963,43 @@
   ];
 
   const nativeGrammar = [
-  {
-    "name": "1. 문장의 시작 (Starting Point)",
-    "videoId": "",
-    "nuance": "한국인들이 가장 어려워하는 '영어식 사고방식'의 출발점",
-    "core": "주어(무생물) + 만능 동사",
-    "desc": "[eng_kiwi 원어민적 사고방식] 한국어는 '내가/우리가'를 생략하거나 부사를 먼저 던지지만, 영어는 무조건 주어로 시작합니다. 특히 한국인들이 영어를 길게 말하지 못하는 이유는 '무생물 주어'를 쓰지 않기 때문입니다. '비 때문에 못 나갔어'가 아니라 '비가 막았어 나를' 처럼 무생물이 스스로 에너지를 발산하는 구조를 체화해야 합니다.",
-    "ex": [
-      {
-        "e": "The rain kept me from going out.",
-        "k": "비가(주어) 막았어 ➔ 나를 ➔ 나가는 것으로부터 (무생물 주어)",
-        "extra": [
-          {
-            "e": "The alarm woke me up.",
-            "k": "알람이 나를 깨웠다."
-          },
-          {
-            "e": "This road will lead you to the station.",
-            "k": "이 길이 너를 역으로 이끌 것이다."
-          },
-          {
-            "e": "The news surprised everyone.",
-            "k": "그 소식이 모두를 놀라게 했다."
-          },
-          {
-            "e": "A short walk will make you feel better.",
-            "k": "가벼운 산책이 네 기분을 낫게 만들 것이다."
-          },
-          {
-            "e": "His success brought him fame.",
-            "k": "그의 성공이 그에게 명성을 가져다 주었다."
-          },
-          {
-            "e": "My new job takes me to many different countries.",
-            "k": "내 새 직업이 나를 여러 나라로 데려간다."
-          }
-        ]
-      },
-      {
-        "e": "Are you angry? vs Do you know?",
-        "k": "Are you(상태 묘사) vs Do you(행동 묘사)",
-        "extra": [
-          {
-            "e": "Are you ready?",
-            "k": "너 준비된 상태니? (Are you는 형용사/명사와 결합)"
-          },
-          {
-            "e": "Do you understand?",
-            "k": "너 이해하는 행동을 하니? (Do you는 일반동사와 결합)"
-          },
-          {
-            "e": "Are you hungry?",
-            "k": "너 배고픈 상태니?"
-          },
-          {
-            "e": "Do you like pizza?",
-            "k": "너 피자 좋아하는 상태니?"
-          },
-          {
-            "e": "Are you a student?",
-            "k": "너 학생인 상태(신분)니?"
-          },
-          {
-            "e": "Do you work here?",
-            "k": "너 여기서 일하는 행동을 하니?"
-          }
-        ]
-      },
-      {
-        "e": "It is hard to learn English.",
-        "k": "어려워 ➔ 영어를 배우는 게 (허수아비 It으로 일단 상황 덮어두기)",
-        "extra": [
-          {
-            "e": "It takes two hours to get there.",
-            "k": "거기 가는 데 2시간 걸려."
-          },
-          {
-            "e": "It seems that he is tired.",
-            "k": "그는 피곤한 것 같아."
-          },
-          {
-            "e": "It makes sense to start early.",
-            "k": "일찍 시작하는 것이 이치에 맞다."
-          },
-          {
-            "e": "It turned out that she was right.",
-            "k": "그녀가 맞았다는 것이 밝혀졌다."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "2. 동사의 본질 (Verbs: Get, Make, Take)",
-    "videoId": "",
-    "nuance": "동사는 암기하는 것이 아니라 이미지를 그리는 것",
-    "core": "Get(변화/도달), Make(창조/강제), Take(취함)",
-    "desc": "[eng_kiwi 핵심 꿀팁] 한국인들이 동사를 어려워하는 이유는 1:1 뜻으로 외우기 때문입니다. 'get'은 '없던 것이 내 영역으로 들어오는 변화', 'make'는 단순히 '만들다'가 아니라 무에서 유를 창조하거나 강제로 상태를 변화시키는 힘, 'take'는 내 의지로 뭔가를 쏙 가져오는 뉘앙스입니다.",
-    "ex": [
-      {
-        "e": "I got tired.",
-        "k": "나는 피곤한 상태로 '변화'했다 (Get = 상태의 이동/변화)",
-        "extra": [
-          {
-            "e": "I got a new car.",
-            "k": "없던 차가 내 영역으로 들어옴 (얻다)."
-          },
-          {
-            "e": "I didn't get the joke.",
-            "k": "그 농담이 내 머릿속에 도달하지 않음 (이해 못함)."
-          },
-          {
-            "e": "It's getting dark.",
-            "k": "어두운 상태로 점점 이동/변화하고 있음."
-          },
-          {
-            "e": "I got him to help me.",
-            "k": "내가 그를 움직여서 나를 돕는 상태로 도달시킴(설득)."
-          },
-          {
-            "e": "Get out of here!",
-            "k": "이 공간에서 밖으로 이동해라(나가라)."
-          }
-        ]
-      },
-      {
-        "e": "Stop making me cry.",
-        "k": "(강제로) 나를 울게 만들지 마. (Make = 무에서 유를 창조하는 강한 힘)",
-        "extra": [
-          {
-            "e": "I made a mistake.",
-            "k": "없던 실수를 내가 창조해냄."
-          },
-          {
-            "e": "She makes me happy.",
-            "k": "그녀가 나에게 행복이란 감정을 무에서 유로 만들어줌."
-          },
-          {
-            "e": "Make sure you lock the door.",
-            "k": "문 잠그는 것을 확실한 상태로 '강제/창조'해라."
-          },
-          {
-            "e": "I can't make it to the party.",
-            "k": "그 파티에 가는 상황 자체를 내가 만들어낼(창조) 수가 없어."
-          },
-          {
-            "e": "He made a promise.",
-            "k": "그가 약속이라는 것을 만들어냈다."
-          }
-        ]
-      },
-      {
-        "e": "I'll take it.",
-        "k": "내가 그걸 취할게(가질게). (Take = 적극적인 의지로 내 쪽으로 당김)",
-        "extra": [
-          {
-            "e": "Take your time.",
-            "k": "너의 시간을 적극적으로 써라(천천히 해)."
-          },
-          {
-            "e": "It takes two hours.",
-            "k": "그것이 내 시간 2시간을 빼앗아 감(취함)."
-          },
-          {
-            "e": "Take this medicine.",
-            "k": "이 약을 네 몸속으로 취해라(먹어라)."
-          },
-          {
-            "e": "Don't take it personally.",
-            "k": "그걸 개인적인 공격으로 받아들이지(취하지) 마."
-          },
-          {
-            "e": "I took a picture.",
-            "k": "내가 사진이라는 결과물을 내 쪽으로 확 취함(찍음)."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "3. 구동사의 마법 (Phrasal Verbs)",
-    "videoId": "",
-    "nuance": "동사 + 부사 = 그림 그려지듯 이해하기",
-    "core": "부사의 방향성이 동사를 완성한다",
-    "desc": "[eng_kiwi 구동사] 구동사는 외우는 게 아닙니다! 동사의 물리적 움직임에 부사(up, down, out, away)의 '방향성'을 더하면 뜻이 무한 확장됩니다. out은 '숨겨진 것이 밖으로 나타남', up은 '완전히 끝까지 도달함'이라는 본질을 이해하세요.",
-    "ex": [
-      {
-        "e": "I'll figure it out.",
-        "k": "내가 모양(figure)을 바깥으로(out) 끄집어내 볼게 (해결하다/알아내다)",
-        "extra": [
-          {
-            "e": "Watch out!",
-            "k": "시선을 밖으로(out) 던져라 (조심해!)."
-          },
-          {
-            "e": "Turn out the lights.",
-            "k": "불을 밖으로(out) 내보내다 (끄다)."
-          },
-          {
-            "e": "It turned out to be true.",
-            "k": "그것이 진실로 바깥에(out) 드러났다."
-          },
-          {
-            "e": "Check it out.",
-            "k": "그것을 바깥으로(out) 꺼내서 확인해봐."
-          },
-          {
-            "e": "Work out the problem.",
-            "k": "문제를 밖으로(out) 끄집어내어 해결하다."
-          }
-        ]
-      },
-      {
-        "e": "Eat it up.",
-        "k": "먹어서 끝까지(up) 도달시켜라 (남김없이 다 먹어라)",
-        "extra": [
-          {
-            "e": "Use it up.",
-            "k": "사용해서 끝까지(up) 소진해라 (다 써버려라)."
-          },
-          {
-            "e": "Give up.",
-            "k": "내가 가진 것을 위로(up) 던져버림 (포기하다)."
-          },
-          {
-            "e": "Grow up.",
-            "k": "위로(up) 자라나라 (철 좀 들어라)."
-          },
-          {
-            "e": "Show up.",
-            "k": "내 모습을 위로(up) 드러냄 (나타나다)."
-          },
-          {
-            "e": "Make up your mind.",
-            "k": "마음을 위로(up) 꽉 채워서 결심해라."
-          }
-        ]
-      },
-      {
-        "e": "Put it away.",
-        "k": "그것을 멀리(away) 두어라 (치워라)",
-        "extra": [
-          {
-            "e": "Throw it away.",
-            "k": "던져서 멀리(away) 보내라 (버려라)."
-          },
-          {
-            "e": "Pass away.",
-            "k": "멀리(away) 지나가다 (돌아가시다)."
-          },
-          {
-            "e": "Run away.",
-            "k": "뛰어서 멀리(away) 가다 (도망치다)."
-          },
-          {
-            "e": "Look away.",
-            "k": "시선을 멀리(away) 돌리다."
-          },
-          {
-            "e": "Take it away.",
-            "k": "그것을 내 의지로 취해서 멀리(away) 치워버려라."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "4. 전치사의 완벽한 이해 (Prepositions)",
-    "videoId": "",
-    "nuance": "점, 면, 공간 그리고 방향의 차이",
-    "core": "IN/ON/AT, FOR vs TO, OF vs FOR",
-    "desc": "[eng_kiwi 전치사 완전 정복] 전치사는 해석으로 외우면 절대 안 됩니다. AT은 콕 찍는 '점', ON은 접촉해 있는 '면', IN은 감싸고 있는 '공간'입니다. 또한, 방향성을 뜻하는 TO와 교환/목적을 뜻하는 FOR를 완벽히 구분해야 합니다.",
-    "ex": [
-      {
-        "e": "I am at the door / on the roof / in the room.",
-        "k": "문(점)에 / 지붕(면) 위에 / 방(공간) 안에",
-        "extra": [
-          {
-            "e": "Look at me.",
-            "k": "내 눈(점)을 콕 찍어서 쳐다봐."
-          },
-          {
-            "e": "The picture is on the wall.",
-            "k": "그림이 벽(면)에 찰싹 붙어있다."
-          },
-          {
-            "e": "I am in love.",
-            "k": "나는 사랑이라는 3차원 공간(in) 안에 푹 빠져있다."
-          },
-          {
-            "e": "Call me at 5 PM.",
-            "k": "5시라는 정확한 점(at)에 전화해."
-          },
-          {
-            "e": "I read it on the internet.",
-            "k": "인터넷이라는 보이지 않는 면(on) 위에서 읽음."
-          }
-        ]
-      },
-      {
-        "e": "I made this for you vs I gave it to you.",
-        "k": "FOR(너를 위함/목적) vs TO(너에게 도달/방향)",
-        "extra": [
-          {
-            "e": "I bought a gift for her.",
-            "k": "그녀를 향한 마음(목적/가치 교환)으로 샀다."
-          },
-          {
-            "e": "I handed the gift to her.",
-            "k": "선물이 그녀에게 이동하여 '도달(to)'했다."
-          },
-          {
-            "e": "Wait for me.",
-            "k": "너의 기다림의 목적(for)이 나다."
-          },
-          {
-            "e": "Listen to me.",
-            "k": "너의 청각이 나에게 도달(to)해야 한다."
-          },
-          {
-            "e": "I am looking for my keys.",
-            "k": "내 열쇠를 찾기 위한 목적(for)으로 둘러본다."
-          }
-        ]
-      },
-      {
-        "e": "A cup of coffee vs A gift for you.",
-        "k": "OF(절대 분리할 수 없는 소속/일부) vs FOR(목적/위함)",
-        "extra": [
-          {
-            "e": "A piece of cake.",
-            "k": "케이크의 분리할 수 없는 일부(of)."
-          },
-          {
-            "e": "The top of the mountain.",
-            "k": "산과 꼭대기는 한 몸(of)."
-          },
-          {
-            "e": "I am proud of you.",
-            "k": "자랑스러운 감정의 원천/본질(of)이 너다."
-          },
-          {
-            "e": "This is a book for children.",
-            "k": "이 책의 목적(for)이 아이들이다."
-          },
-          {
-            "e": "Thank you for your help.",
-            "k": "나의 감사와 너의 도움을 맞교환(for)."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "5. 관사 (A vs THE)",
-    "videoId": "",
-    "nuance": "가장 어려운 관사, 1초 만에 구분하기",
-    "core": "A = 첫 등장(분류), THE = 너도 알고 나도 아는 바로 그것",
-    "desc": "[eng_kiwi 관사 구분법] 한국인에게 가장 어려운 관사! 1초 구분법: 말하는 사람과 듣는 사람이 머릿속에 '동일한 대상'을 떠올리고 있다면 무조건 THE입니다. 서로 모르는 수많은 것들 중 하나를 처음 꺼낼 때는 A를 씁니다.",
-    "ex": [
-      {
-        "e": "I bought a car. The car is red.",
-        "k": "차를 한 대(수많은 차 중 하나) 샀어. (너도 이제 아는) 그 차는 빨개.",
-        "extra": [
-          {
-            "e": "I saw a boy. The boy was crying.",
-            "k": "소년(누군지 모름)을 봤어. (우리가 지금 말하는) 그 소년은 울고 있었어."
-          },
-          {
-            "e": "Do you have a pen?",
-            "k": "아무 펜이나 하나 있어?"
-          },
-          {
-            "e": "Pass me the pen.",
-            "k": "그 펜(네 눈앞에 있는 바로 그거) 좀 건네줘."
-          },
-          {
-            "e": "She is a doctor.",
-            "k": "그녀는 수많은 의사라는 부류 중 한 명이야."
-          },
-          {
-            "e": "She is the doctor who saved my life.",
-            "k": "그녀는 (너도 아는) 내 목숨을 구한 바로 그 의사야."
-          }
-        ]
-      },
-      {
-        "e": "Close the door. / Turn off the TV.",
-        "k": "방 안에 문/TV가 하나뿐이라 너도 알고 나도 아는 명백한 상황",
-        "extra": [
-          {
-            "e": "Look at the moon.",
-            "k": "달은 세상에 하나뿐이라 우리 모두가 안다."
-          },
-          {
-            "e": "I'm going to the bank.",
-            "k": "내가 평소에 늘 가는 바로 그 은행."
-          },
-          {
-            "e": "Let's go to the park.",
-            "k": "우리 동네에 있는 바로 그 공원."
-          },
-          {
-            "e": "Call the police.",
-            "k": "당연히 우리 지역의 그 경찰."
-          },
-          {
-            "e": "I need to go to the bathroom.",
-            "k": "여기 있는 바로 그 화장실."
-          }
-        ]
-      },
-      {
-        "e": "I go to school vs I went to the school.",
-        "k": "무관사(본질적 목적) vs THE(물리적 건물)",
-        "extra": [
-          {
-            "e": "I am in bed.",
-            "k": "침대의 본질인 '잠'을 자는 중."
-          },
-          {
-            "e": "Don't jump on the bed.",
-            "k": "물리적인 가구인 '그 침대' 위에서 뛰지 마."
-          },
-          {
-            "e": "He is in prison.",
-            "k": "감옥의 본질인 '수감' 상태임."
-          },
-          {
-            "e": "He visited the prison.",
-            "k": "면회 목적으로 물리적인 '그 감옥 건물'에 방문함."
-          },
-          {
-            "e": "Let's have breakfast.",
-            "k": "식사 자체의 본질적 행위이므로 관사를 안 씀."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "6. 시제 (Tenses & Present Perfect)",
-    "videoId": "",
-    "nuance": "과거가 현재까지 질척거리는 느낌",
-    "core": "Have p.p (현재완료) & Have been -ing",
-    "desc": "[eng_kiwi 시제] 과거형은 옛날에 일어났고 지금과는 단절된 '팩트'입니다. 하지만 현재완료(have p.p)는 과거에 벌어진 일이 끈처럼 이어져 '그래서 지금 이런 상태다'라는 걸 강조합니다.",
-    "ex": [
-      {
-        "e": "I lost my key vs I have lost my key.",
-        "k": "과거(지금 찾았는진 모름) vs 현재완료(과거에 잃어버려서 지금 내 손에 없어!)",
-        "extra": [
-          {
-            "e": "He went to London.",
-            "k": "그는 런던에 갔어. (과거의 팩트, 지금 여깄는지 모름)"
-          },
-          {
-            "e": "He has gone to London.",
-            "k": "그는 런던으로 가버렸어. (그래서 지금 여기 없어)"
-          },
-          {
-            "e": "Did you finish?",
-            "k": "끝냈어? (과거 시점)"
-          },
-          {
-            "e": "Have you finished?",
-            "k": "끝마쳐서 지금 다 된 상태야? (현재의 상태)"
-          },
-          {
-            "e": "I broke my leg.",
-            "k": "다리 부러졌었어. (과거 일)"
-          },
-          {
-            "e": "I have broken my leg.",
-            "k": "다리가 부러졌어. (그래서 지금 깁스 중이야)"
-          }
-        ]
-      },
-      {
-        "e": "I have known him for 10 years.",
-        "k": "10년 전부터 알아왔고, 그 결과 지금도 안다 (계속)",
-        "extra": [
-          {
-            "e": "I have lived here since 2010.",
-            "k": "2010년부터 살았고 지금도 산다."
-          },
-          {
-            "e": "I have never been to Paris.",
-            "k": "태어나서 지금까지 파리에 가본 적이 없다 (경험)."
-          },
-          {
-            "e": "Have you ever tried this?",
-            "k": "과거부터 지금까지 이거 시도해본 경험 있어?"
-          },
-          {
-            "e": "I have just arrived.",
-            "k": "이제 막 도착해서 지금 여기 있는 상태다 (완료)."
-          },
-          {
-            "e": "Someone has stolen my wallet.",
-            "k": "누가 훔쳐가서 지금 내게 지갑이 없다 (결과)."
-          }
-        ]
-      },
-      {
-        "e": "I have been waiting for 2 hours.",
-        "k": "과거부터 지금까지 2시간 동안 계속! 지금 이 순간에도 기다리는 중! (현재완료 진행형)",
-        "extra": [
-          {
-            "e": "It has been raining all day.",
-            "k": "하루 종일 비가 내렸고 지금도 주룩주룩 내리는 중."
-          },
-          {
-            "e": "I have been working here since Monday.",
-            "k": "월요일부터 계속 일해왔고 지금도 일하는 중."
-          },
-          {
-            "e": "She has been studying English for 3 years.",
-            "k": "3년째 계속 영어 공부를 하고 있는 생생한 동작의 강조."
-          },
-          {
-            "e": "What have you been doing?",
-            "k": "너 지금까지 대체 뭘 하고 있었던 거야?"
-          },
-          {
-            "e": "I have been thinking about you.",
-            "k": "계속 네 생각만 하고 있었어."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "7. 조동사 (Would vs Could vs Should)",
-    "videoId": "",
-    "nuance": "확률의 게임이자 부드러움의 미학",
-    "core": "Would(~일 텐데), Could(~할 수도 있어), Should(~해야지)",
-    "desc": "[eng_kiwi 조동사 완벽 정리] 조동사의 과거형을 과거라고 외우지 마세요. 현실에서 한 발짝 물러난 '상상'이자 '부드러움'입니다. Would는 '상황이 주어지면 ~할 텐데(강한 의지)', Could는 '~할 수도 있지(가능성)', Should는 '~하는 게 맞지(당연한 조언)' 입니다.",
-    "ex": [
-      {
-        "e": "I would do it.",
-        "k": "만약 상황만 된다면 난 무조건 그거 할 텐데. (상상 속의 강한 의지/확률)",
-        "extra": [
-          {
-            "e": "I would never do that.",
-            "k": "나라면 절대 그렇게 안 해."
-          },
-          {
-            "e": "Would you like some coffee?",
-            "k": "혹시 커피 원하십니까? (will보다 한 발짝 물러난 공손함)"
-          },
-          {
-            "e": "He said he would call me.",
-            "k": "그는 전화할 거라고 말했다 (과거 시점에서의 미래)."
-          },
-          {
-            "e": "It would be nice to see you.",
-            "k": "널 보면 참 좋을 텐데."
-          },
-          {
-            "e": "I would rather stay home.",
-            "k": "차라리 집에 있을래."
-          }
-        ]
-      },
-      {
-        "e": "I could do it.",
-        "k": "원한다면 내가 그거 할 수도 있어. (상상 속의 부드러운 가능성/능력)",
-        "extra": [
-          {
-            "e": "Could you help me?",
-            "k": "혹시 날 도와줄 수도 있어? (can보다 덜 부담주는 부탁)"
-          },
-          {
-            "e": "It could rain tomorrow.",
-            "k": "내일 비가 올 수도 있어 (낮은 가능성)."
-          },
-          {
-            "e": "I could sleep for a week.",
-            "k": "나 일주일 동안 잘 수도 있어 (그만큼 피곤해)."
-          },
-          {
-            "e": "We could go to the movies.",
-            "k": "우리 영화 보러 갈 수도 있지 (제안)."
-          },
-          {
-            "e": "Things could be worse.",
-            "k": "상황이 더 나빠질 수도 있어."
-          }
-        ]
-      },
-      {
-        "e": "You should do it.",
-        "k": "그거 하는 게 도덕적으로/상식적으로 맞지. (의무보다는 강한 조언)",
-        "extra": [
-          {
-            "e": "You should see a doctor.",
-            "k": "너 병원 가보는 게 좋겠어 (강력한 조언)."
-          },
-          {
-            "e": "I should go now.",
-            "k": "나 이제 가봐야 해."
-          },
-          {
-            "e": "He should be here by now.",
-            "k": "그는 지금쯤 여기 와 있어야 해 (당연한 추측)."
-          },
-          {
-            "e": "Should I call her?",
-            "k": "내가 그녀에게 전화하는 게 맞을까?"
-          },
-          {
-            "e": "You shouldn't eat too much late at night.",
-            "k": "밤늦게 너무 많이 먹으면 안 되지."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "8. 수동태 (Passive Voice)",
-    "videoId": "",
-    "nuance": "내 잘못이라고 말하기 싫을 때",
-    "core": "행위자보다 '당한 대상'이 중요할 때",
-    "desc": "주어가 행동을 '했다'가 아니라 '당했다'를 말하고 싶을 때 씁니다. 한국어로는 어색하지만, 영어는 '내 차가 훔쳐짐 당했어' 처럼 대상에 포커스를 맞춥니다. 특히 'A mistake was made(실수가 발생했습니다)'처럼 책임을 회피할 때 아주 자주 쓰입니다.",
-    "ex": [
-      {
-        "e": "My car was stolen.",
-        "k": "내 차가 도난당했어. (누가 훔쳤는지가 중요한 게 아니라 내 차가 없어졌다는 게 포커스)",
-        "extra": [
-          {
-            "e": "The building was destroyed by the fire.",
-            "k": "그 건물은 화재로 파괴되었다."
-          },
-          {
-            "e": "He was fired yesterday.",
-            "k": "그는 어제 해고당했다."
-          },
-          {
-            "e": "The meeting was canceled.",
-            "k": "그 회의는 취소되었다."
-          },
-          {
-            "e": "I was told to wait here.",
-            "k": "나는 여기서 기다리라는 말을 들었다."
-          }
-        ]
-      },
-      {
-        "e": "A mistake was made.",
-        "k": "실수가 발생했습니다. (내가 실수했다고 콕 집어 말하기 싫은 책임 회피적 뉘앙스)",
-        "extra": [
-          {
-            "e": "Your request was denied.",
-            "k": "귀하의 요청은 거부되었습니다."
-          },
-          {
-            "e": "The data was lost.",
-            "k": "데이터가 유실되었습니다."
-          },
-          {
-            "e": "Some rules were broken.",
-            "k": "일부 규칙이 위반되었습니다."
-          },
-          {
-            "e": "The issue was overlooked.",
-            "k": "그 문제는 간과되었습니다."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "9. 가정법 (Unreal Conditionals)",
-    "videoId": "",
-    "nuance": "현실과의 완벽한 단절",
-    "core": "시제 후퇴 = 현실과의 거리감",
-    "desc": "시제를 한 단계 뒤로 미루는 이유는 시간이 과거여서가 아닙니다. 지금 이 순간의 '현실성'에서 한 발짝 물러나(단절되어) 가상의 세계를 상상하기 때문입니다. 시제가 후퇴할수록 가능성도 후퇴합니다.",
-    "ex": [
-      {
-        "e": "If I have money, I will buy it.",
-        "k": "돈이 있으면 살게. (현실성 높음: 진짜 돈이 들어올 가능성이 있음)",
-        "extra": [
-          {
-            "e": "If it rains tomorrow, we will stay home.",
-            "k": "내일 비가 오면 우리는 집에 있을 거야."
-          },
-          {
-            "e": "If you study hard, you will pass the exam.",
-            "k": "네가 열심히 공부하면, 넌 시험에 통과할 거야."
-          },
-          {
-            "e": "If she calls me, I will tell her the truth.",
-            "k": "그녀가 내게 전화하면, 난 진실을 말할 거야."
-          }
-        ]
-      },
-      {
-        "e": "If I had money, I would buy it.",
-        "k": "돈이 있다면 살 텐데. (현실성 낮음: 지금 돈이 없다는 현실과 단절된 상상)",
-        "extra": [
-          {
-            "e": "If I knew his number, I would call him.",
-            "k": "내가 그의 번호를 안다면 그에게 전화할 텐데."
-          },
-          {
-            "e": "If she were here, she would help us.",
-            "k": "그녀가 여기 있다면, 우리를 도와줄 텐데."
-          },
-          {
-            "e": "If I were you, I wouldn't do that.",
-            "k": "내가 너라면, 난 그렇게 하지 않을 텐데."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "10. To부정사와 동명사 (To vs -ing)",
-    "videoId": "",
-    "nuance": "미래로 날아가는 화살표 vs 멈춰진 현실의 덩어리",
-    "core": "To = 화살표(미래), -ing = 경험(과거/현실)",
-    "desc": "[eng_kiwi To vs -ing 절대 기준] to부정사의 'to'는 목적지를 향해 날아가는 화살표입니다. 즉, 아직 안 한 일, 미래지향적입니다 (want to). 반면 동명사(-ing)는 이미 가지고 있거나 겪고 있는 현실, 경험의 덩어리를 묘사합니다 (enjoy -ing).",
-    "ex": [
-      {
-        "e": "I want to travel the world.",
-        "k": "원해 ➔ (미래로 향하는) 세계 여행하는 것을 (아직 안 함)",
-        "extra": [
-          {
-            "e": "She decided to quit her job.",
-            "k": "그녀는 직장을 그만두기로(앞으로) 결정했다."
-          },
-          {
-            "e": "He promised to pay me back.",
-            "k": "그는 내게 돈을 갚겠다고(미래에) 약속했다."
-          },
-          {
-            "e": "I need to buy some milk.",
-            "k": "나는 우유를 사야(앞으로 향해야) 한다."
-          },
-          {
-            "e": "She hopes to become a doctor.",
-            "k": "그녀는 의사가 되기를 희망한다."
-          }
-        ]
-      },
-      {
-        "e": "I enjoy traveling.",
-        "k": "즐겨 ➔ (이미 해봐서 아는) 여행이라는 현실 덩어리를",
-        "extra": [
-          {
-            "e": "He finished reading the book.",
-            "k": "그는 책 읽기(하던 일)를 끝마쳤다."
-          },
-          {
-            "e": "She gave up smoking.",
-            "k": "그녀는 담배 피우는 것(기존 경험)을 포기했다."
-          },
-          {
-            "e": "I miss living in the countryside.",
-            "k": "나는 시골에 살던 것(과거 경험)이 그립다."
-          },
-          {
-            "e": "Do you mind opening the window?",
-            "k": "창문 여는 행위(현실)를 꺼리시나요?"
-          }
-        ]
-      },
-      {
-        "e": "I forgot to lock the door vs I forgot locking the door.",
-        "k": "잠글 것(미래 화살표)을 깜빡함(안 잠금) vs 잠갔던 경험(과거) 자체를 깜빡함",
-        "extra": [
-          {
-            "e": "Remember to call mom.",
-            "k": "엄마한테 전화할 거(앞으로 해야 함) 기억해."
-          },
-          {
-            "e": "I remember meeting him.",
-            "k": "나는 예전에 그를 만났던 것(경험)을 기억해."
-          },
-          {
-            "e": "He stopped to smoke.",
-            "k": "담배 피우려고(목적지) 가던 길을 멈췄다."
-          },
-          {
-            "e": "He stopped smoking.",
-            "k": "담배 피우던 경험(현실)을 끊었다."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "11. 분사 (Participles)",
-    "videoId": "",
-    "nuance": "찰나의 시각적 동시 상영",
-    "core": "메인 스토리 전 배경 화면 띄우기",
-    "desc": "-ing나 p.p로 문장을 시작하는 것은 메인 스토리를 말하기 전에 '현재 이런 상태야'라고 시각적 배경을 먼저 영상처럼 깔아주는 기법입니다. 문장이 훨씬 입체적이고 역동적으로 변합니다.",
-    "ex": [
-      {
-        "e": "Smiling brightly, she entered the room.",
-        "k": "(환하게 웃는 모습을 먼저 영상으로 띄움) ➔ 그녀가 방에 들어왔다.",
-        "extra": [
-          {
-            "e": "Looking at his phone, he crossed the street.",
-            "k": "(폰을 보는 상태로) 그는 길을 건넸다."
-          },
-          {
-            "e": "Listening to music, I studied for the test.",
-            "k": "(음악을 듣는 상태로) 나는 시험 공부를 했다."
-          },
-          {
-            "e": "Knowing the truth, she didn't say anything.",
-            "k": "(진실을 알고 있는 배경을 깔고) 그녀는 아무 말도 안 했다."
-          }
-        ]
-      },
-      {
-        "e": "Exhausted from work, I went straight to bed.",
-        "k": "(일에 지쳐 쓰러질 듯한 상태를 먼저 보여줌) ➔ 난 곧바로 침대로 갔다.",
-        "extra": [
-          {
-            "e": "Surprised by the news, she dropped her cup.",
-            "k": "(뉴스에 놀란 상태로) 그녀는 컵을 떨어뜨렸다."
-          },
-          {
-            "e": "Written in English, the book was hard to read.",
-            "k": "(영어로 쓰여진 상태라서) 그 책은 읽기 어려웠다."
-          },
-          {
-            "e": "Born in Paris, she speaks fluent French.",
-            "k": "(파리에서 태어난 배경으로 인해) 그녀는 불어를 유창하게 한다."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "12. 관계대명사 (That vs What)",
-    "videoId": "",
-    "nuance": "1초 만에 구별하는 명확한 기준",
-    "core": "That = 명사 뒤에 붙이는 테이프, What = 지가 이미 명사를 먹어치움",
-    "desc": "[eng_kiwi That vs What] 한국인이 가장 많이 틀리는 문법! 1초 구분법: That 앞에는 무조건 '수식받을 명사(선행사)'가 있어야 합니다. What은 자기가 이미 'the thing'이라는 명사를 삼키고 있기 때문에 앞에 명사가 오면 절대 안 됩니다.",
-    "ex": [
-      {
-        "e": "This is the book that I bought.",
-        "k": "이게 그 책(명사)이야 ➔ (어떤 책이냐면) 내가 산",
-        "extra": [
-          {
-            "e": "I met the man who fixed my car.",
-            "k": "내가 그 남자(명사)를 만났어 ➔ 내 차를 고쳤던"
-          },
-          {
-            "e": "The car that hit the tree was red.",
-            "k": "그 차(명사) ➔ 나무를 들이받은 ➔ 빨간색이었어."
-          },
-          {
-            "e": "Here is the report that you asked for.",
-            "k": "여기 보고서(명사)가 있어 ➔ 네가 요청했던"
-          },
-          {
-            "e": "I ate the cake which was on the table.",
-            "k": "난 케이크(명사)를 먹었어 ➔ 테이블 위에 있던"
-          }
-        ]
-      },
-      {
-        "e": "This is what I bought.",
-        "k": "이게 ➔ 내가 산 것(what)이야. (앞에 book 같은 명사가 없음!)",
-        "extra": [
-          {
-            "e": "What you said is true.",
-            "k": "네가 말한 것(what)은 사실이야."
-          },
-          {
-            "e": "I can't believe what I saw.",
-            "k": "나는 내가 본 것(what)을 믿을 수가 없어."
-          },
-          {
-            "e": "Tell me what you want.",
-            "k": "네가 원하는 것(what)을 말해봐."
-          },
-          {
-            "e": "That's exactly what I mean.",
-            "k": "그게 바로 내가 의미하는 것(what)이야."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "13. 접속사 As 완벽 해부 (Conjunctions)",
-    "videoId": "",
-    "nuance": "양쪽 저울의 균형을 맞추는 찰거머리",
-    "core": "As = 동시성, 비례, 자격",
-    "desc": "[eng_kiwi As의 본질] 한국인이 해석하기 가장 힘든 As. As의 본질은 '저울의 양쪽이 똑같다(=)' 입니다. 시간이 똑같이 흐르면 '~함에 따라(비례)', 두 사건이 똑같은 시간에 일어나면 '~할 때(동시성)', 내가 곧 그 사람과 똑같으면 '~로서(자격)'가 됩니다.",
-    "ex": [
-      {
-        "e": "As it got darker, it got colder.",
-        "k": "어두워지는 것 = 추워지는 것 (두 상황이 비례해서 같이 변함)",
-        "extra": [
-          {
-            "e": "As you know, I am busy.",
-            "k": "네가 아는 사실 = 내가 바쁘다는 사실 (네가 알다시피)."
-          },
-          {
-            "e": "As I grew older, I realized it.",
-            "k": "내가 나이 드는 것과 똑같이 깨달았다 (~함에 따라)."
-          },
-          {
-            "e": "Do as I say.",
-            "k": "내가 말하는 것과 똑같이 행동해라."
-          }
-        ]
-      },
-      {
-        "e": "He came in as I was leaving.",
-        "k": "그가 들어온 시간 = 내가 떠나는 시간 (완벽한 동시성)",
-        "extra": [
-          {
-            "e": "She sang as she walked.",
-            "k": "노래 부르는 것과 걷는 것이 동시에 일어남."
-          },
-          {
-            "e": "I saw him as I was getting off the bus.",
-            "k": "버스에서 내리는 바로 그 똑같은 타이밍에 그를 봤다."
-          }
-        ]
-      },
-      {
-        "e": "I work as a teacher.",
-        "k": "일하는 나 = 선생님 (완벽한 동일 인물, 자격)",
-        "extra": [
-          {
-            "e": "I regard him as a friend.",
-            "k": "그 = 친구 라고 똑같이 여긴다."
-          },
-          {
-            "e": "Use this cup as a bowl.",
-            "k": "이 컵 = 그릇 과 똑같이 사용해라."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "14. 비교 구문 (Comparatives)",
-    "videoId": "",
-    "nuance": "두 대상 간의 에너지 줄다리기",
-    "core": "as = 똑같이, more = 기울어짐",
-    "desc": "원어민은 비교를 할 때 저울을 머릿속에 그립니다. 'as ~ as'는 양쪽 저울의 균형이 팽팽하게 맞는 상태이고, 'more than'은 에너지가 한쪽으로 기울어지는 텐션을 보여줍니다.",
-    "ex": [
-      {
-        "e": "She is as tall as me.",
-        "k": "그녀는 커 ➔ (얼마만큼 똑같이 크냐면) 나만큼",
-        "extra": [
-          {
-            "e": "He is as old as my brother.",
-            "k": "그는 나이가 같아 ➔ 내 형만큼"
-          },
-          {
-            "e": "I can run as fast as you.",
-            "k": "난 빨리 뛸 수 있어 ➔ 너만큼"
-          },
-          {
-            "e": "It is as cold as ice.",
-            "k": "그것은 차가워 ➔ 얼음만큼"
-          }
-        ]
-      },
-      {
-        "e": "He is more experienced than I expected.",
-        "k": "그는 더 경험이 많아 ➔ (뭐보다 기울어졌냐면) 내가 예상했던 것보다",
-        "extra": [
-          {
-            "e": "She is taller than her sister.",
-            "k": "그녀는 더 커 ➔ 그녀의 언니보다"
-          },
-          {
-            "e": "This laptop is better than the old one.",
-            "k": "이 노트북이 더 좋아 ➔ 옛날 것보다"
-          },
-          {
-            "e": "He speaks English more fluently than me.",
-            "k": "그는 영어를 더 유창하게 해 ➔ 나보다"
-          }
-        ]
-      },
-      {
-        "e": "The sooner, the better.",
-        "k": "더 빠를수록 ➔ (그 에너지만큼 비례해서) 더 좋다.",
-        "extra": [
-          {
-            "e": "The more I study, the more I know.",
-            "k": "내가 더 많이 공부할수록 ➔ 더 많이 알게 된다."
-          },
-          {
-            "e": "The higher you climb, the colder it gets.",
-            "k": "네가 더 높이 올라갈수록 ➔ 날씨는 더 추워진다."
-          },
-          {
-            "e": "The harder you work, the luckier you get.",
-            "k": "네가 더 열심히 일할수록 ➔ 넌 더 운이 좋아진다."
-          }
-        ]
-      }
-    ]
-  }
-];
+    { name: "영어의 뼈대 (Linear Flow)", videoId: "", nuance: "나(주어)에서 시작해 뻗어나가는 시선", core: "어순 = 에너지의 흐름", desc: "원어민은 카메라 앵글처럼 주인공(나)에서 시작해 에너지가 미치는 순서대로 단어를 뱉습니다. 주어 -> 동사 -> 대상 -> 장소 -> 시간 순서로 시선이 이동합니다. 형용사는 명사 바로 곁에, 부사는 문장 끝이나 동작 근처에 붙여 에너지를 더합니다.", ex: [
+      { e: "I threw the ball hard over the fence yesterday.", k: "내가 ➔ 던진 에너지가 ➔ 공에 닿고 ➔ 세게 ➔ 담장 너머로 ➔ 어제" },
+      { e: "She bought a beautiful red dress at the mall.", k: "그녀가 ➔ 샀고 ➔ 그건 아름다운 빨간 드레스 ➔ 쇼핑몰에서" },
+      { e: "He walked slowly into the dark room.", k: "그가 ➔ 걸었고 ➔ 느리게 ➔ 어두운 방 안으로" }
+    ]},
+    { name: "원어민의 5형식 (Energy Transfer)", videoId: "", nuance: "동사의 에너지가 어디까지 뻗어나가는가?", core: "동사가 품은 힘의 크기", desc: "1~5형식을 수학 공식처럼 외우지 마세요. 주어의 행동 에너지가 자신에게서 끝나는지(1형식), 다른 대상에 부딪히는지(3형식), 대상을 관통해 상태를 변화시키는지(5형식)로 직관적으로 이해해야 합니다.", ex: [
+      { e: "I arrived.", k: "나의 에너지가 도착한 상태로 끝남 (1형식)" },
+      { e: "I hit the wall.", k: "나의 타격 에너지가 벽에 부딪혀 멈춤 (3형식)" },
+      { e: "I made him angry.", k: "나의 에너지가 그를 관통해 화난 상태로 변화시킴 (5형식)" }
+    ]},
+    { name: "전치사와 부사 (Spatial Awareness)", videoId: "", nuance: "머릿속에 3D 공간 그리기", core: "전치사 = 공간, 부사 = 방향", desc: "전치사는 점(at), 선/면(on), 3차원 공간(in) 같은 철저한 물리적 감각입니다. 부사(out, away, up)는 에너지가 향하는 방향을 추가하는 조미료입니다. 이 둘이 동사와 만나면 무한한 구동사가 만들어집니다.", ex: [
+      { e: "He walked in.", k: "그가 걸어서 (내부라는 공간으로) 향함" },
+      { e: "The coffee spilled on the table.", k: "커피가 쏟아져서 (테이블이라는 면 위에) 접촉함" },
+      { e: "Don't walk away.", k: "걸어서 (나로부터 멀어지는 방향으로) 가지 마" }
+    ]},
+    { name: "관계절 (Information Expansion)", videoId: "", nuance: "일단 뱉고 뒤에서 덧붙이기", core: "명사 + WH-(설명)", desc: "한국어는 명사를 앞에서 길게 꾸미지만, 원어민은 핵심 명사를 머릿속에 오래 담아두기 싫어합니다. 그래서 일단 명사(The man)를 뱉은 후, 'who', 'which'를 써서 꼬리물기 하듯 부가 설명을 이어갑니다.", ex: [
+      { e: "I met the man who fixed my car.", k: "내가 그 남자를 만났어 ➔ (그 남자가 누구냐면) 내 차를 고쳤던 사람" },
+      { e: "This is the book that changed my life.", k: "이게 그 책이야 ➔ (무슨 책이냐면) 내 삶을 바꾼" },
+      { e: "The cafe where we first met is closing.", k: "그 카페 ➔ (어떤 공간이냐면) 우리가 처음 만났던 거기가 ➔ 닫는대" }
+    ]},
+    { name: "관사 (a vs the)의 감각", videoId: "", nuance: "분류인가, 아니면 공유된 정보인가?", core: "a = 분류표, the = 공유된 대상", desc: "원어민에게 'a'는 수많은 것 중 하나의 '분류나 정체성'을 부여하는 꼬리표입니다. 반면 'the'는 화자와 청자가 눈을 감고도 '아, 그거!' 하고 동일하게 떠올릴 수 있는 '공유된 대상'에 붙입니다.", ex: [
+      { e: "He is a teacher.", k: "수많은 직업 중 (선생이라는 부류에 속함)" },
+      { e: "I bought a car. The car is red.", k: "차를 한 대(분류) 샀어. (너도 이제 아는) 그 차는 빨개." },
+      { e: "Close the door.", k: "문 좀 닫아. (이 공간에서 우리가 공통으로 인식하는 바로 그 문)" }
+    ]},
+    { name: "시제 (Tense)의 감각", videoId: "", nuance: "나와 사건 사이의 심리적 '거리감'", core: "과거 = 단절, 완료 = 다가옴", desc: "시제는 절대적 시간표가 아니라 나와 사건 사이의 거리감입니다. 과거형은 현재와 철저히 단절되어 멀리 있는 사진이고, 현재완료(have p.p)는 과거에 시작된 에너지가 현재까지 다가와 영향을 미치는 영상입니다.", ex: [
+      { e: "I lost my key.", k: "열쇠를 잃어버렸어. (과거의 단절된 팩트, 지금 찾았는지는 알 수 없음)" },
+      { e: "I have lost my key.", k: "열쇠를 잃어버려서 (그 여파로 지금 내 손에 없어 당황스러운 상태가 밀려옴)" },
+      { e: "I loved her.", k: "나는 그녀를 사랑했어. (과거형의 거리감: 지금은 더 이상 아님을 내포)" }
+    ]},
+    { name: "To부정사와 동명사", videoId: "", nuance: "미래로 뻗는 화살표 vs 멈춰진 현실의 덩어리", core: "To = 방향성(미래), -ing = 현실(경험)", desc: "to부정사의 'to'는 전치사처럼 목적지를 향해 날아가는 화살표입니다. 즉, 아직 안 한 일, 미래지향성을 띱니다. 반면 동명사(-ing)는 이미 가지고 있거나 겪고 있는 멈춰진 현실, 경험의 덩어리를 묘사합니다.", ex: [
+      { e: "I want to travel the world.", k: "원해 ➔ (어디로 향하냐면) 세계 여행하는 것을 (아직 안 함)" },
+      { e: "I enjoy traveling.", k: "즐겨 ➔ (이미 해봐서 아는) 여행이라는 현실 덩어리를" },
+      { e: "I forgot to lock the door.", k: "깜빡했어 ➔ (미래로 향해야 할) 문 잠그는 것을 (결국 안 잠금)" },
+      { e: "I forgot locking the door.", k: "깜빡했어 ➔ (과거의 경험인) 문 잠갔던 현실 자체를 (잠가놓고 잊어버림)" }
+    ]}
+  ];
 
   const memoryScores = JSON.parse(localStorage.getItem('study_memory_scores') || '{}');
   const userSentences = JSON.parse(localStorage.getItem('study_user_sentences') || '{}');
@@ -9548,68 +7028,36 @@
     const prepsView = document.getElementById('preps-view');
     const phrasalView = document.getElementById('phrasal-view');
     const grammarView = document.getElementById('grammar-view');
-    const trainingView = document.getElementById('training-view');
-    const kiwiView = document.getElementById('kiwi-view');
-    const masterView = document.getElementById('master-view');
-    
     const navStudy = document.getElementById('nav-study');
     const navVerbs = document.getElementById('nav-verbs');
     const navPreps = document.getElementById('nav-preps');
     const navPhrasal = document.getElementById('nav-phrasal');
     const navGrammar = document.getElementById('nav-grammar');
-    const navTraining = document.getElementById('nav-training');
-    const navKiwi = document.getElementById('nav-kiwi');
-    const navMaster = document.getElementById('nav-master');
 
     // Reset all
-    [studyView, mainContent, verbsView, prepsView, phrasalView, grammarView, trainingView, kiwiView, masterView].forEach(v => { if(v) v.style.display = 'none'; });
-    [navStudy, navVerbs, navPreps, navPhrasal, navGrammar, navTraining, navKiwi, navMaster].forEach(n => { if(n) n.classList.remove('active'); });
-
-    // Handle hero visibility
-    const heroSection = document.querySelector('.hero');
-    if (heroSection) {
-      if (view === 'study') {
-        heroSection.style.display = 'block';
-      } else {
-        heroSection.style.display = 'none';
-      }
-    }
+    [studyView, mainContent, verbsView, prepsView, phrasalView, grammarView].forEach(v => { if(v) v.style.display = 'none'; });
+    [navStudy, navVerbs, navPreps, navPhrasal, navGrammar].forEach(n => { if(n) n.classList.remove('active'); });
 
     if (view === 'study') {
       studyView.style.display = 'block';
       mainContent.style.display = 'block';
-      if(navStudy) navStudy.classList.add('active');
+      navStudy.classList.add('active');
     } else if (view === 'verbs') {
       verbsView.style.display = 'block';
-      if(navVerbs) navVerbs.classList.add('active');
+      navVerbs.classList.add('active');
       renderVerbs();
     } else if (view === 'preps') {
       prepsView.style.display = 'block';
-      if(navPreps) navPreps.classList.add('active');
+      navPreps.classList.add('active');
       renderPreps();
     } else if (view === 'phrasal') {
       phrasalView.style.display = 'block';
-      if(navPhrasal) navPhrasal.classList.add('active');
+      navPhrasal.classList.add('active');
       renderPhrasal();
     } else if (view === 'grammar') {
       grammarView.style.display = 'block';
-      if(navGrammar) navGrammar.classList.add('active');
-      if(typeof renderGrammar === 'function') renderGrammar();
-    } else if (view === 'kiwi') {
-      kiwiView.style.display = 'block';
-      if(navKiwi) navKiwi.classList.add('active');
-      if(typeof renderKiwi === 'function') renderKiwi();
-    } else if (view === 'master') {
-      masterView.style.display = 'flex'; // master uses flex
-      if(navMaster) navMaster.classList.add('active');
-      if(typeof masterInit === 'function') {
-        if (!window.masterInitialized) {
-            masterInit();
-            window.masterInitialized = true;
-        } else {
-            if(typeof masterLoadDay === 'function') masterLoadDay(masterActiveDay);
-        }
-      }
+      navGrammar.classList.add('active');
+      renderGrammar();
     }
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
@@ -9643,95 +7091,19 @@
     else if(type === 'prep') data = basicPreps[vIdx];
     else if(type === 'phrasal') data = phrasalVerbs[vIdx];
     else if(type === 'grammar') data = nativeGrammar[vIdx];
-    else if(type === 'kiwi') data = kiwiExpressions[vIdx];
     else data = curriculum[vIdx]; // day view
 
+    const sentence = (type === 'day') ? data.lessons[sIdx] : data.ex[sIdx];
     const masteryId = (type === 'day') ? `mastery-day-${vIdx}` : `mastery-${type}-${vIdx}`;
-    const activeCard = document.getElementById(`sent-${type}-${vIdx}-${sIdx}`);
-    const isAlreadyActive = activeCard && activeCard.classList.contains('active');
-    
-    // Cycle state logic for 'day' view
-    let nextState = 1;
-    if (type === 'day' && isAlreadyActive) {
-      let curr = parseInt(activeCard.getAttribute('data-roll-state') || '1');
-      nextState = (curr % 3) + 1; // cycles 1 -> 2 -> 3 -> 1
-    }
     
     // Update Mastery Box UI
-    if (type === 'day') {
-      const lesson = data.lessons[sIdx];
-      const expression = (data.expr && data.expr[sIdx]) ? data.expr[sIdx] : null;
-      if (expression) {
-        document.getElementById(`essence-${masteryId}`).innerHTML = `"<span style="color:var(--accent);">${expression.e}</span>" <button class="speak-btn" style="margin-left:8px;" onclick="event.stopPropagation(); speakText('${expression.e.replace(/'/g, "\\'")}')">🔊</button><br><span style="font-size:14px;font-weight:400;color:var(--text-dim);">${expression.k}</span>`;
-        document.getElementById(`principle-${masteryId}`).innerHTML = `<span style="font-size:13px; font-style:italic;">"${expression.x}"</span>`;
-      } else {
-        document.getElementById(`essence-${masteryId}`).textContent = lesson.t;
-        document.getElementById(`principle-${masteryId}`).textContent = lesson.d;
-      }
-    } else if (type === 'kiwi') {
-      const sentence = data.ex[sIdx];
-      document.getElementById(`essence-${masteryId}`).innerHTML = `"<span style="color:var(--accent);">${sentence.e}</span>" <button class="speak-btn" style="margin-left:8px;" onclick="event.stopPropagation(); speakText('${sentence.e.replace(/'/g, "\\'")}')">🔊</button>`;
-      document.getElementById(`principle-${masteryId}`).innerHTML = `<span style="color:var(--text); font-weight:700;">의미: </span>${sentence.k}<br><br><span style="color:var(--text); font-weight:700;">인사이트: </span>${sentence.x}`;
-      
-      const examplesDiv = document.getElementById(`examples-${masteryId}`);
-      if (examplesDiv && sentence.examples) {
-        examplesDiv.innerHTML = `<div style="font-size:14px; font-weight:800; color:var(--accent); margin-bottom:8px;">📚 실전 예문 3선</div>` + 
-          sentence.examples.map(ex => `
-            <div class="extra-item" style="display:flex; justify-content:space-between; align-items:center; background:var(--bg); padding:12px 16px; border-radius:8px; border:1px solid var(--border2);">
-              <div style="font-size:15px; font-weight:500; color:var(--text);">${ex}</div>
-              <button class="speak-btn" style="position:static; margin-left:10px;" onclick="event.stopPropagation(); speakText('${ex.replace(/'/g, "\\'")}')">🔊</button>
-            </div>
-          `).join('');
-      } else if (examplesDiv) {
-        examplesDiv.innerHTML = '';
-      }
-    } else {
-      const sentence = data.ex[sIdx];
-      const enText = sentence.v || data.nuance;
-      document.getElementById(`essence-${masteryId}`).innerHTML = `"<span style="color:var(--accent);">${enText}</span>" <button class="speak-btn" style="margin-left:8px;" onclick="event.stopPropagation(); speakText('${enText.replace(/'/g, "\\'")}')">🔊</button>`;
-      document.getElementById(`principle-${masteryId}`).textContent = sentence.p || data.desc;
-    }
+    document.getElementById(`essence-${masteryId}`).textContent = (type === 'day' ? sentence.t : (sentence.v || data.nuance));
+    document.getElementById(`principle-${masteryId}`).textContent = (type === 'day' ? sentence.d : (sentence.p || data.desc));
     
-    // Update Active Class and content swapping
+    // Update Active Class
     const cards = document.querySelectorAll(`[data-mastery="${masteryId}"]`);
-    cards.forEach((c, idx) => {
-      c.classList.remove('active');
-      if (type === 'day') {
-        const l = data.lessons[idx];
-        const senEn = c.querySelector('.sentence-en');
-        const senKo = c.querySelector('.sentence-ko');
-        if (senEn && senKo && l) {
-          senEn.textContent = l.t;
-          senKo.textContent = l.d;
-        }
-        c.setAttribute('data-roll-state', '0');
-      }
-    });
-
-    if (activeCard) {
-      activeCard.classList.add('active');
-      if (type === 'day') {
-        activeCard.setAttribute('data-roll-state', nextState);
-        const expression = (data.expr && data.expr[sIdx]) ? data.expr[sIdx] : null;
-        const lesson = data.lessons[sIdx];
-        if (expression && lesson) {
-          const activeEn = activeCard.querySelector('.sentence-en');
-          const activeKo = activeCard.querySelector('.sentence-ko');
-          if (activeEn && activeKo) {
-            if (nextState === 1) {
-              activeEn.innerHTML = `${expression.e} <button class="speak-btn" style="margin-left:8px;" onclick="event.stopPropagation(); speakText('${expression.e.replace(/'/g, "\\'")}')">🔊</button>`;
-              activeKo.textContent = expression.k;
-            } else if (nextState === 2) {
-              activeEn.innerHTML = `${expression.x} <button class="speak-btn" style="margin-left:8px;" onclick="event.stopPropagation(); speakText('${expression.x.replace(/'/g, "\\'")}')">🔊</button>`;
-              activeKo.textContent = "상황 예문 (Context)";
-            } else {
-              activeEn.textContent = lesson.t;
-              activeKo.textContent = lesson.d;
-            }
-          }
-        }
-      }
-    }
+    cards.forEach(c => c.classList.remove('active'));
+    document.getElementById(`sent-${type}-${vIdx}-${sIdx}`).classList.add('active');
   }
 
   function renderVerbs() {
@@ -9741,7 +7113,7 @@
       const masteryId = `mastery-verb-${vIdx}`;
       const videoHtml = v.videoId ? `
         <div class="video-master-card" style="margin-bottom:20px; border-radius:16px;">
-          <div class="video-container">
+          <div class="video-container" style="padding-bottom:50%;">
             <iframe class="yt-video-player" src="https://www.youtube.com/embed/${v.videoId}?enablejsapi=1" allowfullscreen></iframe>
           </div>
         </div>
@@ -9754,8 +7126,9 @@
           <div class="mastery-left">
             ${v.ex.map((x, sIdx) => `
               <div class="sentence-card" id="sent-verb-${vIdx}-${sIdx}" data-mastery="${masteryId}" onclick="selectSentence('verb', ${vIdx}, ${sIdx}); updateMemoryProgress('${id}', 1)">
-                <div class="sentence-en">${x.e} <button class="speak-btn" style="margin-left:8px;" onclick="event.stopPropagation(); speakText('${x.e.replace(/'/g, "\\'")}')">🔊</button></div>
+                <div class="sentence-en">${x.e}</div>
                 <div class="sentence-ko">${x.k}</div>
+                <button class="speak-btn" style="position:absolute; right:20px; top:20px;" onclick="event.stopPropagation(); speakText('${x.e.replace(/'/g, "\\'")}')">🔊</button>
               </div>
             `).join('')}
           </div>
@@ -9783,7 +7156,7 @@
       const masteryId = `mastery-prep-${vIdx}`;
       const videoHtml = v.videoId ? `
         <div class="video-master-card" style="margin-bottom:20px; border-radius:16px;">
-          <div class="video-container">
+          <div class="video-container" style="padding-bottom:50%;">
             <iframe class="yt-video-player" src="https://www.youtube.com/embed/${v.videoId}?enablejsapi=1" allowfullscreen></iframe>
           </div>
         </div>
@@ -9796,8 +7169,9 @@
           <div class="mastery-left">
             ${v.ex.map((x, sIdx) => `
               <div class="sentence-card" id="sent-prep-${vIdx}-${sIdx}" data-mastery="${masteryId}" onclick="selectSentence('prep', ${vIdx}, ${sIdx}); updateMemoryProgress('${id}', 1)">
-                <div class="sentence-en">${x.e} <button class="speak-btn" style="margin-left:8px;" onclick="event.stopPropagation(); speakText('${x.e.replace(/'/g, "\\'")}')">🔊</button></div>
+                <div class="sentence-en">${x.e}</div>
                 <div class="sentence-ko">${x.k}</div>
+                <button class="speak-btn" style="position:absolute; right:20px; top:20px;" onclick="event.stopPropagation(); speakText('${x.e.replace(/'/g, "\\'")}')">🔊</button>
               </div>
             `).join('')}
           </div>
@@ -9825,7 +7199,7 @@
       const masteryId = `mastery-phrasal-${vIdx}`;
       const videoHtml = v.videoId ? `
         <div class="video-master-card" style="margin-bottom:20px; border-radius:16px;">
-          <div class="video-container">
+          <div class="video-container" style="padding-bottom:50%;">
             <iframe class="yt-video-player" src="https://www.youtube.com/embed/${v.videoId}?enablejsapi=1" allowfullscreen></iframe>
           </div>
         </div>
@@ -9838,8 +7212,9 @@
           <div class="mastery-left">
             ${v.ex.map((x, sIdx) => `
               <div class="sentence-card" id="sent-phrasal-${vIdx}-${sIdx}" data-mastery="${masteryId}" onclick="selectSentence('phrasal', ${vIdx}, ${sIdx}); updateMemoryProgress('${id}', 1)">
-                <div class="sentence-en">${x.e} <button class="speak-btn" style="margin-left:8px;" onclick="event.stopPropagation(); speakText('${x.e.replace(/'/g, "\\'")}')">🔊</button></div>
+                <div class="sentence-en">${x.e}</div>
                 <div class="sentence-ko">${x.k}</div>
+                <button class="speak-btn" style="position:absolute; right:20px; top:20px;" onclick="event.stopPropagation(); speakText('${x.e.replace(/'/g, "\\'")}')">🔊</button>
               </div>
             `).join('')}
           </div>
@@ -9870,25 +7245,10 @@
         <div class="mastery-split">
           <div class="mastery-left">
             ${g.ex.map((x, sIdx) => `
-              <div class="sentence-card" id="sent-grammar-${vIdx}-${sIdx}" data-mastery="${masteryId}" onclick="selectSentence('grammar', ${vIdx}, ${sIdx}); ${x.extra ? `toggleExtra('grammar-${vIdx}-${sIdx}')` : ''}">
-                <div class="sentence-en">${x.e} <button class="speak-btn" style="margin-left:8px;" onclick="event.stopPropagation(); speakText('${x.e.replace(/'/g, "\\'")}')">🔊</button></div>
+              <div class="sentence-card" id="sent-grammar-${vIdx}-${sIdx}" data-mastery="${masteryId}" onclick="selectSentence('grammar', ${vIdx}, ${sIdx})">
+                <div class="sentence-en">${x.e}</div>
                 <div class="sentence-ko">${x.k}</div>
-                ${x.extra ? `
-                <div id="extra-grammar-${vIdx}-${sIdx}" style="display:none; margin-top:20px; padding-top:15px; border-top:1px dashed var(--border);">
-                  <div style="font-size:14px; font-weight:bold; color:var(--accent); margin-bottom:12px;">📚 집중 훈련 예문 10선</div>
-                  <div style="display:flex; flex-direction:column; gap:10px;">
-                    ${x.extra.map(ex => `
-                      <div class="extra-item" style="display:flex; justify-content:space-between; align-items:center; background:var(--bg); padding:10px 15px; border-radius:8px; border:1px solid var(--border2);">
-                        <div style="flex:1;">
-                          <div style="font-size:16px; font-weight:500; color:var(--text); margin-bottom:4px;">${ex.e}</div>
-                          <div style="font-size:14px; color:var(--text-dim);">${ex.k}</div>
-                        </div>
-                        <button class="speak-btn" style="position:static; margin-left:10px;" onclick="event.stopPropagation(); speakText('${ex.e.replace(/'/g, "\\'")}')">🔊</button>
-                      </div>
-                    `).join('')}
-                  </div>
-                </div>
-                ` : ''}
+                <button class="speak-btn" style="position:absolute; right:20px; top:20px;" onclick="event.stopPropagation(); speakText('${x.e.replace(/'/g, "\\'")}')">🔊</button>
               </div>
             `).join('')}
           </div>
@@ -9905,35 +7265,6 @@
     `;}).join('<div class="divider" style="margin:60px 0;"></div>');
   }
 
-  function renderKiwi() {
-    const grid = document.getElementById('kiwi-grid');
-    grid.innerHTML = kiwiExpressions.map((v, vIdx) => {
-      const masteryId = `mastery-kiwi-${vIdx}`;
-      return `
-      <div class="verb-section-master">
-        <div class="chapter-title" style="font-size: 24px; margin-bottom: 20px; color: var(--accent);">${v.title}</div>
-        <div class="mastery-split">
-          <div class="mastery-left">
-            ${v.ex.map((x, sIdx) => `
-              <div class="sentence-card" id="sent-kiwi-${vIdx}-${sIdx}" data-mastery="${masteryId}" onclick="selectSentence('kiwi', ${vIdx}, ${sIdx})">
-                <div class="sentence-en">${x.e} <button class="speak-btn" style="margin-left:8px;" onclick="event.stopPropagation(); speakText('${x.e.replace(/'/g, "\\'")}')">🔊</button></div>
-                <div class="sentence-ko">${x.k}</div>
-              </div>
-            `).join('')}
-          </div>
-          <div class="mastery-right" id="${masteryId}">
-            <div style="background: var(--surface); border: 1px solid var(--border); border-radius: 20px; padding: 40px; text-align: left; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
-              <h3 style="color:var(--accent); font-size: 24px; margin-bottom: 12px; font-weight:800;" id="essence-${masteryId}">표현을 선택하세요</h3>
-              <p style="font-size:15px; color:var(--text-dim); line-height:1.6;" id="principle-${masteryId}">좌측 리스트를 클릭하면 깊이 있는 인사이트와 실전 예문 3개가 나타납니다.</p>
-              <div id="examples-${masteryId}" style="margin-top:24px; display:flex; flex-direction:column; gap:12px;"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      `;
-    }).join('<div class="divider" style="margin:60px 0;"></div>');
-  }
-
   // Expose globals for inline HTML onclick handlers
   window.showView = showView;
   window.toggleComplete = toggleComplete;
@@ -9942,169 +7273,20 @@
   window.saveSentence = saveSentence;
   window.updateMemoryProgress = updateMemoryProgress;
   window.loadDay = loadDay;
-  window.toggleExtra = function(id) {
-    const el = document.getElementById('extra-' + id);
-    if(el) {
-      if(el.style.display === 'none') {
-        el.style.display = 'block';
-        el.style.animation = 'fadeIn 0.3s forwards';
-      } else {
-        el.style.display = 'none';
-      }
-    }
-  };
 
   window.onload = () => {
     // Bind theme toggle button AFTER DOM is ready
     const themeBtn = document.getElementById('theme-toggle');
     if (themeBtn) themeBtn.onclick = toggleTheme;
 
-    // --- Training Modules JS ---
-    
-    const scrambleData = [
-      {
-        blocks: [{id: "v", text: "bought", role: "verb"}, {id: "s", text: "I", role: "subject"}, {id: "o", text: "a used car", role: "object"}],
-        correctK: "나는 중고차를 샀다."
-      },
-      {
-        blocks: [{id: "o", text: "me", role: "object"}, {id: "v", text: "made", role: "verb"}, {id: "s", text: "The news", role: "subject"}, {id: "c", text: "happy", role: "complement"}],
-        correctK: "그 소식은 나를 행복하게 만들었다."
-      },
-      {
-        blocks: [{id: "o", text: "the door", role: "object"}, {id: "v", text: "closed", role: "verb"}, {id: "s", text: "He", role: "subject"}],
-        correctK: "그가 문을 닫았다."
-      }
-    ];
-    
-    let currentScrambleIdx = 0;
-    
-    window.initScramble = function() {
-      const container = document.getElementById('scramble-container');
-      const status = document.getElementById('scramble-status');
-      if(!container) return;
-      container.innerHTML = '';
-      status.innerText = '블록을 드래그하여 문장을 완성하세요.';
-      status.style.color = 'var(--text-dim)';
-      
-      const data = scrambleData[currentScrambleIdx % scrambleData.length];
-      
-      data.blocks.forEach(b => {
-        const el = document.createElement('div');
-        el.className = 'scramble-block';
-        el.dataset.role = b.role;
-        el.innerText = b.text;
-        container.appendChild(el);
-      });
-      
-      if(window.scrambleSortable) {
-        window.scrambleSortable.destroy();
-      }
-      
-      window.scrambleSortable = new Sortable(container, {
-        animation: 150,
-        ghostClass: 'ghost',
-        onEnd: function() {
-          const blocks = Array.from(container.children);
-          if (blocks.length > 1) {
-            if (blocks[0].dataset.role === 'subject' && blocks[1].dataset.role === 'verb') {
-              blocks.forEach(b => b.classList.add('success'));
-              status.innerText = `통과! (${data.correctK})`;
-              status.style.color = 'var(--accent)';
-              
-              const fullSentence = blocks.map(b => b.innerText).join(' ');
-              speak(fullSentence);
-            } else {
-              blocks.forEach(b => b.classList.remove('success'));
-              status.innerText = '다시 시도하세요. (Verb는 Subject 바로 뒤에 와야 합니다!)';
-              status.style.color = 'var(--ember)';
-            }
-          }
-        }
-      });
-    };
-    
-    window.nextScramble = function() {
-      currentScrambleIdx++;
-      initScramble();
-    };
-    
-    const expansionData = [
-      { prompt: "뼈대 문장 (Kernel)", text: "I bought a car", k: "나는 차를 샀어" },
-      { prompt: "+ 누구랑? (With who?)", text: "My friend and I bought a car", k: "내 친구랑 나는 차를 샀어" },
-      { prompt: "+ 어떤 차? (What kind?)", text: "My friend and I bought a used car", k: "내 친구랑 나는 중고차를 샀어" },
-      { prompt: "+ 왜? (Why?)", text: "My friend and I bought a used car because we need to commute", k: "우린 통근해야 해서 내 친구랑 나는 중고차를 샀어" }
-    ];
-    
-    let expansionInterval = null;
-    
-    window.startExpansion = function() {
-      const container = document.getElementById('expansion-container');
-      const timerEl = document.getElementById('expansion-timer');
-      const btn = document.getElementById('btn-expansion-start');
-      const status = document.getElementById('expansion-status');
-      
-      container.innerHTML = '';
-      btn.style.display = 'none';
-      timerEl.style.display = 'block';
-      status.innerText = '큰 소리로 따라 말하세요!';
-      
-      let stepIdx = 0;
-      
-      function runStep() {
-        if (stepIdx >= expansionData.length) {
-          timerEl.style.display = 'none';
-          btn.style.display = 'block';
-          btn.innerText = '다시 훈련하기';
-          status.innerText = '훈련 완료! 훌륭합니다.';
-          return;
-        }
-        
-        const step = expansionData[stepIdx];
-        
-        const stepEl = document.createElement('div');
-        stepEl.className = 'expansion-step';
-        stepEl.innerHTML = `
-          <div class="expansion-prompt">${step.prompt}</div>
-          <div class="expansion-text">${step.text} <span style="font-size:14px; color:var(--text-dim); margin-left:10px;">(${step.k})</span></div>
-        `;
-        container.appendChild(stepEl);
-        
-        speak(step.text);
-        
-        stepIdx++;
-        if (stepIdx < expansionData.length) {
-          let timeLeft = 3;
-          timerEl.innerText = timeLeft;
-          
-          if(expansionInterval) clearInterval(expansionInterval);
-          expansionInterval = setInterval(() => {
-            timeLeft--;
-            timerEl.innerText = timeLeft;
-            if (timeLeft <= 0) {
-              clearInterval(expansionInterval);
-              runStep();
-            }
-          }, 1000);
-        } else {
-          setTimeout(runStep, 2000);
-        }
-      }
-      
-      runStep();
-    };
-
     renderPills();
     loadDay(1);
     renderVerbs();
     renderPreps();
     renderPhrasal();
-    if (typeof renderGrammar === 'function') renderGrammar();
-    if (typeof renderKiwi === 'function') renderKiwi();
   };
-</script>
 
-  <!-- YouTube Error Handler -->
-  <script>
+
     window.onYouTubePlayerError = function(event) {
       if (!event || !event.target || !event.target.getIframe) return;
       const iframe = event.target.getIframe();
@@ -10147,308 +7329,4 @@
         }
       });
     };
-  </script>
-
-<script>
-// --- MASTER DASHBOARD JS ---
-
-        
-        // Data is now loaded from external JS files
-        window.dayData = window.dayData || {};
-        
-        const monthInfo = [
-            { id: 1, name: "Month 1", theme: "4대 핵심 동사 (Take/Get/Have/Make)" },
-            { id: 2, name: "Month 2", theme: "공간과 이동 (Go/Come/Put/Set)" },
-            { id: 3, name: "Month 3", theme: "인지와 감각 (Look/See/Think/Feel)" },
-            { id: 4, name: "Month 4", theme: "이미지 전치사 심층 마스터" },
-            { id: 5, name: "Month 5", theme: "고빈도 네이티브 청크 100" },
-            { id: 6, name: "Month 6", theme: "Could/Would 정중 표현 프로토콜" },
-            { id: 7, name: "Month 7", theme: "유사어 뉘앙스 정밀 튜닝" },
-            { id: 8, name: "Month 8", theme: "감정·상황 상태 레이블" }
-        ];
-
-        let masterActiveMonth = 3;
-        let masterActiveDay = 61;
-        let masterUserProgress = JSON.parse(localStorage.getItem('365_progress')) || {};
-        if (!masterUserProgress.learnedSentences) masterUserProgress.learnedSentences = {};
-        if (!masterUserProgress.completedDays) masterUserProgress.completedDays = [];
-
-        function masterEscapeHTML(str) {
-            if (!str) return '';
-            return String(str)
-                .replace(/&/g, '&amp;')
-                .replace(/</g, '&lt;')
-                .replace(/>/g, '&gt;')
-                .replace(/"/g, '&quot;')
-                .replace(/'/g, '&#39;');
-        }
-
-        function masterInit() {
-            masterRenderMonths();
-            let savedDay = parseInt(localStorage.getItem('masterActiveDay'));
-            if (isNaN(savedDay) || savedDay < 1 || savedDay > 240) {
-                savedDay = 61;
-            }
-            masterActiveDay = savedDay;
-            masterActiveMonth = Math.ceil(masterActiveDay / 30) || 3;
-            
-            masterRenderDays(masterActiveMonth);
-            masterLoadDay(masterActiveDay);
-            
-            // Show Briefing if not shown this session
-            if (!sessionStorage.getItem('briefing_shown')) {
-                masterShowBriefing();
-            }
-        }
-
-        function masterShowBriefing() {
-            const overlay = document.getElementById('briefing-overlay');
-            let totalSentences = 0;
-            for (const d in window.dayData) {
-                if (window.dayData[d] && window.dayData[d].sentences) {
-                    totalSentences += window.dayData[d].sentences.length;
-                }
-            }
-            if (totalSentences === 0) totalSentences = 1200; // fallback
-
-            const learnedCount = Object.keys(masterUserProgress.learnedSentences).length;
-            const progressPct = totalSentences > 0 ? Math.round((learnedCount / totalSentences) * 100) : 0;
-
-            document.getElementById('stat-total-progress').innerText = progressPct + '%';
-            document.getElementById('stat-learned-count').innerText = `${learnedCount}/${totalSentences}`;
-            
-            // Find next target
-            let nextDay = 1;
-            for(let i=1; i<=240; i++) {
-                if(!masterUserProgress.completedDays.includes(i)) {
-                    nextDay = i;
-                    break;
-                }
-            }
-            const targetData = window.dayData[String(nextDay)];
-            if(targetData) {
-                document.getElementById('brief-today-target').innerText = `Day ${nextDay}: [${targetData.core}] ${targetData.vT}`;
-            }
-
-            overlay.classList.add('active');
-        }
-
-        function masterCloseBriefing() {
-            document.getElementById('briefing-overlay').classList.remove('active');
-            sessionStorage.setItem('briefing_shown', 'true');
-        }
-
-        function masterSaveProgress(day, sentenceIdx) {
-            const key = `${day}-${sentenceIdx}`;
-            if (!masterUserProgress.learnedSentences[key]) {
-                masterUserProgress.learnedSentences[key] = true;
-                
-                // Check if day is completed dynamically
-                let dayDone = true;
-                const dailyData = window.dayData[String(day)];
-                const totalDailySentences = dailyData && dailyData.sentences ? dailyData.sentences.length : 5;
-                
-                for(let i=0; i<totalDailySentences; i++) {
-                    if(!masterUserProgress.learnedSentences[`${day}-${i}`]) {
-                        dayDone = false;
-                        break;
-                    }
-                }
-                if(dayDone && !masterUserProgress.completedDays.includes(day)) {
-                    masterUserProgress.completedDays.push(day);
-                }
-
-                localStorage.setItem('365_progress', JSON.stringify(masterUserProgress));
-                masterRenderDays(masterActiveMonth); // Refresh checkmarks on buttons
-            }
-        }
-
-        function masterRenderMonths() {
-            const container = document.getElementById('month-list');
-            container.innerHTML = '';
-            monthInfo.forEach(m => {
-                const div = document.createElement('div');
-                div.className = `month-item ${m.id === masterActiveMonth ? 'active' : ''}`;
-                div.innerHTML = `
-                    <div style="display: flex; flex-direction: column;">
-                        <span style="font-weight: 700; font-size: 0.9rem; opacity: 0.9;">${m.name}</span>
-                        <span style="font-size: 0.75rem; opacity: 0.7;">${m.theme}</span>
-                    </div>
-                `;
-                div.onclick = () => {
-                    masterActiveMonth = m.id;
-                    masterRenderMonths();
-                    masterRenderDays(masterActiveMonth);
-                    // Load the first day of the selected month
-                    masterLoadDay((masterActiveMonth - 1) * 30 + 1);
-                };
-                container.appendChild(div);
-            });
-        }
-
-        function masterRenderDays(m) {
-            const container = document.getElementById('day-selector');
-            container.innerHTML = '';
-            const start = (m - 1) * 30 + 1;
-            const end = m * 30;
-            for (let d = start; d <= end; d++) {
-                const isCompleted = masterUserProgress.completedDays.includes(d);
-                const btn = document.createElement('div');
-                btn.className = `day-btn ${d === masterActiveDay ? 'active' : ''} ${isCompleted ? 'completed' : ''}`;
-                btn.id = 'day-btn-' + d;
-                btn.innerText = 'D-' + d;
-                btn.onclick = () => masterLoadDay(d);
-                container.appendChild(btn);
-            }
-        }
-
-        function masterLoadDay(d) {
-            masterActiveDay = d;
-            localStorage.setItem('masterActiveDay', d);
-            document.querySelectorAll('.day-btn').forEach(b => b.classList.remove('active'));
-            const activeBtn = document.getElementById('day-btn-' + d);
-            if (activeBtn) activeBtn.classList.add('active');
-
-            const data = dayData[String(d)] || { governing: "Data not found", sentences: [] };
-            
-            document.getElementById('current-day-num').innerText = 'Day ' + d;
-            document.getElementById('current-month-name').innerText = monthInfo[Math.ceil(d/30)-1].name;
-            document.getElementById('core-verb-label').innerText = 'VERB: ' + (data.core || '???').toUpperCase();
-            document.getElementById('governing-phrase').innerText = data.governing;
-
-            // Mastery Box Default
-            document.getElementById('mastery-icon').innerText = data.v || "✨";
-            document.getElementById('mastery-title').innerText = data.vT || "Essence Discovery";
-            document.getElementById('mastery-desc').innerText = data.vD || "지각과 인지의 신경망을 고도화하는 과정입니다.";
-            document.getElementById('neural-mapping').style.display = 'none';
-
-            // Sentences
-            const container = document.getElementById('sentence-container');
-            container.innerHTML = '';
-            (data.sentences || []).forEach((s, idx) => {
-                const gender = s.g === 'M' ? 'M' : 'F';
-                const genderLabel = gender === 'M' ? 'MALE' : 'FEMALE';
-                const text = s.txt || s.en || '';
-                const isLearned = masterUserProgress.learnedSentences[`${d}-${idx}`];
-
-                const safeText = masterEscapeHTML(text);
-                const safeKr = masterEscapeHTML(s.t || s.kr);
-                const safeNuance = masterEscapeHTML(s.n || '신경망 매핑 활성화');
-                const safeET = masterEscapeHTML(s.eT || 'Target');
-
-                const card = document.createElement('div');
-                card.className = `sentence-card ${isLearned ? 'completed' : ''}`;
-                card.innerHTML = `
-                    <div class="tag">${safeET}</div>
-                    <div class="sentence-en" style="padding-right:40px">${safeText}</div>
-                    <div class="sentence-kr">${safeKr}</div>
-                    <div class="sentence-nuance" style="padding-bottom:36px">${safeNuance}</div>
-                    <div class="gender-badge">${genderLabel}</div>
-                    <button id="voice-btn-${d}-${idx}" class="voice-btn" title="${genderLabel} 네이티브 스피치 재생" onclick="event.stopPropagation(); masterSaveProgress(${d}, ${idx}); this.closest('.sentence-card').classList.add('completed'); masterSpeakSentence('${text.replace(/'/g, "\\'").replace(/"/g, '&quot;')}', '${gender}', 'voice-btn-${d}-${idx}');">🔊</button>
-                `;
-                card.onclick = () => {
-                    masterSaveProgress(d, idx);
-                    card.classList.add('completed');
-                    document.querySelectorAll('.sentence-card').forEach(c => c.classList.remove('active'));
-                    card.classList.add('active');
-                    
-                    const mTitle = document.getElementById('mastery-title');
-                    const mDesc = document.getElementById('mastery-desc');
-                    const mapping = document.getElementById('neural-mapping');
-                    const targetVal = document.getElementById('neural-target-val');
-                    const mIcon = document.getElementById('mastery-icon');
-
-                    mapping.style.display = 'none';
-                    mTitle.style.opacity = '0';
-                    mDesc.style.opacity = '0';
-                    mIcon.style.transform = 'scale(0.8)';
-                    void mapping.offsetWidth;
-
-                    mTitle.innerText = s.eT || "Neural Mapping";
-                    mDesc.innerText = s.eD || s.n || "지각의 본질을 파고듭니다.";
-                    targetVal.innerText = (s.eT || "MAPPING").toUpperCase();
-
-                    mapping.style.display = 'block';
-                    mapping.style.animation = 'none';
-                    void mapping.offsetWidth;
-                    mapping.style.animation = 'slideUp 0.5s ease forwards';
-                    
-                    mTitle.style.transition = 'opacity 0.4s ease';
-                    mDesc.style.transition = 'opacity 0.4s ease';
-                    mIcon.style.transition = 'transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275)';
-                    
-                    mTitle.style.opacity = '1';
-                    mDesc.style.opacity = '1';
-                    mIcon.style.transform = 'scale(1.1) rotate(5deg)';
-                    setTimeout(() => { mIcon.style.transform = ''; }, 300);
-                };
-                container.appendChild(card);
-            });
-        }
-
-        
-
-        // ── Voice Engine ──────────────────────────────────────────
-        let voiceCache = null;
-
-        function masterLoadVoices() {
-            return new Promise(resolve => {
-                let voices = speechSynthesis.getVoices();
-                if (voices.length) { resolve(voices); return; }
-                speechSynthesis.onvoiceschanged = () => resolve(speechSynthesis.getVoices());
-            });
-        }
-
-        function masterPickVoice(voices, gender) {
-            const en = voices.filter(v => v.lang.startsWith('en'));
-            // Prefer voices whose name contains obvious gender keywords
-            const maleKw   = ['male', 'man', 'guy', 'daniel', 'alex', 'david', 'fred', 'mark', 'tom', 'aaron', 'arthur', 'oliver', 'james', 'rishi'];
-            const femaleKw = ['female', 'woman', 'girl', 'samantha', 'victoria', 'kate', 'karen', 'emma', 'alice', 'martha', 'moira', 'fiona', 'sandy', 'stephanie'];
-            const kw = gender === 'M' ? maleKw : femaleKw;
-            const match = en.find(v => kw.some(k => v.name.toLowerCase().includes(k)));
-            if (match) return match;
-            // Fallback: alternate by gender flag (M=even index, F=odd)
-            const half = Math.ceil(en.length / 2);
-            const pool = gender === 'M' ? en.slice(0, half) : en.slice(half);
-            return pool[0] || en[0] || voices[0];
-        }
-
-        async function masterSpeakSentence(text, gender, btnId) {
-            if (!('speechSynthesis' in window)) return;
-            window.speechSynthesis.cancel();
-
-            // Animate the clicked button
-            const allBtns = document.querySelectorAll('.voice-btn');
-            allBtns.forEach(b => b.classList.remove('speaking'));
-            
-            // Find the specific button by ID, fallback to text matching if ID not provided
-            let btn = btnId ? document.getElementById(btnId) : null;
-            if (!btn) {
-                btn = [...allBtns].find(b => {
-                    const card = b.closest('.sentence-card');
-                    return card && card.querySelector('.sentence-en') && card.querySelector('.sentence-en').textContent.trim() === text.trim();
-                });
-            }
-            if (btn) btn.classList.add('speaking');
-
-            if (!voiceCache) voiceCache = await masterLoadVoices();
-            const voice = masterPickVoice(voiceCache, gender);
-
-            const utt = new SpeechSynthesisUtterance(text);
-            utt.lang = voice ? voice.lang : 'en-US';
-            utt.voice = voice || null;
-            utt.rate  = 0.90;   // slightly slower for native clarity
-            utt.pitch = gender === 'M' ? 0.85 : 1.15;
-            utt.volume = 1;
-            utt.onend = () => { if (btn) btn.classList.remove('speaking'); };
-            utt.onerror = () => { if (btn) btn.classList.remove('speaking'); };
-            window.speechSynthesis.speak(utt);
-        }
-        // ─────────────────────────────────────────────────────────
-    
-// ---------------------------
-</script>
-
-</body>
-
-</html>
+  
