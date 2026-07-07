@@ -188,14 +188,14 @@
 
     /* MASTERY BOX SPLIT LAYOUT */
     .mastery-split {
-      display: flex; gap: 30px; align-items: flex-start; margin-top: 30px;
+      display: flex; gap: 20px; align-items: flex-start; margin-top: 20px;
     }
     .mastery-left { flex: 1; display: grid; grid-template-columns: 1fr; gap: 10px; }
     .mastery-right {
-      position: sticky; top: 100px; width: 360px;
+      position: sticky; top: 100px; width: 340px;
       background: var(--surface); border: 1px solid var(--border);
-      border-radius: 24px; padding: 40px 30px; text-align: center;
-      box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+      border-radius: 16px; padding: 24px 20px; text-align: center;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.06);
       transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     }
     .mastery-circle {
@@ -730,11 +730,12 @@
   }
   .review-card {
     background: var(--surface);
-    border-radius: 16px;
-    padding: 20px;
+    border-radius: 12px;
+    padding: 14px 18px;
     border: 1px solid var(--border);
     position: relative;
-    transition: all 0.3s;
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 3px 10px rgba(0,0,0,0.015);
   }
   .review-card:hover {
     transform: translateY(-2px);
@@ -10051,7 +10052,7 @@
       ` : '';
       return `
       <div class="verb-section-master" id="verb-${v.name.toLowerCase()}">
-        <div class="chapter-title" style="font-size: 24px; margin-bottom: 20px;">${v.name} Mastery</div>
+        <div class="chapter-title" style="font-size: 20px; margin-bottom: 12px; color: var(--accent);">${v.name} Mastery</div>
         ${videoHtml}
         <div class="mastery-split">
           <div class="mastery-left">
@@ -10076,7 +10077,7 @@
           <button class="writing-save-btn" onclick="saveSentence('${id}', document.getElementById('input-${id}').value); this.textContent='저장됨 ✓';">문장 저장</button>
         </div>
       </div>
-    `;}).join('<div class="divider" style="margin:60px 0;"></div>');
+    `;}).join('<div class="divider" style="margin:30px 0;"></div>');
   }
 
   function renderPreps() {
@@ -10093,7 +10094,7 @@
       ` : '';
       return `
       <div class="prep-section-master">
-        <div class="chapter-title" style="font-size: 24px; margin-bottom: 20px;">${v.name} Mastery</div>
+        <div class="chapter-title" style="font-size: 20px; margin-bottom: 12px; color: var(--accent);">${v.name} Mastery</div>
         ${videoHtml}
         <div class="mastery-split">
           <div class="mastery-left">
@@ -10118,7 +10119,7 @@
           <button class="writing-save-btn" onclick="saveSentence('${id}', document.getElementById('input-${id}').value); this.textContent='저장됨 ✓';">문장 저장</button>
         </div>
       </div>
-    `;}).join('<div class="divider" style="margin:60px 0;"></div>');
+    `;}).join('<div class="divider" style="margin:30px 0;"></div>');
   }
 
   function renderPhrasal() {
@@ -10135,7 +10136,7 @@
       ` : '';
       return `
       <div class="phrasal-section-master">
-        <div class="chapter-title" style="font-size: 24px; margin-bottom: 20px;">${v.name} Mastery</div>
+        <div class="chapter-title" style="font-size: 20px; margin-bottom: 12px; color: var(--accent);">${v.name} Mastery</div>
         ${videoHtml}
         <div class="mastery-split">
           <div class="mastery-left">
@@ -10160,7 +10161,7 @@
           <button class="writing-save-btn" onclick="saveSentence('${id}', document.getElementById('input-${id}').value); this.textContent='저장됨 ✓';">문장 저장</button>
         </div>
       </div>
-    `;}).join('<div class="divider" style="margin:60px 0;"></div>');
+    `;}).join('<div class="divider" style="margin:30px 0;"></div>');
   }
 
   function renderGrammar() {
@@ -10169,7 +10170,7 @@
       const masteryId = `mastery-grammar-${vIdx}`;
       return `
       <div class="grammar-section-master">
-        <div class="chapter-title" style="font-size: 24px; margin-bottom: 20px; color: var(--accent);">${g.name}</div>
+        <div class="chapter-title" style="font-size: 20px; margin-bottom: 12px; color: var(--accent);">${g.name}</div>
         <div class="mastery-split">
           <div class="mastery-left">
             ${g.ex.map((x, sIdx) => `
@@ -10205,7 +10206,7 @@
           </div>
         </div>
       </div>
-    `;}).join('<div class="divider" style="margin:60px 0;"></div>');
+    `;}).join('<div class="divider" style="margin:30px 0;"></div>');
   }
 
   function renderKiwi() {
@@ -10215,7 +10216,7 @@
       const divId = `kiwi-cat-${vIdx}`;
       return `
       <div class="verb-section-master" id="${divId}">
-        <div class="chapter-title" style="font-size: 24px; margin-bottom: 20px; color: var(--accent);">${v.title}</div>
+        <div class="chapter-title" style="font-size: 20px; margin-bottom: 12px; color: var(--accent);">${v.title}</div>
         <div class="mastery-split">
           <div class="mastery-left">
             ${v.ex.map((x, sIdx) => `
@@ -10235,7 +10236,7 @@
         </div>
       </div>
       `;
-    }).join('<div class="divider" style="margin:60px 0;"></div>');
+    }).join('<div class="divider" style="margin:30px 0;"></div>');
   }
 
   // Expose globals for inline HTML onclick handlers
