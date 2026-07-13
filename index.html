@@ -9817,20 +9817,20 @@
                   <div style="padding: 16px 20px; background: rgba(255,255,255,0.02); border-radius: 12px; border: 1px solid rgba(255,255,255,0.05);">
                       <div style="margin-bottom: 10px;">${tagHtml}</div>
                       <p style="font-size: 14px; color: var(--text-dim); line-height: 1.5; margin: 0; font-weight: 400;">
-                          아래 예시들은 단일한 개념이 <strong>${situations.slice(0, 3).join(', ')}${situations.length > 3 ? ' 등' : ''}</strong>의 다채로운 상황에서 어떻게 세밀한 뉘앙스 차이로 변주되는지 보여줍니다.
+                          똑같은 단어라도 <strong>${situations.slice(0, 3).join(', ')}${situations.length > 3 ? ' 등' : ''}</strong> 마주하는 상황에 따라 뉘앙스가 미묘하게 달라집니다. 아래 문장들에서 그 미세한 결의 차이를 직접 느껴보세요.
                       </p>
                   </div>
               </div>
-              <div style="display: flex; flex-direction: column; gap: 20px;">
+              <div style="display: flex; flex-direction: column; gap: 16px;">
           `;
           
           data.sentences.forEach((s, idx) => {
               html += `
-              <div class="sentence-card" style="padding: 30px; background: var(--surface); border-radius: 20px; border: 1px solid var(--border); position: relative; transition: transform 0.2s, box-shadow 0.2s;">
-                  <div style="font-size: 13px; font-weight: 800; color: var(--accent); margin-bottom: 12px; letter-spacing: 0.05em;">${s.n} : ${s.s}</div>
-                  <div style="font-size: 24px; font-weight: 800; color: var(--text); margin-bottom: 12px; padding-right: 50px; letter-spacing: -0.01em;">${s.txt}</div>
-                  <div style="font-size: 16px; color: var(--text-dim); margin-bottom: 20px;">${s.t}</div>
-                  <div style="padding: 16px 20px; background: rgba(255,255,255,0.03); border-radius: 12px; font-size: 14px; color: var(--text-dim); line-height: 1.5; border: 1px solid rgba(255,255,255,0.05);">
+              <div class="sentence-card" style="padding: 24px 28px; background: var(--surface); border-radius: 16px; border: 1px solid var(--border); position: relative; transition: transform 0.2s, box-shadow 0.2s;">
+                  <div style="font-size: 13px; font-weight: 800; color: var(--accent); margin-bottom: 8px; letter-spacing: 0.05em;">${s.n} : ${s.s}</div>
+                  <div style="font-size: 22px; font-weight: 800; color: var(--text); margin-bottom: 8px; padding-right: 50px; letter-spacing: -0.01em;">${s.txt}</div>
+                  <div style="font-size: 15px; color: var(--text-dim); margin-bottom: 16px;">${s.t}</div>
+                  <div style="padding: 12px 16px; background: rgba(255,255,255,0.03); border-radius: 10px; font-size: 14px; color: var(--text-dim); line-height: 1.4; border: 1px solid rgba(255,255,255,0.05);">
                       <strong style="color: var(--text); font-weight: 700;">Essence:</strong> ${s.eD || ''}
                   </div>
                   <button class="voice-btn" style="position: absolute; top: 30px; right: 30px; background:none; border:none; font-size:24px; cursor:pointer; opacity:0.4; transition: opacity 0.2s;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.4" onclick="speakText('${s.txt.replace(/'/g, "\'")}')" title="듣기">🔊</button>
