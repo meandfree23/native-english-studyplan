@@ -9821,19 +9821,19 @@
                       </p>
                   </div>
               </div>
-              <div style="display: flex; flex-direction: column; gap: 16px;">
+              <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 16px;">
           `;
           
           data.sentences.forEach((s, idx) => {
               html += `
-              <div class="sentence-card" style="padding: 24px 28px; background: var(--surface); border-radius: 16px; border: 1px solid var(--border); position: relative; transition: transform 0.2s, box-shadow 0.2s;">
-                  <div style="font-size: 13px; font-weight: 800; color: var(--accent); margin-bottom: 8px; letter-spacing: 0.05em;">${s.n} : ${s.s}</div>
-                  <div style="font-size: 22px; font-weight: 800; color: var(--text); margin-bottom: 8px; padding-right: 50px; letter-spacing: -0.01em;">${s.txt}</div>
-                  <div style="font-size: 15px; color: var(--text-dim); margin-bottom: 16px;">${s.t}</div>
-                  <div style="padding: 12px 16px; background: rgba(255,255,255,0.03); border-radius: 10px; font-size: 14px; color: var(--text-dim); line-height: 1.4; border: 1px solid rgba(255,255,255,0.05);">
+              <div class="sentence-card" style="padding: 20px 24px; background: var(--surface); border-radius: 16px; border: 1px solid var(--border); position: relative; transition: transform 0.2s, box-shadow 0.2s; display: flex; flex-direction: column;">
+                  <div style="font-size: 12px; font-weight: 800; color: var(--accent); margin-bottom: 6px; letter-spacing: 0.05em;">${s.n} : ${s.s}</div>
+                  <div style="font-size: 20px; font-weight: 800; color: var(--text); margin-bottom: 6px; padding-right: 40px; letter-spacing: -0.01em;">${s.txt}</div>
+                  <div style="font-size: 14px; color: var(--text-dim); margin-bottom: 16px; flex-grow: 1;">${s.t}</div>
+                  <div style="padding: 10px 14px; background: rgba(255,255,255,0.03); border-radius: 8px; font-size: 13px; color: var(--text-dim); line-height: 1.4; border: 1px solid rgba(255,255,255,0.05);">
                       <strong style="color: var(--text); font-weight: 700;">Essence:</strong> ${s.eD || ''}
                   </div>
-                  <button class="voice-btn" style="position: absolute; top: 30px; right: 30px; background:none; border:none; font-size:24px; cursor:pointer; opacity:0.4; transition: opacity 0.2s;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.4" onclick="speakText('${s.txt.replace(/'/g, "\'")}')" title="듣기">🔊</button>
+                  <button class="voice-btn" style="position: absolute; top: 20px; right: 20px; background:none; border:none; font-size:22px; cursor:pointer; opacity:0.4; transition: opacity 0.2s;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.4" onclick="speakText('${s.txt.replace(/'/g, "\\'")}')" title="듣기">🔊</button>
               </div>
               `;
           });
