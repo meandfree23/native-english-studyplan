@@ -97,5 +97,14 @@ window.globalDictionary = {
     "uneasy": "형용사. 불안한, 우려되는",
     "worn": "형용사. 닳은 (worn out: 몹시 지친)",
     "prefer": "동사. 선호하다",
-    "sense": "명사. 일리, 의미 (make sense: 말이 되다)"
+    "sense": "명사. 일리, 의미 (make sense: 말이 되다)",
+    "pride": "명사. 자부심, 자랑 (take pride in: ~에 자부심을 가지다)",
+    "turn": "명사. 차례, 순서 (take turns: 교대로 하다)",
+    "aback": "부사. 깜짝 놀라 (taken aback: 깜짝 놀라다, 당황하다)",
+    "immediately": "부사. 즉시, 즉각",
+    "action": "명사. 조치, 행동 (take action: 조치를 취하다)",
+    "down": "부사. 아래로 (take down: 적어두다, 끌어내리다)",
+    "number": "명사. 번호, 숫자",
+    "work": "명사. 일, 직장",
+    "quite": "부사. 꽤, 상당히"
 };
