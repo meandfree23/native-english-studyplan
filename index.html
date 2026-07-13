@@ -49,7 +49,7 @@
       padding: 80px 32px 60px; text-align: center; position: relative;
     }
     html.theme-light .hero { background: linear-gradient(135deg, #E8F2EC 0%, #C5E0CF 50%, #E8F2EC 100%); }
-    .hero-tag { display: inline-block; background: rgba(82,183,136,0.15); color: var(--accent); font-size: 11px; padding: 6px 16px; border-radius: 20px; margin-bottom: 20px; font-weight: 700; }
+    .hero-tag { display: inline-block; background: rgba(82,183,136,0.15); color: var(--accent); font-size: 11px; padding: 6px 16px; border-radius: 20px; margin-bottom: 12px; font-weight: 700; }
     .hero-title { font-size: clamp(32px, 5vw, 56px); font-weight: 900; margin-bottom: 16px; letter-spacing: -0.04em; }
     .hero-sub { color: var(--text-dim); max-width: 600px; margin: 0 auto 30px; font-size: 16px; }
     
@@ -75,7 +75,7 @@
     .section-heading { font-size: 28px; font-weight: 800; margin-bottom: 10px; text-align: center; }
     
     .kpi-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
-    .kpi-card { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 24px; transition: transform .2s; }
+    .kpi-card { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 16px 20px; transition: transform .2s; }
     .kpi-card:hover { transform: translateY(-4px); }
     .kpi-icon { font-size: 24px; margin-bottom: 10px; }
     .kpi-value { font-size: 20px; font-weight: 800; color: var(--accent); margin-bottom: 4px; }
@@ -83,14 +83,14 @@
     .kpi-desc { font-size: 12px; color: var(--text-dim); line-height: 1.6; }
 
     .chapters-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
-    .chapter-card { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 24px; position: relative; }
+    .chapter-card { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 16px 20px; position: relative; }
     .chapter-num { font-size: 10px; color: var(--text-dim); font-weight: 700; margin-bottom: 8px; }
     .chapter-title { font-size: 18px; font-weight: 800; margin-bottom: 8px; }
     .chapter-desc { font-size: 13px; color: var(--text-dim); margin-bottom: 16px; }
     .tag { background: var(--surface2); color: var(--accent); font-size: 10px; font-weight: 600; padding: 3px 10px; border-radius: 20px; margin-right: 5px; }
 
     .compare-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; border-radius: 16px; overflow: hidden; margin-top: 20px; }
-    .compare-side { padding: 24px; height: 100%; text-align: center; }
+    .compare-side { padding: 16px 20px; height: 100%; text-align: center; }
     .compare-side.left { background: rgba(231,111,81,0.06); border: 1px solid rgba(231,111,81,0.15); }
     .compare-side.right { background: rgba(82,183,136,0.06); border: 1px solid rgba(82,183,136,0.15); }
     .compare-item { font-size: 14px; margin-bottom: 16px; display: flex; flex-direction: column; align-items: center; }
@@ -991,9 +991,9 @@
 <nav class="nav">
   <div class="nav-logo">📘 365 스터디 코스</div>
   <div class="nav-links">
-    <a href="#" onclick="showView('master')" id="nav-master" class="active">📘 365 스터디 코스</a>
+    <a href="#" onclick="showView('study')" id="nav-master" class="active" style="color: var(--ember); font-weight: 700;">📘 365 스터디 코스</a>
     <a href="#" onclick="showView('training')" id="nav-training">실전 훈련(Training)</a>
-    <a href="#" onclick="showView('review')" id="nav-review">⭐️ 별표 복습 (Review)</a>
+    <a href="#" onclick="showView('review')" id="nav-review" style="color: var(--accent); font-weight: 700;">⭐️ 별표 복습 (Review)</a>
     <a href="#" onclick="showView('kiwi')" id="nav-kiwi">🥝 키위새</a>
     <button id="theme-toggle" class="theme-btn" style="margin-left: 20px;">🌓 테마</button>
   </div>
@@ -1007,6 +1007,62 @@
 </section>
 
 
+  </div>
+  
+
+  <div id="study-plan-video-area"></div>
+</div>
+
+<!-- Basic Verbs View -->
+<div id="verbs-view" style="display:none;" class="fade-in">
+  <section class="section">
+    <div class="container">
+      <p class="section-title">Core Mastery</p>
+      <h2 class="section-heading">원어민의 엔진, 기본동사 8선</h2>
+      <p style="color:var(--text-dim); margin-bottom:30px;">단어의 사전적 의미를 넘어, 원어민이 느끼는 '본질적 에너지'를 이해하는 섹션입니다.</p>
+      <div id="verbs-video-area"></div>
+      <div class="verb-grid" id="verb-grid"></div>
+    </div>
+  </section>
+</div>
+
+<!-- Prepositions View -->
+<div id="preps-view" style="display:none;" class="fade-in">
+  <section class="section">
+    <div class="container">
+      <p class="section-title">Spatial Awareness</p>
+      <h2 class="section-heading">공간을 그리는 언어, 전치사 8선</h2>
+      <p style="color:var(--text-dim); margin-bottom:30px;">전치사는 위치가 아니라 '관계의 이미지'입니다. 원어민의 머릿속 그림을 따라가보세요.</p>
+      <div class="verb-grid" id="prep-grid"></div>
+    </div>
+  </section>
+</div>
+
+<!-- Phrasal Verbs View -->
+<div id="phrasal-view" style="display:none;" class="fade-in">
+  <section class="section">
+    <div class="container">
+      <p class="section-title">Dynamic Fusion</p>
+      <h2 class="section-heading">수학처럼 풀리는 구동사, 8선</h2>
+      <p style="color:var(--text-dim); margin-bottom:30px;">'기본동사의 본질'과 '전치사의 이미지'가 결합되는 원리를 이해하면 구동사는 암기 대상이 아닙니다.</p>
+      <div class="verb-grid" id="phrasal-grid"></div>
+    </div>
+  </section>
+</div>
+
+<!-- Native Grammar View -->
+<div id="grammar-view" style="display:none;" class="fade-in">
+  <section class="section">
+    <div class="container">
+      <p class="section-title">Native Mindset</p>
+      <h2 class="section-heading">원어민의 뇌 구조로 이해하는 영문법</h2>
+      <p style="color:var(--text-dim); margin-bottom:30px;">규칙을 외우는 것이 아니라, 원어민이 세상을 인지하고 에너지를 발산하는 순서 그대로 영어를 직관적으로 이해해 봅니다.</p>
+      <div class="verb-grid" id="grammar-grid"></div>
+    </div>
+  </section>
+</div>
+
+<!-- Interactive Training View -->
 <div id="training-view" style="display:none;" class="fade-in">
   <section class="section">
     <div class="container">
@@ -1064,7 +1120,15 @@
   </section>
 </div>
 
-<div id="main-content" class="fade-in">
+
+
+<div id="curriculum-view" style="display:flex; max-width: 1400px; margin: 0 auto; gap: 30px;">
+  
+  <div style="flex: 1; min-width: 0;">
+    <div id="study-plan-view">
+  <div class="day-selector-strip">
+    <div class="container" id="pill-container"></div>
+    <div id="main-content" class="fade-in">
   <section class="section">
     <div class="container">
       <p class="section-title">Overview</p>
@@ -1113,6 +1177,9 @@
 
 
 
+  </div>
+</div>
+
 <div id="review-view" style="display:none;" class="fade-in">
   <section class="section">
     <div class="container">
@@ -1132,7 +1199,7 @@
       <div class="review-split-container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px;">
         <!-- Left: Core Course Bookmarks -->
         <div class="review-column">
-          <h3 style="font-size: 18px; font-weight:800; border-bottom: 2px solid var(--accent); padding-bottom: 10px; margin-bottom: 20px; color: var(--accent);">
+          <h3 style="font-size: 18px; font-weight:800; border-bottom: 2px solid var(--accent); padding-bottom: 10px; margin-bottom: 12px; color: var(--accent);">
             📚 코어 코스 오답노트
           </h3>
           <div id="core-review-list" class="review-list"></div>
@@ -1140,7 +1207,7 @@
 
         <!-- Right: 365 Master Bookmarks -->
         <div class="review-column">
-          <h3 style="font-size: 18px; font-weight:800; border-bottom: 2px solid var(--ember); padding-bottom: 10px; margin-bottom: 20px; color: var(--ember);">
+          <h3 style="font-size: 18px; font-weight:800; border-bottom: 2px solid var(--ember); padding-bottom: 10px; margin-bottom: 12px; color: var(--ember);">
             💎 365 마스터 코스 오답노트
           </h3>
           <div id="master-review-list" class="review-list"></div>
@@ -1173,24 +1240,17 @@
     
     <!-- Main course content -->
     <div style="display: flex; gap: 30px; padding: 30px; align-items: flex-start; flex-grow: 1; overflow-y: auto;">
-      <!-- Central Content: Sentences & Header -->
-      <div style="flex: 1; display: flex; flex-direction: column; gap: 15px; max-width: 900px; margin: 0 auto;">
-        
-        <!-- Integrated Essence Box -->
-        <div class="essence-box" style="display: flex; align-items: center; justify-content: space-between; padding: 25px; border-radius: 16px; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1);">
-          <div style="flex: 1;">
-            <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 8px;">
-              <span id="mastery-icon" style="font-size: 28px;">🎯</span>
-              <h3 id="core-verb-label" style="margin: 0; color: var(--gold); font-size: 20px;">VERB: TAKE</h3>
-            </div>
-            <p id="mastery-title" style="font-weight: 800; font-size: 16px; color: var(--accent); margin: 5px 0;">Essence Discovery</p>
-            <p id="governing-phrase" style="font-weight: 500; font-size: 14px; color: var(--text); margin: 5px 0;">외부의 것을 내 의지로 포획하여 소유의 영역으로 끌어오다</p>
-            <p id="mastery-desc" style="font-size: 13px; color: var(--text-dim); margin: 5px 0 0 0;">지각과 인지의 신경망을 고도화하는 과정입니다.</p>
-          </div>
-          <div class="expansion-step" id="neural-mapping" style="margin-left: 20px; display: none; text-align: right;">
-            <div class="expansion-prompt" style="font-size: 11px; color: var(--text-dim);">NEURAL TARGET</div>
-            <div class="expansion-text" id="neural-target-val" style="font-weight: 800; color: var(--ember);">POINT MAPPING</div>
-          </div>
+      <!-- Left: Sentences -->
+      <div style="flex: 1.3; display: flex; flex-direction: column; gap: 15px;">
+        <!-- Master Video Collapsible Area -->
+        <button id="video-toggle-btn" class="complete-btn" onclick="toggleMasterVideo()" style="background:var(--accent); color:var(--bg); border-radius:12px; margin-bottom:10px; display:inline-flex; align-items:center; gap:8px; justify-content:center; width:100%; border:none; padding:12px;">
+          📺 인지문법 동영상 강의 펼치기/접기 <span id="video-toggle-arrow">▼</span>
+        </button>
+        <div id="master-video-area" style="display:none; transition: all 0.3s ease;"></div>
+        <!-- Essence Box -->
+        <div class="essence-box">
+          <h3 id="core-verb-label">VERB: TAKE</h3>
+          <p id="governing-phrase">외부의 것을 내 의지로 포획하여 소유의 영역으로 끌어오다</p>
         </div>
         
         <!-- Language Toggles -->
@@ -1205,6 +1265,19 @@
         
         <!-- Sentence cards container -->
         <div id="sentence-container" style="display: flex; flex-direction: column; gap: 12px;"></div>
+      </div>
+      
+      <!-- Right: Mastery Panel -->
+      <div class="mastery-right" style="position: static; width: 340px; flex-shrink: 0; box-shadow: 0 15px 35px rgba(0,0,0,0.08);">
+        <div class="mastery-circle" id="mastery-circle" style="background: radial-gradient(circle at 30% 30%, var(--gold), var(--ember));">
+          <div class="mastery-verb-name" id="mastery-icon" style="font-size: 40px; display:flex; align-items:center; justify-content:center;">🎯</div>
+        </div>
+        <div class="mastery-essence" id="mastery-title">Essence Discovery</div>
+        <div class="mastery-principle" id="mastery-desc">지각과 인지의 신경망을 고도화하는 과정입니다.</div>
+        <div class="expansion-step" id="neural-mapping" style="margin-top: 20px; display: none;">
+          <div class="expansion-prompt">NEURAL TARGET</div>
+          <div class="expansion-text" id="neural-target-val">POINT MAPPING</div>
+        </div>
       </div>
     </div>
   </div>
@@ -8377,7 +8450,7 @@
           <div class="video-container">
             <iframe class="yt-video-player" src="https://www.youtube.com/embed/${data.videoId}?enablejsapi=1" allowfullscreen></iframe>
           </div>
-          <div style="padding: 24px;">
+          <div style="padding: 16px 20px;">
             <p class="section-title">Master Class</p>
             <h3 style="font-size: 20px; margin-bottom: 8px;">🎬 Day ${day} 마스터 클래스</h3>
             <p style="font-size: 14px; color: var(--text-dim);">${data.title}의 품격을 높여주는 마스터 영상입니다.</p>
@@ -8418,28 +8491,7 @@
     if (pctEl) pctEl.textContent = pct + '%';
   }
 
-  function startQuiz() {
-    const quizBox = document.getElementById('quiz-content');
-    const dayData = curriculum[currentDay];
-    if (!dayData || !dayData.expr || dayData.expr.length === 0) {
-      quizBox.innerHTML = "<p>이 일차에는 아직 퀴즈가 준비되지 않았습니다.</p>";
-      return;
-    }
-    const q = dayData.expr[0];
-    quizBox.innerHTML = `
-      <p style="font-size: 18px; margin-bottom: 20px;">'${q.k}'를 가장 세련되게 표현하면?</p>
-      <div class="quiz-opt" onclick="checkAns(true)">${q.e}</div>
-      <div class="quiz-opt" onclick="checkAns(false)">다른 평범한 표현</div>
-    `;
-  }
 
-  function checkAns(isCorrect) {
-    const quizBox = document.getElementById('quiz-content');
-    quizBox.innerHTML = isCorrect ? "<h3>정답입니다! 🎯</h3>" : "<h3>조금 더 공부해볼까요? 📖</h3>";
-    setTimeout(() => {
-      quizBox.innerHTML = `<button class="complete-btn" onclick="startQuiz()">다시 테스트</button>`;
-    }, 2000);
-  }
 
   const basicVerbs = [
     { name: "Take", nuance: "주도적 낚아채기", core: "내 영역 밖의 것을 나의 의지로 낚아챕니다.", desc: "주도적 소유, 선택, 책임의 에너지를 담고 있습니다.", videoId: "aJSYRhj04NY", ex: [
@@ -9768,20 +9820,29 @@
   }
 
   function showView(view) {
+    const studyView = document.getElementById('study-plan-view');
+    const curriculumView = document.getElementById('curriculum-view');
     const mainContent = document.getElementById('main-content');
+    const verbsView = document.getElementById('verbs-view');
+    const prepsView = document.getElementById('preps-view');
+    const phrasalView = document.getElementById('phrasal-view');
+    const grammarView = document.getElementById('grammar-view');
     const trainingView = document.getElementById('training-view');
     const kiwiView = document.getElementById('kiwi-view');
     const masterView = document.getElementById('master-view');
-    const reviewView = document.getElementById('review-view');
     
+    const navStudy = document.getElementById('nav-study');
+    const navVerbs = document.getElementById('nav-verbs');
+    const navPreps = document.getElementById('nav-preps');
+    const navPhrasal = document.getElementById('nav-phrasal');
+    const navGrammar = document.getElementById('nav-grammar');
     const navTraining = document.getElementById('nav-training');
     const navKiwi = document.getElementById('nav-kiwi');
     const navMaster = document.getElementById('nav-master');
-    const navReview = document.getElementById('nav-review');
 
     // Reset all
-    [mainContent, trainingView, kiwiView, reviewView, masterView].forEach(v => { if(v) v.style.display = 'none'; });
-    [navTraining, navKiwi, navReview, navMaster].forEach(n => { if(n) n.classList.remove('active'); });
+    [curriculumView, studyView, mainContent, verbsView, prepsView, phrasalView, grammarView, trainingView, kiwiView, document.getElementById('review-view'), masterView].forEach(v => { if(v) v.style.display = 'none'; });
+    [navStudy, navVerbs, navPreps, navPhrasal, navGrammar, navTraining, navKiwi, document.getElementById('nav-review'), navMaster].forEach(n => { if(n) n.classList.remove('active'); });
 
     // Handle hero visibility
     const heroSection = document.querySelector('.hero');
@@ -9793,12 +9854,30 @@
       }
     }
 
-    if (view === 'training') {
-      if (trainingView) trainingView.style.display = 'block';
-      if (navTraining) navTraining.classList.add('active');
+    if (view === 'study') {
+      document.getElementById('curriculum-view').style.display = 'flex';
+      mainContent.style.display = 'block';
+      if(navStudy) navStudy.classList.add('active');
+      updateMasterWidget();
+    } else if (view === 'verbs') {
+      verbsView.style.display = 'block';
+      if(navVerbs) navVerbs.classList.add('active');
+      renderVerbs();
+    } else if (view === 'preps') {
+      prepsView.style.display = 'block';
+      if(navPreps) navPreps.classList.add('active');
+      renderPreps();
+    } else if (view === 'phrasal') {
+      phrasalView.style.display = 'block';
+      if(navPhrasal) navPhrasal.classList.add('active');
+      renderPhrasal();
+    } else if (view === 'grammar') {
+      grammarView.style.display = 'block';
+      if(navGrammar) navGrammar.classList.add('active');
+      if(typeof renderGrammar === 'function') renderGrammar();
     } else if (view === 'kiwi') {
-      if (kiwiView) kiwiView.style.display = 'block';
-      if (navKiwi) navKiwi.classList.add('active');
+      kiwiView.style.display = 'block';
+      if(navKiwi) navKiwi.classList.add('active');
       if(typeof renderKiwi === 'function') renderKiwi();
     } else if (view === 'review') {
       const reviewView = document.getElementById('review-view');
@@ -9806,14 +9885,7 @@
       if (reviewView) reviewView.style.display = 'block';
       if (navReview) navReview.classList.add('active');
       renderReview();
-    } else if (view === 'master') {
-      if (masterView) masterView.style.display = 'flex';
-      if (navMaster) navMaster.classList.add('active');
-      if (typeof masterInit === 'function') {
-        masterInit();
-      }
-    }
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    } window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
   function saveSentence(id, val) {
@@ -10165,7 +10237,7 @@
   };
 
   window.onload = () => {
-    showView('master');
+    showView('study');
     // Bind theme toggle button AFTER DOM is ready
     const themeBtn = document.getElementById('theme-toggle');
     if (themeBtn) themeBtn.onclick = toggleTheme;
@@ -10304,7 +10376,12 @@
       runStep();
     };
 
-
+    renderPills();
+    loadDay(1);
+    renderVerbs();
+    renderPreps();
+    renderPhrasal();
+    if (typeof renderGrammar === 'function') renderGrammar();
     if (typeof renderKiwi === 'function') renderKiwi();
   };
 </script>
@@ -10441,7 +10518,6 @@
 
         function masterShowBriefing() {
             const overlay = document.getElementById('briefing-overlay');
-            if (!overlay) return;
             let totalSentences = 0;
             for (const d in window.dayData) {
                 if (window.dayData[d] && window.dayData[d].sentences) {
@@ -10572,7 +10648,7 @@
                 if (typeof curriculum !== 'undefined' && curriculum[d] && curriculum[d].videoId) {
                     if (videoBtn) videoBtn.style.display = 'inline-flex';
                     videoArea.innerHTML = `
-                    <div style="border-radius:24px; overflow:hidden; margin-top: 10px; margin-bottom: 20px; box-shadow: 0 15px 35px rgba(0,0,0,0.2); border: 1px solid var(--border);">
+                    <div style="border-radius:24px; overflow:hidden; margin-top: 10px; margin-bottom: 12px; box-shadow: 0 15px 35px rgba(0,0,0,0.2); border: 1px solid var(--border);">
                         <iframe style="width:100%; aspect-ratio:16/9; border:none;" src="https://www.youtube.com/embed/${curriculum[d].videoId}?enablejsapi=1" allowfullscreen></iframe>
                     </div>`;
                 } else {
