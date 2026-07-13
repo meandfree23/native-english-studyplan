@@ -1133,67 +1133,17 @@
   </div>
 </div>
 
-<div id="curriculum-view" style="display:none; max-width: 1400px; margin: 0 auto;">
-  
-  
-  <!-- Right Content Area -->
-  <div style="flex: 1; display: flex; flex-direction: column; overflow: hidden; background: var(--bg);">
-    
-    <!-- Back to TOC -->
-    <div style="padding: 20px 30px 0;">
-      <div class="back-to-toc" onclick="showView('study')">
-        <span style="font-size: 16px;">←</span> 전체 목차로 돌아가기
-      </div>
-    </div>
 
-    <!-- Month & Day Header -->
-    <div style="padding: 20px 30px 10px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border); background: var(--surface);">
-      <div>
-        <h2 id="current-month-name" style="font-size: 20px; font-weight: 900; color: var(--accent);">Month 1</h2>
-        <p id="current-day-num" style="font-size: 13px; color: var(--text-dim); margin-top: 2px;">Day 1</p>
-      </div>
+<div id="curriculum-view" style="display:none; max-width: 1000px; margin: 0 auto; flex-direction: column; padding-bottom: 100px;">
+  <!-- Back to TOC -->
+  <div style="padding: 40px 20px 0;">
+    <div class="back-to-toc" onclick="showView('study')">
+      <span style="font-size: 16px;">←</span> 전체 목차로 돌아가기
     </div>
-    <!-- Day selector -->
-    <div class="day-selector-strip" style="padding: 10px 30px; border-bottom: 1px solid var(--border); overflow-x: auto; white-space: nowrap; text-align: left; background: var(--surface2);">
-      <div id="day-selector" style="display: flex; gap: 8px;"></div>
-    </div>
-    
-    <!-- Main course content -->
-    <div style="display: flex; gap: 30px; padding: 30px; align-items: flex-start; flex-grow: 1; overflow-y: auto;">
-      <!-- Central Content: Sentences & Header -->
-      <div style="flex: 1; display: flex; flex-direction: column; gap: 15px; max-width: 900px; margin: 0 auto;">
-        
-        <!-- Integrated Essence Box -->
-        <div class="essence-box" style="display: flex; align-items: center; justify-content: space-between; padding: 16px 20px; border-radius: 16px; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1);">
-          <div style="flex: 1;">
-            <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 8px;">
-              <span id="mastery-icon" style="font-size: 28px;">🎯</span>
-              <h3 id="core-verb-label" style="margin: 0; color: var(--gold); font-size: 20px;">VERB: TAKE</h3>
-            </div>
-            <p id="mastery-title" style="font-weight: 800; font-size: 16px; color: var(--accent); margin: 5px 0;">Essence Discovery</p>
-            <p id="governing-phrase" style="font-weight: 500; font-size: 14px; color: var(--text); margin: 5px 0;">외부의 것을 내 의지로 포획하여 소유의 영역으로 끌어오다</p>
-            <p id="mastery-desc" style="font-size: 13px; color: var(--text-dim); margin: 5px 0 0 0;">지각과 인지의 신경망을 고도화하는 과정입니다.</p>
-          </div>
-          <div class="expansion-step" id="neural-mapping" style="margin-left: 20px; display: none; text-align: right;">
-            <div class="expansion-prompt" style="font-size: 11px; color: var(--text-dim);">NEURAL TARGET</div>
-            <div class="expansion-text" id="neural-target-val" style="font-weight: 800; color: var(--ember);">POINT MAPPING</div>
-          </div>
-        </div>
-        
-        <!-- Language Toggles -->
-        <div class="study-toggles" style="justify-content: flex-end; margin-bottom: 5px;">
-          <label class="toggle-label">
-            <input type="checkbox" onchange="document.getElementById('master-view').classList.toggle('hide-en-mode', this.checked)"> 영어 가리기 (Hover 확인)
-          </label>
-          <label class="toggle-label">
-            <input type="checkbox" onchange="document.getElementById('master-view').classList.toggle('hide-ko-mode', this.checked)"> 한국어 가리기 (Hover 확인)
-          </label>
-        </div>
-        
-        <!-- Sentence cards container -->
-        <div id="sentence-container" style="display: flex; flex-direction: column; gap: 12px;"></div>
-      </div>
-    </div>
+  </div>
+  
+  <div id="chapter-render-area" style="padding: 20px; width: 100%;">
+      <!-- dynamically injected -->
   </div>
 </div>
 
@@ -9800,11 +9750,9 @@
           
           groups.forEach(g => {
               const label = g.vT ? `${g.core} \\ ${g.vT}` : g.core;
-              const range = g.start === g.end ? `Day ${g.start}` : `Day ${g.start}-${g.end}`;
               html += `
-                  <div class="toc-topic-item" onclick="openDayFromTOC(${g.start})">
+                  <div class="toc-topic-item" onclick="openChapterFromTOC(${g.start}, ${g.end})">
                       <span class="toc-topic-title">${label}</span>
-                      <span class="toc-topic-day">${range}</span>
                   </div>
               `;
           });
@@ -9815,11 +9763,66 @@
       tocContent.innerHTML = html;
   }
   
-  function openDayFromTOC(day) {
+  
+  function openChapterFromTOC(start, end) {
       document.getElementById('toc-view').style.display = 'none';
       document.getElementById('curriculum-view').style.display = 'flex';
-      loadDay(day);
+      loadChapter(start, end);
       window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  function loadChapter(start, end) {
+      const renderArea = document.getElementById('chapter-render-area');
+      if (!renderArea) return;
+      
+      let html = '';
+      const firstDay = window.dayData[start];
+      
+      if (!firstDay) {
+          renderArea.innerHTML = '<p>데이터를 불러올 수 없습니다.</p>';
+          return;
+      }
+      
+      // Chapter Header
+      html += `
+      <div style="text-align: center; margin-bottom: 80px; margin-top: 40px;">
+          <div style="font-size: 14px; font-weight: 800; color: var(--ember); letter-spacing: 0.1em; margin-bottom: 16px; text-transform: uppercase;">CHAPTER</div>
+          <h1 style="font-size: 56px; font-weight: 900; color: var(--text); margin-bottom: 24px; letter-spacing: -0.02em;">${firstDay.core} <span style="color: var(--text-dim); font-weight: 300;">|</span> ${firstDay.vT}</h1>
+          <p style="font-size: 18px; color: var(--text-dim); max-width: 600px; margin: 0 auto; line-height: 1.6; word-break: keep-all;">${firstDay.vD || ''}</p>
+      </div>
+      `;
+      
+      // Loop through days in this chapter
+      for(let d = start; d <= end; d++) {
+          const data = window.dayData[d];
+          if(!data || !data.sentences) continue;
+          
+          html += `
+          <div style="margin-bottom: 100px;">
+              <div style="margin-bottom: 40px; border-bottom: 2px solid var(--border); padding-bottom: 16px;">
+                  <h2 style="font-size: 26px; font-weight: 800; color: var(--text); letter-spacing: -0.02em;">${data.governing}</h2>
+              </div>
+              <div style="display: flex; flex-direction: column; gap: 20px;">
+          `;
+          
+          data.sentences.forEach((s, idx) => {
+              html += `
+              <div class="sentence-card" style="padding: 30px; background: var(--surface); border-radius: 20px; border: 1px solid var(--border); position: relative; transition: transform 0.2s, box-shadow 0.2s;">
+                  <div style="font-size: 13px; font-weight: 800; color: var(--accent); margin-bottom: 12px; letter-spacing: 0.05em;">${s.n} : ${s.s}</div>
+                  <div style="font-size: 24px; font-weight: 800; color: var(--text); margin-bottom: 12px; padding-right: 50px; letter-spacing: -0.01em;">${s.txt}</div>
+                  <div style="font-size: 16px; color: var(--text-dim); margin-bottom: 20px;">${s.t}</div>
+                  <div style="padding: 16px 20px; background: rgba(255,255,255,0.03); border-radius: 12px; font-size: 14px; color: var(--text-dim); line-height: 1.5; border: 1px solid rgba(255,255,255,0.05);">
+                      <strong style="color: var(--text); font-weight: 700;">Essence:</strong> ${s.eD || ''}
+                  </div>
+                  <button class="voice-btn" style="position: absolute; top: 30px; right: 30px; background:none; border:none; font-size:24px; cursor:pointer; opacity:0.4; transition: opacity 0.2s;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.4" onclick="speakText('${s.txt.replace(/'/g, "\'")}')" title="듣기">🔊</button>
+              </div>
+              `;
+          });
+          
+          html += `</div></div>`;
+      }
+      
+      renderArea.innerHTML = html;
   }
 
   function showView(view) {
