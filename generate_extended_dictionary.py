@@ -1,4 +1,7 @@
-window.globalDictionary = {
+import json
+
+# Start with the existing dictionary
+dictionary = {
     "anymore": "부사. 더 이상 (~않다)",
     "seat": "명사. 자리, 좌석",
     "side": "명사. 편, 측면",
@@ -69,7 +72,7 @@ window.globalDictionary = {
     "meantime": "명사. 그 동안 (in the meantime: 그러는 동안에)",
     "depends": "동사. ~에 달려있다 (It depends: 상황에 따라 다르다)",
     "let": "동사. 허락하다 (let down: 실망시키다)",
-    "lost": "형용사. 잃어버린, 길을 잃은",
+    "lost": "형용사. 길을 잃은, 상실한",
     "mad": "형용사. 몹시 화난",
     "mastery": "명사. 통달, 숙달",
     "nervous": "형용사. 긴장한, 초조한",
@@ -145,6 +148,7 @@ window.globalDictionary = {
     "working": "형용사/명사. 일하는 중인",
     "next": "형용사/부사. 다음의",
     "morning": "명사. 아침",
+    "lost": "형용사. 잃어버린, 길을 잃은",
     "bit": "명사. 조금 (a little bit: 아주 조금)",
     "still": "부사. 아직도, 여전히",
     "feeling": "명사. 감정, 느낌",
@@ -208,4 +212,8 @@ window.globalDictionary = {
     "system": "명사. 시스템",
     "results": "명사. 결과",
     "coffee": "명사. 커피"
-};
+}
+
+js_code = "window.globalDictionary = " + json.dumps(dictionary, ensure_ascii=False, indent=4) + ";"
+with open('master/data/dictionary.js', 'w', encoding='utf-8') as f:
+    f.write(js_code)
