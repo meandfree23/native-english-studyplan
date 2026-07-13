@@ -9898,7 +9898,7 @@
           }
           
           if (foundVocab.length > 0) {
-              let vocabItems = foundVocab.map(v => `<li><strong>${v.word}</strong>: ${v.meaning}</li>`).join('');
+              let vocabItems = foundVocab.map(v => `<li style="display: flex; align-items: center; flex-wrap: wrap;"><strong>${v.word}</strong> <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="speakText('${v.word.replace(/'/g, "\\'")}')" title="발음 듣기">🔊</button> <span style="margin-left: 4px;">: ${v.meaning}</span></li>`).join('');
               html += `
               <div class="vocab-notes">
                   <div class="vocab-title">💡 핵심 단어 및 표현 (Vocabulary)</div>
