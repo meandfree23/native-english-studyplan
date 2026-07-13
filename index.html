@@ -9792,15 +9792,34 @@
       </div>
       `;
       
+      let sectionIndex = 1;
+      
       // Loop through days in this chapter
       for(let d = start; d <= end; d++) {
           const data = window.dayData[d];
-          if(!data || !data.sentences) continue;
+          if(!data || !data.sentences || data.sentences.length === 0) continue;
+          
+          // Clean the title by removing "Day 8: [Get] " format
+          let cleanTitle = data.governing.replace(/Day \d+: \[[^\]]+\] /, '');
+          
+          // Generate Nuance Map
+          // Extract unique situations (s) from sentences
+          let situations = data.sentences.map(s => s.s).filter((v, i, a) => v && a.indexOf(v) === i);
+          let tagHtml = situations.map(sit => `<span style="display: inline-block; padding: 6px 12px; background: rgba(82, 183, 136, 0.1); color: var(--accent); border-radius: 6px; font-size: 13px; font-weight: 700; margin-right: 8px; margin-bottom: 8px;">#${sit}</span>`).join('');
           
           html += `
           <div style="margin-bottom: 100px;">
-              <div style="margin-bottom: 40px; border-bottom: 2px solid var(--border); padding-bottom: 16px;">
-                  <h2 style="font-size: 26px; font-weight: 800; color: var(--text); letter-spacing: -0.02em;">${data.governing}</h2>
+              <div style="margin-bottom: 30px; border-bottom: 2px solid var(--border); padding-bottom: 20px;">
+                  <div style="font-size: 13px; font-weight: 800; color: var(--accent); opacity: 0.8; margin-bottom: 8px; letter-spacing: 0.05em;">SECTION 0${sectionIndex}</div>
+                  <h2 style="font-size: 28px; font-weight: 800; color: var(--text); letter-spacing: -0.02em; margin-bottom: 16px;">${cleanTitle}</h2>
+                  
+                  <!-- Nuance Map Box -->
+                  <div style="padding: 16px 20px; background: rgba(255,255,255,0.02); border-radius: 12px; border: 1px solid rgba(255,255,255,0.05);">
+                      <div style="margin-bottom: 10px;">${tagHtml}</div>
+                      <p style="font-size: 14px; color: var(--text-dim); line-height: 1.5; margin: 0; font-weight: 400;">
+                          아래 예시들은 단일한 개념이 <strong>${situations.slice(0, 3).join(', ')}${situations.length > 3 ? ' 등' : ''}</strong>의 다채로운 상황에서 어떻게 세밀한 뉘앙스 차이로 변주되는지 보여줍니다.
+                      </p>
+                  </div>
               </div>
               <div style="display: flex; flex-direction: column; gap: 20px;">
           `;
@@ -9820,6 +9839,7 @@
           });
           
           html += `</div></div>`;
+          sectionIndex++;
       }
       
       renderArea.innerHTML = html;
