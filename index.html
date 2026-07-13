@@ -973,6 +973,25 @@
     opacity: 1;
   }
 
+  /* --- TOC Style --- */
+  .toc-container { max-width: 900px; margin: 40px auto; padding: 0 20px; font-family: 'Pretendard', sans-serif; }
+  .toc-header { font-size: 32px; font-weight: 900; margin-bottom: 50px; text-align: center; color: var(--text); letter-spacing: -0.02em; display: none; /* Hide 'Table of Contents' text since the hero section already acts as a title */ }
+  .toc-lesson { display: flex; margin-bottom: 60px; border-bottom: 1px solid var(--border); padding-bottom: 40px; page-break-inside: avoid; }
+  .toc-lesson-number { font-size: 90px; font-weight: 900; color: #E63946; line-height: 0.8; width: 130px; flex-shrink: 0; margin-top: -5px; text-align: right; padding-right: 30px; letter-spacing: -0.05em; font-family: serif; }
+  .toc-lesson-content { flex: 1; }
+  .toc-lesson-title { font-size: 18px; font-weight: 800; color: var(--text); margin-bottom: 24px; text-transform: uppercase; letter-spacing: -0.01em; }
+  .toc-topic-list { display: flex; flex-direction: column; gap: 14px; }
+  .toc-topic-item { display: flex; justify-content: space-between; align-items: baseline; font-size: 15px; color: var(--text-dim); cursor: pointer; transition: color 0.2s; position: relative; line-height: 1.4; letter-spacing: -0.01em; }
+  .toc-topic-item:hover { color: var(--accent); }
+  .toc-topic-item::after { content: ''; flex: 1; border-bottom: 2px dotted rgba(0,0,0,0.1); margin: 0 16px; position: relative; top: -4px; transition: border-color 0.2s; }
+  body.dark-mode .toc-topic-item::after { border-bottom: 2px dotted rgba(255,255,255,0.2); }
+  .toc-topic-item:hover::after { border-color: var(--accent); opacity: 0.5; }
+  .toc-topic-day { font-size: 14px; font-weight: 700; color: var(--text-dim); white-space: nowrap; font-family: monospace; letter-spacing: 0; }
+  .toc-topic-item:hover .toc-topic-day { color: var(--accent); }
+  .toc-topic-title { font-weight: 700; color: var(--text); }
+  
+  .back-to-toc { display: inline-flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 700; color: var(--text-dim); cursor: pointer; margin-bottom: 30px; padding: 8px 16px; border-radius: 8px; background: var(--surface2); transition: all 0.2s; }
+  .back-to-toc:hover { color: var(--accent); background: rgba(82, 183, 136, 0.1); }
 </style>
   <script src="https://www.youtube.com/iframe_api"></script>
   
