@@ -989,17 +989,12 @@
 <body>
 
 <nav class="nav">
-  <div class="nav-logo">📘 365일 스터디 코스</div>
+  <div class="nav-logo">📘 365 스터디 코스</div>
   <div class="nav-links">
-    <a href="#" onclick="showView('study')" id="nav-study" class="active">Overview (기존 코스)</a>
-    <a href="#" onclick="showView('grammar')" id="nav-grammar">원어민 영문법</a>
+    <a href="#" onclick="showView('master')" id="nav-master" class="active">📘 365 스터디 코스</a>
     <a href="#" onclick="showView('training')" id="nav-training">실전 훈련(Training)</a>
-    <a href="#" onclick="showView('verbs')" id="nav-verbs">기본동사(Verbs)</a>
-    <a href="#" onclick="showView('preps')" id="nav-preps">전치사(Preps)</a>
-    <a href="#" onclick="showView('phrasal')" id="nav-phrasal">구동사(Phrasal)</a>
+    <a href="#" onclick="showView('review')" id="nav-review">⭐️ 별표 복습 (Review)</a>
     <a href="#" onclick="showView('kiwi')" id="nav-kiwi">🥝 키위새</a>
-    <a href="#" onclick="showView('review')" id="nav-review" style="color: var(--accent); font-weight: 700;">별표 복습 (Review)</a>
-    <a href="#" onclick="showView('master')" id="nav-master" style="color: var(--ember); font-weight: 700; margin-left: 10px;">💎 Master Dashboard</a>
     <button id="theme-toggle" class="theme-btn" style="margin-left: 20px;">🌓 테마</button>
   </div>
 </nav>
@@ -1011,65 +1006,7 @@
   <button class="complete-btn" id="day-complete-btn" onclick="toggleComplete()">미션 완료 체크</button>
 </section>
 
-<div id="study-plan-view">
-  <div class="day-selector-strip">
-    <div class="container" id="pill-container"></div>
-  </div>
-  
 
-  <div id="study-plan-video-area"></div>
-</div>
-
-<!-- Basic Verbs View -->
-<div id="verbs-view" style="display:none;" class="fade-in">
-  <section class="section">
-    <div class="container">
-      <p class="section-title">Core Mastery</p>
-      <h2 class="section-heading">원어민의 엔진, 기본동사 8선</h2>
-      <p style="color:var(--text-dim); margin-bottom:30px;">단어의 사전적 의미를 넘어, 원어민이 느끼는 '본질적 에너지'를 이해하는 섹션입니다.</p>
-      <div id="verbs-video-area"></div>
-      <div class="verb-grid" id="verb-grid"></div>
-    </div>
-  </section>
-</div>
-
-<!-- Prepositions View -->
-<div id="preps-view" style="display:none;" class="fade-in">
-  <section class="section">
-    <div class="container">
-      <p class="section-title">Spatial Awareness</p>
-      <h2 class="section-heading">공간을 그리는 언어, 전치사 8선</h2>
-      <p style="color:var(--text-dim); margin-bottom:30px;">전치사는 위치가 아니라 '관계의 이미지'입니다. 원어민의 머릿속 그림을 따라가보세요.</p>
-      <div class="verb-grid" id="prep-grid"></div>
-    </div>
-  </section>
-</div>
-
-<!-- Phrasal Verbs View -->
-<div id="phrasal-view" style="display:none;" class="fade-in">
-  <section class="section">
-    <div class="container">
-      <p class="section-title">Dynamic Fusion</p>
-      <h2 class="section-heading">수학처럼 풀리는 구동사, 8선</h2>
-      <p style="color:var(--text-dim); margin-bottom:30px;">'기본동사의 본질'과 '전치사의 이미지'가 결합되는 원리를 이해하면 구동사는 암기 대상이 아닙니다.</p>
-      <div class="verb-grid" id="phrasal-grid"></div>
-    </div>
-  </section>
-</div>
-
-<!-- Native Grammar View -->
-<div id="grammar-view" style="display:none;" class="fade-in">
-  <section class="section">
-    <div class="container">
-      <p class="section-title">Native Mindset</p>
-      <h2 class="section-heading">원어민의 뇌 구조로 이해하는 영문법</h2>
-      <p style="color:var(--text-dim); margin-bottom:30px;">규칙을 외우는 것이 아니라, 원어민이 세상을 인지하고 에너지를 발산하는 순서 그대로 영어를 직관적으로 이해해 봅니다.</p>
-      <div class="verb-grid" id="grammar-grid"></div>
-    </div>
-  </section>
-</div>
-
-<!-- Interactive Training View -->
 <div id="training-view" style="display:none;" class="fade-in">
   <section class="section">
     <div class="container">
@@ -1236,17 +1173,24 @@
     
     <!-- Main course content -->
     <div style="display: flex; gap: 30px; padding: 30px; align-items: flex-start; flex-grow: 1; overflow-y: auto;">
-      <!-- Left: Sentences -->
-      <div style="flex: 1.3; display: flex; flex-direction: column; gap: 15px;">
-        <!-- Master Video Collapsible Area -->
-        <button id="video-toggle-btn" class="complete-btn" onclick="toggleMasterVideo()" style="background:var(--accent); color:var(--bg); border-radius:12px; margin-bottom:10px; display:inline-flex; align-items:center; gap:8px; justify-content:center; width:100%; border:none; padding:12px;">
-          📺 인지문법 동영상 강의 펼치기/접기 <span id="video-toggle-arrow">▼</span>
-        </button>
-        <div id="master-video-area" style="display:none; transition: all 0.3s ease;"></div>
-        <!-- Essence Box -->
-        <div class="essence-box">
-          <h3 id="core-verb-label">VERB: TAKE</h3>
-          <p id="governing-phrase">외부의 것을 내 의지로 포획하여 소유의 영역으로 끌어오다</p>
+      <!-- Central Content: Sentences & Header -->
+      <div style="flex: 1; display: flex; flex-direction: column; gap: 15px; max-width: 900px; margin: 0 auto;">
+        
+        <!-- Integrated Essence Box -->
+        <div class="essence-box" style="display: flex; align-items: center; justify-content: space-between; padding: 25px; border-radius: 16px; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1);">
+          <div style="flex: 1;">
+            <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 8px;">
+              <span id="mastery-icon" style="font-size: 28px;">🎯</span>
+              <h3 id="core-verb-label" style="margin: 0; color: var(--gold); font-size: 20px;">VERB: TAKE</h3>
+            </div>
+            <p id="mastery-title" style="font-weight: 800; font-size: 16px; color: var(--accent); margin: 5px 0;">Essence Discovery</p>
+            <p id="governing-phrase" style="font-weight: 500; font-size: 14px; color: var(--text); margin: 5px 0;">외부의 것을 내 의지로 포획하여 소유의 영역으로 끌어오다</p>
+            <p id="mastery-desc" style="font-size: 13px; color: var(--text-dim); margin: 5px 0 0 0;">지각과 인지의 신경망을 고도화하는 과정입니다.</p>
+          </div>
+          <div class="expansion-step" id="neural-mapping" style="margin-left: 20px; display: none; text-align: right;">
+            <div class="expansion-prompt" style="font-size: 11px; color: var(--text-dim);">NEURAL TARGET</div>
+            <div class="expansion-text" id="neural-target-val" style="font-weight: 800; color: var(--ember);">POINT MAPPING</div>
+          </div>
         </div>
         
         <!-- Language Toggles -->
@@ -1261,19 +1205,6 @@
         
         <!-- Sentence cards container -->
         <div id="sentence-container" style="display: flex; flex-direction: column; gap: 12px;"></div>
-      </div>
-      
-      <!-- Right: Mastery Panel -->
-      <div class="mastery-right" style="position: static; width: 340px; flex-shrink: 0; box-shadow: 0 15px 35px rgba(0,0,0,0.08);">
-        <div class="mastery-circle" id="mastery-circle" style="background: radial-gradient(circle at 30% 30%, var(--gold), var(--ember));">
-          <div class="mastery-verb-name" id="mastery-icon" style="font-size: 40px; display:flex; align-items:center; justify-content:center;">🎯</div>
-        </div>
-        <div class="mastery-essence" id="mastery-title">Essence Discovery</div>
-        <div class="mastery-principle" id="mastery-desc">지각과 인지의 신경망을 고도화하는 과정입니다.</div>
-        <div class="expansion-step" id="neural-mapping" style="margin-top: 20px; display: none;">
-          <div class="expansion-prompt">NEURAL TARGET</div>
-          <div class="expansion-text" id="neural-target-val">POINT MAPPING</div>
-        </div>
       </div>
     </div>
   </div>
@@ -9837,28 +9768,20 @@
   }
 
   function showView(view) {
-    const studyView = document.getElementById('study-plan-view');
     const mainContent = document.getElementById('main-content');
-    const verbsView = document.getElementById('verbs-view');
-    const prepsView = document.getElementById('preps-view');
-    const phrasalView = document.getElementById('phrasal-view');
-    const grammarView = document.getElementById('grammar-view');
     const trainingView = document.getElementById('training-view');
     const kiwiView = document.getElementById('kiwi-view');
     const masterView = document.getElementById('master-view');
+    const reviewView = document.getElementById('review-view');
     
-    const navStudy = document.getElementById('nav-study');
-    const navVerbs = document.getElementById('nav-verbs');
-    const navPreps = document.getElementById('nav-preps');
-    const navPhrasal = document.getElementById('nav-phrasal');
-    const navGrammar = document.getElementById('nav-grammar');
     const navTraining = document.getElementById('nav-training');
     const navKiwi = document.getElementById('nav-kiwi');
     const navMaster = document.getElementById('nav-master');
+    const navReview = document.getElementById('nav-review');
 
     // Reset all
-    [studyView, mainContent, verbsView, prepsView, phrasalView, grammarView, trainingView, kiwiView, document.getElementById('review-view'), masterView].forEach(v => { if(v) v.style.display = 'none'; });
-    [navStudy, navVerbs, navPreps, navPhrasal, navGrammar, navTraining, navKiwi, document.getElementById('nav-review'), navMaster].forEach(n => { if(n) n.classList.remove('active'); });
+    [mainContent, trainingView, kiwiView, reviewView, masterView].forEach(v => { if(v) v.style.display = 'none'; });
+    [navTraining, navKiwi, navReview, navMaster].forEach(n => { if(n) n.classList.remove('active'); });
 
     // Handle hero visibility
     const heroSection = document.querySelector('.hero');
@@ -9870,30 +9793,12 @@
       }
     }
 
-    if (view === 'study') {
-      studyView.style.display = 'block';
-      mainContent.style.display = 'block';
-      if(navStudy) navStudy.classList.add('active');
-      updateMasterWidget();
-    } else if (view === 'verbs') {
-      verbsView.style.display = 'block';
-      if(navVerbs) navVerbs.classList.add('active');
-      renderVerbs();
-    } else if (view === 'preps') {
-      prepsView.style.display = 'block';
-      if(navPreps) navPreps.classList.add('active');
-      renderPreps();
-    } else if (view === 'phrasal') {
-      phrasalView.style.display = 'block';
-      if(navPhrasal) navPhrasal.classList.add('active');
-      renderPhrasal();
-    } else if (view === 'grammar') {
-      grammarView.style.display = 'block';
-      if(navGrammar) navGrammar.classList.add('active');
-      if(typeof renderGrammar === 'function') renderGrammar();
+    if (view === 'training') {
+      if (trainingView) trainingView.style.display = 'block';
+      if (navTraining) navTraining.classList.add('active');
     } else if (view === 'kiwi') {
-      kiwiView.style.display = 'block';
-      if(navKiwi) navKiwi.classList.add('active');
+      if (kiwiView) kiwiView.style.display = 'block';
+      if (navKiwi) navKiwi.classList.add('active');
       if(typeof renderKiwi === 'function') renderKiwi();
     } else if (view === 'review') {
       const reviewView = document.getElementById('review-view');
@@ -10399,12 +10304,7 @@
       runStep();
     };
 
-    renderPills();
-    loadDay(1);
-    renderVerbs();
-    renderPreps();
-    renderPhrasal();
-    if (typeof renderGrammar === 'function') renderGrammar();
+
     if (typeof renderKiwi === 'function') renderKiwi();
   };
 </script>
@@ -10541,6 +10441,7 @@
 
         function masterShowBriefing() {
             const overlay = document.getElementById('briefing-overlay');
+            if (!overlay) return;
             let totalSentences = 0;
             for (const d in window.dayData) {
                 if (window.dayData[d] && window.dayData[d].sentences) {
