@@ -991,7 +991,7 @@
 <nav class="nav">
   <div class="nav-logo">📘 365 스터디 코스</div>
   <div class="nav-links">
-    <a href="#" onclick="showView('master')" id="nav-master" class="active">📘 365 스터디 코스</a>
+    <a href="#" onclick="showView('study')" id="nav-master" class="active">📘 365 스터디 코스</a>
     <a href="#" onclick="showView('training')" id="nav-training">실전 훈련(Training)</a>
     <a href="#" onclick="showView('review')" id="nav-review">⭐️ 별표 복습 (Review)</a>
     <a href="#" onclick="showView('kiwi')" id="nav-kiwi">🥝 키위새</a>
@@ -1106,15 +1106,27 @@
   </section>
 </div>
 
-<div id="master-view" style="display:flex; max-width: 1400px; margin: 0 auto;">
-  <!-- Left Sidebar: Months -->
-  <div class="sidebar">
-    <div style="font-size: 10px; font-weight: 800; color: var(--accent); letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 12px; padding-left: 10px;">MONTHS</div>
-    <div id="month-list"></div>
+
+<div id="toc-view" class="fade-in" style="display: block;">
+  <div class="toc-container">
+    <h1 class="toc-header">Table of Contents</h1>
+    <div id="toc-content"></div>
   </div>
+</div>
+
+<div id="curriculum-view" style="display:none; max-width: 1400px; margin: 0 auto;">
+  
   
   <!-- Right Content Area -->
   <div style="flex: 1; display: flex; flex-direction: column; overflow: hidden; background: var(--bg);">
+    
+    <!-- Back to TOC -->
+    <div style="padding: 20px 30px 0;">
+      <div class="back-to-toc" onclick="showView('study')">
+        <span style="font-size: 16px;">←</span> 전체 목차로 돌아가기
+      </div>
+    </div>
+
     <!-- Month & Day Header -->
     <div style="padding: 20px 30px 10px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border); background: var(--surface);">
       <div>
@@ -9723,11 +9735,79 @@
     document.documentElement.classList.add(`theme-${savedTheme}`);
   }
 
+  // --- TOC Logic ---
+  function renderTOC() {
+      const tocContent = document.getElementById('toc-content');
+      if (!tocContent) return;
+      
+      let html = '';
+      const parts = monthInfo;
+      
+      parts.forEach((part, index) => {
+          html += `<div class="toc-lesson">
+              <div class="toc-lesson-number">${index + 1}</div>
+              <div class="toc-lesson-content">
+                  <div class="toc-lesson-title">${part.theme}</div>
+                  <div class="toc-topic-list">`;
+          
+          const startDay = (part.id - 1) * 30 + 1;
+          const endDay = startDay + 29;
+          
+          let currentCore = null;
+          let currentSubTheme = null;
+          let groupStart = -1;
+          
+          let groups = [];
+          
+          for (let d = startDay; d <= endDay; d++) {
+              const data = window.dayData[d];
+              if (!data) continue;
+              
+              let core = data.core || 'Concept';
+              let vT = data.vT || '';
+              
+              if (core !== currentCore) {
+                  if (currentCore !== null) {
+                      groups.push({ core: currentCore, vT: currentSubTheme, start: groupStart, end: d - 1 });
+                  }
+                  currentCore = core;
+                  currentSubTheme = vT;
+                  groupStart = d;
+              }
+          }
+          if (currentCore !== null) {
+              groups.push({ core: currentCore, vT: currentSubTheme, start: groupStart, end: endDay });
+          }
+          
+          groups.forEach(g => {
+              const label = g.vT ? `${g.core} \\ ${g.vT}` : g.core;
+              const range = g.start === g.end ? `Day ${g.start}` : `Day ${g.start}-${g.end}`;
+              html += `
+                  <div class="toc-topic-item" onclick="openDayFromTOC(${g.start})">
+                      <span class="toc-topic-title">${label}</span>
+                      <span class="toc-topic-day">${range}</span>
+                  </div>
+              `;
+          });
+          
+          html += `</div></div></div>`;
+      });
+      
+      tocContent.innerHTML = html;
+  }
+  
+  function openDayFromTOC(day) {
+      document.getElementById('toc-view').style.display = 'none';
+      document.getElementById('curriculum-view').style.display = 'flex';
+      loadDay(day);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
   function showView(view) {
     const mainContent = document.getElementById('main-content');
     const trainingView = document.getElementById('training-view');
     const kiwiView = document.getElementById('kiwi-view');
-    const masterView = document.getElementById('master-view');
+    
     const reviewView = document.getElementById('review-view');
     
     const navTraining = document.getElementById('nav-training');
@@ -9736,7 +9816,7 @@
     const navReview = document.getElementById('nav-review');
 
     // Reset all
-    [mainContent, trainingView, kiwiView, reviewView, masterView].forEach(v => { if(v) v.style.display = 'none'; });
+    [document.getElementById('curriculum-view'), document.getElementById('toc-view'), mainContent, trainingView, kiwiView, reviewView].forEach(v => { if(v) v.style.display = 'none'; });
     [navTraining, navKiwi, navReview, navMaster].forEach(n => { if(n) n.classList.remove('active'); });
 
     // Handle hero visibility
@@ -9749,7 +9829,12 @@
       }
     }
 
-    if (view === 'training') {
+    if (view === 'study') {
+      document.getElementById('toc-view').style.display = 'block';
+      document.getElementById('curriculum-view').style.display = 'none';
+      if(document.getElementById('nav-master')) document.getElementById('nav-master').classList.add('active');
+      renderTOC();
+    } else if (view === 'training') {
       if (trainingView) trainingView.style.display = 'block';
       if (navTraining) navTraining.classList.add('active');
     } else if (view === 'kiwi') {
@@ -9762,12 +9847,6 @@
       if (reviewView) reviewView.style.display = 'block';
       if (navReview) navReview.classList.add('active');
       renderReview();
-    } else if (view === 'master') {
-      if (masterView) masterView.style.display = 'flex';
-      if (navMaster) navMaster.classList.add('active');
-      if (typeof masterInit === 'function') {
-        masterInit();
-      }
     }
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
@@ -10121,7 +10200,7 @@
   };
 
   window.onload = () => {
-    showView('master');
+    showView('study');
     // Bind theme toggle button AFTER DOM is ready
     const themeBtn = document.getElementById('theme-toggle');
     if (themeBtn) themeBtn.onclick = toggleTheme;
@@ -10842,7 +10921,7 @@ function masterLoadDay(lessonIdx, topicIdx) {
 }
 
   window.onload = () => {
-    showView('master');
+    showView('study');
     // Bind theme toggle button AFTER DOM is ready
     const themeBtn = document.getElementById('theme-toggle');
     if (themeBtn) themeBtn.onclick = toggleTheme;
@@ -11534,7 +11613,8 @@ function masterLoadDay(lessonIdx, topicIdx) {
         }, 500);
       }
     } else {
-      showView('master');
+      // Load default study view and initialize master progress info for global-circ
+      updateProgress();
     }
   });
 </script>

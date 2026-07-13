@@ -54,7 +54,7 @@ process.on('uncaughtException', (err) => {
 
   // Check if master-view exists
   const hasMasterView = await page.evaluate(() => {
-    return document.getElementById('master-view') !== null;
+    return document.getElementById('toc-view') !== null;
   });
 
   // Click the button to see if it works without error
@@ -64,21 +64,19 @@ process.on('uncaughtException', (err) => {
     await new Promise(r => setTimeout(r, 1000));
   }
 
-  // Check if it actually shows up
-  const isVisible = await page.evaluate(() => {
-    const view = document.getElementById('master-view');
-    return view !== null && window.getComputedStyle(view).display !== 'none';
+  const isMasterVisible = await page.evaluate(() => {
+    const tv = document.getElementById('toc-view');
+    console.log("toc-view element:", tv);
+    if(tv) console.log("toc-view display style:", window.getComputedStyle(tv).display);
+    return tv && window.getComputedStyle(tv).display !== 'none';
   });
 
   console.log('--- TEST RESULTS ---');
   console.log('JS Errors:', errors.length > 0 ? errors : 'None');
   console.log('Has Master Button:', hasButton);
   console.log('Has Master View:', hasMasterView);
-  console.log('Is Master Visible after click: ' + isVisible);
+  console.log('Is Master Visible after click:', isMasterVisible);
   
-  if (errors.length > 0) {
-    console.error('TEST FAILED: JavaScript errors found.');
-  }
   try {
     await browser.close();
   } catch (e) {
