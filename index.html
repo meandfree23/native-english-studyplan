@@ -1064,51 +1064,7 @@
   </section>
 </div>
 
-<div id="main-content" class="fade-in">
-  <section class="section">
-    <div class="container">
-      <p class="section-title">Overview</p>
-      <h2 class="section-heading" id="lesson-heading">학습 목표</h2>
-      <div class="kpi-grid" id="kpi-grid"></div>
-    </div>
-  </section>
 
-  <div class="divider"></div>
-
-  <section class="section">
-    <div class="container">
-      <p class="section-title">Deep Dive</p>
-      <div class="study-toggles">
-        <label class="toggle-label">
-          <input type="checkbox" onchange="toggleHideEn()"> 영어 가리기 (Hover 확인)
-        </label>
-        <label class="toggle-label">
-          <input type="checkbox" onchange="toggleHideKo()"> 한국어 가리기 (Hover 확인)
-        </label>
-      </div>
-      <div class="chapters-grid" id="chapter-grid"></div>
-    </div>
-  </section>
-
-  <div class="divider" id="comp-divider"></div>
-
-  <section class="section" id="comp-section">
-    <div class="container">
-      <p class="section-title">Nuance</p>
-      <h2 class="section-heading">원어민 감각 익히기</h2>
-      <div class="compare-grid" id="comp-grid"></div>
-    </div>
-  </section>
-
-  <div class="divider"></div>
-
-  <section class="section">
-    <div class="container">
-      <p class="section-title">Key Expressions</p>
-      <div class="expr-grid" id="expr-grid"></div>
-    </div>
-  </section>
-</div>
 
 
 
@@ -1150,7 +1106,7 @@
   </section>
 </div>
 
-<div id="master-view" style="display:none;">
+<div id="master-view" style="display:flex; max-width: 1400px; margin: 0 auto;">
   <!-- Left Sidebar: Months -->
   <div class="sidebar">
     <div style="font-size: 10px; font-weight: 800; color: var(--accent); letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 12px; padding-left: 10px;">MONTHS</div>
@@ -11578,8 +11534,7 @@ function masterLoadDay(lessonIdx, topicIdx) {
         }, 500);
       }
     } else {
-      // Load default study view and initialize master progress info for global-circ
-      updateProgress();
+      showView('master');
     }
   });
 </script>
