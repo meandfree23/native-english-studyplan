@@ -9879,7 +9879,37 @@
               `;
           });
           
-          html += `</div></div>`;
+          html += `</div>`;
+          
+          // Generate Vocabulary Footnotes for this section
+          let dayText = data.sentences.map(s => s.txt).join(' ').toLowerCase();
+          // Remove punctuation
+          dayText = dayText.replace(/[.,?!;:()'"]/g, '');
+          let words = dayText.split(/\s+/);
+          let uniqueWords = [...new Set(words)];
+          
+          let foundVocab = [];
+          if (window.globalDictionary) {
+              uniqueWords.forEach(w => {
+                  if (window.globalDictionary[w]) {
+                      foundVocab.push({ word: w, meaning: window.globalDictionary[w] });
+                  }
+              });
+          }
+          
+          if (foundVocab.length > 0) {
+              let vocabItems = foundVocab.map(v => `<li><strong>${v.word}</strong>: ${v.meaning}</li>`).join('');
+              html += `
+              <div class="vocab-notes">
+                  <div class="vocab-title">💡 핵심 단어 및 표현 (Vocabulary)</div>
+                  <ul class="vocab-list">
+                      ${vocabItems}
+                  </ul>
+              </div>
+              `;
+          }
+          
+          html += `</div>`;
           sectionIndex++;
       }
       
