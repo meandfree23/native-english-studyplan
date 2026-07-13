@@ -49,7 +49,7 @@
       padding: 80px 32px 60px; text-align: center; position: relative;
     }
     html.theme-light .hero { background: linear-gradient(135deg, #E8F2EC 0%, #C5E0CF 50%, #E8F2EC 100%); }
-    .hero-tag { display: inline-block; background: rgba(82,183,136,0.15); color: var(--accent); font-size: 11px; padding: 6px 16px; border-radius: 20px; margin-bottom: 12px; font-weight: 700; }
+    .hero-tag { display: inline-block; background: rgba(82,183,136,0.15); color: var(--accent); font-size: 11px; padding: 6px 16px; border-radius: 20px; margin-bottom: 20px; font-weight: 700; }
     .hero-title { font-size: clamp(32px, 5vw, 56px); font-weight: 900; margin-bottom: 16px; letter-spacing: -0.04em; }
     .hero-sub { color: var(--text-dim); max-width: 600px; margin: 0 auto 30px; font-size: 16px; }
     
@@ -75,7 +75,7 @@
     .section-heading { font-size: 28px; font-weight: 800; margin-bottom: 10px; text-align: center; }
     
     .kpi-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
-    .kpi-card { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 16px 20px; transition: transform .2s; }
+    .kpi-card { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 24px; transition: transform .2s; }
     .kpi-card:hover { transform: translateY(-4px); }
     .kpi-icon { font-size: 24px; margin-bottom: 10px; }
     .kpi-value { font-size: 20px; font-weight: 800; color: var(--accent); margin-bottom: 4px; }
@@ -83,14 +83,14 @@
     .kpi-desc { font-size: 12px; color: var(--text-dim); line-height: 1.6; }
 
     .chapters-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
-    .chapter-card { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 16px 20px; position: relative; }
+    .chapter-card { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 24px; position: relative; }
     .chapter-num { font-size: 10px; color: var(--text-dim); font-weight: 700; margin-bottom: 8px; }
     .chapter-title { font-size: 18px; font-weight: 800; margin-bottom: 8px; }
     .chapter-desc { font-size: 13px; color: var(--text-dim); margin-bottom: 16px; }
     .tag { background: var(--surface2); color: var(--accent); font-size: 10px; font-weight: 600; padding: 3px 10px; border-radius: 20px; margin-right: 5px; }
 
     .compare-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; border-radius: 16px; overflow: hidden; margin-top: 20px; }
-    .compare-side { padding: 16px 20px; height: 100%; text-align: center; }
+    .compare-side { padding: 24px; height: 100%; text-align: center; }
     .compare-side.left { background: rgba(231,111,81,0.06); border: 1px solid rgba(231,111,81,0.15); }
     .compare-side.right { background: rgba(82,183,136,0.06); border: 1px solid rgba(82,183,136,0.15); }
     .compare-item { font-size: 14px; margin-bottom: 16px; display: flex; flex-direction: column; align-items: center; }
@@ -147,7 +147,7 @@
     .speak-btn:hover { background: var(--accent); color: white; transform: scale(1.1); }
 
     .memory-indicator {
-      margin-bottom: 15px; position: relative;
+      margin-bottom: 12px; position: relative;
     }
     .memory-bar-bg {
       height: 4px; background: var(--surface2); border-radius: 2px; overflow: hidden;
@@ -490,14 +490,14 @@
             box-shadow: 0 15px 35px rgba(0,0,0,0.2);
         }
 
-        .essence-box h3 { font-size: 18px; color: var(--secondary); margin-bottom: 15px; letter-spacing: -0.5px; }
+        .essence-box h3 { font-size: 18px; color: var(--secondary); margin-bottom: 12px; letter-spacing: -0.5px; }
         .essence-box p { font-size: 20px; font-weight: 800; line-height: 1.5; color: var(--text-main); }
 
         .sentence-card {
             background: var(--card-bg);
             border-radius: 20px;
-            padding: 25px;
-            margin-bottom: 15px;
+            padding: 16px 20px;
+            margin-bottom: 12px;
             border: 1px solid rgba(255,255,255,0.05);
             cursor: pointer;
             transition: all 0.3s;
@@ -569,13 +569,13 @@
             50% { transform: scale(1.1) rotate(5deg); }
         }
 
-        .v-title { font-size: 28px; font-weight: 900; color: var(--text-main); margin-bottom: 15px; }
+        .v-title { font-size: 28px; font-weight: 900; color: var(--text-main); margin-bottom: 12px; }
         .v-desc { font-size: 16px; color: var(--text-dim); line-height: 1.7; word-break: keep-all; }
 
         .neural-mapping {
             margin-top: 40px;
             width: 100%;
-            padding: 25px;
+            padding: 16px 20px;
             background: rgba(255,255,255,0.02);
             border-radius: 20px;
             display: none;
@@ -666,7 +666,7 @@
         .stat-box { background: rgba(255,255,255,0.03); padding: 20px; border-radius: 20px; border: 1px solid rgba(255,255,255,0.05); }
         .stat-val { font-size: 24px; font-weight: 900; color: white; display: block; }
         .stat-lbl { font-size: 11px; font-weight: 800; color: var(--text-dim); letter-spacing: 1px; margin-top: 5px; }
-        .today-focus { background: rgba(56,189,248,0.1); padding: 25px; border-radius: 24px; margin-bottom: 40px; text-align: left; }
+        .today-focus { background: rgba(56,189,248,0.1); padding: 16px 20px; border-radius: 24px; margin-bottom: 40px; text-align: left; }
         .focus-hdr { font-size: 10px; font-weight: 900; color: var(--primary); letter-spacing: 2px; margin-bottom: 8px; }
         .focus-title { font-size: 18px; font-weight: 800; color: white; }
         .start-btn { 
@@ -991,9 +991,9 @@
 <nav class="nav">
   <div class="nav-logo">📘 365 스터디 코스</div>
   <div class="nav-links">
-    <a href="#" onclick="showView('study')" id="nav-master" class="active" style="color: var(--ember); font-weight: 700;">📘 365 스터디 코스</a>
+    <a href="#" onclick="showView('master')" id="nav-master" class="active">📘 365 스터디 코스</a>
     <a href="#" onclick="showView('training')" id="nav-training">실전 훈련(Training)</a>
-    <a href="#" onclick="showView('review')" id="nav-review" style="color: var(--accent); font-weight: 700;">⭐️ 별표 복습 (Review)</a>
+    <a href="#" onclick="showView('review')" id="nav-review">⭐️ 별표 복습 (Review)</a>
     <a href="#" onclick="showView('kiwi')" id="nav-kiwi">🥝 키위새</a>
     <button id="theme-toggle" class="theme-btn" style="margin-left: 20px;">🌓 테마</button>
   </div>
@@ -1007,62 +1007,6 @@
 </section>
 
 
-  </div>
-  
-
-  <div id="study-plan-video-area"></div>
-</div>
-
-<!-- Basic Verbs View -->
-<div id="verbs-view" style="display:none;" class="fade-in">
-  <section class="section">
-    <div class="container">
-      <p class="section-title">Core Mastery</p>
-      <h2 class="section-heading">원어민의 엔진, 기본동사 8선</h2>
-      <p style="color:var(--text-dim); margin-bottom:30px;">단어의 사전적 의미를 넘어, 원어민이 느끼는 '본질적 에너지'를 이해하는 섹션입니다.</p>
-      <div id="verbs-video-area"></div>
-      <div class="verb-grid" id="verb-grid"></div>
-    </div>
-  </section>
-</div>
-
-<!-- Prepositions View -->
-<div id="preps-view" style="display:none;" class="fade-in">
-  <section class="section">
-    <div class="container">
-      <p class="section-title">Spatial Awareness</p>
-      <h2 class="section-heading">공간을 그리는 언어, 전치사 8선</h2>
-      <p style="color:var(--text-dim); margin-bottom:30px;">전치사는 위치가 아니라 '관계의 이미지'입니다. 원어민의 머릿속 그림을 따라가보세요.</p>
-      <div class="verb-grid" id="prep-grid"></div>
-    </div>
-  </section>
-</div>
-
-<!-- Phrasal Verbs View -->
-<div id="phrasal-view" style="display:none;" class="fade-in">
-  <section class="section">
-    <div class="container">
-      <p class="section-title">Dynamic Fusion</p>
-      <h2 class="section-heading">수학처럼 풀리는 구동사, 8선</h2>
-      <p style="color:var(--text-dim); margin-bottom:30px;">'기본동사의 본질'과 '전치사의 이미지'가 결합되는 원리를 이해하면 구동사는 암기 대상이 아닙니다.</p>
-      <div class="verb-grid" id="phrasal-grid"></div>
-    </div>
-  </section>
-</div>
-
-<!-- Native Grammar View -->
-<div id="grammar-view" style="display:none;" class="fade-in">
-  <section class="section">
-    <div class="container">
-      <p class="section-title">Native Mindset</p>
-      <h2 class="section-heading">원어민의 뇌 구조로 이해하는 영문법</h2>
-      <p style="color:var(--text-dim); margin-bottom:30px;">규칙을 외우는 것이 아니라, 원어민이 세상을 인지하고 에너지를 발산하는 순서 그대로 영어를 직관적으로 이해해 봅니다.</p>
-      <div class="verb-grid" id="grammar-grid"></div>
-    </div>
-  </section>
-</div>
-
-<!-- Interactive Training View -->
 <div id="training-view" style="display:none;" class="fade-in">
   <section class="section">
     <div class="container">
@@ -1120,15 +1064,7 @@
   </section>
 </div>
 
-
-
-<div id="curriculum-view" style="display:flex; max-width: 1400px; margin: 0 auto; gap: 30px;">
-  
-  <div style="flex: 1; min-width: 0;">
-    <div id="study-plan-view">
-  <div class="day-selector-strip">
-    <div class="container" id="pill-container"></div>
-    <div id="main-content" class="fade-in">
+<div id="main-content" class="fade-in">
   <section class="section">
     <div class="container">
       <p class="section-title">Overview</p>
@@ -1177,9 +1113,6 @@
 
 
 
-  </div>
-</div>
-
 <div id="review-view" style="display:none;" class="fade-in">
   <section class="section">
     <div class="container">
@@ -1199,7 +1132,7 @@
       <div class="review-split-container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px;">
         <!-- Left: Core Course Bookmarks -->
         <div class="review-column">
-          <h3 style="font-size: 18px; font-weight:800; border-bottom: 2px solid var(--accent); padding-bottom: 10px; margin-bottom: 12px; color: var(--accent);">
+          <h3 style="font-size: 18px; font-weight:800; border-bottom: 2px solid var(--accent); padding-bottom: 10px; margin-bottom: 20px; color: var(--accent);">
             📚 코어 코스 오답노트
           </h3>
           <div id="core-review-list" class="review-list"></div>
@@ -1207,7 +1140,7 @@
 
         <!-- Right: 365 Master Bookmarks -->
         <div class="review-column">
-          <h3 style="font-size: 18px; font-weight:800; border-bottom: 2px solid var(--ember); padding-bottom: 10px; margin-bottom: 12px; color: var(--ember);">
+          <h3 style="font-size: 18px; font-weight:800; border-bottom: 2px solid var(--ember); padding-bottom: 10px; margin-bottom: 20px; color: var(--ember);">
             💎 365 마스터 코스 오답노트
           </h3>
           <div id="master-review-list" class="review-list"></div>
@@ -1220,7 +1153,7 @@
 <div id="master-view" style="display:none;">
   <!-- Left Sidebar: Months -->
   <div class="sidebar">
-    <div style="font-size: 10px; font-weight: 800; color: var(--accent); letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 15px; padding-left: 10px;">MONTHS</div>
+    <div style="font-size: 10px; font-weight: 800; color: var(--accent); letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 12px; padding-left: 10px;">MONTHS</div>
     <div id="month-list"></div>
   </div>
   
@@ -1240,17 +1173,24 @@
     
     <!-- Main course content -->
     <div style="display: flex; gap: 30px; padding: 30px; align-items: flex-start; flex-grow: 1; overflow-y: auto;">
-      <!-- Left: Sentences -->
-      <div style="flex: 1.3; display: flex; flex-direction: column; gap: 15px;">
-        <!-- Master Video Collapsible Area -->
-        <button id="video-toggle-btn" class="complete-btn" onclick="toggleMasterVideo()" style="background:var(--accent); color:var(--bg); border-radius:12px; margin-bottom:10px; display:inline-flex; align-items:center; gap:8px; justify-content:center; width:100%; border:none; padding:12px;">
-          📺 인지문법 동영상 강의 펼치기/접기 <span id="video-toggle-arrow">▼</span>
-        </button>
-        <div id="master-video-area" style="display:none; transition: all 0.3s ease;"></div>
-        <!-- Essence Box -->
-        <div class="essence-box">
-          <h3 id="core-verb-label">VERB: TAKE</h3>
-          <p id="governing-phrase">외부의 것을 내 의지로 포획하여 소유의 영역으로 끌어오다</p>
+      <!-- Central Content: Sentences & Header -->
+      <div style="flex: 1; display: flex; flex-direction: column; gap: 15px; max-width: 900px; margin: 0 auto;">
+        
+        <!-- Integrated Essence Box -->
+        <div class="essence-box" style="display: flex; align-items: center; justify-content: space-between; padding: 16px 20px; border-radius: 16px; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1);">
+          <div style="flex: 1;">
+            <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 8px;">
+              <span id="mastery-icon" style="font-size: 28px;">🎯</span>
+              <h3 id="core-verb-label" style="margin: 0; color: var(--gold); font-size: 20px;">VERB: TAKE</h3>
+            </div>
+            <p id="mastery-title" style="font-weight: 800; font-size: 16px; color: var(--accent); margin: 5px 0;">Essence Discovery</p>
+            <p id="governing-phrase" style="font-weight: 500; font-size: 14px; color: var(--text); margin: 5px 0;">외부의 것을 내 의지로 포획하여 소유의 영역으로 끌어오다</p>
+            <p id="mastery-desc" style="font-size: 13px; color: var(--text-dim); margin: 5px 0 0 0;">지각과 인지의 신경망을 고도화하는 과정입니다.</p>
+          </div>
+          <div class="expansion-step" id="neural-mapping" style="margin-left: 20px; display: none; text-align: right;">
+            <div class="expansion-prompt" style="font-size: 11px; color: var(--text-dim);">NEURAL TARGET</div>
+            <div class="expansion-text" id="neural-target-val" style="font-weight: 800; color: var(--ember);">POINT MAPPING</div>
+          </div>
         </div>
         
         <!-- Language Toggles -->
@@ -1265,19 +1205,6 @@
         
         <!-- Sentence cards container -->
         <div id="sentence-container" style="display: flex; flex-direction: column; gap: 12px;"></div>
-      </div>
-      
-      <!-- Right: Mastery Panel -->
-      <div class="mastery-right" style="position: static; width: 340px; flex-shrink: 0; box-shadow: 0 15px 35px rgba(0,0,0,0.08);">
-        <div class="mastery-circle" id="mastery-circle" style="background: radial-gradient(circle at 30% 30%, var(--gold), var(--ember));">
-          <div class="mastery-verb-name" id="mastery-icon" style="font-size: 40px; display:flex; align-items:center; justify-content:center;">🎯</div>
-        </div>
-        <div class="mastery-essence" id="mastery-title">Essence Discovery</div>
-        <div class="mastery-principle" id="mastery-desc">지각과 인지의 신경망을 고도화하는 과정입니다.</div>
-        <div class="expansion-step" id="neural-mapping" style="margin-top: 20px; display: none;">
-          <div class="expansion-prompt">NEURAL TARGET</div>
-          <div class="expansion-text" id="neural-target-val">POINT MAPPING</div>
-        </div>
       </div>
     </div>
   </div>
@@ -8450,7 +8377,7 @@
           <div class="video-container">
             <iframe class="yt-video-player" src="https://www.youtube.com/embed/${data.videoId}?enablejsapi=1" allowfullscreen></iframe>
           </div>
-          <div style="padding: 16px 20px;">
+          <div style="padding: 24px;">
             <p class="section-title">Master Class</p>
             <h3 style="font-size: 20px; margin-bottom: 8px;">🎬 Day ${day} 마스터 클래스</h3>
             <p style="font-size: 14px; color: var(--text-dim);">${data.title}의 품격을 높여주는 마스터 영상입니다.</p>
@@ -8491,7 +8418,28 @@
     if (pctEl) pctEl.textContent = pct + '%';
   }
 
+  function startQuiz() {
+    const quizBox = document.getElementById('quiz-content');
+    const dayData = curriculum[currentDay];
+    if (!dayData || !dayData.expr || dayData.expr.length === 0) {
+      quizBox.innerHTML = "<p>이 일차에는 아직 퀴즈가 준비되지 않았습니다.</p>";
+      return;
+    }
+    const q = dayData.expr[0];
+    quizBox.innerHTML = `
+      <p style="font-size: 18px; margin-bottom: 20px;">'${q.k}'를 가장 세련되게 표현하면?</p>
+      <div class="quiz-opt" onclick="checkAns(true)">${q.e}</div>
+      <div class="quiz-opt" onclick="checkAns(false)">다른 평범한 표현</div>
+    `;
+  }
 
+  function checkAns(isCorrect) {
+    const quizBox = document.getElementById('quiz-content');
+    quizBox.innerHTML = isCorrect ? "<h3>정답입니다! 🎯</h3>" : "<h3>조금 더 공부해볼까요? 📖</h3>";
+    setTimeout(() => {
+      quizBox.innerHTML = `<button class="complete-btn" onclick="startQuiz()">다시 테스트</button>`;
+    }, 2000);
+  }
 
   const basicVerbs = [
     { name: "Take", nuance: "주도적 낚아채기", core: "내 영역 밖의 것을 나의 의지로 낚아챕니다.", desc: "주도적 소유, 선택, 책임의 에너지를 담고 있습니다.", videoId: "aJSYRhj04NY", ex: [
@@ -9820,29 +9768,20 @@
   }
 
   function showView(view) {
-    const studyView = document.getElementById('study-plan-view');
-    const curriculumView = document.getElementById('curriculum-view');
     const mainContent = document.getElementById('main-content');
-    const verbsView = document.getElementById('verbs-view');
-    const prepsView = document.getElementById('preps-view');
-    const phrasalView = document.getElementById('phrasal-view');
-    const grammarView = document.getElementById('grammar-view');
     const trainingView = document.getElementById('training-view');
     const kiwiView = document.getElementById('kiwi-view');
     const masterView = document.getElementById('master-view');
+    const reviewView = document.getElementById('review-view');
     
-    const navStudy = document.getElementById('nav-study');
-    const navVerbs = document.getElementById('nav-verbs');
-    const navPreps = document.getElementById('nav-preps');
-    const navPhrasal = document.getElementById('nav-phrasal');
-    const navGrammar = document.getElementById('nav-grammar');
     const navTraining = document.getElementById('nav-training');
     const navKiwi = document.getElementById('nav-kiwi');
     const navMaster = document.getElementById('nav-master');
+    const navReview = document.getElementById('nav-review');
 
     // Reset all
-    [curriculumView, studyView, mainContent, verbsView, prepsView, phrasalView, grammarView, trainingView, kiwiView, document.getElementById('review-view'), masterView].forEach(v => { if(v) v.style.display = 'none'; });
-    [navStudy, navVerbs, navPreps, navPhrasal, navGrammar, navTraining, navKiwi, document.getElementById('nav-review'), navMaster].forEach(n => { if(n) n.classList.remove('active'); });
+    [mainContent, trainingView, kiwiView, reviewView, masterView].forEach(v => { if(v) v.style.display = 'none'; });
+    [navTraining, navKiwi, navReview, navMaster].forEach(n => { if(n) n.classList.remove('active'); });
 
     // Handle hero visibility
     const heroSection = document.querySelector('.hero');
@@ -9854,30 +9793,12 @@
       }
     }
 
-    if (view === 'study') {
-      document.getElementById('curriculum-view').style.display = 'flex';
-      mainContent.style.display = 'block';
-      if(navStudy) navStudy.classList.add('active');
-      updateMasterWidget();
-    } else if (view === 'verbs') {
-      verbsView.style.display = 'block';
-      if(navVerbs) navVerbs.classList.add('active');
-      renderVerbs();
-    } else if (view === 'preps') {
-      prepsView.style.display = 'block';
-      if(navPreps) navPreps.classList.add('active');
-      renderPreps();
-    } else if (view === 'phrasal') {
-      phrasalView.style.display = 'block';
-      if(navPhrasal) navPhrasal.classList.add('active');
-      renderPhrasal();
-    } else if (view === 'grammar') {
-      grammarView.style.display = 'block';
-      if(navGrammar) navGrammar.classList.add('active');
-      if(typeof renderGrammar === 'function') renderGrammar();
+    if (view === 'training') {
+      if (trainingView) trainingView.style.display = 'block';
+      if (navTraining) navTraining.classList.add('active');
     } else if (view === 'kiwi') {
-      kiwiView.style.display = 'block';
-      if(navKiwi) navKiwi.classList.add('active');
+      if (kiwiView) kiwiView.style.display = 'block';
+      if (navKiwi) navKiwi.classList.add('active');
       if(typeof renderKiwi === 'function') renderKiwi();
     } else if (view === 'review') {
       const reviewView = document.getElementById('review-view');
@@ -9885,7 +9806,14 @@
       if (reviewView) reviewView.style.display = 'block';
       if (navReview) navReview.classList.add('active');
       renderReview();
-    } window.scrollTo({ top: 0, behavior: 'smooth' });
+    } else if (view === 'master') {
+      if (masterView) masterView.style.display = 'flex';
+      if (navMaster) navMaster.classList.add('active');
+      if (typeof masterInit === 'function') {
+        masterInit();
+      }
+    }
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
   function saveSentence(id, val) {
@@ -10237,7 +10165,7 @@
   };
 
   window.onload = () => {
-    showView('study');
+    showView('master');
     // Bind theme toggle button AFTER DOM is ready
     const themeBtn = document.getElementById('theme-toggle');
     if (themeBtn) themeBtn.onclick = toggleTheme;
@@ -10376,12 +10304,728 @@
       runStep();
     };
 
-    renderPills();
-    loadDay(1);
-    renderVerbs();
-    renderPreps();
-    renderPhrasal();
-    if (typeof renderGrammar === 'function') renderGrammar();
+
+    if (typeof renderKiwi === 'function') renderKiwi();
+  };
+</script>
+
+  <!-- YouTube Error Handler -->
+  <script>
+    window.onYouTubePlayerError = function(event) {
+      if (!event || !event.target || !event.target.getIframe) return;
+      const iframe = event.target.getIframe();
+      if (!iframe) return;
+      
+      const container = iframe.parentNode;
+      const originalSrc = iframe.src;
+      const videoIdMatch = originalSrc.match(/embed\/([a-zA-Z0-9_\-]{11})/);
+      const vid = videoIdMatch ? videoIdMatch[1] : '';
+      
+      container.style.position = 'relative';
+      
+      container.innerHTML = `
+        <div style="background:#1e1e1e; position:absolute; top:0; left:0; right:0; bottom:0; padding:40px; text-align:center; color:#fff; display:flex; flex-direction:column; justify-content:center; align-items:center; border-radius:12px; z-index:10;">
+          <span style="font-size:40px; margin-bottom:16px;">⚠️</span>
+          <h3 style="margin-bottom:8px; font-weight:600; font-size:18px;">영상을 불러올 수 없습니다</h3>
+          <p style="color:#aaa; font-size:14px; margin-bottom:20px;">원작자에 의해 삭제되었거나 퍼가기가 금지된 영상입니다.</p>
+          <a href="https://www.youtube.com/watch?v=${vid}" target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:8px 16px;background:var(--accent);color:#fff;border-radius:8px;font-size:14px;font-weight:600;text-decoration:none;">
+            YouTube에서 직접 확인하기
+          </a>
+        </div>
+      `;
+    };
+
+    window.onYouTubeIframeAPIReady = function() {
+      window.initYTVideos();
+    };
+
+    window.initYTVideos = function() {
+      if (typeof YT === 'undefined' || !YT.Player) return;
+      const iframes = document.querySelectorAll('iframe.yt-video-player');
+      iframes.forEach(ifr => {
+        if (!ifr.id) {
+          ifr.id = 'yt-' + Math.random().toString(36).substr(2, 9);
+          new YT.Player(ifr.id, {
+            events: {
+              'onError': window.onYouTubePlayerError
+            }
+          });
+        }
+      });
+    };
+  </script>
+
+<script>
+const lessonData = {
+  "1": {
+    "title": "Lesson 1: 핵심 시제와 문장 구조",
+    "desc": "영어 문장의 주어와 동사, 그리고 기본 시제를 마스터합니다.",
+    "topics": [
+      {
+        "title": "주격대명사",
+        "desc": "주인공 지정하기",
+        "essence": "문장의 중심이 되는 주인공(주체)을 명확하게 선언합니다.",
+        "neural": "나(I) / 너(You) / 우리(We) / 그들(They)",
+        "sentences": [
+          {
+            "en": "I am fully prepared.",
+            "ko": "나는 완벽히 준비되었다.",
+            "nu": "나(I)를 문장의 주체로 내세우며 확신을 표현합니다."
+          },
+          {
+            "en": "You have a point.",
+            "ko": "네 말이 맞아 (일리가 있어).",
+            "nu": "상대방(You)을 주어로 두어 의견을 존중합니다."
+          },
+          {
+            "en": "They are arriving soon.",
+            "ko": "그들이 곧 도착할 거야.",
+            "nu": "나와 너를 제외한 제3자(They)의 상태를 지칭합니다."
+          }
+        ]
+      },
+      {
+        "title": "be동사",
+        "desc": "존재와 상태 표현",
+        "essence": "동작이 아닌, 주어의 신분, 위치, 상태라는 '존재' 자체를 나타냅니다.",
+        "neural": "상태(State) & 위치(Location)",
+        "sentences": [
+          {
+            "en": "I am deeply grateful.",
+            "ko": "정말 깊이 감사드립니다.",
+            "nu": "내 마음의 상태가 '감사함'에 있음을 나타냅니다."
+          },
+          {
+            "en": "The meeting is at 3 PM.",
+            "ko": "회의는 오후 3시입니다.",
+            "nu": "회의라는 이벤트가 위치한 시간적 '존재'를 말합니다."
+          },
+          {
+            "en": "She is in charge here.",
+            "ko": "이곳 책임자는 그녀입니다.",
+            "nu": "그녀의 현재 신분이나 역할(상태)을 선언합니다."
+          }
+        ]
+      },
+      {
+        "title": "be동사 현재시제",
+        "desc": "지금의 팩트",
+        "essence": "과거나 미래가 아닌, 바로 지금 이 순간 유효한 사실을 전달합니다.",
+        "neural": "현재 시점의 확정적 상태",
+        "sentences": [
+          {
+            "en": "It is quite cold today.",
+            "ko": "오늘은 꽤 춥네요.",
+            "nu": "현재 날씨 상태(It is)를 팩트로 전달합니다."
+          },
+          {
+            "en": "We are ready to start.",
+            "ko": "시작할 준비가 되었습니다.",
+            "nu": "우리의 현재 텐션(Are)이 준비된 상태임을 보여줍니다."
+          }
+        ]
+      },
+      {
+        "title": "현재시제",
+        "desc": "변하지 않는 일상",
+        "essence": "지금 진행 중인 동작이 아니라, 어제도 오늘도 내일도 반복되는 '루틴'이나 '진리'를 뜻합니다.",
+        "neural": "반복(Routine) & 영속성",
+        "sentences": [
+          {
+            "en": "I usually drink coffee.",
+            "ko": "난 주로 커피를 마셔.",
+            "nu": "지금 마시고 있다는 뜻이 아니라 매일 반복되는 나의 '습관'입니다."
+          },
+          {
+            "en": "The sun rises in the east.",
+            "ko": "해는 동쪽에서 뜬다.",
+            "nu": "예외 없이 항상 일어나는 자연의 법칙(진리)입니다."
+          }
+        ]
+      },
+      {
+        "title": "현재시제 3인칭 단수",
+        "desc": "동사에 -s 붙이기",
+        "essence": "주인공이 '나'도 '너'도 아닌 '한 명'일 때 동사에 -s를 붙이는 강한 규칙입니다.",
+        "neural": "제3자 단수의 구별",
+        "sentences": [
+          {
+            "en": "He works very hard.",
+            "ko": "그는 정말 열심히 일해요.",
+            "nu": "주어(He)가 3인칭 단수이므로 work 뒤에 s를 강하게 붙입니다."
+          },
+          {
+            "en": "She always forgets my name.",
+            "ko": "그녀는 항상 내 이름을 깜빡해.",
+            "nu": "그녀(She)의 반복되는 습관을 말할 때 동사(forgets)의 형태를 바꿉니다."
+          }
+        ]
+      },
+      {
+        "title": "be동사 과거시제",
+        "desc": "과거의 상태",
+        "essence": "지금은 아닐 수 있지만, 과거 어느 시점에는 '존재'했던 상태를 묘사합니다.",
+        "neural": "과거로의 시선 이동 (was/were)",
+        "sentences": [
+          {
+            "en": "I was totally exhausted.",
+            "ko": "나 완전 기진맥진했었어.",
+            "nu": "과거 그 순간의 나의 극심한 피로 상태(was)를 말합니다."
+          },
+          {
+            "en": "They were at the library.",
+            "ko": "그들은 도서관에 있었어.",
+            "nu": "그들이 과거 특정 시점에 존재했던 장소(were)를 나타냅니다."
+          }
+        ]
+      },
+      {
+        "title": "과거시제",
+        "desc": "이미 끝난 동작",
+        "essence": "현재와는 아무런 연관 없이, 과거에 이미 완벽하게 종료된 사건을 말합니다.",
+        "neural": "단절된 과거의 팩트",
+        "sentences": [
+          {
+            "en": "I finished the project yesterday.",
+            "ko": "나 어제 그 프로젝트 끝냈어.",
+            "nu": "어제(yesterday)라는 명확한 과거 시점에 행동이 완료되었음을 선언합니다."
+          },
+          {
+            "en": "We met 10 years ago.",
+            "ko": "우린 10년 전에 만났어.",
+            "nu": "현재와 상관없이 10년 전이라는 시점에 일어났던 사실입니다."
+          }
+        ]
+      },
+      {
+        "title": "의문사",
+        "desc": "구체적인 정보 묻기",
+        "essence": "단순히 Yes/No 대답이 아니라 누가, 언제, 어디서 등 구체적이고 디테일한 정보를 캐물을 때 씁니다.",
+        "neural": "정보 요구 (Who, What, Where...)",
+        "sentences": [
+          {
+            "en": "Where did you find this?",
+            "ko": "이거 어디서 찾았어?",
+            "nu": "가장 궁금한 정보인 '장소(Where)'를 문장 맨 앞에 두어 강하게 묻습니다."
+          },
+          {
+            "en": "How can I help you?",
+            "ko": "어떻게 도와드릴까요?",
+            "nu": "돕는 방법(How)을 묻는 가장 정중하고 흔한 패턴입니다."
+          }
+        ]
+      },
+      {
+        "title": "문장의 순서",
+        "desc": "영어의 어순 감각",
+        "essence": "누가 ➔ 무엇을 했다 ➔ 누구에게 ➔ 어디서 ➔ 언제 순으로 에너지가 뻗어 나가는 원리입니다.",
+        "neural": "주체 ➔ 행동 ➔ 대상 ➔ 배경",
+        "sentences": [
+          {
+            "en": "I sent him an email this morning.",
+            "ko": "오늘 아침에 그에게 이메일을 보냈어.",
+            "nu": "나(I) ➔ 보냈다(sent) ➔ 그에게(him) ➔ 이메일을 ➔ 언제 순으로 흐름이 이어집니다."
+          }
+        ]
+      },
+      {
+        "title": "명령문",
+        "desc": "행동 촉구하기",
+        "essence": "주어를 생략하고 동사부터 던져서 상대방에게 빠르고 직접적으로 행동을 요청하거나 지시합니다.",
+        "neural": "주어 생략 ➔ 즉각적 액션",
+        "sentences": [
+          {
+            "en": "Please let me know.",
+            "ko": "제게 알려주세요.",
+            "nu": "You를 생략하고 Let으로 바로 시작하여 행동을 유도하되, Please로 정중함을 더합니다."
+          },
+          {
+            "en": "Don't worry about it.",
+            "ko": "그거 걱정하지 마.",
+            "nu": "부정 명령(Don't)으로 상대방의 불필요한 감정 소모를 즉시 차단합니다."
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "title": "Lesson 2: 명사와 소유",
+    "desc": "물건의 주인을 명확히 하고 명사를 셀 수 있는지 구별합니다.",
+    "topics": [
+      {
+        "title": "소유격 대명사·형용사",
+        "desc": "나의 것, 너의 것",
+        "essence": "이 대상이 누구의 소유인지(my, your, his 등)를 직관적으로 밝힙니다.",
+        "neural": "소유의 경계 설정",
+        "sentences": [
+          {
+            "en": "That is my final offer.",
+            "ko": "그게 제 최종 제안입니다.",
+            "nu": "이 제안이 '나의(my)' 것임을 강조합니다."
+          },
+          {
+            "en": "Is this your belongings?",
+            "ko": "이거 당신 소지품인가요?",
+            "nu": "대상(belongings)의 주인이 '당신(your)'인지 확인합니다."
+          }
+        ]
+      },
+      {
+        "title": "소유격 (Nouns + 's)",
+        "desc": "명사의 소유",
+        "essence": "특정 인물이나 명사 뒤에 's를 붙여 그 대상이 소유하고 있음을 명확히 합니다.",
+        "neural": "구체적인 소유주 지목",
+        "sentences": [
+          {
+            "en": "This is John's responsibility.",
+            "ko": "이건 존의 책임입니다.",
+            "nu": "책임의 소재가 정확히 John에게 있음을 's로 표시합니다."
+          }
+        ]
+      },
+      {
+        "title": "복수형 (Plurals)",
+        "desc": "여럿일 때 -s 붙이기",
+        "essence": "대상이 두 개 이상일 때 명사 끝에 -s를 붙여 집단을 표현합니다.",
+        "neural": "수량의 확장",
+        "sentences": [
+          {
+            "en": "I need three tickets.",
+            "ko": "티켓 세 장이 필요합니다.",
+            "nu": "티켓이 한 장이 아님을 분명히 밝힙니다."
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "title": "Lesson 3: 다양한 시제",
+    "desc": "현재, 과거, 미래와 완료 시제까지 시간을 자유롭게 다룹니다.",
+    "topics": [
+      {
+        "title": "현재진행시제",
+        "desc": "지금 이 순간",
+        "essence": "말하는 바로 지금 이 순간 동작이 진행되고 있음을 나타냅니다.",
+        "neural": "역동적인 현재",
+        "sentences": [
+          {
+            "en": "I am working right now.",
+            "ko": "저 지금 일하는 중이에요.",
+            "nu": "현재 행위에 완전히 몰입해 있음을 표현합니다."
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "title": "Lesson 4: 형용사와 비교",
+    "desc": "대상을 꾸며주고 다른 것과 비교하여 차이를 드러냅니다.",
+    "topics": [
+      {
+        "title": "형용사",
+        "desc": "명사 화장하기",
+        "essence": "명사의 상태, 성질, 크기 등을 디테일하게 설명해 줍니다.",
+        "neural": "디테일 추가",
+        "sentences": [
+          {
+            "en": "It was a brilliant idea.",
+            "ko": "정말 기발한 아이디어였어.",
+            "nu": "아이디어에 '기발함'이라는 색깔을 입힙니다."
+          }
+        ]
+      }
+    ]
+  },
+  "5": {
+    "title": "Lesson 5: 부사와 전치사",
+    "desc": "장소, 시간, 방법 등 구체적인 배경을 설명합니다.",
+    "topics": [
+      {
+        "title": "장소 전치사",
+        "desc": "위치 감각",
+        "essence": "in, on, at 등을 통해 대상이 공간 안에서 어디에 위치하는지 그립니다.",
+        "neural": "공간 맵핑",
+        "sentences": [
+          {
+            "en": "I left it on the desk.",
+            "ko": "책상 위에 뒀어.",
+            "nu": "표면에 접촉해 있는 'on'의 뉘앙스를 살립니다."
+          }
+        ]
+      }
+    ]
+  },
+  "6": {
+    "title": "Lesson 6: 부정사와 동명사",
+    "desc": "동사를 변형하여 문장 안에서 명사처럼 자유롭게 활용합니다.",
+    "topics": [
+      {
+        "title": "동명사",
+        "desc": "동사를 명사로",
+        "essence": "동사에 -ing를 붙여 '~하는 것'이라는 과거/현재 지향적 느낌을 줍니다.",
+        "neural": "경험적 사실",
+        "sentences": [
+          {
+            "en": "I enjoy playing tennis.",
+            "ko": "나는 테니스 치는 것을 즐겨.",
+            "nu": "이미 해본 경험(playing)을 즐긴다는 뉘앙스입니다."
+          }
+        ]
+      }
+    ]
+  },
+  "7": {
+    "title": "Lesson 7: 조동사",
+    "desc": "동사에 뉘앙스를 입혀 감정과 태도를 전달합니다.",
+    "topics": [
+      {
+        "title": "Modals",
+        "desc": "능력, 추측, 의무",
+        "essence": "단순한 팩트가 아니라 말하는 사람의 의도나 확률을 동사에 덧입힙니다.",
+        "neural": "화자의 태도",
+        "sentences": [
+          {
+            "en": "You must be tired.",
+            "ko": "너 분명 피곤할 거야.",
+            "nu": "강한 확신(must)을 담아 상대의 상태를 추측합니다."
+          }
+        ]
+      }
+    ]
+  },
+  "8": {
+    "title": "Lesson 8: 조건문",
+    "desc": "만약 ~라면, 상황을 가정하여 결과를 예측합니다.",
+    "topics": [
+      {
+        "title": "Conditionals",
+        "desc": "가정과 상상",
+        "essence": "If를 사용해 실제 일어나지 않은 일이나 미래의 가능성을 시뮬레이션합니다.",
+        "neural": "가상 현실 세팅",
+        "sentences": [
+          {
+            "en": "If I were you, I wouldn't do it.",
+            "ko": "내가 너라면 안 그럴 텐데.",
+            "nu": "현재 사실과 반대되는 가정을 세워 조언합니다."
+          }
+        ]
+      }
+    ]
+  },
+  "9": {
+    "title": "Lesson 9: 시간과 날짜",
+    "desc": "정확한 시간, 요일, 날짜를 말하는 감각을 익힙니다.",
+    "topics": [
+      {
+        "title": "시간과 날짜 표현",
+        "desc": "정확한 타이밍",
+        "essence": "시간 앞에는 at, 요일 앞에는 on, 달 앞에는 in을 쓰는 감각을 체화합니다.",
+        "neural": "시간의 단위 확장",
+        "sentences": [
+          {
+            "en": "Let's meet on Monday.",
+            "ko": "월요일에 만나자.",
+            "nu": "하루 단위의 시간 앞에는 on을 붙입니다."
+          }
+        ]
+      }
+    ]
+  },
+  "10": {
+    "title": "Lesson 10: 일상 어휘",
+    "desc": "가족, 직업, 감각 등 우리 주변의 필수 단어들입니다.",
+    "topics": [
+      {
+        "title": "The 5 Senses",
+        "desc": "오감 표현",
+        "essence": "시각, 청각, 후각, 미각, 촉각을 통해 세상을 인지하는 동사들입니다.",
+        "neural": "감각의 수용",
+        "sentences": [
+          {
+            "en": "It sounds great.",
+            "ko": "그거 좋게 들리네.",
+            "nu": "귀로 들어온 정보가 긍정적임을 표현합니다."
+          }
+        ]
+      }
+    ]
+  },
+  "11": {
+    "title": "Lesson 11: 동사 심화",
+    "desc": "구동사를 활용해 네이티브처럼 입체적으로 말하는 법입니다.",
+    "topics": [
+      {
+        "title": "구동사 (Phrasal Verbs)",
+        "desc": "동사 + 전치사",
+        "essence": "기본동사에 전치사의 방향성이 더해져 수학처럼 뜻이 확장되는 원리입니다.",
+        "neural": "이미지의 융합",
+        "sentences": [
+          {
+            "en": "Don't give up.",
+            "ko": "포기하지 마.",
+            "nu": "내어주고(give) 손을 위로(up) 드는 포기의 이미지입니다."
+          }
+        ]
+      }
+    ]
+  },
+  "12": {
+    "title": "Lesson 12: 실전 관용구",
+    "desc": "직역하면 안 되는 관용 표현과 이음말을 익힙니다.",
+    "topics": [
+      {
+        "title": "Idioms",
+        "desc": "원어민식 이디엄",
+        "essence": "문자 그대로의 뜻이 아니라 문화적 맥락이 담긴 비유적 표현입니다.",
+        "neural": "문화적 메타포",
+        "sentences": [
+          {
+            "en": "It's a piece of cake.",
+            "ko": "식은 죽 먹기야.",
+            "nu": "케이크 한 조각 먹는 것만큼 아주 쉽다는 뜻입니다."
+          }
+        ]
+      }
+    ]
+  }
+};
+
+// --- MASTER DASHBOARD JS ---
+let currentLesson = 1;
+let currentTopic = 0;
+
+function masterInit() {
+    renderMonthList();
+    renderDaySelector();
+    masterLoadDay(currentLesson, currentTopic);
+}
+
+function renderMonthList() {
+    const list = document.getElementById('month-list');
+    if(!list) return;
+    list.innerHTML = '';
+    
+    for(let i=1; i<=12; i++) {
+        if(!lessonData[i]) continue;
+        const el = document.createElement('div');
+        el.className = `month-item ${i === currentLesson ? 'active' : ''}`;
+        el.innerHTML = `<span>Lesson ${i}</span>`;
+        el.onclick = () => {
+            currentLesson = i;
+            currentTopic = 0;
+            renderMonthList();
+            renderDaySelector();
+            masterLoadDay(currentLesson, currentTopic);
+        };
+        list.appendChild(el);
+    }
+}
+
+function renderDaySelector() {
+    const sel = document.getElementById('day-selector');
+    if(!sel) return;
+    sel.innerHTML = '';
+    
+    const topics = lessonData[currentLesson].topics;
+    topics.forEach((t, idx) => {
+        const btn = document.createElement('div');
+        btn.className = `day-btn ${idx === currentTopic ? 'active' : ''}`;
+        
+        // Custom UI for the Pill (Top Tab) as requested
+        btn.style.display = 'flex';
+        btn.style.flexDirection = 'column';
+        btn.style.alignItems = 'center';
+        btn.style.padding = '8px 16px';
+        btn.style.height = 'auto';
+        btn.style.minWidth = '120px';
+        btn.style.lineHeight = '1.3';
+        
+        btn.innerHTML = `<span style="font-size:14px; font-weight:800; color:var(--text);">${t.title}</span><span style="font-size:10px; color:var(--text-dim); margin-top:4px;">${t.desc}</span>`;
+        
+        btn.onclick = () => {
+            currentTopic = idx;
+            renderDaySelector();
+            masterLoadDay(currentLesson, currentTopic);
+        };
+        sel.appendChild(btn);
+    });
+}
+
+function masterLoadDay(lessonIdx, topicIdx) {
+    const data = lessonData[lessonIdx];
+    const topic = data.topics[topicIdx];
+    if(!topic) return;
+
+    // Update Header
+    document.getElementById('current-month-name').textContent = data.title;
+    document.getElementById('current-day-num').textContent = data.desc;
+
+    // Update Essence Box
+    document.getElementById('core-verb-label').textContent = topic.title;
+    document.getElementById('mastery-title').textContent = "핵심 개념 (Essence)";
+    document.getElementById('governing-phrase').textContent = topic.essence;
+    document.getElementById('mastery-desc').textContent = "인지 맵핑: " + topic.neural;
+
+    // Render Sentences
+    const container = document.getElementById('master-sentence-container');
+    if(!container) return;
+    
+    container.innerHTML = topic.sentences.map((s, i) => `
+        <div class="sentence-card">
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:8px;">
+                <div class="sentence-en">${s.en}</div>
+                <div style="font-size:11px; font-weight:700; color:var(--accent); opacity:0.8;">Example 0${i+1}</div>
+            </div>
+            <div class="sentence-kr">${s.ko}</div>
+            <div class="sentence-nuance" style="margin-top:10px; border-top: 1px dashed var(--border); padding-top:10px;">
+                💡 <b>상세 설명:</b> ${s.nu}
+            </div>
+            <button class="voice-btn" style="position: absolute; top: 12px; right: 15px; background:none; border:none; font-size:18px; cursor:pointer; opacity:0.6;" onclick="event.stopPropagation(); speakText('${s.en.replace(/'/g, "\'")}')" title="듣기">🔊</button>
+        </div>
+    `).join('');
+}
+
+  window.onload = () => {
+    showView('master');
+    // Bind theme toggle button AFTER DOM is ready
+    const themeBtn = document.getElementById('theme-toggle');
+    if (themeBtn) themeBtn.onclick = toggleTheme;
+
+    // --- Training Modules JS ---
+    
+    const scrambleData = [
+      {
+        blocks: [{id: "v", text: "bought", role: "verb"}, {id: "s", text: "I", role: "subject"}, {id: "o", text: "a used car", role: "object"}],
+        correctK: "나는 중고차를 샀다."
+      },
+      {
+        blocks: [{id: "o", text: "me", role: "object"}, {id: "v", text: "made", role: "verb"}, {id: "s", text: "The news", role: "subject"}, {id: "c", text: "happy", role: "complement"}],
+        correctK: "그 소식은 나를 행복하게 만들었다."
+      },
+      {
+        blocks: [{id: "o", text: "the door", role: "object"}, {id: "v", text: "closed", role: "verb"}, {id: "s", text: "He", role: "subject"}],
+        correctK: "그가 문을 닫았다."
+      }
+    ];
+    
+    let currentScrambleIdx = 0;
+    
+    window.initScramble = function() {
+      const container = document.getElementById('scramble-container');
+      const status = document.getElementById('scramble-status');
+      if(!container) return;
+      container.innerHTML = '';
+      status.innerText = '블록을 드래그하여 문장을 완성하세요.';
+      status.style.color = 'var(--text-dim)';
+      
+      const data = scrambleData[currentScrambleIdx % scrambleData.length];
+      
+      data.blocks.forEach(b => {
+        const el = document.createElement('div');
+        el.className = 'scramble-block';
+        el.dataset.role = b.role;
+        el.innerText = b.text;
+        container.appendChild(el);
+      });
+      
+      if(window.scrambleSortable) {
+        window.scrambleSortable.destroy();
+      }
+      
+      window.scrambleSortable = new Sortable(container, {
+        animation: 150,
+        ghostClass: 'ghost',
+        onEnd: function() {
+          const blocks = Array.from(container.children);
+          if (blocks.length > 1) {
+            if (blocks[0].dataset.role === 'subject' && blocks[1].dataset.role === 'verb') {
+              blocks.forEach(b => b.classList.add('success'));
+              status.innerText = `통과! (${data.correctK})`;
+              status.style.color = 'var(--accent)';
+              
+              const fullSentence = blocks.map(b => b.innerText).join(' ');
+              speak(fullSentence);
+            } else {
+              blocks.forEach(b => b.classList.remove('success'));
+              status.innerText = '다시 시도하세요. (Verb는 Subject 바로 뒤에 와야 합니다!)';
+              status.style.color = 'var(--ember)';
+            }
+          }
+        }
+      });
+    };
+    
+    window.nextScramble = function() {
+      currentScrambleIdx++;
+      initScramble();
+    };
+    
+    const expansionData = [
+      { prompt: "뼈대 문장 (Kernel)", text: "I bought a car", k: "나는 차를 샀어" },
+      { prompt: "+ 누구랑? (With who?)", text: "My friend and I bought a car", k: "내 친구랑 나는 차를 샀어" },
+      { prompt: "+ 어떤 차? (What kind?)", text: "My friend and I bought a used car", k: "내 친구랑 나는 중고차를 샀어" },
+      { prompt: "+ 왜? (Why?)", text: "My friend and I bought a used car because we need to commute", k: "우린 통근해야 해서 내 친구랑 나는 중고차를 샀어" }
+    ];
+    
+    let expansionInterval = null;
+    
+    window.startExpansion = function() {
+      const container = document.getElementById('expansion-container');
+      const timerEl = document.getElementById('expansion-timer');
+      const btn = document.getElementById('btn-expansion-start');
+      const status = document.getElementById('expansion-status');
+      
+      container.innerHTML = '';
+      btn.style.display = 'none';
+      timerEl.style.display = 'block';
+      status.innerText = '큰 소리로 따라 말하세요!';
+      
+      let stepIdx = 0;
+      
+      function runStep() {
+        if (stepIdx >= expansionData.length) {
+          timerEl.style.display = 'none';
+          btn.style.display = 'block';
+          btn.innerText = '다시 훈련하기';
+          status.innerText = '훈련 완료! 훌륭합니다.';
+          return;
+        }
+        
+        const step = expansionData[stepIdx];
+        
+        const stepEl = document.createElement('div');
+        stepEl.className = 'expansion-step';
+        stepEl.innerHTML = `
+          <div class="expansion-prompt">${step.prompt}</div>
+          <div class="expansion-text">${step.text} <span style="font-size:14px; color:var(--text-dim); margin-left:10px;">(${step.k})</span></div>
+        `;
+        container.appendChild(stepEl);
+        
+        speak(step.text);
+        
+        stepIdx++;
+        if (stepIdx < expansionData.length) {
+          let timeLeft = 3;
+          timerEl.innerText = timeLeft;
+          
+          if(expansionInterval) clearInterval(expansionInterval);
+          expansionInterval = setInterval(() => {
+            timeLeft--;
+            timerEl.innerText = timeLeft;
+            if (timeLeft <= 0) {
+              clearInterval(expansionInterval);
+              runStep();
+            }
+          }, 1000);
+        } else {
+          setTimeout(runStep, 2000);
+        }
+      }
+      
+      runStep();
+    };
+
+
     if (typeof renderKiwi === 'function') renderKiwi();
   };
 </script>
@@ -10518,6 +11162,7 @@
 
         function masterShowBriefing() {
             const overlay = document.getElementById('briefing-overlay');
+            if (!overlay) return;
             let totalSentences = 0;
             for (const d in window.dayData) {
                 if (window.dayData[d] && window.dayData[d].sentences) {
@@ -10648,7 +11293,7 @@
                 if (typeof curriculum !== 'undefined' && curriculum[d] && curriculum[d].videoId) {
                     if (videoBtn) videoBtn.style.display = 'inline-flex';
                     videoArea.innerHTML = `
-                    <div style="border-radius:24px; overflow:hidden; margin-top: 10px; margin-bottom: 12px; box-shadow: 0 15px 35px rgba(0,0,0,0.2); border: 1px solid var(--border);">
+                    <div style="border-radius:24px; overflow:hidden; margin-top: 10px; margin-bottom: 20px; box-shadow: 0 15px 35px rgba(0,0,0,0.2); border: 1px solid var(--border);">
                         <iframe style="width:100%; aspect-ratio:16/9; border:none;" src="https://www.youtube.com/embed/${curriculum[d].videoId}?enablejsapi=1" allowfullscreen></iframe>
                     </div>`;
                 } else {
