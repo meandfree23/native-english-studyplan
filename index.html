@@ -1004,6 +1004,7 @@
   <script src="master/data/month6.js"></script>
   <script src="master/data/month7.js"></script>
   <script src="master/data/month8.js"></script>
+<script src="master/data/core_insights.js"></script>
 </head>
 <body>
 
@@ -9784,11 +9785,21 @@
       }
       
       // Chapter Header
+      let insightHTML = '';
+      if (window.coreInsights && window.coreInsights[firstDay.core]) {
+          insightHTML = window.coreInsights[firstDay.core];
+      } else {
+          // Fallback if no deep insight exists yet
+          insightHTML = `<p style="font-size: 18px; color: var(--text-dim); max-width: 600px; margin: 0 auto; line-height: 1.6; word-break: keep-all; text-align: center;">${firstDay.vD || ''}</p>`;
+      }
+
       html += `
-      <div style="text-align: center; margin-bottom: 80px; margin-top: 40px;">
-          <div style="font-size: 14px; font-weight: 800; color: var(--ember); letter-spacing: 0.1em; margin-bottom: 16px; text-transform: uppercase;">CHAPTER</div>
-          <h1 style="font-size: 56px; font-weight: 900; color: var(--text); margin-bottom: 24px; letter-spacing: -0.02em;">${firstDay.core} <span style="color: var(--text-dim); font-weight: 300;">|</span> ${firstDay.vT}</h1>
-          <p style="font-size: 18px; color: var(--text-dim); max-width: 600px; margin: 0 auto; line-height: 1.6; word-break: keep-all;">${firstDay.vD || ''}</p>
+      <div style="margin-bottom: 100px; margin-top: 40px;">
+          <div style="text-align: center; margin-bottom: 60px;">
+              <div style="font-size: 14px; font-weight: 800; color: var(--ember); letter-spacing: 0.1em; margin-bottom: 16px; text-transform: uppercase;">CHAPTER</div>
+              <h1 style="font-size: 56px; font-weight: 900; color: var(--text); margin-bottom: 24px; letter-spacing: -0.02em;">${firstDay.core} <span style="color: var(--text-dim); font-weight: 300;">|</span> ${firstDay.vT}</h1>
+          </div>
+          ${insightHTML}
       </div>
       `;
       
