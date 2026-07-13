@@ -9914,6 +9914,37 @@
       }
       
       renderArea.innerHTML = html;
+      
+      // Inject speaker icons dynamically into Core Insight articles
+      setTimeout(() => {
+          const articles = document.querySelectorAll('.insight-article');
+          articles.forEach(article => {
+              // 1. .ex-en elements (English example sentences)
+              article.querySelectorAll('.ex-en').forEach(el => {
+                  if (el.querySelector('.voice-btn')) return;
+                  let text = el.innerText.trim();
+                  el.innerHTML += ` <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="speakText('${text.replace(/'/g, "\\'")}')" title="발음 듣기">🔊</button>`;
+              });
+              
+              // 2. <strong> elements containing English words or sentences
+              article.querySelectorAll('strong').forEach(el => {
+                  if (el.nextSibling && el.nextSibling.className === 'voice-btn') return;
+                  let text = el.innerText.trim();
+                  // Check if text is entirely English characters (including basic punctuation)
+                  if (/^[A-Za-z0-9\s.,?!']+$/.test(text)) {
+                      let btn = document.createElement('button');
+                      btn.className = 'voice-btn';
+                      btn.innerHTML = '🔊';
+                      btn.style.cssText = 'background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;';
+                      btn.onmouseover = () => btn.style.opacity = 1;
+                      btn.onmouseout = () => btn.style.opacity = 0.5;
+                      btn.onclick = (e) => { e.stopPropagation(); speakText(text.replace(/'/g, "\\'")); };
+                      btn.title = "발음 듣기";
+                      el.parentNode.insertBefore(btn, el.nextSibling);
+                  }
+              });
+          });
+      }, 50);
   }
 
   function showView(view) {
