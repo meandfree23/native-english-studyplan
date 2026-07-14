@@ -9850,7 +9850,7 @@
           groups.forEach(g => {
               const label = g.vT ? `${g.core} \\ ${g.vT}` : g.core;
               html += `
-                  <div class="toc-topic-item" onclick="openChapterFromTOC(${g.start}, ${g.end})">
+                  <div class="toc-topic-item" id="toc-chapter-${g.start}" onclick="openChapterFromTOC(${g.start}, ${g.end})">
                       <span class="toc-topic-title">${label}</span>
                   </div>
               `;
@@ -9863,7 +9863,9 @@
   }
   
   
+  let lastClickedChapterStart = null;
   function openChapterFromTOC(start, end) {
+      lastClickedChapterStart = start;
       document.getElementById('toc-view').style.display = 'none';
       document.getElementById('curriculum-view').style.display = 'flex';
       loadChapter(start, end);
@@ -10031,7 +10033,21 @@
       if (navReview) navReview.classList.add('active');
       renderReview();
     }
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    if (view === 'study' && lastClickedChapterStart !== null) {
+      setTimeout(() => {
+        const targetEl = document.getElementById(`toc-chapter-${lastClickedChapterStart}`);
+        if (targetEl) {
+          targetEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          targetEl.style.transition = 'outline 0.3s ease';
+          targetEl.style.outline = '2px solid var(--accent)';
+          setTimeout(() => { targetEl.style.outline = 'none'; }, 1500);
+        } else {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+      }, 100);
+    } else {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
   }
 
   function saveSentence(id, val) {
