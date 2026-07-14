@@ -283,6 +283,52 @@
       position: relative;
     }
 
+    /* Daily AI Booster Widget Styles */
+    .booster-card {
+      background: var(--surface);
+      border: 1px solid var(--border2);
+      border-radius: 24px;
+      padding: 24px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+      margin-bottom: 20px;
+    }
+    .booster-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 12px;
+    }
+    .booster-level-row {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 14px 18px;
+      margin-bottom: 10px;
+      position: relative;
+      transition: border-color 0.2s;
+    }
+    .booster-level-row:hover {
+      border-color: var(--accent);
+    }
+    .level-badge {
+      font-size: 11px;
+      font-weight: 800;
+      color: white;
+      padding: 4px 10px;
+      border-radius: 12px;
+      white-space: nowrap;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .level-badge.easy { background: var(--accent); }
+    .level-badge.medium { background: var(--gold); }
+    .level-badge.hard { background: var(--ember); }
+
     @media (max-width: 900px) {
       .mastery-split { flex-direction: column; }
       .mastery-right { position: static; width: 100%; order: -1; margin-bottom: 30px; }
@@ -1096,6 +1142,7 @@
   <script src="master/data/month11.js?v=1783997030"></script>
   <script src="master/data/month12.js?v=1783997030"></script>
 <script src="master/data/core_insights_v2.js?v=1783998889"></script>
+<script src="master/data/daily_booster_data.js?v=1783998889"></script>
 <link rel="stylesheet" href="index.css">
 <script src="master/data/dictionary.js?v=1783997030"></script>
 </head>
@@ -1127,6 +1174,9 @@
   <p class="hero-sub" id="hero-sub">커리큘럼을 준비하고 있습니다...</p>
   <button class="complete-btn" id="day-complete-btn" onclick="toggleComplete()">미션 완료 체크</button>
 </section>
+
+<!-- Daily AI Booster Container -->
+<div id="daily-booster-container" style="display: none; max-width: 1000px; margin: 30px auto 10px auto; padding: 0 32px;"></div>
 
 
 
@@ -9884,6 +9934,8 @@
       lastClickedChapterStart = start;
       document.getElementById('toc-view').style.display = 'none';
       document.getElementById('curriculum-view').style.display = 'flex';
+      const booster = document.getElementById('daily-booster-container');
+      if (booster) booster.style.display = 'none';
       loadChapter(start, end);
       window.scrollTo({ top: 0, behavior: 'smooth' });
   }
@@ -10031,11 +10083,18 @@
     if (view === 'study') {
       document.getElementById('toc-view').style.display = 'block';
       document.getElementById('curriculum-view').style.display = 'none';
+      const booster = document.getElementById('daily-booster-container');
+      if (booster) {
+        booster.style.display = 'block';
+        renderDailyBooster();
+      }
       if(navMaster) navMaster.classList.add('active');
       renderTOC();
     } else if (view === 'kiwi') {
       if (kiwiView) kiwiView.style.display = 'block';
       if (navKiwi) navKiwi.classList.add('active');
+      const booster = document.getElementById('daily-booster-container');
+      if (booster) booster.style.display = 'none';
       if (typeof renderKiwi === 'function') renderKiwi(currentKiwiTopicIdx);
     }
     if (view === 'study' && lastClickedChapterStart !== null) {
@@ -10512,6 +10571,97 @@
       }
     }
   };
+
+  let currentBoosterIdx = null;
+  window.shuffleDailyBooster = function() {
+    if (!window.dailyBoosterData || window.dailyBoosterData.length === 0) return;
+    const randomIdx = Math.floor(Math.random() * window.dailyBoosterData.length);
+    currentBoosterIdx = randomIdx;
+    renderDailyBooster(randomIdx);
+  };
+
+  function renderDailyBooster(selectedIdx) {
+    const container = document.getElementById('daily-booster-container');
+    if (!container || !window.dailyBoosterData || window.dailyBoosterData.length === 0) return;
+
+    if (selectedIdx === undefined) {
+      if (currentBoosterIdx !== null) {
+        selectedIdx = currentBoosterIdx;
+      } else {
+        const today = new Date();
+        const dateSeed = today.getFullYear() + today.getMonth() + today.getDate();
+        selectedIdx = dateSeed % window.dailyBoosterData.length;
+        currentBoosterIdx = selectedIdx;
+      }
+    }
+
+    const data = window.dailyBoosterData[selectedIdx];
+    if (!data) return;
+
+    const options = { weekday: 'short', year: 'numeric', month: 'long', day: 'numeric' };
+    const dateStr = new Date().toLocaleDateString('ko-KR', options);
+
+    const easyEscaped = data.easy.e.replace(/'/g, "\\\\'").replace(/"/g, '&quot;');
+    const medEscaped = data.medium.e.replace(/'/g, "\\\\'").replace(/"/g, '&quot;');
+    const hardEscaped = data.hard.e.replace(/'/g, "\\\\'").replace(/"/g, '&quot;');
+
+    container.innerHTML = `
+      <div class="booster-card">
+        <div class="booster-header">
+          <div style="text-align: left;">
+            <div style="font-size: 11px; font-weight: 800; color: var(--gold); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 2px;">🎯 TODAY'S AI BOOSTER</div>
+            <h3 style="font-size: 24px; font-weight: 900; color: var(--accent); letter-spacing: -0.02em; line-height: 1.3;">
+              ${data.phrase}
+              <span style="font-size: 14px; font-weight: 500; color: var(--text-dim); margin-left: 8px;">: ${data.meaning}</span>
+            </h3>
+          </div>
+          <div style="text-align: right; flex-shrink: 0;">
+            <div style="font-size: 12px; font-weight: 700; color: var(--text-dim);">${dateStr}</div>
+            <button onclick="shuffleDailyBooster()" style="background: none; border: 1px solid var(--border); color: var(--text-dim); border-radius: 12px; padding: 4px 10px; font-size: 11px; font-weight: 700; cursor: pointer; margin-top: 6px; transition: all 0.2s;" onmouseover="this.style.borderColor='var(--accent)'; this.style.color='var(--text)';" onmouseout="this.style.borderColor='var(--border)'; this.style.color='var(--text-dim)';">🔄 다른 표현 추천</button>
+          </div>
+        </div>
+        
+        <div style="display: flex; flex-direction: column; gap: 8px;">
+          <div class="booster-level-row">
+            <span class="level-badge easy">초급</span>
+            <div style="flex: 1; text-align: left;">
+              <div style="font-size: 15px; font-weight: 700; color: var(--text); padding-right: 60px;">${data.easy.e}</div>
+              <div style="font-size: 13px; color: var(--text-dim); margin-top: 4px;">${data.easy.k}</div>
+            </div>
+            <div style="position: absolute; top: 12px; right: 12px; display: flex; gap: 4px; align-items: center;">
+              <button class="voice-btn-card" style="background:none; border:none; font-size:14px; cursor:pointer; opacity:0.6; padding: 2px;" onclick="event.stopPropagation(); speakText('${easyEscaped}', 'US')" title="미국식 발음">🇺🇸</button>
+              <button class="voice-btn-card" style="background:none; border:none; font-size:14px; cursor:pointer; opacity:0.6; padding: 2px;" onclick="event.stopPropagation(); speakText('${easyEscaped}', 'UK')" title="영국식 발음">🇬🇧</button>
+            </div>
+          </div>
+
+          <div class="booster-level-row">
+            <span class="level-badge medium">중급</span>
+            <div style="flex: 1; text-align: left;">
+              <div style="font-size: 15px; font-weight: 700; color: var(--text); padding-right: 60px;">${data.medium.e}</div>
+              <div style="font-size: 13px; color: var(--text-dim); margin-top: 4px;">${data.medium.k}</div>
+            </div>
+            <div style="position: absolute; top: 12px; right: 12px; display: flex; gap: 4px; align-items: center;">
+              <button class="voice-btn-card" style="background:none; border:none; font-size:14px; cursor:pointer; opacity:0.6; padding: 2px;" onclick="event.stopPropagation(); speakText('${medEscaped}', 'US')" title="미국식 발음">🇺🇸</button>
+              <button class="voice-btn-card" style="background:none; border:none; font-size:14px; cursor:pointer; opacity:0.6; padding: 2px;" onclick="event.stopPropagation(); speakText('${medEscaped}', 'UK')" title="영국식 발음">🇬🇧</button>
+            </div>
+          </div>
+
+          <div class="booster-level-row">
+            <span class="level-badge hard">고급</span>
+            <div style="flex: 1; text-align: left;">
+              <div style="font-size: 15px; font-weight: 700; color: var(--text); padding-right: 60px;">${data.hard.e}</div>
+              <div style="font-size: 13px; color: var(--text-dim); margin-top: 4px;">${data.hard.k}</div>
+            </div>
+            <div style="position: absolute; top: 12px; right: 12px; display: flex; gap: 4px; align-items: center;">
+              <button class="voice-btn-card" style="background:none; border:none; font-size:14px; cursor:pointer; opacity:0.6; padding: 2px;" onclick="event.stopPropagation(); speakText('${hardEscaped}', 'US')" title="미국식 발음">🇺🇸</button>
+              <button class="voice-btn-card" style="background:none; border:none; font-size:14px; cursor:pointer; opacity:0.6; padding: 2px;" onclick="event.stopPropagation(); speakText('${hardEscaped}', 'UK')" title="영국식 발음">🇬🇧</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    `;
+  }
+  window.renderDailyBooster = renderDailyBooster;
 
   window.onload = () => {
     showView('study');
