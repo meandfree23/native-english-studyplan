@@ -1,5 +1,6 @@
 window.dayData = Object.assign(window.dayData || {}, {
   "121": {
+    "core_insight": "By the way",
     "v": "🔗",
     "vT": "Connector Chunk",
     "vD": "대화 흐름을 자연스럽게 전환하거나 연결하는 네이티브 표현입니다.",
@@ -54,6 +55,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "122": {
+    "core_insight": "Anyway",
     "v": "🔗",
     "vT": "Connector Chunk",
     "vD": "대화 흐름을 자연스럽게 전환하거나 연결하는 네이티브 표현입니다.",
@@ -108,6 +110,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "123": {
+    "core_insight": "At the end of the day",
     "v": "🔗",
     "vT": "Connector Chunk",
     "vD": "대화 흐름을 자연스럽게 전환하거나 연결하는 네이티브 표현입니다.",
@@ -162,6 +165,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "124": {
+    "core_insight": "On top of that",
     "v": "🔗",
     "vT": "Connector Chunk",
     "vD": "대화 흐름을 자연스럽게 전환하거나 연결하는 네이티브 표현입니다.",
@@ -216,6 +220,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "125": {
+    "core_insight": "First of all",
     "v": "🔗",
     "vT": "Connector Chunk",
     "vD": "대화 흐름을 자연스럽게 전환하거나 연결하는 네이티브 표현입니다.",
@@ -270,6 +275,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "126": {
+    "core_insight": "After all",
     "v": "🔗",
     "vT": "Connector Chunk",
     "vD": "대화 흐름을 자연스럽게 전환하거나 연결하는 네이티브 표현입니다.",
@@ -324,6 +330,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "127": {
+    "core_insight": "In the meantime",
     "v": "🔗",
     "vT": "Connector Chunk",
     "vD": "대화 흐름을 자연스럽게 전환하거나 연결하는 네이티브 표현입니다.",
@@ -378,6 +385,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "128": {
+    "core_insight": "That makes sense",
     "v": "💬",
     "vT": "Reaction Chunk",
     "vD": "상대방의 말에 즉각적으로 반응하는 네이티브 응답 표현입니다.",
@@ -432,6 +440,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "129": {
+    "core_insight": "Fair enough",
     "v": "💬",
     "vT": "Reaction Chunk",
     "vD": "상대방의 말에 즉각적으로 반응하는 네이티브 응답 표현입니다.",
@@ -486,6 +495,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "130": {
+    "core_insight": "No worries",
     "v": "💬",
     "vT": "Reaction Chunk",
     "vD": "상대방의 말에 즉각적으로 반응하는 네이티브 응답 표현입니다.",
@@ -540,6 +550,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "131": {
+    "core_insight": "Tell me about it",
     "v": "💬",
     "vT": "Reaction Chunk",
     "vD": "상대방의 말에 즉각적으로 반응하는 네이티브 응답 표현입니다.",
@@ -594,6 +605,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "132": {
+    "core_insight": "I know, right?",
     "v": "💬",
     "vT": "Reaction Chunk",
     "vD": "상대방의 말에 즉각적으로 반응하는 네이티브 응답 표현입니다.",
@@ -648,6 +660,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "133": {
+    "core_insight": "Good point",
     "v": "💬",
     "vT": "Reaction Chunk",
     "vD": "상대방의 말에 즉각적으로 반응하는 네이티브 응답 표현입니다.",
@@ -702,6 +715,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "134": {
+    "core_insight": "Exactly",
     "v": "💬",
     "vT": "Reaction Chunk",
     "vD": "상대방의 말에 즉각적으로 반응하는 네이티브 응답 표현입니다.",
@@ -756,6 +770,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "135": {
+    "core_insight": "Kind of",
     "v": "🌫️",
     "vT": "Hedging Chunk",
     "vD": "단정을 피하고 표현을 부드럽게 완화하는 네이티브 표현입니다.",
@@ -810,6 +825,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "136": {
+    "core_insight": "Sort of",
     "v": "🌫️",
     "vT": "Hedging Chunk",
     "vD": "단정을 피하고 표현을 부드럽게 완화하는 네이티브 표현입니다.",
@@ -864,6 +880,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "137": {
+    "core_insight": "I guess",
     "v": "🌫️",
     "vT": "Hedging Chunk",
     "vD": "단정을 피하고 표현을 부드럽게 완화하는 네이티브 표현입니다.",
@@ -918,6 +935,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "138": {
+    "core_insight": "More or less",
     "v": "🌫️",
     "vT": "Hedging Chunk",
     "vD": "단정을 피하고 표현을 부드럽게 완화하는 네이티브 표현입니다.",
@@ -972,6 +990,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "139": {
+    "core_insight": "To some extent",
     "v": "🌫️",
     "vT": "Hedging Chunk",
     "vD": "단정을 피하고 표현을 부드럽게 완화하는 네이티브 표현입니다.",
@@ -1026,6 +1045,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "140": {
+    "core_insight": "Not necessarily",
     "v": "🌫️",
     "vT": "Hedging Chunk",
     "vD": "단정을 피하고 표현을 부드럽게 완화하는 네이티브 표현입니다.",
@@ -1080,6 +1100,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "141": {
+    "core_insight": "It depends",
     "v": "🌫️",
     "vT": "Hedging Chunk",
     "vD": "단정을 피하고 표현을 부드럽게 완화하는 네이티브 표현입니다.",
@@ -1134,6 +1155,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "142": {
+    "core_insight": "Give it a shot",
     "v": "⚡",
     "vT": "Action Chunk",
     "vD": "결단과 행동을 촉구하거나 표현하는 네이티브 실행 표현입니다.",
@@ -1188,6 +1210,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "143": {
+    "core_insight": "Make up your mind",
     "v": "⚡",
     "vT": "Action Chunk",
     "vD": "결단과 행동을 촉구하거나 표현하는 네이티브 실행 표현입니다.",
@@ -1242,6 +1265,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "144": {
+    "core_insight": "Go for it",
     "v": "⚡",
     "vT": "Action Chunk",
     "vD": "결단과 행동을 촉구하거나 표현하는 네이티브 실행 표현입니다.",
@@ -1296,6 +1320,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "145": {
+    "core_insight": "Take it or leave it",
     "v": "⚡",
     "vT": "Action Chunk",
     "vD": "결단과 행동을 촉구하거나 표현하는 네이티브 실행 표현입니다.",
@@ -1350,6 +1375,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "146": {
+    "core_insight": "Keep in mind",
     "v": "⚡",
     "vT": "Action Chunk",
     "vD": "결단과 행동을 촉구하거나 표현하는 네이티브 실행 표현입니다.",
@@ -1404,6 +1430,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "147": {
+    "core_insight": "Figure it out",
     "v": "⚡",
     "vT": "Action Chunk",
     "vD": "결단과 행동을 촉구하거나 표현하는 네이티브 실행 표현입니다.",
@@ -1458,6 +1485,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "148": {
+    "core_insight": "Move on",
     "v": "⚡",
     "vT": "Action Chunk",
     "vD": "결단과 행동을 촉구하거나 표현하는 네이티브 실행 표현입니다.",
@@ -1512,6 +1540,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "149": {
+    "core_insight": "Long story short",
     "v": "📌",
     "vT": "Meta-Communication Chunk",
     "vD": "대화 자체를 조율하거나 요약하는 메타 커뮤니케이션 표현입니다.",
@@ -1566,6 +1595,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "150": {
+    "core_insight": "Point being",
     "v": "📌",
     "vT": "Meta-Communication Chunk",
     "vD": "대화 자체를 조율하거나 요약하는 메타 커뮤니케이션 표현입니다.",
