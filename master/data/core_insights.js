@@ -7696,5 +7696,4429 @@ Reconsider
         <div class="ex-ko">경쟁이 그녀를 더 열심히 일하게 만들었습니다. (외부의 자극이 행동을 촉발함)</div>
     </div>
 </div>
+`,
+    "beyond": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>beyond</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 beyond은 <strong>'넘어서 확장된 관점'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">beyond의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>beyond</strong>의 핵심은</p>
+        <div class="quote-text">"한계를 초월하는 것"</div>
+        <p>입니다. (즉, 현재 상태를 넘어 더 많은 것을 포함합니다.)</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (beyond)</div>
+        <pre>
+   +-------+
+   | Start |
+   +-------+
+      |
+      v
+Beyond (무엇을 넘어서)
+        </pre>
+        <div class="ascii-footer">(무엇인가를 넘어서는 것을 시각화)</div>
+    </div>
+
+    <h2 class="insight-h2">① 초월적 의미 + Transcendental Meaning</h2>
+    <p class="insight-p">무언가의 경계를 넘어 더 높은 차원이나 상태를 암시합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">Her talent goes beyond the ordinary.</div>
+        <div class="ex-ko">그녀의 재능은 평범함을 넘어섭니다. (그녀의 재능이 아주 특별하다는 의미)</div>
+        <div class="ex-en" style="margin-top:12px;">The beauty of the landscape is beyond description.</div>
+        <div class="ex-ko">경치의 아름다움은 형언할 수 없습니다. (말로 표현할 수 없을 정도로 아름답다는 뜻)</div>
+    </div>
+
+    <h2 class="insight-h2">② 한계를 넘어서 + Beyond Limits</h2>
+    <p class="insight-p">일반적인 범위를 넘어서 더 많은 것을 포함하거나 초월합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">The project went beyond our initial expectations.</div>
+        <div class="ex-ko">그 프로젝트는 우리의 초기 기대를 넘었습니다. (예상보다 더 잘 되었다는 의미)</div>
+        <div class="ex-en" style="margin-top:12px;">His generosity is beyond compare.</div>
+        <div class="ex-ko">그의 관대함은 비교할 수 없습니다. (매우 관대하다는 의미)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 시간과 공간을 넘어 + Beyond Time and Space</h2>
+    <p class="insight-p">물리적, 시간적 한계를 넘어선 개념을 나타냅니다.</p>
+    <div class="example-group">
+        <div class="ex-en">The legend of King Arthur extends beyond time.</div>
+        <div class="ex-ko">아서 왕의 전설은 시간을 초월합니다. (시대를 넘어 여전히 영향력이 있다는 의미)</div>
+        <div class="ex-en" style="margin-top:12px;">Their friendship remains strong beyond years and distance.</div>
+        <div class="ex-ko">그들의 우정은 세월과 거리를 넘어 여전히 굳건합니다. (시간과 거리에도 불구하고 변함없다는 뜻)</div>
+    </div>
+</div>
+`,
+    "under": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>under</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 under은 <strong>'아래에 위치하거나 영향을 받는 상태'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">under의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>under</strong>의 핵심은</p>
+        <div class="quote-text">"아래에 있는 상태 또는 보호/영향을 받는 상태"</div>
+        <p>입니다. 이것은 물리적인 위치뿐만 아니라, 감정적 또는 상황적 의미를 포함합니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (under)</div>
+        <pre>
+   _______
+  |       |
+  |_______|
+     /\
+    /  \
+        </pre>
+        <div class="ascii-footer">(어떤 것의 아래에 위치한 모습)</div>
+    </div>
+
+    <h2 class="insight-h2">① 위치적 의미 (Physical Location)</h2>
+    <p class="insight-p">어떤 물체가 다른 물체의 아래에 있을 때 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">The cat is under the table.</div>
+        <div class="ex-ko">고양이가 테이블 아래에 있다. (고양이가 물리적으로 테이블 아래에 위치해 있는 상태)</div>
+        <div class="ex-en" style="margin-top:12px;">The book fell under the couch.</div>
+        <div class="ex-ko">책이 소파 아래로 떨어졌다. (책이 물리적으로 소파 아래에 위치하게 된 상태)</div>
+    </div>
+
+    <h2 class="insight-h2">② 보호 또는 영향 (Protection or Influence)</h2>
+    <p class="insight-p">어떤 사람이 보호받거나 영향을 받을 때 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">The child is under his mother's care.</div>
+        <div class="ex-ko">아이가 엄마의 보호 아래 있다. (엄마의 보호를 받고 있는 상태)</div>
+        <div class="ex-en" style="margin-top:12px;">The country is under foreign rule.</div>
+        <div class="ex-ko">그 나라는 외국의 지배를 받고 있다. (외국의 영향 아래에 있는 상태)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 기준 이하 (Below a Standard)</h2>
+    <p class="insight-p">어떤 것이 기준이나 수치 이하일 때 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">His performance was under expectations.</div>
+        <div class="ex-ko">그의 성과는 기대 이하였다. (기대 기준에 미치지 못하는 상태)</div>
+        <div class="ex-en" style="margin-top:12px;">The temperature is under zero degrees.</div>
+        <div class="ex-ko">온도가 영하로 떨어졌다. (온도가 기준인 0도 이하인 상태)</div>
+    </div>
+</div>
+`,
+    "against": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>against</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 against은 <strong>'대립하거나 반대하는 상황에서의 긴장감'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">against의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>against</strong>의 핵심은</p>
+        <div class="quote-text">"저항감 또는 대조적 위치"</div>
+        <p>입니다. 이를 통해 대립이나 반대 관계를 표현합니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (against)</div>
+        <pre>
+  ┌───┐
+  │   │⬅ against
+  └───┘
+        </pre>
+        <div class="ascii-footer">(대립하는 두 대상의 관계를 시각적으로 표현)</div>
+    </div>
+
+    <h2 class="insight-h2">① 대립 관계 (Opposition)</h2>
+    <p class="insight-p">두 대상이 서로 반대되거나 충돌하는 상황을 나타냅니다.</p>
+    <div class="example-group">
+        <div class="ex-en">The team played against their rivals.</div>
+        <div class="ex-ko">그 팀은 라이벌 팀과 맞붙었다. (경쟁하는 두 팀이 대립하고 있음)</div>
+        <div class="ex-en" style="margin-top:12px;">He stood against the new policy.</div>
+        <div class="ex-ko">그는 새로운 정책에 반대했다. (정책에 대한 반대 입장)</div>
+    </div>
+
+    <h2 class="insight-h2">② 배경 또는 대비 (Contrast or Background)</h2>
+    <p class="insight-p">하나의 대상이 다른 것과 대비되어 배경으로 사용될 때 나타냅니다.</p>
+    <div class="example-group">
+        <div class="ex-en">The painting looks beautiful against the white wall.</div>
+        <div class="ex-ko">그 그림은 흰 벽을 배경으로 아름답게 보인다. (흰 벽과의 대비)</div>
+        <div class="ex-en" style="margin-top:12px;">Her dress stood out against the crowd.</div>
+        <div class="ex-ko">그녀의 드레스는 군중 속에서 돋보였다. (군중과의 대조)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 물리적 접촉 또는 저항 (Physical Contact or Resistance)</h2>
+    <p class="insight-p">물리적 접촉이나 힘의 저항을 나타냅니다.</p>
+    <div class="example-group">
+        <div class="ex-en">He leaned against the wall.</div>
+        <div class="ex-ko">그는 벽에 기대었다. (벽에 물리적으로 기대어 있음)</div>
+        <div class="ex-en" style="margin-top:12px;">The boat struggled against the current.</div>
+        <div class="ex-ko">그 배는 물살에 저항하며 나아갔다. (물살에 대한 물리적 저항)</div>
+    </div>
+</div>
+`,
+    "over": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>over</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 over은 <strong>'위치나 상태의 변화를 나타내는 것'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">over의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>over</strong>의 핵심은</p>
+        <div class="quote-text">"넘어서거나 위에 있는 상태"</div>
+        <p>입니다. (어떤 것을 초월하거나 넘는다는 의미를 함축합니다.)</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (over)</div>
+        <pre>
+   _____
+  /     \
+ /       \
+|  over  |
+ \       /
+  \_____/
+        </pre>
+        <div class="ascii-footer">(이 그림은 over의 핵심적 의미를 시각화했습니다.)</div>
+    </div>
+
+    <h2 class="insight-h2">① (위치적 의미의 over + English)</h2>
+    <p class="insight-p">무언가의 위에 있는 상태를 나타냅니다.</p>
+    <div class="example-group">
+        <div class="ex-en">The lamp hangs over the table.</div>
+        <div class="ex-ko">램프가 테이블 위에 매달려 있다. (램프가 테이블의 위쪽에 위치함을 나타냄)</div>
+        <div class="ex-en" style="margin-top:12px;">The cat jumped over the fence.</div>
+        <div class="ex-ko">고양이가 울타리를 넘었다. (고양이가 울타리를 초월하는 움직임을 나타냄)</div>
+    </div>
+
+    <h2 class="insight-h2">② (시간적 의미의 over + English)</h2>
+    <p class="insight-p">시간의 경과를 나타내는 데 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">Over the years, he became more confident.</div>
+        <div class="ex-ko">세월이 흐르면서 그는 더 자신감이 생겼다. (시간이 경과하면서 변화를 나타냄)</div>
+        <div class="ex-en" style="margin-top:12px;">We discussed the project over lunch.</div>
+        <div class="ex-ko">우리는 점심시간 동안 프로젝트에 대해 논의했다. (특정 시간 동안의 활동을 나타냄)</div>
+    </div>
+
+    <h2 class="insight-h2">③ (비교적 의미의 over + English)</h2>
+    <p class="insight-p">어떤 것보다 더 우월하거나 뛰어남을 나타냅니다.</p>
+    <div class="example-group">
+        <div class="ex-en">She chose the red dress over the blue one.</div>
+        <div class="ex-ko">그녀는 파란 드레스보다 빨간 드레스를 선택했다. (빨간 드레스가 더 매력적임을 나타냄)</div>
+        <div class="ex-en" style="margin-top:12px;">He values quality over quantity.</div>
+        <div class="ex-ko">그는 양보다 질을 중시한다. (질이 양보다 더 중요함을 나타냄)</div>
+    </div>
+</div>
+`,
+    "through": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>through</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 through은 <strong>'무언가를 거쳐 통과하는 과정과 그 결과'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">through의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>through</strong>의 핵심은</p>
+        <div class="quote-text">"중간의 장애물이나 경로를 거쳐 나아가는 것"</div>
+        <p>입니다. 이 표현은 종종 물리적, 비유적 이동을 나타냅니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (through)</div>
+        <pre>
+  Start ----> |-----> End
+      (Pathway)
+        </pre>
+        <div class="ascii-footer">(출발지에서 경로를 통해 목적지로의 이동)</div>
+    </div>
+
+    <h2 class="insight-h2">① 물리적 통과 Physical Passage</h2>
+    <p class="insight-p">어떤 물리적 공간이나 장소를 지나가는 것을 표현합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">We walked through the forest.</div>
+        <div class="ex-ko">우리는 숲을 걸어 통과했다. (숲이라는 물리적 공간을 지나감)</div>
+        <div class="ex-en" style="margin-top:12px;">The tunnel goes through the mountain.</div>
+        <div class="ex-ko">터널은 산을 관통한다. (산을 물리적으로 통과하는 경로)</div>
+    </div>
+
+    <h2 class="insight-h2">② 시간의 경과 Passage of Time</h2>
+    <p class="insight-p">시간의 흐름을 통해 무언가가 변화하거나 진행되는 것을 나타냅니다.</p>
+    <div class="example-group">
+        <div class="ex-en">She has matured through the years.</div>
+        <div class="ex-ko">그녀는 세월을 지나며 성숙해졌다. (시간의 흐름을 통해 발전)</div>
+        <div class="ex-en" style="margin-top:12px;">The project evolved through several phases.</div>
+        <div class="ex-ko">프로젝트는 여러 단계를 거치며 발전했다. (시간에 따른 단계적 변화)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 매개를 통한 성취 Achievement Through Means</h2>
+    <p class="insight-p">어떤 수단이나 방법을 통해 목표를 달성하는 것을 의미합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">He succeeded through hard work.</div>
+        <div class="ex-ko">그는 열심히 일한 덕분에 성공했다. (노력을 통한 성취)</div>
+        <div class="ex-en" style="margin-top:12px;">She learned French through practice.</div>
+        <div class="ex-ko">그녀는 연습을 통해 프랑스어를 배웠다. (연습이라는 수단을 통한 학습)</div>
+    </div>
+</div>
+`,
+    "around": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>around</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 around은 <strong>'주변에 있는 것과의 연관성'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">around의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>around</strong>의 핵심은</p>
+        <div class="quote-text">"주변을 돌아다니며 관련된 것들"</div>
+        <p>입니다. 이 표현은 주변에 있는 것들과의 관계를 강조합니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (around)</div>
+        <pre>
+    O
+   /|\
+  / | \ 
+ /  |  \
+O   O   O
+        </pre>
+        <div class="ascii-footer">(중심을 둘러싼 여러 요소)</div>
+    </div>
+
+    <h2 class="insight-h2">① 주변에 있는 (Surroundings)</h2>
+    <p class="insight-p">어떤 장소나 환경을 둘러싼 것들을 의미합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">There are many trees around the house.</div>
+        <div class="ex-ko">집 주변에 많은 나무가 있습니다. (집을 둘러싼 환경을 강조)</div>
+        <div class="ex-en" style="margin-top:12px;">She looked around the room.</div>
+        <div class="ex-ko">그녀는 방을 둘러보았습니다. (방의 모든 것을 살펴보는 것을 의미)</div>
+    </div>
+
+    <h2 class="insight-h2">② 대략적인 (Approximation)</h2>
+    <p class="insight-p">정확하지 않은 수치나 시간을 나타낼 때 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">The project will take around two weeks to complete.</div>
+        <div class="ex-ko">프로젝트는 완료하는 데 대략 2주가 걸릴 것입니다. (정확한 시간보다 대략적인 것을 강조)</div>
+        <div class="ex-en" style="margin-top:12px;">There were around 50 people at the event.</div>
+        <div class="ex-ko">행사에는 대략 50명이 있었습니다. (정확한 숫자보다 대략적인 수를 나타냄)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 돌아다니며 (Moving About)</h2>
+    <p class="insight-p">특정 장소나 주위를 이동하는 것을 표현합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">He wandered around the city all day.</div>
+        <div class="ex-ko">그는 온종일 도시를 돌아다녔습니다. (특정 목적 없이 여기저기 이동하는 것을 의미)</div>
+        <div class="ex-en" style="margin-top:12px;">The dog runs around the yard.</div>
+        <div class="ex-ko">개가 마당을 돌아다닙니다. (마당 이곳저곳을 이동하는 것을 의미)</div>
+    </div>
+</div>
+`,
+    "Over": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>Over</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 Over은 <strong>'위에서 아우르는 감각'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">Over의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>Over</strong>의 핵심은</p>
+        <div class="quote-text">"위에서 덮는 듯한 느낌"</div>
+        <p>입니다. 이 표현은 위치나 상태의 우위를 나타낼 때 자주 사용됩니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (Over)</div>
+        <pre>
+   _____
+  /     \
+ /       \
+|  Over  |
+ \       /
+  \_____/
+        </pre>
+        <div class="ascii-footer">위에서 아래로 덮어지거나 감싸는 이미지</div>
+    </div>
+
+    <h2 class="insight-h2">① 위로 지나감: Above and Beyond</h2>
+    <p class="insight-p">Over는 물리적으로 위를 지나가는 상황을 설명할 때 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">The plane flew over the mountains.</div>
+        <div class="ex-ko">비행기가 산 위로 날아갔다. (비행기가 산의 위를 지나갔다는 의미)</div>
+        <div class="ex-en" style="margin-top:12px;">The cat jumped over the fence.</div>
+        <div class="ex-ko">고양이가 울타리를 뛰어넘었다. (고양이가 울타리의 위를 넘었다는 의미)</div>
+    </div>
+
+    <h2 class="insight-h2">② 종료와 완성: Ending</h2>
+    <p class="insight-p">Over는 어떤 일이 끝나거나 완료되었음을 나타낼 때 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">The meeting is over.</div>
+        <div class="ex-ko">회의가 끝났다. (회의가 완료되었음을 나타냄)</div>
+        <div class="ex-en" style="margin-top:12px;">The game is over now.</div>
+        <div class="ex-ko">게임이 이제 끝났다. (게임이 종료되었음을 나타냄)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 우세와 통제: Dominance</h2>
+    <p class="insight-p">Over는 통제하거나 우위를 점하는 상황을 설명할 때 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">She has control over the project.</div>
+        <div class="ex-ko">그녀는 프로젝트에 대한 통제권을 가지고 있다. (프로젝트에 대한 우위를 가지고 있음을 나타냄)</div>
+        <div class="ex-en" style="margin-top:12px;">He triumphed over his rivals.</div>
+        <div class="ex-ko">그는 경쟁자들에게 승리했다. (경쟁자들에 대한 우위를 점했음을 나타냄)</div>
+    </div>
+</div>
+`,
+    "Through": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>Through</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 Through은 <strong>'경험의 이동과 통과를 나타내는 것'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">Through의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>Through</strong>의 핵심은</p>
+        <div class="quote-text">"경로를 거쳐 나아가는 것"</div>
+        <p>입니다. 이 표현은 무언가를 지나가는 과정을 강조합니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (Through)</div>
+        <pre>
+   [IN] --> [THROUGH] --> [OUT]
+        </pre>
+        <div class="ascii-footer">(어떤 것을 통과하는 과정을 시각화)</div>
+    </div>
+
+    <h2 class="insight-h2">① 경로의 이동 Pathway + English</h2>
+    <p class="insight-p">Through는 물리적 경로를 이동할 때 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">We walked through the forest.</div>
+        <div class="ex-ko">우리는 숲을 걸어 통과했다. (숲이라는 경로를 지나갔음을 강조)</div>
+        <div class="ex-en" style="margin-top:12px;">The train passed through the tunnel.</div>
+        <div class="ex-ko">기차는 터널을 통과했다. (터널을 경유하는 과정을 나타냄)</div>
+    </div>
+
+    <h2 class="insight-h2">② 시간의 흐름 Passage of Time + English</h2>
+    <p class="insight-p">Through는 시간의 흐름이나 과정을 나타낼 때 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">He worked through the night.</div>
+        <div class="ex-ko">그는 밤새 일했다. (밤이라는 시간적 경로를 경험했다는 의미)</div>
+        <div class="ex-en" style="margin-top:12px;">She studied through the summer.</div>
+        <div class="ex-ko">그녀는 여름 내내 공부했다. (여름이라는 시간 동안 지속됨을 강조)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 매체나 방법의 사용 Medium or Means + English</h2>
+    <p class="insight-p">Through는 매체나 방법을 통해 목표를 달성하는 것을 나타냅니다.</p>
+    <div class="example-group">
+        <div class="ex-en">She found out the news through social media.</div>
+        <div class="ex-ko">그녀는 소셜 미디어를 통해 소식을 알게 되었다. (소셜 미디어라는 매개체 사용)</div>
+        <div class="ex-en" style="margin-top:12px;">He succeeded through hard work.</div>
+        <div class="ex-ko">그는 열심히 일한 덕분에 성공했다. (노동이라는 방법을 통해 목표 달성)</div>
+    </div>
+</div>
+`,
+    "Around": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>Around</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 Around은 <strong>'주변을 둘러싸고 있는 느낌'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">Around의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>Around</strong>의 핵심은</p>
+        <div class="quote-text">"포위하거나 둘러싸고 있는 상태"</div>
+        <p>입니다. 이는 사람이나 사물이 주위에 있는 상황을 묘사합니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (Around)</div>
+        <pre>
+     oo
+   o    o
+  o      o
+   o    o
+     oo
+        </pre>
+        <div class="ascii-footer">(중앙을 둘러싸고 있는 모습)</div>
+    </div>
+
+    <h2 class="insight-h2">① 주변에 있는 상태 (Surrounding)</h2>
+    <p class="insight-p">무엇인가 주변에 위치하거나 둘러싸고 있는 상태를 나타냅니다.</p>
+    <div class="example-group">
+        <div class="ex-en">The children gathered around the teacher.</div>
+        <div class="ex-ko">아이들이 선생님 주위에 모였습니다. (선생님을 둘러싸고 있는 상태)</div>
+        <div class="ex-en" style="margin-top:12px;">There are trees all around the house.</div>
+        <div class="ex-ko">집 주위에 나무들이 있습니다. (집을 둘러싸고 있는 나무들)</div>
+    </div>
+
+    <h2 class="insight-h2">② 대략적인 위치나 시간 (Approximate Location or Time)</h2>
+    <p class="insight-p">정확하지 않지만 대략적인 위치나 시간을 표현할 때 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">Let's meet around 3 PM.</div>
+        <div class="ex-ko">오후 3시쯤에 만나자. (정확한 시간보다 대략적인 시간)</div>
+        <div class="ex-en" style="margin-top:12px;">He lives somewhere around here.</div>
+        <div class="ex-ko">그는 이 근처 어딘가에 삽니다. (정확한 위치가 아닌 대략적인 위치)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 여기저기 이동 (Moving Here and There)</h2>
+    <p class="insight-p">여러 장소를 이동하거나 돌아다니는 상황을 표현합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">She walked around the park.</div>
+        <div class="ex-ko">그녀는 공원을 돌아다녔습니다. (공원 여기저기를 걸어 다님)</div>
+        <div class="ex-en" style="margin-top:12px;">They traveled around Europe.</div>
+        <div class="ex-ko">그들은 유럽 전역을 여행했습니다. (유럽 여러 곳을 돌아다님)</div>
+    </div>
+</div>
+`,
+    "on": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>on</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 on은 <strong>'연결과 접촉의 상태를 암시하는 뉘앙스'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">on의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>on</strong>의 핵심은</p>
+        <div class="quote-text">"접촉과 지속적인 연결"</div>
+        <p>입니다. on은 물리적, 시간적 연결을 나타낼 때 사용됩니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (on)</div>
+        <pre>
+  _______
+ |       |
+ |   ■   |  ← on
+ |_______|
+        </pre>
+        <div class="ascii-footer">(위의 물체가 표면에 접촉해 있는 모습)</div>
+    </div>
+
+    <h2 class="insight-h2">① 물리적 접촉 Physical Contact</h2>
+    <p class="insight-p">on은 두 물체가 물리적으로 접촉해 있는 상태를 나타냅니다.</p>
+    <div class="example-group">
+        <div class="ex-en">The book is on the table.</div>
+        <div class="ex-ko">책이 탁자 위에 있다. (책이 탁자와 물리적으로 접촉해 있는 상태)</div>
+        <div class="ex-en" style="margin-top:12px;">There is a stain on your shirt.</div>
+        <div class="ex-ko">네 셔츠에 얼룩이 있다. (얼룩이 셔츠와 접촉해 있는 상태)</div>
+    </div>
+
+    <h2 class="insight-h2">② 시간적 지속 Duration in Time</h2>
+    <p class="insight-p">on은 시간의 지속성을 나타낼 때도 쓰입니다.</p>
+    <div class="example-group">
+        <div class="ex-en">The meeting is on Monday.</div>
+        <div class="ex-ko">회의는 월요일에 있다. (월요일이라는 시간과의 연결)</div>
+        <div class="ex-en" style="margin-top:12px;">I work on weekdays.</div>
+        <div class="ex-ko">나는 주중에 일한다. (주중이라는 시간의 지속성)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 상태의 지속 Continuation of State</h2>
+    <p class="insight-p">on은 특정 상태가 계속됨을 표현할 때 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">The light is on.</div>
+        <div class="ex-ko">불이 켜져 있다. (불이 켜진 상태가 지속됨)</div>
+        <div class="ex-en" style="margin-top:12px;">The radio is on.</div>
+        <div class="ex-ko">라디오가 켜져 있다. (라디오가 작동 중인 상태)</div>
+    </div>
+</div>
+`,
+    "in": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>in</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 in은 <strong>'내부에 위치하거나 포함됨'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">in의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>in</strong>의 핵심은</p>
+        <div class="quote-text">"내부 공간에 있는 상태"</div>
+        <p>입니다. 이는 물리적 또는 추상적 공간을 포함합니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (in)</div>
+        <pre>
+  +-----+
+  |  in  |
+  +-----+
+  (   )
+        </pre>
+        <div class="ascii-footer">무언가가 내부에 있음</div>
+    </div>
+
+    <h2 class="insight-h2">① 포함됨 + Inclusion</h2>
+    <p class="insight-p">어떤 것이 다른 것의 일부로 포함되어 있을 때 사용합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">She is in the team.</div>
+        <div class="ex-ko">그녀는 팀에 포함되어 있다. (팀의 일원으로 포함됨을 나타냄)</div>
+        <div class="ex-en" style="margin-top:12px;">There are apples in the basket.</div>
+        <div class="ex-ko">바구니 안에 사과가 있다. (바구니 내부에 사과가 있음)</div>
+    </div>
+
+    <h2 class="insight-h2">② 상태 + State</h2>
+    <p class="insight-p">어떤 상태나 조건에 있을 때 사용합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">He is in trouble.</div>
+        <div class="ex-ko">그는 곤경에 처해 있다. (곤경이라는 상태에 있음)</div>
+        <div class="ex-en" style="margin-top:12px;">The house is in good condition.</div>
+        <div class="ex-ko">그 집은 좋은 상태이다. (좋은 상태에 놓여 있음)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 시간 + Time</h2>
+    <p class="insight-p">특정 시간 안에 일어나는 것을 나타냅니다.</p>
+    <div class="example-group">
+        <div class="ex-en">The meeting is in an hour.</div>
+        <div class="ex-ko">회의는 한 시간 후에 있다. (한 시간 내에 시작됨)</div>
+        <div class="ex-en" style="margin-top:12px;">I will finish in two days.</div>
+        <div class="ex-ko">나는 이틀 안에 끝낼 것이다. (이틀 내에 완료됨)</div>
+    </div>
+</div>
+`,
+    "at": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>at</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 at은 <strong>'정확한 지점 또는 위치를 가리키는 핵심적인 표현'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">at의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>at</strong>의 핵심은</p>
+        <div class="quote-text">"정확한 지점에 대한 집중"</div>
+        <p>입니다. (특정 지점이나 순간을 가리킬 때 사용됩니다.)</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (at)</div>
+        <pre>
+  (*)
+   |
+---+---
+   |
+        </pre>
+        <div class="ascii-footer">(특정 지점을 가리키는 느낌)</div>
+    </div>
+
+    <h2 class="insight-h2">① 장소의 정확한 지점 (Exact Point in Place)</h2>
+    <p class="insight-p">at은 장소의 특정한 지점을 가리킬 때 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">She is at the door.</div>
+        <div class="ex-ko">그녀는 문에 있다. (문이라는 특정한 지점을 가리킴)</div>
+        <div class="ex-en" style="margin-top:12px;">He is waiting at the station.</div>
+        <div class="ex-ko">그는 역에서 기다리고 있다. (역이라는 특정한 지점을 가리킴)</div>
+    </div>
+
+    <h2 class="insight-h2">② 시간의 특정 순간 (Specific Moment in Time)</h2>
+    <p class="insight-p">at은 특정한 시간을 가리킬 때 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">The meeting starts at 3 PM.</div>
+        <div class="ex-ko">회의는 오후 3시에 시작한다. (3시라는 특정한 시간을 가리킴)</div>
+        <div class="ex-en" style="margin-top:12px;">We will meet at noon.</div>
+        <div class="ex-ko">우리는 정오에 만날 것이다. (정오라는 특정한 시간을 가리킴)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 사건의 특정 지점 (Specific Point in an Event)</h2>
+    <p class="insight-p">at은 사건이나 활동의 특정한 지점을 가리킬 때 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">She laughed at his joke.</div>
+        <div class="ex-ko">그녀는 그의 농담에 웃었다. (농담이라는 특정한 사건의 지점을 가리킴)</div>
+        <div class="ex-en" style="margin-top:12px;">He excelled at the competition.</div>
+        <div class="ex-ko">그는 대회에서 뛰어났다. (대회라는 특정한 사건의 지점을 가리킴)</div>
+    </div>
+</div>
+`,
+    "Across": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>Across</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 Across은 <strong>'이 표현의 가장 핵심적인 원어민 뉘앙스 요약'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">Across의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>Across</strong>의 핵심은</p>
+        <div class="quote-text">"경계를 넘어 확장되는 느낌"</div>
+        <p>입니다. 이는 두 지점 사이를 연결하거나 가로지르는 이미지를 전달합니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (Across)</div>
+        <pre>
+    ----->---->
+   |        |
+   A        B
+   |        |
+    ----->---->
+        </pre>
+        <div class="ascii-footer">(두 지점 사이를 가로지르는 이미지)</div>
+    </div>
+
+    <h2 class="insight-h2">① 가로질러 가는 느낌 (Crossing Over)</h2>
+    <p class="insight-p">Across는 한 지점을 지나 다른 지점으로 가는 이동의 느낌을 줍니다.</p>
+    <div class="example-group">
+        <div class="ex-en">She walked across the street.</div>
+        <div class="ex-ko">그녀는 길을 건넜다. (길이라는 경계를 가로질러 이동하는 느낌)</div>
+        <div class="ex-en" style="margin-top:12px;">The bridge stretches across the river.</div>
+        <div class="ex-ko">다리가 강을 가로질러 있다. (다리가 강의 양쪽을 연결하는 느낌)</div>
+    </div>
+
+    <h2 class="insight-h2">② 전체에 걸쳐 있는 느낌 (Spanning Over)</h2>
+    <p class="insight-p">Across는 특정 영역이나 전체 범위를 아우르는 느낌을 줍니다.</p>
+    <div class="example-group">
+        <div class="ex-en">The news spread quickly across the country.</div>
+        <div class="ex-ko">뉴스가 전국적으로 빠르게 퍼졌다. (나라 전체를 아우르는 느낌)</div>
+        <div class="ex-en" style="margin-top:12px;">She has friends across the globe.</div>
+        <div class="ex-ko">그녀는 전 세계에 친구가 있다. (지구 전체를 아우르는 느낌)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 반대편에 있는 느낌 (Opposite Side)</h2>
+    <p class="insight-p">Across는 어떤 위치의 반대편에 있는 느낌을 전달할 수 있습니다.</p>
+    <div class="example-group">
+        <div class="ex-en">The bakery is across the street from the library.</div>
+        <div class="ex-ko">빵집은 도서관 맞은편에 있다. (길을 사이에 두고 반대편에 위치한 느낌)</div>
+        <div class="ex-en" style="margin-top:12px;">He sat across from me at the table.</div>
+        <div class="ex-ko">그는 테이블에서 내 맞은편에 앉았다. (테이블을 두고 반대편에 위치한 느낌)</div>
+    </div>
+</div>
+`,
+    "up": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>up</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 up은 <strong>'상승과 완성의 상태'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">up의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>up</strong>의 핵심은</p>
+        <div class="quote-text">"상승 또는 완성"</div>
+        <p>입니다. 이는 물리적, 비유적으로 무언가의 상태가 나아지는 것을 의미합니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (up)</div>
+        <pre>
+   |
+   |
+  /\
+ /  \
+/    \
+        </pre>
+        <div class="ascii-footer">상승과 완성의 방향성을 나타냅니다.</div>
+    </div>
+
+    <h2 class="insight-h2">① 상승 또는 향상 (Elevation or Improvement)</h2>
+    <p class="insight-p">무언가가 위로 올라가거나 개선되는 것을 의미합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">She moved up to a higher position at work.</div>
+        <div class="ex-ko">그녀는 직장에서 더 높은 위치로 승진했다. (위로 올라가는 상승의 뉘앙스)</div>
+        <div class="ex-en" style="margin-top:12px;">The stock prices went up significantly.</div>
+        <div class="ex-ko">주가가 상당히 올랐다. (가격이 상승하는 뉘앙스)</div>
+    </div>
+
+    <h2 class="insight-h2">② 준비 완료 또는 끝남 (Completion or Readiness)</h2>
+    <p class="insight-p">어떤 일이 끝났거나 준비가 되었음을 나타냅니다.</p>
+    <div class="example-group">
+        <div class="ex-en">The setup is all done, you're ready to go.</div>
+        <div class="ex-ko">설치가 모두 끝났으니, 이제 시작할 준비가 됐습니다. (완성의 뉘앙스)</div>
+        <div class="ex-en" style="margin-top:12px;">The time is up, please stop writing.</div>
+        <div class="ex-ko">시간이 다 됐으니, 필기를 멈춰 주세요. (시간이 끝났다는 뉘앙스)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 방향성과 위치 (Direction and Position)</h2>
+    <p class="insight-p">위치를 위쪽으로 이동하거나 특정 방향을 나타냅니다.</p>
+    <div class="example-group">
+        <div class="ex-en">Lift your chin up for the photo.</div>
+        <div class="ex-ko">사진을 위해 턱을 위로 올리세요. (위쪽 방향의 뉘앙스)</div>
+        <div class="ex-en" style="margin-top:12px;">The balloon floated up into the sky.</div>
+        <div class="ex-ko">풍선이 하늘로 떠올랐다. (위로 올라가는 방향의 뉘앙스)</div>
+    </div>
+</div>
+`,
+    "down": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>down</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 down은 <strong>'방향성과 상태의 변화'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">down의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>down</strong>의 핵심은</p>
+        <div class="quote-text">"위에서 아래로 가는 움직임"</div>
+        <p>입니다. (이 표현은 물리적 뿐만 아니라 심리적, 상황적 하락을 나타낼 수 있습니다.)</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (down)</div>
+        <pre>
+   |
+   |
+   V
+(아래로 내려가는 화살표)
+        </pre>
+        <div class="ascii-footer">(down의 방향성을 시각적으로 표현)</div>
+    </div>
+
+    <h2 class="insight-h2">① 물리적 방향성 (Physical Direction)</h2>
+    <p class="insight-p">물리적으로 위에서 아래로 움직이는 것을 나타냅니다.</p>
+    <div class="example-group">
+        <div class="ex-en">The ball rolled down the hill.</div>
+        <div class="ex-ko">공이 언덕 아래로 굴러갔다. (공의 물리적 방향이 위에서 아래로 향하고 있음)</div>
+        <div class="ex-en" style="margin-top:12px;">She looked down from the balcony.</div>
+        <div class="ex-ko">그녀는 발코니에서 아래를 내려다보았다. (시선이 위에서 아래로 향하고 있음)</div>
+    </div>
+
+    <h2 class="insight-h2">② 상태의 변화 (State Change)</h2>
+    <p class="insight-p">상태가 감소하거나 악화되는 상황을 나타냅니다.</p>
+    <div class="example-group">
+        <div class="ex-en">His health went down after the illness.</div>
+        <div class="ex-ko">그의 건강은 병 이후로 악화되었다. (건강 상태의 하락을 나타냄)</div>
+        <div class="ex-en" style="margin-top:12px;">The stock prices went down yesterday.</div>
+        <div class="ex-ko">어제 주가가 하락했다. (주가가 떨어짐을 나타냄)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 감정적 상태 (Emotional State)</h2>
+    <p class="insight-p">기분이 좋지 않거나 우울한 상태를 표현합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">I've been feeling down lately.</div>
+        <div class="ex-ko">나는 최근에 기분이 좋지 않다. (감정적 상태가 좋지 않음을 의미)</div>
+        <div class="ex-en" style="margin-top:12px;">She seemed down after hearing the news.</div>
+        <div class="ex-ko">그녀는 소식을 듣고 기분이 가라앉은 것 같았다. (감정의 하락을 나타냄)</div>
+    </div>
+</div>
+`,
+    "leverage": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>leverage</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 leverage은 <strong>'효과적으로 자원을 활용하여 이점이나 목표를 달성하는 것'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">leverage의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>leverage</strong>의 핵심은</p>
+        <div class="quote-text">"적은 노력으로 큰 결과를 얻는 능력"</div>
+        <p>입니다. (이는 최소한의 자원으로 최대한의 효과를 얻는 것을 뜻합니다)</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (leverage)</div>
+        <pre>
+    _______
+---|       |---
+   |   O   |
+    -------
+        </pre>
+        <div class="ascii-footer">(지렛대를 사용하여 무거운 물체를 움직이는 모습)</div>
+    </div>
+
+    <h2 class="insight-h2">① 자원을 활용한 이점 (Using Resources to Gain Advantage)</h2>
+    <p class="insight-p">leverage는 자원을 활용하여 이점이나 목표를 달성하는 것을 의미합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">She used her experience to leverage a higher salary in her new job.</div>
+        <div class="ex-ko">그녀는 자신의 경험을 이용하여 새 직장에서 더 높은 급여를 얻었습니다. (경험을 자원으로 사용하여 이점을 얻음)</div>
+        <div class="ex-en" style="margin-top:12px;">By leveraging their network, they expanded the business rapidly.</div>
+        <div class="ex-ko">그들은 네트워크를 활용하여 사업을 빠르게 확장했습니다. (네트워크를 자원으로 사용하여 이점을 얻음)</div>
+    </div>
+
+    <h2 class="insight-h2">② 영향력 확대 (Expanding Influence)</h2>
+    <p class="insight-p">leverage는 기존의 영향력을 확대하는 데 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">The company leveraged its brand to enter new markets.</div>
+        <div class="ex-ko">그 회사는 브랜드를 활용하여 새로운 시장에 진출했습니다. (브랜드의 영향력을 확대함)</div>
+        <div class="ex-en" style="margin-top:12px;">He leveraged his connections to gain political support.</div>
+        <div class="ex-ko">그는 자신의 인맥을 활용하여 정치적 지지를 얻었습니다. (인맥을 통해 영향력을 확대함)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 위험과 보상의 균형 (Balancing Risk and Reward)</h2>
+    <p class="insight-p">leverage는 종종 위험과 보상을 균형 있게 조정하는 것을 수반합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">Investors often leverage their assets to increase potential returns.</div>
+        <div class="ex-ko">투자자들은 종종 자산을 활용하여 잠재적 수익을 늘립니다. (위험을 감수하고 보상을 극대화함)</div>
+        <div class="ex-en" style="margin-top:12px;">By leveraging debt, the company aims to grow faster.</div>
+        <div class="ex-ko">회사는 부채를 활용하여 더 빠르게 성장하려고 합니다. (위험을 감수하면서 보상을 추구함)</div>
+    </div>
+</div>
+`,
+    "articulate": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>articulate</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 articulate은 <strong>'명료하게 표현하는 능력'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">articulate의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>articulate</strong>의 핵심은</p>
+        <div class="quote-text">"명확하고 유창하게 표현하기"</div>
+        <p>입니다. 이는 복잡한 생각을 명료하게 전달하는 능력을 강조합니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (articulate)</div>
+        <pre>
++------------+
+|  Clear     |
+|  Expression|
++------------+
+        </pre>
+        <div class="ascii-footer">(명확한 표현의 틀을 상징합니다)</div>
+    </div>
+
+    <h2 class="insight-h2">① 명료하게 설명하다 (Explain Clearly)</h2>
+    <p class="insight-p">상대방이 이해할 수 있도록 명확하게 설명하는 능력을 뜻합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">She was able to articulate her ideas during the meeting.</div>
+        <div class="ex-ko">그녀는 회의에서 자신의 아이디어를 명확하게 설명할 수 있었습니다. (복잡한 아이디어를 명확하게 전달하는 뉘앙스)</div>
+        <div class="ex-en" style="margin-top:12px;">He struggled to articulate his thoughts under pressure.</div>
+        <div class="ex-ko">그는 압박 속에서 자신의 생각을 명료하게 표현하는 데 어려움을 겪었습니다. (압박 속에서도 명료함을 유지하려는 노력의 뉘앙스)</div>
+    </div>
+
+    <h2 class="insight-h2">② 발음이 정확하다 (Pronounce Clearly)</h2>
+    <p class="insight-p">단어와 문장을 정확하고 명확하게 발음하는 능력을 의미합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">The teacher asked the students to articulate every syllable.</div>
+        <div class="ex-ko">선생님은 학생들에게 모든 음절을 정확하게 발음하라고 요청했습니다. (정확한 발음을 중시하는 뉘앙스)</div>
+        <div class="ex-en" style="margin-top:12px;">He articulated each word with precision.</div>
+        <div class="ex-ko">그는 각 단어를 정확하게 발음했습니다. (정확성을 강조하는 발음의 뉘앙스)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 명백히 표현하다 (Express Clearly)</h2>
+    <p class="insight-p">자신의 감정이나 생각을 명백히 드러내는 것을 뜻합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">She articulated her dissatisfaction with the decision.</div>
+        <div class="ex-ko">그녀는 그 결정에 대한 불만을 명백히 표현했습니다. (감정을 숨기지 않고 드러내는 뉘앙스)</div>
+        <div class="ex-en" style="margin-top:12px;">He is known for his ability to articulate complex emotions.</div>
+        <div class="ex-ko">그는 복잡한 감정을 명확하게 표현하는 능력으로 유명합니다. (복잡한 감정도 명료하게 드러내는 능력의 뉘앙스)</div>
+    </div>
+</div>
+`,
+    "milestone": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>milestone</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 milestone은 <strong>'중요한 이정표 또는 성취의 순간'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">milestone의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>milestone</strong>의 핵심은</p>
+        <div class="quote-text">"성취의 이정표"</div>
+        <p>입니다. 이는 주로 목표나 과정에서 중요한 단계로 사용됩니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (milestone)</div>
+        <pre>
+    ________
+   |        |
+   |   *    |
+   | MILE   |
+   | STONE  |
+   |________|
+        </pre>
+        <div class="ascii-footer">여기가 중요한 순간이나 성취 지점을 나타냅니다.</div>
+    </div>
+
+    <h2 class="insight-h2">① 중요한 성취의 상징 Symbol of Significant Achievement</h2>
+    <p class="insight-p">밀스톤은 목표 달성을 위한 중요한 성취를 상징합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">Graduating from college was a significant milestone in her life.</div>
+        <div class="ex-ko">대학 졸업은 그녀의 인생에서 중요한 이정표였습니다. (중요한 성취를 나타냄)</div>
+        <div class="ex-en" style="margin-top:12px;">The launch of the new product was a milestone for the company.</div>
+        <div class="ex-ko">신제품 출시가 회사에 중요한 이정표였습니다. (중요한 진전을 나타냄)</div>
+    </div>
+
+    <h2 class="insight-h2">② 과정의 전환점 Turning Point in a Process</h2>
+    <p class="insight-p">밀스톤은 프로젝트나 과정의 중요한 전환점을 나타냅니다.</p>
+    <div class="example-group">
+        <div class="ex-en">The discovery of penicillin was a milestone in medical history.</div>
+        <div class="ex-ko">페니실린의 발견은 의학 역사에서 중요한 전환점이었습니다. (과정의 큰 변화를 의미)</div>
+        <div class="ex-en" style="margin-top:12px;">Reaching the halfway mark is a major milestone in the marathon.</div>
+        <div class="ex-ko">마라톤에서 절반을 넘는 것은 큰 전환점입니다. (과정의 중요한 지점)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 목표를 향한 진행 Progress Towards a Goal</h2>
+    <p class="insight-p">밀스톤은 장기적 목표로 향하는 중요한 지점입니다.</p>
+    <div class="example-group">
+        <div class="ex-en">Completing the first draft was a milestone in writing her novel.</div>
+        <div class="ex-ko">첫 번째 초안을 완성하는 것은 소설 쓰기의 중요한 지점이었습니다. (목표 진행의 중요한 지점)</div>
+        <div class="ex-en" style="margin-top:12px;">Securing the first investor is a milestone in starting a business.</div>
+        <div class="ex-ko">첫 번째 투자자를 확보하는 것은 사업 시작에서 중요한 단계입니다. (목표를 향한 중요한 진전)</div>
+    </div>
+</div>
+`,
+    "network": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>network</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 network은 <strong>'연결과 상호작용의 복잡한 시스템'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">network의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>network</strong>의 핵심은</p>
+        <div class="quote-text">"상호 연결된 시스템"</div>
+        <p>입니다. 네트워크는 정보나 자원을 공유하는 다수의 연결을 나타냅니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (network)</div>
+        <pre>
+          O---O---O
+         / \ / \ / \
+        O---O---O---O
+         \ / \ / \ /
+          O---O---O
+        </pre>
+        <div class="ascii-footer">(여러 개체들이 서로 연결된 모습을 나타냅니다)</div>
+    </div>
+
+    <h2 class="insight-h2">① 사회적 연결망 (Social Network)</h2>
+    <p class="insight-p">네트워크는 사람들 간의 관계와 상호작용을 강조합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">She built a strong network to advance her career.</div>
+        <div class="ex-ko">그녀는 경력을 쌓기 위해 강력한 네트워크를 구축했습니다. (사람들 간의 연결과 지원을 강조)</div>
+        <div class="ex-en" style="margin-top:12px;">John's social network helped him find a new job quickly.</div>
+        <div class="ex-ko">존의 사회적 네트워크는 그가 빠르게 새 직장을 찾는 데 도움을 주었습니다. (인맥의 중요성을 나타냄)</div>
+    </div>
+
+    <h2 class="insight-h2">② 컴퓨터 네트워크 (Computer Network)</h2>
+    <p class="insight-p">네트워크는 컴퓨터 시스템 간의 데이터 교환을 가능하게 합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">The office network crashed due to a power outage.</div>
+        <div class="ex-ko">정전으로 인해 사무실 네트워크가 다운되었습니다. (기술 시스템의 연결과 의존성을 강조)</div>
+        <div class="ex-en" style="margin-top:12px;">Our network allows for seamless communication between departments.</div>
+        <div class="ex-ko">우리의 네트워크는 부서 간의 원활한 소통을 가능하게 합니다. (정보 전달의 원활함을 강조)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 자연의 네트워크 (Network in Nature)</h2>
+    <p class="insight-p">네트워크는 자연계의 유기적 연결을 설명하는 데 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">The forest is a complex network of plants and animals.</div>
+        <div class="ex-ko">숲은 식물과 동물의 복잡한 네트워크입니다. (자연계의 상호 연결성을 강조)</div>
+        <div class="ex-en" style="margin-top:12px;">River networks sustain diverse ecosystems across the region.</div>
+        <div class="ex-ko">강 네트워크는 지역 전반에 걸쳐 다양한 생태계를 유지합니다. (자연의 생태적 연결을 강조)</div>
+    </div>
+</div>
+`,
+    "negotiate": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>negotiate</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 negotiate은 <strong>'상호 이익을 위한 조정과 절충의 과정'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">negotiate의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>negotiate</strong>의 핵심은</p>
+        <div class="quote-text">"상호 이익을 위한 합의점 찾기"</div>
+        <p>입니다. 이는 양측의 요구를 고려하여 최적의 해결책을 찾는 과정입니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (negotiate)</div>
+        <pre>
+  +---------+
+  |         |
+  |  GIVE   |
+  |  & TAKE |
+  |         |
+  +---------+
+        </pre>
+        <div class="ascii-footer">(양측의 요구를 조율하는 과정)</div>
+    </div>
+
+    <h2 class="insight-h2">① 협상 + Negotiation</h2>
+    <p class="insight-p">이 표현은 주로 협상 테이블에서 양측이 합의점을 찾으려는 상황에서 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">The two companies negotiated a merger agreement.</div>
+        <div class="ex-ko">두 회사는 합병 계약을 협상했다. (양측 이익을 고려하여 최적의 합의점을 찾는 과정)</div>
+        <div class="ex-en" style="margin-top:12px;">They negotiated for higher salaries with the management.</div>
+        <div class="ex-ko">그들은 경영진과 더 높은 급여를 위해 협상했다. (급여 인상을 위한 상호 조정 과정)</div>
+    </div>
+
+    <h2 class="insight-h2">② 극복 + Overcome</h2>
+    <p class="insight-p">때로는 어려운 상황을 극복하거나 장애물을 통과하는 의미로 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">The hikers negotiated the steep trail with caution.</div>
+        <div class="ex-ko">등산객들은 가파른 산길을 조심스럽게 지나갔다. (어려운 길을 극복하며 지나가는 과정)</div>
+        <div class="ex-en" style="margin-top:12px;">She negotiated the contract's terms despite the challenges.</div>
+        <div class="ex-ko">그녀는 도전에도 불구하고 계약 조건을 극복했다. (장애물을 넘어서 계약 조건을 해결)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 조정 + Adjust</h2>
+    <p class="insight-p">정해진 조건이나 상황을 조정하거나 맞추는 과정에서 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">We need to negotiate the schedule to fit everyone's needs.</div>
+        <div class="ex-ko">우리는 모두의 필요에 맞도록 일정을 조정해야 한다. (서로 다른 요구를 맞추는 과정)</div>
+        <div class="ex-en" style="margin-top:12px;">She negotiated her role in the project to manage her workload better.</div>
+        <div class="ex-ko">그녀는 업무량을 더 잘 관리하기 위해 프로젝트에서 자신의 역할을 조정했다. (개인적 필요에 맞춰 역할을 조정)</div>
+    </div>
+</div>
+`,
+    "present": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>present</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 present은 <strong>'현재의 순간을 강조하는 것'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">present의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>present</strong>의 핵심은</p>
+        <div class="quote-text">"지금 이 순간의 강조"</div>
+        <p>입니다. 이는 현재를 명확하게 인식하고 있다는 것을 나타냅니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (present)</div>
+        <pre>
+      _____
+     | NOW |
+     |_____| 
+    </pre>
+        <div class="ascii-footer">(현재에 집중하고 있음을 시각적으로 표현)</div>
+    </div>
+
+    <h2 class="insight-h2">① 현재 시점 강조 (Emphasis on Current Time)</h2>
+    <p class="insight-p">현재의 순간을 강조할 때 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">I am present in the meeting.</div>
+        <div class="ex-ko">나는 회의에 참석해 있습니다. (현재 회의에 집중하고 있음을 강조)</div>
+        <div class="ex-en" style="margin-top:12px;">She is present in this moment, fully engaged.</div>
+        <div class="ex-ko">그녀는 이 순간에 완전히 몰입해 있습니다. (지금 이 순간에 집중하고 있음을 나타냄)</div>
+    </div>
+
+    <h2 class="insight-h2">② 존재의 확인 (Confirmation of Presence)</h2>
+    <p class="insight-p">어떤 장소나 상황에 존재함을 확인할 때 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">All members were present at the event.</div>
+        <div class="ex-ko">모든 구성원이 행사에 참석했습니다. (행사에 실제로 참석했음을 확인)</div>
+        <div class="ex-en" style="margin-top:12px;">The teacher took attendance to check who was present.</div>
+        <div class="ex-ko">선생님은 출석을 확인하여 누가 참석했는지 확인했습니다. (참석 여부를 확인)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 선물의 의미 (Meaning of Gift)</h2>
+    <p class="insight-p">'present'는 '선물'이라는 의미로도 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">He gave her a beautiful present for her birthday.</div>
+        <div class="ex-ko">그는 그녀의 생일에 아름다운 선물을 주었습니다. (선물이라는 의미로 사용)</div>
+        <div class="ex-en" style="margin-top:12px;">The present was wrapped in a shiny paper.</div>
+        <div class="ex-ko">선물은 반짝이는 종이로 포장되었습니다. (물리적 선물로서의 의미)</div>
+    </div>
+</div>
+`,
+    "negotiation": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>negotiation</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 negotiation은 <strong>'상호 이익을 위한 협상 과정'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">negotiation의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>negotiation</strong>의 핵심은</p>
+        <div class="quote-text">"서로 다른 입장을 조율하는 과정"</div>
+        <p>입니다. 이를 통해 새로운 합의를 도출합니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (negotiation)</div>
+        <pre>
+  +---------+
+  |  의견1  |
+  +----+----+
+       |
+       v
+  +----+----+
+  | 협상 테이블 |
+  +----+----+
+       |
+       v
+  +---------+
+  |  결과   |
+  +---------+
+        </pre>
+        <div class="ascii-footer">서로의 입장을 조율하여 결과를 도출하는 과정</div>
+    </div>
+
+    <h2 class="insight-h2">① 합의 도출 과정 (Agreement Process)</h2>
+    <p class="insight-p">negotiation은 주로 양측이 서로의 요구를 조율하여 합의를 도출하는 과정입니다.</p>
+    <div class="example-group">
+        <div class="ex-en">The negotiation between the two companies led to a beneficial agreement.</div>
+        <div class="ex-ko">두 회사 간의 협상은 상호 이익이 되는 합의로 이어졌습니다. (서로의 이익을 고려하여 조율)</div>
+        <div class="ex-en" style="margin-top:12px;">They reached a negotiation after several rounds of discussion.</div>
+        <div class="ex-ko">그들은 여러 차례의 논의 끝에 협상에 도달했습니다. (상호 조율의 결과)</div>
+    </div>
+
+    <h2 class="insight-h2">② 타협과 협력 (Compromise and Cooperation)</h2>
+    <p class="insight-p">negotiation은 각자의 입장에서 타협과 협력을 통해 문제를 해결합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">Successful negotiation requires both parties to be willing to compromise.</div>
+        <div class="ex-ko">성공적인 협상은 양측이 기꺼이 타협하려는 의지가 필요합니다. (타협의 중요성)</div>
+        <div class="ex-en" style="margin-top:12px;">Negotiation is about finding a middle ground.</div>
+        <div class="ex-ko">협상은 중간 지점을 찾는 것입니다. (상호 양보와 협력)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 전략적 대화 (Strategic Dialogue)</h2>
+    <p class="insight-p">negotiation은 전략적 대화를 통해 최선의 결과를 도출하려는 과정입니다.</p>
+    <div class="example-group">
+        <div class="ex-en">The team's negotiation strategy was to focus on long-term benefits.</div>
+        <div class="ex-ko">팀의 협상 전략은 장기적인 이익에 초점을 맞추는 것이었습니다. (전략적 접근)</div>
+        <div class="ex-en" style="margin-top:12px;">Negotiation involves understanding the other party's needs and goals.</div>
+        <div class="ex-ko">협상은 상대방의 필요와 목표를 이해하는 것을 포함합니다. (상대방 이해와 전략)</div>
+    </div>
+</div>
+`,
+    "leadership": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>leadership</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 leadership은 <strong>'책임감과 방향성을 제시하는 능력'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">leadership의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>leadership</strong>의 핵심은</p>
+        <div class="quote-text">"사람들을 이끄는 힘과 비전"</div>
+        <p>입니다. 리더는 목표를 설정하고 그 방향으로 팀을 이끄는 역할을 합니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (leadership)</div>
+        <pre>
+   _______
+  |       |
+  |  L->  |
+  |_______|
+    </pre>
+        <div class="ascii-footer">(리더가 방향을 제시하는 모습을 형상화)</div>
+    </div>
+
+    <h2 class="insight-h2">① 리더십의 책임감 (Responsibility in Leadership)</h2>
+    <p class="insight-p">리더십은 팀의 성패에 대한 책임을 지는 것을 포함합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">"Her leadership ensured the project's success."</div>
+        <div class="ex-ko">"그녀의 리더십 덕분에 프로젝트가 성공했습니다." (리더가 프로젝트 성공을 책임짐)</div>
+        <div class="ex-en" style="margin-top:12px;">"Leadership means being accountable for your team's results."</div>
+        <div class="ex-ko">"리더십은 팀의 결과에 책임을 지는 것을 의미합니다." (책임감이 리더십의 핵심 요소)</div>
+    </div>
+
+    <h2 class="insight-h2">② 비전 제시 (Vision Setting)</h2>
+    <p class="insight-p">리더십은 명확한 비전을 설정하고 이를 공유하는 것을 의미합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">"Under his leadership, the company pursued a new vision."</div>
+        <div class="ex-ko">"그의 리더십 아래 회사는 새로운 비전을 추구했습니다." (비전을 제시하고 이를 따름)</div>
+        <div class="ex-en" style="margin-top:12px;">"Leadership involves guiding others towards a shared vision."</div>
+        <div class="ex-ko">"리더십은 공동의 비전을 향해 다른 사람들을 이끄는 것을 포함합니다." (비전을 통해 방향 제시)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 팀원 동기부여 (Motivating Team Members)</h2>
+    <p class="insight-p">리더십은 팀원들에게 동기를 부여하고 그들의 성장을 돕는 역할을 합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">"Effective leadership inspires team members to excel."</div>
+        <div class="ex-ko">"효과적인 리더십은 팀원들이 탁월함을 발휘하도록 영감을 줍니다." (동기부여의 중요성)</div>
+        <div class="ex-en" style="margin-top:12px;">"Good leadership boosts team morale and productivity."</div>
+        <div class="ex-ko">"좋은 리더십은 팀 사기와 생산성을 높입니다." (팀원들의 동기와 성과 향상)</div>
+    </div>
+</div>
+`,
+    "communication": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>communication</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 communication은 <strong>'생각과 정보를 교환하는 과정'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">communication의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>communication</strong>의 핵심은</p>
+        <div class="quote-text">"상호 연결과 이해의 다리"</div>
+        <p>입니다. 사람들 사이의 이해를 돕는 다리 역할을 합니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (communication)</div>
+        <pre>
+  ------
+ /      \
+|  📧   | 
+ \______/
+  /    \
+ (교환)
+        </pre>
+        <div class="ascii-footer">(메시지 교환의 상징적 이미지)</div>
+    </div>
+
+    <h2 class="insight-h2">① 정보 전달의 과정</h2>
+    <p class="insight-p">communication은 정보를 효과적으로 전달하는 과정을 뜻합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">Good communication is key to a successful project.</div>
+        <div class="ex-ko">좋은 의사소통은 성공적인 프로젝트의 열쇠입니다. (정보를 효과적으로 전달하는 중요성)</div>
+        <div class="ex-en" style="margin-top:12px;">The communication between departments improved.</div>
+        <div class="ex-ko">부서 간 의사소통이 개선되었습니다. (정보 흐름이 원활해졌음을 의미)</div>
+    </div>
+
+    <h2 class="insight-h2">② 상호 이해와 교환</h2>
+    <p class="insight-p">communication은 상호 이해와 의견 교환을 강조합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">Communication helps in building relationships.</div>
+        <div class="ex-ko">의사소통은 관계 구축에 도움이 됩니다. (상호 이해를 통해 관계를 형성)</div>
+        <div class="ex-en" style="margin-top:12px;">Through communication, we resolve conflicts.</div>
+        <div class="ex-ko">의사소통을 통해 우리는 갈등을 해결합니다. (의견 교환으로 문제 해결)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 다양한 형태의 표현</h2>
+    <p class="insight-p">communication은 말, 글, 비언어적 신호 등 다양한 형태로 이루어집니다.</p>
+    <div class="example-group">
+        <div class="ex-en">Non-verbal communication can be just as powerful.</div>
+        <div class="ex-ko">비언어적 의사소통도 강력할 수 있습니다. (말 외의 다양한 표현 방식)</div>
+        <div class="ex-en" style="margin-top:12px;">Written communication is essential in business.</div>
+        <div class="ex-ko">비즈니스에서 서면 의사소통은 필수적입니다. (글을 통한 정보 전달의 중요성)</div>
+    </div>
+</div>
+`,
+    "Clarify": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>Clarify</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 Clarify은 <strong>'이 표현의 가장 핵심적인 원어민 뉘앙스 요약'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">Clarify의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>Clarify</strong>의 핵심은</p>
+        <div class="quote-text">"가장 짧고 강렬한 본질적 의미"</div>
+        <p>입니다. 모호한 것을 명료하게 만드는 과정입니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (Clarify)</div>
+        <pre>
+  ______
+ /      \
+|  명확  |
+ \______/
+        </pre>
+        <div class="ascii-footer">혼란에서 명확함으로 이동하는 과정</div>
+    </div>
+
+    <h2 class="insight-h2">① 명확하게 설명하기 (Explain Clearly)</h2>
+    <p class="insight-p">"Clarify"는 무언가를 명확하게 설명하여 이해를 돕는다는 의미입니다.</p>
+    <div class="example-group">
+        <div class="ex-en">Could you clarify what you mean by "better results"?</div>
+        <div class="ex-ko">"더 나은 결과"라는 것이 무슨 의미인지 설명해 주시겠어요? (혼란을 줄이고 명확하게 하기 위해)</div>
+        <div class="ex-en" style="margin-top:12px;">The professor clarified the complex concept in simple terms.</div>
+        <div class="ex-ko">교수님은 복잡한 개념을 간단한 용어로 설명하셨습니다. (학생들이 더 잘 이해할 수 있도록)</div>
+    </div>
+
+    <h2 class="insight-h2">② 오해를 풀다 (Resolve Misunderstandings)</h2>
+    <p class="insight-p">"Clarify"는 오해나 잘못된 정보를 바로잡는 데 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">I need to clarify the misunderstanding about our meeting time.</div>
+        <div class="ex-ko">우리 회의 시간에 대한 오해를 풀 필요가 있습니다. (잘못된 정보를 바로잡기 위해)</div>
+        <div class="ex-en" style="margin-top:12px;">She clarified that the event was postponed, not canceled.</div>
+        <div class="ex-ko">그녀는 행사가 취소된 것이 아니라 연기된 것임을 분명히 했습니다. (혼동을 방지하기 위해)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 세부사항을 명시하다 (Specify Details)</h2>
+    <p class="insight-p">"Clarify"는 정보를 더 구체적으로 명시할 때 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">Can you clarify the steps we need to follow for the project?</div>
+        <div class="ex-ko">프로젝트를 위해 우리가 따라야 할 단계들을 명시해 주시겠어요? (세부사항을 분명히 하기 위해)</div>
+        <div class="ex-en" style="margin-top:12px;">He clarified the rules to ensure everyone understood them.</div>
+        <div class="ex-ko">그는 모두가 규칙을 이해할 수 있도록 규칙을 명확히 설명했습니다. (모두가 같은 이해 수준에 도달하도록)</div>
+    </div>
+</div>
+`,
+    "Compromise": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>Compromise</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 Compromise은 <strong>'서로 다른 입장의 조화에 도달하기 위한 상호 양보'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">Compromise의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>Compromise</strong>의 핵심은</p>
+        <div class="quote-text">"각자 조금씩 양보하여 합의점에 도달하는 것"</div>
+        <p>입니다. 서로의 의견 차이를 줄이고자 할 때 쓰입니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (Compromise)</div>
+        <pre>
+    -- A -- 
+   /      \
+  |        |
+   \      /
+    -- B --
+        </pre>
+        <div class="ascii-footer">두 입장이 만나서 중간지점을 형성하는 모습</div>
+    </div>
+
+    <h2 class="insight-h2">① 상호 양보 (Mutual concession)</h2>
+    <p class="insight-p">서로의 요구를 일부 포기하며 합의에 도달하는 과정을 나타냅니다.</p>
+    <div class="example-group">
+        <div class="ex-en">They decided to compromise on the budget to avoid further conflict.</div>
+        <div class="ex-ko">그들은 추가적인 갈등을 피하기 위해 예산에 대해 타협하기로 결정했다. (양측이 요구를 일부 포기한 상황)</div>
+        <div class="ex-en" style="margin-top:12px;">Both parties reached a compromise after long negotiations.</div>
+        <div class="ex-ko">양측은 긴 협상 끝에 타협에 도달했다. (서로의 요구를 조정하여 합의에 이른 상황)</div>
+    </div>
+
+    <h2 class="insight-h2">② 중간지점 찾기 (Finding a middle ground)</h2>
+    <p class="insight-p">극단적인 입장 사이에서 중간 해법을 찾는 것을 의미합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">The team compromised on a plan that included elements of both ideas.</div>
+        <div class="ex-ko">팀은 두 아이디어의 요소를 포함한 계획에 타협했다. (중간 해법을 찾은 상황)</div>
+        <div class="ex-en" style="margin-top:12px;">Instead of arguing, they sought a compromise that satisfied everyone.</div>
+        <div class="ex-ko">논쟁 대신, 그들은 모두를 만족시키는 타협점을 찾았다. (모든 사람을 고려한 중간지점 찾기)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 손상/위험 (Risk or damage)</h2>
+    <p class="insight-p">때로는 품질이나 안전을 위험에 빠뜨리는 의미로 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">Using cheap materials could compromise the safety of the structure.</div>
+        <div class="ex-ko">저렴한 재료의 사용은 구조물의 안전을 위태롭게 할 수 있다. (품질을 손상시키는 위험)</div>
+        <div class="ex-en" style="margin-top:12px;">He refused to compromise his principles for quick success.</div>
+        <div class="ex-ko">그는 빠른 성공을 위해 자신의 원칙을 타협하지 않았다. (원칙을 손상시키는 위험을 거부)</div>
+    </div>
+</div>
+`,
+    "Engage": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>Engage</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 Engage은 <strong>'상호작용을 통해 연결을 형성하는 것'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">Engage의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>Engage</strong>의 핵심은</p>
+        <div class="quote-text">"적극적으로 참여하여 연결을 맺는 것"</div>
+        <p>입니다. 이는 단순히 참여하는 것 이상의 의미를 담고 있습니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (Engage)</div>
+        <pre>
+  +---------+
+  | Connect |
+  +---+-----+
+      |
+ +----v----+
+ | Involve |
+ +---------+
+        </pre>
+        <div class="ascii-footer">연결을 통한 적극적 참여</div>
+    </div>
+
+    <h2 class="insight-h2">① 적극적 참여와 상호작용 (Active Participation and Interaction)</h2>
+    <p class="insight-p">Engage는 단순히 무언가를 하는 것이 아니라, 적극적으로 참여하고 상호작용하는 것을 의미합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">The teacher encouraged students to engage in the discussion.</div>
+        <div class="ex-ko">선생님은 학생들이 토론에 참여하도록 격려했습니다. (단순한 참여가 아닌 적극적인 상호작용을 강조)</div>
+        <div class="ex-en" style="margin-top:12px;">He engages with his audience through compelling storytelling.</div>
+        <div class="ex-ko">그는 감동적인 이야기로 청중과 상호작용합니다. (이야기를 통해 청중과 연결을 맺음)</div>
+    </div>
+
+    <h2 class="insight-h2">② 몰입과 집중 (Immersion and Focus)</h2>
+    <p class="insight-p">Engage는 어떤 활동에 몰입하고 집중하는 것을 표현할 때도 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">She was so engaged in the book that she lost track of time.</div>
+        <div class="ex-ko">그녀는 책에 너무 몰입해서 시간 가는 줄 몰랐습니다. (깊은 몰입을 의미)</div>
+        <div class="ex-en" style="margin-top:12px;">The audience was engaged throughout the entire performance.</div>
+        <div class="ex-ko">청중은 공연 내내 집중했습니다. (공연에 완전히 몰입했음을 의미)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 고용과 계약 (Employment and Contract)</h2>
+    <p class="insight-p">Engage는 사람을 고용하거나 계약을 맺는 상황에서도 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">The company engaged a new marketing director.</div>
+        <div class="ex-ko">회사는 새로운 마케팅 이사를 고용했습니다. (공식적인 고용 절차를 의미)</div>
+        <div class="ex-en" style="margin-top:12px;">They engaged a consultant for the project.</div>
+        <div class="ex-ko">그들은 프로젝트를 위해 컨설턴트를 고용했습니다. (전문가와의 계약을 의미)</div>
+    </div>
+</div>
+`,
+    "bargain": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>bargain</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 bargain은 <strong>'유리한 거래 또는 좋은 조건의 거래'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">bargain의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>bargain</strong>의 핵심은</p>
+        <div class="quote-text">"가치 이상의 혜택을 얻는 것"</div>
+        <p>입니다. 이 표현은 보통 좋은 조건으로 거래를 성사시킬 때 사용됩니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (bargain)</div>
+        <pre>
+     _______
+    |       |
+    | Save! |
+    |_______|
+   (상품)
+        </pre>
+        <div class="ascii-footer">(가치 대비 높은 혜택을 시각적으로 표현한 그림)</div>
+    </div>
+
+    <h2 class="insight-h2">① 좋은 거래 찾기 + Finding a Good Deal</h2>
+    <p class="insight-p">bargain은 보통 가격 대비 가치가 높은 상품이나 서비스에 대한 표현입니다.</p>
+    <div class="example-group">
+        <div class="ex-en">I found a bargain on a new laptop at the store.</div>
+        <div class="ex-ko">나는 가게에서 새 노트북을 저렴하게 샀다. (가격 대비 좋은 조건으로 구매했다는 의미)</div>
+        <div class="ex-en" style="margin-top:12px;">This dress is a real bargain at 50% off.</div>
+        <div class="ex-ko">이 드레스는 50% 할인이라 정말 싸게 산 것이다. (가치 이상의 혜택을 얻었다는 의미)</div>
+    </div>
+
+    <h2 class="insight-h2">② 협상 + Negotiation</h2>
+    <p class="insight-p">bargain은 협상 과정을 통해 유리한 조건을 얻는 상황에서도 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">They managed to bargain the price down to $200.</div>
+        <div class="ex-ko">그들은 가격을 200달러까지 흥정했다. (협상을 통해 가격을 낮췄다는 의미)</div>
+        <div class="ex-en" style="margin-top:12px;">We bargained for a better contract.</div>
+        <div class="ex-ko">우리는 더 나은 계약 조건을 위해 협상했다. (협상을 통해 더 좋은 조건을 이끌어냈다는 의미)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 기대 이상의 가치 + Beyond Expectations</h2>
+    <p class="insight-p">bargain은 기대 이상의 가치를 제공하는 상황을 묘사할 때도 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">This old car was a bargain; it runs perfectly.</div>
+        <div class="ex-ko">이 오래된 차는 싸게 샀다; 작동이 완벽하다. (보통 기대 이상의 성능을 보여준다는 의미)</div>
+        <div class="ex-en" style="margin-top:12px;">The hotel stay was a bargain considering the amenities provided.</div>
+        <div class="ex-ko">제공되는 편의시설을 고려하면 호텔 숙박은 정말 싸게 먹혔다. (가격 대비 높은 가치를 얻었다는 의미)</div>
+    </div>
+</div>
+`,
+    "prioritize": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>prioritize</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 prioritize은 <strong>'무엇이 가장 중요한지 정하고 거기에 집중한다'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">prioritize의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>prioritize</strong>의 핵심은</p>
+        <div class="quote-text">"중요한 것을 앞세우는 것"</div>
+        <p>입니다. 이 표현은 주어진 선택들 중 가장 중요한 것을 선택하는 과정을 나타냅니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (prioritize)</div>
+        <pre>
+    +----+
+    | ★  |
+    +----+
+     /|\
+    / | \
+   중요도 순서
+        </pre>
+        <div class="ascii-footer">(중요한 것에 우선순위를 두는 모습을 시각화)</div>
+    </div>
+
+    <h2 class="insight-h2">① 중요도 결정하기 - Deciding Importance</h2>
+    <p class="insight-p">무엇이 더 중요한지를 결정하는 과정입니다.</p>
+    <div class="example-group">
+        <div class="ex-en">She needs to prioritize her tasks to meet the deadline.</div>
+        <div class="ex-ko">그녀는 마감일을 맞추기 위해 할 일을 우선순위로 정해야 합니다. (중요한 일을 먼저 처리해야 하는 상황)</div>
+        <div class="ex-en" style="margin-top:12px;">You must prioritize your health over work.</div>
+        <div class="ex-ko">일보다 건강을 우선시해야 합니다. (건강이 더 중요하다는 의미)</div>
+    </div>
+
+    <h2 class="insight-h2">② 우선순위 설정 - Setting Priorities</h2>
+    <p class="insight-p">어떤 것들이 더 중요한지를 순서대로 나열하는 것입니다.</p>
+    <div class="example-group">
+        <div class="ex-en">It is important to prioritize your goals to succeed.</div>
+        <div class="ex-ko">성공하기 위해 목표의 우선순위를 정하는 것이 중요합니다. (목표를 명확히 하는 과정)</div>
+        <div class="ex-en" style="margin-top:12px;">He prioritized his family over his career.</div>
+        <div class="ex-ko">그는 경력보다 가족을 우선시했습니다. (가족을 가장 중요하게 여기는 행동)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 효율적 관리 - Efficient Management</h2>
+    <p class="insight-p">효율적으로 일을 처리하기 위해 우선순위를 매기는 것입니다.</p>
+    <div class="example-group">
+        <div class="ex-en">Managers need to prioritize tasks to enhance productivity.</div>
+        <div class="ex-ko">관리자들은 생산성을 높이기 위해 업무의 우선순위를 정해야 합니다. (업무 효율성을 높이기 위한 전략)</div>
+        <div class="ex-en" style="margin-top:12px;">Prioritizing effectively can reduce stress.</div>
+        <div class="ex-ko">효과적으로 우선순위를 정하면 스트레스를 줄일 수 있습니다. (효율적인 관리가 스트레스 감소로 이어짐)</div>
+    </div>
+</div>
+`,
+    "influence": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>influence</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 influence은 <strong>'무언가에 영향을 미쳐 변화를 일으키는 힘'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">influence의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>influence</strong>의 핵심은</p>
+        <div class="quote-text">"보이지 않지만 강력한 힘의 작용"</div>
+        <p>입니다. 이는 보이지 않는 힘이 변화를 일으키는 과정을 나타냅니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (influence)</div>
+        <pre>
+   +-----+
+   |     |
+   |  🌟  |  --> 변화
+   |     |
+   +-----+
+        </pre>
+        <div class="ascii-footer">(작은 동작이 큰 변화를 일으키는 이미지)</div>
+    </div>
+
+    <h2 class="insight-h2">① 영향력 있는 존재의 힘 (Powerful Influence)</h2>
+    <p class="insight-p">influence는 어떤 존재가 다른 것에 미치는 강력한 힘을 나타냅니다.</p>
+    <div class="example-group">
+        <div class="ex-en">Her speech had a profound influence on the audience.</div>
+        <div class="ex-ko">그녀의 연설은 청중에게 깊은 영향을 미쳤다. (연설의 강력함이 청중의 생각에 변화를 일으킴)</div>
+        <div class="ex-en" style="margin-top:12px;">The teacher's influence was evident in his students' success.</div>
+        <div class="ex-ko">그 교사의 영향력은 학생들의 성공에서 분명히 드러났다. (교사의 가르침이 학생들의 결과에 영향을 미침)</div>
+    </div>
+
+    <h2 class="insight-h2">② 간접적 영향 (Indirect Influence)</h2>
+    <p class="insight-p">influence는 직접적이지 않지만 중요한 변화를 일으킬 수 있는 힘을 묘사합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">The weather can influence our mood indirectly.</div>
+        <div class="ex-ko">날씨는 우리 기분에 간접적으로 영향을 미칠 수 있다. (날씨라는 외적 요소가 기분에 미치는 간접적 영향)</div>
+        <div class="ex-en" style="margin-top:12px;">Social media influences people's opinions subtly.</div>
+        <div class="ex-ko">소셜 미디어는 사람들의 의견에 미묘하게 영향을 미친다. (직접적이지 않지만 의견 형성에 영향을 줌)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 긍정적 또는 부정적 효과 (Positive or Negative Effects)</h2>
+    <p class="insight-p">influence는 결과적으로 긍정적이거나 부정적인 효과를 가져올 수 있습니다.</p>
+    <div class="example-group">
+        <div class="ex-en">His positive influence helped the team succeed.</div>
+        <div class="ex-ko">그의 긍정적인 영향력은 팀이 성공하는 데 도움을 주었다. (긍정적인 영향력이 팀의 성공에 기여함)</div>
+        <div class="ex-en" style="margin-top:12px;">Negative influences can derail your goals if you're not careful.</div>
+        <div class="ex-ko">부정적인 영향은 조심하지 않으면 당신의 목표를 빗나가게 할 수 있다. (부정적인 요인이 목표 달성을 방해할 수 있음)</div>
+    </div>
+</div>
+`,
+    "Agenda": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>Agenda</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 Agenda은 <strong>'계획과 우선순위를 정한 목록'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">Agenda의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>Agenda</strong>의 핵심은</p>
+        <div class="quote-text">"계획된 항목들의 목록"</div>
+        <p>입니다. 이것은 회의나 사건에서 다룰 주제를 정리한 문서입니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (Agenda)</div>
+        <pre>
++-----------------+
+|   1. Topic A    |
+|   2. Topic B    |
+|   3. Topic C    |
+|   ...           |
++-----------------+
+        </pre>
+        <div class="ascii-footer">계획된 순서의 시각적 표현</div>
+    </div>
+
+    <h2 class="insight-h2">① 계획 및 준비 목록 + 영어</h2>
+    <p class="insight-p">Agenda는 특정 목표를 위해 준비된 계획 목록을 나타냅니다.</p>
+    <div class="example-group">
+        <div class="ex-en">"Let's stick to the agenda for today's meeting."</div>
+        <div class="ex-ko">"오늘 회의에서는 의제에 충실합시다." (회의를 효율적으로 진행하기 위한 계획 목록)</div>
+        <div class="ex-en" style="margin-top:12px;">"The agenda includes a review of the budget."</div>
+        <div class="ex-ko">"의제에는 예산 검토가 포함되어 있습니다." (미리 정해진 토론 주제)</div>
+    </div>
+
+    <h2 class="insight-h2">② 숨은 동기 + Hidden Motive</h2>
+    <p class="insight-p">Agenda는 때로는 숨겨진 동기나 의도를 암시할 수 있습니다.</p>
+    <div class="example-group">
+        <div class="ex-en">"I think he has a hidden agenda."</div>
+        <div class="ex-ko">"그는 숨은 의도가 있는 것 같아요." (겉으로 드러나지 않은 의도)</div>
+        <div class="ex-en" style="margin-top:12px;">"She seems nice, but what's her real agenda?"</div>
+        <div class="ex-ko">"그녀는 친절해 보이지만, 진짜 의도가 뭘까요?" (겉모습과 다른 내면의 목적)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 의사 진행의 순서 + Order of Proceedings</h2>
+    <p class="insight-p">Agenda는 회의나 이벤트에서 다룰 주제의 순서를 지칭합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">"Next on the agenda is the company's annual report."</div>
+        <div class="ex-ko">"다음 의제는 회사의 연례 보고서입니다." (정해진 순서에 따라 진행)</div>
+        <div class="ex-en" style="margin-top:12px;">"We will follow the agenda strictly to save time."</div>
+        <div class="ex-ko">"시간을 절약하기 위해 의제를 엄격히 따를 것입니다." (효율적인 진행을 위한 순서)</div>
+    </div>
+</div>
+`,
+    "Follow-up": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>Follow-up</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 Follow-up은 <strong>'후속 조치 혹은 후속 단계의 핵심적인 원어민 뉘앙스 요약'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">Follow-up의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>Follow-up</strong>의 핵심은</p>
+        <div class="quote-text">"계속적인 주의와 관심"</div>
+        <p>입니다. 이는 행동이나 조치가 끝난 후에도 지속적인 관심을 의미합니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (Follow-up)</div>
+        <pre>
+  _______
+ /       \
+| Initial |
+|  Action |
+ \_______/
+     |
+     v
+  _______
+ /       \
+| Follow- |
+|   up    |
+ \_______/
+        </pre>
+        <div class="ascii-footer">(첫 번째 행동 뒤에 이어지는 지속적인 과정)</div>
+    </div>
+
+    <h2 class="insight-h2">① 후속 조치의 중요성 (Importance of Follow-up)</h2>
+    <p class="insight-p">Follow-up은 초기 행동이 효과적이었는지 확인하기 위한 중요한 단계입니다.</p>
+    <div class="example-group">
+        <div class="ex-en">"The doctor scheduled a follow-up appointment to check the patient's progress."</div>
+        <div class="ex-ko">"의사는 환자의 진행 상황을 확인하기 위해 후속 진료를 예약했습니다." (초기 치료 후 진행을 확인하기 위한 후속 조치)</div>
+        <div class="ex-en" style="margin-top:12px;">"We need to do a follow-up on last week's meeting to ensure tasks are being completed."</div>
+        <div class="ex-ko">"우리는 지난주 회의에 대한 후속 조치를 취해 업무가 수행되고 있는지 확인해야 합니다." (회의 후 후속 상황을 확인하는 과정)</div>
+    </div>
+
+    <h2 class="insight-h2">② 후속 대화 (Follow-up Conversation)</h2>
+    <p class="insight-p">Follow-up은 대화나 논의가 끝난 후 더 깊은 논의를 위한 방법으로 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">"I sent a follow-up email to address the questions that were raised."</div>
+        <div class="ex-ko">"제기된 질문들을 해결하기 위해 후속 이메일을 보냈습니다." (초기 대화 후 추가 논의를 위한 이메일)</div>
+        <div class="ex-en" style="margin-top:12px;">"After the interview, I did a follow-up call to express my continued interest in the position."</div>
+        <div class="ex-ko">"면접 후 해당 직무에 대한 지속적인 관심을 표현하기 위해 후속 전화를 했습니다." (면접 후 자신의 관심을 다시 강조하기 위한 전화)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 후속 모니터링 (Follow-up Monitoring)</h2>
+    <p class="insight-p">Follow-up은 진행 상황을 지속적으로 모니터링하기 위한 방법입니다.</p>
+    <div class="example-group">
+        <div class="ex-en">"We will conduct follow-up monitoring to ensure compliance with the new regulations."</div>
+        <div class="ex-ko">"새 규정 준수를 보장하기 위해 후속 모니터링을 실시할 것입니다." (규정 준수를 확인하기 위한 지속적인 확인)</div>
+        <div class="ex-en" style="margin-top:12px;">"The project manager scheduled follow-up reviews to track the team's progress."</div>
+        <div class="ex-ko">"프로젝트 매니저는 팀의 진행 상황을 추적하기 위해 후속 검토를 일정에 추가했습니다." (진행 상황을 지속적으로 확인하기 위한 검토)</div>
+    </div>
+</div>
+`,
+    "Leverage": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>Leverage</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 Leverage은 <strong>'자원을 효과적으로 활용하여 최적의 결과를 얻는 것'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">Leverage의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>Leverage</strong>의 핵심은</p>
+        <div class="quote-text">"최고의 이점을 얻기 위한 전략적 사용"</div>
+        <p>입니다. (Leverage는 상황을 유리하게 활용하는 것을 강조합니다.)</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (Leverage)</div>
+        <pre>
++---------+
+|   Use   |
+|   of    |
+|  Tools  |
++----+----+
+     |
+     v
+Maximize Result
+        </pre>
+        <div class="ascii-footer">(자원을 활용하여 결과를 극대화하는 그림)</div>
+    </div>
+
+    <h2 class="insight-h2">① 전략적 활용 Strategic Utilization</h2>
+    <p class="insight-p">Leverage는 특정 자원이나 상황을 최대한 활용하여 이익을 얻는 것을 의미합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">She leveraged her network to find a new job.</div>
+        <div class="ex-ko">그녀는 새로운 직장을 찾기 위해 자신의 인맥을 활용했다. (네트워크를 전략적으로 사용하여 이익을 얻음)</div>
+        <div class="ex-en" style="margin-top:12px;">He leveraged his experience to secure the contract.</div>
+        <div class="ex-ko">그는 계약을 따내기 위해 자신의 경험을 활용했다. (경험을 전략적으로 사용하여 결과를 얻음)</div>
+    </div>
+
+    <h2 class="insight-h2">② 영향력 Influence</h2>
+    <p class="insight-p">Leverage는 특정 상황에서 더 큰 영향력을 행사하기 위한 수단으로 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">They used their influence to leverage the negotiations.</div>
+        <div class="ex-ko">그들은 협상을 유리하게 이끌기 위해 그들의 영향력을 사용했다. (영향력을 행사하여 협상에서 우위를 점함)</div>
+        <div class="ex-en" style="margin-top:12px;">The company leveraged its brand reputation to enter new markets.</div>
+        <div class="ex-ko">그 회사는 새로운 시장에 진입하기 위해 브랜드 명성을 활용했다. (브랜드 명성을 통해 더 큰 영향력을 행사함)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 금융에서의 레버리지 Leverage in Finance</h2>
+    <p class="insight-p">Leverage는 금융 분야에서 투자 수익을 극대화하기 위해 차입금을 사용하는 것을 의미합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">The investor leveraged his portfolio by borrowing funds.</div>
+        <div class="ex-ko">투자자는 자금을 차입하여 포트폴리오를 레버리지했다. (차입금을 사용하여 투자 수익을 극대화함)</div>
+        <div class="ex-en" style="margin-top:12px;">Leverage can amplify both gains and losses in investments.</div>
+        <div class="ex-ko">레버리지는 투자에서 이익과 손실을 모두 증폭시킬 수 있다. (금융 레버리지는 위험과 보상을 모두 증가시킴)</div>
+    </div>
+</div>
+`,
+    "Connection": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>Connection</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 Connection은 <strong>'사람이나 사물 간의 본질적인 유대감'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">Connection의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>Connection</strong>의 핵심은</p>
+        <div class="quote-text">"서로를 잇는 유대감과 연대"</div>
+        <p>입니다. 이는 관계를 형성하고 유지하는 데 중요합니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (Connection)</div>
+        <pre>
+   O---O
+   |   |
+   O---O
+        </pre>
+        <div class="ascii-footer">(서로 연결된 사람들 또는 사물)</div>
+    </div>
+
+    <h2 class="insight-h2">① 인간관계 연결 Human Relationship Connection</h2>
+    <p class="insight-p">사람들 간의 심리적 또는 정서적 유대감을 나타냅니다.</p>
+    <div class="example-group">
+        <div class="ex-en">They felt a strong connection from the moment they met.</div>
+        <div class="ex-ko">그들은 만난 순간부터 강한 연결을 느꼈다. (즉각적인 유대감을 형성함)</div>
+        <div class="ex-en" style="margin-top:12px;">Building connections with others can lead to meaningful friendships.</div>
+        <div class="ex-ko">다른 사람들과의 연결을 구축하면 의미 있는 우정으로 이어질 수 있다. (유대감이 우정으로 발전)</div>
+    </div>
+
+    <h2 class="insight-h2">② 네트워크 연결 Network Connection</h2>
+    <p class="insight-p">기술적 또는 인프라적 연결을 설명하는 데 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">The internet connection is quite slow today.</div>
+        <div class="ex-ko">오늘 인터넷 연결이 꽤 느리다. (기술적 연결의 상태)</div>
+        <div class="ex-en" style="margin-top:12px;">Ensure your network connections are secure.</div>
+        <div class="ex-ko">네트워크 연결이 안전한지 확인하세요. (기술적 연결의 보안 강조)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 개념적 연결 Conceptual Connection</h2>
+    <p class="insight-p">아이디어나 주제 간의 관계를 나타냅니다.</p>
+    <div class="example-group">
+        <div class="ex-en">The connection between the two theories was groundbreaking.</div>
+        <div class="ex-ko">두 이론 간의 연결은 획기적이었다. (이론적 연결의 중요성)</div>
+        <div class="ex-en" style="margin-top:12px;">She made a connection between the historical events and current issues.</div>
+        <div class="ex-ko">그녀는 역사적 사건과 현재 문제들 간의 연결을 만들었다. (과거와 현재의 개념적 연결)</div>
+    </div>
+</div>
+`,
+    "empower": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>empower</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 empower은 <strong>'능력을 부여하고 자신감을 주는 핵심적 행위'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">empower의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>empower</strong>의 핵심은</p>
+        <div class="quote-text">"스스로 할 수 있도록 힘을 주는 것"</div>
+        <p>입니다. 이는 상대방에게 자율성과 자신감을 심어주는 행위를 의미합니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (empower)</div>
+        <pre>
+  +----------+
+  |  EMPOWER |
+  +-----+----+
+        |
+    +---v---+
+    |  YOU  |
+    +-------+
+        </pre>
+        <div class="ascii-footer">(자신감을 부여하여 스스로 하게 하는 구조)</div>
+    </div>
+
+    <h2 class="insight-h2">① 권한 부여 + Authorization</h2>
+    <p class="insight-p">누군가에게 공식적 권한이나 책임을 부여하는 상황에서 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">The manager empowered her team to make decisions.</div>
+        <div class="ex-ko">그 매니저는 팀에게 결정을 내릴 권한을 주었습니다. (팀이 독자적으로 행동할 수 있도록 권한을 부여)</div>
+        <div class="ex-en" style="margin-top:12px;">The new law empowers citizens to vote at 18.</div>
+        <div class="ex-ko">새 법은 시민들이 18세에 투표할 수 있도록 권한을 줍니다. (공식적으로 행동할 수 있는 권한 부여)</div>
+    </div>
+
+    <h2 class="insight-h2">② 자신감 부여 + Confidence Boost</h2>
+    <p class="insight-p">개인의 능력과 자신감을 키우도록 돕는 경우에 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">The workshop was designed to empower women in the community.</div>
+        <div class="ex-ko">그 워크숍은 지역 사회의 여성들에게 자신감을 주기 위해 설계되었습니다. (자신감과 능력을 키우도록 도움)</div>
+        <div class="ex-en" style="margin-top:12px;">She felt empowered after completing the training.</div>
+        <div class="ex-ko">그녀는 훈련을 마친 후 더 자신감을 느꼈습니다. (훈련을 통해 자신감을 얻음)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 자율성 부여 + Autonomy</h2>
+    <p class="insight-p">개인이 자유롭게 행동하거나 결정을 내릴 수 있도록 자율성을 주는 상황에서 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">Parents should empower their children to explore new interests.</div>
+        <div class="ex-ko">부모는 아이들이 새로운 관심사를 탐구할 수 있도록 자율성을 줘야 합니다. (자유롭게 탐구할 수 있는 기회 제공)</div>
+        <div class="ex-en" style="margin-top:12px;">The policy empowers employees to work remotely.</div>
+        <div class="ex-ko">그 정책은 직원들이 원격으로 근무할 수 있는 자율성을 줍니다. (자율적으로 근무 환경을 선택할 수 있는 권한 제공)</div>
+    </div>
+</div>
+`,
+    "communicate": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>communicate</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 communicate은 <strong>'명확하고 직접적인 전달'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">communicate의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>communicate</strong>의 핵심은</p>
+        <div class="quote-text">"생각과 감정을 명확히 전달하는 것"</div>
+        <p>입니다. 이해하기 쉽게 전달하는 것이 중요합니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (communicate)</div>
+        <pre>
+ | Thoughts |
+    ||||
+  [Communicate]
+    ||||
+ | Receiver |
+        </pre>
+        <div class="ascii-footer">생각과 감정을 수신자에게 전달하는 과정</div>
+    </div>
+
+    <h2 class="insight-h2">① 명확한 전달 Clear Expression</h2>
+    <p class="insight-p">Communicate는 명확하게 의사를 전달하는 것에 중점을 둡니다.</p>
+    <div class="example-group">
+        <div class="ex-en">She communicated her ideas clearly to the team.</div>
+        <div class="ex-ko">그녀는 팀에게 자신의 아이디어를 명확하게 전달했습니다. (명확한 전달의 뉘앙스)</div>
+        <div class="ex-en" style="margin-top:12px;">It's important to communicate your needs to your partner.</div>
+        <div class="ex-ko">파트너에게 당신의 필요를 전달하는 것이 중요합니다. (명확하고 직접적인 전달의 중요성)</div>
+    </div>
+
+    <h2 class="insight-h2">② 상호작용 Interaction</h2>
+    <p class="insight-p">Communicate는 쌍방향의 상호작용을 포함합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">They use technology to communicate with clients worldwide.</div>
+        <div class="ex-ko">그들은 전 세계의 고객들과 소통하기 위해 기술을 사용합니다. (상호작용의 뉘앙스)</div>
+        <div class="ex-en" style="margin-top:12px;">The teacher communicated with parents about the student's progress.</div>
+        <div class="ex-ko">교사는 학생의 진도를 부모님과 상호작용하며 전달했습니다. (정보의 상호 교환)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 감정의 전달 Conveying Emotions</h2>
+    <p class="insight-p">Communicate는 감정을 전달하는 것을 포함합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">He found it difficult to communicate his feelings.</div>
+        <div class="ex-ko">그는 자신의 감정을 전달하는 데 어려움을 겪었습니다. (감정 전달의 어려움)</div>
+        <div class="ex-en" style="margin-top:12px;">Art is a way to communicate complex emotions.</div>
+        <div class="ex-ko">예술은 복잡한 감정을 전달하는 방법입니다. (감정을 표현하고 전달하는 수단)</div>
+    </div>
+</div>
+`,
+    "empathy": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>empathy</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 empathy은 <strong>'타인의 감정을 진정으로 느끼고 이해하는 것'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">empathy의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>empathy</strong>의 핵심은</p>
+        <div class="quote-text">"감정을 함께 느끼는 능력"</div>
+        <p>입니다. 이는 단순한 동정심을 넘어서는 것입니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (empathy)</div>
+        <pre>
+  ____
+ /    \
+|      |
+|  :)  |  <---->  :)
+ \____/
+        </pre>
+        <div class="ascii-footer">(공감하는 두 사람의 모습을 상징적으로 표현)</div>
+    </div>
+
+    <h2 class="insight-h2">① 감정의 공유 (Sharing of Emotions)</h2>
+    <p class="insight-p">empathy는 타인의 감정을 나의 것처럼 느끼고 공유하는 능력입니다.</p>
+    <div class="example-group">
+        <div class="ex-en">She felt a deep empathy for the grieving family.</div>
+        <div class="ex-ko">그녀는 슬퍼하는 가족을 깊이 공감했다. (가족의 슬픔을 자신의 것처럼 느꼈음을 의미)</div>
+        <div class="ex-en" style="margin-top:12px;">His empathy allowed him to comfort his friend effectively.</div>
+        <div class="ex-ko">그의 공감 능력 덕분에 그는 친구를 효과적으로 위로할 수 있었다. (친구의 감정을 이해하고 함께 느꼈음을 뜻함)</div>
+    </div>
+
+    <h2 class="insight-h2">② 타인의 입장에서 생각하기 (Thinking from Others' Perspectives)</h2>
+    <p class="insight-p">empathy는 타인의 입장에서 상황을 이해하려는 노력을 포함합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">By showing empathy, she could see the situation from her colleague's point of view.</div>
+        <div class="ex-ko">공감을 통해 그녀는 동료의 관점에서 상황을 볼 수 있었다. (동료의 입장을 진정으로 이해하려 함)</div>
+        <div class="ex-en" style="margin-top:12px;">Empathy helps us walk a mile in someone else's shoes.</div>
+        <div class="ex-ko">공감은 우리가 다른 사람의 처지에서 상황을 이해하도록 돕는다. (그 사람의 입장이 되어 생각해보는 것을 의미)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 진정한 연결 (True Connection)</h2>
+    <p class="insight-p">empathy는 사람들 간의 진정한 연결을 형성하는 데 중요한 역할을 합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">Her empathy created a bond of trust with the team.</div>
+        <div class="ex-ko">그녀의 공감은 팀과의 신뢰의 유대를 형성했다. (공감을 통해 신뢰감 있는 관계를 구축했음을 의미)</div>
+        <div class="ex-en" style="margin-top:12px;">Empathy can bridge the gap between different cultures.</div>
+        <div class="ex-ko">공감은 서로 다른 문화 간의 격차를 메울 수 있다. (공감을 통해 문화적 차이를 극복하고 연결할 수 있음을 뜻함)</div>
+    </div>
+</div>
+`,
+    "kindness": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>kindness</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 kindness은 <strong>'진정한 배려와 따뜻함'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">kindness의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>kindness</strong>의 핵심은</p>
+        <div class="quote-text">"조건 없는 따뜻함과 이해"</div>
+        <p>입니다. (kindness는 주로 상대방에게 무언가를 기대하지 않고 베푸는 행동을 말합니다.)</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (kindness)</div>
+        <pre>
+   o
+  /|\
+  / \
+ (heart)
+        </pre>
+        <div class="ascii-footer">(마음에서 우러나오는 행동을 상징)</div>
+    </div>
+
+    <h2 class="insight-h2">① 진정한 관심과 배려</h2>
+    <p class="insight-p">kindness는 상대방의 입장을 이해하고 그들에게 진심으로 관심을 갖는 것을 의미합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">She showed kindness by listening to his troubles without judgment.</div>
+        <div class="ex-ko">그녀는 그의 고민을 판단 없이 들어줌으로써 친절함을 보였다. (상대방의 입장을 이해하는 모습)</div>
+        <div class="ex-en" style="margin-top:12px;">He offered his seat to the elderly, a simple act of kindness.</div>
+        <div class="ex-ko">그는 노인에게 자리를 양보했다, 이는 간단한 친절의 행동이다. (작은 행동이지만 배려를 보여줌)</div>
+    </div>
+
+    <h2 class="insight-h2">② 무조건적인 도움</h2>
+    <p class="insight-p">kindness는 보답을 바라지 않고 다른 사람을 돕는 행동을 포함합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">He helped his neighbor with the groceries, out of sheer kindness.</div>
+        <div class="ex-ko">그는 순수한 친절함으로 이웃의 장보기를 도왔다. (보답을 기대하지 않는 도움)</div>
+        <div class="ex-en" style="margin-top:12px;">Her kindness was evident when she donated anonymously.</div>
+        <div class="ex-ko">그녀의 친절함은 익명으로 기부했을 때 분명했다. (익명 기부를 통해 드러난 이타심)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 긍정적인 영향</h2>
+    <p class="insight-p">kindness는 주변 사람들에게 긍정적인 영향을 미치고, 그들 역시 다른 이들에게 친절하게 만듭니다.</p>
+    <div class="example-group">
+        <div class="ex-en">His kindness inspired others to volunteer more in their community.</div>
+        <div class="ex-ko">그의 친절함은 다른 사람들이 지역 사회에서 더 많이 자원 봉사하도록 영감을 주었다. (친절은 전염성이 있음)</div>
+        <div class="ex-en" style="margin-top:12px;">A simple act of kindness can create a ripple effect of goodwill.</div>
+        <div class="ex-ko">간단한 친절의 행동이 선의의 물결 효과를 만들 수 있다. (한 사람의 행동이 널리 영향을 미침)</div>
+    </div>
+</div>
+`,
+    "patience": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>patience</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 patience은 <strong>'끈기의 여유를 가지는 것'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">patience의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>patience</strong>의 핵심은</p>
+        <div class="quote-text">"시간과 여유를 가지고 기다림"</div>
+        <p>입니다. 이는 상황에 대한 이해와 포용력을 나타냅니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (patience)</div>
+        <pre>
+   ___
+  /   \
+ |     |
+ |     |
+  \___/
+ (천천히 기다리는 마음)
+        </pre>
+        <div class="ascii-footer">(인내의 본질을 보여주는 그림)</div>
+    </div>
+
+    <h2 class="insight-h2">① 인내의 시간적 측면 Patience in Time</h2>
+    <p class="insight-p">인내는 시간을 들여 무언가를 기다리는 능력을 의미합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">She showed great patience in waiting for the results.</div>
+        <div class="ex-ko">그녀는 결과를 기다리는데 큰 인내심을 보였다. (여기서 인내심은 시간이 걸리는 일에 대한 긍정적 태도를 의미합니다)</div>
+        <div class="ex-en" style="margin-top:12px;">He has the patience to teach young children.</div>
+        <div class="ex-ko">그는 어린 아이들을 가르칠 인내심이 있다. (여기서 인내심은 오래 걸리는 일을 참을성 있게 수행하는 능력을 말합니다)</div>
+    </div>
+
+    <h2 class="insight-h2">② 상황의 이해 Patience in Understanding</h2>
+    <p class="insight-p">인내는 타인을 이해하고 그들의 입장을 고려하는 능력을 포함합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">Patience is needed when dealing with different opinions.</div>
+        <div class="ex-ko">다른 의견을 다룰 때는 인내가 필요하다. (여기서 인내는 다양한 관점을 수용하는 능력을 의미합니다)</div>
+        <div class="ex-en" style="margin-top:12px;">His patience helped resolve the conflict peacefully.</div>
+        <div class="ex-ko">그의 인내심은 갈등을 평화롭게 해결하는데 도움이 되었다. (여기서 인내는 상황을 이해하고 조율하는 능력을 말합니다)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 끈기의 여유 Patience in Persistence</h2>
+    <p class="insight-p">인내는 끈기를 가지고 목표를 향해 나아가는 태도를 의미합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">Success requires patience and determination.</div>
+        <div class="ex-ko">성공은 인내와 결단력을 요구한다. (여기서 인내는 목표를 향해 꾸준히 나아가는 끈기를 의미합니다)</div>
+        <div class="ex-en" style="margin-top:12px;">With patience, she finally mastered the skill.</div>
+        <div class="ex-ko">인내심을 가지고 그녀는 마침내 그 기술을 익혔다. (여기서 인내는 지속적인 노력과 끈기를 의미합니다)</div>
+    </div>
+</div>
+`,
+    "I understand": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>I understand</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 I understand은 <strong>'상대방의 말을 완전히 받아들이고 공감한다는 의미'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">I understand의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>I understand</strong>의 핵심은</p>
+        <div class="quote-text">"상대방의 입장을 진심으로 파악함"</div>
+        <p>즉, 단순한 이해를 넘어서 감정적 교감을 포함합니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (I understand)</div>
+        <pre>
+   O
+  /|\
+  / \
+ (공감)
+        </pre>
+        <div class="ascii-footer">(상대방을 향한 공감을 표현)</div>
+    </div>
+
+    <h2 class="insight-h2">① 이해의 표현 Understanding</h2>
+    <p class="insight-p">상대방의 설명이나 감정을 이해하고 있다는 것을 나타냅니다.</p>
+    <div class="example-group">
+        <div class="ex-en">I understand how you feel about this situation.</div>
+        <div class="ex-ko">이 상황에 대해 어떻게 느끼는지 이해해요. (상대방의 감정을 받아들임)</div>
+        <div class="ex-en" style="margin-top:12px;">I understand that this decision is difficult for you.</div>
+        <div class="ex-ko">이 결정이 당신에게 어렵다는 것을 이해해요. (결정 과정의 어려움을 인정함)</div>
+    </div>
+
+    <h2 class="insight-h2">② 동의의 표현 Agreement</h2>
+    <p class="insight-p">상대방의 의견에 동의하거나 수긍할 때 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">I understand and agree with your point of view.</div>
+        <div class="ex-ko">당신의 관점을 이해하고 동의합니다. (의견에 대한 수긍)</div>
+        <div class="ex-en" style="margin-top:12px;">I understand what you mean, and I think you're right.</div>
+        <div class="ex-ko">당신의 말이 무슨 의미인지 이해했고, 당신이 옳다고 생각해요. (의견을 받아들임)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 문제 해결의 표현 Problem-solving</h2>
+    <p class="insight-p">상황을 이해하고 문제를 해결하려는 의지를 나타냅니다.</p>
+    <div class="example-group">
+        <div class="ex-en">I understand the issue and will work on a solution.</div>
+        <div class="ex-ko">문제를 이해했고 해결책을 찾기 위해 노력할게요. (문제 해결을 약속함)</div>
+        <div class="ex-en" style="margin-top:12px;">I understand your concerns and will address them promptly.</div>
+        <div class="ex-ko">당신의 우려를 이해하며, 신속히 해결하겠습니다. (문제 해결의 의지 표명)</div>
+    </div>
+</div>
+`,
+    "I hear you": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>I hear you</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 I hear you은 <strong>'상대방의 감정과 상황을 이해하고 공감한다는 표현'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">I hear you의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>I hear you</strong>의 핵심은</p>
+        <div class="quote-text">"당신의 말을 듣고 이해합니다"</div>
+        <p>입니다. 이 표현은 상대의 말을 적극적으로 수용하는 모습을 보여줍니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (I hear you)</div>
+        <pre>
+  O
+ /|\
+ / \
+(수용)
+        </pre>
+        <div class="ascii-footer">(상대방의 말을 듣고 이해하는 자세를 나타냅니다)</div>
+    </div>
+
+    <h2 class="insight-h2">① 이해와 공감 - Understanding and Empathy</h2>
+    <p class="insight-p">이 표현은 상대방의 감정을 이해하고 공감할 때 흔히 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">"I hear you, it's really tough to manage everything alone."</div>
+        <div class="ex-ko">"네 마음 알아, 혼자서 모든 걸 관리하는 게 정말 힘들지." (상대의 고충을 이해하고 있음을 표현)</div>
+        <div class="ex-en" style="margin-top:12px;">"I hear you, and I'm here if you need to talk."</div>
+        <div class="ex-ko">"네 마음 알아, 얘기하고 싶으면 언제든지 말해." (상대방의 감정을 이해하고 지원을 제안하는 뉘앙스)</div>
+    </div>
+
+    <h2 class="insight-h2">② 문제 인식 - Acknowledging Issues</h2>
+    <p class="insight-p">상대방이 제기한 문제를 인식하고 이를 해결하고자 하는 의지를 나타냅니다.</p>
+    <div class="example-group">
+        <div class="ex-en">"I hear you, and we will work on fixing this issue."</div>
+        <div class="ex-ko">"당신의 말을 이해했습니다. 이 문제를 해결하기 위해 노력하겠습니다." (문제를 인식하고 해결하려는 의지를 보임)</div>
+        <div class="ex-en" style="margin-top:12px;">"I hear you, let's schedule a meeting to discuss this further."</div>
+        <div class="ex-ko">"당신의 말을 이해했습니다. 이 문제를 더 논의하기 위해 회의를 잡아 봅시다." (문제를 더 깊이 논의하고자 하는 의지)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 의견 수용 - Acceptance of Opinions</h2>
+    <p class="insight-p">상대방의 의견을 존중하고 수용할 때 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">"I hear you, and I think you have a valid point."</div>
+        <div class="ex-ko">"당신의 의견을 이해합니다, 그리고 당신의 의견이 타당하다고 생각해요." (상대방의 의견을 수용하고 인정함)</div>
+        <div class="ex-en" style="margin-top:12px;">"I hear you, let's consider this option."</div>
+        <div class="ex-ko">"당신의 의견을 이해했습니다. 이 옵션을 고려해 보죠." (상대방의 제안을 수용하여 검토하고자 함)</div>
+    </div>
+</div>
+`,
+    "I'm sorry to hear that": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>I'm sorry to hear that</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 I'm sorry to hear that은 <strong>'진심 어린 공감의 표현'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">I'm sorry to hear that의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>I'm sorry to hear that</strong>의 핵심은</p>
+        <div class="quote-text">"상대방의 감정에 대한 진심 어린 공감"</div>
+        <p>입니다. 이 표현은 상대의 감정 상태를 깊이 이해하고 있다는 메시지를 전달합니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (I'm sorry to hear that)</div>
+        <pre>
+   _______
+  |       |
+  |  🙁   |
+  |_______| 
+     / \
+   (공감)
+        </pre>
+        <div class="ascii-footer">(상대방의 슬픔을 이해하고 함께 느끼고 있음을 나타냅니다)</div>
+    </div>
+
+    <h2 class="insight-h2">① 위로와 공감 (Condolence and Empathy)</h2>
+    <p class="insight-p">이 표현은 상대방의 슬픔이나 불행한 소식을 들었을 때 위로의 말로 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">I heard about your loss. I'm sorry to hear that.</div>
+        <div class="ex-ko">당신의 상심에 대해 들었습니다. 참 안타깝네요. (상대방의 슬픔에 대한 진심 어린 공감)</div>
+        <div class="ex-en" style="margin-top:12px;">I'm sorry to hear that you didn't get the job.</div>
+        <div class="ex-ko">당신이 그 직장을 얻지 못했다니 안타깝네요. (상대방의 실망에 대한 위로)</div>
+    </div>
+
+    <h2 class="insight-h2">② 상황에 대한 이해 (Understanding the Situation)</h2>
+    <p class="insight-p">상대가 처한 어려운 상황을 이해하고 있다는 것을 표현할 때 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">I'm sorry to hear that your project was delayed.</div>
+        <div class="ex-ko">프로젝트가 지연되었다니 안타깝네요. (상대방의 어려운 상황에 대한 이해)</div>
+        <div class="ex-en" style="margin-top:12px;">It's unfortunate about the cancellation. I'm sorry to hear that.</div>
+        <div class="ex-ko">취소되었다니 안타깝네요. (상황의 불편함에 대한 이해와 공감)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 감정의 진정성 표현 (Expression of Genuine Emotion)</h2>
+    <p class="insight-p">상대방의 감정에 진정으로 반응하고 있음을 보여줍니다.</p>
+    <div class="example-group">
+        <div class="ex-en">I just heard about your accident. I'm really sorry to hear that.</div>
+        <div class="ex-ko">당신의 사고 소식을 방금 들었어요. 정말 안타깝네요. (진정한 감정의 표현)</div>
+        <div class="ex-en" style="margin-top:12px;">I'm sorry to hear that things are tough right now.</div>
+        <div class="ex-ko">지금 상황이 힘들다니 안타깝네요. (상대방에게 진심 어린 관심과 걱정을 표현)</div>
+    </div>
+</div>
+`,
+    "Empathy": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>Empathy</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 Empathy은 <strong>'타인의 감정을 이해하고 공감하는 능력'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">Empathy의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>Empathy</strong>의 핵심은</p>
+        <div class="quote-text">"타인의 신발을 신고 걸어보기"</div>
+        <p>입니다. Empathy는 단순한 동정이 아닌 타인의 입장에서 느껴보려는 진정한 노력입니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (Empathy)</div>
+        <pre>
+     _______
+    /       \
+   |  공감  |
+    \_______/
+        / \
+       /   \
+     타인의 감정
+        </pre>
+        <div class="ascii-footer">(타인의 감정을 이해하려는 마음을 나타냅니다)</div>
+    </div>
+
+    <h2 class="insight-h2">① 타인의 감정 이해하기 (Understanding Others' Feelings)</h2>
+    <p class="insight-p">Empathy는 다른 사람의 감정을 이해하려는 능력입니다.</p>
+    <div class="example-group">
+        <div class="ex-en">She showed great empathy when she listened to his problems.</div>
+        <div class="ex-ko">그녀는 그의 문제를 들으면서 큰 공감을 보여주었습니다. (다른 사람의 감정을 이해하고 있다는 뉘앙스)</div>
+        <div class="ex-en" style="margin-top:12px;">His empathy towards the victims was evident in his speech.</div>
+        <div class="ex-ko">그의 연설에서 피해자들에 대한 공감이 뚜렷했습니다. (말을 통해 타인의 감정을 이해하는 모습)</div>
+    </div>
+
+    <h2 class="insight-h2">② 감정 이입하기 (Putting Oneself in Others' Shoes)</h2>
+    <p class="insight-p">Empathy는 다른 사람의 상황에 자신을 투영해보는 것입니다.</p>
+    <div class="example-group">
+        <div class="ex-en">He tried to empathize with her situation by imagining himself in her place.</div>
+        <div class="ex-ko">그는 그녀의 입장에 자신을 대입하여 그녀의 상황에 공감하려고 노력했습니다. (타인의 입장이 되어보려는 시도)</div>
+        <div class="ex-en" style="margin-top:12px;">Empathy requires us to step into another's shoes and feel their journey.</div>
+        <div class="ex-ko">공감은 우리에게 다른 사람의 신발을 신고 그들의 여정을 느껴보도록 요구합니다. (타인의 경험을 느껴보려는 것)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 진정한 연결 형성하기 (Forming Genuine Connections)</h2>
+    <p class="insight-p">Empathy는 진정한 인간적 유대감을 형성하게 합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">Through empathy, we can build stronger relationships.</div>
+        <div class="ex-ko">공감을 통해 우리는 더 강한 관계를 형성할 수 있습니다. (공감이 관계 형성에 미치는 긍정적 영향)</div>
+        <div class="ex-en" style="margin-top:12px;">Empathy allows us to connect with others on a deeper level.</div>
+        <div class="ex-ko">공감은 우리가 더 깊은 수준에서 다른 사람들과 연결될 수 있게 합니다. (감정적으로 더 깊이 연결되는 것)</div>
+    </div>
+</div>
+`,
+    "Compassion": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>Compassion</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 Compassion은 <strong>'타인의 아픔을 진심으로 이해하고 함께 느끼는 것'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">Compassion의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>Compassion</strong>의 핵심은</p>
+        <div class="quote-text">"타인의 고통에 진정으로 공감하는 마음"</div>
+        <p>입니다. 이는 단순한 동정심을 넘어선 깊은 이해와 연결이 수반됩니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (Compassion)</div>
+        <pre>
+   O
+  /|\
+  / \
+(손을 내미는 사람)
+        </pre>
+        <div class="ascii-footer">(Compassion은 도움의 손길을 내미는 행위와 같습니다.)</div>
+    </div>
+
+    <h2 class="insight-h2">① 진정한 이해와 공감 (True Understanding and Empathy)</h2>
+    <p class="insight-p">Compassion은 타인의 감정을 진정으로 이해하고 공감하는 것을 의미합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">She showed compassion by listening to his troubles without judgment.</div>
+        <div class="ex-ko">그녀는 그의 고민을 판단 없이 들어주며 동정심을 보였다. (타인의 감정을 진정으로 이해하고 공감하는 행위)</div>
+        <div class="ex-en" style="margin-top:12px;">His compassion was evident when he comforted his grieving friend.</div>
+        <div class="ex-ko">그의 동정심은 슬픔에 잠긴 친구를 위로할 때 확연히 드러났다. (진정한 이해와 공감을 통한 위로)</div>
+    </div>
+
+    <h2 class="insight-h2">② 적극적인 행동 (Active Action)</h2>
+    <p class="insight-p">Compassion은 단순한 감정 이상으로 행동을 통해 표현됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">Volunteering at the shelter was her way of showing compassion.</div>
+        <div class="ex-ko">보호소에서 자원봉사를 하는 것은 그녀가 동정심을 표현하는 방법이었다. (감정을 행동으로 옮기는 것)</div>
+        <div class="ex-en" style="margin-top:12px;">He showed compassion by donating to those in need.</div>
+        <div class="ex-ko">그는 도움이 필요한 사람들에게 기부함으로써 동정심을 보였다. (적극적인 행동을 통한 표현)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 연대와 연결 (Solidarity and Connection)</h2>
+    <p class="insight-p">Compassion은 타인과의 연대와 정서적 연결을 강화합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">Compassion creates a strong sense of community among people.</div>
+        <div class="ex-ko">동정심은 사람들 간의 강한 공동체 의식을 형성한다. (연대와 정서적 연결을 강화)</div>
+        <div class="ex-en" style="margin-top:12px;">Through compassion, we find common ground with others.</div>
+        <div class="ex-ko">우리는 동정심을 통해 다른 사람들과 공통점을 찾는다. (정서적 연결을 통한 연대)</div>
+    </div>
+</div>
+`,
+    "Self-awareness": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>Self-awareness</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 Self-awareness은 <strong>'자신을 깊이 이해하고 있는 상태'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">Self-awareness의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>Self-awareness</strong>의 핵심은</p>
+        <div class="quote-text">"자신의 감정과 행동을 인식하는 능력"</div>
+        <p>입니다. 이는 자신의 내면 상태를 정확히 이해하는 것을 포함합니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (Self-awareness)</div>
+        <pre>
+   _____
+  /     \
+ | O O |  <- 눈
+ |  ^  |  <- 코
+  \___/   <- 입
+        </pre>
+        <div class="ascii-footer">(자신을 바라보는 간결한 모습)</div>
+    </div>
+
+    <h2 class="insight-h2">① 자기 인식의 시작 (Beginning of Self-awareness)</h2>
+    <p class="insight-p">자기 인식은 자신의 행동과 감정을 처음으로 깊게 이해하는 순간에서 시작됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">She realized her tendency to interrupt others during conversations.</div>
+        <div class="ex-ko">그녀는 대화 중 남의 말을 자주 끊는 경향이 있다는 것을 깨달았다. (자신의 행동을 인식하는 순간)</div>
+        <div class="ex-en" style="margin-top:12px;">He understood that he often felt anxious in large crowds.</div>
+        <div class="ex-ko">그는 큰 무리 속에서 자주 불안함을 느낀다는 것을 이해했다. (자신의 감정을 인식하는 순간)</div>
+    </div>
+
+    <h2 class="insight-h2">② 자기 수용 (Self-acceptance)</h2>
+    <p class="insight-p">자기 인식은 자기 수용으로 이어지며, 이는 자신의 장단점을 수용하는 것을 의미합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">She accepted her introverted nature and stopped forcing herself to be outgoing.</div>
+        <div class="ex-ko">그녀는 자신의 내향적인 성격을 받아들이고 외향적이 되려고 애쓰는 것을 멈췄다. (자기 수용의 과정)</div>
+        <div class="ex-en" style="margin-top:12px;">He embraced his creative side, even if it meant being different.</div>
+        <div class="ex-ko">그는 다르다는 것을 의미하더라도 자신의 창의적인 면을 받아들였다. (자신의 차이를 수용하는 과정)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 자기 성장 (Self-growth)</h2>
+    <p class="insight-p">자기 인식은 궁극적으로 자기 성장을 가능하게 하며, 이는 지속적인 학습과 발전의 과정을 포함합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">By recognizing her weaknesses, she was able to work on improving them.</div>
+        <div class="ex-ko">자신의 약점을 인식함으로써 그녀는 그것들을 개선하기 위해 노력할 수 있었다. (자기 성장의 시작)</div>
+        <div class="ex-en" style="margin-top:12px;">He set new goals to enhance his skills in areas he felt less confident.</div>
+        <div class="ex-ko">그는 자신이 덜 자신감을 느끼는 분야에서 기술을 향상시키기 위해 새로운 목표를 세웠다. (자기 발전의 과정)</div>
+    </div>
+</div>
+`,
+    "empathize": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>empathize</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 empathize은 <strong>'상대방의 감정을 깊이 이해하고 함께 느낀다'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">empathize의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>empathize</strong>의 핵심은</p>
+        <div class="quote-text">"마음의 연결과 이해"</div>
+        <p>입니다. 상대방의 감정을 자신의 감정처럼 느끼는 것입니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (empathize)</div>
+        <pre>
+   O   O
+  (     )
+   \   /
+    \ /
+     V
+        </pre>
+        <div class="ascii-footer">(두 마음이 연결되어 서로 이해하는 모습)</div>
+    </div>
+
+    <h2 class="insight-h2">① 감정 이입하기 - Emotional Identification</h2>
+    <p class="insight-p">상대방의 감정을 이해하고 내면화하는 것을 의미합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">I could empathize with her sadness after losing her pet.</div>
+        <div class="ex-ko">나는 그녀의 애완동물을 잃고 난 후의 슬픔에 공감할 수 있었다. (그녀의 감정을 나도 느낄 수 있음을 의미)</div>
+        <div class="ex-en" style="margin-top:12px;">He empathized with the character's struggles in the movie.</div>
+        <div class="ex-ko">그는 영화 속 캐릭터의 고난에 공감했다. (그 캐릭터의 감정을 이해하고 느꼈음을 나타냄)</div>
+    </div>
+
+    <h2 class="insight-h2">② 관계 형성 - Building Connections</h2>
+    <p class="insight-p">다른 사람들과의 감정적 유대를 강화합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">Teachers who empathize with their students can build better relationships.</div>
+        <div class="ex-ko">학생들과 공감하는 교사들은 더 나은 관계를 구축할 수 있다. (학생들의 감정을 이해하고 연결되는 것을 강조)</div>
+        <div class="ex-en" style="margin-top:12px;">She empathizes with her colleagues, making her a great team leader.</div>
+        <div class="ex-ko">그녀는 동료들과 공감하며, 훌륭한 팀 리더가 된다. (공감을 통해 더 나은 팀 관계를 형성함)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 갈등 해소 - Conflict Resolution</h2>
+    <p class="insight-p">감정의 이해를 통해 갈등을 해결하는 데 도움을 줍니다.</p>
+    <div class="example-group">
+        <div class="ex-en">By empathizing with each other's perspectives, they resolved their dispute.</div>
+        <div class="ex-ko">서로의 관점을 공감함으로써 그들은 분쟁을 해결했다. (감정적 이해가 갈등 해결에 기여함을 의미)</div>
+        <div class="ex-en" style="margin-top:12px;">Empathizing with his opponent's feelings helped him negotiate better.</div>
+        <div class="ex-ko">상대방의 감정에 공감하는 것이 그가 더 나은 협상을 하는 데 도움이 되었다. (공감이 협상에 긍정적 영향을 미침)</div>
+    </div>
+</div>
+`,
+    "listen actively": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>listen actively</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 listen actively은 <strong>'집중하고 이해하려는 열린 마음의 태도'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">listen actively의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>listen actively</strong>의 핵심은</p>
+        <div class="quote-text">"귀 기울여 듣고 반응하기"</div>
+        <p>입니다. 상대방의 말을 이해하고 공감하려는 노력을 의미합니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (listen actively)</div>
+        <pre>
+  O
+ /|\
+ / \
+(경청하는 자세)
+        </pre>
+        <div class="ascii-footer">(집중하고 열린 태도로 경청하는 모습)</div>
+    </div>
+
+    <h2 class="insight-h2">① 적극적인 참여와 피드백 Active Participation and Feedback</h2>
+    <p class="insight-p">상대방의 말에 반응하고 피드백을 주는 것이 중요합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">"I hear what you're saying, and it makes sense to me."</div>
+        <div class="ex-ko">"당신이 하는 말을 듣고 이해되었습니다." (상대방의 말을 인정하고 피드백을 주는 경우)</div>
+        <div class="ex-en" style="margin-top:12px;">"Can you clarify that point? I'm really interested."</div>
+        <div class="ex-ko">"그 점을 명확히 해주실 수 있나요? 정말 관심이 있어요." (적극적으로 참여하고 싶음을 표현)</div>
+    </div>
+
+    <h2 class="insight-h2">② 공감과 이해 Empathy and Understanding</h2>
+    <p class="insight-p">상대방의 감정을 이해하고 공감하는 것이 핵심입니다.</p>
+    <div class="example-group">
+        <div class="ex-en">"That must have been really tough for you."</div>
+        <div class="ex-ko">"그것은 정말 힘들었겠군요." (상대방의 감정을 이해하고 공감하는 표현)</div>
+        <div class="ex-en" style="margin-top:12px;">"I can see why you feel that way."</div>
+        <div class="ex-ko">"당신이 그렇게 느끼는 이유를 알겠어요." (상대방의 입장을 이해하고 인정)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 비언어적 신호 Non-Verbal Cues</h2>
+    <p class="insight-p">눈 맞춤, 끄덕임 등 비언어적 신호로 적극적인 경청을 표현합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">"She nodded as he spoke, showing she was engaged."</div>
+        <div class="ex-ko">"그가 말할 때 그녀는 고개를 끄덕이며 듣고 있다는 신호를 보냈다." (비언어적 신호로 경청을 표현)</div>
+        <div class="ex-en" style="margin-top:12px;">"His eye contact made me feel heard."</div>
+        <div class="ex-ko">"그의 눈 맞춤이 내가 잘 듣고 있다는 느낌을 주었다." (눈 맞춤을 통해 경청을 표현)</div>
+    </div>
+</div>
+`,
+    "appreciate": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>appreciate</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 appreciate은 <strong>'진정으로 가치를 인식하고 감사하는 것'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">appreciate의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>appreciate</strong>의 핵심은</p>
+        <div class="quote-text">"진정한 가치를 이해하고 감사하는 것"</div>
+        <p>입니다. (이 단어는 무언가의 진정한 가치를 인식하고 그것에 감사하는 느낌을 줍니다.)</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (appreciate)</div>
+        <pre>
+  _______
+ /       \
+|  Value  | --> [Gratitude]
+ \_______/
+        </pre>
+        <div class="ascii-footer">(진정한 가치를 인정하고 감사하는 구조)</div>
+    </div>
+
+    <h2 class="insight-h2">① 인정하고 감사하기 + Recognizing and Valuing</h2>
+    <p class="insight-p">appreciate는 무언가의 가치를 인정하고 그에 대해 감사를 표하는 것을 의미합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">I really appreciate your help with the project.</div>
+        <div class="ex-ko">당신의 프로젝트 도움에 정말 감사합니다. (도움을 인정하고 그 가치를 높이 평가함)</div>
+        <div class="ex-en" style="margin-top:12px;">She appreciates the beauty of the sunset every evening.</div>
+        <div class="ex-ko">그녀는 매일 저녁 노을의 아름다움을 감상합니다. (아름다움을 인정하고 감상함)</div>
+    </div>
+
+    <h2 class="insight-h2">② 상황의 중요성 인식하기 + Realizing Importance</h2>
+    <p class="insight-p">appreciate는 상황의 중요성을 인식하고 그것을 충분히 이해하는 것을 의미합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">We appreciate the challenges you are facing.</div>
+        <div class="ex-ko">우리는 당신이 직면한 도전을 이해합니다. (도전의 중요성을 인식하고 이해함)</div>
+        <div class="ex-en" style="margin-top:12px;">He appreciates the need for immediate action.</div>
+        <div class="ex-ko">그는 즉각적인 행동의 필요성을 인식합니다. (행동의 중요성을 이해함)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 가치 상승 + Increase in Value</h2>
+    <p class="insight-p">appreciate는 어떤 사물이나 자산의 가치가 상승하는 것을 의미하기도 합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">The house has appreciated in value over the years.</div>
+        <div class="ex-ko">그 집은 몇 년 동안 가치가 상승했습니다. (시간이 지나면서 가치가 증가함)</div>
+        <div class="ex-en" style="margin-top:12px;">Her investment has appreciated significantly.</div>
+        <div class="ex-ko">그녀의 투자는 상당히 가치가 상승했습니다. (투자의 가치가 증가함)</div>
+    </div>
+</div>
+`,
+    "active listening": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>active listening</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 active listening은 <strong>'상대방의 말을 깊이 있게 이해하는 집중적인 경청'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">active listening의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>active listening</strong>의 핵심은</p>
+        <div class="quote-text">"상대방의 말을 진정으로 이해하고 반응하는 것"</div>
+        <p>입니다. 이는 대화의 진정성과 상호작용을 촉진합니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (active listening)</div>
+        <pre>
+  O---O
+ /     \
+|  듣기  |--> 반응
+ \     /
+  O---O
+        </pre>
+        <div class="ascii-footer">(듣고 이해하며 반응하는 과정을 묘사한 그림)</div>
+    </div>
+
+    <h2 class="insight-h2">① 집중과 이해 Focus and Understanding</h2>
+    <p class="insight-p">상대방의 말을 들으면서 집중하고 그 내용을 이해하려는 적극적인 태도를 가집니다.</p>
+    <div class="example-group">
+        <div class="ex-en">"During the meeting, she practiced active listening by nodding and asking clarifying questions."</div>
+        <div class="ex-ko">"회의 중에 그녀는 고개를 끄덕이며 명확한 질문을 하면서 적극적으로 경청했습니다." (상대의 말을 깊이 이해하려는 태도)</div>
+        <div class="ex-en" style="margin-top:12px;">"Active listening helped him understand the client's needs better."</div>
+        <div class="ex-ko">"적극적인 경청 덕분에 그는 고객의 필요를 더 잘 이해할 수 있었습니다." (집중과 이해가 고객 이해로 이어짐)</div>
+    </div>
+
+    <h2 class="insight-h2">② 피드백 제공 Providing Feedback</h2>
+    <p class="insight-p">상대방의 말을 듣고 적절한 피드백을 제공하여 대화에 적극적으로 참여합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">"He showed he was actively listening by summarizing what was said and giving his thoughts."</div>
+        <div class="ex-ko">"그는 말한 내용을 요약하고 자신의 생각을 제공함으로써 적극적으로 듣고 있음을 보여주었습니다." (피드백 제공으로 대화에 참여)</div>
+        <div class="ex-en" style="margin-top:12px;">"Active listening involves responding to both verbal and non-verbal cues."</div>
+        <div class="ex-ko">"적극적인 경청은 언어적, 비언어적 신호에 모두 반응하는 것을 포함합니다." (다양한 신호에 대한 피드백)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 감정 공감 Empathy and Connection</h2>
+    <p class="insight-p">상대방의 감정을 이해하고 공감하며 심리적 연결을 강화합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">"By actively listening, she could empathize with her friend's situation."</div>
+        <div class="ex-ko">"적극적으로 경청함으로써 그녀는 친구의 상황에 공감할 수 있었습니다." (감정적인 연결을 통한 공감)</div>
+        <div class="ex-en" style="margin-top:12px;">"Active listening builds trust through empathetic engagement."</div>
+        <div class="ex-ko">"적극적인 경청은 공감적인 참여를 통해 신뢰를 쌓습니다." (공감을 통한 신뢰 구축)</div>
+    </div>
+</div>
+`,
+    "gratitude": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>gratitude</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 gratitude은 <strong>'진심 어린 감사의 표현'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">gratitude의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>gratitude</strong>의 핵심은</p>
+        <div class="quote-text">"마음에서 우러나오는 고마움"</div>
+        <p>입니다. 이 표현은 깊은 감사의 감정을 전달합니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (gratitude)</div>
+        <pre>
+   O  O
+  / \\/ \\
+ /      \\
+/________\\
+        </pre>
+        <div class="ascii-footer">(마음의 깊이에서 우러나오는 감사의 표현)</div>
+    </div>
+
+    <h2 class="insight-h2">① 감사의 감정 표현하기 + Expressing Thankfulness</h2>
+    <p class="insight-p">gratitude는 누군가의 친절에 대한 깊은 감사를 표현합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">I feel immense gratitude for your help during the crisis.</div>
+        <div class="ex-ko">위기 동안 당신의 도움에 깊은 감사를 느낍니다. (큰 도움에 대한 진심 어린 감사)</div>
+        <div class="ex-en" style="margin-top:12px;">She expressed her gratitude with a heartfelt letter.</div>
+        <div class="ex-ko">그녀는 진심 어린 편지로 그녀의 감사를 표현했습니다. (편지를 통해 진심을 전함)</div>
+    </div>
+
+    <h2 class="insight-h2">② 일상 속의 감사 + Everyday Thankfulness</h2>
+    <p class="insight-p">gratitude는 일상 속 작은 일에 대한 감사함을 나타낼 수 있습니다.</p>
+    <div class="example-group">
+        <div class="ex-en">Every morning, I wake up with gratitude for another day.</div>
+        <div class="ex-ko">매일 아침, 또 다른 하루에 대한 감사함으로 일어납니다. (일상의 소중함에 대한 감사)</div>
+        <div class="ex-en" style="margin-top:12px;">He practices gratitude by keeping a daily journal.</div>
+        <div class="ex-ko">그는 일기장을 통해 매일 감사함을 실천합니다. (일상에서 감사함을 기록하는 습관)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 관계에서의 감사 + Gratitude in Relationships</h2>
+    <p class="insight-p">gratitude는 관계를 강화하는 긍정적인 감정입니다.</p>
+    <div class="example-group">
+        <div class="ex-en">Our relationship grew stronger with mutual gratitude.</div>
+        <div class="ex-ko">우리의 관계는 상호 감사로 더욱 강해졌습니다. (감사를 통해 관계가 깊어짐)</div>
+        <div class="ex-en" style="margin-top:12px;">Showing gratitude can heal and strengthen bonds.</div>
+        <div class="ex-ko">감사를 표현하는 것은 관계를 치유하고 강화할 수 있습니다. (감사의 표현이 관계에 긍정적 영향을 줌)</div>
+    </div>
+</div>
+`,
+    "listen": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>listen</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 listen은 <strong>'주의 깊게 듣고 이해하는 행동'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">listen의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>listen</strong>의 핵심은</p>
+        <div class="quote-text">"주의 깊게 귀 기울이는 것"</div>
+        <p>입니다. 주의와 관심을 가지고 듣는 행위를 강조합니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (listen)</div>
+        <pre>
+  ____
+ / __ \
+| |  | |
+| |__| |
+ \____/
+        </pre>
+        <div class="ascii-footer">(귀 모양을 통해 집중해서 듣는 이미지를 표현)</div>
+    </div>
+
+    <h2 class="insight-h2">① 주의 깊게 듣기 + Attentive Listening</h2>
+    <p class="insight-p">상대방의 말에 집중하여 듣는 것을 의미합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">She listened carefully to the instructions.</div>
+        <div class="ex-ko">그녀는 지시에 주의 깊게 귀 기울였다. (주의와 집중을 강조)</div>
+        <div class="ex-en" style="margin-top:12px;">He listens intently to his teacher.</div>
+        <div class="ex-ko">그는 선생님의 말씀을 열심히 듣는다. (집중과 관심을 반영)</div>
+    </div>
+
+    <h2 class="insight-h2">② 이해를 위한 듣기 + Listening for Understanding</h2>
+    <p class="insight-p">이해를 목적으로 상대방의 말을 듣는 것을 의미합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">Listening to the lecture helped me understand the topic better.</div>
+        <div class="ex-ko">강의를 들으면서 주제를 더 잘 이해할 수 있었다. (이해를 위한 집중)</div>
+        <div class="ex-en" style="margin-top:12px;">She listens to learn new things.</div>
+        <div class="ex-ko">그녀는 새로운 것을 배우기 위해 듣는다. (학습을 위한 듣기)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 감정을 담아 듣기 + Empathetic Listening</h2>
+    <p class="insight-p">상대방의 감정에 공감하며 듣는 것을 의미합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">He listens to his friend with empathy.</div>
+        <div class="ex-ko">그는 친구의 말을 공감하며 듣는다. (감정을 이해하고 공감)</div>
+        <div class="ex-en" style="margin-top:12px;">Listening with empathy can strengthen relationships.</div>
+        <div class="ex-ko">공감하며 듣는 것은 관계를 강화할 수 있다. (감정적 연결 강조)</div>
+    </div>
+</div>
+`,
+    "communicate with compassion": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>communicate with compassion</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 communicate with compassion은 <strong>'타인의 감정을 이해하고 따뜻하게 소통하는 것'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">communicate with compassion의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>communicate with compassion</strong>의 핵심은</p>
+        <div class="quote-text">"상대방의 입장을 배려하며 소통하는 것"</div>
+        <p>입니다. 이는 상대방의 감정을 존중하고 진심으로 이해하려는 노력을 포함합니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (communicate with compassion)</div>
+        <pre>
+  /~~~~~~~~~~~~~\
+ | Empathy      |
+ |    +         |
+ | Understanding|
+  \~~~~~~~~~~~~~/
+        </pre>
+        <div class="ascii-footer">(상대방의 감정을 이해하고 배려하는 마음)</div>
+    </div>
+
+    <h2 class="insight-h2">① 감정 이입 + Empathy</h2>
+    <p class="insight-p">상대방의 감정을 이해하고 그들의 입장에서 생각하는 것을 의미합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">"I can see you're upset; let's talk about what's bothering you."</div>
+        <div class="ex-ko">"당신이 화가 난 걸 알겠어요. 무엇이 당신을 괴롭히는지 이야기해봐요." (상대방의 감정을 이해하고 해결하고자 함)</div>
+        <div class="ex-en" style="margin-top:12px;">"I understand this is difficult for you. How can I help?"</div>
+        <div class="ex-ko">"이게 당신에게 어렵다는 걸 이해해요. 어떻게 도와드릴까요?" (상대방의 어려움을 이해하고 도움을 제공하려는 태도)</div>
+    </div>
+
+    <h2 class="insight-h2">② 진심 어린 관심 + Genuine Interest</h2>
+    <p class="insight-p">상대방의 말을 진심으로 듣고 관심을 보이는 것을 강조합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">"Tell me more about your experience; I'm really interested."</div>
+        <div class="ex-ko">"당신의 경험에 대해 더 말해 주세요; 정말로 관심이 있어요." (상대방의 이야기를 진심으로 듣고 싶어 함)</div>
+        <div class="ex-en" style="margin-top:12px;">"Your perspective is valuable to me; please share it."</div>
+        <div class="ex-ko">"당신의 관점은 저에게 중요해요; 공유해 주세요." (상대방의 의견을 중요하게 여기는 태도)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 친절한 소통 + Kind Communication</h2>
+    <p class="insight-p">상대방에게 친절하고 부드럽게 대화하는 것을 포함합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">"I appreciate your effort and understand your concerns."</div>
+        <div class="ex-ko">"당신의 노력을 감사히 여기며 당신의 우려를 이해합니다." (상대방의 노력과 우려를 인정하고 존중함)</div>
+        <div class="ex-en" style="margin-top:12px;">"Let's work together to find a solution that works for both of us."</div>
+        <div class="ex-ko">"우리 둘 다에게 좋은 해결책을 찾기 위해 함께 노력해 봅시다." (상호 협력을 통해 긍정적인 결과를 도출하려는 태도)</div>
+    </div>
+</div>
+`,
+    "Gratitude": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>Gratitude</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 Gratitude은 <strong>'마음 깊은 곳에서 우러나오는 감사의 표현'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">Gratitude의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>Gratitude</strong>의 핵심은</p>
+        <div class="quote-text">"마음 속 깊은 감사의 느낌"</div>
+        <p>입니다. 이는 마음의 진정성을 강조합니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (Gratitude)</div>
+        <pre>
+  _____
+ /     \
+| Thank |
+|  You  |
+ \_____/
+        </pre>
+        <div class="ascii-footer">(감사가 마음에서 나와 전달됨을 나타냅니다)</div>
+    </div>
+
+    <h2 class="insight-h2">① 진심 어린 감사의 표현 (Heartfelt Appreciation)</h2>
+    <p class="insight-p">Gratitude는 진심으로 누군가에게 깊은 감사를 전할 때 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">I feel deep gratitude for your support during my tough times.</div>
+        <div class="ex-ko">당신이 어려운 시기에 보여준 지원에 깊은 감사를 느낍니다. (진심 어린 감사를 표현)</div>
+        <div class="ex-en" style="margin-top:12px;">She expressed her gratitude with tears in her eyes.</div>
+        <div class="ex-ko">그녀는 눈물로 그녀의 감사를 표현했습니다. (감동과 진정성을 담은 표현)</div>
+    </div>
+
+    <h2 class="insight-h2">② 감사의 일상적 습관 (Habitual Thankfulness)</h2>
+    <p class="insight-p">Gratitude는 일상 생활에서 주기적으로 감사의 마음을 표현할 때 쓰입니다.</p>
+    <div class="example-group">
+        <div class="ex-en">Practicing gratitude daily can change your outlook on life.</div>
+        <div class="ex-ko">매일 감사를 실천하는 것은 삶에 대한 관점을 바꿀 수 있습니다. (일상의 긍정적 습관 강조)</div>
+        <div class="ex-en" style="margin-top:12px;">He maintains a gratitude journal to remind himself of his blessings.</div>
+        <div class="ex-ko">그는 자신의 축복을 상기하기 위해 감사 일기를 씁니다. (감사의 지속적 습관화)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 관계를 강화하는 감사 (Strengthening Relationships)</h2>
+    <p class="insight-p">Gratitude는 관계를 강화하고 더 깊은 유대감을 형성할 때 중요합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">Expressing gratitude to coworkers can enhance teamwork and collaboration.</div>
+        <div class="ex-ko">동료에게 감사를 표현하는 것은 팀워크와 협력을 강화할 수 있습니다. (관계를 강화하는 역할)</div>
+        <div class="ex-en" style="margin-top:12px;">Gratitude can transform a simple encounter into a warm friendship.</div>
+        <div class="ex-ko">감사는 단순한 만남을 따뜻한 우정으로 변화시킬 수 있습니다. (감사가 관계에 미치는 긍정적 영향)</div>
+    </div>
+</div>
+`,
+    "Patience": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>Patience</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 Patience은 <strong>'인내라는 덕목의 깊고도 조용한 힘'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">Patience의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>Patience</strong>의 핵심은</p>
+        <div class="quote-text">"고요함 속의 강력함"</div>
+        <p>입니다. 이는 시간이 걸리더라도 결과를 기다릴 수 있는 마음가짐을 뜻합니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (Patience)</div>
+        <pre>
+  |-----|
+  |     |
+  |  *  |
+  |     |
+  |-----|
+        </pre>
+        <div class="ascii-footer">(잠재력을 감싸고 있는 보호막과 같은 모습)</div>
+    </div>
+
+    <h2 class="insight-h2">① 꾸준함과 차분함 (Consistency and Calmness)</h2>
+    <p class="insight-p">Patience는 흔들리지 않는 꾸준함과 차분함을 의미합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">She waited patiently for her turn to speak.</div>
+        <div class="ex-ko">그녀는 차분하게 자신의 차례를 기다렸다. (기다림 속에서도 차분함을 유지하는 꾸준함)</div>
+        <div class="ex-en" style="margin-top:12px;">His patience paid off as he slowly mastered the skill.</div>
+        <div class="ex-ko">그의 인내는 결실을 맺어 그가 서서히 그 기술을 숙달하게 되었다. (꾸준한 인내가 결과로 이어짐)</div>
+    </div>
+
+    <h2 class="insight-h2">② 자제력과 절제 (Self-Control and Restraint)</h2>
+    <p class="insight-p">Patience는 감정을 억제하고 절제할 수 있는 능력을 포함합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">He showed remarkable patience by not reacting immediately.</div>
+        <div class="ex-ko">그는 즉각 반응하지 않음으로써 놀라운 인내를 보여주었다. (즉각적인 반응을 자제하는 능력)</div>
+        <div class="ex-en" style="margin-top:12px;">Practicing patience helped her manage stressful situations better.</div>
+        <div class="ex-ko">인내를 연습하는 것은 그녀가 스트레스 상황을 더 잘 관리할 수 있게 도와주었다. (자제력을 통해 스트레스를 관리함)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 시간의 힘과 기다림 (Power of Time and Waiting)</h2>
+    <p class="insight-p">Patience는 시간이 주는 힘과 그것을 기다릴 줄 아는 능력을 의미합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">With patience, the gardener waited for the seeds to sprout.</div>
+        <div class="ex-ko">정원사는 씨앗이 싹트기를 인내심을 가지고 기다렸다. (시간이 지나며 자연스럽게 이루어질 것을 기다림)</div>
+        <div class="ex-en" style="margin-top:12px;">Time and patience are the greatest healers.</div>
+        <div class="ex-ko">시간과 인내는 가장 위대한 치유자다. (시간의 흐름 속에서 인내가 치유를 가져옴)</div>
+    </div>
+</div>
+`,
+    "get the hang of": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>get the hang of</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 get the hang of은 <strong>'익숙해지다, 요령을 터득하다'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">get the hang of의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>get the hang of</strong>의 핵심은</p>
+        <div class="quote-text">"익숙해지면서 감을 잡다"</div>
+        <p>즉, 처음에 서툴렀던 일을 점차 익숙하게 잘 하게 되는 과정입니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (get the hang of)</div>
+        <pre>
+  [시작] -> [연습] -> [익숙해짐]
+        </pre>
+        <div class="ascii-footer">(점진적인 익숙함의 과정)</div>
+    </div>
+
+    <h2 class="insight-h2">① 익숙해지는 과정의 시작 - Beginning of Familiarization</h2>
+    <p class="insight-p">처음에는 서툴지만, 점차 익숙해지는 과정을 나타냅니다.</p>
+    <div class="example-group">
+        <div class="ex-en">I'm starting to get the hang of playing the guitar.</div>
+        <div class="ex-ko">나는 기타 치는 것에 점점 익숙해지고 있다. (처음엔 서툴렀지만, 이제 점차 나아지고 있는 상태)</div>
+        <div class="ex-en" style="margin-top:12px;">She got the hang of skiing after a few lessons.</div>
+        <div class="ex-ko">몇 번의 레슨 후 그녀는 스키 타는 요령을 터득했다. (처음엔 어려웠으나 반복을 통해 익숙해짐)</div>
+    </div>
+
+    <h2 class="insight-h2">② 반복을 통한 능숙함 - Mastery Through Repetition</h2>
+    <p class="insight-p">반복적인 연습을 통해 능숙해지는 것을 강조합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">Once you get the hang of it, coding becomes much easier.</div>
+        <div class="ex-ko">일단 요령을 터득하면, 코딩이 훨씬 쉬워진다. (반복을 통해 능숙해진 상태)</div>
+        <div class="ex-en" style="margin-top:12px;">He finally got the hang of driving a manual car.</div>
+        <div class="ex-ko">그는 마침내 수동차 운전의 요령을 터득했다. (반복적인 시도로 인해 능숙해짐)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 처음의 어려움 극복 - Overcoming Initial Difficulty</h2>
+    <p class="insight-p">처음에 느꼈던 어려움을 극복한 상태를 나타냅니다.</p>
+    <div class="example-group">
+        <div class="ex-en">It took a while, but I got the hang of using chopsticks.</div>
+        <div class="ex-ko">시간이 좀 걸렸지만, 젓가락 사용에 익숙해졌다. (초기 어려움을 극복하고 익숙해짐)</div>
+        <div class="ex-en" style="margin-top:12px;">They got the hang of the new software after some practice.</div>
+        <div class="ex-ko">그들은 약간의 연습 후에 새로운 소프트웨어를 익숙하게 다루게 되었다. (처음엔 어려웠으나 연습을 통해 극복)</div>
+    </div>
+</div>
+`,
+    "call it a day": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>call it a day</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 call it a day은 <strong>'오늘의 일을 더 이상 진행하지 않고 마무리한다는 느낌'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">call it a day의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>call it a day</strong>의 핵심은</p>
+        <div class="quote-text">"하루의 업무를 끝내고 쉬는 시간으로 들어가는 순간"</div>
+        <p>즉, 이제 일을 그만하고 쉴 때라는 의미입니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (call it a day)</div>
+        <pre>
+  _____
+ /     \
+|  일   |
+ \_____/
+   ||
+   ||
+  \||/
+   \/
+  휴식
+        </pre>
+        <div class="ascii-footer">(하루 일을 끝내고 휴식으로 전환되는 모습)</div>
+    </div>
+
+    <h2 class="insight-h2">① 일의 마무리 선언 - Wrapping up work</h2>
+    <p class="insight-p">이 표현은 보통 하루의 업무나 특정 작업을 끝내는 것을 선언할 때 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">Let's call it a day and go home.</div>
+        <div class="ex-ko">오늘 일은 여기까지 하고 집에 갑시다. (일을 그만하고 퇴근하자는 의미)</div>
+        <div class="ex-en" style="margin-top:12px;">After fixing the bug, we decided to call it a day.</div>
+        <div class="ex-ko">버그를 고친 후 우리는 일을 끝내기로 했습니다. (작업을 마무리하기로 결정한 상황)</div>
+    </div>
+
+    <h2 class="insight-h2">② 피로로 인한 종료 - Ending due to fatigue</h2>
+    <p class="insight-p">피곤하거나 더 이상의 진행이 어렵다고 느껴질 때 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">I'm too tired to continue. Let's call it a day.</div>
+        <div class="ex-ko">너무 피곤해서 더 이상 할 수 없어요. 오늘은 여기까지 하죠. (피로로 일을 멈추기로 함)</div>
+        <div class="ex-en" style="margin-top:12px;">We've been working for 10 hours, let's call it a day.</div>
+        <div class="ex-ko">10시간 동안 일했으니, 오늘은 여기까지 하죠. (장시간 일한 후의 피로감을 나타냄)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 작업의 자연스러운 종료 - Natural end of a task</h2>
+    <p class="insight-p">특정 작업이 자연스럽게 끝날 때 이를 알리기 위해 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">We finished the project, so let's call it a day.</div>
+        <div class="ex-ko">프로젝트를 끝냈으니, 오늘은 여기까지 하죠. (작업이 성공적으로 완료된 후)</div>
+        <div class="ex-en" style="margin-top:12px;">The meeting has covered everything, let's call it a day.</div>
+        <div class="ex-ko">회의에서 모든 것을 다루었으니, 오늘은 여기까지 하죠. (회의가 계획대로 완료된 후)</div>
+    </div>
+</div>
+`,
+    "keep an eye on": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>keep an eye on</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 keep an eye on은 <strong>'지켜보고 주의를 기울이는 것'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">keep an eye on의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>keep an eye on</strong>의 핵심은</p>
+        <div class="quote-text">"주의 깊게 관찰하는 것"</div>
+        <p>입니다. 이 표현은 무언가를 계속해서 살피는 행동을 나타냅니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (keep an eye on)</div>
+        <pre>
+   O
+  /|\
+  / \
+ /___\
+        </pre>
+        <div class="ascii-footer">(항상 주시하는 모습을 간단히 표현한 그림)</div>
+    </div>
+
+    <h2 class="insight-h2">① 감시와 보호의 의미 (Surveillance and Protection)</h2>
+    <p class="insight-p">keep an eye on은 누군가를 감시하거나 보호의 목적으로 주의를 기울이는 것을 의미합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">Please keep an eye on the baby while I am cooking.</div>
+        <div class="ex-ko">부엌에서 요리하는 동안 아기를 잘 봐주세요. (아기를 안전하게 지켜봐야 한다는 뉘앙스)</div>
+        <div class="ex-en" style="margin-top:12px;">Can you keep an eye on my bag while I go to the restroom?</div>
+        <div class="ex-ko">제가 화장실 가는 동안 가방 좀 봐주실 수 있나요? (가방을 잃어버리지 않도록 주의 깊게 봐달라는 의미)</div>
+    </div>
+
+    <h2 class="insight-h2">② 진행 상황의 모니터링 (Monitoring Progress)</h2>
+    <p class="insight-p">이 표현은 어떤 것의 진행 상황을 계속해서 살피고 모니터링하는 것을 나타낼 수도 있습니다.</p>
+    <div class="example-group">
+        <div class="ex-en">The manager kept an eye on the project's progress.</div>
+        <div class="ex-ko">매니저는 프로젝트의 진행 상황을 주시했습니다. (프로젝트가 계획대로 진행되고 있는지 계속 살핀다는 의미)</div>
+        <div class="ex-en" style="margin-top:12px;">Keep an eye on the stock market for any sudden changes.</div>
+        <div class="ex-ko">주식 시장의 갑작스러운 변화를 주시하세요. (시장의 변화를 빠르게 인지해야 한다는 뉘앙스)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 문제 예방 및 대응 (Preventive and Responsive Action)</h2>
+    <p class="insight-p">keep an eye on은 잠재적인 문제를 예방하고, 빠르게 대응하기 위해 주의를 기울이는 것을 의미합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">You should keep an eye on the weather reports during your vacation.</div>
+        <div class="ex-ko">휴가 동안 날씨 예보를 잘 확인하세요. (날씨 변화에 빠르게 대응하기 위함)</div>
+        <div class="ex-en" style="margin-top:12px;">Keep an eye on your health and exercise regularly.</div>
+        <div class="ex-ko">건강을 유의하고 규칙적으로 운동하세요. (건강 문제를 예방하기 위한 주의)</div>
+    </div>
+</div>
+`,
+    "Make Up": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>Make Up</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 Make Up은 <strong>'구성하고 보충하는 것'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">Make Up의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>Make Up</strong>의 핵심은</p>
+        <div class="quote-text">"다양한 요소를 합쳐서 완성하는 것"</div>
+        <p>입니다. 어떤 것이든 결합하여 전체를 이루는 과정입니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (Make Up)</div>
+        <pre>
+  +-----+     +-----+
+  | Part | + | Part |
+  +-----+     +-----+
+      |
+   Complete
+        </pre>
+        <div class="ascii-footer">(여러 부분이 모여서 하나의 완성된 형태를 이룹니다)</div>
+    </div>
+
+    <h2 class="insight-h2">① 화해하다 (Reconcile)</h2>
+    <p class="insight-p">갈등이나 다툼 후에 화해할 때 사용되는 표현입니다.</p>
+    <div class="example-group">
+        <div class="ex-en">After their argument, they decided to make up.</div>
+        <div class="ex-ko">그들은 논쟁 후에 화해하기로 결정했다. (갈등을 해결하고 관계를 회복하는 것)</div>
+        <div class="ex-en" style="margin-top:12px;">Let's make up and be friends again.</div>
+        <div class="ex-ko">우리 화해하고 다시 친구가 되자. (다툼을 끝내고 다시 친밀해지는 것)</div>
+    </div>
+
+    <h2 class="insight-h2">② 구성하다 (Compose)</h2>
+    <p class="insight-p">여러 요소가 모여 전체를 이룰 때 사용되는 표현입니다.</p>
+    <div class="example-group">
+        <div class="ex-en">The committee is made up of experts from various fields.</div>
+        <div class="ex-ko">그 위원회는 다양한 분야의 전문가들로 구성되어 있다. (여러 요소가 모여 하나의 그룹을 이루는 것)</div>
+        <div class="ex-en" style="margin-top:12px;">Water is made up of hydrogen and oxygen.</div>
+        <div class="ex-ko">물은 수소와 산소로 구성되어 있다. (두 가지 요소가 결합하여 물을 형성하는 것)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 보충하다 (Compensate)</h2>
+    <p class="insight-p">부족한 부분을 채우거나 보완할 때 사용하는 표현입니다.</p>
+    <div class="example-group">
+        <div class="ex-en">She made up the lost time by working late.</div>
+        <div class="ex-ko">그녀는 늦게까지 일하며 잃어버린 시간을 보충했다. (부족한 시간을 열심히 일해서 채우는 것)</div>
+        <div class="ex-en" style="margin-top:12px;">Can you make up the difference in price?</div>
+        <div class="ex-ko">가격 차이를 보충해 주시겠어요? (부족한 금액을 채우는 것)</div>
+    </div>
+</div>
+`,
+    "Run Out": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>Run Out</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 Run Out은 <strong>'어떤 것이 더 이상 존재하지 않거나 사용할 수 없는 상태의 절박함'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">Run Out의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>Run Out</strong>의 핵심은</p>
+        <div class="quote-text">"완전히 소진되어 더 이상 남아있지 않은 상태"</div>
+        <p>입니다. (이 표현은 특히 시간이나 자원과 관련이 깊습니다.)</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (Run Out)</div>
+        <pre>
+  _______
+ /       \
+|  Empty  |
+ \_______/
+        </pre>
+        <div class="ascii-footer">(모두 사라진 빈 상태를 시각화)</div>
+    </div>
+
+    <h2 class="insight-h2">① 자원의 고갈 Resource Depletion</h2>
+    <p class="insight-p">무언가가 완전히 소진되어 더 사용할 수 없는 상황을 설명합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">We have run out of milk.</div>
+        <div class="ex-ko">우유가 다 떨어졌어요. (우유라는 자원이 완전히 소진됨)</div>
+        <div class="ex-en" style="margin-top:12px;">The printer ran out of ink.</div>
+        <div class="ex-ko">프린터 잉크가 다 소진되었습니다. (잉크가 없어 더 이상 인쇄할 수 없음)</div>
+    </div>
+
+    <h2 class="insight-h2">② 시간의 부족 Lack of Time</h2>
+    <p class="insight-p">시간이 다 되어 더 이상 주어진 일을 할 수 없는 상황을 표현합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">We ran out of time before we finished the project.</div>
+        <div class="ex-ko">프로젝트를 끝내기 전에 시간이 다 되었습니다. (시간이 없어 더 이상 진행할 수 없음)</div>
+        <div class="ex-en" style="margin-top:12px;">They ran out of time during the exam.</div>
+        <div class="ex-ko">시험 중에 시간이 부족했습니다. (시간이 다 되어 더 이상 문제를 풀 수 없음)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 기회 상실 Loss of Opportunity</h2>
+    <p class="insight-p">기회가 사라져 더 이상 잡을 수 없는 상태를 의미합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">I wanted to buy the ticket, but they ran out.</div>
+        <div class="ex-ko">티켓을 사고 싶었지만, 모두 팔렸습니다. (기회가 사라져 더 이상 구매 불가)</div>
+        <div class="ex-en" style="margin-top:12px;">The store ran out of the new game console.</div>
+        <div class="ex-ko">가게에 새 게임 콘솔이 다 팔렸습니다. (기회가 사라져 더 이상 구매할 수 없음)</div>
+    </div>
+</div>
+`,
+    "Take Off": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>Take Off</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 Take Off은 <strong>'수월하게 시작하거나 떠나는 느낌'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">Take Off의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>Take Off</strong>의 핵심은</p>
+        <div class="quote-text">"순조로운 출발 또는 이륙"</div>
+        <p>입니다. 이 표현은 종종 시작하는 순간의 에너지를 강조합니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (Take Off)</div>
+        <pre>
+   |  /
+ --|--  출발
+   |  \
+        </pre>
+        <div class="ascii-footer">(비행기가 이륙하는 모습을 형상화)</div>
+    </div>
+
+    <h2 class="insight-h2">① 이륙하다 (Depart, Launch)</h2>
+    <p class="insight-p">주로 비행기나 프로젝트가 시작되는 장면을 묘사할 때 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">The plane will take off at 6 PM.</div>
+        <div class="ex-ko">비행기는 오후 6시에 이륙할 것입니다. (이륙의 순간을 강조)</div>
+        <div class="ex-en" style="margin-top:12px;">The project took off after the initial funding.</div>
+        <div class="ex-ko">프로젝트는 초기 자금 이후에 시작되었습니다. (프로젝트가 순조롭게 시작됨을 의미)</div>
+    </div>
+
+    <h2 class="insight-h2">② 옷을 벗다 (Remove Clothing)</h2>
+    <p class="insight-p">옷이나 액세서리를 몸에서 제거할 때 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">Please take off your shoes before entering.</div>
+        <div class="ex-ko">들어가기 전에 신발을 벗어 주세요. (신발을 벗는 동작을 강조)</div>
+        <div class="ex-en" style="margin-top:12px;">He took off his hat as a sign of respect.</div>
+        <div class="ex-ko">그는 존경의 표시로 모자를 벗었습니다. (예의 바른 행동을 나타냄)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 급성장하다 (Rapidly Grow or Succeed)</h2>
+    <p class="insight-p">사업이나 경력 등이 급격히 성장하거나 성공할 때 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">Her career really took off after she moved to New York.</div>
+        <div class="ex-ko">뉴욕으로 이사한 후 그녀의 경력은 정말로 급성장했습니다. (성공의 가속화를 의미)</div>
+        <div class="ex-en" style="margin-top:12px;">The new product took off in the market.</div>
+        <div class="ex-ko">신제품은 시장에서 급속히 인기를 끌었습니다. (제품이 빠르게 성공함을 의미)</div>
+    </div>
+</div>
+`,
+    "get over": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>get over</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 get over은 <strong>'극복하거나 감정을 처리하고 앞으로 나아가는 것'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">get over의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>get over</strong>의 핵심은</p>
+        <div class="quote-text">"장애물을 넘어가는 것"</div>
+        <p>입니다. 이 표현은 감정적 혹은 상황적 어려움을 극복할 때 자주 사용됩니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (get over)</div>
+        <pre>
+   You 
+ -----      
+  Get Over
+ -----
+  Obstacle
+        </pre>
+        <div class="ascii-footer">(장애물을 넘어가는 모습을 나타냅니다)</div>
+    </div>
+
+    <h2 class="insight-h2">① 감정 극복 Emotion Overcome</h2>
+    <p class="insight-p">이 표현은 주로 실연이나 슬픔 같은 감정을 극복하는 데 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">She finally got over her breakup.</div>
+        <div class="ex-ko">그녀는 마침내 이별을 극복했다. (이별로 인한 슬픔을 이겨내고 앞으로 나아갔다는 의미)</div>
+        <div class="ex-en" style="margin-top:12px;">He's finding it hard to get over the loss of his pet.</div>
+        <div class="ex-ko">그는 애완동물의 죽음을 극복하기 힘들어하고 있다. (슬픔을 이겨내는 과정에 있다는 의미)</div>
+    </div>
+
+    <h2 class="insight-h2">② 질병 회복 Recovery from Illness</h2>
+    <p class="insight-p">병이나 질환에서 회복하는 경우에도 이 표현을 사용할 수 있습니다.</p>
+    <div class="example-group">
+        <div class="ex-en">It took him a few weeks to get over the flu.</div>
+        <div class="ex-ko">그는 독감을 극복하는 데 몇 주가 걸렸다. (병에서 완전히 회복되었다는 의미)</div>
+        <div class="ex-en" style="margin-top:12px;">I'm still getting over my cold.</div>
+        <div class="ex-ko">나는 아직 감기를 극복하고 있는 중이다. (완전히 회복되지 않은 상태라는 의미)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 충격에서 벗어나기 Moving Past Shock</h2>
+    <p class="insight-p">충격적이거나 놀라운 일을 겪고 나서 이를 받아들이고 넘어가는 경우 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">He couldn't get over the news of his promotion.</div>
+        <div class="ex-ko">그는 자신의 승진 소식을 믿을 수 없었다. (놀라운 소식에 감정적으로 반응했다는 의미)</div>
+        <div class="ex-en" style="margin-top:12px;">She needs time to get over the accident.</div>
+        <div class="ex-ko">그녀는 사고를 극복할 시간이 필요하다. (사고의 충격에서 벗어날 시간이 필요하다는 의미)</div>
+    </div>
+</div>
+`,
+    "run out of": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>run out of</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 run out of은 <strong>'어떤 것이 다 떨어져 더 이상 사용할 수 없는 상태를 의미'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">run out of의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>run out of</strong>의 핵심은</p>
+        <div class="quote-text">"완전히 소진된 상태"</div>
+        <p>입니다. 이 표현은 종종 예상치 못한 상황에서 사용됩니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (run out of)</div>
+        <pre>
+ +---------+
+ |   X X   |
+ | X     X |
+ |   X X   |
+ +---------+
+        </pre>
+        <div class="ascii-footer">(빈 상태의 물건을 나타냄)</div>
+    </div>
+
+    <h2 class="insight-h2">① 자원 부족 상황 Lack of Resources</h2>
+    <p class="insight-p">주로 물리적 자원이 부족할 때 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">We've run out of milk.</div>
+        <div class="ex-ko">우리는 우유가 다 떨어졌습니다. (우유가 더 이상 남아있지 않음을 나타냄)</div>
+        <div class="ex-en" style="margin-top:12px;">I ran out of paper while printing.</div>
+        <div class="ex-ko">프린트하다가 종이가 다 떨어졌습니다. (종이가 부족하여 작업을 중단하게 됨)</div>
+    </div>
+
+    <h2 class="insight-h2">② 시간 부족 상황 Lack of Time</h2>
+    <p class="insight-p">시간이 부족해 일을 끝마칠 수 없을 때 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">We ran out of time during the exam.</div>
+        <div class="ex-ko">시험 중에 시간이 다 떨어졌습니다. (시간이 부족하여 문제를 다 풀지 못함)</div>
+        <div class="ex-en" style="margin-top:12px;">She ran out of time before finishing the project.</div>
+        <div class="ex-ko">그녀는 프로젝트를 끝내기 전에 시간이 다 떨어졌습니다. (시간 부족으로 인해 완성을 못함)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 에너지 고갈 상황 Lack of Energy</h2>
+    <p class="insight-p">에너지가 고갈되어 더 이상 일을 할 수 없음을 나타냅니다.</p>
+    <div class="example-group">
+        <div class="ex-en">I ran out of energy after the marathon.</div>
+        <div class="ex-ko">마라톤 후에 에너지가 다 소진되었습니다. (체력이 모두 소진되어 더 이상 활동할 수 없음)</div>
+        <div class="ex-en" style="margin-top:12px;">He ran out of steam halfway through the meeting.</div>
+        <div class="ex-ko">그는 회의 도중에 기운이 다 빠졌습니다. (더 이상 회의에 집중할 수 없음을 의미)</div>
+    </div>
+</div>
+`,
+    "catch up": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>catch up</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 catch up은 <strong>'뒤처진 것을 따라잡아 균형을 맞추는 행동'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">catch up의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>catch up</strong>의 핵심은</p>
+        <div class="quote-text">"뒤처진 것을 따라잡기"</div>
+        <p>입니다. 이 표현은 종종 시간이나 정보의 격차를 줄일 때 사용됩니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (catch up)</div>
+        <pre>
+  O   O
+ /|\ /|\
+/ | \/ | \ 
+(     ) 
+        </pre>
+        <div class="ascii-footer">(두 사람이 같은 속도로 나아가는 모습)</div>
+    </div>
+
+    <h2 class="insight-h2">① 정보 따라잡기 Information Catching Up</h2>
+    <p class="insight-p">이 뉘앙스는 최신 정보를 확인하고 이해하는 것을 의미합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">I need to catch up on the latest news.</div>
+        <div class="ex-ko">나는 최신 뉴스에 대해 알아야 해. (정보의 격차를 줄이려는 시도)</div>
+        <div class="ex-en" style="margin-top:12px;">She spent the weekend catching up on emails.</div>
+        <div class="ex-ko">그녀는 주말 동안 이메일을 확인하며 보냈다. (쌓인 이메일을 처리하려는 노력)</div>
+    </div>
+
+    <h2 class="insight-h2">② 사람과의 관계 회복 Reconnecting with People</h2>
+    <p class="insight-p">이 뉘앙스는 오랜만에 사람들과 다시 연락을 주고받는 것을 의미합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">Let's catch up over coffee soon.</div>
+        <div class="ex-ko">곧 커피 마시며 이야기 나누자. (오랜만에 만나 근황을 나누려는 제안)</div>
+        <div class="ex-en" style="margin-top:12px;">We finally caught up with each other after years.</div>
+        <div class="ex-ko">우리는 몇 년 만에 드디어 연락했다. (오랜만에 관계를 회복한 상황)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 업무나 학업의 진행 따라잡기 Progress Catching Up</h2>
+    <p class="insight-p">이 뉘앙스는 누락된 업무나 학업을 보충하는 것을 의미합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">I have to catch up on my assignments this weekend.</div>
+        <div class="ex-ko">이번 주말에 과제를 따라잡아야 해. (밀린 과제를 완료하려는 계획)</div>
+        <div class="ex-en" style="margin-top:12px;">He is trying to catch up with his studies.</div>
+        <div class="ex-ko">그는 학업을 따라잡으려 하고 있다. (뒤처진 공부를 보충하려는 노력)</div>
+    </div>
+</div>
+`,
+    "break down": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>break down</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 break down은 <strong>'세부적으로 나누고 이해하는 것'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">break down의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>break down</strong>의 핵심은</p>
+        <div class="quote-text">"분해하여 이해하다"</div>
+        <p>입니다. 이는 복잡한 것을 단순하게 만드는 과정을 나타냅니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (break down)</div>
+        <pre>
+    |--------|
+   /          \
+  /  break down  \
+ /                \
+|__________________|
+        </pre>
+        <div class="ascii-footer">(복잡한 것을 간단하게 나눠보는 모습)</div>
+    </div>
+
+    <h2 class="insight-h2">① 고장나다 + breakdown</h2>
+    <p class="insight-p">기계나 시스템이 더 이상 작동하지 않을 때 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">The car broke down on the highway.</div>
+        <div class="ex-ko">차가 고속도로에서 고장 났다. (더 이상 작동하지 않는 상태를 나타냄)</div>
+        <div class="ex-en" style="margin-top:12px;">Our washing machine broke down yesterday.</div>
+        <div class="ex-ko">우리 세탁기가 어제 고장 났다. (기계의 기능이 멈춘 상황)</div>
+    </div>
+
+    <h2 class="insight-h2">② 분석하다 + break down</h2>
+    <p class="insight-p">복잡한 것을 더 작은 부분으로 나누어 설명할 때 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">Let's break down the data to understand it better.</div>
+        <div class="ex-ko">데이터를 분석하여 더 잘 이해해보자. (세부적으로 나누어 이해하는 과정)</div>
+        <div class="ex-en" style="margin-top:12px;">The report breaks down the results by age group.</div>
+        <div class="ex-ko">그 보고서는 결과를 연령대별로 분석하고 있다. (결과를 분류하여 더욱 명확히 함)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 감정 폭발 + break down</h2>
+    <p class="insight-p">감정이 극도로 고조되어 통제할 수 없는 상태가 될 때 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">She broke down in tears after hearing the news.</div>
+        <div class="ex-ko">그녀는 그 소식을 듣고 눈물을 터뜨렸다. (감정이 폭발하여 눈물이 흘러내림)</div>
+        <div class="ex-en" style="margin-top:12px;">He broke down and couldn't continue speaking.</div>
+        <div class="ex-ko">그는 감정이 폭발하여 말을 잇지 못했다. (감정의 통제가 불가능해진 상황)</div>
+    </div>
+</div>
+`,
+    "run into": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>run into</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 run into은 <strong>'뜻밖의 만남이나 마주침'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">run into의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>run into</strong>의 핵심은</p>
+        <div class="quote-text">"예상치 못한 만남"</div>
+        <p>입니다. 이 표현은 계획 없이 갑작스럽게 일어나는 만남을 의미합니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (run into)</div>
+        <pre>
+    O   
+   /|\   
+  / | \   
+ /  |  \   
+/   |   \ 
+        </pre>
+        <div class="ascii-footer">(길을 걷다가 누군가와 우연히 만나는 모습)</div>
+    </div>
+
+    <h2 class="insight-h2">① 우연한 만남 (Unexpected Encounter)</h2>
+    <p class="insight-p">이 표현은 길을 가다가 예기치 않게 사람을 만났을 때 자주 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">I ran into my old friend at the supermarket.</div>
+        <div class="ex-ko">나는 슈퍼마켓에서 옛 친구를 우연히 만났다. (예기치 않게 친구를 만난 상황)</div>
+        <div class="ex-en" style="margin-top:12px;">She ran into her professor at the conference.</div>
+        <div class="ex-ko">그녀는 컨퍼런스에서 교수님과 우연히 마주쳤다. (계획되지 않은 만남)</div>
+    </div>
+
+    <h2 class="insight-h2">② 곤란한 상황에 처하다 (Encounter Trouble)</h2>
+    <p class="insight-p">이 표현은 예상치 못한 문제나 어려움을 겪을 때 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">We ran into some problems while setting up the tent.</div>
+        <div class="ex-ko">우리는 텐트를 치다가 몇 가지 문제에 부딪혔다. (예상치 못한 문제 발생)</div>
+        <div class="ex-en" style="margin-top:12px;">They ran into financial difficulties last year.</div>
+        <div class="ex-ko">그들은 작년에 재정적인 어려움에 처했다. (갑작스럽게 어려움을 겪은 상황)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 숫자나 양에 도달하다 (Reach a Number or Amount)</h2>
+    <p class="insight-p">이 표현은 어떤 수치나 양에 도달했을 때도 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">The project costs ran into millions of dollars.</div>
+        <div class="ex-ko">그 프로젝트 비용은 수백만 달러에 달했다. (큰 비용에 도달한 상황)</div>
+        <div class="ex-en" style="margin-top:12px;">His debts ran into thousands.</div>
+        <div class="ex-ko">그의 빚은 수천 달러에 이르렀다. (빚이 많이 쌓인 상황)</div>
+    </div>
+</div>
+`,
+    "get the ball rolling": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>get the ball rolling</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 get the ball rolling은 <strong>'시작을 촉발하고 추진력을 얻는 것'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">get the ball rolling의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>get the ball rolling</strong>의 핵심은</p>
+        <div class="quote-text">"활동을 시작하여 추진력을 얻는 것"</div>
+        <p>입니다. 이 표현은 무언가를 시작하고 이를 이어가고자 할 때 사용됩니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (get the ball rolling)</div>
+        <pre>
+     O   
+    /|\  
+   / | \ 
+   / \   
+  /   \  
+        </pre>
+        <div class="ascii-footer">공을 차면서 시작을 알리는 모습</div>
+    </div>
+
+    <h2 class="insight-h2">① 시작을 알리다 - Initiate</h2>
+    <p class="insight-p">이 표현은 어떤 프로젝트나 활동을 시작할 때 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">Let's get the ball rolling on the new marketing campaign.</div>
+        <div class="ex-ko">새로운 마케팅 캠페인을 시작해보자. (캠페인을 시작하고자 하는 의지와 추진력 강조)</div>
+        <div class="ex-en" style="margin-top:12px;">The meeting got the ball rolling on the project.</div>
+        <div class="ex-ko">회의가 프로젝트의 시작을 알렸다. (회의가 시작의 촉발점이 되었음을 강조)</div>
+    </div>
+
+    <h2 class="insight-h2">② 모멘텀을 얻다 - Gain Momentum</h2>
+    <p class="insight-p">일단 시작하면 계속해서 추진력을 얻어가는 과정을 의미합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">Once we get the ball rolling, everything will fall into place.</div>
+        <div class="ex-ko">일단 시작하면 모든 것이 제자리를 찾을 것이다. (시작 후 자연스러운 진행을 기대)</div>
+        <div class="ex-en" style="margin-top:12px;">We got the ball rolling, and soon the team was in full swing.</div>
+        <div class="ex-ko">우리는 시작했고 곧 팀이 본격적으로 움직이기 시작했다. (모멘텀을 얻어 활발해진 팀의 모습 묘사)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 주도권을 잡다 - Take Initiative</h2>
+    <p class="insight-p">이 표현은 주도적으로 무언가를 시작하려는 의지를 나타냅니다.</p>
+    <div class="example-group">
+        <div class="ex-en">She decided to get the ball rolling by volunteering first.</div>
+        <div class="ex-ko">그녀는 먼저 자원하여 시작하기로 결심했다. (주도적으로 시작하려는 의지)</div>
+        <div class="ex-en" style="margin-top:12px;">He got the ball rolling by presenting his ideas to the group.</div>
+        <div class="ex-ko">그는 자신의 아이디어를 그룹에 제시하여 시작했다. (주도적으로 아이디어를 제안하여 시작)</div>
+    </div>
+</div>
+`,
+    "bite the bullet": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>bite the bullet</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 bite the bullet은 <strong>'어려움을 감내하며 결단을 내리다'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">bite the bullet의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>bite the bullet</strong>의 핵심은</p>
+        <div class="quote-text">"불가피한 상황에서 용기를 내다"</div>
+        <p>입니다. 특히, 고통이나 불편을 직면할 때 사용됩니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (bite the bullet)</div>
+        <pre>
+   O
+  /|\
+  / \
+ (마지막 순간의 용기)
+        </pre>
+        <div class="ascii-footer">(어려운 상황에서도 맞서야 할 때)</div>
+    </div>
+
+    <h2 class="insight-h2">① 고통을 감내하다 - Enduring Pain</h2>
+    <p class="insight-p">고통스러운 상황을 감내하며 결단을 내리는 것을 의미합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">He had to bite the bullet and undergo the surgery.</div>
+        <div class="ex-ko">그는 수술을 받아야만 했습니다. (고통을 감내하는 결단)</div>
+        <div class="ex-en" style="margin-top:12px;">Despite the fear, she decided to bite the bullet and tell the truth.</div>
+        <div class="ex-ko">두려움에도 불구하고, 그녀는 진실을 말하기로 결단했습니다. (진실을 말하는 용기의 결단)</div>
+    </div>
+
+    <h2 class="insight-h2">② 불가피한 상황 - Facing the Inevitable</h2>
+    <p class="insight-p">피할 수 없는 상황을 맞닥뜨릴 때 이 표현을 씁니다.</p>
+    <div class="example-group">
+        <div class="ex-en">The company had to bite the bullet and lay off several employees.</div>
+        <div class="ex-ko">회사는 어쩔 수 없이 여러 직원을 해고해야 했습니다. (불가피한 현실을 직면)</div>
+        <div class="ex-en" style="margin-top:12px;">She knew she had to bite the bullet and finish the project by the deadline.</div>
+        <div class="ex-ko">그녀는 마감일까지 프로젝트를 끝내야 한다는 것을 알고 있었습니다. (불가피한 상황을 받아들이는 결단)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 용기를 내다 - Summoning Courage</h2>
+    <p class="insight-p">두려움을 이기고 용기를 내야 할 때 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">He bit the bullet and asked his boss for a raise.</div>
+        <div class="ex-ko">그는 용기를 내어 상사에게 급여 인상을 요청했습니다. (용기를 내는 행동)</div>
+        <div class="ex-en" style="margin-top:12px;">Finally, she bit the bullet and moved to a new city for a fresh start.</div>
+        <div class="ex-ko">마침내, 그녀는 새로운 시작을 위해 새로운 도시로 이사했습니다. (새로운 도전을 위한 용기)</div>
+    </div>
+</div>
+`,
+    "hit the nail on the head": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>hit the nail on the head</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 hit the nail on the head은 <strong>'정확히 맞히다, 적중하다'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">hit the nail on the head의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>hit the nail on the head</strong>의 핵심은</p>
+        <div class="quote-text">"정확성을 강조하는 표현"</div>
+        <p>입니다. 이 표현은 문제의 본질을 제대로 이해하거나 맞힐 때 사용됩니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (hit the nail on the head)</div>
+        <pre>
+  _______
+ |   O   |
+ |_______|
+    |    
+   /|\   
+  / | \  
+        </pre>
+        <div class="ascii-footer">(정확히 못을 박는 모습을 표현)</div>
+    </div>
+
+    <h2 class="insight-h2">① 정확한 판단이나 의견을 제시하다 (Making an accurate judgment or statement)</h2>
+    <p class="insight-p">이 표현은 누군가가 문제나 상황의 핵심을 정확히 짚어냈을 때 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">"You really hit the nail on the head with your analysis of the market trends."</div>
+        <div class="ex-ko">"당신의 시장 동향 분석은 정말 정확했어요." (분석이 매우 정확함을 칭찬하는 뉘앙스)</div>
+        <div class="ex-en" style="margin-top:12px;">"When she said the system was outdated, she hit the nail on the head."</div>
+        <div class="ex-ko">"그녀가 시스템이 구식이라고 말했을 때, 정말 정확했어요." (상황을 정확히 꿰뚫어 봄)</div>
+    </div>
+
+    <h2 class="insight-h2">② 문제의 핵심을 이해하다 (Understanding the core of a problem)</h2>
+    <p class="insight-p">문제의 중심을 제대로 파악했을 때, 이 표현을 사용합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">"By identifying the root cause, he hit the nail on the head."</div>
+        <div class="ex-ko">"근본 원인을 찾아냄으로써 그는 문제의 핵심을 짚었어요." (문제 해결에 있어 정확한 이해를 가짐)</div>
+        <div class="ex-en" style="margin-top:12px;">"Her comment about the lack of communication hit the nail on the head."</div>
+        <div class="ex-ko">"의사소통 부족에 대한 그녀의 언급은 정확히 핵심을 짚었어요." (문제의 본질을 이해함)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 상황에 맞는 적절한 행동을 하다 (Taking appropriate actions in a situation)</h2>
+    <p class="insight-p">상황에 적합한 행동이나 반응을 보였을 때 사용합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">"By deciding to expand into the new market, the company hit the nail on the head."</div>
+        <div class="ex-ko">"신규 시장으로 확장하기로 결정하면서, 회사는 적절한 결정을 내렸어요." (상황에 딱 맞는 결정을 내림)</div>
+        <div class="ex-en" style="margin-top:12px;">"His response to the complaint hit the nail on the head, calming the customer instantly."</div>
+        <div class="ex-ko">"그의 불만에 대한 답변은 적절해서 고객을 바로 진정시켰어요." (상황에 알맞은 대응을 함)</div>
+    </div>
+</div>
+`,
+    "take off": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>take off</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 take off은 <strong>'빠르게 떠나는 것 또는 성공적으로 시작하는 것'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">take off의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>take off</strong>의 핵심은</p>
+        <div class="quote-text">"빠르게 이륙하거나 출발하는 동작"</div>
+        <p>입니다. 이 표현은 급격한 시작이나 상승을 의미합니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (take off)</div>
+        <pre>
+    __|__
+--o--o--(plane)
+        </pre>
+        <div class="ascii-footer">(비행기가 빠르게 이륙하는 모습)</div>
+    </div>
+
+    <h2 class="insight-h2">① 이륙하다/떠나다 (Take off as departure)</h2>
+    <p class="insight-p">이 표현은 물리적으로 장소를 떠날 때 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">The plane will take off at 3 PM.</div>
+        <div class="ex-ko">비행기는 오후 3시에 이륙할 것입니다. (이륙 또는 출발의 의미)</div>
+        <div class="ex-en" style="margin-top:12px;">The bird took off into the sky.</div>
+        <div class="ex-ko">새가 하늘로 날아올랐습니다. (빠르게 하늘로 떠나는 동작)</div>
+    </div>
+
+    <h2 class="insight-h2">② 성공적으로 시작하다 (Take off as success)</h2>
+    <p class="insight-p">이 표현은 어떤 일이 갑자기 성공하기 시작할 때 쓰입니다.</p>
+    <div class="example-group">
+        <div class="ex-en">Her career really took off after the promotion.</div>
+        <div class="ex-ko">그녀의 경력은 승진 후에 정말로 급성장했습니다. (성공적이고 급속한 시작)</div>
+        <div class="ex-en" style="margin-top:12px;">The product took off after the advertisement.</div>
+        <div class="ex-ko">광고 후에 그 제품은 인기를 끌었습니다. (갑자기 인기를 얻는 성공)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 옷을 벗다 (Take off as removal)</h2>
+    <p class="insight-p">이 표현은 옷이나 액세서리를 제거할 때 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">Please take off your shoes before entering.</div>
+        <div class="ex-ko">들어가기 전에 신발을 벗어 주세요. (신발을 벗는 행위)</div>
+        <div class="ex-en" style="margin-top:12px;">He took off his hat as he entered the room.</div>
+        <div class="ex-ko">그는 방에 들어서면서 모자를 벗었습니다. (모자 제거의 의미)</div>
+    </div>
+</div>
+`,
+    "give up": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>give up</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 give up은 <strong>'포기하거나 더 이상 시도하지 않는 것'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">give up의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>give up</strong>의 핵심은</p>
+        <div class="quote-text">"노력을 멈추고 포기하는 순간"</div>
+        <p>입니다. (즉, 더 이상 그 일을 계속할 의지가 없음을 나타냅니다.)</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (give up)</div>
+        <pre>
+  _____
+ /     \
+|  STOP |
+ \_____/
+        </pre>
+        <div class="ascii-footer">(멈추고 더 이상 진행하지 않음을 나타냅니다.)</div>
+    </div>
+
+    <h2 class="insight-h2">① 포기하다 (To Quit)</h2>
+    <p class="insight-p">이 뉘앙스는 어떤 것을 더 이상 지속하지 않기로 결정했을 때 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">She decided to give up smoking.</div>
+        <div class="ex-ko">그녀는 담배를 끊기로 결정했다. (더 이상 담배를 피우지 않기로 했다는 의미)</div>
+        <div class="ex-en" style="margin-top:12px;">He gave up on his dream of becoming a musician.</div>
+        <div class="ex-ko">그는 음악가가 되려는 꿈을 포기했다. (꿈을 이루기 위한 노력을 중단했다는 의미)</div>
+    </div>
+
+    <h2 class="insight-h2">② 항복하다 (To Surrender)</h2>
+    <p class="insight-p">특정 상황에서 더 이상 저항하지 않고 받아들이는 것을 나타냅니다.</p>
+    <div class="example-group">
+        <div class="ex-en">The soldiers had no choice but to give up.</div>
+        <div class="ex-ko">군인들은 항복할 수밖에 없었다. (더 이상 싸울 수 없는 상황이었음을 의미)</div>
+        <div class="ex-en" style="margin-top:12px;">She finally gave up and admitted he was right.</div>
+        <div class="ex-ko">그녀는 결국 포기하고 그가 옳다고 인정했다. (저항을 멈추고 받아들였다는 의미)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 양보하다 (To Relinquish)</h2>
+    <p class="insight-p">무언가를 다른 사람에게 넘기거나 포기할 때 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">He gave up his seat for the elderly woman.</div>
+        <div class="ex-ko">그는 노인에게 자리를 양보했다. (자신의 자리를 포기하고 다른 사람에게 준다는 의미)</div>
+        <div class="ex-en" style="margin-top:12px;">She gave up her position as team leader.</div>
+        <div class="ex-ko">그녀는 팀 리더의 자리를 포기했다. (직책을 다른 사람에게 넘겼다는 의미)</div>
+    </div>
+</div>
+`,
+    "call off": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>call off</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 call off은 <strong>'취소의 확고한 결정'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">call off의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>call off</strong>의 핵심은</p>
+        <div class="quote-text">"종료를 공식적으로 선언하다"</div>
+        <p>입니다. (무언가를 중단하거나 취소하는 명확한 의사 표시입니다.)</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (call off)</div>
+        <pre>
+   _____
+  |     | 
+  |  X  | - 취소
+  |_____|
+        </pre>
+        <div class="ascii-footer">(공식적으로 종료가 선언됨)</div>
+    </div>
+
+    <h2 class="insight-h2">① 취소하다 (Cancel)</h2>
+    <p class="insight-p">일정이나 계획을 취소할 때 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">The meeting was called off due to the storm.</div>
+        <div class="ex-ko">회의는 폭풍우 때문에 취소되었습니다. (폭풍우로 인해 회의를 공식적으로 취소함)</div>
+        <div class="ex-en" style="margin-top:12px;">They decided to call off the wedding.</div>
+        <div class="ex-ko">그들은 결혼식을 취소하기로 결정했습니다. (결혼식을 진행하지 않기로 한 공식적인 결정)</div>
+    </div>
+
+    <h2 class="insight-h2">② 중단하다 (Stop)</h2>
+    <p class="insight-p">어떤 행동이나 일을 멈출 때 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">The search was called off as night fell.</div>
+        <div class="ex-ko">밤이 되자 수색이 중단되었습니다. (밤이 되면서 수색을 중단하기로 한 결정)</div>
+        <div class="ex-en" style="margin-top:12px;">The referee called off the match due to rain.</div>
+        <div class="ex-ko">심판은 비 때문에 경기를 중단시켰습니다. (비가 내려 경기를 더 이상 진행하지 않기로 함)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 철수하다 (Withdraw)</h2>
+    <p class="insight-p">어떤 계획이나 작전을 철수할 때 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">The troops were called off after the peace treaty was signed.</div>
+        <div class="ex-ko">평화 조약이 체결된 후 군대가 철수되었습니다. (평화 조약 체결로 인해 군대를 철수하기로 함)</div>
+        <div class="ex-en" style="margin-top:12px;">They called off the strike after negotiations.</div>
+        <div class="ex-ko">협상 후에 파업을 철회했습니다. (협상 결과로 파업을 끝내기로 결정)</div>
+    </div>
+</div>
+`,
+    "Break the Ice": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>Break the Ice</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 Break the Ice은 <strong>'어색한 분위기를 깨고 대화를 시작하는 것'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">Break the Ice의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>Break the Ice</strong>의 핵심은</p>
+        <div class="quote-text">"어색함을 깨트려 대화를 시작하는 순간"</div>
+        <p>입니다. 이 표현은 종종 사람들이 처음 만났을 때 사용됩니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (Break the Ice)</div>
+        <pre>
+          _______
+         /       \
+        |  ☃  ☃  |
+         \_______/
+        </pre>
+        <div class="ascii-footer">얼음을 깬 후 드러나는 새로운 관계</div>
+    </div>
+
+    <h2 class="insight-h2">① 첫 만남에서의 시도 (First Meeting Attempt)</h2>
+    <p class="insight-p">처음 만난 사람들과의 어색함을 없애기 위해 사용합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">She told a joke to break the ice at the party.</div>
+        <div class="ex-ko">그녀는 파티에서 어색함을 깨기 위해 농담을 했다. (농담을 통해 처음 만남의 어색함을 없앰)</div>
+        <div class="ex-en" style="margin-top:12px;">He broke the ice by asking everyone about their favorite books.</div>
+        <div class="ex-ko">그는 모두에게 좋아하는 책에 대해 물어보며 어색함을 깼다. (공통 관심사를 통해 대화의 시작을 유도)</div>
+    </div>
+
+    <h2 class="insight-h2">② 긴장 완화 (Ease Tension)</h2>
+    <p class="insight-p">긴장된 상황에서 분위기를 부드럽게 만들 때 사용합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">The funny video really helped to break the ice before the meeting.</div>
+        <div class="ex-ko">재미있는 비디오는 회의 전에 정말로 긴장을 풀어주었다. (비디오가 긴장된 분위기를 완화함)</div>
+        <div class="ex-en" style="margin-top:12px;">A warm smile can break the ice in an interview setting.</div>
+        <div class="ex-ko">따뜻한 미소는 면접 환경에서 긴장을 풀 수 있다. (미소가 면접의 긴장감을 덜어줌)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 관계 발전 (Relationship Building)</h2>
+    <p class="insight-p">사람들 간의 관계를 시작하고 발전시킬 때 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">The team-building activities were designed to break the ice among coworkers.</div>
+        <div class="ex-ko">팀 빌딩 활동은 동료들 간의 어색함을 없애기 위해 고안되었다. (활동을 통해 관계를 발전시킴)</div>
+        <div class="ex-en" style="margin-top:12px;">Playing games can often break the ice in a group of strangers.</div>
+        <div class="ex-ko">게임을 하는 것은 종종 낯선 사람들 간의 어색함을 없앨 수 있다. (공동 활동이 관계 형성에 도움)</div>
+    </div>
+</div>
+`,
+    "Hit the Books": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>Hit the Books</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 Hit the Books은 <strong>'공부를 시작하다'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">Hit the Books의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>Hit the Books</strong>의 핵심은</p>
+        <div class="quote-text">"열심히 공부하다"</div>
+        <p>입니다. 공부에 집중하는 모습을 연상하게 합니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (Hit the Books)</div>
+        <pre>
+   _______
+  |  ___  |
+  | |   | |
+  | |___| |
+  |_______|
+        </pre>
+        <div class="ascii-footer">(책을 펴고 공부하는 모습)</div>
+    </div>
+
+    <h2 class="insight-h2">① 집중적으로 공부하다 (Focus Intently on Studying)</h2>
+    <p class="insight-p">이 표현은 주로 시험이나 중요한 과제를 앞두고 공부에 몰두하는 상황에서 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">I need to hit the books if I want to pass the exam tomorrow.</div>
+        <div class="ex-ko">나는 내일 시험에 합격하려면 공부를 열심히 해야 해. (시험 준비를 위해 집중해서 공부한다는 뉘앙스)</div>
+        <div class="ex-en" style="margin-top:12px;">She hit the books all weekend to finish her project.</div>
+        <div class="ex-ko">그녀는 프로젝트를 끝내기 위해 주말 내내 공부에 몰두했다. (주말 내내 집중적으로 공부했다는 뉘앙스)</div>
+    </div>
+
+    <h2 class="insight-h2">② 시작하다 (Begin Studying)</h2>
+    <p class="insight-p">공부를 시작하는 순간을 강조할 때 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">After dinner, I'm going to hit the books.</div>
+        <div class="ex-ko">저녁 먹고 나서 공부 시작할 거야. (식사 후 공부를 시작할 것이라는 뉘앙스)</div>
+        <div class="ex-en" style="margin-top:12px;">It's time to hit the books if you want to succeed in the course.</div>
+        <div class="ex-ko">이 강좌에서 성공하고 싶다면 이제 공부를 시작할 때야. (성공을 위해 지금부터 공부를 시작해야 한다는 뉘앙스)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 규칙적으로 공부하다 (Study Regularly)</h2>
+    <p class="insight-p">주기적으로 공부하는 습관을 나타낼 때 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">He hits the books every evening to keep up with his studies.</div>
+        <div class="ex-ko">그는 학업을 따라가기 위해 매일 저녁 공부한다. (일정한 시간에 규칙적으로 공부한다는 뉘앙스)</div>
+        <div class="ex-en" style="margin-top:12px;">They hit the books daily to improve their grades.</div>
+        <div class="ex-ko">그들은 성적을 올리기 위해 매일 공부한다. (매일 꾸준히 공부한다는 뉘앙스)</div>
+    </div>
+</div>
+`,
+    "Bite the Bullet": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>Bite the Bullet</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 Bite the Bullet은 <strong>'불가피한 상황에서 용기를 내어 맞서는 행동'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">Bite the Bullet의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>Bite the Bullet</strong>의 핵심은</p>
+        <div class="quote-text">"어려운 상황을 극복하기 위해 결단력 있게 맞서는 것"</div>
+        <p>입니다. 이 표현은 불편한 상황을 피하지 않고 직면한다는 의미를 내포합니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (Bite the Bullet)</div>
+        <pre>
+   O
+  /|\
+  / \
+ (용기를 내는 모습)
+        </pre>
+        <div class="ascii-footer">(어려움을 직면하는 모습을 상징적으로 표현)</div>
+    </div>
+
+    <h2 class="insight-h2">① 불가피한 상황에서의 결단력 Decision in Unavoidable Circumstances</h2>
+    <p class="insight-p">이 표현은 피할 수 없는 상황에서 결단을 내려야 할 때 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">I didn't want to move to a new city, but I had to bite the bullet and accept the job offer.</div>
+        <div class="ex-ko">나는 새로운 도시로 이사 가고 싶지 않았지만, 일자리를 수락하기 위해 이를 악물고 결단을 내렸다. (불가피한 상황에서 결단력 필요)</div>
+        <div class="ex-en" style="margin-top:12px;">Sometimes you just need to bite the bullet and do what needs to be done.</div>
+        <div class="ex-ko">때로는 그저 이를 악물고 필요한 일을 해야 할 때가 있다. (필요한 행동을 해야 하는 상황)</div>
+    </div>
+
+    <h2 class="insight-h2">② 고통이나 두려움을 직면함 Facing Pain or Fear</h2>
+    <p class="insight-p">이 표현은 고통스럽거나 두려운 상황에 맞닥뜨리면서도 이를 견딜 때 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">The patient had to bite the bullet and undergo surgery despite his fear.</div>
+        <div class="ex-ko">환자는 두려움에도 불구하고 수술을 받아들여야만 했다. (고통이나 두려움을 직면)</div>
+        <div class="ex-en" style="margin-top:12px;">She decided to bite the bullet and confront her boss about the unfair treatment.</div>
+        <div class="ex-ko">그녀는 부당한 대우에 대해 상사와 맞서기로 결심했다. (두려움을 마주하고 문제를 직면)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 고난을 극복하기 위한 의지 Willingness to Overcome Hardship</h2>
+    <p class="insight-p">이 표현은 어렵거나 불쾌한 일을 견뎌내겠다는 의지를 나타냅니다.</p>
+    <div class="example-group">
+        <div class="ex-en">They had to bite the bullet and work overtime to meet the deadline.</div>
+        <div class="ex-ko">그들은 마감일을 맞추기 위해 추가 근무를 해야만 했다. (고난을 극복하기 위한 의지)</div>
+        <div class="ex-en" style="margin-top:12px;">Biting the bullet, he decided to apologize and mend the relationship.</div>
+        <div class="ex-ko">그는 이를 악물고 사과하여 관계를 회복하기로 결정했다. (관계를 회복하기 위한 의지)</div>
+    </div>
+</div>
+`,
+    "make up": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>make up</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 make up은 <strong>'새로운 것을 만들어내다 혹은 보충하다'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">make up의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>make up</strong>의 핵심은</p>
+        <div class="quote-text">"기존의 것을 더하거나 보충하여 새로운 상태나 결과를 만드는 것"</div>
+        <p>입니다. 주로 부족한 것을 채우거나 새로운 것을 만들어낼 때 사용됩니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (make up)</div>
+        <pre>
+   ____    __
+  / __ \  / /_
+ / /_/ / / __/
+/ ____/ / /_  
+/_/     \__/
+        </pre>
+        <div class="ascii-footer">기존의 것에 더하여 새로운 것을 만드는 이미지</div>
+    </div>
+
+    <h2 class="insight-h2">① 보충하다 - Compensate</h2>
+    <p class="insight-p">make up은 부족한 부분을 보충하거나 만회할 때 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">I need to make up the missed classes.</div>
+        <div class="ex-ko">나는 놓친 수업을 보충해야 한다. (수업을 놓친 부분을 보충하려는 의미)</div>
+        <div class="ex-en" style="margin-top:12px;">She made up for her mistake by working extra hours.</div>
+        <div class="ex-ko">그녀는 실수를 만회하기 위해 추가 근무를 했다. (실수를 보충하려는 의미)</div>
+    </div>
+
+    <h2 class="insight-h2">② 창작하다 - Create</h2>
+    <p class="insight-p">make up은 새로운 이야기를 만들어낼 때 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">The children love to make up stories about dragons and knights.</div>
+        <div class="ex-ko">아이들은 용과 기사에 대한 이야기를 만들어내는 것을 좋아한다. (새로운 이야기를 창작하는 의미)</div>
+        <div class="ex-en" style="margin-top:12px;">He made up an excuse for being late.</div>
+        <div class="ex-ko">그는 늦은 것에 대한 변명을 만들어냈다. (변명이라는 새로운 이야기를 창작하는 의미)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 구성하다 - Compose</h2>
+    <p class="insight-p">make up은 여러 요소가 모여 하나의 전체를 구성할 때 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">Women make up 50% of the workforce.</div>
+        <div class="ex-ko">여성은 노동력의 50%를 구성한다. (전체의 일부로서 구성하는 의미)</div>
+        <div class="ex-en" style="margin-top:12px;">The committee is made up of experts in various fields.</div>
+        <div class="ex-ko">위원회는 다양한 분야의 전문가들로 구성되어 있다. (여러 요소가 모여 하나의 단체를 구성하는 의미)</div>
+    </div>
+</div>
+`,
+    "make a decision": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>make a decision</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 make a decision은 <strong>'결정을 내리는 과정과 확고한 의지를 가지는 것'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">make a decision의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>make a decision</strong>의 핵심은</p>
+        <div class="quote-text">"결정의 순간 그리고 확신"</div>
+        <p>입니다. 이 표현은 어떤 선택을 확정하는 순간을 강조합니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (make a decision)</div>
+        <pre>
+   _______
+  /       \
+ /  선택   \
+ \   결정  /
+  \_______/
+        </pre>
+        <div class="ascii-footer">(결정의 순간을 나타내는 이미지)</div>
+    </div>
+
+    <h2 class="insight-h2">① 결단의 순간 - The Moment of Decision</h2>
+    <p class="insight-p">결정을 내리는 순간의 중요성과 그 시점을 나타냅니다.</p>
+    <div class="example-group">
+        <div class="ex-en">She had to make a decision quickly to catch the last train.</div>
+        <div class="ex-ko">그녀는 마지막 기차를 잡기 위해 빠르게 결정을 내려야 했다. (결정의 속도와 순간이 중요함)</div>
+        <div class="ex-en" style="margin-top:12px;">He made a decision to switch careers after much deliberation.</div>
+        <div class="ex-ko">그는 깊이 고민한 후 직업을 바꾸기로 결정했다. (고민 끝에 내린 확고한 결정)</div>
+    </div>
+
+    <h2 class="insight-h2">② 결단력 - Determination</h2>
+    <p class="insight-p">결정을 내릴 때의 강한 의지와 확신을 강조합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">Once you make a decision, stick to it.</div>
+        <div class="ex-ko">일단 결정을 내렸다면, 그것을 지켜라. (결정에 대한 확고한 의지)</div>
+        <div class="ex-en" style="margin-top:12px;">He made a decision to stand by his principles, no matter what.</div>
+        <div class="ex-ko">그는 어떤 상황에서도 자신의 원칙을 지키기로 결심했다. (원칙에 대한 강한 결단력)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 과정의 중요성 - Importance of the Process</h2>
+    <p class="insight-p">결정을 내리는 과정 자체의 중요성을 나타냅니다.</p>
+    <div class="example-group">
+        <div class="ex-en">The board needs more information to make an informed decision.</div>
+        <div class="ex-ko">이사회는 신중한 결정을 내리기 위해 더 많은 정보가 필요하다. (결정 과정의 철저함)</div>
+        <div class="ex-en" style="margin-top:12px;">Making a decision involves weighing all possible outcomes.</div>
+        <div class="ex-ko">결정은 모든 가능한 결과를 고려하는 과정을 포함한다. (결정 과정의 중요성 강조)</div>
+    </div>
+</div>
+`,
+    "take responsibility": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>take responsibility</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 take responsibility은 <strong>'스스로의 행동에 대해 책임을 지는 것'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">take responsibility의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>take responsibility</strong>의 핵심은</p>
+        <div class="quote-text">"자신의 행동을 주도적으로 수용하는 자세"</div>
+        <p>입니다. 이 표현은 주체적인 태도를 강조합니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (take responsibility)</div>
+        <pre>
+  +---------+
+  | ACTION  |
+  +----+----+
+       |
+  +----v----+
+  | OWN IT  |
+  +---------+
+        </pre>
+        <div class="ascii-footer">(자신의 행동을 인정하고 책임지는 모습)</div>
+    </div>
+
+    <h2 class="insight-h2">① 주체적인 수용 Attentive Ownership</h2>
+    <p class="insight-p">이 표현은 자신의 행동이나 결과를 스스로 인식하고 수용하는 의미입니다.</p>
+    <div class="example-group">
+        <div class="ex-en">She decided to take responsibility for the team's failure.</div>
+        <div class="ex-ko">그녀는 팀의 실패에 대한 책임을 지기로 결정했다. (스스로의 판단에 따른 주체적 수용)</div>
+        <div class="ex-en" style="margin-top:12px;">He took responsibility for the mistake and apologized.</div>
+        <div class="ex-ko">그는 실수에 대한 책임을 지고 사과했다. (자신의 행동을 인정하고 해결하려는 태도)</div>
+    </div>
+
+    <h2 class="insight-h2">② 결과의 수용 Acceptance of Consequences</h2>
+    <p class="insight-p">이 표현은 자신의 행동 결과에 대해 책임을 지고 수용하는 의미입니다.</p>
+    <div class="example-group">
+        <div class="ex-en">The CEO took responsibility for the company's losses.</div>
+        <div class="ex-ko">CEO는 회사의 손실에 대한 책임을 졌다. (결과에 대한 책임을 수용하는 자세)</div>
+        <div class="ex-en" style="margin-top:12px;">He took responsibility for his part in the accident.</div>
+        <div class="ex-ko">그는 사고에 대한 자신의 책임을 인정했다. (행동의 결과를 받아들이는 태도)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 책임감 있는 행동 Responsible Action</h2>
+    <p class="insight-p">이 표현은 책임감 있게 행동하는 것을 강조합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">Taking responsibility means you're ready to take action.</div>
+        <div class="ex-ko">책임을 진다는 것은 행동할 준비가 되어 있다는 것을 의미한다. (행동을 통해 책임을 실천)</div>
+        <div class="ex-en" style="margin-top:12px;">She showed her maturity by taking responsibility for the project.</div>
+        <div class="ex-ko">그녀는 프로젝트에 대한 책임을 짐으로써 성숙함을 보여주었다. (책임감 있는 태도와 행동)</div>
+    </div>
+</div>
+`,
+    "break a habit": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>break a habit</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 break a habit은 <strong>'습관을 끊는 결단과 노력'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">break a habit의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>break a habit</strong>의 핵심은</p>
+        <div class="quote-text">"과감히 습관의 틀을 깨는 것"</div>
+        <p>입니다. (이 표현은 행동의 변화를 강조합니다.)</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (break a habit)</div>
+        <pre>
+  ______
+ /      \
+| habit  |--->
+ \______/
+   \/
+  new path
+        </pre>
+        <div class="ascii-footer">(습관의 틀을 깨고 새로운 길로 나아가는 모습)</div>
+    </div>
+
+    <h2 class="insight-h2">① 습관을 깨는 행동력 + Determination to Change</h2>
+    <p class="insight-p">이 표현은 습관을 깨기 위한 강력한 결심과 행동력을 강조합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">She decided to break her habit of biting her nails.</div>
+        <div class="ex-ko">그녀는 손톱을 물어뜯는 습관을 고치기로 결심했다. (여기서는 의지와 행동의 결단을 나타냅니다.)</div>
+        <div class="ex-en" style="margin-top:12px;">He is trying hard to break his habit of smoking.</div>
+        <div class="ex-ko">그는 흡연 습관을 끊으려고 열심히 노력하고 있다. (습관을 깨기 위한 노력과 결단을 표현합니다.)</div>
+    </div>
+
+    <h2 class="insight-h2">② 새로운 시작 + New Beginning</h2>
+    <p class="insight-p">이 표현은 습관을 깨면서 시작되는 새로운 출발을 암시합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">Breaking the habit of procrastination opened up new opportunities for her.</div>
+        <div class="ex-ko">미루는 습관을 고치면서 그녀에게 새로운 기회가 열렸다. (새로운 시작과 가능성을 강조합니다.)</div>
+        <div class="ex-en" style="margin-top:12px;">By breaking his gaming habit, he found more time for his studies.</div>
+        <div class="ex-ko">게임 습관을 끊으면서 그는 공부에 더 많은 시간을 쓸 수 있게 되었다. (변화를 통해 얻는 이점을 나타냅니다.)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 지속적인 노력 + Continuous Effort</h2>
+    <p class="insight-p">습관을 깨는 과정은 꾸준한 노력이 필요함을 나타냅니다.</p>
+    <div class="example-group">
+        <div class="ex-en">Breaking a habit requires patience and persistence.</div>
+        <div class="ex-ko">습관을 고치는 것은 인내와 지속적인 노력이 필요하다. (꾸준한 노력을 요구하는 과정을 설명합니다.)</div>
+        <div class="ex-en" style="margin-top:12px;">He learned that breaking a habit is not a one-time effort but a continuous journey.</div>
+        <div class="ex-ko">그는 습관을 고치는 것이 일회성 노력이 아닌 지속적인 여정이라는 것을 배웠다. (계속적인 노력이 중요하다는 것을 강조합니다.)</div>
+    </div>
+</div>
+`,
+    "encourage": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>encourage</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 encourage은 <strong>'지원과 용기를 북돋아주는 따뜻한 손길'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">encourage의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>encourage</strong>의 핵심은</p>
+        <div class="quote-text">"용기를 북돋아 주는 동기 부여"</div>
+        <p>입니다. 주로 누군가에게 힘을 실어주는 상황에서 사용됩니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (encourage)</div>
+        <pre>
+  +---------+
+  | Support |
+  +----+----+
+       |
+ +-----v------+
+ | Encourage  |
+ +------------+
+        </pre>
+        <div class="ascii-footer">(encourage는 지원과 동기 부여를 의미)</div>
+    </div>
+
+    <h2 class="insight-h2">① 지원과 동기부여 (Support and Motivation)</h2>
+    <p class="insight-p">누군가에게 도전할 수 있는 힘과 의지를 주는 상황에서 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">"The teacher encouraged her students to ask questions."</div>
+        <div class="ex-ko">"선생님은 학생들이 질문하도록 격려했습니다." (질문을 통해 학습을 장려하는 상황)</div>
+        <div class="ex-en" style="margin-top:12px;">"His words encouraged me to continue my studies."</div>
+        <div class="ex-ko">"그의 말은 내가 공부를 계속하도록 격려했습니다." (공부를 지속하도록 동기를 부여하는 상황)</div>
+    </div>
+
+    <h2 class="insight-h2">② 자신감 부여 (Boosting Confidence)</h2>
+    <p class="insight-p">상대방이 자신의 능력을 믿고 더 나아가도록 돕는 상황에서 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">"Her smile encouraged him to speak up."</div>
+        <div class="ex-ko">"그녀의 미소는 그가 말하도록 용기를 주었습니다." (자신감 회복을 돕는 상황)</div>
+        <div class="ex-en" style="margin-top:12px;">"Parents should encourage their children to try new things."</div>
+        <div class="ex-ko">"부모는 자녀가 새로운 것을 시도하도록 격려해야 합니다." (새로운 도전에 대한 자신감을 심어주는 상황)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 긍정적 지지 (Positive Support)</h2>
+    <p class="insight-p">긍정적인 피드백을 통해 상대방을 지지하는 상황에서 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">"The coach encouraged the team despite their loss."</div>
+        <div class="ex-ko">"코치는 팀이 패배에도 불구하고 격려했습니다." (지속적인 긍정적 지원을 제공하는 상황)</div>
+        <div class="ex-en" style="margin-top:12px;">"She encouraged him by acknowledging his efforts."</div>
+        <div class="ex-ko">"그녀는 그의 노력을 인정하며 그를 격려했습니다." (노력에 대한 긍정적인 피드백을 주는 상황)</div>
+    </div>
+</div>
+`,
+    "patient": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>patient</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 patient은 <strong>'인내하며 기다리는 마음의 여유'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">patient의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>patient</strong>의 핵심은</p>
+        <div class="quote-text">"고요한 기다림과 마음의 평화"</div>
+        <p>입니다. (이 단어는 상황을 받아들이는 침착함을 나타냅니다)</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (patient)</div>
+        <pre>
+  ------
+ | Wait |
+ | Calm |
+  ------
+        </pre>
+        <div class="ascii-footer">(평온하게 기다리는 상태를 상징합니다)</div>
+    </div>
+
+    <h2 class="insight-h2">① 참을성 있는 행동 + Patient Behavior</h2>
+    <p class="insight-p">어떤 상황에서도 성급하지 않고 차분하게 행동하는 것을 의미합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">She was patient with the crying child.</div>
+        <div class="ex-ko">그녀는 우는 아이에게 참을성을 보였다. (아이의 감정을 받아들이고 차분히 기다림)</div>
+        <div class="ex-en" style="margin-top:12px;">He remained patient despite the long wait.</div>
+        <div class="ex-ko">그는 긴 기다림에도 불구하고 참을성을 유지했다. (상황을 받아들이고 침착함을 유지함)</div>
+    </div>
+
+    <h2 class="insight-h2">② 의료적 맥락 + Medical Context</h2>
+    <p class="insight-p">의료 환경에서 치료를 받는 사람을 지칭하는 데 사용됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">The doctor saw five patients this morning.</div>
+        <div class="ex-ko">의사는 오늘 아침 다섯 명의 환자를 보았다. (의료적 치료를 받는 사람을 의미)</div>
+        <div class="ex-en" style="margin-top:12px;">Each patient has a unique treatment plan.</div>
+        <div class="ex-ko">각 환자는 고유한 치료 계획을 가지고 있다. (의료의 대상인 사람을 의미)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 인내의 미덕 + Virtue of Patience</h2>
+    <p class="insight-p">인내는 좋은 성품의 한 부분으로 여겨집니다.</p>
+    <div class="example-group">
+        <div class="ex-en">Patience is a virtue that many admire.</div>
+        <div class="ex-ko">인내는 많은 사람들이 존경하는 미덕이다. (인내심은 존경받는 성품으로 여겨짐)</div>
+        <div class="ex-en" style="margin-top:12px;">Practicing patience can improve relationships.</div>
+        <div class="ex-ko">인내를 연습하는 것은 관계를 개선할 수 있다. (인내심은 관계를 긍정적으로 만듦)</div>
+    </div>
+</div>
+`,
+    "sympathy": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>sympathy</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 sympathy은 <strong>'타인의 감정을 함께 느끼는 것'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">sympathy의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>sympathy</strong>의 핵심은</p>
+        <div class="quote-text">"함께 느끼는 마음의 연결"</div>
+        <p>입니다. 이 표현은 상대방의 감정에 대한 이해와 동감을 나타냅니다.</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (sympathy)</div>
+        <pre>
+   O   O
+  /|\ /|\
+  / \ / \
+(함께 느끼는 마음의 연결)
+        </pre>
+        <div class="ascii-footer">(두 사람이 서로의 감정을 나누는 모습)</div>
+    </div>
+
+    <h2 class="insight-h2">① 감정의 동감 Sympathy as Emotional Resonance</h2>
+    <p class="insight-p">Sympathy는 다른 사람의 감정에 대해 공감하고 함께 느끼는 것을 의미합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">I felt sympathy for her when she lost her dog.</div>
+        <div class="ex-ko">나는 그녀가 개를 잃었을 때 그녀에게 동정심을 느꼈다. (그녀의 슬픔을 함께 느끼고 있음)</div>
+        <div class="ex-en" style="margin-top:12px;">He expressed his sympathy by sending flowers.</div>
+        <div class="ex-ko">그는 꽃을 보내며 그의 동정심을 표현했다. (상대의 슬픔에 대한 이해와 공유를 표현)</div>
+    </div>
+
+    <h2 class="insight-h2">② 위로의 표현 Sympathy as Comfort</h2>
+    <p class="insight-p">Sympathy는 어려운 상황에 처한 사람에게 위로를 제공하는 것을 포함할 수 있습니다.</p>
+    <div class="example-group">
+        <div class="ex-en">She offered her sympathy to the grieving family.</div>
+        <div class="ex-ko">그녀는 슬픔에 잠긴 가족에게 위로를 전했다. (그들의 고통을 이해하고 위로함)</div>
+        <div class="ex-en" style="margin-top:12px;">His sympathy was a great comfort during the tough times.</div>
+        <div class="ex-ko">그의 동정심은 힘든 시기에 큰 위로가 되었다. (상대방의 감정을 이해하고 지지함)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 관계의 형성 Sympathy as Relationship Building</h2>
+    <p class="insight-p">Sympathy는 사람들 간의 관계를 형성하고 강화하는 역할을 할 수 있습니다.</p>
+    <div class="example-group">
+        <div class="ex-en">Their mutual sympathy brought them closer together.</div>
+        <div class="ex-ko">그들의 상호 동정심은 그들을 더 가깝게 만들었다. (공감대를 형성하여 관계를 강화함)</div>
+        <div class="ex-en" style="margin-top:12px;">Sympathy can be the foundation of a strong friendship.</div>
+        <div class="ex-ko">동정심은 강한 우정의 기초가 될 수 있다. (공감과 이해를 통해 관계를 구축함)</div>
+    </div>
+</div>
+`,
+    "compassion": `
+<div class="insight-article">
+    <div class="insight-intro">
+        <strong>compassion</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        원어민에게 compassion은 <strong>'타인의 고통을 진심으로 이해하고 돕고자 하는 마음'</strong>을 의미합니다.
+    </div>
+
+    <h2 class="insight-h2">compassion의 핵심 이미지</h2>
+    <div class="insight-box highlight-box">
+        <p>원어민에게 <strong>compassion</strong>의 핵심은</p>
+        <div class="quote-text">"타인에 대한 진정한 연민과 이해"</div>
+        <p>입니다. (이것은 단순한 연민을 넘어 행동으로 이어지는 감정입니다.)</p>
+    </div>
+
+    <div class="ascii-art-box">
+        <div class="ascii-title">핵심 뉘앙스 구조도 (compassion)</div>
+        <pre>
+     ____
+    /    \
+   |  ♥   |
+    \____/
+        </pre>
+        <div class="ascii-footer">(따뜻한 마음으로 타인을 감싸는 모습)</div>
+    </div>
+
+    <h2 class="insight-h2">① 깊은 이해와 배려 (Deep Understanding and Care)</h2>
+    <p class="insight-p">compassion은 타인의 상황을 깊이 이해하고 그에 대한 배려를 포함합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">She showed great compassion towards the homeless by volunteering every weekend.</div>
+        <div class="ex-ko">그녀는 매주 주말마다 자원봉사를 하며 노숙자들에 대한 깊은 이해와 배려를 보여주었다. (단순한 동정이 아닌, 행동으로 옮기는 배려의 의미)</div>
+        <div class="ex-en" style="margin-top:12px;">His compassion for animals led him to become a veterinarian.</div>
+        <div class="ex-ko">그의 동물에 대한 연민은 그를 수의사가 되게 했다. (동물의 고통을 이해하고 이를 돕고자 하는 마음)</div>
+    </div>
+
+    <h2 class="insight-h2">② 고통을 함께 나누다 (Sharing Suffering)</h2>
+    <p class="insight-p">compassion은 타인의 고통을 자신의 것으로 느끼고 함께 나누는 것을 의미합니다.</p>
+    <div class="example-group">
+        <div class="ex-en">He felt a deep compassion for his friend who lost a loved one.</div>
+        <div class="ex-ko">그는 사랑하는 이를 잃은 친구에게 깊은 연민을 느꼈다. (친구의 고통을 자신의 것으로 느끼는 마음)</div>
+        <div class="ex-en" style="margin-top:12px;">Her compassion was evident when she listened patiently to her colleague's troubles.</div>
+        <div class="ex-ko">그녀의 연민은 동료의 고민을 참을성 있게 들어줄 때 분명히 드러났다. (고통을 함께 나누고 이해하는 자세)</div>
+    </div>
+
+    <h2 class="insight-h2">③ 행동으로 옮기는 연민 (Compassion in Action)</h2>
+    <p class="insight-p">compassion은 단순한 감정이 아니라, 실제 행동으로 연결됩니다.</p>
+    <div class="example-group">
+        <div class="ex-en">The community's compassion led to the establishment of a new shelter.</div>
+        <div class="ex-ko">지역사회의 연민은 새로운 쉼터 설립으로 이어졌다. (연민을 행동으로 옮기는 모습)</div>
+        <div class="ex-en" style="margin-top:12px;">Compassion drove her to donate a significant portion of her income to charities.</div>
+        <div class="ex-ko">연민은 그녀가 소득의 상당 부분을 자선단체에 기부하도록 했다. (단순한 연민을 넘어서는 실질적인 행동)</div>
+    </div>
+</div>
 `
 };

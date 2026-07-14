@@ -77,8 +77,8 @@ def generate_curriculum_chunk(month, start, end):
 
 def generate_curriculum(month, start_day, end_day):
     full_data = {}
-    for chunk_start in range(start_day, end_day + 1, 10):
-        chunk_end = min(chunk_start + 9, end_day)
+    for chunk_start in range(start_day, end_day + 1, 3):
+        chunk_end = min(chunk_start + 2, end_day)
         chunk_data = generate_curriculum_chunk(month, chunk_start, chunk_end)
         full_data.update(chunk_data)
         time.sleep(1)
