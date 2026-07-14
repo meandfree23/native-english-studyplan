@@ -329,6 +329,58 @@
     .level-badge.medium { background: var(--gold); }
     .level-badge.hard { background: var(--ember); }
 
+    /* Daily AI Booster Archive Styles */
+    .booster-archive-toggle {
+      background: none;
+      border: 1px solid var(--border);
+      color: var(--text-dim);
+      border-radius: 12px;
+      padding: 8px 16px;
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s;
+    }
+    .booster-archive-toggle:hover {
+      border-color: var(--accent);
+      color: var(--text);
+      background: var(--surface2);
+    }
+    .booster-archive-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 8px;
+      max-height: 300px;
+      overflow-y: auto;
+      padding: 10px 4px;
+      border-top: 1px solid var(--border);
+      margin-top: 15px;
+      text-align: left;
+    }
+    .archive-pill {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 10px 14px;
+      cursor: pointer;
+      transition: all 0.2s;
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+    .archive-pill:hover {
+      border-color: var(--accent);
+      background: var(--surface);
+      transform: translateY(-1px);
+    }
+    .archive-pill.active {
+      border-color: var(--accent);
+      background: rgba(82, 183, 136, 0.05);
+    }
+
     @media (max-width: 900px) {
       .mastery-split { flex-direction: column; }
       .mastery-right { position: static; width: 100%; order: -1; margin-bottom: 30px; }
@@ -10572,13 +10624,61 @@
     }
   };
 
-  let currentBoosterIdx = null;
+    let currentBoosterIdx = null;
+  let archiveOpen = false;
+
   window.shuffleDailyBooster = function() {
     if (!window.dailyBoosterData || window.dailyBoosterData.length === 0) return;
     const randomIdx = Math.floor(Math.random() * window.dailyBoosterData.length);
     currentBoosterIdx = randomIdx;
     renderDailyBooster(randomIdx);
   };
+
+  window.toggleBoosterArchive = function() {
+    archiveOpen = !archiveOpen;
+    const panel = document.getElementById('booster-archive-panel');
+    const btn = document.getElementById('btn-toggle-archive');
+    if (panel && btn) {
+      if (archiveOpen) {
+        panel.style.display = 'block';
+        btn.innerHTML = '📂 부스터 표현 보관함 접기 (숨기기)';
+        renderBoosterArchive();
+      } else {
+        panel.style.display = 'none';
+        btn.innerHTML = '📂 부스터 표현 보관함 열기 (보기)';
+      }
+    }
+  };
+
+  window.selectBoosterExpression = function(idx) {
+    currentBoosterIdx = idx;
+    renderDailyBooster(idx);
+    // Re-render archive if it was open to show new active element
+    if (archiveOpen) {
+      renderBoosterArchive();
+    }
+    // Scroll back to the top of the booster container smoothly
+    const container = document.getElementById('daily-booster-container');
+    if (container) {
+      container.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
+
+  function renderBoosterArchive() {
+    const grid = document.getElementById('booster-archive-grid');
+    if (!grid || !window.dailyBoosterData) return;
+    
+    grid.innerHTML = window.dailyBoosterData.map((d, idx) => {
+      const isActive = idx === currentBoosterIdx;
+      return `
+        <div class="archive-pill ${isActive ? 'active' : ''}" onclick="selectBoosterExpression(${idx})">
+          <strong style="font-size: 14px; color: ${isActive ? 'var(--accent)' : 'var(--text)'};">${d.phrase}</strong>
+          <span style="font-size: 11px; color: var(--text-dim);">${d.meaning}</span>
+        </div>
+      `;
+    }).join('');
+  }
+  window.renderBoosterArchive = renderBoosterArchive;
 
   function renderDailyBooster(selectedIdx) {
     const container = document.getElementById('daily-booster-container');
@@ -10601,9 +10701,9 @@
     const options = { weekday: 'short', year: 'numeric', month: 'long', day: 'numeric' };
     const dateStr = new Date().toLocaleDateString('ko-KR', options);
 
-    const easyEscaped = data.easy.e.replace(/'/g, "\\\\'").replace(/"/g, '&quot;');
-    const medEscaped = data.medium.e.replace(/'/g, "\\\\'").replace(/"/g, '&quot;');
-    const hardEscaped = data.hard.e.replace(/'/g, "\\\\'").replace(/"/g, '&quot;');
+    const easyEscaped = data.easy.e.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+    const medEscaped = data.medium.e.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+    const hardEscaped = data.hard.e.replace(/'/g, "\\'").replace(/"/g, '&quot;');
 
     container.innerHTML = `
       <div class="booster-card">
@@ -10658,8 +10758,22 @@
             </div>
           </div>
         </div>
+
+        <!-- Collapsible Archive Panel -->
+        <div style="margin-top: 20px; border-top: 1px dashed var(--border); padding-top: 15px; text-align: center;">
+          <button id="btn-toggle-archive" onclick="toggleBoosterArchive()" class="booster-archive-toggle">
+            ${archiveOpen ? '📂 부스터 표현 보관함 접기 (숨기기)' : '📂 부스터 표현 보관함 열기 (보기)'}
+          </button>
+          <div id="booster-archive-panel" style="${archiveOpen ? 'display: block;' : 'display: none;'} margin-top: 15px;">
+            <div id="booster-archive-grid" class="booster-archive-grid"></div>
+          </div>
+        </div>
       </div>
     `;
+
+    if (archiveOpen) {
+      renderBoosterArchive();
+    }
   }
   window.renderDailyBooster = renderDailyBooster;
 
