@@ -229,6 +229,20 @@
     .sentence-en { font-size: 16px; font-weight: 700; color: var(--accent); margin-bottom: 4px; }
     .sentence-ko { font-size: 13px; color: var(--text-dim); }
 
+    .kiwi-tab-bar::-webkit-scrollbar {
+      height: 6px;
+    }
+    .kiwi-tab-bar::-webkit-scrollbar-track {
+      background: transparent;
+    }
+    .kiwi-tab-bar::-webkit-scrollbar-thumb {
+      background: var(--border);
+      border-radius: 10px;
+    }
+    .kiwi-tab-bar::-webkit-scrollbar-thumb:hover {
+      background: var(--accent);
+    }
+
     .kiwi-tab {
       flex: 0 0 auto;
       padding: 8px 16px;
@@ -1240,7 +1254,7 @@
       <h2 class="section-heading" style="text-align: center; margin-bottom: 25px; font-weight: 800; font-size: 32px; background: linear-gradient(135deg, var(--text) 30%, var(--accent) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">실무회화 핵심 표현 & 인사이트</h2>
       
       <!-- Horizontal Scrolling Topic Tab Bar -->
-      <div class="kiwi-tab-bar" id="kiwi-tabs" style="display: flex; gap: 8px; overflow-x: auto; padding-bottom: 12px; margin-bottom: 35px; border-bottom: 1px solid var(--border); -webkit-overflow-scrolling: touch; scrollbar-width: none;">
+      <div class="kiwi-tab-bar" id="kiwi-tabs" style="display: flex; gap: 8px; overflow-x: auto; padding-bottom: 8px; margin-bottom: 35px; border-bottom: 1px solid var(--border); -webkit-overflow-scrolling: touch;">
         <!-- Tabs dynamically injected -->
       </div>
       
