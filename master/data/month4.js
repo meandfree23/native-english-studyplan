@@ -1,5 +1,6 @@
 window.dayData = Object.assign(window.dayData || {}, {
   "91": {
+    "core_insight": "In",
     "v": "🧊",
     "vT": "Boundary Inside",
     "vD": "외부와 명확히 단절되는 특정 바운더리 폴더 안으로 깊숙이 진입해 포용된 락인 상태입니다.",
@@ -270,6 +271,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "96": {
+    "core_insight": "Out",
     "v": "🧊",
     "vT": "Boundary Escape",
     "vD": "갇혀 있던 공간망을 찢고 밖으로 튕겨나가며 드러나는 완전한 해방과 발산의 이미지입니다.",
@@ -540,6 +542,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "101": {
+    "core_insight": "On",
     "v": "🧊",
     "vT": "Surface Contact",
     "vD": "사물뿐만 아니라 시스템의 연결 스위치가 끊어짐 없이 쫙 달라붙어 구동 활성화되는 상태입니다.",
@@ -810,6 +813,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "106": {
+    "core_insight": "Off",
     "v": "🧊",
     "vT": "Surface Disconnect",
     "vD": "연결과 구속의 밧줄을 튕겨내듯 끊어버리고 본래의 루틴 궤도에서 추락하거나 벗어나는 스위치 오프 단절입니다.",
@@ -1080,6 +1084,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "111": {
+    "core_insight": "Up",
     "v": "🧊",
     "vT": "Vertical Max",
     "vD": "고도의 수직적 상승뿐만 아니라, 완성도나 시스템 제어망 게이지가 폭발할 때까지 차오르는 100% 극점입니다.",
@@ -1350,6 +1355,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "116": {
+    "core_insight": "Down",
     "v": "🧊",
     "vT": "Vertical Drop",
     "vD": "기세나 수치가 꺾여 바닥으로 떨어지거나, 활동성을 0으로 강제 셧다운시켜 평면에 밀착 고정시키는 하락입니다.",
