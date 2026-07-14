@@ -8190,48 +8190,41 @@
   let currentDay = 1;
   const completedDays = JSON.parse(localStorage.getItem('study_completed_days') || '[]');
 
-  function speakText(text) {
+  let globalVoiceCache = null;
+  function globalLoadVoices() {
+      return new Promise(resolve => {
+          let voices = window.speechSynthesis.getVoices();
+          if (voices.length) { resolve(voices); return; }
+          window.speechSynthesis.onvoiceschanged = () => resolve(window.speechSynthesis.getVoices());
+      });
+  }
+
+  function globalPickVoice(voices, gender) {
+      const en = voices.filter(v => v.lang.startsWith('en'));
+      const maleKw   = ['male', 'man', 'guy', 'daniel', 'alex', 'david', 'fred', 'mark', 'tom', 'aaron', 'arthur', 'oliver', 'james', 'rishi'];
+      const femaleKw = ['female', 'woman', 'girl', 'samantha', 'victoria', 'kate', 'karen', 'emma', 'alice', 'martha', 'moira', 'fiona', 'sandy', 'stephanie'];
+      const kw = gender === 'M' ? maleKw : femaleKw;
+      const match = en.find(v => kw.some(k => v.name.toLowerCase().includes(k)));
+      if (match) return match;
+      const half = Math.ceil(en.length / 2);
+      const pool = gender === 'M' ? en.slice(0, half) : en.slice(half);
+      return pool[0] || en[0] || voices[0];
+  }
+
+  async function speakText(text) {
     if ('speechSynthesis' in window) {
       window.speechSynthesis.cancel();
+      if (!globalVoiceCache) globalVoiceCache = await globalLoadVoices();
+      
+      const gender = Math.random() < 0.5 ? 'M' : 'F';
+      const voice = globalPickVoice(globalVoiceCache, gender);
+      
       const utterance = new SpeechSynthesisUtterance(text);
-      let voices = window.speechSynthesis.getVoices();
-      
-      // 기계음/로봇음 느낌의 저품질 보이스 명시적 제외 목록
-      const roboticVoices = ['Fred', 'Victoria', 'Zarvox', 'Trinoids', 'Cellos', 'Hysterical', 'Pipe Organ', 'Whisper', 'Bells', 'Boing', 'Bubbles', 'Good News', 'Organ', 'Ralph', 'Kathy', 'Princess', 'Junior', 'Albert', 'Bad News', 'Bahh', 'Kathy', 'Whisper'];
-      
-      // 고품질/자연어 보이스 필터링 (en-US, en-GB 위주)
-      let enVoices = voices.filter(v => 
-        v.lang.startsWith('en') && 
-        !roboticVoices.some(name => v.name.includes(name))
-      );
-      
-      // 성별에 따른 고품질 보이스 분류
-      const maleVoiceNames = ['Alex', 'Daniel', 'Oliver', 'Thomas', 'Gordon', 'Arthur', 'Natural', 'Enhanced', 'Google US English Male'];
-      const femaleVoiceNames = ['Samantha', 'Karen', 'Moira', 'Tessa', 'Veena', 'Fiona', 'Google US English', 'Natural', 'Enhanced', 'Siri'];
-      
-      const maleVoices = enVoices.filter(v => maleVoiceNames.some(name => v.name.includes(name)));
-      const femaleVoices = enVoices.filter(v => femaleVoiceNames.some(name => v.name.includes(name)));
-      
-      // 남녀 성비 5:5 설정을 위해 50% 확률로 성별 선택
-      const pickMale = Math.random() < 0.5;
-      let selectedVoice = null;
-
-      if (pickMale && maleVoices.length > 0) {
-        selectedVoice = maleVoices[Math.floor(Math.random() * maleVoices.length)];
-      } else if (!pickMale && femaleVoices.length > 0) {
-        selectedVoice = femaleVoices[Math.floor(Math.random() * femaleVoices.length)];
-      } else {
-        // 해당 성별의 고품질 보이스가 없을 경우 'Natural'이나 'Google'이 포함된 보이스 우선 선택
-        selectedVoice = enVoices.find(v => v.name.includes('Google') || v.name.includes('Natural') || v.name.includes('Enhanced')) || enVoices[0];
-      }
-
-      if (selectedVoice) {
-        utterance.voice = selectedVoice;
-      }
-      
-      utterance.lang = 'en-US';
+      utterance.lang = voice ? voice.lang : 'en-US';
+      utterance.voice = voice || null;
       utterance.rate = 0.85; 
-      utterance.pitch = 1.0; 
+      utterance.pitch = gender === 'M' ? 0.85 : 1.15;
+      utterance.volume = 1;
       window.speechSynthesis.speak(utterance);
     } else {
       alert("TTS를 지원하지 않는 브라우저입니다.");
