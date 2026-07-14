@@ -10729,6 +10729,42 @@
     const medEscaped = data.medium.e.replace(/'/g, "\\'").replace(/"/g, '&quot;');
     const hardEscaped = data.hard.e.replace(/'/g, "\\'").replace(/"/g, '&quot;');
 
+    // Dynamic Vocabulary Scan
+    let dayText = (data.phrase + ' ' + data.easy.e + ' ' + data.medium.e + ' ' + data.hard.e).toLowerCase();
+    dayText = dayText.replace(/[.,?!;:()'"]/g, '');
+    let words = dayText.split(/\s+/);
+    let uniqueWords = [...new Set(words)];
+    
+    let foundVocab = [];
+    if (window.globalDictionary) {
+        uniqueWords.forEach(w => {
+            if (window.globalDictionary[w]) {
+                foundVocab.push({ word: w, meaning: window.globalDictionary[w] });
+            }
+        });
+    }
+    
+    let vocabHtml = '';
+    if (foundVocab.length > 0) {
+        let vocabItems = foundVocab.map(v => `
+          <li style="display: flex; align-items: center; flex-wrap: wrap; margin-bottom: 6px;">
+            <strong>${v.word}</strong>
+            <button class="voice-btn-inline" style="background:none; border:none; padding:0 2px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="speakText('${v.word.replace(/'/g, "\\'").replace(/"/g, '&quot;')}', 'US')" title="미국식 발음">🇺🇸</button>
+            <button class="voice-btn-inline" style="background:none; border:none; padding:0 2px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:2px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="speakText('${v.word.replace(/'/g, "\\'").replace(/"/g, '&quot;')}', 'UK')" title="영국식 발음">🇬🇧</button>
+            <span style="margin-left: 4px;">: ${v.meaning}</span>
+          </li>
+        `).join('');
+        
+        vocabHtml = `
+          <div class="vocab-notes" style="margin-top: 20px; border-radius: 16px; text-align: left; padding: 15px 20px; background: var(--surface2); border: 1px solid var(--border);">
+            <div class="vocab-title" style="font-size: 13px; font-weight: 800; color: var(--accent); margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.05em;">💡 핵심 단어장 (Vocabulary)</div>
+            <ul class="vocab-list" style="list-style: none; padding: 0; margin: 0; font-size: 13px; line-height: 1.6; color: var(--text);">
+              ${vocabItems}
+            </ul>
+          </div>
+        `;
+    }
+
     container.innerHTML = `
       <div class="booster-card">
         <div class="booster-header">
@@ -10782,6 +10818,8 @@
             </div>
           </div>
         </div>
+
+        ${vocabHtml}
 
         <!-- Collapsible Archive Panel -->
         <div style="margin-top: 20px; border-top: 1px dashed var(--border); padding-top: 15px; text-align: center;">
