@@ -1041,7 +1041,7 @@
   <script src="master/data/month10.js?v=1783997030"></script>
   <script src="master/data/month11.js?v=1783997030"></script>
   <script src="master/data/month12.js?v=1783997030"></script>
-<script src="master/data/core_insights_v2.js?v=1783998888"></script>
+<script src="master/data/core_insights_v2.js?v=1783998889"></script>
 <link rel="stylesheet" href="index.css">
 <script src="master/data/dictionary.js?v=1783997030"></script>
 </head>
@@ -8249,7 +8249,7 @@
       if (!globalVoiceCache) globalVoiceCache = await globalLoadVoices();
       
       accent = accent || 'US';
-      const gender = accent === 'US' ? 'M' : 'F';
+      const gender = accent === 'US' ? 'F' : 'M';
       const voice = globalPickVoice(globalVoiceCache, gender, accent);
       
       const utterance = new SpeechSynthesisUtterance(text);
