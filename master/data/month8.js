@@ -1,5 +1,6 @@
 window.dayData = Object.assign(window.dayData || {}, {
   "211": {
+    "core_insight": "Overwhelmed",
     "v": "🌊",
     "vT": "Overload State",
     "vD": "처리 용량을 초과해 감당하기 어려운 상태를 정밀하게 표현합니다.",
@@ -54,6 +55,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "212": {
+    "core_insight": "Stressed",
     "v": "🌊",
     "vT": "Overload State",
     "vD": "처리 용량을 초과해 감당하기 어려운 상태를 정밀하게 표현합니다.",
@@ -108,6 +110,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "213": {
+    "core_insight": "Burned out",
     "v": "🌊",
     "vT": "Overload State",
     "vD": "처리 용량을 초과해 감당하기 어려운 상태를 정밀하게 표현합니다.",
@@ -162,6 +165,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "214": {
+    "core_insight": "Excited",
     "v": "✨",
     "vT": "Positive Surge",
     "vD": "긍정적 에너지가 급격히 상승하는 흥분과 기대의 상태를 표현합니다.",
@@ -216,6 +220,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "215": {
+    "core_insight": "Thrilled",
     "v": "✨",
     "vT": "Positive Surge",
     "vD": "긍정적 에너지가 급격히 상승하는 흥분과 기대의 상태를 표현합니다.",
@@ -270,6 +275,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "216": {
+    "core_insight": "Pumped",
     "v": "✨",
     "vT": "Positive Surge",
     "vD": "긍정적 에너지가 급격히 상승하는 흥분과 기대의 상태를 표현합니다.",
@@ -324,6 +330,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "217": {
+    "core_insight": "Confused",
     "v": "🌀",
     "vT": "Clarity Loss",
     "vD": "상황이나 정보를 명확히 이해하지 못하는 인지 혼란 상태를 표현합니다.",
@@ -378,6 +385,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "218": {
+    "core_insight": "Lost",
     "v": "🌀",
     "vT": "Clarity Loss",
     "vD": "상황이나 정보를 명확히 이해하지 못하는 인지 혼란 상태를 표현합니다.",
@@ -432,6 +440,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "219": {
+    "core_insight": "Puzzled",
     "v": "🌀",
     "vT": "Clarity Loss",
     "vD": "상황이나 정보를 명확히 이해하지 못하는 인지 혼란 상태를 표현합니다.",
@@ -486,6 +495,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "220": {
+    "core_insight": "Disappointed",
     "v": "💧",
     "vT": "Expectation Gap",
     "vD": "기대와 현실의 간극에서 오는 낙담과 상실감을 표현합니다.",
@@ -540,6 +550,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "221": {
+    "core_insight": "Let down",
     "v": "💧",
     "vT": "Expectation Gap",
     "vD": "기대와 현실의 간극에서 오는 낙담과 상실감을 표현합니다.",
@@ -594,6 +605,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "222": {
+    "core_insight": "Discouraged",
     "v": "💧",
     "vT": "Expectation Gap",
     "vD": "기대와 현실의 간극에서 오는 낙담과 상실감을 표현합니다.",
@@ -648,6 +660,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "223": {
+    "core_insight": "Relieved",
     "v": "🌤️",
     "vT": "Positive Release",
     "vD": "압박이나 걱정에서 벗어나 가벼워진 긍정적 해소 상태를 표현합니다.",
@@ -702,6 +715,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "224": {
+    "core_insight": "Grateful",
     "v": "🌤️",
     "vT": "Positive Release",
     "vD": "압박이나 걱정에서 벗어나 가벼워진 긍정적 해소 상태를 표현합니다.",
@@ -756,6 +770,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "225": {
+    "core_insight": "Thankful",
     "v": "🌤️",
     "vT": "Positive Release",
     "vD": "압박이나 걱정에서 벗어나 가벼워진 긍정적 해소 상태를 표현합니다.",
@@ -810,6 +825,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "226": {
+    "core_insight": "Awkward",
     "v": "😬",
     "vT": "Social Discomfort",
     "vD": "사회적 상황에서 느끼는 불편함과 긴장의 미묘한 차이를 표현합니다.",
@@ -864,6 +880,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "227": {
+    "core_insight": "Uncomfortable",
     "v": "😬",
     "vT": "Social Discomfort",
     "vD": "사회적 상황에서 느끼는 불편함과 긴장의 미묘한 차이를 표현합니다.",
@@ -918,6 +935,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "228": {
+    "core_insight": "Uneasy",
     "v": "😬",
     "vT": "Social Discomfort",
     "vD": "사회적 상황에서 느끼는 불편함과 긴장의 미묘한 차이를 표현합니다.",
@@ -972,6 +990,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "229": {
+    "core_insight": "Proud",
     "v": "🏆",
     "vT": "Achievement State",
     "vD": "성취와 노력의 결실에서 오는 내면의 충만함을 표현합니다.",
@@ -1026,6 +1045,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "230": {
+    "core_insight": "Accomplished",
     "v": "🏆",
     "vT": "Achievement State",
     "vD": "성취와 노력의 결실에서 오는 내면의 충만함을 표현합니다.",
@@ -1080,6 +1100,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "231": {
+    "core_insight": "Fulfilled",
     "v": "🏆",
     "vT": "Achievement State",
     "vD": "성취와 노력의 결실에서 오는 내면의 충만함을 표현합니다.",
@@ -1134,6 +1155,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "232": {
+    "core_insight": "Anxious",
     "v": "😰",
     "vT": "Threat Response",
     "vD": "위협이나 불확실성에 대한 심리적 긴장 반응 상태를 표현합니다.",
@@ -1188,6 +1210,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "233": {
+    "core_insight": "Nervous",
     "v": "😰",
     "vT": "Threat Response",
     "vD": "위협이나 불확실성에 대한 심리적 긴장 반응 상태를 표현합니다.",
@@ -1242,6 +1265,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "234": {
+    "core_insight": "On edge",
     "v": "😰",
     "vT": "Threat Response",
     "vD": "위협이나 불확실성에 대한 심리적 긴장 반응 상태를 표현합니다.",
@@ -1296,6 +1320,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "235": {
+    "core_insight": "Nostalgic",
     "v": "🍂",
     "vT": "Temporal Longing",
     "vD": "지나간 시간과 장소에 대한 그리움과 감성적 연결감을 표현합니다.",
@@ -1350,6 +1375,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "236": {
+    "core_insight": "Sentimental",
     "v": "🍂",
     "vT": "Temporal Longing",
     "vD": "지나간 시간과 장소에 대한 그리움과 감성적 연결감을 표현합니다.",
@@ -1404,6 +1430,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "237": {
+    "core_insight": "Homesick",
     "v": "🍂",
     "vT": "Temporal Longing",
     "vD": "지나간 시간과 장소에 대한 그리움과 감성적 연결감을 표현합니다.",
@@ -1458,6 +1485,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "238": {
+    "core_insight": "Determined",
     "v": "🔥",
     "vT": "Inner Drive",
     "vD": "목표를 향해 흔들리지 않고 나아가는 강한 의지와 추진력을 표현합니다.",
@@ -1512,6 +1540,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "239": {
+    "core_insight": "Focused",
     "v": "🔥",
     "vT": "Inner Drive",
     "vD": "목표를 향해 흔들리지 않고 나아가는 강한 의지와 추진력을 표현합니다.",
@@ -1566,6 +1595,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "240": {
+    "core_insight": "Driven",
     "v": "🔥",
     "vT": "Inner Drive",
     "vD": "목표를 향해 흔들리지 않고 나아가는 강한 의지와 추진력을 표현합니다.",

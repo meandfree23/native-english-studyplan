@@ -1,5 +1,6 @@
 window.dayData = Object.assign(window.dayData || {}, {
   "181": {
+    "core_insight": "Say",
     "v": "🔍",
     "vT": "Nuance Scan",
     "vD": "비슷해 보이는 단어들의 미세한 의미 차이를 정밀하게 구분합니다.",
@@ -54,6 +55,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "182": {
+    "core_insight": "Tell",
     "v": "🔍",
     "vT": "Nuance Scan",
     "vD": "비슷해 보이는 단어들의 미세한 의미 차이를 정밀하게 구분합니다.",
@@ -108,6 +110,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "183": {
+    "core_insight": "Speak / Talk",
     "v": "🔍",
     "vT": "Nuance Scan",
     "vD": "비슷해 보이는 단어들의 미세한 의미 차이를 정밀하게 구분합니다.",
@@ -162,6 +165,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "184": {
+    "core_insight": "See",
     "v": "👁️",
     "vT": "Perception Lens",
     "vD": "감각 입력의 수동성과 능동성, 지속성을 기준으로 시각 동사의 차이를 구분합니다.",
@@ -216,6 +220,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "185": {
+    "core_insight": "Look",
     "v": "👁️",
     "vT": "Perception Lens",
     "vD": "감각 입력의 수동성과 능동성, 지속성을 기준으로 시각 동사의 차이를 구분합니다.",
@@ -270,6 +275,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "186": {
+    "core_insight": "Watch",
     "v": "👁️",
     "vT": "Perception Lens",
     "vD": "감각 입력의 수동성과 능동성, 지속성을 기준으로 시각 동사의 차이를 구분합니다.",
@@ -324,6 +330,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "187": {
+    "core_insight": "Know",
     "v": "🧠",
     "vT": "Cognition Map",
     "vD": "정보를 저장하는 것, 처리하는 것, 갑자기 깨닫는 것의 인지 단계를 구분합니다.",
@@ -378,6 +385,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "188": {
+    "core_insight": "Understand",
     "v": "🧠",
     "vT": "Cognition Map",
     "vD": "정보를 저장하는 것, 처리하는 것, 갑자기 깨닫는 것의 인지 단계를 구분합니다.",
@@ -432,6 +440,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "189": {
+    "core_insight": "Realize",
     "v": "🧠",
     "vT": "Cognition Map",
     "vD": "정보를 저장하는 것, 처리하는 것, 갑자기 깨닫는 것의 인지 단계를 구분합니다.",
@@ -486,6 +495,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "190": {
+    "core_insight": "Big",
     "v": "📐",
     "vT": "Scale Calibration",
     "vD": "크기를 나타내는 단어들의 물리적·측정적·의미적 차원을 정밀하게 구분합니다.",
@@ -540,6 +550,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "191": {
+    "core_insight": "Large",
     "v": "📐",
     "vT": "Scale Calibration",
     "vD": "크기를 나타내는 단어들의 물리적·측정적·의미적 차원을 정밀하게 구분합니다.",
@@ -594,6 +605,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "192": {
+    "core_insight": "Great",
     "v": "📐",
     "vT": "Scale Calibration",
     "vD": "크기를 나타내는 단어들의 물리적·측정적·의미적 차원을 정밀하게 구분합니다.",
@@ -648,6 +660,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "193": {
+    "core_insight": "Small",
     "v": "🔬",
     "vT": "Micro Lens",
     "vD": "작음을 나타내는 단어들의 중립성·감정성·극단성을 비교 분석합니다.",
@@ -702,6 +715,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "194": {
+    "core_insight": "Little",
     "v": "🔬",
     "vT": "Micro Lens",
     "vD": "작음을 나타내는 단어들의 중립성·감정성·극단성을 비교 분석합니다.",
@@ -756,6 +770,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "195": {
+    "core_insight": "Tiny",
     "v": "🔬",
     "vT": "Micro Lens",
     "vD": "작음을 나타내는 단어들의 중립성·감정성·극단성을 비교 분석합니다.",
@@ -810,6 +825,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "196": {
+    "core_insight": "Happy",
     "v": "😊",
     "vT": "Emotion Spectrum",
     "vD": "긍정적 감정의 지속성·원인·격식 수준을 기준으로 행복 관련 단어를 구분합니다.",
@@ -864,6 +880,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "197": {
+    "core_insight": "Glad",
     "v": "😊",
     "vT": "Emotion Spectrum",
     "vD": "긍정적 감정의 지속성·원인·격식 수준을 기준으로 행복 관련 단어를 구분합니다.",
@@ -918,6 +935,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "198": {
+    "core_insight": "Pleased",
     "v": "😊",
     "vT": "Emotion Spectrum",
     "vD": "긍정적 감정의 지속성·원인·격식 수준을 기준으로 행복 관련 단어를 구분합니다.",
@@ -972,6 +990,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "199": {
+    "core_insight": "Tired",
     "v": "😮‍💨",
     "vT": "Energy Drain",
     "vD": "피로의 정도와 원인, 누적 방식을 기준으로 피로 관련 단어를 구분합니다.",
@@ -1026,6 +1045,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "200": {
+    "core_insight": "Exhausted",
     "v": "😮‍💨",
     "vT": "Energy Drain",
     "vD": "피로의 정도와 원인, 누적 방식을 기준으로 피로 관련 단어를 구분합니다.",
@@ -1080,6 +1100,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "201": {
+    "core_insight": "Worn out",
     "v": "😮‍💨",
     "vT": "Energy Drain",
     "vD": "피로의 정도와 원인, 누적 방식을 기준으로 피로 관련 단어를 구분합니다.",
@@ -1134,6 +1155,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "202": {
+    "core_insight": "Mad",
     "v": "😤",
     "vT": "Anger Scale",
     "vD": "분노의 강도와 격식 수준, 표현 방식을 기준으로 화남 관련 단어를 구분합니다.",
@@ -1188,6 +1210,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "203": {
+    "core_insight": "Angry",
     "v": "😤",
     "vT": "Anger Scale",
     "vD": "분노의 강도와 격식 수준, 표현 방식을 기준으로 화남 관련 단어를 구분합니다.",
@@ -1242,6 +1265,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "204": {
+    "core_insight": "Furious",
     "v": "😤",
     "vT": "Anger Scale",
     "vD": "분노의 강도와 격식 수준, 표현 방식을 기준으로 화남 관련 단어를 구분합니다.",
@@ -1296,6 +1320,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "205": {
+    "core_insight": "Afraid",
     "v": "😨",
     "vT": "Fear Gradient",
     "vD": "두려움의 강도와 발생 방식, 지속성을 기준으로 공포 관련 단어를 구분합니다.",
@@ -1350,6 +1375,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "206": {
+    "core_insight": "Scared",
     "v": "😨",
     "vT": "Fear Gradient",
     "vD": "두려움의 강도와 발생 방식, 지속성을 기준으로 공포 관련 단어를 구분합니다.",
@@ -1404,6 +1430,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "207": {
+    "core_insight": "Terrified",
     "v": "😨",
     "vT": "Fear Gradient",
     "vD": "두려움의 강도와 발생 방식, 지속성을 기준으로 공포 관련 단어를 구분합니다.",
@@ -1458,6 +1485,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "208": {
+    "core_insight": "Fast",
     "v": "⚡",
     "vT": "Velocity Check",
     "vD": "속도의 지속성·순간성·체계성을 기준으로 빠름 관련 단어를 구분합니다.",
@@ -1512,6 +1540,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "209": {
+    "core_insight": "Quick",
     "v": "⚡",
     "vT": "Velocity Check",
     "vD": "속도의 지속성·순간성·체계성을 기준으로 빠름 관련 단어를 구분합니다.",
@@ -1566,6 +1595,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "210": {
+    "core_insight": "Rapid",
     "v": "⚡",
     "vT": "Velocity Check",
     "vD": "속도의 지속성·순간성·체계성을 기준으로 빠름 관련 단어를 구분합니다.",

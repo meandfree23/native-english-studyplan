@@ -1,5 +1,6 @@
 window.dayData = Object.assign(window.dayData || {}, {
   "151": {
+    "core_insight": "Could you",
     "v": "🤝",
     "vT": "Polite Request",
     "vD": "상대에게 부드럽게 요청하는 사회적 윤활제입니다.",
@@ -54,6 +55,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "152": {
+    "core_insight": "Could I",
     "v": "🤝",
     "vT": "Polite Request",
     "vD": "상대에게 부드럽게 요청하는 사회적 윤활제입니다.",
@@ -108,6 +110,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "153": {
+    "core_insight": "Could we",
     "v": "🤝",
     "vT": "Polite Request",
     "vD": "상대에게 부드럽게 요청하는 사회적 윤활제입니다.",
@@ -162,6 +165,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "154": {
+    "core_insight": "Couldn't you",
     "v": "🤝",
     "vT": "Polite Request",
     "vD": "상대에게 부드럽게 요청하는 사회적 윤활제입니다.",
@@ -216,6 +220,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "155": {
+    "core_insight": "Could you possibly",
     "v": "🤝",
     "vT": "Polite Request",
     "vD": "상대에게 부드럽게 요청하는 사회적 윤활제입니다.",
@@ -270,6 +275,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "156": {
+    "core_insight": "If you could",
     "v": "🤝",
     "vT": "Polite Request",
     "vD": "상대에게 부드럽게 요청하는 사회적 윤활제입니다.",
@@ -324,6 +330,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "157": {
+    "core_insight": "Could you do me a favor",
     "v": "🤝",
     "vT": "Polite Request",
     "vD": "상대에게 부드럽게 요청하는 사회적 윤활제입니다.",
@@ -378,6 +385,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "158": {
+    "core_insight": "Would you like",
     "v": "🎁",
     "vT": "Warm Offer",
     "vD": "상대의 필요를 먼저 살피고 배려로 건네는 따뜻한 제안입니다.",
@@ -432,6 +440,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "159": {
+    "core_insight": "I would love to",
     "v": "🎁",
     "vT": "Warm Offer",
     "vD": "상대의 필요를 먼저 살피고 배려로 건네는 따뜻한 제안입니다.",
@@ -486,6 +495,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "160": {
+    "core_insight": "Would you mind",
     "v": "🎁",
     "vT": "Warm Offer",
     "vD": "상대의 필요를 먼저 살피고 배려로 건네는 따뜻한 제안입니다.",
@@ -540,6 +550,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "161": {
+    "core_insight": "Would you prefer",
     "v": "🎁",
     "vT": "Warm Offer",
     "vD": "상대의 필요를 먼저 살피고 배려로 건네는 따뜻한 제안입니다.",
@@ -594,6 +605,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "162": {
+    "core_insight": "I would rather",
     "v": "🎁",
     "vT": "Warm Offer",
     "vD": "상대의 필요를 먼저 살피고 배려로 건네는 따뜻한 제안입니다.",
@@ -648,6 +660,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "163": {
+    "core_insight": "Would it be okay",
     "v": "🎁",
     "vT": "Warm Offer",
     "vD": "상대의 필요를 먼저 살피고 배려로 건네는 따뜻한 제안입니다.",
@@ -702,6 +715,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "164": {
+    "core_insight": "That would be great",
     "v": "🎁",
     "vT": "Warm Offer",
     "vD": "상대의 필요를 먼저 살피고 배려로 건네는 따뜻한 제안입니다.",
@@ -756,6 +770,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "165": {
+    "core_insight": "I would if I could",
     "v": "🌐",
     "vT": "Conditional Politeness",
     "vD": "가정과 조건을 통해 간접적으로 의미를 전달하는 외교적 표현입니다.",
@@ -810,6 +825,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "166": {
+    "core_insight": "Could you tell me",
     "v": "🌐",
     "vT": "Conditional Politeness",
     "vD": "가정과 조건을 통해 간접적으로 의미를 전달하는 외교적 표현입니다.",
@@ -864,6 +880,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "167": {
+    "core_insight": "Would you happen to know",
     "v": "🌐",
     "vT": "Conditional Politeness",
     "vD": "가정과 조건을 통해 간접적으로 의미를 전달하는 외교적 표현입니다.",
@@ -918,6 +935,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "168": {
+    "core_insight": "I could use some help",
     "v": "🌐",
     "vT": "Conditional Politeness",
     "vD": "가정과 조건을 통해 간접적으로 의미를 전달하는 외교적 표현입니다.",
@@ -972,6 +990,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "169": {
+    "core_insight": "Could this be",
     "v": "🌐",
     "vT": "Conditional Politeness",
     "vD": "가정과 조건을 통해 간접적으로 의미를 전달하는 외교적 표현입니다.",
@@ -1026,6 +1045,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "170": {
+    "core_insight": "Would it be possible",
     "v": "🌐",
     "vT": "Conditional Politeness",
     "vD": "가정과 조건을 통해 간접적으로 의미를 전달하는 외교적 표현입니다.",
@@ -1080,6 +1100,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "171": {
+    "core_insight": "I wouldn't say that",
     "v": "🌐",
     "vT": "Conditional Politeness",
     "vD": "가정과 조건을 통해 간접적으로 의미를 전달하는 외교적 표현입니다.",
@@ -1134,6 +1155,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "172": {
+    "core_insight": "I could be wrong but",
     "v": "🎯",
     "vT": "Softened Disagreement",
     "vD": "반대 의견을 직접 충돌 없이 완충재로 감싸 전달하는 사교적 기술입니다.",
@@ -1188,6 +1210,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "173": {
+    "core_insight": "Wouldn't it be better to",
     "v": "🎯",
     "vT": "Softened Disagreement",
     "vD": "반대 의견을 직접 충돌 없이 완충재로 감싸 전달하는 사교적 기술입니다.",
@@ -1242,6 +1265,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "174": {
+    "core_insight": "Could you reconsider",
     "v": "🎯",
     "vT": "Softened Disagreement",
     "vD": "반대 의견을 직접 충돌 없이 완충재로 감싸 전달하는 사교적 기술입니다.",
@@ -1296,6 +1320,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "175": {
+    "core_insight": "I would think",
     "v": "🎯",
     "vT": "Softened Disagreement",
     "vD": "반대 의견을 직접 충돌 없이 완충재로 감싸 전달하는 사교적 기술입니다.",
@@ -1350,6 +1375,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "176": {
+    "core_insight": "Couldn't we just",
     "v": "🎯",
     "vT": "Softened Disagreement",
     "vD": "반대 의견을 직접 충돌 없이 완충재로 감싸 전달하는 사교적 기술입니다.",
@@ -1404,6 +1430,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "177": {
+    "core_insight": "Would you consider",
     "v": "🎯",
     "vT": "Softened Disagreement",
     "vD": "반대 의견을 직접 충돌 없이 완충재로 감싸 전달하는 사교적 기술입니다.",
@@ -1458,6 +1485,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "178": {
+    "core_insight": "I would argue that",
     "v": "🎯",
     "vT": "Softened Disagreement",
     "vD": "반대 의견을 직접 충돌 없이 완충재로 감싸 전달하는 사교적 기술입니다.",
@@ -1512,6 +1540,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "179": {
+    "core_insight": "Could you / Would you",
     "v": "🏆",
     "vT": "Mastery Comparison",
     "vD": "Could와 Would의 차이를 실전 맥락에서 비교하며 완성하는 숙달 단계입니다.",
@@ -1566,6 +1595,7 @@ window.dayData = Object.assign(window.dayData || {}, {
     ]
   },
   "180": {
+    "core_insight": "Could you / Would you",
     "v": "🏆",
     "vT": "Mastery Comparison",
     "vD": "Could와 Would의 차이를 실전 맥락에서 비교하며 완성하는 숙달 단계입니다.",
