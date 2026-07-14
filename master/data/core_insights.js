@@ -3,13 +3,13 @@ window.coreInsights = {
     "Take": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>take</strong>는 무언가를 '단순히 받는' 수동적인 동작이 아닙니다.<br/>
+        <strong>take</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('take')" title="발음 듣기">🔊</button>는 무언가를 '단순히 받는' 수동적인 동작이 아닙니다.<br/>
         원어민에게 take는 <strong>'적극적으로 손을 뻗어 내 것으로 취하는 역동성'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Take의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>take</strong>의 핵심은</p>
+        <p>원어민에게 <strong>take</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('take')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"외부의 대상을 내 의지로 쥐어 가져오다."</div>
         <p>입니다. 내게 없던 것을 적극적인 선택과 행동을 통해 획득하는 그림입니다.</p>
     </div>
@@ -26,7 +26,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 선택과 획득 (Choice & Acquisition)</h2>
     <p class="insight-p">수많은 옵션 중에서 내가 하나를 '결정'하고 가져오는 행위입니다.</p>
     <div class="example-group">
-        <div class="ex-en">I'll take this one.</div>
+        <div class="ex-en">I'll take this one. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I\'ll take this one.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">이걸로 할게요. (많은 것 중 이것을 선택해 취함)</div>
         <div class="ex-en" style="margin-top:12px;">Take a piece of cake.</div>
         <div class="ex-ko">케이크 한 조각 먹어. (네 의지로 집어서)</div>
@@ -35,7 +35,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 시간과 자원의 소모 (Time & Effort)</h2>
     <p class="insight-p">특정 행동이 나의 '시간이나 노력'을 가져가버릴 때 씁니다.</p>
     <div class="example-group">
-        <div class="ex-en">It takes 2 hours.</div>
+        <div class="ex-en">It takes 2 hours. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('It takes 2 hours.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">2시간이 걸린다. (그 일이 내 시간 2시간을 빼앗아 감)</div>
         <div class="ex-en" style="margin-top:12px;">It takes courage.</div>
         <div class="ex-ko">용기가 필요하다. (용기라는 자원을 요구함)</div>
@@ -44,14 +44,14 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 이동 수단의 탑승 (Transportation)</h2>
     <p class="insight-p">버스나 택시를 단순히 타는 게 아니라, 목적지로 가기 위해 그 수단을 '선택해서 취하는' 뉘앙스입니다.</p>
     <div class="example-group">
-        <div class="ex-en">I'll take a taxi.</div>
+        <div class="ex-en">I'll take a taxi. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I\'ll take a taxi.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">택시 탈게. (택시라는 수단을 이용하기로 선택함)</div>
     </div>
 
     <h2 class="insight-h2">④ 신체적 반응/수용 (Acceptance)</h2>
     <p class="insight-p">조언이나 타격, 약 등을 내 몸이나 생각 속으로 '받아들이는' 행위입니다.</p>
     <div class="example-group">
-        <div class="ex-en">Take a deep breath.</div>
+        <div class="ex-en">Take a deep breath. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Take a deep breath.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">심호흡을 해. (숨을 내 안으로 끌어당김)</div>
         <div class="ex-en" style="margin-top:12px;">Take medicine.</div>
         <div class="ex-ko">약을 먹어. (약을 내 몸 안에 투여함)</div>
@@ -61,13 +61,13 @@ window.coreInsights = {
     <div class="compare-grid">
         <div class="compare-col">
             <div class="c-title">Take (주도권이 나에게)</div>
-            <p><strong>I took the book.</strong></p>
+            <p><strong>I took the book.</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I took the book.')" title="발음 듣기">🔊</button></p>
             <p>내가 스스로 가서 책을 집어왔다.</p>
             <div class="c-tag">적극적, 의지적</div>
         </div>
         <div class="compare-col">
             <div class="c-title">Get (상황에 따른 변화)</div>
-            <p><strong>I got the book.</strong></p>
+            <p><strong>I got the book.</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I got the book.')" title="발음 듣기">🔊</button></p>
             <p>누가 줘서든 샀든 결과적으로 책이 나에게 생겼다.</p>
             <div class="c-tag">결과 중심, 상태의 변화</div>
         </div>
@@ -77,13 +77,13 @@ window.coreInsights = {
     "Get": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>get</strong>은 아마도 영어에서 가장 다재다능한 동사일 것입니다.<br/>
+        <strong>get</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('get')" title="발음 듣기">🔊</button>은 아마도 영어에서 가장 다재다능한 동사일 것입니다.<br/>
         원어민에게 get은 <strong>'없던 상태에서 있는 상태로의 전환(Change of State)'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Get의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>get</strong>의 핵심은</p>
+        <p>원어민에게 <strong>get</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('get')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"무(無)에서 유(有)로 상태가 변하다."</div>
         <p>이동, 획득, 이해, 상태 변화 등 무언가가 내게 '도달'하는 모든 과정이 Get입니다.</p>
     </div>
@@ -101,7 +101,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 획득과 수령 (Obtain/Receive)</h2>
     <p class="insight-p">물건이나 편지, 점수 등을 내 것으로 만들거나 받게 된 상태의 변화입니다.</p>
     <div class="example-group">
-        <div class="ex-en">I got a letter.</div>
+        <div class="ex-en">I got a letter. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I got a letter.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">편지를 받았다. (없다가 생김)</div>
         <div class="ex-en" style="margin-top:12px;">I got a perfect score.</div>
         <div class="ex-ko">만점을 받았다.</div>
@@ -110,7 +110,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 감정 및 상태의 변화 (Become)</h2>
     <p class="insight-p">어떤 기분이나 물리적 상태로 '진입'하는 과정을 그립니다.</p>
     <div class="example-group">
-        <div class="ex-en">I'm getting hungry.</div>
+        <div class="ex-en">I'm getting hungry. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I\'m getting hungry.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">배가 고파진다. (안 고픈 상태 -> 고픈 상태로 이동 중)</div>
         <div class="ex-en" style="margin-top:12px;">Get ready.</div>
         <div class="ex-ko">준비해. (준비된 상태로 넘어가라)</div>
@@ -119,7 +119,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 장소로의 도달 (Arrive)</h2>
     <p class="insight-p">내가 목표로 하는 장소에 마침내 '이르렀을 때' 사용합니다.</p>
     <div class="example-group">
-        <div class="ex-en">How did you get here?</div>
+        <div class="ex-en">How did you get here? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('How did you get here?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">여기 어떻게 왔어? (여기라는 장소에 어떻게 도달했느냐)</div>
         <div class="ex-en" style="margin-top:12px;">I'll get there by 5.</div>
         <div class="ex-ko">5시까지 갈게.</div>
@@ -128,7 +128,7 @@ window.coreInsights = {
     <h2 class="insight-h2">④ 인지와 이해 (Understand)</h2>
     <p class="insight-p">이해하지 못하던 지식이나 말이 내 머릿속에 '도달'한 순간입니다.</p>
     <div class="example-group">
-        <div class="ex-en">I got it.</div>
+        <div class="ex-en">I got it. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I got it.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">이해했어. (알겠어)</div>
         <div class="ex-en" style="margin-top:12px;">Don't get me wrong.</div>
         <div class="ex-ko">오해하지 마. (내 말을 잘못된 방향으로 도달시키지 마)</div>
@@ -137,7 +137,7 @@ window.coreInsights = {
     <h2 class="insight-h2">Get 사역동사 (설득하여 하게 하다)</h2>
     <p class="insight-p">Make가 강제성을 띤다면, Get은 <strong>설득이나 노력</strong>을 통해 상대방을 특정 상태(행동)로 '이동'시킵니다. 그래서 &#96;to&#96;가 필요합니다.</p>
     <div class="example-group">
-        <div class="ex-en">I got him to clean the room.</div>
+        <div class="ex-en">I got him to clean the room. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I got him to clean the room.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그를 설득해서 방을 청소하게 했다.</div>
     </div>
 </div>
@@ -145,13 +145,13 @@ window.coreInsights = {
     "Have": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>have</strong>는 영어에서 <strong>be, do, get, make</strong>와 함께 가장 중요한 핵심 동사입니다.<br/>
+        <strong>have</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('have')" title="발음 듣기">🔊</button>는 영어에서 <strong>be, do, get, make</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('be, do, get, make')" title="발음 듣기">🔊</button>와 함께 가장 중요한 핵심 동사입니다.<br/>
         그런데 <strong>'have = 가지고 있다'</strong>만 외우면 원어민이 쓰는 have의 70%를 놓치게 됩니다.
     </div>
 
     <h2 class="insight-h2">Have의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>have</strong>의 핵심은</p>
+        <p>원어민에게 <strong>have</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('have')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"내 영역 안에 두다."</div>
         <div class="quote-text">"무언가를 내 것으로 가지고 있는 상태."</div>
         <p>입니다. 반드시 물리적인 소유만 의미하는 것은 아닙니다.</p>
@@ -174,7 +174,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 소유 (Possession)</h2>
     <p class="insight-p">가장 기본 의미입니다.</p>
     <div class="example-group">
-        <div class="ex-en">I have a car.</div>
+        <div class="ex-en">I have a car. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I have a car.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">나는 차가 있다.</div>
         <div class="ex-en" style="margin-top:12px;">She has two sisters.</div>
         <div class="ex-ko">그녀는 자매가 둘 있다.</div>
@@ -183,7 +183,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 경험 (Experience)</h2>
     <p class="insight-p">원어민은 정말 많이 씁니다. have는 여기서 <strong>"경험을 내 것으로 가진다."</strong>라는 뜻이 됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">I had a great time.</div>
+        <div class="ex-en">I had a great time. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I had a great time.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">즐거운 시간을 보냈다.</div>
         <div class="ex-en" style="margin-top:12px;">We had fun.</div>
         <div class="ex-ko">재미있었다.</div>
@@ -194,7 +194,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 먹고 마시다</h2>
     <p class="insight-p">영어에서는 먹는 것도 <strong>내 안으로 들어오는 것</strong>입니다. 그래서 have를 씁니다.</p>
     <div class="example-group">
-        <div class="ex-en">Let's have lunch.</div>
+        <div class="ex-en">Let's have lunch. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Let\'s have lunch.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">점심 먹자.</div>
         <div class="ex-en" style="margin-top:12px;">We had coffee.</div>
         <div class="ex-ko">커피 마셨다.</div>
@@ -203,7 +203,7 @@ window.coreInsights = {
     <h2 class="insight-h2">④ 어떤 상태를 가진다</h2>
     <p class="insight-p">몸 상태도 <strong>내가 가진 것</strong>입니다.</p>
     <div class="example-group">
-        <div class="ex-en">I have a headache.</div>
+        <div class="ex-en">I have a headache. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I have a headache.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">두통이 있다.</div>
         <div class="ex-en" style="margin-top:12px;">I have a cold.</div>
         <div class="ex-ko">감기에 걸렸다.</div>
@@ -214,7 +214,7 @@ window.coreInsights = {
     <h2 class="insight-h2">⑤ 어떤 일을 가진다</h2>
     <p class="insight-p">이것도 <strong>내 일정 안</strong>에 있는 것입니다.</p>
     <div class="example-group">
-        <div class="ex-en">I have a meeting.</div>
+        <div class="ex-en">I have a meeting. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I have a meeting.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">회의가 있다.</div>
         <div class="ex-en" style="margin-top:12px;">I have homework.</div>
         <div class="ex-ko">숙제가 있다.</div>
@@ -225,7 +225,7 @@ window.coreInsights = {
     <h2 class="insight-h2">⑥ 사역동사 (have + 사람 + 동사원형)</h2>
     <p class="insight-p">여기가 중요합니다. 강요가 아니라 <strong>"그 일을 맡긴다"</strong>는 느낌입니다.</p>
     <div class="example-group">
-        <div class="ex-en">I'll have my son wash the car.</div>
+        <div class="ex-en">I'll have my son wash the car. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I\'ll have my son wash the car.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">아들에게 세차를 하게 하겠다. (그 일을 맡긴다)</div>
     </div>
     <div class="insight-box">
@@ -237,7 +237,7 @@ window.coreInsights = {
     <h2 class="insight-h2">⑦ Have + 목적어 + 과거분사</h2>
     <p class="insight-p">정말 많이 나오는 패턴입니다. <strong>전문가에게 내 일을 맡긴다</strong>는 구조입니다.</p>
     <div class="example-group">
-        <div class="ex-en">I had my hair cut.</div>
+        <div class="ex-en">I had my hair cut. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I had my hair cut.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">머리를 잘랐다. (직역: 머리를 잘리게 맡겼다)</div>
         <div class="ex-en" style="margin-top:12px;">I had my car repaired.</div>
         <div class="ex-ko">차를 수리받았다.</div>
@@ -249,7 +249,7 @@ window.coreInsights = {
     <h2 class="insight-h2">⑧ Have to</h2>
     <p class="insight-p">have와 to가 합쳐진 표현입니다.</p>
     <div class="example-group">
-        <div class="ex-en">I have to study.</div>
+        <div class="ex-en">I have to study. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I have to study.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">공부해야 한다.</div>
     </div>
     <p class="insight-p">왜 그럴까요? <strong>해야 할 일(to study)이 내 영역 안에 들어와 있기 때문</strong>입니다.</p>
@@ -265,15 +265,15 @@ window.coreInsights = {
     <div class="compare-grid">
         <div class="compare-col">
             <div class="c-title">Have vs Get</div>
-            <p><strong>I have a car.</strong> 차를 가지고 있다. (상태)</p>
-            <p><strong>I got a car.</strong> 차를 얻었다. (변화)</p>
+            <p><strong>I have a car.</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I have a car.')" title="발음 듣기">🔊</button> 차를 가지고 있다. (상태)</p>
+            <p><strong>I got a car.</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I got a car.')" title="발음 듣기">🔊</button> 차를 얻었다. (변화)</p>
             <div class="c-tag">Have = 정지된 사진 📷</div>
             <div class="c-tag">Get = 움직이는 영상 🎥</div>
         </div>
         <div class="compare-col">
             <div class="c-title">Have vs Make</div>
-            <p><strong>make a cake</strong> 결과를 만든다.</p>
-            <p><strong>have a cake</strong> 이미 가지고 있다.</p>
+            <p><strong>make a cake</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('make a cake')" title="발음 듣기">🔊</button> 결과를 만든다.</p>
+            <p><strong>have a cake</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('have a cake')" title="발음 듣기">🔊</button> 이미 가지고 있다.</p>
             <div class="c-tag">Make = 결과의 창출</div>
             <div class="c-tag">Have = 기 보유한 상태</div>
         </div>
@@ -290,27 +290,27 @@ window.coreInsights = {
         </thead>
         <tbody>
             <tr>
-                <td><strong>have</strong></td>
+                <td><strong>have</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('have')" title="발음 듣기">🔊</button></td>
                 <td>맡기다, 관리하다</td>
                 <td>I'll have him do it.</td>
             </tr>
             <tr>
-                <td><strong>let</strong></td>
+                <td><strong>let</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('let')" title="발음 듣기">🔊</button></td>
                 <td>허락하다</td>
                 <td>I'll let him do it.</td>
             </tr>
             <tr>
-                <td><strong>make</strong></td>
+                <td><strong>make</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('make')" title="발음 듣기">🔊</button></td>
                 <td>시키다 (강제)</td>
                 <td>I'll make him do it.</td>
             </tr>
             <tr>
-                <td><strong>get</strong></td>
+                <td><strong>get</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('get')" title="발음 듣기">🔊</button></td>
                 <td>설득하다</td>
                 <td>I'll get him to do it.</td>
             </tr>
             <tr>
-                <td><strong>force</strong></td>
+                <td><strong>force</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('force')" title="발음 듣기">🔊</button></td>
                 <td>강제로 시키다</td>
                 <td>I'll force him to do it.</td>
             </tr>
@@ -319,19 +319,19 @@ window.coreInsights = {
 
     <h2 class="insight-h2">영어식 사고 요약</h2>
     <div class="insight-box highlight-box" style="margin-bottom:0;">
-        <p>원어민에게 <strong>have</strong>는 <strong>"내 영역 안에 어떤 것을 두는 것"</strong>입니다. 그래서 하나의 개념에서 모두 연결됩니다.</p>
+        <p>원어민에게 <strong>have</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('have')" title="발음 듣기">🔊</button>는 <strong>"내 영역 안에 어떤 것을 두는 것"</strong>입니다. 그래서 하나의 개념에서 모두 연결됩니다.</p>
         <ul class="summary-list">
-            <li><strong>I have a car.</strong> (소유)</li>
+            <li><strong>I have a car.</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I have a car.')" title="발음 듣기">🔊</button> (소유)</li>
             <li>↓</li>
-            <li><strong>I have lunch.</strong> (내 안으로 들어온다)</li>
+            <li><strong>I have lunch.</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I have lunch.')" title="발음 듣기">🔊</button> (내 안으로 들어온다)</li>
             <li>↓</li>
-            <li><strong>I have a meeting.</strong> (내 일정 안에 있다)</li>
+            <li><strong>I have a meeting.</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I have a meeting.')" title="발음 듣기">🔊</button> (내 일정 안에 있다)</li>
             <li>↓</li>
-            <li><strong>I have a headache.</strong> (내 몸 안에 있다)</li>
+            <li><strong>I have a headache.</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I have a headache.')" title="발음 듣기">🔊</button> (내 몸 안에 있다)</li>
             <li>↓</li>
-            <li><strong>I have my son wash the car.</strong> (그 일을 내 관리 아래 맡긴다)</li>
+            <li><strong>I have my son wash the car.</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I have my son wash the car.')" title="발음 듣기">🔊</button> (그 일을 내 관리 아래 맡긴다)</li>
             <li>↓</li>
-            <li><strong>I had my hair cut.</strong> (내 일을 다른 사람에게 맡겨 결과를 얻는다)</li>
+            <li><strong>I had my hair cut.</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I had my hair cut.')" title="발음 듣기">🔊</button> (내 일을 다른 사람에게 맡겨 결과를 얻는다)</li>
         </ul>
     </div>
 </div>
@@ -339,13 +339,13 @@ window.coreInsights = {
     "Make": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>make</strong>는 그저 '만들다'가 아닙니다.<br/>
+        <strong>make</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('make')" title="발음 듣기">🔊</button>는 그저 '만들다'가 아닙니다.<br/>
         원어민에게 make는 <strong>'원력이나 에너지를 가해 억지로 결과를 빚어내는 창조적 개입'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Make의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>make</strong>의 핵심은</p>
+        <p>원어민에게 <strong>make</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('make')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"인위적인 개입으로 어떤 결과나 상태를 창출해내다."</div>
         <p>가만히 두면 일어나지 않을 일을, 나의 에너지를 투입해 억지로 만들어내는 강한 동력입니다.</p>
     </div>
@@ -362,7 +362,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 물리적 창조와 조립 (Creation)</h2>
     <p class="insight-p">재료에 에너지를 가해 완전히 새로운 형태로 탈바꿈시킵니다.</p>
     <div class="example-group">
-        <div class="ex-en">She made a cake.</div>
+        <div class="ex-en">She made a cake. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('She made a cake.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀가 케이크를 만들었다.</div>
         <div class="ex-en" style="margin-top:12px;">This car is made in Korea.</div>
         <div class="ex-ko">이 차는 한국에서 제작되었다.</div>
@@ -371,7 +371,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 추상적 결과의 창출 (Result)</h2>
     <p class="insight-p">물리적 대상뿐만 아니라, 상황이나 개념적인 결과를 빚어낼 때도 쓰입니다.</p>
     <div class="example-group">
-        <div class="ex-en">Make a decision.</div>
+        <div class="ex-en">Make a decision. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Make a decision.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">결정을 내려라. (결정된 상태를 창출하라)</div>
         <div class="ex-en" style="margin-top:12px;">Make a promise.</div>
         <div class="ex-ko">약속을 해라.</div>
@@ -380,7 +380,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 강한 사역동사 (강제성)</h2>
     <p class="insight-p">가만히 두면 하지 않을 사람에게 <strong>강한 압력이나 원인</strong>을 제공해 억지로 그 행동을 하게 '빚어내는' 것입니다.</p>
     <div class="example-group">
-        <div class="ex-en">My boss made me work late.</div>
+        <div class="ex-en">My boss made me work late. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('My boss made me work late.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">상사가 나를 야근하게 만들었다. (나의 의지와 무관하게 상황을 빚어냄)</div>
         <div class="ex-en" style="margin-top:12px;">The movie made me cry.</div>
         <div class="ex-ko">그 영화가 나를 울게 만들었다. (내 감정을 억지로 끌어냄)</div>
@@ -396,7 +396,7 @@ window.coreInsights = {
     <h2 class="insight-h2">④ 돈과 성공의 획득 (Earn/Achieve)</h2>
     <p class="insight-p">가만히 있어서 생기는 것이 아니라 땀과 노력(에너지)을 들여 무언가를 창출하는 것이므로 돈을 번다고 할 때도 쓰입니다.</p>
     <div class="example-group">
-        <div class="ex-en">Make money.</div>
+        <div class="ex-en">Make money. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Make money.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">돈을 벌다.</div>
         <div class="ex-en" style="margin-top:12px;">She finally made it!</div>
         <div class="ex-ko">그녀가 마침내 해냈어! (어려움을 뚫고 결과를 빚어냄)</div>
@@ -406,13 +406,13 @@ window.coreInsights = {
     "Go": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Go</strong>는 단순히 '가다'라는 뜻이 아닙니다.<br/>
+        <strong>Go</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Go')" title="발음 듣기">🔊</button>는 단순히 '가다'라는 뜻이 아닙니다.<br/>
         원어민에게 go는 <strong>'현재 있는 중심점(나 혹은 상대방)에서 멀어지는 모든 움직임'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Go의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Go</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Go</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Go')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"멀어지다 (Moving Away)"</div>
         <p>물리적인 장소뿐만 아니라, 정상적인 상태에서 비정상적인 상태로 '이탈'할 때도 사용합니다.</p>
     </div>
@@ -429,7 +429,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 장소의 이동 (Departure)</h2>
     <p class="insight-p">화자나 청자가 있는 곳을 떠나 다른 곳으로 향합니다.</p>
     <div class="example-group">
-        <div class="ex-en">I have to go now.</div>
+        <div class="ex-en">I have to go now. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I have to go now.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">나 이제 가야 돼. (이곳에서 멀어짐)</div>
         <div class="ex-en" style="margin-top:12px;">Let's go.</div>
         <div class="ex-ko">가자. (우리가 있는 곳을 떠남)</div>
@@ -438,7 +438,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 부정적 상태로의 변화 (Deterioration)</h2>
     <p class="insight-p">좋은 상태(정상)에서 나쁜 상태(비정상)로 '멀어지는' 그림입니다. 그래서 안 좋은 변화에는 주로 Go를 씁니다.</p>
     <div class="example-group">
-        <div class="ex-en">The milk went bad.</div>
+        <div class="ex-en">The milk went bad. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The milk went bad.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">우유가 상했다. (정상 상태에서 이탈함)</div>
         <div class="ex-en" style="margin-top:12px;">Things went wrong.</div>
         <div class="ex-ko">일이 틀어졌다. (올바른 궤도에서 벗어남)</div>
@@ -447,7 +447,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 기능의 정지 (Stop working)</h2>
     <p class="insight-p">에너지나 시력이 멀어져서 사라지는 뉘앙스입니다.</p>
     <div class="example-group">
-        <div class="ex-en">My vision is going.</div>
+        <div class="ex-en">My vision is going. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('My vision is going.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">시력이 점점 떨어지고 있어.</div>
     </div>
 </div>
@@ -455,13 +455,13 @@ window.coreInsights = {
     "Come": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Come</strong>은 단순히 '오다'가 아닙니다.<br/>
+        <strong>Come</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Come')" title="발음 듣기">🔊</button>은 단순히 '오다'가 아닙니다.<br/>
         원어민에게 come은 <strong>'중심점(나, 상대방, 목적지)으로 가까워지는 모든 움직임'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Come의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Come</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Come</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Come')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"가까워지다 (Moving Towards)"</div>
         <p>상대방이 있는 곳으로 갈 때 한국어는 "나 갈게(Go)"라고 하지만, 영어는 상대방과 가까워지므로 "I'm coming(Come)"이라고 합니다.</p>
     </div>
@@ -478,7 +478,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 기준점으로의 이동 (Approach)</h2>
     <p class="insight-p">말하는 사람이나 듣는 사람의 위치로 다가가는 행위입니다.</p>
     <div class="example-group">
-        <div class="ex-en">I'm coming.</div>
+        <div class="ex-en">I'm coming. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I\'m coming.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">지금 가요. (너와 내가 가까워지고 있으니 Come)</div>
         <div class="ex-en" style="margin-top:12px;">Come here.</div>
         <div class="ex-ko">이리로 와. (내 쪽으로 가까워짐)</div>
@@ -487,7 +487,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 긍정적/정상적 상태로의 진입 (Improvement)</h2>
     <p class="insight-p">Go가 나쁜 상태로 벗어나는 것이라면, Come은 본래의 상태나 긍정적인 현실로 '다가오는' 그림입니다.</p>
     <div class="example-group">
-        <div class="ex-en">My dream came true.</div>
+        <div class="ex-en">My dream came true. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('My dream came true.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">꿈이 이루어졌다. (꿈이 현실로 가까워짐)</div>
         <div class="ex-en" style="margin-top:12px;">It came to my mind.</div>
         <div class="ex-ko">생각이 떠올랐다. (내 머릿속으로 생각이 다가옴)</div>
@@ -497,13 +497,13 @@ window.coreInsights = {
     <div class="compare-grid">
         <div class="compare-col">
             <div class="c-title">Go (멀어짐)</div>
-            <p><strong>He went crazy.</strong> (그는 미쳐버렸다)</p>
+            <p><strong>He went crazy.</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('He went crazy.')" title="발음 듣기">🔊</button> (그는 미쳐버렸다)</p>
             <p>정상 상태에서 멀어짐 = 부정적 변화</p>
             <div class="c-tag">이탈, 악화</div>
         </div>
         <div class="compare-col">
             <div class="c-title">Come (가까워짐)</div>
-            <p><strong>The dream came true.</strong> (꿈이 이루어졌다)</p>
+            <p><strong>The dream came true.</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The dream came true.')" title="발음 듣기">🔊</button> (꿈이 이루어졌다)</p>
             <p>목표 상태로 진입함 = 긍정적 변화</p>
             <div class="c-tag">접근, 실현</div>
         </div>
@@ -513,13 +513,13 @@ window.coreInsights = {
     "Put": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Put</strong>은 물리적인 공간에 물건을 내려놓는 것뿐만 아니라,<br/>
+        <strong>Put</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Put')" title="발음 듣기">🔊</button>은 물리적인 공간에 물건을 내려놓는 것뿐만 아니라,<br/>
         특정 상태나 상황에 사람이나 사물을 <strong>'처하게 만드는'</strong> 가장 보편적인 배치 동사입니다.
     </div>
 
     <h2 class="insight-h2">Put의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Put</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Put</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Put')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"무언가를 특정 장소나 상태에 이동시켜 두다."</div>
         <p>물건을 책상 위에 두는 것도 Put, 내 생각을 글에 담는 것도 Put, 누군가를 난처한 상황에 몰아넣는 것도 Put입니다.</p>
     </div>
@@ -537,14 +537,14 @@ window.coreInsights = {
     <h2 class="insight-h2">① 물리적 배치 (Placement)</h2>
     <p class="insight-p">물건을 특정한 공간에 내려놓는 가장 기본적인 의미입니다.</p>
     <div class="example-group">
-        <div class="ex-en">Put it on the table.</div>
+        <div class="ex-en">Put it on the table. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Put it on the table.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">테이블 위에 둬.</div>
     </div>
 
     <h2 class="insight-h2">② 추상적 상태의 부여 (Condition)</h2>
     <p class="insight-p">사람이나 사물을 특정한 상황(Condition) 속에 밀어 넣을 때 사용합니다.</p>
     <div class="example-group">
-        <div class="ex-en">Don't put me in this position.</div>
+        <div class="ex-en">Don't put me in this position. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Don\'t put me in this position.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">나를 이런 난처한 입장에 처하게 하지 마.</div>
         <div class="ex-en" style="margin-top:12px;">You put me at ease.</div>
         <div class="ex-ko">네가 나를 편안하게 해 주었어. (나를 편안한 상태에 둠)</div>
@@ -553,7 +553,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 생각의 표현 (Expression)</h2>
     <p class="insight-p">머릿속에 둥둥 떠다니는 생각(대상)을 언어라는 그릇(장소)에 옮겨 담는(Put) 행위입니다.</p>
     <div class="example-group">
-        <div class="ex-en">Let me put it this way.</div>
+        <div class="ex-en">Let me put it this way. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Let me put it this way.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">내가 이렇게 표현해 볼게. (내 생각을 이런 방식으로 담아볼게)</div>
     </div>
 </div>
@@ -561,13 +561,13 @@ window.coreInsights = {
     "Set": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Set</strong>은 Put과 달리 아주 섬세한 동사입니다.<br/>
+        <strong>Set</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Set')" title="발음 듣기">🔊</button>은 Put과 달리 아주 섬세한 동사입니다.<br/>
         원어민에게 set은 무언가를 그저 '두는(Put)' 것이 아니라, <strong>'목적을 가지고 흔들리지 않게 고정시키는'</strong> 행위를 의미합니다.
     </div>
 
     <h2 class="insight-h2">Set의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Set</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Set</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Set')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"목적을 위해 고정시키고 세팅하다."</div>
         <p>알람을 맞추고, 목표를 정하고, 젤리가 굳고, 해가 저무는(고정되는) 모든 현상이 Set입니다.</p>
     </div>
@@ -585,14 +585,14 @@ window.coreInsights = {
     <h2 class="insight-h2">① 기계나 시스템의 설정 (Configuration)</h2>
     <p class="insight-p">작동을 위해 기계를 특정한 값에 고정시켜 두는 행위입니다.</p>
     <div class="example-group">
-        <div class="ex-en">Set the alarm for 6 AM.</div>
+        <div class="ex-en">Set the alarm for 6 AM. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Set the alarm for 6 AM.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">알람을 아침 6시로 맞춰 줘. (6시라는 값에 고정함)</div>
     </div>
 
     <h2 class="insight-h2">② 기준과 규칙의 확립 (Establishment)</h2>
     <p class="insight-p">목표나 규칙을 흔들리지 않게 단단히 박아두는 느낌입니다.</p>
     <div class="example-group">
-        <div class="ex-en">Set a goal.</div>
+        <div class="ex-en">Set a goal. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Set a goal.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">목표를 세워라. (목표를 고정시킴)</div>
         <div class="ex-en" style="margin-top:12px;">Set the rules.</div>
         <div class="ex-ko">규칙을 정하다.</div>
@@ -601,7 +601,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 자연현상과 굳어짐 (Solidify)</h2>
     <p class="insight-p">액체가 단단하게 굳거나, 해가 지평선 아래로 내려가 자리를 잡는 것도 Set입니다.</p>
     <div class="example-group">
-        <div class="ex-en">The sun sets in the west.</div>
+        <div class="ex-en">The sun sets in the west. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The sun sets in the west.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">해는 서쪽으로 진다. (자리를 잡고 고정됨)</div>
     </div>
 
@@ -609,13 +609,13 @@ window.coreInsights = {
     <div class="compare-grid">
         <div class="compare-col">
             <div class="c-title">Put (단순한 이동)</div>
-            <p><strong>Put the cup on the table.</strong></p>
+            <p><strong>Put the cup on the table.</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Put the cup on the table.')" title="발음 듣기">🔊</button></p>
             <p>단순히 컵을 테이블로 옮겨 두다.</p>
             <div class="c-tag">일반적, 우발적 가능</div>
         </div>
         <div class="compare-col">
             <div class="c-title">Set (목적과 고정)</div>
-            <p><strong>Set the table.</strong></p>
+            <p><strong>Set the table.</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Set the table.')" title="발음 듣기">🔊</button></p>
             <p>식사를 위해 숟가락과 그릇을 '세팅'하다.</p>
             <div class="c-tag">목적성, 정교함, 고정</div>
         </div>
@@ -625,13 +625,13 @@ window.coreInsights = {
     "Bring": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Bring</strong>은 단순히 '가져오다'가 아닙니다.<br/>
+        <strong>Bring</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Bring')" title="발음 듣기">🔊</button>은 단순히 '가져오다'가 아닙니다.<br/>
         원어민에게 bring은 <strong>'대상을 나와 함께(또는 청자 쪽으로) 동반하여 이동시키는'</strong> 움직임입니다.
     </div>
 
     <h2 class="insight-h2">Bring의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Bring</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Bring</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Bring')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"나와 함께 동반하여 다가오다."</div>
         <p>무언가를 손에 쥐고 오거나, 특정 이슈를 대화의 장으로 끌고 들어오는 뉘앙스입니다. (Come과 결이 같습니다)</p>
     </div>
@@ -639,7 +639,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 물리적 동반 이동 (Accompany)</h2>
     <p class="insight-p">나, 혹은 네가 있는 곳으로 물건이나 사람을 함께 데려오는 행위입니다.</p>
     <div class="example-group">
-        <div class="ex-en">Did you bring the umbrella?</div>
+        <div class="ex-en">Did you bring the umbrella? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Did you bring the umbrella?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">우산 가져왔어? (이곳으로 올 때 동반했는가)</div>
         <div class="ex-en" style="margin-top:12px;">I'll bring my friend.</div>
         <div class="ex-ko">친구를 데려갈게.</div>
@@ -648,14 +648,14 @@ window.coreInsights = {
     <h2 class="insight-h2">② 추상적 결과의 수반 (Result)</h2>
     <p class="insight-p">어떤 원인이 특정한 결과나 변화를 끌고 들어옵니다.</p>
     <div class="example-group">
-        <div class="ex-en">Spring brings warm weather.</div>
+        <div class="ex-en">Spring brings warm weather. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Spring brings warm weather.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">봄은 따뜻한 날씨를 가져온다. (봄이라는 현상이 따뜻함을 수반함)</div>
     </div>
     
     <h2 class="insight-h2">③ 주제의 환기 (Bring up)</h2>
     <p class="insight-p">대화 중 숨어있던 주제를 표면 위(up)로 동반하여 끌어올립니다.</p>
     <div class="example-group">
-        <div class="ex-en">Don't bring that up.</div>
+        <div class="ex-en">Don't bring that up. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Don\'t bring that up.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그 얘기 꺼내지 마. (그 이슈를 이 대화로 끌고 오지 마)</div>
     </div>
 </div>
@@ -663,13 +663,13 @@ window.coreInsights = {
     "Carry": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Carry</strong>는 그저 들고 다니는 것이 아닙니다.<br/>
+        <strong>Carry</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Carry')" title="발음 듣기">🔊</button>는 그저 들고 다니는 것이 아닙니다.<br/>
         원어민에게 carry는 <strong>'중력이나 하중(무게)을 버티며 감당하는'</strong> 행위입니다.
     </div>
 
     <h2 class="insight-h2">Carry의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Carry</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Carry</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Carry')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"무게나 책임을 짊어지고 지탱하다."</div>
         <p>무거운 가방을 들 때뿐만 아니라, 가족의 생계, 임신, 질병의 보균 등 무거운 것을 감당할 때 모두 쓰입니다.</p>
     </div>
@@ -687,21 +687,21 @@ window.coreInsights = {
     <h2 class="insight-h2">① 물리적 하중 지탱 (Supporting weight)</h2>
     <p class="insight-p">무거운 것을 몸의 근력을 이용해 지탱하며 옮깁니다.</p>
     <div class="example-group">
-        <div class="ex-en">Can you carry this bag?</div>
+        <div class="ex-en">Can you carry this bag? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Can you carry this bag?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">이 가방 좀 들어줄래? (하중을 지탱해줄래)</div>
     </div>
 
     <h2 class="insight-h2">② 추상적 책임의 감당 (Responsibility)</h2>
     <p class="insight-p">팀의 운명이나 프로젝트의 무거운 책임을 짊어지는 느낌입니다. (게임에서 버스 기사를 '캐리'한다고 하죠)</p>
     <div class="example-group">
-        <div class="ex-en">She carries the whole team.</div>
+        <div class="ex-en">She carries the whole team. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('She carries the whole team.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀가 팀 전체를 이끌어간다. (팀의 무게를 혼자 지탱함)</div>
     </div>
 
     <h2 class="insight-h2">③ 생물학적 품음 (Bearing)</h2>
     <p class="insight-p">생명이나 질병을 몸 안에 '지탱하여' 품고 있는 상태입니다.</p>
     <div class="example-group">
-        <div class="ex-en">She is carrying a child.</div>
+        <div class="ex-en">She is carrying a child. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('She is carrying a child.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀는 임신 중이다. (아이를 품고 지탱하고 있다)</div>
         <div class="ex-en" style="margin-top:12px;">Mosquitoes carry diseases.</div>
         <div class="ex-ko">모기는 질병을 옮긴다. (균을 짊어지고 다님)</div>
@@ -711,13 +711,13 @@ window.coreInsights = {
     "Look": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Look</strong>은 그저 '보다'가 아닙니다.<br/>
+        <strong>Look</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Look')" title="발음 듣기">🔊</button>은 그저 '보다'가 아닙니다.<br/>
         원어민에게 look은 <strong>'내 시선의 화살표를 특정한 방향으로 향하게 하는 의지적인 행동'</strong>입니다.
     </div>
 
     <h2 class="insight-h2">Look의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Look</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Look</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Look')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"시선의 방향과 집중 (Directing one's eyes)"</div>
         <p>무언가를 보기 위해 고개를 돌리거나 눈길을 '주는' 행위 그 자체에 초점이 맞춰져 있습니다. (결과적으로 보였는지 안 보였는지는 중요하지 않습니다.)</p>
     </div>
@@ -733,14 +733,14 @@ window.coreInsights = {
     <h2 class="insight-h2">① 시선을 향함 (Directing attention)</h2>
     <p class="insight-p">대상을 향해 의지적으로 눈길을 줍니다. 그래서 보통 방향을 나타내는 전치사 at과 함께 씁니다.</p>
     <div class="example-group">
-        <div class="ex-en">Look at me.</div>
+        <div class="ex-en">Look at me. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Look at me.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">나를 봐. (네 시선을 내 쪽으로 향해라)</div>
     </div>
 
     <h2 class="insight-h2">② 겉모습의 인상 (Appearance)</h2>
     <p class="insight-p">시선을 주었을 때 내 눈에 들어오는 '겉모습이나 상태'를 표현할 때도 씁니다.</p>
     <div class="example-group">
-        <div class="ex-en">You look tired.</div>
+        <div class="ex-en">You look tired. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('You look tired.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">너 피곤해 보여. (내 시선에 맺힌 너의 겉모습이 그러하다)</div>
     </div>
 </div>
@@ -748,13 +748,13 @@ window.coreInsights = {
     "See": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>See</strong>는 시선을 주는 행동(Look)이 아닙니다.<br/>
+        <strong>See</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('See')" title="발음 듣기">🔊</button>는 시선을 주는 행동(Look)이 아닙니다.<br/>
         원어민에게 see는 <strong>'빛이 내 눈에 들어와 망막에 상이 맺히는 자연스러운 지각 현상'</strong>입니다.
     </div>
 
     <h2 class="insight-h2">See의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>See</strong>의 핵심은</p>
+        <p>원어민에게 <strong>See</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('See')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"망막에 맺힘 / 인지함 (Perception & Understanding)"</div>
         <p>애써 보려고 하지 않아도 눈을 뜨고 있으니 자연스럽게 '보이는' 결과입니다. 나아가 머릿속으로 '이해했다'는 뜻으로도 확장됩니다.</p>
     </div>
@@ -770,14 +770,14 @@ window.coreInsights = {
     <h2 class="insight-h2">① 자연스러운 시각적 인지 (Sight)</h2>
     <p class="insight-p">의지와 무관하게 내 시야에 들어와서 보게 된 상태입니다.</p>
     <div class="example-group">
-        <div class="ex-en">I saw a bird.</div>
+        <div class="ex-en">I saw a bird. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I saw a bird.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">새를 봤어. (그냥 지나가다 눈에 띄어 망막에 맺힘)</div>
     </div>
 
     <h2 class="insight-h2">② 뇌에서의 인지 = 이해 (Understanding)</h2>
     <p class="insight-p">눈(시각)에 빛이 들어와 상이 맺히듯, 뇌(이성)에 정보가 들어와 '이해'가 맺히는 것입니다.</p>
     <div class="example-group">
-        <div class="ex-en">I see what you mean.</div>
+        <div class="ex-en">I see what you mean. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I see what you mean.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">무슨 말인지 알겠어. (네 의도가 내 머릿속에 선명하게 보임)</div>
     </div>
 </div>
@@ -785,13 +785,13 @@ window.coreInsights = {
     "Watch": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Watch</strong>는 단순한 시선(Look)이나 인지(See)가 아닙니다.<br/>
+        <strong>Watch</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Watch')" title="발음 듣기">🔊</button>는 단순한 시선(Look)이나 인지(See)가 아닙니다.<br/>
         원어민에게 watch는 <strong>'움직이거나 변화하는 대상을 일정 시간 동안 주의 깊게 추적하는 관찰'</strong>입니다.
     </div>
 
     <h2 class="insight-h2">Watch의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Watch</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Watch</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Watch')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"시간을 두고 주의 깊게 관찰/추적함 (Observing over time)"</div>
         <p>TV 프로그램, 경기, 뛰어노는 아이들처럼 '움직임'이 있는 대상을 유심히 지켜볼 때 사용합니다.</p>
     </div>
@@ -799,14 +799,14 @@ window.coreInsights = {
     <h2 class="insight-h2">① 움직이는 대상의 관찰 (Monitoring)</h2>
     <p class="insight-p">고정된 그림(Look)이 아니라 움직이는 영상(Watch)을 주의 깊게 보는 행위입니다.</p>
     <div class="example-group">
-        <div class="ex-en">I'm watching a movie.</div>
+        <div class="ex-en">I'm watching a movie. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I\'m watching a movie.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">영화 보는 중이야. (영상의 흐름과 변화를 추적하며 감상함)</div>
     </div>
     
     <h2 class="insight-h2">② 주의 및 경계 (Be careful)</h2>
     <p class="insight-p">위험한 일이나 변화가 생기지 않는지 '예의 주시'하는 뉘앙스입니다.</p>
     <div class="example-group">
-        <div class="ex-en">Watch your step.</div>
+        <div class="ex-en">Watch your step. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Watch your step.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">발밑 조심해. (걸음걸이의 변화를 주의 깊게 살펴라)</div>
     </div>
 
@@ -833,13 +833,13 @@ window.coreInsights = {
     "Listen": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Listen</strong>은 귀로 들어오는 소리를 무작정 듣는 것이 아닙니다.<br/>
+        <strong>Listen</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Listen')" title="발음 듣기">🔊</button>은 귀로 들어오는 소리를 무작정 듣는 것이 아닙니다.<br/>
         원어민에게 listen은 <strong>'소리를 파악하기 위해 청각의 안테나를 쫑긋 세우는 의지적인 행동'</strong>입니다. (Look의 청각 버전)
     </div>
 
     <h2 class="insight-h2">Listen의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Listen</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Listen</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Listen')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"청각적 집중 (Paying attention to sound)"</div>
         <p>귀를 기울여 집중하는 행동 그 자체입니다. 결과적으로 잘 안 들렸어도 귀를 기울이는 행위 자체가 Listen입니다.</p>
     </div>
@@ -847,7 +847,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 의도적인 청취 (Intentional hearing)</h2>
     <p class="insight-p">대상을 향해 의지적으로 귀를 엽니다. 방향을 나타내는 to와 주로 씁니다.</p>
     <div class="example-group">
-        <div class="ex-en">Listen to me.</div>
+        <div class="ex-en">Listen to me. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Listen to me.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">내 말 좀 들어봐. (네 청각의 안테나를 내 쪽으로 돌려라)</div>
     </div>
 </div>
@@ -855,13 +855,13 @@ window.coreInsights = {
     "Hear": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Hear</strong>는 귀를 기울이는 행동(Listen)이 아닙니다.<br/>
+        <strong>Hear</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Hear')" title="발음 듣기">🔊</button>는 귀를 기울이는 행동(Listen)이 아닙니다.<br/>
         원어민에게 hear는 <strong>'소리가 고막을 때려 뇌에서 인지되는 자연스러운 결과'</strong>입니다. (See의 청각 버전)
     </div>
 
     <h2 class="insight-h2">Hear의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Hear</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Hear</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Hear')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"고막에 닿아 인지됨 (Perceiving sound)"</div>
         <p>가만히 있어도 들려오는 소음을 인지하거나, 특정 소문장/소식을 전해 들었을 때 사용합니다.</p>
     </div>
@@ -869,7 +869,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 자연스러운 청각적 인지 (Perception)</h2>
     <p class="insight-p">의지와 무관하게 소리가 고막에 도달하여 들리는 상태입니다.</p>
     <div class="example-group">
-        <div class="ex-en">I can't hear you.</div>
+        <div class="ex-en">I can't hear you. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I can\'t hear you.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">네 목소리가 안 들려. (네가 내는 소리가 내 고막에 도달하지 않음)</div>
     </div>
     
@@ -877,13 +877,13 @@ window.coreInsights = {
     <div class="compare-grid">
         <div class="compare-col">
             <div class="c-title">Listen (귀를 기울임)</div>
-            <p><strong>Are you listening?</strong></p>
+            <p><strong>Are you listening?</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Are you listening?')" title="발음 듣기">🔊</button></p>
             <p>내 말에 집중해서 귀를 열고 있어?</p>
             <div class="c-tag">행동, 의지</div>
         </div>
         <div class="compare-col">
             <div class="c-title">Hear (소리가 들림)</div>
-            <p><strong>Can you hear me?</strong></p>
+            <p><strong>Can you hear me?</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Can you hear me?')" title="발음 듣기">🔊</button></p>
             <p>내 목소리가 네 귀에 잘 도달하고 있어?</p>
             <div class="c-tag">결과, 인지</div>
         </div>
@@ -893,13 +893,13 @@ window.coreInsights = {
     "Think": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Think</strong>는 단순히 머리를 굴리는 것이 아닙니다.<br/>
+        <strong>Think</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Think')" title="발음 듣기">🔊</button>는 단순히 머리를 굴리는 것이 아닙니다.<br/>
         원어민에게 think는 <strong>'뇌 속에서 정보를 처리하여 의견이나 결론을 만들어내는 능동적인 과정'</strong>입니다.
     </div>
 
     <h2 class="insight-h2">Think의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Think</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Think</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Think')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"사고의 프로세스 가동 (Processing thoughts)"</div>
         <p>확실한 사실(Know)과는 다릅니다. 내 머릿속으로 판단하고 저울질하여 도출해 낸 주관적인 의견(Opinion)에 가깝습니다.</p>
     </div>
@@ -907,7 +907,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 주관적인 의견 (Opinion / Belief)</h2>
     <p class="insight-p">100% 팩트가 아니라 내 머릿속 프로세스를 거쳐 도출해 낸 '내 생각'을 말합니다.</p>
     <div class="example-group">
-        <div class="ex-en">I think it's a good idea.</div>
+        <div class="ex-en">I think it's a good idea. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I think it\'s a good idea.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">내 생각엔 좋은 아이디어 같아. (내 주관적 판단)</div>
     </div>
 </div>
@@ -915,13 +915,13 @@ window.coreInsights = {
     "Feel": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Feel</strong>은 이성적인 판단(Think)과는 결이 다릅니다.<br/>
+        <strong>Feel</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Feel')" title="발음 듣기">🔊</button>은 이성적인 판단(Think)과는 결이 다릅니다.<br/>
         원어민에게 feel은 <strong>'피부(촉각)나 가슴(감정)으로 직관적으로 와닿는 떨림이나 직감'</strong>입니다.
     </div>
 
     <h2 class="insight-h2">Feel의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Feel</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Feel</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Feel')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"직관적인 감각과 감정 (Sensation & Intuition)"</div>
         <p>논리적인 근거(Think)가 없어도 왠지 모르게 쎄하거나 긍정적으로 느껴질 때 직감적으로 사용합니다.</p>
     </div>
@@ -929,7 +929,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 감정 및 직감 (Intuition)</h2>
     <p class="insight-p">머리(뇌)가 아니라 가슴(감각)이 먼저 반응하는 본능적인 의견입니다.</p>
     <div class="example-group">
-        <div class="ex-en">I feel like we should go.</div>
+        <div class="ex-en">I feel like we should go. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I feel like we should go.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">왠지 우리 가야 할 것 같아. (논리적 근거보다 직감에 의존함)</div>
     </div>
 </div>
@@ -937,13 +937,13 @@ window.coreInsights = {
     "Notice": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Notice</strong>는 일상에서 아주 빈도 높게 쓰이는 인지 동사입니다.<br/>
+        <strong>Notice</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Notice')" title="발음 듣기">🔊</button>는 일상에서 아주 빈도 높게 쓰이는 인지 동사입니다.<br/>
         원어민에게 notice는 <strong>'배경에 묻혀있던 무언가가 내 신경(레이더)에 띠리링 하고 걸리는 순간'</strong>입니다.
     </div>
 
     <h2 class="insight-h2">Notice의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Notice</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Notice</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Notice')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"레이더에 포착됨 / 알아차림 (Catching one's attention)"</div>
         <p>평소와 다른 미세한 변화(머리스타일, 기분 등)를 나의 예민한 감각으로 낚아채듯 알아차릴 때 사용합니다.</p>
     </div>
@@ -951,7 +951,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 미세한 변화의 포착 (Detecting change)</h2>
     <p class="insight-p">눈에 띄지 않던 것이 내 주의력에 들어와 인식되는 현상입니다.</p>
     <div class="example-group">
-        <div class="ex-en">Did you notice her new haircut?</div>
+        <div class="ex-en">Did you notice her new haircut? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Did you notice her new haircut?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀 머리 자른 거 알아챘어? (변화가 네 레이더에 걸렸어?)</div>
     </div>
 </div>
@@ -960,13 +960,13 @@ window.coreInsights = {
     "In": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>In</strong>은 단순히 장소의 내부를 가리키는 것이 아닙니다.<br/>
+        <strong>In</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('In')" title="발음 듣기">🔊</button>은 단순히 장소의 내부를 가리키는 것이 아닙니다.<br/>
         원어민에게 In은 <strong>'어떤 공간이나 경계선(Boundary) 안으로 깊숙이 진입해 포용된 락인(Lock-in) 상태'</strong>를 의미합니다.
     </div>
 
     <h2 class="insight-h2">In의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>In</strong>의 핵심은</p>
+        <p>원어민에게 <strong>In</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('In')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"경계선(Boundary) 내부로의 완전한 안착과 소속"</div>
         <p>입니다. 물리적 공간뿐만 아니라, 시간이나 추상적인 소속감까지 모두 아우르는 강력한 울타리입니다.</p>
     </div>
@@ -984,7 +984,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 공간적 소속 (Spatial Enclosure)</h2>
     <p class="insight-p">물리적인 공간(상자, 방, 차 등)의 3차원적인 내부로 들어갑니다.</p>
     <div class="example-group">
-        <div class="ex-en">I am in the car.</div>
+        <div class="ex-en">I am in the car. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I am in the car.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">나는 차 안에 있다. (차라는 3차원 공간 안에 포용됨)</div>
         <div class="ex-en" style="margin-top:12px;">Put it in the box.</div>
         <div class="ex-ko">그것을 상자 안에 넣어라.</div>
@@ -993,7 +993,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 추상적 상태와 소속 (Abstract State)</h2>
     <p class="insight-p">눈에 보이지 않는 상황, 감정, 소속의 바운더리 안으로 들어갑니다.</p>
     <div class="example-group">
-        <div class="ex-en">I am in trouble.</div>
+        <div class="ex-en">I am in trouble. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I am in trouble.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">나는 곤경에 처해 있다. (곤경이라는 상황적 테두리 안)</div>
         <div class="ex-en" style="margin-top:12px;">I am in love.</div>
         <div class="ex-ko">나는 사랑에 빠졌다. (사랑이라는 감정의 테두리 안)</div>
@@ -1002,7 +1002,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 기한 내 완료 (Time Enclosure)</h2>
     <p class="insight-p">시간을 하나의 공간(테두리)으로 보고, 그 테두리가 닫히기 전의 시점을 의미합니다.</p>
     <div class="example-group">
-        <div class="ex-en">I'll be there in 5 minutes.</div>
+        <div class="ex-en">I'll be there in 5 minutes. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I\'ll be there in 5 minutes.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">5분 안에 그곳에 갈게. (5분이라는 시간의 바운더리 안)</div>
     </div>
 </div>
@@ -1010,13 +1010,13 @@ window.coreInsights = {
     "Out": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Out</strong>은 단순히 '밖으로'라는 방향만 있는 것이 아닙니다.<br/>
+        <strong>Out</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Out')" title="발음 듣기">🔊</button>은 단순히 '밖으로'라는 방향만 있는 것이 아닙니다.<br/>
         원어민에게 Out은 <strong>'기존의 바운더리(경계선) 안에서 밖으로 완전히 이탈하거나 폭발적으로 빠져나온 상태'</strong>를 의미합니다.
     </div>
 
     <h2 class="insight-h2">Out의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Out</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Out</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Out')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"내부에서 외부 공간으로의 폭발적 이탈과 소진"</div>
         <p>입니다. 안에 있던 무언가가 밖으로 나오면서 '비어버림(소진)'과 '드러남(발현)'이라는 뜻까지 파생됩니다.</p>
     </div>
@@ -1034,7 +1034,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 물리적 이탈 (Physical Exit)</h2>
     <p class="insight-p">특정 공간의 내부에서 외부로 빠져나오는 가장 직관적인 움직임입니다.</p>
     <div class="example-group">
-        <div class="ex-en">Get out of here.</div>
+        <div class="ex-en">Get out of here. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Get out of here.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">여기서 나가. (이 공간 밖으로 이탈해라)</div>
         <div class="ex-en" style="margin-top:12px;">Take it out.</div>
         <div class="ex-ko">그것을 꺼내. (내부에서 외부로)</div>
@@ -1043,7 +1043,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 상태의 끝 및 고갈 (Depletion & End)</h2>
     <p class="insight-p">안에 있던 내용물이 모두 밖으로 빠져나와 텅 비어버린 상태를 의미합니다.</p>
     <div class="example-group">
-        <div class="ex-en">We are out of gas.</div>
+        <div class="ex-en">We are out of gas. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('We are out of gas.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">우리는 기름이 다 떨어졌다. (연료통에서 기름이 모두 빠져나감)</div>
         <div class="ex-en" style="margin-top:12px;">Time is out.</div>
         <div class="ex-ko">시간이 끝났다. (주어진 시간이 고갈됨)</div>
@@ -1052,7 +1052,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 숨은 것의 발현 (Appearance)</h2>
     <p class="insight-p">어둠이나 베일 속에 있던 것이 밖(Out)으로 나오면서 시야에 또렷하게 드러납니다.</p>
     <div class="example-group">
-        <div class="ex-en">Watch out!</div>
+        <div class="ex-en">Watch out! <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Watch out!')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">조심해! (시선을 밖으로 향해 위험을 감지해라)</div>
         <div class="ex-en" style="margin-top:12px;">Find out the truth.</div>
         <div class="ex-ko">진실을 알아내라. (숨겨진 것을 밖으로 끄집어내라)</div>
@@ -1062,13 +1062,13 @@ window.coreInsights = {
     "On": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>On</strong>은 단순히 '위(Above)'를 뜻하는 단어가 아닙니다.<br/>
+        <strong>On</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('On')" title="발음 듣기">🔊</button>은 단순히 '위(Above)'를 뜻하는 단어가 아닙니다.<br/>
         원어민에게 On은 <strong>'두 표면(Surface)이 떨어지지 않고 마진 없이 완벽히 밀착하여 접촉(Contact)된 상태'</strong>를 의미합니다.
     </div>
 
     <h2 class="insight-h2">On의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>On</strong>의 핵심은</p>
+        <p>원어민에게 <strong>On</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('On')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"두 대상의 표면이 0의 마진으로 완벽히 락킹(Locking)됨"</div>
         <p>입니다. 중력에 의해 위에 얹혀 있든, 벽에 붙어 있든, 천장에 매달려 있든 표면의 맞닿음이 중요합니다.</p>
     </div>
@@ -1086,7 +1086,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 표면적 물리 접촉 (Physical Contact)</h2>
     <p class="insight-p">바닥, 벽, 천장, 혹은 피부 등 어떤 표면에 물리적으로 맞닿아 있습니다.</p>
     <div class="example-group">
-        <div class="ex-en">Put it on the table.</div>
+        <div class="ex-en">Put it on the table. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Put it on the table.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그것을 테이블 위에 놓아라. (테이블 표면에 접촉)</div>
         <div class="ex-en" style="margin-top:12px;">Try it on.</div>
         <div class="ex-ko">입어봐라. (옷을 피부 표면에 밀착시켜라)</div>
@@ -1095,7 +1095,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 의존과 지속 (Dependence & Continuation)</h2>
     <p class="insight-p">접촉이 끊어지지 않는다는 것은, 상태가 멈추지 않고 계속 이어진다는 의미로 확장됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Keep on going.</div>
+        <div class="ex-en">Keep on going. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Keep on going.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">계속 가라. (행동을 끊지 말고 접착시킨 채로)</div>
         <div class="ex-en" style="margin-top:12px;">It depends on you.</div>
         <div class="ex-ko">너에게 달려있다. (결과가 너라는 존재에 딱 달라붙어 있음)</div>
@@ -1104,7 +1104,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 작동 및 연결 상태 (Active State)</h2>
     <p class="insight-p">전원이나 회로가 스위치 표면에 '접촉(On)'되어 전기가 흐르고 작동하는 상태입니다.</p>
     <div class="example-group">
-        <div class="ex-en">Turn on the TV.</div>
+        <div class="ex-en">Turn on the TV. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Turn on the TV.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">TV를 켜라. (회로를 접촉시켜 작동시켜라)</div>
         <div class="ex-en" style="margin-top:12px;">The show is on.</div>
         <div class="ex-ko">쇼가 진행 중이다. (쇼가 대중들과 접촉 중)</div>
@@ -1114,13 +1114,13 @@ window.coreInsights = {
     "Off": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Off</strong>는 단순히 불을 '끄는' 단어가 아닙니다.<br/>
+        <strong>Off</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Off')" title="발음 듣기">🔊</button>는 단순히 불을 '끄는' 단어가 아닙니다.<br/>
         원어민에게 Off는 <strong>'밀착(On)되어 있던 표면들 사이의 완전한 분리와 단절'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Off의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Off</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Off</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Off')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"접착면에서의 완전한 이탈과 분리"</div>
         <p>입니다. 붙어있던 것이 떨어져 나가면서 해방감을 주기도 하고, 물리적인 단절을 만들어내기도 합니다.</p>
     </div>
@@ -1139,7 +1139,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 물리적 분리 (Physical Separation)</h2>
     <p class="insight-p">표면에서 떨어져 나가는 직관적인 움직임입니다.</p>
     <div class="example-group">
-        <div class="ex-en">Take your hands off.</div>
+        <div class="ex-en">Take your hands off. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Take your hands off.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">손 떼라. (피부 표면에서 분리해라)</div>
         <div class="ex-en" style="margin-top:12px;">Get off the bus.</div>
         <div class="ex-ko">버스에서 내려라. (버스의 발판에서 몸을 분리해라)</div>
@@ -1150,7 +1150,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 연결의 단절 (Disconnection)</h2>
     <p class="insight-p">회로나 전원, 또는 계약 등의 연결고리가 끊어지며 무효화된 상태입니다.</p>
     <div class="example-group">
-        <div class="ex-en">Turn off the light.</div>
+        <div class="ex-en">Turn off the light. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Turn off the light.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">불을 꺼라. (회로의 접촉을 단절시켜라)</div>
         <div class="ex-en" style="margin-top:12px;">The deal is off.</div>
         <div class="ex-ko">그 거래는 무산되었다. (약속의 결합 상태가 떨어져 나감)</div>
@@ -1159,7 +1159,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 일상의 이탈 (Break & Departure)</h2>
     <p class="insight-p">원래 있어야 할 자리(근무지, 현재 장소)에서 몸이 분리되어 떠나는 해방의 그림입니다.</p>
     <div class="example-group">
-        <div class="ex-en">I am off today.</div>
+        <div class="ex-en">I am off today. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I am off today.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">나 오늘 쉬는 날이야. (일터에서 단절됨)</div>
         <div class="ex-en" style="margin-top:12px;">I'm taking off now.</div>
         <div class="ex-ko">나 지금 출발해. (현재 위치의 바닥에서 발을 뗌)</div>
@@ -1169,13 +1169,13 @@ window.coreInsights = {
     "Up": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Up</strong>은 단순히 '위쪽으로' 이동하는 것만을 뜻하지 않습니다.<br/>
+        <strong>Up</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Up')" title="발음 듣기">🔊</button>은 단순히 '위쪽으로' 이동하는 것만을 뜻하지 않습니다.<br/>
         원어민에게 Up은 <strong>'수직 상승을 넘어, 수치와 에너지가 100% 임계점(한계점)까지 꽉 차오르는 완성의 상태'</strong>를 의미합니다.
     </div>
 
     <h2 class="insight-h2">Up의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Up</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Up</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Up')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"위로 뻗어가는 에너지와 빈 공간 없는 100% 채워짐"</div>
         <p>입니다. 잔에 물이 위로 차올라 끝까지 가득 차는 모습을 상상하시면 좋습니다.</p>
     </div>
@@ -1195,7 +1195,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 수직적 상승 (Vertical Movement)</h2>
     <p class="insight-p">물리적인 위치가 바닥에서 공중(위)을 향해 뻗어나갑니다.</p>
     <div class="example-group">
-        <div class="ex-en">Look up.</div>
+        <div class="ex-en">Look up. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Look up.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">위로 쳐다봐라.</div>
         <div class="ex-en" style="margin-top:12px;">Stand up.</div>
         <div class="ex-ko">일어서라. (자세를 수직으로 세움)</div>
@@ -1204,7 +1204,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 수치와 강도의 증가 (Increase)</h2>
     <p class="insight-p">볼륨, 가격, 수준 등 에너지가 점점 커지는 확장 상태입니다.</p>
     <div class="example-group">
-        <div class="ex-en">Speak up.</div>
+        <div class="ex-en">Speak up. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Speak up.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">크게 말해라. (목소리 볼륨을 상승시켜라)</div>
         <div class="ex-en" style="margin-top:12px;">Prices are going up.</div>
         <div class="ex-ko">가격이 오르고 있다.</div>
@@ -1213,7 +1213,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 100% 완전한 소진 (Completion)</h2>
     <p class="insight-p">위로 계속 차오르다가 결국 꼭대기(100%)에 다다라 무언가가 끝나버린 상태입니다.</p>
     <div class="example-group">
-        <div class="ex-en">Drink up.</div>
+        <div class="ex-en">Drink up. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Drink up.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">다 마셔버려라. (남김없이 완전히 끝내라)</div>
         <div class="ex-en" style="margin-top:12px;">Time is up.</div>
         <div class="ex-ko">시간이 다 됐다. (주어진 시간 게이지가 끝까지 차버림)</div>
@@ -1223,13 +1223,13 @@ window.coreInsights = {
     "Down": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Down</strong>은 단순히 '아래쪽으로' 내려가는 방향성 그 이상입니다.<br/>
+        <strong>Down</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Down')" title="발음 듣기">🔊</button>은 단순히 '아래쪽으로' 내려가는 방향성 그 이상입니다.<br/>
         원어민에게 Down은 <strong>'기준치 아래로 물리적인 추락을 하거나, 기세가 완전히 꺾여 억눌린 상태'</strong>를 의미합니다.
     </div>
 
     <h2 class="insight-h2">Down의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Down</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Down</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Down')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"중력에 의한 하강과 강제적인 억눌림"</div>
         <p>입니다. 무언가가 아래로 내려앉아 활동이 정지되거나 힘이 빠지는 무거운 뉘앙스가 있습니다.</p>
     </div>
@@ -1248,7 +1248,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 수직적 하강 (Vertical Descent)</h2>
     <p class="insight-p">높은 곳에서 낮은 곳으로 중력을 따라 내려가는 기본 움직임입니다.</p>
     <div class="example-group">
-        <div class="ex-en">Sit down.</div>
+        <div class="ex-en">Sit down. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Sit down.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">앉아라. (자세를 아래로 내림)</div>
         <div class="ex-en" style="margin-top:12px;">Put it down.</div>
         <div class="ex-ko">내려 놓아라.</div>
@@ -1257,7 +1257,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 기세와 수치의 억제 (Decrease)</h2>
     <p class="insight-p">솟아오르던 감정이나 수치가 꺾이며 차분해지거나 줄어듭니다.</p>
     <div class="example-group">
-        <div class="ex-en">Turn it down.</div>
+        <div class="ex-en">Turn it down. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Turn it down.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">소리를 줄여라. (볼륨의 기세를 꺾어라)</div>
         <div class="ex-en" style="margin-top:12px;">Calm down.</div>
         <div class="ex-ko">진정해라. (격양된 감정 에너지를 가라앉혀라)</div>
@@ -1266,7 +1266,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 기능의 정지 및 완전한 고정 (Suppression)</h2>
     <p class="insight-p">완전히 바닥으로 짓눌려 기능이 마비되거나, 어딘가에 꽉 고정되어 버린 상태입니다.</p>
     <div class="example-group">
-        <div class="ex-en">The system is down.</div>
+        <div class="ex-en">The system is down. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The system is down.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">시스템이 죽었다. (서버가 뻗어 기능이 완전히 마비됨)</div>
         <div class="ex-en" style="margin-top:12px;">Write it down.</div>
         <div class="ex-ko">적어 두어라. (휘발성인 정보의 목덜미를 낚아채 종이 위에 고정시킴)</div>
@@ -1277,13 +1277,13 @@ window.coreInsights = {
     "By the way": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>By the way</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>By the way</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('By the way')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 By the way은 <strong>'대화의 흐름을 자연스럽게 바꾸는 전환점'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">By the way의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>By the way</strong>의 핵심은</p>
+        <p>원어민에게 <strong>By the way</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('By the way')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"주제를 부드럽게 전환하는 순간"</div>
         <p>입니다. 주제를 바꾸지만 대화의 흐름을 해치지 않습니다.</p>
     </div>
@@ -1308,7 +1308,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 주제 전환 - Topic Shift</h2>
     <p class="insight-p">주제를 자연스럽게 전환할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">"I love Italian food. By the way, did you try that new Italian restaurant downtown?"</div>
+        <div class="ex-en">"I love Italian food. By the way, did you try that new Italian restaurant downtown?" <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;I love Italian food. By the way, did you try that new Italian restaurant downtown?&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"나는 이탈리아 음식을 좋아해. 그런데, 너 다운타운에 새로 생긴 이탈리아 식당 가봤어?" (자연스럽게 대화 주제를 바꿀 때)</div>
         <div class="ex-en" style="margin-top:12px;">"It's a nice day, isn't it? By the way, have you finished the report?"</div>
         <div class="ex-ko">"날씨 좋지 않니? 그런데, 보고서는 다 끝냈어?" (날씨 이야기에서 보고서 이야기로 주제를 전환할 때)</div>
@@ -1317,7 +1317,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 추가 정보 - Additional Information</h2>
     <p class="insight-p">대화에 새로운 정보를 덧붙일 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">"I'm going to the store. By the way, we're out of milk."</div>
+        <div class="ex-en">"I'm going to the store. By the way, we're out of milk." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;I\'m going to the store. By the way, we\'re out of milk.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"나 가게에 가. 그런데, 우리 우유 다 썼어." (상황에 필요한 새 정보를 추가할 때)</div>
         <div class="ex-en" style="margin-top:12px;">"She's really talented. By the way, did you know she's also a painter?"</div>
         <div class="ex-ko">"그녀는 정말 재능이 있어. 그런데, 그녀가 화가라는 것도 알고 있었어?" (그녀에 대한 새로운 정보를 추가할 때)</div>
@@ -1326,7 +1326,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 잊지 말아야 할 것 - Reminder</h2>
     <p class="insight-p">중요한 사항을 상기시킬 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">"We have a meeting at 3 PM today. By the way, don't forget to bring the slides."</div>
+        <div class="ex-en">"We have a meeting at 3 PM today. By the way, don't forget to bring the slides." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;We have a meeting at 3 PM today. By the way, don\'t forget to bring the slides.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"오늘 오후 3시에 회의가 있어. 그런데, 슬라이드 가져오는 거 잊지 마." (중요한 사항을 상기시킬 때)</div>
         <div class="ex-en" style="margin-top:12px;">"I'll see you tomorrow. By the way, remember to send me the draft tonight."</div>
         <div class="ex-ko">"내일 보자. 그런데, 오늘 밤에 초안 보내는 거 기억해." (중요한 역할을 상기시킬 때)</div>
@@ -1336,13 +1336,13 @@ window.coreInsights = {
     "Anyway": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Anyway</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Anyway</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Anyway')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Anyway은 <strong>'결론으로 이어지는 자연스러운 흐름'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Anyway의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Anyway</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Anyway</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Anyway')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"결국 돌아오는 요점"</div>
         <p>입니다. (중요하지 않은 부분을 넘겨 본론으로 돌아갈 때 사용합니다.)</p>
     </div>
@@ -1362,7 +1362,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 맥락 전환 (Context Shift)</h2>
     <p class="insight-p">대화나 이야기를 더 중요한 주제로 자연스럽게 전환할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Anyway, let's get back to the main topic.</div>
+        <div class="ex-en">Anyway, let's get back to the main topic. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Anyway, let\'s get back to the main topic.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">어쨌든, 본론으로 돌아가자. (중요하지 않은 부분을 넘기고 본론으로 전환)</div>
         <div class="ex-en" style="margin-top:12px;">Anyway, I was saying about the meeting...</div>
         <div class="ex-ko">어쨌든, 내가 회의에 대해 말하고 있었어... (대화의 흐름을 회의 이야기로 돌림)</div>
@@ -1371,7 +1371,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 중요성 감소 (De-emphasizing)</h2>
     <p class="insight-p">앞서 말한 내용의 중요성을 줄이고 싶을 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">The weather was terrible. Anyway, we enjoyed the trip.</div>
+        <div class="ex-en">The weather was terrible. Anyway, we enjoyed the trip. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The weather was terrible. Anyway, we enjoyed the trip.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">날씨가 정말 안 좋았어. 어쨌든, 우리는 여행을 즐겼어. (날씨의 중요성을 줄이고 여행의 즐거움을 강조)</div>
         <div class="ex-en" style="margin-top:12px;">He was late as usual. Anyway, we started the meeting without him.</div>
         <div class="ex-ko">그는 늘 늦어. 어쨌든, 우리는 그 없이 회의를 시작했어. (지각의 중요성을 줄이고 회의 시작을 강조)</div>
@@ -1380,7 +1380,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 결론 도출 (Drawing a Conclusion)</h2>
     <p class="insight-p">긴 설명 후 결론을 내릴 때 깔끔하게 마무리하는 데 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Anyway, that's why I decided to take the job.</div>
+        <div class="ex-en">Anyway, that's why I decided to take the job. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Anyway, that\'s why I decided to take the job.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">어쨌든, 그래서 내가 그 일을 맡기로 결정했어. (긴 설명 후 결론으로 이어짐)</div>
         <div class="ex-en" style="margin-top:12px;">Anyway, in conclusion, we need to improve our marketing strategy.</div>
         <div class="ex-ko">어쨌든, 결론적으로, 우리는 마케팅 전략을 개선해야 해. (설명을 마무리하며 결론을 제공)</div>
@@ -1390,13 +1390,13 @@ window.coreInsights = {
     "At the end of the day": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>At the end of the day</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>At the end of the day</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('At the end of the day')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 At the end of the day은 <strong>'궁극적인 결론이나 요약'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">At the end of the day의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>At the end of the day</strong>의 핵심은</p>
+        <p>원어민에게 <strong>At the end of the day</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('At the end of the day')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"모든 것을 고려한 후 최종 결론"</div>
         <p>입니다. 이 표현은 논의나 고민의 끝맺음을 나타냅니다.</p>
     </div>
@@ -1415,7 +1415,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 결론 도출의 순간 (Moment of Conclusion)</h2>
     <p class="insight-p">모든 것을 고려한 후, 최종 결론이나 요약을 전할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">At the end of the day, we decided to cancel the project.</div>
+        <div class="ex-en">At the end of the day, we decided to cancel the project. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('At the end of the day, we decided to cancel the project.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">결국 우리는 프로젝트를 취소하기로 결정했습니다. (모든 상황을 고려한 후의 결정)</div>
         <div class="ex-en" style="margin-top:12px;">It's your choice at the end of the day.</div>
         <div class="ex-ko">결국에는 네 선택이야. (최종 결정권이 너에게 있다는 의미 전달)</div>
@@ -1424,7 +1424,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 중요성 강조 (Emphasizing Importance)</h2>
     <p class="insight-p">논의 중 가장 중요한 부분을 강조할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">At the end of the day, health is more important than wealth.</div>
+        <div class="ex-en">At the end of the day, health is more important than wealth. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('At the end of the day, health is more important than wealth.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">결국 건강이 부보다 더 중요합니다. (궁극적인 중요성을 강조)</div>
         <div class="ex-en" style="margin-top:12px;">At the end of the day, what matters is how you feel.</div>
         <div class="ex-ko">결국 중요한 것은 당신이 어떻게 느끼느냐입니다. (느낌의 중요성 강조)</div>
@@ -1433,7 +1433,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 현실 직시 (Facing Reality)</h2>
     <p class="insight-p">현실을 직시해야 할 때, 이상보다는 현실을 강조합니다.</p>
     <div class="example-group">
-        <div class="ex-en">At the end of the day, we can't afford it.</div>
+        <div class="ex-en">At the end of the day, we can't afford it. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('At the end of the day, we can\'t afford it.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">결국 우리는 그것을 살 여유가 없습니다. (현실적인 재정 상황을 인정)</div>
         <div class="ex-en" style="margin-top:12px;">At the end of the day, it's not possible.</div>
         <div class="ex-ko">결국 그것은 불가능합니다. (현실적인 한계 수용)</div>
@@ -1443,13 +1443,13 @@ window.coreInsights = {
     "On top of that": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>On top of that</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>On top of that</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('On top of that')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 On top of that은 <strong>'추가적인 강조나 정보를 덧붙이는 느낌'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">On top of that의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>On top of that</strong>의 핵심은</p>
+        <p>원어민에게 <strong>On top of that</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('On top of that')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"추가적인 무언가를 쌓는 느낌"</div>
         <p>이 표현은 이미 언급한 것에 추가적으로 더 강조하거나 정보를 제공할 때 사용됩니다.</p>
     </div>
@@ -1468,7 +1468,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 추가적인 정보 강조 Adding Additional Information</h2>
     <p class="insight-p">이미 언급한 주제에 대해 더 많은 정보를 덧붙일 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">The restaurant was expensive. On top of that, the service was terrible.</div>
+        <div class="ex-en">The restaurant was expensive. On top of that, the service was terrible. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The restaurant was expensive. On top of that, the service was terrible.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그 식당은 비쌌다. 게다가 서비스도 형편없었다. (비싼 것에 더해 서비스까지 나빴다는 것을 강조)</div>
         <div class="ex-en" style="margin-top:12px;">She is an excellent singer. On top of that, she can play the piano beautifully.</div>
         <div class="ex-ko">그녀는 훌륭한 가수다. 게다가 피아노도 아름답게 연주할 수 있다. (노래 잘하는 것에 피아노 실력도 추가)</div>
@@ -1477,7 +1477,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 문제의 심각성 강조 Highlighting Severity of Issues</h2>
     <p class="insight-p">상황의 부정적인 측면을 더 강조하고 싶을 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">The project is already delayed. On top of that, we are running out of budget.</div>
+        <div class="ex-en">The project is already delayed. On top of that, we are running out of budget. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The project is already delayed. On top of that, we are running out of budget.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">프로젝트는 이미 지연되고 있다. 게다가 예산도 부족하다. (지연에 예산 부족 문제까지 더해짐)</div>
         <div class="ex-en" style="margin-top:12px;">He missed the meeting. On top of that, he didn't inform anyone.</div>
         <div class="ex-ko">그는 회의에 늦었다. 게다가 아무에게도 알리지 않았다. (늦은 것에 더해 알리지 않은 점 강조)</div>
@@ -1486,7 +1486,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 긍정적인 추가 사항 강조 Emphasizing Positive Additions</h2>
     <p class="insight-p">이미 좋은 상황을 더 좋게 만드는 요소를 추가할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">The vacation was relaxing. On top of that, the weather was perfect.</div>
+        <div class="ex-en">The vacation was relaxing. On top of that, the weather was perfect. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The vacation was relaxing. On top of that, the weather was perfect.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">휴가는 편안했다. 게다가 날씨도 완벽했다. (편안함에 더해 날씨도 좋은 점 강조)</div>
         <div class="ex-en" style="margin-top:12px;">The book is informative. On top of that, it's entertaining.</div>
         <div class="ex-ko">그 책은 유익하다. 게다가 재미도 있다. (유익함에 재미 요소도 추가)</div>
@@ -1496,13 +1496,13 @@ window.coreInsights = {
     "First of all": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>First of all</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>First of all</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('First of all')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 First of all은 <strong>'우선적으로 강조하고 싶은 사항'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">First of all의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>First of all</strong>의 핵심은</p>
+        <p>원어민에게 <strong>First of all</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('First of all')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"시작점에서 강조하고 싶은 첫 번째 요소"</div>
         <p>입니다. 이는 대화를 시작하거나 주제를 정리할 때 중요한 점을 우선 강조하는 것입니다.</p>
     </div>
@@ -1524,7 +1524,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 중요성 강조 - Emphasizing Importance</h2>
     <p class="insight-p">어떤 주제나 상황에서 가장 중요한 요소를 강조하고 싶을 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">First of all, we need to address the budget issue.</div>
+        <div class="ex-en">First of all, we need to address the budget issue. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('First of all, we need to address the budget issue.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">우선, 우리는 예산 문제를 해결해야 합니다. (예산 문제가 가장 시급하고 중요하다는 점을 강조)</div>
         <div class="ex-en" style="margin-top:12px;">First of all, thank you all for coming today.</div>
         <div class="ex-ko">먼저, 오늘 참석해 주신 모든 분들께 감사드립니다. (감사의 마음을 가장 먼저 전하고 싶다는 뉘앙스)</div>
@@ -1533,7 +1533,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 순서의 시작 - Beginning of a Sequence</h2>
     <p class="insight-p">무언가를 설명할 때 첫 번째로 언급하고자 할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">First of all, we need to gather all the necessary documents.</div>
+        <div class="ex-en">First of all, we need to gather all the necessary documents. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('First of all, we need to gather all the necessary documents.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">우선, 필요한 모든 서류를 모아야 합니다. (서류 모으기가 첫 번째 단계임을 나타냄)</div>
         <div class="ex-en" style="margin-top:12px;">First of all, let's review last week's performance.</div>
         <div class="ex-ko">먼저, 지난 주의 성과를 검토해 봅시다. (검토가 첫 번째 해야 할 일임을 강조)</div>
@@ -1542,7 +1542,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 대화의 서막 - Setting the Tone</h2>
     <p class="insight-p">대화나 발표의 시작을 알리며 주제를 전환할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">First of all, I want to clarify our goals for this meeting.</div>
+        <div class="ex-en">First of all, I want to clarify our goals for this meeting. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('First of all, I want to clarify our goals for this meeting.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">우선, 이번 회의의 목표를 명확히 하고 싶습니다. (대화의 시작을 위한 목표 제시)</div>
         <div class="ex-en" style="margin-top:12px;">First of all, let's discuss the project timeline.</div>
         <div class="ex-ko">먼저, 프로젝트 일정에 대해 논의해 봅시다. (대화의 서막을 여는 표현)</div>
@@ -1552,13 +1552,13 @@ window.coreInsights = {
     "After all": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>After all</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>After all</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('After all')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 After all은 <strong>'결국, 모든 것들을 고려했을 때의 결론'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">After all의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>After all</strong>의 핵심은</p>
+        <p>원어민에게 <strong>After all</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('After all')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"모든 것을 고려한 후의 최종 결론"</div>
         <p>입니다. 결국 모든 정보를 다 고려해보면 이게 맞다는 느낌입니다.</p>
     </div>
@@ -1578,7 +1578,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 이유를 강조하는 결론 Emphasizing a Reason</h2>
     <p class="insight-p">어떤 사실을 강조할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">You should trust him, after all, he has never lied to you.</div>
+        <div class="ex-en">You should trust him, after all, he has never lied to you. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('You should trust him, after all, he has never lied to you.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">너는 그를 믿어야 해, 결국 그는 너에게 거짓말을 한 적이 없잖아. (그가 믿을만하다는 이유를 강조)</div>
         <div class="ex-en" style="margin-top:12px;">She's very talented; after all, she won the competition.</div>
         <div class="ex-ko">그녀는 정말 재능이 있어; 결국 그녀가 대회에서 우승했잖아. (그녀의 능력을 강조하는 결론)</div>
@@ -1587,7 +1587,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 예상 밖의 결과 Highlighting an Unexpected Result</h2>
     <p class="insight-p">예상과 다른 결과가 나왔음을 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">I thought I would fail, but I passed after all.</div>
+        <div class="ex-en">I thought I would fail, but I passed after all. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I thought I would fail, but I passed after all.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">나는 실패할 줄 알았는데, 결국 합격했어. (예상 밖의 결과)</div>
         <div class="ex-en" style="margin-top:12px;">They didn't like the idea at first, but they agreed after all.</div>
         <div class="ex-ko">처음엔 그들이 그 아이디어를 좋아하지 않았지만, 결국 동의했어. (처음 예상과 다른 결과)</div>
@@ -1596,7 +1596,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 본질을 강조 Emphasizing the Essence</h2>
     <p class="insight-p">어떤 사물이나 사건의 본질을 강조할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">After all, it's your decision to make.</div>
+        <div class="ex-en">After all, it's your decision to make. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('After all, it\'s your decision to make.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">결국, 이것은 네가 내릴 결정이야. (결정의 본질을 강조)</div>
         <div class="ex-en" style="margin-top:12px;">After all, we are only human.</div>
         <div class="ex-ko">결국, 우리는 단지 인간일 뿐이야. (인간의 본질을 강조)</div>
@@ -1606,13 +1606,13 @@ window.coreInsights = {
     "In the meantime": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>In the meantime</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>In the meantime</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('In the meantime')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 In the meantime은 <strong>'잠시 동안의 대기와 대체 활동'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">In the meantime의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>In the meantime</strong>의 핵심은</p>
+        <p>원어민에게 <strong>In the meantime</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('In the meantime')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"기다리는 동안의 대기 시간 활용"</div>
         <p>입니다. 이 표현은 주어진 시간이 지나길 기다리며 그 사이를 효율적으로 쓰는 느낌을 줍니다.</p>
     </div>
@@ -1629,7 +1629,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 대기 시간 중 다른 일 하기 (Doing something else during waiting)</h2>
     <p class="insight-p">어떤 일이 완료되기를 기다리는 동안 다른 일을 하면서 시간을 효율적으로 사용합니다.</p>
     <div class="example-group">
-        <div class="ex-en">The movie starts in an hour. In the meantime, let's grab a coffee.</div>
+        <div class="ex-en">The movie starts in an hour. In the meantime, let's grab a coffee. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The movie starts in an hour. In the meantime, let\'s grab a coffee.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">영화가 한 시간 후에 시작해. 그동안 커피 한잔 하자. (영화 시작 전까지 시간을 활용하여 커피를 마시는 행동)</div>
         <div class="ex-en" style="margin-top:12px;">Dinner will be ready in 30 minutes. In the meantime, can you set the table?</div>
         <div class="ex-ko">저녁 식사가 30분 후에 준비될 거야. 그동안 식탁 좀 차려줄래? (저녁 준비 전까지 시간을 활용하여 다른 일을 하는 행동)</div>
@@ -1638,7 +1638,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 임시 해결책 제시 (Offering a temporary solution)</h2>
     <p class="insight-p">긴급한 상황에서의 임시 해결책을 제시할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Our internet is down. In the meantime, let's use our mobile data.</div>
+        <div class="ex-en">Our internet is down. In the meantime, let's use our mobile data. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Our internet is down. In the meantime, let\'s use our mobile data.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">인터넷이 안 돼. 그동안 모바일 데이터를 쓰자. (인터넷 복구 전까지 임시 해결책 제시)</div>
         <div class="ex-en" style="margin-top:12px;">The new policy is not in place yet. In the meantime, continue with the old system.</div>
         <div class="ex-ko">새 정책이 아직 시행되지 않았어. 그동안 기존 시스템을 계속 사용해. (새 정책 시행 전까지 임시 해결책 제시)</div>
@@ -1647,7 +1647,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 기대감과 대기 (Expectation and waiting)</h2>
     <p class="insight-p">어떤 일이 일어나기를 기대하며 기다리는 동안 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">The results will be announced next week. In the meantime, stay positive!</div>
+        <div class="ex-en">The results will be announced next week. In the meantime, stay positive! <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The results will be announced next week. In the meantime, stay positive!')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">결과는 다음 주에 발표될 거야. 그동안 긍정적으로 있어! (결과 발표 전까지 긍정적인 마음을 유지하며 대기)</div>
         <div class="ex-en" style="margin-top:12px;">Our guests will arrive soon. In the meantime, let's finish the preparations.</div>
         <div class="ex-ko">손님들이 곧 도착할 거야. 그동안 준비를 끝내자. (손님 도착 전까지 준비를 완성하며 대기)</div>
@@ -1657,13 +1657,13 @@ window.coreInsights = {
     "That makes sense": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>That makes sense</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>That makes sense</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('That makes sense')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 That makes sense은 <strong>'이 표현의 가장 핵심적인 원어민 뉘앙스 요약'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">That makes sense의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>That makes sense</strong>의 핵심은</p>
+        <p>원어민에게 <strong>That makes sense</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('That makes sense')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"이해가 되고 자연스러움"</div>
         <p>입니다. 이는 상황이나 설명이 합리적이고 논리적이라는 의미를 내포합니다.</p>
     </div>
@@ -1682,7 +1682,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 자연스러운 이해와 수용 - Natural Understanding and Acceptance</h2>
     <p class="insight-p">이 표현은 논리적으로 이해되며 자연스럽게 수용할 수 있을 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">"Why did she leave early?" "She had a meeting." "Ah, that makes sense."</div>
+        <div class="ex-en">"Why did she leave early?" "She had a meeting." "Ah, that makes sense." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;Why did she leave early?&quot; &quot;She had a meeting.&quot; &quot;Ah, that makes sense.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"왜 그녀는 일찍 떠났나요?" "회의가 있었어요." "아, 그거 이해되네요." (상황이 논리적으로 연결됨)</div>
         <div class="ex-en" style="margin-top:12px;">"The prices are higher during the holiday season." "That makes sense."</div>
         <div class="ex-ko">"휴가철에는 가격이 더 비싸요." "그건 이해되네요." (계절적 요인에 의해 자연스러움)</div>
@@ -1691,7 +1691,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 문제 해결 후의 만족 - Satisfaction After Problem Solving</h2>
     <p class="insight-p">문제에 대한 설명이나 해결책이 만족스러울 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">"We had to cancel the trip due to weather conditions." "That makes sense."</div>
+        <div class="ex-en">"We had to cancel the trip due to weather conditions." "That makes sense." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;We had to cancel the trip due to weather conditions.&quot; &quot;That makes sense.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"날씨 때문에 여행을 취소해야 했습니다." "그건 이해되네요." (합리적인 이유로 인한 결정)</div>
         <div class="ex-en" style="margin-top:12px;">"He didn't answer because he was out of town." "That makes sense."</div>
         <div class="ex-ko">"그는 도시를 떠나 있어서 대답하지 않았어요." "그건 이해되네요." (부재로 인한 자연스러운 결과)</div>
@@ -1700,7 +1700,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 새로운 정보의 수용 - Acceptance of New Information</h2>
     <p class="insight-p">새로운 정보나 관점을 받아들일 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">"She switched majors because she found her passion in art." "That makes sense."</div>
+        <div class="ex-en">"She switched majors because she found her passion in art." "That makes sense." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;She switched majors because she found her passion in art.&quot; &quot;That makes sense.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"그녀는 예술에서 열정을 발견해서 전공을 바꿨어요." "그건 이해되네요." (새로운 정보의 수용)</div>
         <div class="ex-en" style="margin-top:12px;">"They moved to a bigger city for better job opportunities." "That makes sense."</div>
         <div class="ex-ko">"그들은 더 나은 직업 기회를 위해 더 큰 도시로 이사했어요." "그건 이해되네요." (논리적인 선택)</div>
@@ -1710,13 +1710,13 @@ window.coreInsights = {
     "Fair enough": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Fair enough</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Fair enough</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Fair enough')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Fair enough은 <strong>'수용과 이해의 표시'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Fair enough의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Fair enough</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Fair enough</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Fair enough')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"수용 가능한 합리적 동의"</div>
         <p>입니다. (상대방의 의견이나 상황을 받아들이는 표현입니다.)</p>
     </div>
@@ -1735,7 +1735,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 동의의 수용 Acceptance of Agreement</h2>
     <p class="insight-p">상대방의 의견이나 제안을 논리적으로 이해하고 받아들일 때 사용합니다.</p>
     <div class="example-group">
-        <div class="ex-en">"I think we should leave at 7 AM to avoid traffic." "Fair enough."</div>
+        <div class="ex-en">"I think we should leave at 7 AM to avoid traffic." "Fair enough." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;I think we should leave at 7 AM to avoid traffic.&quot; &quot;Fair enough.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"우리는 교통체증을 피하기 위해 오전 7시에 출발해야 해." "알겠어." (상대방의 제안을 수용)</div>
         <div class="ex-en" style="margin-top:12px;">"The report is quite detailed." "Fair enough, I'll review it."</div>
         <div class="ex-ko">"보고서가 꽤 상세하군요." "알겠습니다, 검토해볼게요." (상세함을 인정하고 수용)</div>
@@ -1744,7 +1744,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 이해의 표시 Expression of Understanding</h2>
     <p class="insight-p">상대방의 설명을 듣고 그것을 이해했다는 것을 나타낼 때 사용합니다.</p>
     <div class="example-group">
-        <div class="ex-en">"I missed the meeting because my car broke down." "Fair enough."</div>
+        <div class="ex-en">"I missed the meeting because my car broke down." "Fair enough." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;I missed the meeting because my car broke down.&quot; &quot;Fair enough.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"차가 고장 나서 회의에 참석하지 못했어." "이해해." (상황 이해를 표시)</div>
         <div class="ex-en" style="margin-top:12px;">"I need more time to finish the project." "Fair enough, take your time."</div>
         <div class="ex-ko">"프로젝트를 끝내려면 시간이 더 필요해요." "알겠어요, 시간을 가지고 하세요." (시간이 필요함을 이해하고 수용)</div>
@@ -1753,7 +1753,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 타협의 인정 Acknowledgment of Compromise</h2>
     <p class="insight-p">서로 다른 의견 사이에서 타협점을 찾았을 때 사용합니다.</p>
     <div class="example-group">
-        <div class="ex-en">"Let's split the difference and meet at 3 PM." "Fair enough."</div>
+        <div class="ex-en">"Let's split the difference and meet at 3 PM." "Fair enough." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;Let\'s split the difference and meet at 3 PM.&quot; &quot;Fair enough.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"절충해서 오후 3시에 만나죠." "좋아요." (타협점을 찾음)</div>
         <div class="ex-en" style="margin-top:12px;">"We can't lower the price, but we can offer free shipping." "Fair enough."</div>
         <div class="ex-ko">"가격을 낮출 수는 없지만 무료 배송을 제공할 수 있습니다." "그 정도면 괜찮아요." (타협안을 수용)</div>
@@ -1763,13 +1763,13 @@ window.coreInsights = {
     "No worries": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>No worries</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>No worries</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('No worries')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 No worries은 <strong>'편안함과 걱정하지 않아도 되는 상태'</strong>를 의미합니다.
     </div>
 
     <h2 class="insight-h2">No worries의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>No worries</strong>의 핵심은</p>
+        <p>원어민에게 <strong>No worries</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('No worries')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"문제를 신경 쓰지 않아도 된다는 편안함"</div>
         <p>입니다. 이 표현은 부담을 덜어주고 편안한 분위기를 만들어 줍니다.</p>
     </div>
@@ -1787,7 +1787,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 안심시키기 + Reassurance</h2>
     <p class="insight-p">상대방에게 걱정하지 말라고 안심시키는 데 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">"I’m sorry for the delay." "No worries, take your time."</div>
+        <div class="ex-en">"I’m sorry for the delay." "No worries, take your time." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;I’m sorry for the delay.&quot; &quot;No worries, take your time.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"지연되어 죄송합니다." "걱정 마세요, 천천히 하세요." (상대방을 안심시키며 여유를 줌)</div>
         <div class="ex-en" style="margin-top:12px;">"Thank you for helping me out." "No worries, happy to help."</div>
         <div class="ex-ko">"도와줘서 고마워." "걱정 마세요, 도와드려서 기쁩니다." (도움에 대한 부담감을 덜어줌)</div>
@@ -1796,7 +1796,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 소소한 일상의 표현 + Everyday Expression</h2>
     <p class="insight-p">일상적인 상황에서 가볍게 응답할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">"Can I borrow your pen?" "Sure, no worries."</div>
+        <div class="ex-en">"Can I borrow your pen?" "Sure, no worries." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;Can I borrow your pen?&quot; &quot;Sure, no worries.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"펜 좀 빌릴 수 있을까요?" "물론이죠, 걱정 마세요." (소소한 부탁에 가볍게 응답)</div>
         <div class="ex-en" style="margin-top:12px;">"Sorry for stepping on your foot." "No worries, it happens."</div>
         <div class="ex-ko">"발 밟아서 미안해요." "괜찮아요, 그럴 수도 있죠." (사소한 실수에 대해 가볍게 넘김)</div>
@@ -1805,7 +1805,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 긍정적 분위기 유지 + Maintaining a Positive Vibe</h2>
     <p class="insight-p">긍정적이고 편안한 분위기를 유지하기 위해 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">"I can't make it to the meeting." "No worries, we can catch up later."</div>
+        <div class="ex-en">"I can't make it to the meeting." "No worries, we can catch up later." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;I can\'t make it to the meeting.&quot; &quot;No worries, we can catch up later.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"회의에 참석할 수 없어요." "괜찮아요, 나중에 이야기 나눠요." (긍정적인 대안 제시로 분위기 유지)</div>
         <div class="ex-en" style="margin-top:12px;">"I forgot your book at home." "No worries, just bring it next time."</div>
         <div class="ex-ko">"책을 집에 두고 왔어요." "괜찮아요, 다음에 가져오세요." (긍정적인 태도로 상황을 유연하게 대응)</div>
@@ -1815,13 +1815,13 @@ window.coreInsights = {
     "Tell me about it": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Tell me about it</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Tell me about it</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Tell me about it')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Tell me about it은 <strong>'완전히 이해한다는 동의 표현'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Tell me about it의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Tell me about it</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Tell me about it</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Tell me about it')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"나도 그 느낌 알아"</div>
         <p>입니다. (이 표현은 상대방의 경험이나 감정을 깊이 공감할 때 사용됩니다.)</p>
     </div>
@@ -1842,7 +1842,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 공감의 표현 Agreeing with Empathy</h2>
     <p class="insight-p">상대방의 감정이나 경험에 깊이 공감하며 동의하는 상황에서 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">"I've been so busy with work lately." "Tell me about it."</div>
+        <div class="ex-en">"I've been so busy with work lately." "Tell me about it." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;I\'ve been so busy with work lately.&quot; &quot;Tell me about it.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"요즘 일이 너무 바빠." "정말 그래." (상대방의 바쁜 상황에 대한 깊은 공감)</div>
         <div class="ex-en" style="margin-top:12px;">"This heat is unbearable!" "Tell me about it."</div>
         <div class="ex-ko">"이 더위 참을 수가 없어!" "정말 그래." (더운 날씨에 대한 고통을 함께 느낄 때)</div>
@@ -1851,7 +1851,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 경험의 공유 Sharing Experience</h2>
     <p class="insight-p">자신도 비슷한 경험을 했음을 나타내며, 상대방과 경험을 공유할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">"I couldn't sleep at all last night." "Tell me about it."</div>
+        <div class="ex-en">"I couldn't sleep at all last night." "Tell me about it." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;I couldn\'t sleep at all last night.&quot; &quot;Tell me about it.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"어젯밤에 전혀 잠을 못 잤어." "나도 마찬가지야." (수면 부족에 대한 공통의 경험을 공유)</div>
         <div class="ex-en" style="margin-top:12px;">"These deadlines are killing me." "Tell me about it."</div>
         <div class="ex-ko">"이 마감일이 날 죽이려고 해." "정말 그래." (마감일에 대한 스트레스를 서로 공유)</div>
@@ -1860,7 +1860,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 아이러니한 동의 Ironic Agreement</h2>
     <p class="insight-p">때로는 상황의 아이러니를 강조하며 동의하는데 사용되기도 합니다.</p>
     <div class="example-group">
-        <div class="ex-en">"Mondays are the worst." "Tell me about it."</div>
+        <div class="ex-en">"Mondays are the worst." "Tell me about it." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;Mondays are the worst.&quot; &quot;Tell me about it.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"월요일은 최악이야." "완전 동의." (월요일에 대한 일반적인 불만을 아이러니하게 동의)</div>
         <div class="ex-en" style="margin-top:12px;">"This meeting could have been an email." "Tell me about it."</div>
         <div class="ex-ko">"이 회의는 이메일로 대신할 수 있었어." "정말 그러네." (비생산적인 회의에 대한 불만을 아이러니하게 표현)</div>
@@ -1870,13 +1870,13 @@ window.coreInsights = {
     "I know, right?": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>I know, right?</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>I know, right?</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I know, right?')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 I know, right?은 <strong>'공감을 나타내며 대화를 이어가는 친근한 표현'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">I know, right?의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>I know, right?</strong>의 핵심은</p>
+        <p>원어민에게 <strong>I know, right?</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I know, right?')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"공감과 동의의 순간적 연결"</div>
         <p>입니다. 상대방의 말을 긍정적으로 확인하며 대화에 참여합니다.</p>
     </div>
@@ -1899,7 +1899,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 공감과 확인 (Agreement + Confirmation)</h2>
     <p class="insight-p">상대방의 의견에 동의하면서도 자신의 생각을 확인합니다.</p>
     <div class="example-group">
-        <div class="ex-en">"This movie is so good!"</div>
+        <div class="ex-en">"This movie is so good!" <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;This movie is so good!&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"이 영화 정말 좋다!" (상대방의 감정에 공감하며 동의)</div>
         <div class="ex-en" style="margin-top:12px;">"I know, right? The acting was amazing."</div>
         <div class="ex-ko">"그러게, 연기가 정말 놀라웠어." (이미 알고 있지만, 다시 한번 확인하며 동의)</div>
@@ -1908,7 +1908,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 친근한 대화 연결 (Friendly Conversation Continuation)</h2>
     <p class="insight-p">대화를 자연스럽게 이어가며 친근한 분위기를 형성합니다.</p>
     <div class="example-group">
-        <div class="ex-en">"It's so hot today."</div>
+        <div class="ex-en">"It's so hot today." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;It\'s so hot today.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"오늘 너무 덥다." (일상적인 의견에 대한 동의)</div>
         <div class="ex-en" style="margin-top:12px;">"I know, right? I could really use some ice cream."</div>
         <div class="ex-ko">"그러게, 아이스크림이 정말 필요해." (친근하게 대화를 이어감)</div>
@@ -1917,7 +1917,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 놀라움과 공감 (Surprise + Empathy)</h2>
     <p class="insight-p">예상치 못한 사실에 놀라며 공감합니다.</p>
     <div class="example-group">
-        <div class="ex-en">"Did you hear about the new policy? It's crazy."</div>
+        <div class="ex-en">"Did you hear about the new policy? It's crazy." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;Did you hear about the new policy? It\'s crazy.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"새 정책 들었어? 정말 미쳤어." (놀라움을 표현하며 공감)</div>
         <div class="ex-en" style="margin-top:12px;">"I know, right? I can't believe they did that."</div>
         <div class="ex-ko">"그러게, 그들이 그렇게 했다는 게 믿기지 않아." (상대방의 놀라움에 공감)</div>
@@ -1927,13 +1927,13 @@ window.coreInsights = {
     "Good point": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Good point</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Good point</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Good point')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Good point은 <strong>'상대방의 의견이나 관점을 인정하고 긍정하는 표현'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Good point의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Good point</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Good point</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Good point')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"상대방의 관점을 인정하며, 그것에 동의하거나 칭찬하는 것"</div>
         <p>입니다. 이 표현은 토론이나 대화 중 상대방의 의견이 유용하거나 중요할 때 사용됩니다.</p>
     </div>
@@ -1952,7 +1952,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 의견 인정하기 + Acknowledging a Valid Point</h2>
     <p class="insight-p">상대방의 의견이 유효하고 논리적일 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">"We should consider the budget constraints." "Good point."</div>
+        <div class="ex-en">"We should consider the budget constraints." "Good point." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;We should consider the budget constraints.&quot; &quot;Good point.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"우리는 예산 제약을 고려해야 합니다." "좋은 지적이에요." (상대방의 의견이 논리적임을 인정함)</div>
         <div class="ex-en" style="margin-top:12px;">"His suggestion could save time in the long run." "Good point."</div>
         <div class="ex-ko">"그의 제안은 장기적으로 시간을 절약할 수 있습니다." "좋은 지적이에요." (제안의 효용성을 긍정적으로 평가함)</div>
@@ -1961,7 +1961,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 칭찬하기 + Complimenting Insight</h2>
     <p class="insight-p">상대방의 통찰력이나 날카로운 지적을 칭찬할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">"She noticed the error in the report." "Good point."</div>
+        <div class="ex-en">"She noticed the error in the report." "Good point." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;She noticed the error in the report.&quot; &quot;Good point.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"그녀가 보고서의 오류를 발견했어요." "좋은 지적이에요." (상대방의 통찰력을 칭찬함)</div>
         <div class="ex-en" style="margin-top:12px;">"You highlighted the key issue." "Good point."</div>
         <div class="ex-ko">"당신이 핵심 문제를 강조했군요." "좋은 지적이에요." (상대방의 날카로운 관점을 칭찬함)</div>
@@ -1970,7 +1970,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 논쟁 중 긍정하기 + Affirming in a Debate</h2>
     <p class="insight-p">논쟁 중 상대방의 의견이 일리가 있다고 인정할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">"But have you considered the environmental impact?" "Good point."</div>
+        <div class="ex-en">"But have you considered the environmental impact?" "Good point." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;But have you considered the environmental impact?&quot; &quot;Good point.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"하지만 환경 영향을 고려해 봤나요?" "좋은 지적이에요." (상대방의 질문이 타당함을 인정함)</div>
         <div class="ex-en" style="margin-top:12px;">"We need to think about employee well-being as well." "Good point."</div>
         <div class="ex-ko">"직원 복지도 생각해야 합니다." "좋은 지적이에요." (상대방의 의견이 논의에 유효하다고 인정함)</div>
@@ -1980,13 +1980,13 @@ window.coreInsights = {
     "Exactly": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Exactly</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Exactly</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Exactly')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Exactly은 <strong>'정확히 맞다거나 동의한다는 강력한 확인'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Exactly의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Exactly</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Exactly</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Exactly')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"가장 짧고 강렬한 본질적 의미"</div>
         <p>입니다. 대화나 토론에서 상대방의 말에 동의하거나 맞다고 인정할 때 사용됩니다.</p>
     </div>
@@ -2006,7 +2006,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 동의의 표현 Agreement</h2>
     <p class="insight-p">상대방의 말에 전적으로 동의할 때 사용하는 표현입니다.</p>
     <div class="example-group">
-        <div class="ex-en">"We should leave early to avoid traffic." "Exactly!"</div>
+        <div class="ex-en">"We should leave early to avoid traffic." "Exactly!" <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;We should leave early to avoid traffic.&quot; &quot;Exactly!&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"우리는 교통 체증을 피하기 위해 일찍 떠나야 해." "그렇지!" (상대방의 의견에 전적으로 동의할 때 사용)</div>
         <div class="ex-en" style="margin-top:12px;">"This is the best solution we have." "Exactly."</div>
         <div class="ex-ko">"이것이 우리가 가진 최고의 해결책이야." "맞아." (상대방의 말이 사실이거나 맞다고 여길 때 사용)</div>
@@ -2015,7 +2015,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 정확성의 강조 Emphasis on Precision</h2>
     <p class="insight-p">어떤 사실이 정확하다는 것을 강조할 때 사용합니다.</p>
     <div class="example-group">
-        <div class="ex-en">"You mean the meeting is at 3 PM?" "Exactly."</div>
+        <div class="ex-en">"You mean the meeting is at 3 PM?" "Exactly." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;You mean the meeting is at 3 PM?&quot; &quot;Exactly.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"회의가 오후 3시라는 말이죠?" "맞아요." (시간이나 사실을 정확히 확인할 때 사용)</div>
         <div class="ex-en" style="margin-top:12px;">"The recipe calls for two cups of sugar." "Exactly two cups."</div>
         <div class="ex-ko">"레시피에는 설탕 두 컵이 필요해." "정확히 두 컵." (정확한 양을 강조할 때 사용)</div>
@@ -2024,7 +2024,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 확인의 표현 Confirmation</h2>
     <p class="insight-p">상대방의 말이 맞다는 것을 확인해줄 때 사용합니다.</p>
     <div class="example-group">
-        <div class="ex-en">"So, we are meeting at the cafe, right?" "Exactly."</div>
+        <div class="ex-en">"So, we are meeting at the cafe, right?" "Exactly." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;So, we are meeting at the cafe, right?&quot; &quot;Exactly.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"그러면 우리 카페에서 만나는 거죠?" "맞아요." (약속이나 계획을 확인할 때 사용)</div>
         <div class="ex-en" style="margin-top:12px;">"Your name is spelled J-O-H-N?" "Exactly."</div>
         <div class="ex-ko">"당신의 이름은 J-O-H-N으로 철자하나요?" "맞아요." (이름이나 철자를 확인할 때 사용)</div>
@@ -2034,13 +2034,13 @@ window.coreInsights = {
     "Kind of": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Kind of</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Kind of</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Kind of')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Kind of은 <strong>'약간, 어느 정도'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Kind of의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Kind of</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Kind of</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Kind of')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"그렇긴 하지만 완전히 그렇다고는 할 수 없는"</div>
         <p>입니다. 이 표현은 대화를 부드럽게 하고 싶을 때 자주 사용됩니다.</p>
     </div>
@@ -2061,7 +2061,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 약간 모호함 + Uncertainty</h2>
     <p class="insight-p">때로는 확실하지 않거나 모호한 상황을 설명할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">I'm kind of tired, but I can go out.</div>
+        <div class="ex-en">I'm kind of tired, but I can go out. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I\'m kind of tired, but I can go out.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">나는 좀 피곤하지만, 나갈 수는 있어. (피곤하긴 하지만 꼭 그렇다고 할 수는 없음)</div>
         <div class="ex-en" style="margin-top:12px;">She's kind of interested in the offer.</div>
         <div class="ex-ko">그녀는 그 제안에 약간 관심이 있는 것 같아. (완전한 관심이 아닌 약간의 관심)</div>
@@ -2070,7 +2070,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 부드러운 의견 제시 + Softening Statements</h2>
     <p class="insight-p">상대방에게 너무 강하게 들리지 않도록 의견을 부드럽게 전달할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">It's kind of expensive, don't you think?</div>
+        <div class="ex-en">It's kind of expensive, don't you think? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('It\'s kind of expensive, don\'t you think?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">이거 좀 비싼 것 같은데, 그렇지 않아? (직접적으로 비싸다고 하기보다는 부드럽게 표현)</div>
         <div class="ex-en" style="margin-top:12px;">I kind of disagree with you.</div>
         <div class="ex-ko">나는 너와 좀 의견이 다른 것 같아. (강한 불일치보다는 부드러운 표현)</div>
@@ -2079,7 +2079,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 부분 동의 + Partial Agreement</h2>
     <p class="insight-p">완전하게 동의하지 않을 때 부분적으로 동의할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">I kind of see what you mean.</div>
+        <div class="ex-en">I kind of see what you mean. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I kind of see what you mean.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">네가 무슨 말 하는지 좀 알 것 같아. (완전한 이해가 아닌 부분적 이해)</div>
         <div class="ex-en" style="margin-top:12px;">We kind of solved the problem.</div>
         <div class="ex-ko">우리는 문제를 어느 정도 해결했어. (완전한 해결이 아닌 부분적 해결)</div>
@@ -2089,13 +2089,13 @@ window.coreInsights = {
     "Sort of": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Sort of</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Sort of</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Sort of')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Sort of은 <strong>'약간 그렇다고 할 수 있는 모호한 상태'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Sort of의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Sort of</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Sort of</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Sort of')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"확실하지 않은 상태"</div>
         <p>입니다. (이 표현은 상대적인 불확실성을 전달합니다.)</p>
     </div>
@@ -2115,7 +2115,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 애매함과 불확실성 (Ambiguity and Uncertainty)</h2>
     <p class="insight-p">어떤 것이 확실하지 않거나 애매할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">"I'm sort of tired, but I can still go out."</div>
+        <div class="ex-en">"I'm sort of tired, but I can still go out." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;I\'m sort of tired, but I can still go out.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"좀 피곤하긴 한데, 그래도 나갈 수 있어." (피곤함의 정도가 확실하지 않음)</div>
         <div class="ex-en" style="margin-top:12px;">"She sort of likes him."</div>
         <div class="ex-ko">"그녀는 그를 약간 좋아하는 것 같아." (완전히 확신하지 않음)</div>
@@ -2124,7 +2124,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 부분적인 동의 (Partial Agreement)</h2>
     <p class="insight-p">완전히 동의하지 않지만 어느 정도 인정할 때 사용합니다.</p>
     <div class="example-group">
-        <div class="ex-en">"I sort of agree with you."</div>
+        <div class="ex-en">"I sort of agree with you." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;I sort of agree with you.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"네 말에 어느 정도 동의해." (완전한 동의는 아님)</div>
         <div class="ex-en" style="margin-top:12px;">"It's sort of true."</div>
         <div class="ex-ko">"그게 어느 정도 사실이야." (전부 사실은 아님)</div>
@@ -2133,7 +2133,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 부정확한 설명 (Inexact Description)</h2>
     <p class="insight-p">정확한 설명이 어려운 상황에서 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">"It's sort of like a pancake, but thicker."</div>
+        <div class="ex-en">"It's sort of like a pancake, but thicker." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;It\'s sort of like a pancake, but thicker.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"그건 팬케이크와 비슷하지만 더 두꺼워." (정확히 무엇인지 설명 어려움)</div>
         <div class="ex-en" style="margin-top:12px;">"He looked sort of angry."</div>
         <div class="ex-ko">"그는 약간 화난 것처럼 보였어." (정확히 화난 건지 아닌지 모름)</div>
@@ -2143,13 +2143,13 @@ window.coreInsights = {
     "I guess": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>I guess</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>I guess</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I guess')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 I guess은 <strong>'확신이 없는 상태에서의 의견 제시'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">I guess의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>I guess</strong>의 핵심은</p>
+        <p>원어민에게 <strong>I guess</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I guess')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"약간의 불확실성을 동반한 의견"</div>
         <p>입니다. 상대방에게 강하게 주장하지 않고 의견을 부드럽게 전달합니다.</p>
     </div>
@@ -2169,7 +2169,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 추측의 표현 Guessing</h2>
     <p class="insight-p">상황에 대한 개인의 추측을 표현할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">I guess it's going to rain later.</div>
+        <div class="ex-en">I guess it's going to rain later. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I guess it\'s going to rain later.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">나중에 비가 올 것 같아. (날씨에 대한 추측을 표현)</div>
         <div class="ex-en" style="margin-top:12px;">I guess she's not coming to the party.</div>
         <div class="ex-ko">그녀는 파티에 안 올 것 같아. (사람의 행동에 대한 추측)</div>
@@ -2178,7 +2178,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 약한 확신 Weak Certainty</h2>
     <p class="insight-p">확신이 없는 상태에서 의견을 제시할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">I guess we could try that new restaurant.</div>
+        <div class="ex-en">I guess we could try that new restaurant. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I guess we could try that new restaurant.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">새로운 식당을 가볼 수도 있겠네. (확신이 없는 제안)</div>
         <div class="ex-en" style="margin-top:12px;">I guess I could help you with that.</div>
         <div class="ex-ko">도와줄 수도 있을 것 같아. (완전한 확신이 없는 제안)</div>
@@ -2187,7 +2187,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 겸손한 의견 제시 Humble Opinion</h2>
     <p class="insight-p">자신의 의견을 겸손하게 제시할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">I guess this is the best option we have.</div>
+        <div class="ex-en">I guess this is the best option we have. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I guess this is the best option we have.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">이게 우리가 가진 최고의 선택인 것 같아. (겸손하게 의견 제시)</div>
         <div class="ex-en" style="margin-top:12px;">I guess that's one way to look at it.</div>
         <div class="ex-ko">그렇게 볼 수도 있겠네. (다른 의견을 존중하며 자신의 의견 제시)</div>
@@ -2197,13 +2197,13 @@ window.coreInsights = {
     "More or less": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>More or less</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>More or less</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('More or less')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 More or less은 <strong>'대체로 정확하거나 거의 그 정도'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">More or less의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>More or less</strong>의 핵심은</p>
+        <p>원어민에게 <strong>More or less</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('More or less')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"대략적이지만 충분히 의미 있는"</div>
         <p>입니다. (이 표현은 정확하지 않지만 대강의 의미를 전달할 때 사용됩니다.)</p>
     </div>
@@ -2221,7 +2221,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 대략적 추정 (Approximate Estimation)</h2>
     <p class="insight-p">대략적인 수량이나 정도를 나타낼 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">"There were more or less 20 people at the meeting."</div>
+        <div class="ex-en">"There were more or less 20 people at the meeting." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;There were more or less 20 people at the meeting.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"회의에 대략 20명 정도 있었다." (정확한 숫자가 아닌 대략적인 추정)</div>
         <div class="ex-en" style="margin-top:12px;">"It took us more or less an hour to get there."</div>
         <div class="ex-ko">"거기에 도착하는 데 대략 한 시간이 걸렸다." (정확하지 않은 대략적인 시간)</div>
@@ -2230,7 +2230,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 거의 비슷함 (Almost the Same)</h2>
     <p class="insight-p">거의 비슷하거나 차이가 없을 때 씁니다.</p>
     <div class="example-group">
-        <div class="ex-en">"The two plans are more or less the same."</div>
+        <div class="ex-en">"The two plans are more or less the same." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;The two plans are more or less the same.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"두 계획은 거의 비슷하다." (큰 차이가 없음을 의미)</div>
         <div class="ex-en" style="margin-top:12px;">"His answer was more or less correct."</div>
         <div class="ex-ko">"그의 대답은 거의 맞았다." (거의 정확함을 나타냄)</div>
@@ -2239,7 +2239,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 불확실한 확신 (Uncertain Certainty)</h2>
     <p class="insight-p">완전한 확신 없이 대략적으로 추측할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">"I more or less understand what you mean."</div>
+        <div class="ex-en">"I more or less understand what you mean." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;I more or less understand what you mean.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"네가 무슨 말 하는지 대략 알겠다." (완전한 이해는 아님)</div>
         <div class="ex-en" style="margin-top:12px;">"We’ve more or less decided to go on vacation in July."</div>
         <div class="ex-ko">"우리는 7월에 휴가를 가기로 대략 결정했다." (확정적이지 않은 결정)</div>
@@ -2249,13 +2249,13 @@ window.coreInsights = {
     "To some extent": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>To some extent</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>To some extent</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('To some extent')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 To some extent은 <strong>'부분적으로 동의하거나 인정하는 상황'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">To some extent의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>To some extent</strong>의 핵심은</p>
+        <p>원어민에게 <strong>To some extent</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('To some extent')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"부분적인 동의나 수긍"</div>
         <p>입니다. 이는 전체적으로는 아님을 암시합니다.</p>
     </div>
@@ -2275,7 +2275,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 부분적인 승인 (Partial Approval)</h2>
     <p class="insight-p">어떤 주제에 대해 부분적으로 동의하거나 인정할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">I agree with you to some extent on this issue.</div>
+        <div class="ex-en">I agree with you to some extent on this issue. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I agree with you to some extent on this issue.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">나는 이 문제에 대해 어느 정도는 네 의견에 동의해. (부분적으로는 동의하지만 모든 것에 동의하는 것은 아님)</div>
         <div class="ex-en" style="margin-top:12px;">To some extent, I understand why he did that.</div>
         <div class="ex-ko">어느 정도는 그가 왜 그렇게 했는지 이해해. (완전히 이해하진 않지만, 일부는 이해함)</div>
@@ -2284,7 +2284,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 제한적 인정 (Limited Acknowledgment)</h2>
     <p class="insight-p">전체 중 일부만 인정하거나 받아들일 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">To some extent, her argument makes sense.</div>
+        <div class="ex-en">To some extent, her argument makes sense. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('To some extent, her argument makes sense.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">어느 정도는 그녀의 주장이 일리가 있어. (전체적으로는 아닌데 부분적으로는 그렇다)</div>
         <div class="ex-en" style="margin-top:12px;">He is correct to some extent, but there's more to consider.</div>
         <div class="ex-ko">그는 어느 정도는 맞지만, 고려할 것이 더 있어. (일부 동의하지만 다른 요소들도 중요함)</div>
@@ -2293,7 +2293,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 부분적 해결 (Partial Solution)</h2>
     <p class="insight-p">문제의 일부만 해결되었을 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">This plan will work to some extent.</div>
+        <div class="ex-en">This plan will work to some extent. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('This plan will work to some extent.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">이 계획은 어느 정도는 효과가 있을 거야. (완벽한 해결책은 아니지만 어느 정도는 효과적임)</div>
         <div class="ex-en" style="margin-top:12px;">To some extent, the changes improved the system.</div>
         <div class="ex-ko">어느 정도는 변화가 시스템을 개선했어. (변화가 있었지만 아직 더 개선이 필요함)</div>
@@ -2303,13 +2303,13 @@ window.coreInsights = {
     "Not necessarily": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Not necessarily</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Not necessarily</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Not necessarily')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Not necessarily은 <strong>'완전히 그렇게만 볼 수는 없다'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Not necessarily의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Not necessarily</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Not necessarily</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Not necessarily')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"항상 그렇진 않아"</div>
         <p>입니다. 이 표현은 상황에 따라 다른 가능성이 있음을 암시합니다.</p>
     </div>
@@ -2327,7 +2327,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 전제에 대한 도전 (Challenging an Assumption)</h2>
     <p class="insight-p">어떤 주어진 전제가 항상 맞지 않을 수도 있음을 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">"Everyone loves chocolate." "Not necessarily."</div>
+        <div class="ex-en">"Everyone loves chocolate." "Not necessarily." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;Everyone loves chocolate.&quot; &quot;Not necessarily.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"모두가 초콜릿을 좋아해." "꼭 그렇진 않아." (일반적인 전제에 대해 반박)</div>
         <div class="ex-en" style="margin-top:12px;">"He must be guilty." "Not necessarily."</div>
         <div class="ex-ko">"그는 분명 유죄일 거야." "꼭 그렇진 않아." (추측에 대한 반박)</div>
@@ -2336,7 +2336,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 조건적인 동의 (Conditional Agreement)</h2>
     <p class="insight-p">동의하지만, 경우에 따라 다를 수 있음을 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">"It's going to rain tomorrow." "Not necessarily if the wind changes."</div>
+        <div class="ex-en">"It's going to rain tomorrow." "Not necessarily if the wind changes." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;It\'s going to rain tomorrow.&quot; &quot;Not necessarily if the wind changes.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"내일 비가 올 거야." "바람이 바뀌면 꼭 그렇진 않아." (조건부로 동의)</div>
         <div class="ex-en" style="margin-top:12px;">"This will solve the problem." "Not necessarily without more data."</div>
         <div class="ex-ko">"이게 문제를 해결할 거야." "더 많은 데이터 없이는 꼭 그렇진 않아." (추가 조건 필요)</div>
@@ -2345,7 +2345,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 무조건적 결론에 대한 경고 (Warning Against Absolute Conclusions)</h2>
     <p class="insight-p">모든 상황을 고려하지 않은 결론에 대한 경고로 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">"If you study, you'll pass." "Not necessarily, you also need rest."</div>
+        <div class="ex-en">"If you study, you'll pass." "Not necessarily, you also need rest." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;If you study, you\'ll pass.&quot; &quot;Not necessarily, you also need rest.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"공부하면 합격할 거야." "꼭 그렇진 않아, 휴식도 필요해." (무조건적 결론에 대한 경고)</div>
         <div class="ex-en" style="margin-top:12px;">"Eating healthy means you'll lose weight." "Not necessarily if you don't exercise."</div>
         <div class="ex-ko">"건강하게 먹으면 살이 빠질 거야." "운동을 안 하면 꼭 그렇진 않아." (여러 요소를 고려해야 함)</div>
@@ -2355,13 +2355,13 @@ window.coreInsights = {
     "It depends": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>It depends</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>It depends</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('It depends')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 It depends은 <strong>'상황에 따라 다르다'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">It depends의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>It depends</strong>의 핵심은</p>
+        <p>원어민에게 <strong>It depends</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('It depends')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"상황과 조건에 따라 변하는 것"</div>
         <p>입니다. 이 표현은 확정적인 답변을 피하고자 할 때 자주 사용됩니다.</p>
     </div>
@@ -2381,7 +2381,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 상황에 따른 결정 - Decision based on context</h2>
     <p class="insight-p">결정이나 대답이 상황에 따라 달라질 수 있음을 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">"Are you coming to the party?"</div>
+        <div class="ex-en">"Are you coming to the party?" <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;Are you coming to the party?&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"파티에 올 거야?" (정확한 답변을 미루며 상황에 따라 결정할 것임을 암시)</div>
         <div class="ex-en" style="margin-top:12px;">"It depends on whether I finish my work."</div>
         <div class="ex-ko">"일을 끝낼 수 있을지에 따라 달려 있어." (일의 진행 상황에 따라 결정)</div>
@@ -2390,7 +2390,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 조건부 가능성 - Conditional possibility</h2>
     <p class="insight-p">어떤 조건이 충족되었을 때 가능성을 내포합니다.</p>
     <div class="example-group">
-        <div class="ex-en">"Can we go hiking tomorrow?"</div>
+        <div class="ex-en">"Can we go hiking tomorrow?" <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;Can we go hiking tomorrow?&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"내일 하이킹 갈 수 있을까?" (날씨와 같은 조건에 영향을 받을 가능성)</div>
         <div class="ex-en" style="margin-top:12px;">"It depends on the weather."</div>
         <div class="ex-ko">"날씨에 따라 달라." (날씨가 조건임을 명시)</div>
@@ -2399,7 +2399,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 유동적인 답변 - Flexible answer</h2>
     <p class="insight-p">정해진 답변이 없고 유동적인 상황을 반영합니다.</p>
     <div class="example-group">
-        <div class="ex-en">"Will the meeting be long?"</div>
+        <div class="ex-en">"Will the meeting be long?" <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;Will the meeting be long?&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"회의가 길어질까?" (회의의 진행에 따라 시간이 달라질 수 있음)</div>
         <div class="ex-en" style="margin-top:12px;">"It depends on how much we have to discuss."</div>
         <div class="ex-ko">"논의할 것에 따라 달라." (논의할 내용의 양에 따라 회의 시간이 정해짐)</div>
@@ -2409,13 +2409,13 @@ window.coreInsights = {
     "Give it a shot": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Give it a shot</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Give it a shot</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Give it a shot')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Give it a shot은 <strong>'열심히 시도해보라는 격려'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Give it a shot의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Give it a shot</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Give it a shot</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Give it a shot')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"한번 시도해봐!"</div>
         <p>입니다. 필요한 자신감을 불어넣어 주는 표현입니다.</p>
     </div>
@@ -2436,7 +2436,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 시도와 용기를 북돋음 (Encouragement to Try)</h2>
     <p class="insight-p">주저하지 말고 시도하라고 격려할 때 사용합니다.</p>
     <div class="example-group">
-        <div class="ex-en">"I don't know if I can do it." "Come on, give it a shot!"</div>
+        <div class="ex-en">"I don't know if I can do it." "Come on, give it a shot!" <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;I don\'t know if I can do it.&quot; &quot;Come on, give it a shot!&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"내가 할 수 있을지 모르겠어." "이봐, 한번 시도해봐!" (주저하는 사람에게 용기를 주는 표현)</div>
         <div class="ex-en" style="margin-top:12px;">"Should I try this new recipe?" "Sure, give it a shot!"</div>
         <div class="ex-ko">"이 새로운 레시피를 시도해볼까?" "물론, 한번 해봐!" (새로운 것에 대한 도전을 응원하는 표현)</div>
@@ -2445,7 +2445,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 긍정적인 결과에 대한 희망 (Hope for Positive Outcome)</h2>
     <p class="insight-p">시도하면 좋은 결과가 있을 것이라는 희망을 표현합니다.</p>
     <div class="example-group">
-        <div class="ex-en">"I might apply for that job." "Go ahead, give it a shot!"</div>
+        <div class="ex-en">"I might apply for that job." "Go ahead, give it a shot!" <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;I might apply for that job.&quot; &quot;Go ahead, give it a shot!&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"그 일자리에 지원해볼까 해." "그럼, 한번 시도해봐!" (긍정적인 결과를 기대하는 말)</div>
         <div class="ex-en" style="margin-top:12px;">"Do you think I can win the contest?" "Why not give it a shot?"</div>
         <div class="ex-ko">"내가 대회에서 이길 수 있을까?" "왜 한번 시도해보지 않겠어?" (좋은 결과를 기대하라는 의미)</div>
@@ -2454,7 +2454,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 새로운 경험의 권장 (Encouragement for New Experience)</h2>
     <p class="insight-p">새로운 경험을 해보도록 권장할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">"I've never gone hiking before." "You should give it a shot!"</div>
+        <div class="ex-en">"I've never gone hiking before." "You should give it a shot!" <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;I\'ve never gone hiking before.&quot; &quot;You should give it a shot!&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"하이킹을 해본 적이 없어." "한번 해보는 게 어때!" (새로운 경험을 권장하는 표현)</div>
         <div class="ex-en" style="margin-top:12px;">"I'm thinking about learning guitar." "Definitely give it a shot!"</div>
         <div class="ex-ko">"기타를 배워볼까 생각 중이야." "꼭 한번 해봐!" (새로운 취미를 시도해보라고 격려하는 표현)</div>
@@ -2464,13 +2464,13 @@ window.coreInsights = {
     "Make up your mind": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Make up your mind</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Make up your mind</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Make up your mind')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Make up your mind은 <strong>'결정을 내리는 순간의 긴장감과 확신'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Make up your mind의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Make up your mind</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Make up your mind</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Make up your mind')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"결정을 내리려는 순간의 집중된 선택"</div>
         <p>입니다. 이는 선택의 순간에 마음을 확고히 하는 것을 의미합니다.</p>
     </div>
@@ -2490,7 +2490,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 결정을 재촉할 때 Urging a Decision</h2>
     <p class="insight-p">상대방에게 빠르게 결정을 내리도록 촉구할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">You need to make up your mind about the job offer.</div>
+        <div class="ex-en">You need to make up your mind about the job offer. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('You need to make up your mind about the job offer.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">너는 그 일자리 제안에 대해 결정을 내려야 해. (결정을 미루지 말고 빨리 하라는 뜻)</div>
         <div class="ex-en" style="margin-top:12px;">Can you make up your mind before the sale ends?</div>
         <div class="ex-ko">세일이 끝나기 전에 결정할 수 있어? (시간이 제한되어 있음을 암시)</div>
@@ -2499,7 +2499,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 확신을 요구할 때 Demanding Certainty</h2>
     <p class="insight-p">어떤 선택에 대해 확신을 요구할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">I wish you’d make up your mind about where to eat.</div>
+        <div class="ex-en">I wish you’d make up your mind about where to eat. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I wish you’d make up your mind about where to eat.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">어디서 먹을지 결정을 내렸으면 좋겠어. (확실한 결정을 바라는 마음)</div>
         <div class="ex-en" style="margin-top:12px;">Make up your mind, do you want to go or not?</div>
         <div class="ex-ko">결정 좀 해, 갈 건지 말 건지? (명확한 답을 요구)</div>
@@ -2508,7 +2508,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 내적 갈등을 표현할 때 Expressing Internal Conflict</h2>
     <p class="insight-p">자신의 마음 속에서 결정을 내리기 어려움을 표현할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">I can’t seem to make up my mind about moving abroad.</div>
+        <div class="ex-en">I can’t seem to make up my mind about moving abroad. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I can’t seem to make up my mind about moving abroad.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">해외로 이사할지 결정을 못 내리겠어. (내적 고민과 갈등 표현)</div>
         <div class="ex-en" style="margin-top:12px;">She’s struggling to make up her mind about the wedding date.</div>
         <div class="ex-ko">그녀는 결혼 날짜를 정하는 데 어려움을 겪고 있어. (결정의 어려움을 나타냄)</div>
@@ -2518,13 +2518,13 @@ window.coreInsights = {
     "Go for it": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Go for it</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Go for it</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Go for it')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Go for it은 <strong>'자신감을 가지고 도전해라'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Go for it의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Go for it</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Go for it</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Go for it')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"강력한 추진력과 결단"</div>
         <p>입니다. 이 표현은 주저하지 말고 시도하라는 격려의 뜻이 담겨 있습니다.</p>
     </div>
@@ -2546,7 +2546,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 자신감 있는 도전 (Confidence in Action)</h2>
     <p class="insight-p">이 표현은 누군가가 결단력을 가지고 어떤 일을 추진하라고 격려할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">"I know you're nervous about the presentation, but just go for it!"</div>
+        <div class="ex-en">"I know you're nervous about the presentation, but just go for it!" <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;I know you\'re nervous about the presentation, but just go for it!&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"프레젠테이션이 걱정되는 건 알지만, 그냥 도전해봐!" (상대방의 망설임을 없애고 도전하라는 뉘앙스)</div>
         <div class="ex-en" style="margin-top:12px;">"You should definitely apply for that job. Go for it!"</div>
         <div class="ex-ko">"그 일자리에 꼭 지원해봐. 도전해!" (기회를 놓치지 말고 시도하라는 의미)</div>
@@ -2555,7 +2555,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 긍정적 격려 (Positive Encouragement)</h2>
     <p class="insight-p">이 표현은 상대방에게 긍정적인 힘을 실어주며 시작을 독려할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">"You've been practicing so hard, now go for it!"</div>
+        <div class="ex-en">"You've been practicing so hard, now go for it!" <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;You\'ve been practicing so hard, now go for it!&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"열심히 연습했잖아, 이제 해봐!" (긍정적 에너지를 주입하는 뉘앙스)</div>
         <div class="ex-en" style="margin-top:12px;">"If you believe in your idea, then go for it!"</div>
         <div class="ex-ko">"네 아이디어를 믿는다면, 시도해봐!" (자신감과 믿음을 독려하는 의미)</div>
@@ -2564,7 +2564,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 즉각적인 행동 촉구 (Immediate Action Prompt)</h2>
     <p class="insight-p">이 표현은 주저함 없이 즉시 행동에 옮기도록 촉구할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">"The opportunity is right in front of you, go for it!"</div>
+        <div class="ex-en">"The opportunity is right in front of you, go for it!" <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;The opportunity is right in front of you, go for it!&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"기회가 바로 앞에 있어, 당장 해봐!" (즉각적으로 행동을 유도하는 뉘앙스)</div>
         <div class="ex-en" style="margin-top:12px;">"Don't wait for the perfect moment; just go for it!"</div>
         <div class="ex-ko">"완벽한 순간을 기다리지 말고, 그냥 시작해!" (지체하지 말고 바로 시도하라는 의미)</div>
@@ -2574,13 +2574,13 @@ window.coreInsights = {
     "Take it or leave it": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Take it or leave it</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Take it or leave it</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Take it or leave it')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Take it or leave it은 <strong>'최종적인 선택을 요구하는 단호한 입장'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Take it or leave it의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Take it or leave it</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Take it or leave it</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Take it or leave it')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"협상의 여지가 없는 최종 제안"</div>
         <p>입니다. 상대방에게 더 이상의 협상 여지를 주지 않습니다.</p>
     </div>
@@ -2600,7 +2600,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 최종 제안의 단호함 (Firm Final Offer)</h2>
     <p class="insight-p">상대방에게 더 이상의 협상 여지를 주지 않고 최종 결정을 요구합니다.</p>
     <div class="example-group">
-        <div class="ex-en">I'm offering you $1000 for the car, take it or leave it.</div>
+        <div class="ex-en">I'm offering you $1000 for the car, take it or leave it. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I\'m offering you $1000 for the car, take it or leave it.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">내가 차값으로 1000달러를 제안하는데, 받아들일지 말지 선택해. (더 이상의 협상 없이 최종 제안)</div>
         <div class="ex-en" style="margin-top:12px;">This is my final offer. Take it or leave it.</div>
         <div class="ex-ko">이게 내 마지막 제안이야. 받아들일지 말지 선택해. (최종적이고 단호한 입장)</div>
@@ -2609,7 +2609,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 선택 강요 (Forcing a Choice)</h2>
     <p class="insight-p">상대방에게 즉각적인 결정을 요구하여 선택을 강요합니다.</p>
     <div class="example-group">
-        <div class="ex-en">You can join the team under these conditions, take it or leave it.</div>
+        <div class="ex-en">You can join the team under these conditions, take it or leave it. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('You can join the team under these conditions, take it or leave it.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">이 조건으로 팀에 합류할 수 있어, 받아들일지 말지 선택해. (정해진 조건에서 선택을 강요)</div>
         <div class="ex-en" style="margin-top:12px;">Take it or leave it, we can't make any more changes.</div>
         <div class="ex-ko">받아들이든지 말든지, 우리는 더 이상 변경할 수 없어. (변경 불가의 확고한 입장)</div>
@@ -2618,7 +2618,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 협상 종료 (End of Negotiation)</h2>
     <p class="insight-p">더 이상의 협상이 불가능함을 명확히 하여 협상을 종료시킵니다.</p>
     <div class="example-group">
-        <div class="ex-en">This is the last price I can offer, take it or leave it.</div>
+        <div class="ex-en">This is the last price I can offer, take it or leave it. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('This is the last price I can offer, take it or leave it.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">이게 내가 제안할 수 있는 마지막 가격이야, 받아들일지 말지 선택해. (협상의 종료를 알림)</div>
         <div class="ex-en" style="margin-top:12px;">We're done discussing, take it or leave it.</div>
         <div class="ex-ko">우리는 논의를 끝냈어, 받아들일지 말지 선택해. (논의의 종결 선언)</div>
@@ -2628,13 +2628,13 @@ window.coreInsights = {
     "Keep in mind": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Keep in mind</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Keep in mind</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Keep in mind')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Keep in mind은 <strong>'중요한 것을 기억해 두세요'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Keep in mind의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Keep in mind</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Keep in mind</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Keep in mind')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"항상 머릿속에 두고 잊지 말아야 할 것"</div>
         <p>입니다. 주의를 기울이고 중요한 정보를 기억해야 할 때 쓰입니다.</p>
     </div>
@@ -2655,7 +2655,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 정보 기억하기 + Remembering Information</h2>
     <p class="insight-p">어떤 정보를 잊지 않고 기억해야 한다는 뉘앙스입니다.</p>
     <div class="example-group">
-        <div class="ex-en">Keep in mind the deadline is next Friday.</div>
+        <div class="ex-en">Keep in mind the deadline is next Friday. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Keep in mind the deadline is next Friday.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">마감일이 다음 주 금요일이라는 것을 기억하세요. (중요한 정보를 잊지 말라는 의미)</div>
         <div class="ex-en" style="margin-top:12px;">Please keep in mind that the meeting starts at 10 AM.</div>
         <div class="ex-ko">회의가 오전 10시에 시작한다는 것을 기억하세요. (시간 정보를 잊지 말라는 의미)</div>
@@ -2664,7 +2664,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 조언하기 + Giving Advice</h2>
     <p class="insight-p">상대방에게 중요한 점을 조언할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Keep in mind that exercise is essential for health.</div>
+        <div class="ex-en">Keep in mind that exercise is essential for health. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Keep in mind that exercise is essential for health.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">운동이 건강에 필수적이라는 것을 명심하세요. (조언과 충고의 뉘앙스)</div>
         <div class="ex-en" style="margin-top:12px;">Keep in mind to save some money each month.</div>
         <div class="ex-ko">매달 돈을 저축해야 한다는 것을 명심하세요. (재정 관리에 대한 조언)</div>
@@ -2673,7 +2673,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 경고하기 + Issuing a Warning</h2>
     <p class="insight-p">주의를 주거나 경고할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Keep in mind that the roads might be icy.</div>
+        <div class="ex-en">Keep in mind that the roads might be icy. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Keep in mind that the roads might be icy.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">도로가 얼어 있을 수 있다는 것을 명심하세요. (위험에 대한 경고)</div>
         <div class="ex-en" style="margin-top:12px;">Keep in mind not to leave your valuables unattended.</div>
         <div class="ex-ko">귀중품을 방치하지 않도록 명심하세요. (도난 위험에 대한 경고)</div>
@@ -2683,13 +2683,13 @@ window.coreInsights = {
     "Figure it out": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Figure it out</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Figure it out</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Figure it out')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Figure it out은 <strong>'스스로 문제를 해결해 보라'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Figure it out의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Figure it out</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Figure it out</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Figure it out')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"자립적 해결의 촉구"</div>
         <p>입니다. 스스로 답을 찾도록 격려하는 표현입니다.</p>
     </div>
@@ -2710,7 +2710,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 자립적 문제 해결 독려 (Encouragement to Solve Independently)</h2>
     <p class="insight-p">스스로 문제를 해결하도록 독려하는 뉘앙스입니다.</p>
     <div class="example-group">
-        <div class="ex-en">"I can't always be there to help you, so try to figure it out on your own."</div>
+        <div class="ex-en">"I can't always be there to help you, so try to figure it out on your own." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;I can\'t always be there to help you, so try to figure it out on your own.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"내가 항상 도와줄 수는 없으니, 스스로 해결해 보려고 해봐." (스스로 해결할 수 있는 능력을 믿고 맡기는 뉘앙스)</div>
         <div class="ex-en" style="margin-top:12px;">"You have all the tools you need, just figure it out."</div>
         <div class="ex-ko">"필요한 도구는 다 있으니, 그냥 스스로 해결해봐." (도구를 사용해 문제를 해결해보라는 뉘앙스)</div>
@@ -2719,7 +2719,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 직면한 문제의 해결 (Confronting and Solving a Problem)</h2>
     <p class="insight-p">직면한 문제에 대해 스스로 해결책을 찾으라는 뉘앙스입니다.</p>
     <div class="example-group">
-        <div class="ex-en">"The instructions aren't clear, but I'm sure you can figure it out."</div>
+        <div class="ex-en">"The instructions aren't clear, but I'm sure you can figure it out." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;The instructions aren\'t clear, but I\'m sure you can figure it out.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"설명이 명확하지 않지만, 네가 해결할 수 있을 거야." (문제를 직면하고 해결할 수 있는 능력을 격려하는 뉘앙스)</div>
         <div class="ex-en" style="margin-top:12px;">"She's struggling with the puzzle, but she'll figure it out."</div>
         <div class="ex-ko">"그녀가 퍼즐 푸는 데 어려움을 겪고 있지만, 해결할 거야." (시간이 걸리더라도 문제를 해결할 것이라는 신뢰의 뉘앙스)</div>
@@ -2728,7 +2728,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 창의적 접근의 필요성 (Need for Creative Approach)</h2>
     <p class="insight-p">창의적인 방법을 사용하여 문제를 해결해야 한다는 뉘앙스를 담고 있습니다.</p>
     <div class="example-group">
-        <div class="ex-en">"There isn't a straightforward answer, so figure it out creatively."</div>
+        <div class="ex-en">"There isn't a straightforward answer, so figure it out creatively." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;There isn\'t a straightforward answer, so figure it out creatively.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"직접적인 답은 없으니, 창의적으로 해결해봐." (창의적인 사고를 요구하는 뉘앙스)</div>
         <div class="ex-en" style="margin-top:12px;">"If Plan A fails, you'll have to figure it out another way."</div>
         <div class="ex-ko">"계획 A가 실패하면, 다른 방법으로 해결해야 할 거야." (다양한 접근 방법을 시도해야 한다는 뉘앙스)</div>
@@ -2738,13 +2738,13 @@ window.coreInsights = {
     "Move on": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Move on</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Move on</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Move on')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Move on은 <strong>'과거의 일에서 벗어나 새로운 시작으로 나아가는 느낌'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Move on의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Move on</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Move on</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Move on')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"미련 없이 앞으로 나아가는 것"</div>
         <p>입니다. 이는 과거를 뒤로 하고 새로운 장을 시작하는 것을 의미합니다.</p>
     </div>
@@ -2762,7 +2762,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 과거를 놓기 Letting go of the past</h2>
     <p class="insight-p">Move on은 과거의 일이나 감정을 놓고 새로운 시작을 하는 것을 뜻합니다.</p>
     <div class="example-group">
-        <div class="ex-en">"It's time for you to move on from your ex."</div>
+        <div class="ex-en">"It's time for you to move on from your ex." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;It\'s time for you to move on from your ex.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"이제 전 남자친구를 잊고 새출발할 때야." (과거의 관계를 놓고 미래로 나아가는 느낌)</div>
         <div class="ex-en" style="margin-top:12px;">"You need to move on from that mistake."</div>
         <div class="ex-ko">"그 실수를 잊고 새롭게 시작할 필요가 있어." (실패를 뒤로 하고 전진하는 느낌)</div>
@@ -2771,7 +2771,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 변화 수용하기 Embracing change</h2>
     <p class="insight-p">새로운 기회나 변화를 수용하며 앞으로 나아가는 것을 Move on이라고 합니다.</p>
     <div class="example-group">
-        <div class="ex-en">"After losing the job, she decided to move on and start a business."</div>
+        <div class="ex-en">"After losing the job, she decided to move on and start a business." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;After losing the job, she decided to move on and start a business.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"직장을 잃은 후, 그녀는 새 사업을 시작하며 전진하기로 결심했다." (변화를 긍정적으로 받아들이는 느낌)</div>
         <div class="ex-en" style="margin-top:12px;">"He moved on when he realized the old methods wouldn't work anymore."</div>
         <div class="ex-ko">"그는 옛 방법이 더 이상 통하지 않는다는 것을 깨닫고 나아갔다." (변화를 받아들이고 적응하는 느낌)</div>
@@ -2780,7 +2780,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 긍정적인 태도 Positive attitude</h2>
     <p class="insight-p">Move on은 긍정적인 태도로 미래를 맞이하는 것을 의미합니다.</p>
     <div class="example-group">
-        <div class="ex-en">"Despite the challenges, he chose to move on with a smile."</div>
+        <div class="ex-en">"Despite the challenges, he chose to move on with a smile." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;Despite the challenges, he chose to move on with a smile.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"어려움에도 불구하고 그는 미소를 지으며 나아가기로 선택했다." (긍정적인 태도로 미래를 대하는 느낌)</div>
         <div class="ex-en" style="margin-top:12px;">"She moved on, believing good things were ahead."</div>
         <div class="ex-ko">"그녀는 좋은 일이 있을 것이라 믿고 나아갔다." (미래에 대한 긍정적 기대를 가지고 전진하는 느낌)</div>
@@ -2790,13 +2790,13 @@ window.coreInsights = {
     "Long story short": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Long story short</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Long story short</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Long story short')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Long story short은 <strong>'불필요한 세부사항을 생략하고 가장 중요한 요점을 말함'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Long story short의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Long story short</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Long story short</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Long story short')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"가장 짧고 강렬한 본질적 의미"</div>
         <p>즉, 긴 이야기를 짧게 요약하는 것입니다.</p>
     </div>
@@ -2815,7 +2815,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 요약하고 본질만 말하기 + Summarizing and Getting to the Point</h2>
     <p class="insight-p">이 표현은 이야기를 요약하고 핵심을 전달하려 할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Long story short, we missed the train.</div>
+        <div class="ex-en">Long story short, we missed the train. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Long story short, we missed the train.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">간단히 말해서, 우리는 기차를 놓쳤어요. (여기서 '있는 그대로' 놓친 상황을 전달)</div>
         <div class="ex-en" style="margin-top:12px;">Long story short, the meeting was a success.</div>
         <div class="ex-ko">결론적으로 말하자면, 회의는 성공적이었습니다. (회의의 긍정적인 결과를 요약)</div>
@@ -2824,7 +2824,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 불필요한 세부사항 생략 + Omitting Unnecessary Details</h2>
     <p class="insight-p">중요하지 않은 세부사항을 생략하고 핵심만 말할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Long story short, they decided to join us.</div>
+        <div class="ex-en">Long story short, they decided to join us. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Long story short, they decided to join us.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">간단히 말해서, 그들이 우리와 함께하기로 결정했어요. (결정만 언급, 세부 논의 생략)</div>
         <div class="ex-en" style="margin-top:12px;">Long story short, we got the deal.</div>
         <div class="ex-ko">한마디로, 우리는 계약을 성사시켰습니다. (결과만 강조, 과정은 생략)</div>
@@ -2833,7 +2833,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 긴장감을 줄이고 편안하게 + Reducing Tension and Being Casual</h2>
     <p class="insight-p">대화에서 부담을 줄이고 싶을 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Long story short, everything worked out fine.</div>
+        <div class="ex-en">Long story short, everything worked out fine. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Long story short, everything worked out fine.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">간단히 말해서, 모든 것이 잘 해결되었어요. (편안하게 결과를 전달)</div>
         <div class="ex-en" style="margin-top:12px;">Long story short, we're back on track.</div>
         <div class="ex-ko">결론적으로, 우리는 다시 정상 궤도로 돌아왔습니다. (긍정적으로 상황을 정리)</div>
@@ -2843,13 +2843,13 @@ window.coreInsights = {
     "Point being": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Point being</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Point being</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Point being')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Point being은 <strong>'이 표현의 가장 핵심적인 원어민 뉘앙스 요약'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Point being의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Point being</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Point being</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Point being')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"가장 짧고 강렬한 본질적 의미"</div>
         <p>입니다. 대화의 요점을 강조할 때 주로 사용됩니다.</p>
     </div>
@@ -2870,7 +2870,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 요점 강조하기 (Emphasizing the Point)</h2>
     <p class="insight-p">대화를 요약하면서 핵심을 강조하기 위해 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">I know you have many ideas, but point being, we need to stick to the budget.</div>
+        <div class="ex-en">I know you have many ideas, but point being, we need to stick to the budget. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I know you have many ideas, but point being, we need to stick to the budget.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">네가 여러 아이디어가 있는 건 알지만, 요점은 우리가 예산을 지켜야 한다는 거야. (주제를 벗어나지 않고 요점을 강조)</div>
         <div class="ex-en" style="margin-top:12px;">Point being, we don't have enough time to finish this today.</div>
         <div class="ex-ko">요점은, 오늘 이걸 끝낼 시간이 부족하다는 거야. (시간 제약에 대한 명확한 강조)</div>
@@ -2879,7 +2879,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 결론 도출하기 (Drawing a Conclusion)</h2>
     <p class="insight-p">긴 설명 후에 결론을 내릴 때 자주 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">We've tried every method possible. Point being, it's time to consider alternatives.</div>
+        <div class="ex-en">We've tried every method possible. Point being, it's time to consider alternatives. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('We\'ve tried every method possible. Point being, it\'s time to consider alternatives.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">우리는 가능한 모든 방법을 시도해봤어. 요점은, 이제 대안을 고려할 때라는 거야. (결론을 내리며 새로운 방향 제시)</div>
         <div class="ex-en" style="margin-top:12px;">Point being, after all the discussions, we should proceed with the original plan.</div>
         <div class="ex-ko">결론은, 모든 논의 끝에 우리는 원래 계획대로 진행해야 한다는 거야. (논의 후 결론을 도출)</div>
@@ -2888,7 +2888,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 논쟁 중 요점 간추리기 (Summarizing in Arguments)</h2>
     <p class="insight-p">논쟁이나 토론 중 상대방에게 요점을 간추려 전달할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">You mentioned various factors, but point being, the decision lies with the board.</div>
+        <div class="ex-en">You mentioned various factors, but point being, the decision lies with the board. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('You mentioned various factors, but point being, the decision lies with the board.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">여러 요소를 언급했지만, 요점은 결정이 이사회에 달려 있다는 거야. (논쟁 중 핵심 사항을 간단히 정리)</div>
         <div class="ex-en" style="margin-top:12px;">Point being, regardless of opinions, the contract has been signed.</div>
         <div class="ex-ko">요점은, 의견과 상관없이 계약이 이미 체결됐다는 거야. (의견의 다양성과 상관없이 결론을 강조)</div>
@@ -2898,13 +2898,13 @@ window.coreInsights = {
     "Could you": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Could you</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Could you</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Could you')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Could you은 <strong>'공손하고 협조적인 요청의 시작'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Could you의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Could you</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Could you</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Could you')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"부드럽고 정중한 요청"</div>
         <p>입니다. 이 표현은 상대방의 도움을 요청할 때 사용됩니다.</p>
     </div>
@@ -2925,7 +2925,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 정중한 요청의 시작 (Starting a Polite Request)</h2>
     <p class="insight-p">정중하게 상대방에게 무언가를 부탁할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Could you pass the salt?</div>
+        <div class="ex-en">Could you pass the salt? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Could you pass the salt?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">소금 좀 건네줄 수 있어? (정중하게 부탁하는 표현)</div>
         <div class="ex-en" style="margin-top:12px;">Could you help me with this problem?</div>
         <div class="ex-ko">이 문제 좀 도와줄 수 있어? (도움을 정중하게 요청하는 표현)</div>
@@ -2934,7 +2934,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 가능성에 대한 확인 (Checking Possibility)</h2>
     <p class="insight-p">상대방이 어떤 일을 할 수 있는지 가능성을 확인할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Could you finish this by tomorrow?</div>
+        <div class="ex-en">Could you finish this by tomorrow? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Could you finish this by tomorrow?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">내일까지 이걸 끝낼 수 있어? (가능성을 확인하는 표현)</div>
         <div class="ex-en" style="margin-top:12px;">Could you meet me at the office?</div>
         <div class="ex-ko">사무실에서 만날 수 있어? (만날 수 있는지 여부를 확인하는 표현)</div>
@@ -2943,7 +2943,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 협조와 도움 요청 (Requesting Cooperation and Assistance)</h2>
     <p class="insight-p">상대방의 협조나 도움을 필요로 할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Could you lend me a hand with this task?</div>
+        <div class="ex-en">Could you lend me a hand with this task? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Could you lend me a hand with this task?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">이 작업에 손 좀 빌려줄 수 있어? (협조를 요청하는 표현)</div>
         <div class="ex-en" style="margin-top:12px;">Could you give me some advice?</div>
         <div class="ex-ko">조언 좀 해줄 수 있어? (도움을 요청하는 표현)</div>
@@ -2953,13 +2953,13 @@ window.coreInsights = {
     "Could I": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Could I</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Could I</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Could I')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Could I은 <strong>'정중한 요청이나 가능성을 여는 표현'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Could I의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Could I</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Could I</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Could I')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"문을 두드리는 부드러운 요청"</div>
         <p>입니다. 이 표현은 공손하게 허락을 구할 때 사용됩니다.</p>
     </div>
@@ -2981,7 +2981,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 정중한 요청과 허락 요청 (Polite Request)</h2>
     <p class="insight-p">"Could I"는 정중하게 어떤 것을 요청하거나 허락을 구할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Could I borrow your pen?</div>
+        <div class="ex-en">Could I borrow your pen? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Could I borrow your pen?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">제가 당신의 펜을 빌릴 수 있을까요? (상대방의 허락을 정중히 구하는 표현)</div>
         <div class="ex-en" style="margin-top:12px;">Could I have a glass of water?</div>
         <div class="ex-ko">물 한 잔 주실 수 있을까요? (정중하게 부탁하며 요청하는 표현)</div>
@@ -2990,7 +2990,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 가능성 탐색 (Exploring Possibility)</h2>
     <p class="insight-p">"Could I"는 무엇이 가능한지를 탐색할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Could I see the menu, please?</div>
+        <div class="ex-en">Could I see the menu, please? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Could I see the menu, please?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">메뉴를 볼 수 있을까요? (메뉴를 볼 수 있는 가능성을 탐색하는 표현)</div>
         <div class="ex-en" style="margin-top:12px;">Could I get a discount on this item?</div>
         <div class="ex-ko">이 상품에 할인을 받을 수 있을까요? (할인 가능성을 정중하게 탐색하는 표현)</div>
@@ -2999,7 +2999,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 제안 제시 (Offering a Suggestion)</h2>
     <p class="insight-p">"Could I"는 제안을 부드럽게 제시할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Could I suggest a different approach?</div>
+        <div class="ex-en">Could I suggest a different approach? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Could I suggest a different approach?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">다른 접근 방식을 제안드려도 될까요? (정중하게 제안을 제시하는 표현)</div>
         <div class="ex-en" style="margin-top:12px;">Could I offer some advice?</div>
         <div class="ex-ko">몇 가지 조언을 드려도 될까요? (부드럽게 의견을 제시하는 표현)</div>
@@ -3009,13 +3009,13 @@ window.coreInsights = {
     "Could we": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Could we</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Could we</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Could we')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Could we은 <strong>'가능성을 탐색하며 정중하게 요청하는 느낌'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Could we의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Could we</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Could we</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Could we')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"정중한 협력의 제안"</div>
         <p>입니다. 이 표현은 상대방의 의향을 존중하며 가능성을 열어두는 역할을 합니다.</p>
     </div>
@@ -3038,7 +3038,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 정중한 요청 및 제안 (Polite Request and Proposal)</h2>
     <p class="insight-p">상대방에게 정중하게 어떤 일을 함께 할 수 있는지를 물어볼 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Could we meet tomorrow to discuss this further?</div>
+        <div class="ex-en">Could we meet tomorrow to discuss this further? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Could we meet tomorrow to discuss this further?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">내일 만나서 이것에 대해 더 논의할 수 있을까요? (정중하게 회의를 제안)</div>
         <div class="ex-en" style="margin-top:12px;">Could we have a look at the proposal again?</div>
         <div class="ex-ko">제안서를 다시 한번 볼 수 있을까요? (상대방의 동의를 구하는 요청)</div>
@@ -3047,7 +3047,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 가능성 탐색 (Exploring Possibility)</h2>
     <p class="insight-p">어떤 일이 가능한지를 정중하게 탐색하는 상황에서 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Could we start the project earlier than planned?</div>
+        <div class="ex-en">Could we start the project earlier than planned? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Could we start the project earlier than planned?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">계획보다 일찍 프로젝트를 시작할 수 있을까요? (일정 조정 가능성을 탐색)</div>
         <div class="ex-en" style="margin-top:12px;">Could we consider an alternative approach?</div>
         <div class="ex-ko">대체 방법을 고려할 수 있을까요? (새로운 방법을 제안하며 탐색)</div>
@@ -3056,7 +3056,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 협력 의지 (Willingness to Collaborate)</h2>
     <p class="insight-p">상대방과 협력할 의지를 정중하게 표현할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Could we work together on this project?</div>
+        <div class="ex-en">Could we work together on this project? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Could we work together on this project?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">이 프로젝트에서 함께 일할 수 있을까요? (협력 의지를 표현)</div>
         <div class="ex-en" style="margin-top:12px;">Could we join forces to improve the outcome?</div>
         <div class="ex-ko">결과를 개선하기 위해 힘을 합칠 수 있을까요? (협력 제안과 의지 표현)</div>
@@ -3066,13 +3066,13 @@ window.coreInsights = {
     "Couldn't you": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Couldn't you</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Couldn't you</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Couldn\'t you')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Couldn't you은 <strong>'상대방에게 간접적으로 제안하거나 부드럽게 요청하는 뉘앙스'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Couldn't you의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Couldn't you</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Couldn't you</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Couldn\'t you')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"부드러운 제안 또는 요청"</div>
         <p>입니다. 상대방의 부담을 줄이면서 동시에 요청을 전달하고자 할 때 사용됩니다.</p>
     </div>
@@ -3092,7 +3092,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 부드러운 제안 또는 요청 (Soft Suggestion or Request)</h2>
     <p class="insight-p">상대방에게 부담을 주지 않으면서 제안이나 요청을 할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Couldn't you help me with this task?</div>
+        <div class="ex-en">Couldn't you help me with this task? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Couldn\'t you help me with this task?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">이 일을 도와줄 수 없을까요? (상대방에게 부담을 주지 않고 도움을 요청하는 상황)</div>
         <div class="ex-en" style="margin-top:12px;">Couldn't you come a bit earlier tomorrow?</div>
         <div class="ex-ko">내일 조금 더 일찍 올 수 없을까요? (부드럽게 시간을 앞당겨달라고 부탁하는 경우)</div>
@@ -3101,7 +3101,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 간접적인 제안 (Indirect Suggestion)</h2>
     <p class="insight-p">직접적으로 명령하지 않고 상대방이 자발적으로 행동하게끔 제안할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Couldn't you think about joining us for dinner?</div>
+        <div class="ex-en">Couldn't you think about joining us for dinner? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Couldn\'t you think about joining us for dinner?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">저녁 식사에 함께할 수 없을까요? (직접적이지 않게 상대방을 초대하는 경우)</div>
         <div class="ex-en" style="margin-top:12px;">Couldn't you try talking to him about it?</div>
         <div class="ex-ko">그와 그 문제에 대해 이야기할 수 없을까요? (상대방이 스스로 해결책을 찾도록 유도하는 상황)</div>
@@ -3110,7 +3110,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 부드러운 불만 또는 회의 (Soft Discontent or Doubt)</h2>
     <p class="insight-p">상황에 대한 불만이나 의문을 부드럽게 표현할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Couldn't you have told me earlier?</div>
+        <div class="ex-en">Couldn't you have told me earlier? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Couldn\'t you have told me earlier?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">좀 더 일찍 말해줄 수 없었나요? (상대방에게 불만을 부드럽게 표현하는 경우)</div>
         <div class="ex-en" style="margin-top:12px;">Couldn't you have checked the report before submitting?</div>
         <div class="ex-ko">보고서를 제출하기 전에 확인할 수 없었나요? (실수에 대한 의문을 부드럽게 제기하는 상황)</div>
@@ -3120,13 +3120,13 @@ window.coreInsights = {
     "Could you possibly": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Could you possibly</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Could you possibly</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Could you possibly')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Could you possibly은 <strong>'정중한 요청의 최상급 표현'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Could you possibly의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Could you possibly</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Could you possibly</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Could you possibly')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"정중하면서도 간절한 부탁"</div>
         <p>입니다. 이는 상대방의 배려를 최대한 고려한 표현입니다.</p>
     </div>
@@ -3149,7 +3149,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 정중한 부탁의 표현 (Polite Request)</h2>
     <p class="insight-p">다른 사람에게 부담을 주지 않으려는 정중한 부탁의 표현입니다.</p>
     <div class="example-group">
-        <div class="ex-en">Could you possibly help me with this task?</div>
+        <div class="ex-en">Could you possibly help me with this task? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Could you possibly help me with this task?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">이 일을 도와주실 수 있을까요? (정중하게 도움을 요청하는 표현)</div>
         <div class="ex-en" style="margin-top:12px;">Could you possibly lend me your book?</div>
         <div class="ex-ko">책을 빌려주실 수 있을까요? (정중하게 물어보는 표현)</div>
@@ -3158,7 +3158,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 간절함과 절실함 (Sincerity and Urgency)</h2>
     <p class="insight-p">상대방의 도움이 절실히 필요한 상황에서 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Could you possibly come a bit earlier tomorrow?</div>
+        <div class="ex-en">Could you possibly come a bit earlier tomorrow? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Could you possibly come a bit earlier tomorrow?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">내일 조금 일찍 와주실 수 있을까요? (절실한 부탁)</div>
         <div class="ex-en" style="margin-top:12px;">Could you possibly stay a bit longer?</div>
         <div class="ex-ko">조금 더 머물러 주실 수 있을까요? (간절한 요청)</div>
@@ -3167,7 +3167,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 상대방에 대한 존중 (Respect for Others)</h2>
     <p class="insight-p">상대방의 시간을 존중하며 요청할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Could you possibly review this document when you have time?</div>
+        <div class="ex-en">Could you possibly review this document when you have time? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Could you possibly review this document when you have time?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">시간이 되실 때 이 문서를 검토해 주실 수 있을까요? (상대방의 시간 존중)</div>
         <div class="ex-en" style="margin-top:12px;">Could you possibly let me know your decision by Friday?</div>
         <div class="ex-ko">금요일까지 결정을 알려주실 수 있을까요? (상대방의 일정 존중)</div>
@@ -3177,13 +3177,13 @@ window.coreInsights = {
     "If you could": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>If you could</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>If you could</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('If you could')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 If you could은 <strong>'정중한 요청과 가능성 탐색'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">If you could의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>If you could</strong>의 핵심은</p>
+        <p>원어민에게 <strong>If you could</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('If you could')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"정중함과 배려의 표현"</div>
         <p>입니다. 이 표현은 상대방의 가능성을 고려하며 요청할 때 사용됩니다.</p>
     </div>
@@ -3205,7 +3205,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 정중한 요청의 표현 Polite Request</h2>
     <p class="insight-p">상대방에게 부담을 주지 않으면서 무언가를 요청할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">If you could help me with this task, I would appreciate it.</div>
+        <div class="ex-en">If you could help me with this task, I would appreciate it. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('If you could help me with this task, I would appreciate it.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">이 일을 도와주실 수 있다면 감사하겠습니다. (상대방의 가능성을 고려한 정중한 요청)</div>
         <div class="ex-en" style="margin-top:12px;">If you could pass me the salt, that would be great.</div>
         <div class="ex-ko">소금을 건네주실 수 있으면 좋겠습니다. (간단한 부탁을 정중하게 표현)</div>
@@ -3214,7 +3214,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 가능성 탐색 Exploring Possibility</h2>
     <p class="insight-p">상대방의 상황이나 가능성을 우선적으로 고려할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">If you could join us for dinner, it would be lovely.</div>
+        <div class="ex-en">If you could join us for dinner, it would be lovely. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('If you could join us for dinner, it would be lovely.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">저녁 식사에 함께할 수 있다면 좋겠습니다. (상대방의 가능성을 확인하며 초대)</div>
         <div class="ex-en" style="margin-top:12px;">If you could come to the meeting, it would be helpful.</div>
         <div class="ex-ko">회의에 참석하실 수 있다면 도움이 될 것입니다. (참석 가능성을 확인하며 요청)</div>
@@ -3223,7 +3223,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 간접적인 제안 Indirect Suggestion</h2>
     <p class="insight-p">직접적으로 명령하기보다는 부드럽게 제안할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">If you could review the document by tomorrow, that would be perfect.</div>
+        <div class="ex-en">If you could review the document by tomorrow, that would be perfect. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('If you could review the document by tomorrow, that would be perfect.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">내일까지 문서를 검토해주실 수 있다면 완벽하겠습니다. (부드러운 제안으로 검토 요청)</div>
         <div class="ex-en" style="margin-top:12px;">If you could consider my proposal, I'd be grateful.</div>
         <div class="ex-ko">제 제안을 고려해 주신다면 감사하겠습니다. (직접적이지 않은 제안으로 배려 표현)</div>
@@ -3233,13 +3233,13 @@ window.coreInsights = {
     "Could you do me a favor": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Could you do me a favor</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Could you do me a favor</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Could you do me a favor')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Could you do me a favor은 <strong>'상대를 배려하며 부탁을 건네는 정중한 요청'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Could you do me a favor의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Could you do me a favor</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Could you do me a favor</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Could you do me a favor')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"상대방의 도움이 필요할 때 정중하게 요청하는 것"</div>
         <p>상대방의 호의를 기대하며 말하는 표현입니다.</p>
     </div>
@@ -3256,7 +3256,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 정중한 요청의 표현 (Polite Request)</h2>
     <p class="insight-p">이 표현은 상대방에게 부담을 덜 주면서 요청을 할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Could you do me a favor and pass the salt?</div>
+        <div class="ex-en">Could you do me a favor and pass the salt? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Could you do me a favor and pass the salt?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">소금을 건네주실 수 있나요? (일상적인 요청을 정중히 표현)</div>
         <div class="ex-en" style="margin-top:12px;">Could you do me a favor and check this document?</div>
         <div class="ex-ko">이 문서를 확인해 주실 수 있나요? (상대방의 도움을 부드럽게 요청)</div>
@@ -3265,7 +3265,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 상대방에 대한 존중 (Respect Towards the Other)</h2>
     <p class="insight-p">상대방의 시간을 존중하고 배려하는 마음을 담고 있습니다.</p>
     <div class="example-group">
-        <div class="ex-en">Could you do me a favor and listen to my idea?</div>
+        <div class="ex-en">Could you do me a favor and listen to my idea? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Could you do me a favor and listen to my idea?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">제 아이디어를 들어봐 주실 수 있어요? (상대방의 시간을 가치 있게 여김)</div>
         <div class="ex-en" style="margin-top:12px;">Could you do me a favor and help me with this task?</div>
         <div class="ex-ko">이 일을 도와주실 수 있나요? (상대방의 도움을 받기 위해 존중의 표현)</div>
@@ -3274,7 +3274,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 친밀감과 신뢰 (Closeness and Trust)</h2>
     <p class="insight-p">상대방과의 관계가 친밀할 때 더 자연스럽게 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Could you do me a favor and keep this secret?</div>
+        <div class="ex-en">Could you do me a favor and keep this secret? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Could you do me a favor and keep this secret?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">이 비밀을 지켜주실 수 있나요? (상대방에 대한 신뢰를 바탕으로 한 부탁)</div>
         <div class="ex-en" style="margin-top:12px;">Could you do me a favor and pick me up from the station?</div>
         <div class="ex-ko">역에서 저를 데리러 와주실 수 있나요? (친밀한 관계에서의 부탁)</div>
@@ -3284,13 +3284,13 @@ window.coreInsights = {
     "Would you like": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Would you like</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Would you like</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Would you like')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Would you like은 <strong>'정중한 제안이나 초대'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Would you like의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Would you like</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Would you like</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Would you like')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"정중한 의향 확인"</div>
         <p>입니다. 상대방의 선택을 존중하는 태도를 담고 있습니다.</p>
     </div>
@@ -3309,7 +3309,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 정중한 제안과 초대 (Polite Offer and Invitation)</h2>
     <p class="insight-p">이 표현은 상대방에게 무엇을 권하거나 초대할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Would you like a cup of tea?</div>
+        <div class="ex-en">Would you like a cup of tea? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Would you like a cup of tea?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">차 한 잔 드릴까요? (상대방의 의향을 존중하는 제안)</div>
         <div class="ex-en" style="margin-top:12px;">Would you like to join us for dinner?</div>
         <div class="ex-ko">저녁 식사에 함께 하시겠어요? (정중한 초대)</div>
@@ -3318,7 +3318,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 선택의 기회 제공 (Offering a Choice)</h2>
     <p class="insight-p">상대방에게 선택할 수 있는 기회를 제공할 때 쓰입니다.</p>
     <div class="example-group">
-        <div class="ex-en">Would you like to try the new dessert?</div>
+        <div class="ex-en">Would you like to try the new dessert? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Would you like to try the new dessert?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">새로운 디저트를 드셔보시겠어요? (새로운 것을 시도할 기회를 제공)</div>
         <div class="ex-en" style="margin-top:12px;">Would you like me to help with that?</div>
         <div class="ex-ko">제가 그걸 도와드릴까요? (도움이 필요한지 묻는 선택의 제공)</div>
@@ -3327,7 +3327,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 간접적인 요청 (Indirect Request)</h2>
     <p class="insight-p">부드럽고 정중하게 요청할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Would you like to pass the salt?</div>
+        <div class="ex-en">Would you like to pass the salt? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Would you like to pass the salt?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">소금을 건네주시겠어요? (정중한 요청)</div>
         <div class="ex-en" style="margin-top:12px;">Would you like to send this email for me?</div>
         <div class="ex-ko">이 이메일을 보내주시겠어요? (부드럽게 부탁하는 요청)</div>
@@ -3337,13 +3337,13 @@ window.coreInsights = {
     "I would love to": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>I would love to</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>I would love to</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I would love to')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 I would love to은 <strong>'강한 열망과 긍정적인 의지'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">I would love to의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>I would love to</strong>의 핵심은</p>
+        <p>원어민에게 <strong>I would love to</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I would love to')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"강한 열망과 긍정의 표현"</div>
         <p>입니다. 이 표현은 상대방에게 적극적인 참여 의지를 전합니다.</p>
     </div>
@@ -3363,7 +3363,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 적극적인 참여의사 표현 - Expressing Eagerness</h2>
     <p class="insight-p">상대방의 제안이나 초대에 적극적으로 응답할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">"Would you like to come to the party?" "I would love to!"</div>
+        <div class="ex-en">"Would you like to come to the party?" "I would love to!" <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;Would you like to come to the party?&quot; &quot;I would love to!&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"파티에 올래?" "정말 가고 싶어요!" (상대방의 초대에 기꺼이 응답하는 뉘앙스)</div>
         <div class="ex-en" style="margin-top:12px;">"Can you join us for dinner?" "I would love to."</div>
         <div class="ex-ko">"저녁 식사 같이 할래요?" "정말 그러고 싶어요." (초대에 대한 적극적인 응답)</div>
@@ -3372,7 +3372,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 기쁨의 표현 - Expressing Joy</h2>
     <p class="insight-p">무언가를 할 기회에 대해 기쁨을 표현할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">"Would you like to volunteer for the event?" "I would love to!"</div>
+        <div class="ex-en">"Would you like to volunteer for the event?" "I would love to!" <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;Would you like to volunteer for the event?&quot; &quot;I would love to!&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"행사에 자원봉사 하실래요?" "정말 기쁘게 할게요!" (기쁨과 열정을 담아 응답)</div>
         <div class="ex-en" style="margin-top:12px;">"Do you want to visit the art exhibition?" "I would love to."</div>
         <div class="ex-ko">"미술 전시회에 가고 싶어요?" "정말 가고 싶어요." (기회에 대한 기쁨 표현)</div>
@@ -3381,7 +3381,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 정중한 거절 - Polite Decline</h2>
     <p class="insight-p">직접적인 거절 대신 긍정적인 감정을 담아 정중하게 거절할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">"Can you help me with this task?" "I would love to, but I am busy right now."</div>
+        <div class="ex-en">"Can you help me with this task?" "I would love to, but I am busy right now." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;Can you help me with this task?&quot; &quot;I would love to, but I am busy right now.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"이 일을 도와줄 수 있나요?" "정말 그러고 싶지만 지금은 바빠요." (상대방을 존중하며 정중하게 거절)</div>
         <div class="ex-en" style="margin-top:12px;">"Would you like to join us for a movie?" "I would love to, but I have other plans."</div>
         <div class="ex-ko">"영화 보러 같이 갈래요?" "정말 가고 싶지만 다른 계획이 있어요." (긍정적인 의사 표현을 포함한 정중한 거절)</div>
@@ -3391,13 +3391,13 @@ window.coreInsights = {
     "Would you mind": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Would you mind</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Would you mind</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Would you mind')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Would you mind은 <strong>'정중한 요청이나 허락을 구할 때의 공손함'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Would you mind의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Would you mind</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Would you mind</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Would you mind')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"부드러운 허락의 요청"</div>
         <p>상대방의 기분을 배려하면서 요청하는 표현입니다.</p>
     </div>
@@ -3418,7 +3418,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 부드러운 요청의 뉘앙스 (Gentle Request)</h2>
     <p class="insight-p">다른 사람에게 무언가를 요청할 때, 그들의 의사를 존중하는 태도로 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Would you mind passing me the salt?</div>
+        <div class="ex-en">Would you mind passing me the salt? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Would you mind passing me the salt?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">소금 좀 건네주시겠어요? (상대방의 동의를 구하며 정중함을 나타냄)</div>
         <div class="ex-en" style="margin-top:12px;">Would you mind if I opened the window?</div>
         <div class="ex-ko">창문을 열어도 괜찮을까요? (허락을 구하는 부드러운 표현)</div>
@@ -3427,7 +3427,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 상대방 배려의 뉘앙스 (Considering Others)</h2>
     <p class="insight-p">상대방의 편의를 고려하여 조심스럽게 부탁할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Would you mind if I joined you for lunch?</div>
+        <div class="ex-en">Would you mind if I joined you for lunch? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Would you mind if I joined you for lunch?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">점심에 함께해도 괜찮을까요? (상대방의 공간을 존중하는 표현)</div>
         <div class="ex-en" style="margin-top:12px;">Would you mind turning down the music?</div>
         <div class="ex-ko">음악 소리 좀 줄여주시겠어요? (상대를 배려하는 정중한 부탁)</div>
@@ -3436,7 +3436,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 긍정적 예의의 뉘앙스 (Positive Politeness)</h2>
     <p class="insight-p">상대방에게 긍정적인 예의를 표하며 사용할 수 있습니다.</p>
     <div class="example-group">
-        <div class="ex-en">Would you mind helping me with this task?</div>
+        <div class="ex-en">Would you mind helping me with this task? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Would you mind helping me with this task?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">이 일을 도와주시겠어요? (상대방에게 예의를 갖춘 요청)</div>
         <div class="ex-en" style="margin-top:12px;">Would you mind if I borrowed your pen?</div>
         <div class="ex-ko">펜을 빌려도 될까요? (상대방의 소유물을 존중하며 요청)</div>
@@ -3446,13 +3446,13 @@ window.coreInsights = {
     "Would you prefer": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Would you prefer</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Would you prefer</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Would you prefer')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Would you prefer은 <strong>'선택을 부드럽고 정중하게 물어보는 상황'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Would you prefer의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Would you prefer</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Would you prefer</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Would you prefer')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"선택의 가능성을 열어두는 부드러운 제안"</div>
         <p>입니다. 상대방의 의견을 존중하며 선택지를 제공합니다.</p>
     </div>
@@ -3471,7 +3471,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 선택지 제시 - Offering Choices</h2>
     <p class="insight-p">상대방에게 여러 선택지 중 하나를 고르게 할 때 사용합니다.</p>
     <div class="example-group">
-        <div class="ex-en">Would you prefer tea or coffee?</div>
+        <div class="ex-en">Would you prefer tea or coffee? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Would you prefer tea or coffee?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">차와 커피 중에 무엇을 더 좋아하시나요? (상대방의 취향을 묻는 정중한 방식)</div>
         <div class="ex-en" style="margin-top:12px;">Would you prefer to sit inside or outside?</div>
         <div class="ex-ko">실내에 앉으시겠어요, 아니면 실외에 앉으시겠어요? (선택지를 제공하여 상대방의 선호를 존중)</div>
@@ -3480,7 +3480,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 정중한 제안 - Polite Suggestion</h2>
     <p class="insight-p">상대방에게 정중하게 제안을 할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Would you prefer to meet tomorrow?</div>
+        <div class="ex-en">Would you prefer to meet tomorrow? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Would you prefer to meet tomorrow?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">내일 만나시는 게 어떨까요? (상대방의 편의를 고려하여 제안)</div>
         <div class="ex-en" style="margin-top:12px;">Would you prefer to start the meeting at 10 AM?</div>
         <div class="ex-ko">회의를 오전 10시에 시작하는 게 좋으신가요? (상대방의 일정에 맞춘 제안)</div>
@@ -3489,7 +3489,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 의견 존중 - Respecting Opinion</h2>
     <p class="insight-p">상대방의 의견을 존중하는 상황에서 자주 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Would you prefer if I called you later?</div>
+        <div class="ex-en">Would you prefer if I called you later? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Would you prefer if I called you later?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">제가 나중에 전화드리는 게 좋으신가요? (타인의 편의를 고려한 표현)</div>
         <div class="ex-en" style="margin-top:12px;">Would you prefer a different approach?</div>
         <div class="ex-ko">다른 방식이 더 좋으신가요? (상대방의 의견을 존중하고자 할 때)</div>
@@ -3499,13 +3499,13 @@ window.coreInsights = {
     "I would rather": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>I would rather</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>I would rather</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I would rather')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 I would rather은 <strong>'선호의 미묘한 선택'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">I would rather의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>I would rather</strong>의 핵심은</p>
+        <p>원어민에게 <strong>I would rather</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I would rather')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"선택과 비교의 본질적 표현"</div>
         <p>입니다. 이 표현은 두 가지 이상의 옵션 중 선호하는 것을 표현합니다.</p>
     </div>
@@ -3521,7 +3521,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 선호를 표현하는 선택 Preference Expression</h2>
     <p class="insight-p">이 표현은 주어진 선택지 중 하나를 더 선호할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">I'd rather stay home tonight.</div>
+        <div class="ex-en">I'd rather stay home tonight. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I\'d rather stay home tonight.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">오늘 밤에는 집에 있는 게 좋겠어요. (다른 선택지보다 집에 있는 것이 더 나은 선택임을 표현)</div>
         <div class="ex-en" style="margin-top:12px;">I would rather have coffee than tea.</div>
         <div class="ex-ko">차보다 커피를 마시는 게 좋겠어요. (차보다 커피를 더 원함을 표현)</div>
@@ -3530,7 +3530,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 대안의 제시 Alternative Suggestion</h2>
     <p class="insight-p">어떤 제안에 대한 대안을 제시할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">I would rather not go there.</div>
+        <div class="ex-en">I would rather not go there. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I would rather not go there.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">거기 가지 않는 게 낫겠어요. (제안된 옵션 대신 다른 옵션을 암시)</div>
         <div class="ex-en" style="margin-top:12px;">She'd rather eat out tonight.</div>
         <div class="ex-ko">그녀는 오늘 밤 외식을 더 선호해요. (집에서 먹기보다 외식을 선호함을 암시)</div>
@@ -3539,7 +3539,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 부정적 선택의 완곡한 표현 Polite Negative Choice</h2>
     <p class="insight-p">상대방의 제안을 정중히 거절할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">I'd rather not discuss this now.</div>
+        <div class="ex-en">I'd rather not discuss this now. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I\'d rather not discuss this now.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">지금은 이걸 논의하지 않는 게 좋겠어요. (정중히 논의를 피하고 싶음을 표현)</div>
         <div class="ex-en" style="margin-top:12px;">He'd rather not say anything.</div>
         <div class="ex-ko">그는 아무 말도 하지 않는 게 좋겠대요. (발언하지 않기로 정중히 선택함을 표현)</div>
@@ -3549,13 +3549,13 @@ window.coreInsights = {
     "Would it be okay": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Would it be okay</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Would it be okay</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Would it be okay')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Would it be okay은 <strong>'상대방의 허락을 부드럽고 정중하게 요청하는 뉘앙스'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Would it be okay의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Would it be okay</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Would it be okay</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Would it be okay')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"상대방에게 배려를 전제로 한 정중한 요청"</div>
         <p>상대방의 편의를 우선시하는 뉘앙스를 전달합니다.</p>
     </div>
@@ -3576,7 +3576,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 정중한 요청 Polite Request</h2>
     <p class="insight-p">상대방에게 정중하게 어떤 일을 허락받고 싶을 때 사용합니다.</p>
     <div class="example-group">
-        <div class="ex-en">Would it be okay if I leave early today?</div>
+        <div class="ex-en">Would it be okay if I leave early today? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Would it be okay if I leave early today?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">오늘 일찍 퇴근해도 괜찮을까요? (상대방의 허락을 정중하게 요청함)</div>
         <div class="ex-en" style="margin-top:12px;">Would it be okay to bring a friend to the party?</div>
         <div class="ex-ko">파티에 친구를 데려가도 괜찮을까요? (상대방의 승인을 정중히 구함)</div>
@@ -3585,7 +3585,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 상대방의 편의 존중 Respect for Convenience</h2>
     <p class="insight-p">상대방의 편의를 고려하며 요청할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Would it be okay to change our meeting time?</div>
+        <div class="ex-en">Would it be okay to change our meeting time? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Would it be okay to change our meeting time?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">회의 시간을 변경해도 괜찮을까요? (상대방의 일정에 대한 배려)</div>
         <div class="ex-en" style="margin-top:12px;">Would it be okay if I call you later?</div>
         <div class="ex-ko">나중에 전화 드려도 괜찮을까요? (상대방의 시간을 존중함)</div>
@@ -3594,7 +3594,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 부드러운 제안 Gentle Proposal</h2>
     <p class="insight-p">상대방에게 부드럽게 제안하거나 권유할 때 사용합니다.</p>
     <div class="example-group">
-        <div class="ex-en">Would it be okay if we try a new restaurant?</div>
+        <div class="ex-en">Would it be okay if we try a new restaurant? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Would it be okay if we try a new restaurant?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">새로운 식당에 가보는 건 어때요? (부드러운 제안으로 상대방의 의견을 묻음)</div>
         <div class="ex-en" style="margin-top:12px;">Would it be okay to discuss this tomorrow?</div>
         <div class="ex-ko">이것을 내일 논의하는 건 어떨까요? (상대방의 편의를 고려한 제안)</div>
@@ -3604,13 +3604,13 @@ window.coreInsights = {
     "That would be great": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>That would be great</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>That would be great</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('That would be great')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 That would be great은 <strong>'미래의 가능성에 대한 기대와 긍정적인 반응'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">That would be great의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>That would be great</strong>의 핵심은</p>
+        <p>원어민에게 <strong>That would be great</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('That would be great')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"기대감과 긍정적인 상상"</div>
         <p>입니다. 이 표현은 주로 긍정적인 결과를 기대할 때 사용됩니다.</p>
     </div>
@@ -3630,7 +3630,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 긍정적인 기대감 표현하기 (Expressing Positive Expectation)</h2>
     <p class="insight-p">이 표현은 미래의 가능성에 대해 긍정적으로 반응할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">If we could meet next week, that would be great.</div>
+        <div class="ex-en">If we could meet next week, that would be great. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('If we could meet next week, that would be great.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">다음 주에 만날 수 있다면 좋겠어요. (미래의 만남에 대한 긍정적인 기대)</div>
         <div class="ex-en" style="margin-top:12px;">Getting that report by Friday would be great.</div>
         <div class="ex-ko">금요일까지 그 보고서를 받을 수 있다면 좋겠어요. (보고서 수령에 대한 기대)</div>
@@ -3639,7 +3639,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 도움에 대한 감사 (Appreciation for Assistance)</h2>
     <p class="insight-p">도움을 제안받았을 때 고맙다는 마음을 표현합니다.</p>
     <div class="example-group">
-        <div class="ex-en">Could you help me with this task? That would be great.</div>
+        <div class="ex-en">Could you help me with this task? That would be great. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Could you help me with this task? That would be great.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">이 일을 도와줄 수 있어요? 그러면 정말 좋겠어요. (도움에 대한 감사와 기대)</div>
         <div class="ex-en" style="margin-top:12px;">If you could lend me your book, that would be great.</div>
         <div class="ex-ko">책을 빌려줄 수 있다면 정말 좋겠어요. (책 빌림에 대한 감사와 기대)</div>
@@ -3648,7 +3648,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 제안을 수락할 때 (Accepting an Offer)</h2>
     <p class="insight-p">누군가의 제안을 기꺼이 받아들일 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Would you like some coffee? That would be great.</div>
+        <div class="ex-en">Would you like some coffee? That would be great. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Would you like some coffee? That would be great.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">커피 한 잔 드릴까요? 그러면 좋겠어요. (커피 제안에 대한 긍정적인 반응)</div>
         <div class="ex-en" style="margin-top:12px;">How about joining us for dinner? That would be great.</div>
         <div class="ex-ko">저녁 식사에 함께 하시겠어요? 그러면 좋겠어요. (저녁 초대에 대한 긍정적인 반응)</div>
@@ -3658,13 +3658,13 @@ window.coreInsights = {
     "I would if I could": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>I would if I could</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>I would if I could</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I would if I could')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 I would if I could은 <strong>'무엇인가를 정말 하고 싶지만 불가능함을 의미하는 완곡한 표현'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">I would if I could의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>I would if I could</strong>의 핵심은</p>
+        <p>원어민에게 <strong>I would if I could</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I would if I could')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"간절하지만 불가능함"</div>
         <p>입니다. 이 표현은 종종 아쉬움을 내포합니다.</p>
     </div>
@@ -3688,7 +3688,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 아쉬움의 표현 - Expressing Regret</h2>
     <p class="insight-p">이 표현은 할 수 없는 것에 대한 아쉬움을 표현할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">"I would join you for dinner if I could, but I have to work late."</div>
+        <div class="ex-en">"I would join you for dinner if I could, but I have to work late." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;I would join you for dinner if I could, but I have to work late.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"저녁에 함께 하고 싶지만, 늦게까지 일해야 해." (함께 하고 싶지만 현실적 제약으로 인해 불가능함을 표현)</div>
         <div class="ex-en" style="margin-top:12px;">"I would help you move this weekend if I could, but I'm out of town."</div>
         <div class="ex-ko">"이번 주말에 이사 도와주고 싶지만, 다른 곳에 있어야 해." (도와주고 싶지만 불가능한 상황을 설명)</div>
@@ -3697,7 +3697,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 조건부 가능성 - Conditional Possibility</h2>
     <p class="insight-p">가능할 조건이 있다면 하고 싶다는 의미로 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">"I would take that job if I could, but I need to finish my degree first."</div>
+        <div class="ex-en">"I would take that job if I could, but I need to finish my degree first." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;I would take that job if I could, but I need to finish my degree first.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"그 일을 하고 싶지만, 학위를 먼저 마쳐야 해." (조건이 충족되지 않아 실행 불가능한 상황)</div>
         <div class="ex-en" style="margin-top:12px;">"I would travel the world if I could, but I have financial constraints."</div>
         <div class="ex-ko">"세계 여행을 하고 싶지만, 재정적 제약이 있어." (조건부로 가능성을 내포하며 아쉬움을 표현)</div>
@@ -3706,7 +3706,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 친절한 거절 - Polite Refusal</h2>
     <p class="insight-p">정중하게 거절할 때 사용되며, 간절함을 포함하고 있습니다.</p>
     <div class="example-group">
-        <div class="ex-en">"I would lend you my car if I could, but it's in the shop right now."</div>
+        <div class="ex-en">"I would lend you my car if I could, but it's in the shop right now." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;I would lend you my car if I could, but it\'s in the shop right now.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"차를 빌려주고 싶지만, 지금 정비 중이야." (정중한 거절과 함께 이유를 설명)</div>
         <div class="ex-en" style="margin-top:12px;">"I would attend your wedding if I could, but I have a prior engagement."</div>
         <div class="ex-ko">"결혼식에 가고 싶지만, 이미 약속이 있어." (참석하고 싶지만 불가능한 상황을 정중히 설명)</div>
@@ -3716,13 +3716,13 @@ window.coreInsights = {
     "Could you tell me": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Could you tell me</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Could you tell me</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Could you tell me')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Could you tell me은 <strong>'정중하고 예의 바르게 정보를 요청하는 표현'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Could you tell me의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Could you tell me</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Could you tell me</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Could you tell me')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"정중한 정보 요청"</div>
         <p>입니다. 이 표현은 상대방에게 예의를 갖추어 정보를 요청할 때 사용됩니다.</p>
     </div>
@@ -3742,7 +3742,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 정중한 질문 요청 (Polite Inquiry)</h2>
     <p class="insight-p">상대방에게 부담을 주지 않으면서 정보를 요청할 때 사용합니다.</p>
     <div class="example-group">
-        <div class="ex-en">Could you tell me where the nearest bank is?</div>
+        <div class="ex-en">Could you tell me where the nearest bank is? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Could you tell me where the nearest bank is?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">가장 가까운 은행이 어디인지 알려줄 수 있나요? (상대방에게 부담 없이 정보를 얻기 위한 정중한 요청)</div>
         <div class="ex-en" style="margin-top:12px;">Could you tell me what time the meeting starts?</div>
         <div class="ex-ko">회의가 몇 시에 시작하는지 알려줄 수 있나요? (정중하게 회의 시간을 묻는 표현)</div>
@@ -3751,7 +3751,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 도움 요청 (Asking for Assistance)</h2>
     <p class="insight-p">상대방의 도움을 자연스럽게 요청할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Could you tell me how to operate this machine?</div>
+        <div class="ex-en">Could you tell me how to operate this machine? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Could you tell me how to operate this machine?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">이 기계를 어떻게 작동시키는지 알려줄 수 있나요? (도움을 요청하는 정중한 방식)</div>
         <div class="ex-en" style="margin-top:12px;">Could you tell me what to do next?</div>
         <div class="ex-ko">다음에 무엇을 해야 하는지 알려줄 수 있나요? (도움을 구하는 부드러운 요청)</div>
@@ -3760,7 +3760,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 정보 확인 (Information Confirmation)</h2>
     <p class="insight-p">이미 알고 있는 정보를 확인하거나 확실히 하기 위해 사용합니다.</p>
     <div class="example-group">
-        <div class="ex-en">Could you tell me if this is the right train to London?</div>
+        <div class="ex-en">Could you tell me if this is the right train to London? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Could you tell me if this is the right train to London?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">이것이 런던으로 가는 맞는 기차인지 알려줄 수 있나요? (확인차 정보를 물어보는 표현)</div>
         <div class="ex-en" style="margin-top:12px;">Could you tell me whether this is gluten-free?</div>
         <div class="ex-ko">이것이 글루텐 프리인지 알려줄 수 있나요? (확인하고 싶은 정보를 정중하게 묻는 표현)</div>
@@ -3770,13 +3770,13 @@ window.coreInsights = {
     "Would you happen to know": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Would you happen to know</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Would you happen to know</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Would you happen to know')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Would you happen to know은 <strong>'정중하게 정보를 요청하는 부드러운 접근'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Would you happen to know의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Would you happen to know</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Would you happen to know</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Would you happen to know')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"정중하게 문을 두드리며 요청하는 느낌"</div>
         <p>이 표현은 상대방에게 부담을 주지 않으면서 정보를 요청하는 데 사용됩니다.</p>
     </div>
@@ -3796,7 +3796,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 정중한 정보 요청 Polite Inquiry</h2>
     <p class="insight-p">상대방에게 정중하게 정보를 요청할 때 사용합니다.</p>
     <div class="example-group">
-        <div class="ex-en">Would you happen to know where the nearest bank is?</div>
+        <div class="ex-en">Would you happen to know where the nearest bank is? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Would you happen to know where the nearest bank is?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">혹시 가장 가까운 은행이 어디 있는지 아시나요? (상대방에게 부담을 주지 않고 정보를 요청)</div>
         <div class="ex-en" style="margin-top:12px;">Would you happen to know if there's a restroom nearby?</div>
         <div class="ex-ko">근처에 화장실이 있는지 아시나요? (정중하고 간접적인 정보 요청)</div>
@@ -3805,7 +3805,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 간접적인 질문 Indirect Question</h2>
     <p class="insight-p">간접적으로 질문하여 상대방의 부담을 줄입니다.</p>
     <div class="example-group">
-        <div class="ex-en">Would you happen to know who is in charge of this project?</div>
+        <div class="ex-en">Would you happen to know who is in charge of this project? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Would you happen to know who is in charge of this project?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">혹시 이 프로젝트를 담당하는 사람이 누군지 아시나요? (직접적이지 않은 부드러운 질문)</div>
         <div class="ex-en" style="margin-top:12px;">Would you happen to know if the meeting has been canceled?</div>
         <div class="ex-ko">회의가 취소되었는지 아시나요? (부담을 줄이기 위한 간접적 접근)</div>
@@ -3814,7 +3814,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 예의 바르고 겸손한 접근 Polite and Humble Approach</h2>
     <p class="insight-p">상대방에게 예의 바르고 겸손하게 접근할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Would you happen to know if I could borrow a pen?</div>
+        <div class="ex-en">Would you happen to know if I could borrow a pen? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Would you happen to know if I could borrow a pen?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">혹시 제가 펜을 빌려도 될까요? (예의를 갖춘 겸손한 요청)</div>
         <div class="ex-en" style="margin-top:12px;">Would you happen to know the time of the next train?</div>
         <div class="ex-ko">다음 기차 시간이 언제인지 아시나요? (겸손하고 예의 바른 정보 요청)</div>
@@ -3824,13 +3824,13 @@ window.coreInsights = {
     "I could use some help": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>I could use some help</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>I could use some help</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I could use some help')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 I could use some help은 <strong>'나는 도움을 받을 필요가 있어'</strong>를 의미합니다.
     </div>
 
     <h2 class="insight-h2">I could use some help의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>I could use some help</strong>의 핵심은</p>
+        <p>원어민에게 <strong>I could use some help</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I could use some help')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"도움이 필요하지만 요청을 완곡하게 표현"</div>
         <p>입니다. 이 표현은 직접적이지 않고 공손합니다.</p>
     </div>
@@ -3850,7 +3850,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 비공식적인 도움 요청 (Informal request for help)</h2>
     <p class="insight-p">이 표현은 친구나 가족에게 도움을 요청할 때 자주 쓰입니다.</p>
     <div class="example-group">
-        <div class="ex-en">"Hey, I could use some help moving this couch."</div>
+        <div class="ex-en">"Hey, I could use some help moving this couch." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;Hey, I could use some help moving this couch.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"야, 이 소파 옮기는 데 좀 도와줄래?" (친근하게 도움을 요청)</div>
         <div class="ex-en" style="margin-top:12px;">"I could use some help with my homework."</div>
         <div class="ex-ko">"숙제 좀 도와줄 수 있어?" (가벼운 부탁)</div>
@@ -3859,7 +3859,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 겸손한 부탁 (Humble request)</h2>
     <p class="insight-p">상황에 따라 겸손하게 도움을 요청할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">"I could use some help understanding this report."</div>
+        <div class="ex-en">"I could use some help understanding this report." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;I could use some help understanding this report.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"이 보고서를 이해하는 데 좀 도와주실 수 있나요?" (겸손하게 도움을 청함)</div>
         <div class="ex-en" style="margin-top:12px;">"I could use some help organizing this event."</div>
         <div class="ex-ko">"이 행사를 조직하는 데 도움이 필요해요." (공손한 표현)</div>
@@ -3868,7 +3868,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 긴급한 필요성 전달 (Conveying urgent need)</h2>
     <p class="insight-p">긴급한 상황에서 즉각적인 도움을 원할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">"I could really use some help right now!"</div>
+        <div class="ex-en">"I could really use some help right now!" <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;I could really use some help right now!&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"지금 정말 도움이 필요해요!" (즉각적이고 긴급한 상황)</div>
         <div class="ex-en" style="margin-top:12px;">"I could use some help getting out of this mess."</div>
         <div class="ex-ko">"이 곤경에서 벗어나는 데 도움이 필요해요." (긴급한 도움 요청)</div>
@@ -3878,13 +3878,13 @@ window.coreInsights = {
     "Could this be": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Could this be</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Could this be</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Could this be')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Could this be은 <strong>'가능성을 탐색하고 의문을 제기하는 미묘한 표현'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Could this be의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Could this be</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Could this be</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Could this be')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"가능성을 조심스럽게 탐색하는 순간"</div>
         <p>입니다. 이 표현은 상황이나 가능성에 대해 열린 마음으로 접근할 때 사용됩니다.</p>
     </div>
@@ -3906,7 +3906,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 의구심 제기 - Questioning Doubt</h2>
     <p class="insight-p">상황에 대해 의구심을 제기하며 가능성을 염두에 둘 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Could this be the solution we've been looking for?</div>
+        <div class="ex-en">Could this be the solution we've been looking for? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Could this be the solution we\'ve been looking for?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">이것이 우리가 찾던 해결책일까요? (해답을 찾았는지 확신할 수 없을 때)</div>
         <div class="ex-en" style="margin-top:12px;">Could this be a mistake on their part?</div>
         <div class="ex-ko">이것이 그들의 실수일까요? (실수가 있었는지 의심스러울 때)</div>
@@ -3915,7 +3915,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 희망의 가능성 - Hopeful Possibility</h2>
     <p class="insight-p">긍정적인 가능성을 기대하며 희망을 품고 있을 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Could this be the beginning of something great?</div>
+        <div class="ex-en">Could this be the beginning of something great? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Could this be the beginning of something great?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">이것이 멋진 시작이 될 수 있을까요? (긍정적인 미래를 기대하며)</div>
         <div class="ex-en" style="margin-top:12px;">Could this be our chance to make a difference?</div>
         <div class="ex-ko">이것이 변화를 만들 수 있는 우리의 기회일까요? (중요한 기회를 바라며)</div>
@@ -3924,7 +3924,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 불확실성의 탐색 - Exploring Uncertainty</h2>
     <p class="insight-p">불확실한 상황에서 가능성을 열어두고 탐색할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Could this be why they haven't responded yet?</div>
+        <div class="ex-en">Could this be why they haven't responded yet? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Could this be why they haven\'t responded yet?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">이것이 그들이 아직 응답하지 않은 이유일까요? (여러 가능성을 고려할 때)</div>
         <div class="ex-en" style="margin-top:12px;">Could this be the reason for the delay?</div>
         <div class="ex-ko">이것이 지연의 이유일까요? (다양한 이유를 탐색하며)</div>
@@ -3934,13 +3934,13 @@ window.coreInsights = {
     "Would it be possible": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Would it be possible</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Would it be possible</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Would it be possible')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Would it be possible은 <strong>'정중한 요청과 가능성 탐색'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Would it be possible의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Would it be possible</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Would it be possible</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Would it be possible')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"정중한 가능성의 문을 두드림"</div>
         <p>이 표현은 요청을 할 때 상대방의 여지를 남겨 줍니다.</p>
     </div>
@@ -3963,7 +3963,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 정중한 요청의 표현 Polite Request</h2>
     <p class="insight-p">상대방에게 부담을 주지 않고 정중하게 부탁할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Would it be possible to get an extension on the deadline?</div>
+        <div class="ex-en">Would it be possible to get an extension on the deadline? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Would it be possible to get an extension on the deadline?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">마감일을 연장해 주실 수 있을까요? (상대방에게 부담을 최소화하며 요청)</div>
         <div class="ex-en" style="margin-top:12px;">Would it be possible for you to send the report by tomorrow?</div>
         <div class="ex-ko">내일까지 보고서를 보내주실 수 있을까요? (정중하게 요청하면서 가능성을 탐색)</div>
@@ -3972,7 +3972,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 가능성 확인 Checking Possibility</h2>
     <p class="insight-p">어떤 일이 가능한지 조심스럽게 확인할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Would it be possible to meet earlier in the day?</div>
+        <div class="ex-en">Would it be possible to meet earlier in the day? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Would it be possible to meet earlier in the day?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">더 일찍 만날 수 있을까요? (상황에 따라 가능한지 확인)</div>
         <div class="ex-en" style="margin-top:12px;">Would it be possible to add one more person to the reservation?</div>
         <div class="ex-ko">예약에 한 명 더 추가할 수 있을까요? (가능한지 조심스럽게 물어봄)</div>
@@ -3981,7 +3981,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 협조 요청의 뉘앙스 Seeking Cooperation</h2>
     <p class="insight-p">상대방의 협조를 구할 때, 부드럽게 요청하는 표현으로 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Would it be possible for you to help me with this task?</div>
+        <div class="ex-en">Would it be possible for you to help me with this task? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Would it be possible for you to help me with this task?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">이 일을 도와주실 수 있을까요? (협조를 구하는 부드러운 요청)</div>
         <div class="ex-en" style="margin-top:12px;">Would it be possible to collaborate on this project?</div>
         <div class="ex-ko">이 프로젝트에서 협력할 수 있을까요? (공동 작업의 가능성을 열어둠)</div>
@@ -3991,13 +3991,13 @@ window.coreInsights = {
     "I wouldn't say that": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>I wouldn't say that</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>I wouldn't say that</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I wouldn\'t say that')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 I wouldn't say that은 <strong>'완곡한 부정 또는 의견 피력'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">I wouldn't say that의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>I wouldn't say that</strong>의 핵심은</p>
+        <p>원어민에게 <strong>I wouldn't say that</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I wouldn\'t say that')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"부드럽고 정중한 의견 차이"</div>
         <p>입니다. (이 표현은 직접적인 부정보다 더 완곡합니다.)</p>
     </div>
@@ -4019,7 +4019,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 완곡한 부정 + Gentle Disagreement</h2>
     <p class="insight-p">상대방의 의견에 정면으로 반박하지 않고 부드럽게 자신의 의견을 표현할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">"Do you think he is the best player on the team?"</div>
+        <div class="ex-en">"Do you think he is the best player on the team?" <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;Do you think he is the best player on the team?&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"그가 팀에서 최고의 선수라고 생각하나요?" (상대방의 의견을 부정하고 싶지만 직접적으로 말하고 싶지 않을 때)</div>
         <div class="ex-en" style="margin-top:12px;">"I wouldn't say that. He's good, but there are others just as talented."</div>
         <div class="ex-ko">"그렇다고는 말하지 않겠어요. 그는 잘하지만, 다른 재능 있는 선수들도 있어요." (정면으로 부정하지 않고 의견 차이를 설명)</div>
@@ -4028,7 +4028,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 의견 피력 + Expressing Opinion</h2>
     <p class="insight-p">자신의 의견을 보다 부드럽게 제시하고자 할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">"Is this book boring?"</div>
+        <div class="ex-en">"Is this book boring?" <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;Is this book boring?&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"이 책이 지루한가요?" (상대방의 부정적인 견해에 동의하지 않을 때)</div>
         <div class="ex-en" style="margin-top:12px;">"I wouldn't say that. I found it quite engaging."</div>
         <div class="ex-ko">"그렇다고는 말하지 않겠어요. 저는 꽤 흥미롭다고 생각했어요." (상대방의 의견에 부드럽게 반대하면서 자신의 의견을 제시)</div>
@@ -4037,7 +4037,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 모호한 의견 + Ambiguous Opinion</h2>
     <p class="insight-p">명확한 답변을 피하고 싶을 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">"Did you like the movie?"</div>
+        <div class="ex-en">"Did you like the movie?" <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;Did you like the movie?&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"영화가 좋았나요?" (직접적인 답변을 피하고 싶을 때)</div>
         <div class="ex-en" style="margin-top:12px;">"I wouldn't say that. It had its moments."</div>
         <div class="ex-ko">"그렇다고는 말하지 않겠어요. 좋은 장면들이 있었어요." (명확한 의견을 피하고 모호하게 표현)</div>
@@ -4047,13 +4047,13 @@ window.coreInsights = {
     "I could be wrong but": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>I could be wrong but</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>I could be wrong but</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I could be wrong but')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 I could be wrong but은 <strong>'자신의 의견에 대한 부드러운 의견 제시'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">I could be wrong but의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>I could be wrong but</strong>의 핵심은</p>
+        <p>원어민에게 <strong>I could be wrong but</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I could be wrong but')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"의견을 제시하면서도 조심스럽게 다가가는 태도"</div>
         <p>입니다. 이 표현은 상대방의 의견을 존중하면서도 자신의 의견을 말하고 싶을 때 사용됩니다.</p>
     </div>
@@ -4074,7 +4074,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 겸손한 의견 제시 Humble Opinion Offering</h2>
     <p class="insight-p">자신의 의견을 강하게 주장하지 않고, 겸손하게 제시하는 방법입니다.</p>
     <div class="example-group">
-        <div class="ex-en">I could be wrong, but I think this is the best solution.</div>
+        <div class="ex-en">I could be wrong, but I think this is the best solution. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I could be wrong, but I think this is the best solution.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">제 생각에 이게 최선의 해결책인 것 같습니다만, 틀릴 수도 있습니다. (자신의 의견에 확신이 없음을 나타냄)</div>
         <div class="ex-en" style="margin-top:12px;">I could be wrong but didn't we agree to meet at 3 PM?</div>
         <div class="ex-ko">우리가 3시에 만나기로 한 것 아닌가요? (잘못 알았을 수도 있음을 인정)</div>
@@ -4083,7 +4083,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 대화를 부드럽게 시작하기 Soft Start to a Conversation</h2>
     <p class="insight-p">상대방의 반응을 부드럽게 이끌어내기 위해 사용합니다.</p>
     <div class="example-group">
-        <div class="ex-en">I could be wrong, but it seems like you’re upset.</div>
+        <div class="ex-en">I could be wrong, but it seems like you’re upset. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I could be wrong, but it seems like you’re upset.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">당신이 화난 것 같은데, 제가 틀린 걸 수도 있어요. (상대방의 감정을 확인하는 부드러운 접근)</div>
         <div class="ex-en" style="margin-top:12px;">I could be wrong but is this the right address?</div>
         <div class="ex-ko">이 주소가 맞나요? (확신이 없음을 통해 상대방의 확인을 유도)</div>
@@ -4092,7 +4092,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 상대방의 의견 존중하기 Respecting Others' Opinions</h2>
     <p class="insight-p">상대방의 의견을 존중하면서 자신의 의견을 전달하고 싶을 때 사용합니다.</p>
     <div class="example-group">
-        <div class="ex-en">I could be wrong, but I believe the policy needs some changes.</div>
+        <div class="ex-en">I could be wrong, but I believe the policy needs some changes. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I could be wrong, but I believe the policy needs some changes.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">정책에 몇 가지 변화가 필요하다고 생각합니다만, 제 생각이 틀릴 수도 있습니다. (자신의 의견을 표현하면서도 상대방의 의견을 존중)</div>
         <div class="ex-en" style="margin-top:12px;">I could be wrong but maybe we should reconsider the deadline.</div>
         <div class="ex-ko">마감일을 다시 고려해보는 게 좋을 것 같습니다만, 제가 틀릴 수도 있어요. (상대방의 입장을 고려하는 표현)</div>
@@ -4102,13 +4102,13 @@ window.coreInsights = {
     "Wouldn't it be better to": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Wouldn't it be better to</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Wouldn't it be better to</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Wouldn\'t it be better to')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Wouldn't it be better to은 <strong>'더 나은 대안을 제시하는 부드러운 제안'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Wouldn't it be better to의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Wouldn't it be better to</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Wouldn't it be better to</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Wouldn\'t it be better to')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"더 나은 방법을 제안하면서 상대방의 동의를 구하는 것"</div>
         <p>주로 부드럽고 건설적인 제안을 할 때 사용됩니다.</p>
     </div>
@@ -4128,7 +4128,7 @@ window.coreInsights = {
     <h2 class="insight-h2">① 부드러운 제안 Soft Suggestion</h2>
     <p class="insight-p">더 나은 방법이나 대안을 부드럽게 제안할 때 사용합니다.</p>
     <div class="example-group">
-        <div class="ex-en">Wouldn't it be better to meet tomorrow when we're less busy?</div>
+        <div class="ex-en">Wouldn't it be better to meet tomorrow when we're less busy? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Wouldn\'t it be better to meet tomorrow when we\'re less busy?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">내일 덜 바쁠 때 만나는 게 더 낫지 않을까요? (바쁜 상황을 피하고 싶다는 부드러운 제안)</div>
         <div class="ex-en" style="margin-top:12px;">Wouldn't it be better to discuss this over a call?</div>
         <div class="ex-ko">이것을 전화로 논의하는 것이 더 낫지 않을까요? (전화로 더 효과적으로 논의할 수 있다는 제안)</div>
@@ -4137,7 +4137,7 @@ window.coreInsights = {
     <h2 class="insight-h2">② 대안 제시 Alternative Proposition</h2>
     <p class="insight-p">현재 방법보다 더 나은 대안을 제시할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Wouldn't it be better to take the highway to save time?</div>
+        <div class="ex-en">Wouldn't it be better to take the highway to save time? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Wouldn\'t it be better to take the highway to save time?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">시간을 절약하기 위해 고속도로를 타는 것이 더 낫지 않을까요? (시간 절약을 위한 대안 제시)</div>
         <div class="ex-en" style="margin-top:12px;">Wouldn't it be better to order in instead of going out?</div>
         <div class="ex-ko">나가는 대신 배달을 시키는 것이 더 낫지 않을까요? (더 편리한 대안을 제시)</div>
@@ -4146,7 +4146,7 @@ window.coreInsights = {
     <h2 class="insight-h2">③ 동의 구하기 Seeking Agreement</h2>
     <p class="insight-p">상대방의 동의를 부드럽게 구할 때 사용합니다.</p>
     <div class="example-group">
-        <div class="ex-en">Wouldn't it be better to wait for everyone's opinion first?</div>
+        <div class="ex-en">Wouldn't it be better to wait for everyone's opinion first? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Wouldn\'t it be better to wait for everyone\'s opinion first?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">모두의 의견을 먼저 기다리는 것이 더 낫지 않을까요? (모두의 의견을 기다리자는 동의를 구함)</div>
         <div class="ex-en" style="margin-top:12px;">Wouldn't it be better to review the details before deciding?</div>
         <div class="ex-ko">결정하기 전에 세부 사항을 검토하는 것이 더 낫지 않을까요? (결정을 내리기 전에 충분한 검토를 하자는 동의 구함)</div>
@@ -4156,13 +4156,13 @@ window.coreInsights = {
     "Could you reconsider": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Could you reconsider</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Could you reconsider</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Could you reconsider')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Could you reconsider은 <strong>'상대방의 결정을 부드럽게 다시 생각해보게 하는 요청'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Could you reconsider의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Could you reconsider</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Could you reconsider</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Could you reconsider')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"결정을 다시 생각해보게 하는 부드러운 요청"</div>
         <p>상대방에게 부담을 주지 않으면서 새로운 관점을 제시하는 것입니다.</p>
     </div>
@@ -4183,7 +4183,7 @@ Reconsider
     <h2 class="insight-h2">① 부드러운 요청의 표현 Soft Request</h2>
     <p class="insight-p">상대방에게 정중하게 요청할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Could you reconsider your decision on the project deadline?</div>
+        <div class="ex-en">Could you reconsider your decision on the project deadline? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Could you reconsider your decision on the project deadline?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">프로젝트 마감일에 대한 결정을 다시 생각해볼 수 있을까요? (정중하게 요청하는 뉘앙스)</div>
         <div class="ex-en" style="margin-top:12px;">Could you reconsider joining us for dinner tonight?</div>
         <div class="ex-ko">오늘 저녁 식사에 함께하는 것에 대해 다시 생각해볼 수 있나요? (부드럽게 초대하는 뉘앙스)</div>
@@ -4192,7 +4192,7 @@ Reconsider
     <h2 class="insight-h2">② 새로운 관점 제시 Offering a New Perspective</h2>
     <p class="insight-p">상대방이 다른 각도로 상황을 바라볼 수 있도록 제안할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Could you reconsider the benefits of this new policy?</div>
+        <div class="ex-en">Could you reconsider the benefits of this new policy? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Could you reconsider the benefits of this new policy?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">이 새로운 정책의 이점을 다시 생각해볼 수 있을까요? (새로운 관점을 제시하는 뉘앙스)</div>
         <div class="ex-en" style="margin-top:12px;">Could you reconsider how this decision impacts the team?</div>
         <div class="ex-ko">이 결정이 팀에 미치는 영향을 다시 생각해볼 수 있나요? (다른 관점을 제시하는 뉘앙스)</div>
@@ -4201,7 +4201,7 @@ Reconsider
     <h2 class="insight-h2">③ 갈등 완화 Conflict Mitigation</h2>
     <p class="insight-p">갈등 상황에서 상대방의 입장을 부드럽게 바꾸고자 할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Could you reconsider your stance to avoid further conflict?</div>
+        <div class="ex-en">Could you reconsider your stance to avoid further conflict? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Could you reconsider your stance to avoid further conflict?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">추가 갈등을 피하기 위해 입장을 다시 생각해볼 수 있나요? (갈등을 완화하려는 뉘앙스)</div>
         <div class="ex-en" style="margin-top:12px;">Could you reconsider your approach to this issue?</div>
         <div class="ex-ko">이 문제에 대한 접근 방식을 다시 생각해볼 수 있나요? (갈등을 줄이려는 뉘앙스)</div>
@@ -4211,13 +4211,13 @@ Reconsider
     "I would think": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>I would think</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>I would think</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I would think')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 I would think은 <strong>'추측이지만 확신이 있는 의견'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">I would think의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>I would think</strong>의 핵심은</p>
+        <p>원어민에게 <strong>I would think</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I would think')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"자신의 의견을 조심스럽게 제시하는 것"</div>
         <p>입니다. 이 표현은 상대방의 의견을 존중하면서도 자신의 의견을 나타낼 때 사용됩니다.</p>
     </div>
@@ -4238,7 +4238,7 @@ Reconsider
     <h2 class="insight-h2">① 추측의 표현 Guessing</h2>
     <p class="insight-p">"I would think"는 어떤 상황에 대한 추측을 표현할 때 자주 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">I would think she’s at home by now.</div>
+        <div class="ex-en">I would think she’s at home by now. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I would think she’s at home by now.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">(그녀가 지금쯤 집에 있을 것 같아. - 확신은 없지만 합리적인 추측)</div>
         <div class="ex-en" style="margin-top:12px;">I would think it will rain tomorrow.</div>
         <div class="ex-ko">(내일 비가 올 것 같아. - 기상 예보를 기반으로 한 추측)</div>
@@ -4247,7 +4247,7 @@ Reconsider
     <h2 class="insight-h2">② 의견 제시 Opinion Offering</h2>
     <p class="insight-p">상대방에게 부드럽게 자신의 의견을 제시할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">I would think this is the best option.</div>
+        <div class="ex-en">I would think this is the best option. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I would think this is the best option.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">(이게 최선의 선택인 것 같아. - 내 의견이지만 확신을 강하게 드러내지 않음)</div>
         <div class="ex-en" style="margin-top:12px;">I would think we should leave early.</div>
         <div class="ex-ko">(우리가 일찍 떠나는 게 좋을 것 같아. - 내 의견이지만 상대방의 반응을 고려)</div>
@@ -4256,7 +4256,7 @@ Reconsider
     <h2 class="insight-h2">③ 경청과 존중 Listening and Respecting</h2>
     <p class="insight-p">상대방의 의견을 존중하면서 자신의 의견을 부드럽게 표현할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">I would think you have a point there.</div>
+        <div class="ex-en">I would think you have a point there. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I would think you have a point there.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">(네 말에도 일리가 있는 것 같아. - 상대방의 의견을 인정하면서 내 의견 제시)</div>
         <div class="ex-en" style="margin-top:12px;">I would think that’s an interesting perspective.</div>
         <div class="ex-ko">(그거 흥미로운 관점인 것 같아. - 상대방의 의견을 존중하며 나의 의견을 추가)</div>
@@ -4266,13 +4266,13 @@ Reconsider
     "Couldn't we just": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Couldn't we just</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Couldn't we just</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Couldn\'t we just')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Couldn't we just은 <strong>'더 간단하거나 나은 대안을 제시하는 뉘앙스'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Couldn't we just의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Couldn't we just</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Couldn't we just</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Couldn\'t we just')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"더 쉬운 길을 제안하는 느낌"</div>
         <p>복잡한 상황에서 간단한 해결책을 제안할 때 사용하는 표현입니다.</p>
     </div>
@@ -4291,7 +4291,7 @@ Reconsider
     <h2 class="insight-h2">① 더 쉬운 대안 제시 Suggesting an Easier Alternative</h2>
     <p class="insight-p">복잡한 문제를 간단하게 해결할 방식으로 전환할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Couldn't we just take a taxi instead of waiting for the bus?</div>
+        <div class="ex-en">Couldn't we just take a taxi instead of waiting for the bus? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Couldn\'t we just take a taxi instead of waiting for the bus?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그냥 택시를 타는 게 어때요, 버스를 기다리는 대신에? (버스를 기다리는 복잡함을 피하고자 함)</div>
         <div class="ex-en" style="margin-top:12px;">Couldn't we just order food instead of cooking tonight?</div>
         <div class="ex-ko">그냥 외식하는 게 어때요, 오늘 저녁 요리하는 대신에? (요리의 번거로움을 피하려는 제안)</div>
@@ -4300,7 +4300,7 @@ Reconsider
     <h2 class="insight-h2">② 논쟁 중재 Mediating in a Dispute</h2>
     <p class="insight-p">논쟁이나 갈등 상황에서 평화로운 해결책을 제안할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Couldn't we just agree to meet halfway?</div>
+        <div class="ex-en">Couldn't we just agree to meet halfway? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Couldn\'t we just agree to meet halfway?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그냥 중간에서 만나기로 하는 게 어때요? (양측의 의견을 조정하려는 제안)</div>
         <div class="ex-en" style="margin-top:12px;">Couldn't we just apologize and move on?</div>
         <div class="ex-ko">그냥 사과하고 넘어가는 게 어때요? (갈등을 빨리 해결하고자 함)</div>
@@ -4309,7 +4309,7 @@ Reconsider
     <h2 class="insight-h2">③ 제안의 완곡함 Polite Suggestion</h2>
     <p class="insight-p">직접적이지 않으면서도 자신의 생각을 제안할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Couldn't we just try it this way and see how it goes?</div>
+        <div class="ex-en">Couldn't we just try it this way and see how it goes? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Couldn\'t we just try it this way and see how it goes?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그냥 이렇게 한번 해보고 어떻게 되는지 보는 게 어때요? (직접적인 강요 없이 제안하는 방법)</div>
         <div class="ex-en" style="margin-top:12px;">Couldn't we just wait a little longer before deciding?</div>
         <div class="ex-ko">그냥 결정하기 전에 조금 더 기다려 보는 게 어때요? (결정을 서두르지 않고 신중함을 유지하려는 제안)</div>
@@ -4319,13 +4319,13 @@ Reconsider
     "Would you consider": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Would you consider</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Would you consider</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Would you consider')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Would you consider은 <strong>'부드럽고 예의 바르게 제안하거나 요청하는 느낌'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Would you consider의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Would you consider</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Would you consider</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Would you consider')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"부드럽고 신중한 제안"</div>
         <p>대상을 배려하며 의견이나 행동을 제안하는 뉘앙스입니다.</p>
     </div>
@@ -4342,7 +4342,7 @@ Reconsider
     <h2 class="insight-h2">① 부드러운 제안의 뉘앙스 (Gentle Suggestion)</h2>
     <p class="insight-p">상대방이 열린 마음으로 생각해보길 원할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Would you consider joining us for dinner?</div>
+        <div class="ex-en">Would you consider joining us for dinner? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Would you consider joining us for dinner?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">저녁 식사에 함께하시겠어요? (상대방의 결정을 존중하는 부드러운 제안)</div>
         <div class="ex-en" style="margin-top:12px;">Would you consider trying this new project?</div>
         <div class="ex-ko">이 새로운 프로젝트를 시도해보시겠어요? (상대방의 의견을 구하는 배려 있는 제안)</div>
@@ -4351,7 +4351,7 @@ Reconsider
     <h2 class="insight-h2">② 예의 있는 요청 (Polite Request)</h2>
     <p class="insight-p">상대방에게 부담을 주지 않으면서 요청할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Would you consider helping me with this task?</div>
+        <div class="ex-en">Would you consider helping me with this task? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Would you consider helping me with this task?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">이 작업을 도와주시겠어요? (상대방에게 부담을 덜 주는 예의 있는 요청)</div>
         <div class="ex-en" style="margin-top:12px;">Would you consider lending me your book?</div>
         <div class="ex-ko">당신의 책을 빌려주시겠어요? (상대방의 호의를 기대하며 예의 있게 요청)</div>
@@ -4360,7 +4360,7 @@ Reconsider
     <h2 class="insight-h2">③ 가능성을 열어두는 대화 (Opening Possibilities)</h2>
     <p class="insight-p">상대방에게 새로운 가능성을 열어주고 싶을 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Would you consider moving to a new city for work?</div>
+        <div class="ex-en">Would you consider moving to a new city for work? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Would you consider moving to a new city for work?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">일을 위해 새로운 도시로 이사하는 것을 고려하시겠어요? (미래의 가능성을 염두에 두고 묻는 질문)</div>
         <div class="ex-en" style="margin-top:12px;">Would you consider adopting a pet?</div>
         <div class="ex-ko">애완동물을 입양하는 것을 고려해보시겠어요? (새로운 삶의 변화를 제안하는 조심스러운 질문)</div>
@@ -4370,13 +4370,13 @@ Reconsider
     "I would argue that": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>I would argue that</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>I would argue that</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I would argue that')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 I would argue that은 <strong>'자신의 의견을 부드럽게 제시하며 논의에 참여하는 행위'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">I would argue that의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>I would argue that</strong>의 핵심은</p>
+        <p>원어민에게 <strong>I would argue that</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I would argue that')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"자신의 의견을 논리적으로 제시하면서도 존중을 나타내는 표현"</div>
         <p>입니다. 이 표현은 상대방의 의견을 반박할 때 예의 있게 사용됩니다.</p>
     </div>
@@ -4397,7 +4397,7 @@ Reconsider
     <h2 class="insight-h2">① 주장 제시의 부드러움 (Soft Assertion)</h2>
     <p class="insight-p">이 표현은 자신의 주장을 부드럽게 제시할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">I would argue that this is the best solution for our problem.</div>
+        <div class="ex-en">I would argue that this is the best solution for our problem. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I would argue that this is the best solution for our problem.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">나는 이것이 우리 문제의 최선의 해결책이라고 주장합니다. (자신의 의견을 제시하면서도 상대방의 의견을 존중함)</div>
         <div class="ex-en" style="margin-top:12px;">I would argue that we need more data before making a decision.</div>
         <div class="ex-ko">우리는 결정을 내리기 전에 더 많은 데이터가 필요하다고 주장합니다. (결정의 중요성을 강조하며 부드럽게 의견을 제시함)</div>
@@ -4406,7 +4406,7 @@ Reconsider
     <h2 class="insight-h2">② 반대 의견의 제시 (Presenting Counterarguments)</h2>
     <p class="insight-p">상대방의 의견에 반대할 때 예의 있게 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">While you make a good point, I would argue that there are other factors to consider.</div>
+        <div class="ex-en">While you make a good point, I would argue that there are other factors to consider. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('While you make a good point, I would argue that there are other factors to consider.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">좋은 지적이지만, 고려해야 할 다른 요소들이 있다고 주장합니다. (상대방의 의견을 인정하면서도 자신의 의견을 제시함)</div>
         <div class="ex-en" style="margin-top:12px;">I would argue that the benefits outweigh the drawbacks in this case.</div>
         <div class="ex-ko">이 경우에는 이점이 단점보다 크다고 주장합니다. (반대 의견을 부드럽게 제시함)</div>
@@ -4415,7 +4415,7 @@ Reconsider
     <h2 class="insight-h2">③ 논의 유도의 표현 (Encouraging Discussion)</h2>
     <p class="insight-p">논의를 유도하고 싶을 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">I would argue that exploring this topic further could be beneficial.</div>
+        <div class="ex-en">I would argue that exploring this topic further could be beneficial. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I would argue that exploring this topic further could be beneficial.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">이 주제를 더 깊이 탐구하는 것이 유익할 것이라고 주장합니다. (논의를 확장시키기 위한 제안)</div>
         <div class="ex-en" style="margin-top:12px;">I would argue that we should consider alternative solutions.</div>
         <div class="ex-ko">우리는 대안적인 해결책을 고려해야 한다고 주장합니다. (다양한 의견을 수용하기 위해 논의를 유도함)</div>
@@ -4450,7 +4450,7 @@ Reconsider
     <h2 class="insight-h2">① 정중한 요청의 표현 - Polite Request</h2>
     <p class="insight-p">누군가에게 공손하게 무언가를 요청하거나 부탁할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Could you pass me the salt?</div>
+        <div class="ex-en">Could you pass me the salt? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Could you pass me the salt?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">소금을 건네줄 수 있을까요? (상대방에게 정중히 부탁하는 표현)</div>
         <div class="ex-en" style="margin-top:12px;">Would you mind closing the window?</div>
         <div class="ex-ko">창문을 닫아주시겠어요? (정중한 부탁으로 상대방의 허락을 구하는 느낌)</div>
@@ -4459,7 +4459,7 @@ Reconsider
     <h2 class="insight-h2">② 가능성의 표현 - Expression of Possibility</h2>
     <p class="insight-p">어떤 행위가 가능한지 여부를 점잖게 묻는 표현입니다.</p>
     <div class="example-group">
-        <div class="ex-en">Could you help me with this task?</div>
+        <div class="ex-en">Could you help me with this task? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Could you help me with this task?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">이 일을 도와주실 수 있나요? (상대방의 도움 가능성을 묻는 정중한 표현)</div>
         <div class="ex-en" style="margin-top:12px;">Would you be able to join us for dinner?</div>
         <div class="ex-ko">저녁 식사에 함께 할 수 있을까요? (함께 할 가능성을 공손히 묻는 표현)</div>
@@ -4468,7 +4468,7 @@ Reconsider
     <h2 class="insight-h2">③ 제안과 협상의 표현 - Suggestion and Negotiation</h2>
     <p class="insight-p">제안하거나 협상할 때 부드럽게 의견을 제시하는 표현입니다.</p>
     <div class="example-group">
-        <div class="ex-en">Would you consider trying a different approach?</div>
+        <div class="ex-en">Would you consider trying a different approach? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Would you consider trying a different approach?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">다른 접근 방식을 시도해보는 게 어떨까요? (상대방에게 부드럽게 제안하는 표현)</div>
         <div class="ex-en" style="margin-top:12px;">Could you think about it and let me know?</div>
         <div class="ex-ko">생각해보시고 알려주실 수 있을까요? (상대방의 의견을 요청하는 부드러운 표현)</div>
@@ -4478,13 +4478,13 @@ Reconsider
     "Say": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Say</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Say</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Say')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Say은 <strong>'말을 통해 전달되는 의사 표현의 핵심'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Say의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Say</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Say</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Say')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"가장 짧고 강렬한 본질적 의미"</div>
         <p>즉, 전달하고자 하는 메시지를 명확히 표현하는 것입니다.</p>
     </div>
@@ -4504,7 +4504,7 @@ Reconsider
     <h2 class="insight-h2">① 직접적인 의사 전달 Direct Communication</h2>
     <p class="insight-p">Say는 메시지를 직접적이고 명확하게 전달할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">"I just wanted to say thank you for your help."</div>
+        <div class="ex-en">"I just wanted to say thank you for your help." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;I just wanted to say thank you for your help.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"당신의 도움에 감사하다고 말하고 싶었어요." (감사를 직접적으로 전달)</div>
         <div class="ex-en" style="margin-top:12px;">"She said she's going to the store."</div>
         <div class="ex-ko">"그녀는 가게에 간다고 말했어요." (행동 계획을 명확히 전달)</div>
@@ -4513,7 +4513,7 @@ Reconsider
     <h2 class="insight-h2">② 의견 표현 Expressing Opinions</h2>
     <p class="insight-p">Say는 자신의 의견이나 생각을 전달할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">"He says he doesn't agree with the decision."</div>
+        <div class="ex-en">"He says he doesn't agree with the decision." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;He says he doesn\'t agree with the decision.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"그는 그 결정에 동의하지 않는다고 말해요." (본인의 의견을 명확히 표현)</div>
         <div class="ex-en" style="margin-top:12px;">"I'd say it's a bad idea."</div>
         <div class="ex-ko">"내 생각에는 그건 좋지 않은 생각이에요." (개인적인 의견을 제시)</div>
@@ -4522,7 +4522,7 @@ Reconsider
     <h2 class="insight-h2">③ 간접적인 정보 전달 Indirect Reporting</h2>
     <p class="insight-p">Say는 다른 사람의 말을 전달할 때도 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">"They say the movie is really good."</div>
+        <div class="ex-en">"They say the movie is really good." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;They say the movie is really good.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"그들은 그 영화가 정말 좋다고 말해요." (다른 사람의 의견을 전달)</div>
         <div class="ex-en" style="margin-top:12px;">"People say she is very talented."</div>
         <div class="ex-ko">"사람들은 그녀가 매우 재능 있다고 말해요." (사람들의 말을 간접적으로 전함)</div>
@@ -4532,13 +4532,13 @@ Reconsider
     "Tell": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Tell</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Tell</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Tell')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Tell은 <strong>'정보를 전달하고 반응을 기대하는 행위'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Tell의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Tell</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Tell</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Tell')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"명확하게 정보를 전달하는 것"</div>
         <p>입니다. 여기서 중요한 것은 상대방이 이 정보를 받았을 때의 반응입니다.</p>
     </div>
@@ -4554,7 +4554,7 @@ Reconsider
     <h2 class="insight-h2">① 정보 전달의 명확성 Clarifying Information</h2>
     <p class="insight-p">명확하고 분명하게 정보를 전달하는 뉘앙스가 있습니다.</p>
     <div class="example-group">
-        <div class="ex-en">Tell me the truth.</div>
+        <div class="ex-en">Tell me the truth. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Tell me the truth.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">진실을 말해줘. (명확한 정보를 요구하는 상황)</div>
         <div class="ex-en" style="margin-top:12px;">Can you tell me how to get there?</div>
         <div class="ex-ko">거기에 어떻게 가는지 알려줄 수 있어? (명확한 길 안내를 요구하는 상황)</div>
@@ -4563,7 +4563,7 @@ Reconsider
     <h2 class="insight-h2">② 의사소통 Communication</h2>
     <p class="insight-p">의사소통을 통해 정보를 전달하는 데 중점을 둡니다.</p>
     <div class="example-group">
-        <div class="ex-en">He told me about the meeting.</div>
+        <div class="ex-en">He told me about the meeting. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('He told me about the meeting.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그가 회의에 대해 말해줬어. (정보를 전달하고 공유하는 상황)</div>
         <div class="ex-en" style="margin-top:12px;">I told her to call you.</div>
         <div class="ex-ko">내가 그녀에게 네게 전화하라고 했어. (의도를 전달하는 상황)</div>
@@ -4572,7 +4572,7 @@ Reconsider
     <h2 class="insight-h2">③ 감정 전달 Expressing Emotions</h2>
     <p class="insight-p">감정을 담아 정보를 전달할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">I can't tell you how much I appreciate it.</div>
+        <div class="ex-en">I can't tell you how much I appreciate it. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I can\'t tell you how much I appreciate it.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">얼마나 감사한지 말로 표현할 수 없어. (감정을 강하게 전달하는 상황)</div>
         <div class="ex-en" style="margin-top:12px;">She told me she was upset.</div>
         <div class="ex-ko">그녀는 화가 난다고 말했어. (감정을 직접적으로 전달하는 상황)</div>
@@ -4609,7 +4609,7 @@ Reconsider
     <h2 class="insight-h2">① 공식적 대화 / Formal Communication</h2>
     <p class="insight-p">Speak는 종종 공식적이거나 일방적인 의사소통에 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">I need to speak with the manager about the issue.</div>
+        <div class="ex-en">I need to speak with the manager about the issue. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I need to speak with the manager about the issue.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">나는 그 문제에 대해 관리자와 이야기해야 합니다. (공식적인 상황에서의 대화)</div>
         <div class="ex-en" style="margin-top:12px;">She spoke at the conference yesterday.</div>
         <div class="ex-ko">그녀는 어제 회의에서 발표했습니다. (공식적이고 일방적인 말하기)</div>
@@ -4618,7 +4618,7 @@ Reconsider
     <h2 class="insight-h2">② 친밀한 대화 / Informal Conversation</h2>
     <p class="insight-p">Talk는 좀 더 비공식적이고 상호적인 대화에 자주 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Let's talk about your plans for the weekend.</div>
+        <div class="ex-en">Let's talk about your plans for the weekend. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Let\'s talk about your plans for the weekend.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">주말 계획에 대해 이야기하자. (비공식적이고 친근한 대화)</div>
         <div class="ex-en" style="margin-top:12px;">We talked for hours last night.</div>
         <div class="ex-ko">우리는 어젯밤에 몇 시간 동안 이야기했어요. (서로의 의견을 주고받는 대화)</div>
@@ -4627,7 +4627,7 @@ Reconsider
     <h2 class="insight-h2">③ 특정 주제에 대한 언급 / Referring to a Topic</h2>
     <p class="insight-p">Speak는 특정 주제에 대해 언급할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">She speaks three languages fluently.</div>
+        <div class="ex-en">She speaks three languages fluently. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('She speaks three languages fluently.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀는 세 개의 언어를 유창하게 구사합니다. (특정한 능력이나 주제에 대한 언급)</div>
         <div class="ex-en" style="margin-top:12px;">They speak highly of you.</div>
         <div class="ex-ko">그들은 당신에 대해 높이 평가합니다. (특정 주제나 사람에 대한 언급)</div>
@@ -4637,13 +4637,13 @@ Reconsider
     "See": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>See</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>See</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('See')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 See은 <strong>'직접적인 인지를 통한 이해'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">See의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>See</strong>의 핵심은</p>
+        <p>원어민에게 <strong>See</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('See')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"직접 눈으로 보면서 이해하는 것"</div>
         <p>입니다. (이것은 물리적 혹은 추상적 상황 모두에 적용될 수 있습니다.)</p>
     </div>
@@ -4662,7 +4662,7 @@ Reconsider
     <h2 class="insight-h2">① 직관적 이해 Intuitive Understanding</h2>
     <p class="insight-p">'See'는 무언가를 즉시 이해했을 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">I see what you mean.</div>
+        <div class="ex-en">I see what you mean. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I see what you mean.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">네가 무슨 말 하는지 알겠어. (즉각적으로 의견이나 말을 이해할 때)</div>
         <div class="ex-en" style="margin-top:12px;">Oh, I see! That makes sense now.</div>
         <div class="ex-ko">아, 알겠어! 이제 이해가 되네. (새로운 정보를 듣고 이해가 되었을 때)</div>
@@ -4671,7 +4671,7 @@ Reconsider
     <h2 class="insight-h2">② 물리적 시야 Physical Sight</h2>
     <p class="insight-p">'See'는 물리적으로 무언가를 보는 행위를 뜻하기도 합니다.</p>
     <div class="example-group">
-        <div class="ex-en">Did you see that shooting star?</div>
+        <div class="ex-en">Did you see that shooting star? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Did you see that shooting star?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">저기 별똥별 봤어? (육안으로 무언가를 봤을 때)</div>
         <div class="ex-en" style="margin-top:12px;">I can't see anything through this fog.</div>
         <div class="ex-ko">이 안개 때문에 아무것도 안 보여. (시각적으로 방해를 받을 때)</div>
@@ -4680,7 +4680,7 @@ Reconsider
     <h2 class="insight-h2">③ 경험 경험 Experiential Encounter</h2>
     <p class="insight-p">'See'는 경험을 통해 무언가를 접하거나 겪을 때에도 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">I saw him at the concert last night.</div>
+        <div class="ex-en">I saw him at the concert last night. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I saw him at the concert last night.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">어젯밤 콘서트에서 그를 봤어. (직접 무언가를 겪거나 만났을 때)</div>
         <div class="ex-en" style="margin-top:12px;">You should see that movie; it's amazing.</div>
         <div class="ex-ko">그 영화 봐야 해, 정말 멋져. (경험을 추천할 때)</div>
@@ -4690,13 +4690,13 @@ Reconsider
     "Look": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Look</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Look</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Look')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Look은 <strong>'시각적 인식을 통한 관찰과 주의집중'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Look의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Look</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Look</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Look')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"집중하여 바라보는 행위"</div>
         <p>입니다. 이 표현은 주의를 기울여 관찰하는 것을 나타냅니다.</p>
     </div>
@@ -4715,7 +4715,7 @@ Reconsider
     <h2 class="insight-h2">① 주의 깊게 바라보기 + Focused Observation</h2>
     <p class="insight-p">특정 대상에 집중하여 바라보는 것을 의미합니다.</p>
     <div class="example-group">
-        <div class="ex-en">"Look at the stars tonight; they are so bright!"</div>
+        <div class="ex-en">"Look at the stars tonight; they are so bright!" <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;Look at the stars tonight; they are so bright!&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"오늘 밤 별 좀 봐봐, 정말 밝아!" (별에 집중해서 바라보기를 요청)</div>
         <div class="ex-en" style="margin-top:12px;">"She looked at him as if she was seeing him for the first time."</div>
         <div class="ex-ko">"그녀는 그를 처음 보는 것처럼 바라보았다." (새로운 시각으로 집중하여 바라봄)</div>
@@ -4724,7 +4724,7 @@ Reconsider
     <h2 class="insight-h2">② 외모나 상태 평가 + Appearance or Condition Assessment</h2>
     <p class="insight-p">대상의 외관이나 상태를 평가할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">"You look great in that dress!"</div>
+        <div class="ex-en">"You look great in that dress!" <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;You look great in that dress!&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"그 드레스 입으니 멋져 보여!" (외모를 칭찬하며 평가)</div>
         <div class="ex-en" style="margin-top:12px;">"This cake looks delicious."</div>
         <div class="ex-ko">"이 케이크 맛있어 보여." (케이크의 상태를 평가)</div>
@@ -4733,7 +4733,7 @@ Reconsider
     <h2 class="insight-h2">③ 방향 제시 + Giving Direction</h2>
     <p class="insight-p">어떤 방향으로 주의를 돌리도록 지시할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">"Look to your left, there's a beautiful painting."</div>
+        <div class="ex-en">"Look to your left, there's a beautiful painting." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;Look to your left, there\'s a beautiful painting.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"왼쪽을 봐봐, 아름다운 그림이 있어." (시선을 특정 방향으로 유도)</div>
         <div class="ex-en" style="margin-top:12px;">"Look here, you'll find what you're searching for."</div>
         <div class="ex-ko">"여길 봐, 네가 찾는 게 있을 거야." (주의를 특정 장소로 돌림)</div>
@@ -4743,13 +4743,13 @@ Reconsider
     "Watch": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Watch</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Watch</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Watch')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Watch은 <strong>'주의 깊게 관찰하고 지켜보는 것'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Watch의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Watch</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Watch</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Watch')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"지속적으로 집중하여 보는 것"</div>
         <p>입니다. 시각적 집중과 주의가 필요한 상황에서 사용됩니다.</p>
     </div>
@@ -4768,7 +4768,7 @@ Reconsider
     <h2 class="insight-h2">① 주의 깊게 지켜보는 상황 + Observing Carefully</h2>
     <p class="insight-p">어떤 대상이나 상황을 주의 깊게 지켜보는 상황에서 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Please watch the kids while I run to the store.</div>
+        <div class="ex-en">Please watch the kids while I run to the store. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Please watch the kids while I run to the store.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">아이들을 잘 지켜봐주세요, 제가 가게에 다녀오는 동안 (아이들이 안전하게 있는지 주의 깊게 관찰하는 상황)</div>
         <div class="ex-en" style="margin-top:12px;">Watch the pot so it doesn't boil over.</div>
         <div class="ex-ko">냄비가 끓어 넘치지 않도록 잘 지켜보세요 (냄비 상태를 지속적으로 관찰하는 상황)</div>
@@ -4777,7 +4777,7 @@ Reconsider
     <h2 class="insight-h2">② 텔레비전이나 영화를 보다 + Watching TV/Movies</h2>
     <p class="insight-p">TV 프로그램이나 영화를 관람할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">I watched a great movie last night.</div>
+        <div class="ex-en">I watched a great movie last night. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I watched a great movie last night.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">어젯밤에 멋진 영화를 봤어요 (영화를 주의 깊게 감상하는 상황)</div>
         <div class="ex-en" style="margin-top:12px;">We spent the evening watching TV.</div>
         <div class="ex-ko">우리는 저녁 내내 TV를 보며 시간을 보냈어요 (TV 프로그램을 지속적으로 보는 상황)</div>
@@ -4786,7 +4786,7 @@ Reconsider
     <h2 class="insight-h2">③ 상황의 변화를 지켜보다 + Monitoring Changes</h2>
     <p class="insight-p">상황이나 상태의 변화를 지켜보는 상황에서 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Watch how the weather changes tomorrow.</div>
+        <div class="ex-en">Watch how the weather changes tomorrow. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Watch how the weather changes tomorrow.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">내일 날씨가 어떻게 변하는지 지켜보세요 (날씨의 변화를 주의 깊게 관찰하는 상황)</div>
         <div class="ex-en" style="margin-top:12px;">We need to watch the market trends closely.</div>
         <div class="ex-ko">우리는 시장의 추세를 면밀히 지켜봐야 합니다 (시장의 변화를 지속적으로 관찰하는 상황)</div>
@@ -4796,13 +4796,13 @@ Reconsider
     "Know": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Know</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Know</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Know')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Know은 <strong>'이 표현의 가장 핵심적인 원어민 뉘앙스 요약'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Know의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Know</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Know</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Know')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"내면의 이해와 확신"</div>
         <p>입니다. (이것은 단순한 정보의 습득을 넘어선 깊은 이해를 포함합니다.)</p>
     </div>
@@ -4822,7 +4822,7 @@ Reconsider
     <h2 class="insight-h2">① 지식의 습득 + Acquisition of Knowledge</h2>
     <p class="insight-p">Know는 지식이나 정보를 얻고 이해하는 것을 의미합니다.</p>
     <div class="example-group">
-        <div class="ex-en">I know the answer to this question.</div>
+        <div class="ex-en">I know the answer to this question. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I know the answer to this question.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">나는 이 질문에 대한 답을 알고 있다. (정보를 습득하고 이해한 상태)</div>
         <div class="ex-en" style="margin-top:12px;">She knows a lot about history.</div>
         <div class="ex-ko">그녀는 역사에 대해 많이 알고 있다. (깊이 있는 지식을 가지고 있음)</div>
@@ -4831,7 +4831,7 @@ Reconsider
     <h2 class="insight-h2">② 사람이나 장소에 대한 친숙함 + Familiarity with People or Places</h2>
     <p class="insight-p">Know는 사람이나 장소에 대해 잘 알고 있는 친숙함을 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">Do you know John?</div>
+        <div class="ex-en">Do you know John? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Do you know John?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">존을 알고 있니? (그 사람과의 친숙함 여부를 묻는 질문)</div>
         <div class="ex-en" style="margin-top:12px;">I know this city very well.</div>
         <div class="ex-ko">나는 이 도시를 매우 잘 알고 있다. (장소에 대한 친숙함)</div>
@@ -4840,7 +4840,7 @@ Reconsider
     <h2 class="insight-h2">③ 인식과 깨달음 + Awareness and Realization</h2>
     <p class="insight-p">Know는 어떤 사실이나 상황에 대한 인식과 깨달음을 의미할 수 있습니다.</p>
     <div class="example-group">
-        <div class="ex-en">I know what you mean.</div>
+        <div class="ex-en">I know what you mean. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I know what you mean.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">네가 무슨 말 하는지 알아. (상황에 대한 인식과 이해)</div>
         <div class="ex-en" style="margin-top:12px;">He knows he's wrong.</div>
         <div class="ex-ko">그는 자신이 틀렸다는 것을 알고 있다. (자신의 상황에 대한 깨달음)</div>
@@ -4850,13 +4850,13 @@ Reconsider
     "Understand": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Understand</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Understand</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Understand')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Understand은 <strong>'깊이 있는 인식과 수용의 과정'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Understand의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Understand</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Understand</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Understand')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"지식과 감정의 결합"</div>
         <p>입니다. 이것은 단순한 정보의 수용을 넘어 마음으로 느끼는 것을 포함합니다.</p>
     </div>
@@ -4876,7 +4876,7 @@ Reconsider
     <h2 class="insight-h2">① 이해하기 위한 공감 + Empathy for Understanding</h2>
     <p class="insight-p">이해는 상대방의 입장과 감정을 진정으로 느끼고 받아들이는 과정을 포함합니다.</p>
     <div class="example-group">
-        <div class="ex-en">"I understand how you feel about this situation."</div>
+        <div class="ex-en">"I understand how you feel about this situation." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;I understand how you feel about this situation.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"이 상황에 대해 당신이 어떻게 느끼는지 이해합니다." (상대방의 감정을 깊이 공감하며 이해함)</div>
         <div class="ex-en" style="margin-top:12px;">"She understands the challenges of being a parent."</div>
         <div class="ex-ko">"그녀는 부모가 되는 것의 어려움을 이해합니다." (개인적 경험이나 공감을 통해 이해함)</div>
@@ -4885,7 +4885,7 @@ Reconsider
     <h2 class="insight-h2">② 지식의 습득 + Acquisition of Knowledge</h2>
     <p class="insight-p">이해는 정보나 개념을 머리로 받아들이고 습득하는 과정입니다.</p>
     <div class="example-group">
-        <div class="ex-en">"I understand the basics of quantum physics."</div>
+        <div class="ex-en">"I understand the basics of quantum physics." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;I understand the basics of quantum physics.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"나는 양자 물리학의 기초를 이해합니다." (정보를 통해 지식을 습득함)</div>
         <div class="ex-en" style="margin-top:12px;">"Do you understand how this machine works?"</div>
         <div class="ex-ko">"이 기계가 어떻게 작동하는지 이해하나요?" (설명을 통해 지식을 받아들임)</div>
@@ -4894,7 +4894,7 @@ Reconsider
     <h2 class="insight-h2">③ 상황 파악 + Grasping the Situation</h2>
     <p class="insight-p">이해는 상황을 파악하고 적절히 대처할 수 있는 능력을 포함합니다.</p>
     <div class="example-group">
-        <div class="ex-en">"He quickly understood the gravity of the situation."</div>
+        <div class="ex-en">"He quickly understood the gravity of the situation." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;He quickly understood the gravity of the situation.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"그는 상황의 심각성을 빠르게 이해했습니다." (상황을 정확히 파악하고 행동함)</div>
         <div class="ex-en" style="margin-top:12px;">"I understand the urgency and will act accordingly."</div>
         <div class="ex-ko">"나는 긴급함을 이해하고 그에 따라 행동할 것입니다." (상황의 긴급성을 인지하고 대응함)</div>
@@ -4904,13 +4904,13 @@ Reconsider
     "Realize": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Realize</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Realize</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Realize')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Realize은 <strong>'무언가를 완전하게 인식하고 이해하는 순간'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Realize의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Realize</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Realize</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Realize')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"깨달음의 순간"</div>
         <p>입니다. (어떤 상황에 대해 명확히 이해하는 순간을 나타냅니다)</p>
     </div>
@@ -4930,7 +4930,7 @@ Reconsider
     <h2 class="insight-h2">① 인식의 순간 - Moment of Awareness</h2>
     <p class="insight-p">자신이 몰랐던 사실을 갑자기 알게 되는 순간을 의미합니다.</p>
     <div class="example-group">
-        <div class="ex-en">I suddenly realized I left my keys at home.</div>
+        <div class="ex-en">I suddenly realized I left my keys at home. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I suddenly realized I left my keys at home.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">갑자기 집에 열쇠를 두고 왔다는 것을 깨달았다. (갑작스럽게 인식하는 순간)</div>
         <div class="ex-en" style="margin-top:12px;">She realized the importance of family after moving abroad.</div>
         <div class="ex-ko">해외로 이주한 후에 그녀는 가족의 소중함을 알게 되었다. (중요성을 인식하는 순간)</div>
@@ -4939,7 +4939,7 @@ Reconsider
     <h2 class="insight-h2">② 이해의 확장 - Expansion of Understanding</h2>
     <p class="insight-p">어떤 상황이나 개념에 대해 깊이 이해하게 되는 것을 의미합니다.</p>
     <div class="example-group">
-        <div class="ex-en">He realized that success requires hard work.</div>
+        <div class="ex-en">He realized that success requires hard work. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('He realized that success requires hard work.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그는 성공이 노력 없이는 이루어지지 않는다는 것을 이해했다. (노력의 중요성을 깊게 이해)</div>
         <div class="ex-en" style="margin-top:12px;">I realized the complexity of the issue only after the meeting.</div>
         <div class="ex-ko">회의 후에야 그 문제의 복잡성을 이해했다. (이해의 확장)</div>
@@ -4948,7 +4948,7 @@ Reconsider
     <h2 class="insight-h2">③ 현실화 - Making Something Real</h2>
     <p class="insight-p">추상적이던 것이 실제로 존재하게 됨을 의미합니다.</p>
     <div class="example-group">
-        <div class="ex-en">They realized their dream of traveling the world.</div>
+        <div class="ex-en">They realized their dream of traveling the world. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('They realized their dream of traveling the world.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그들은 세계 여행의 꿈을 현실로 만들었다. (꿈이 실현된 순간)</div>
         <div class="ex-en" style="margin-top:12px;">The project was finally realized after years of planning.</div>
         <div class="ex-ko">수년간의 계획 끝에 프로젝트가 마침내 현실화되었다. (계획이 현실이 된 순간)</div>
@@ -4958,13 +4958,13 @@ Reconsider
     "Big": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Big</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Big</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Big')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Big은 <strong>'크고 중요한 것, 감정이나 영향의 강렬함'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Big의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Big</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Big</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Big')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"크기 이상의 중요성과 강렬함"</div>
         <p>입니다. 이는 단순한 물리적 크기를 넘어서는 의미를 지닙니다.</p>
     </div>
@@ -4984,7 +4984,7 @@ Reconsider
     <h2 class="insight-h2">① 중요한 사건이나 순간의 Big</h2>
     <p class="insight-p">"Big"은 중요한 순간이나 사건을 강조할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">This is a big moment for us.</div>
+        <div class="ex-en">This is a big moment for us. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('This is a big moment for us.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">이건 우리에게 큰 순간입니다. (중요하고 결정적인 순간을 강조)</div>
         <div class="ex-en" style="margin-top:12px;">Winning this award is a big deal.</div>
         <div class="ex-ko">이 상을 받는 것은 큰 일입니다. (중요한 성취임을 강조)</div>
@@ -4993,7 +4993,7 @@ Reconsider
     <h2 class="insight-h2">② 감정의 강도를 표현하는 Big</h2>
     <p class="insight-p">"Big"은 감정의 강도를 표현할 때도 자주 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">I'm a big fan of your work.</div>
+        <div class="ex-en">I'm a big fan of your work. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I\'m a big fan of your work.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">저는 당신의 작품을 정말 좋아해요. (강한 호감과 지지를 표현)</div>
         <div class="ex-en" style="margin-top:12px;">He's got a big heart.</div>
         <div class="ex-ko">그는 마음이 넓어요. (큰 마음씨를 가진 사람을 의미)</div>
@@ -5002,7 +5002,7 @@ Reconsider
     <h2 class="insight-h2">③ 영향력의 Big</h2>
     <p class="insight-p">"Big"은 영향력이 클 때도 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">This decision will have a big impact on our future.</div>
+        <div class="ex-en">This decision will have a big impact on our future. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('This decision will have a big impact on our future.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">이 결정은 우리의 미래에 큰 영향을 미칠 것입니다. (중요한 영향을 강조)</div>
         <div class="ex-en" style="margin-top:12px;">She's a big name in the industry.</div>
         <div class="ex-ko">그녀는 이 업계에서 유명한 인물입니다. (영향력 있는 인물을 지칭)</div>
@@ -5012,13 +5012,13 @@ Reconsider
     "Large": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Large</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Large</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Large')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Large은 <strong>'무엇인가가 물리적, 개념적으로 크다, 또는 범위가 넓다'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Large의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Large</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Large</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Large')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"넓고, 크고, 포괄적인 느낌"</div>
         <p>입니다. 여기서 Large는 단순히 크기를 넘어 어떤 것의 포괄적인 성격을 지칭합니다.</p>
     </div>
@@ -5039,7 +5039,7 @@ Reconsider
     <h2 class="insight-h2">① 물리적 크기 (Physical Size)</h2>
     <p class="insight-p">Large는 물리적으로 큰 것을 설명할 때 흔히 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">This is a large pizza.</div>
+        <div class="ex-en">This is a large pizza. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('This is a large pizza.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">이것은 큰 피자입니다. (피자의 물리적 크기가 크다는 것을 강조)</div>
         <div class="ex-en" style="margin-top:12px;">The room is large enough to fit twenty people.</div>
         <div class="ex-ko">그 방은 스무 명이 들어갈 만큼 큽니다. (방의 넓은 공간감을 강조)</div>
@@ -5048,7 +5048,7 @@ Reconsider
     <h2 class="insight-h2">② 양적 크기 (Quantitative Size)</h2>
     <p class="insight-p">Large는 양적으로 많은 것을 표현할 때도 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">She made a large amount of money last year.</div>
+        <div class="ex-en">She made a large amount of money last year. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('She made a large amount of money last year.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀는 작년에 많은 돈을 벌었습니다. (금전적 수치가 크다는 것을 강조)</div>
         <div class="ex-en" style="margin-top:12px;">There was a large crowd at the concert.</div>
         <div class="ex-ko">콘서트에는 많은 군중이 있었습니다. (군중의 숫자가 많다는 것을 강조)</div>
@@ -5057,7 +5057,7 @@ Reconsider
     <h2 class="insight-h2">③ 범위의 포괄성 (Comprehensive Scope)</h2>
     <p class="insight-p">Large는 범위가 넓고 포괄적인 상황을 설명할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">The company has a large presence in Asia.</div>
+        <div class="ex-en">The company has a large presence in Asia. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The company has a large presence in Asia.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그 회사는 아시아에 광범위하게 진출해 있습니다. (회사의 영향력이 넓고 포괄적임을 강조)</div>
         <div class="ex-en" style="margin-top:12px;">He has a large vocabulary for his age.</div>
         <div class="ex-ko">그는 나이에 비해 어휘가 풍부합니다. (어휘의 폭이 넓다는 것을 강조)</div>
@@ -5067,13 +5067,13 @@ Reconsider
     "Great": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Great</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Great</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Great')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Great은 <strong>'탁월함과 긍정적인 감정의 결합'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Great의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Great</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Great</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Great')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"탁월함과 긍정의 짧고 강렬한 본질"</div>
         <p>입니다. 이 표현은 상황을 긍정적으로 강조합니다.</p>
     </div>
@@ -5093,7 +5093,7 @@ Reconsider
     <h2 class="insight-h2">① 긍정적인 평가 Positive Evaluation</h2>
     <p class="insight-p">Great은 어떤 것이 뛰어나거나 만족스러울 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">"Your presentation was great!"</div>
+        <div class="ex-en">"Your presentation was great!" <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;Your presentation was great!&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"당신의 발표는 훌륭했어요!" (발표의 질이 매우 높다는 긍정적 평가)</div>
         <div class="ex-en" style="margin-top:12px;">"You did a great job on the project."</div>
         <div class="ex-ko">"프로젝트에서 훌륭한 일을 했어요." (성과가 매우 뛰어남을 강조)</div>
@@ -5102,7 +5102,7 @@ Reconsider
     <h2 class="insight-h2">② 감정의 강조 Emphasis on Emotion</h2>
     <p class="insight-p">Great은 감정적으로 고조된 상태를 표현할 때도 쓰입니다.</p>
     <div class="example-group">
-        <div class="ex-en">"I feel great today!"</div>
+        <div class="ex-en">"I feel great today!" <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;I feel great today!&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"오늘 기분이 정말 좋아요!" (기분이 최고로 좋다는 감정의 강조)</div>
         <div class="ex-en" style="margin-top:12px;">"We had a great time at the party."</div>
         <div class="ex-ko">"파티에서 정말 즐거운 시간을 보냈어요." (즐거움이 극대화된 경험)</div>
@@ -5111,7 +5111,7 @@ Reconsider
     <h2 class="insight-h2">③ 칭찬과 인정 Compliments and Recognition</h2>
     <p class="insight-p">사람이나 행동을 칭찬하거나 인정할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">"Great work on the report!"</div>
+        <div class="ex-en">"Great work on the report!" <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;Great work on the report!&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"보고서 작업 훌륭했어요!" (보고서의 질이 높음을 칭찬)</div>
         <div class="ex-en" style="margin-top:12px;">"You're doing great!"</div>
         <div class="ex-ko">"잘 하고 있어요!" (현재 진행 중인 일에 대한 인정)</div>
@@ -5121,13 +5121,13 @@ Reconsider
     "Small": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Small</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Small</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Small')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Small은 <strong>'아담하고 미묘한 차이를 만드는 것'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Small의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Small</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Small</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Small')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"크기는 작지만 그 자체로 완전한 존재"</div>
         <p>입니다. 작지만 중요한 디테일을 강조하는 표현입니다.</p>
     </div>
@@ -5148,7 +5148,7 @@ Reconsider
     <h2 class="insight-h2">① 세세함과 디테일 (Detail and Precision)</h2>
     <p class="insight-p">Small은 작지만 정확하고 중요한 디테일을 의미할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">"She has a small but important role in the project."</div>
+        <div class="ex-en">"She has a small but important role in the project." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;She has a small but important role in the project.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"그녀는 프로젝트에서 작지만 중요한 역할을 맡고 있다." (작지만 결정적인 역할을 강조)</div>
         <div class="ex-en" style="margin-top:12px;">"Pay attention to the small details in the report."</div>
         <div class="ex-ko">"보고서의 작은 세부 사항에 주목하세요." (작지만 중요한 부분을 강조)</div>
@@ -5157,7 +5157,7 @@ Reconsider
     <h2 class="insight-h2">② 친밀감과 소박함 (Intimacy and Modesty)</h2>
     <p class="insight-p">Small은 소박하고 친밀한 느낌을 줄 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">"We had a small gathering at my place."</div>
+        <div class="ex-en">"We had a small gathering at my place." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;We had a small gathering at my place.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"우리 집에서 소규모 모임을 가졌다." (소박하고 아늑한 모임을 강조)</div>
         <div class="ex-en" style="margin-top:12px;">"She gave me a small smile as she passed by."</div>
         <div class="ex-ko">"그녀는 지나가며 나에게 작은 미소를 지었다." (소박하고 진솔한 미소를 강조)</div>
@@ -5166,7 +5166,7 @@ Reconsider
     <h2 class="insight-h2">③ 제한된 규모 (Limited Scale)</h2>
     <p class="insight-p">Small은 제한된 규모나 양을 표현할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">"They live in a small apartment downtown."</div>
+        <div class="ex-en">"They live in a small apartment downtown." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;They live in a small apartment downtown.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"그들은 시내의 작은 아파트에 산다." (제한된 공간을 강조)</div>
         <div class="ex-en" style="margin-top:12px;">"He started his business with a small amount of capital."</div>
         <div class="ex-ko">"그는 적은 자본으로 사업을 시작했다." (제한된 초기 자본을 강조)</div>
@@ -5176,13 +5176,13 @@ Reconsider
     "Little": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Little</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Little</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Little')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Little은 <strong>'작고 거의 없는 것의 본질'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Little의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Little</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Little</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Little')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"작고 미미한 존재"</div>
         <p>입니다. 이 표현은 양이 매우 적음을 강조합니다.</p>
     </div>
@@ -5200,7 +5200,7 @@ Reconsider
     <h2 class="insight-h2">① 부정적 의미 - Negligible</h2>
     <p class="insight-p">Little은 무시할 수 있는 정도의 양을 나타낼 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">He has little interest in politics.</div>
+        <div class="ex-en">He has little interest in politics. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('He has little interest in politics.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그는 정치에 거의 관심이 없다. (관심이 거의 없음을 강조)</div>
         <div class="ex-en" style="margin-top:12px;">There's little hope of success.</div>
         <div class="ex-ko">성공할 가능성이 거의 없다. (희망이 거의 없음을 나타냄)</div>
@@ -5209,7 +5209,7 @@ Reconsider
     <h2 class="insight-h2">② 제한적 긍정 - Limited</h2>
     <p class="insight-p">Little은 긍정적이지만 매우 제한적인 의미를 전달할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">She has a little money saved up.</div>
+        <div class="ex-en">She has a little money saved up. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('She has a little money saved up.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀는 약간의 돈을 저축했다. (큰 금액은 아니지만 약간의 여유를 강조)</div>
         <div class="ex-en" style="margin-top:12px;">We have a little time before the meeting starts.</div>
         <div class="ex-ko">회의가 시작되기 전까지 약간의 시간이 있다. (시간이 제한적임을 암시)</div>
@@ -5218,7 +5218,7 @@ Reconsider
     <h2 class="insight-h2">③ 애정 표현 - Affectionate</h2>
     <p class="insight-p">Little은 애정이 담긴 표현으로 사용되기도 합니다.</p>
     <div class="example-group">
-        <div class="ex-en">Look at that little puppy!</div>
+        <div class="ex-en">Look at that little puppy! <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Look at that little puppy!')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">저 작은 강아지를 봐! (작고 귀여운 것에 대한 애정 표현)</div>
         <div class="ex-en" style="margin-top:12px;">She's my little sister.</div>
         <div class="ex-ko">그녀는 내 작은 여동생이다. (어린 여동생에 대한 애정 표현)</div>
@@ -5228,13 +5228,13 @@ Reconsider
     "Tiny": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Tiny</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Tiny</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Tiny')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Tiny은 <strong>'아주 작고 미세한 것의 본질'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Tiny의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Tiny</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Tiny</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Tiny')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"아주 작고 섬세한 것"</div>
         <p>입니다. (작고 미세한 특징을 강조합니다.)</p>
     </div>
@@ -5256,7 +5256,7 @@ Reconsider
     <h2 class="insight-h2">① 작고 귀여운 느낌 (Tiny and Cute)</h2>
     <p class="insight-p">Tiny는 작고 귀여운 느낌을 주는 데 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Look at that tiny kitten! It's adorable.</div>
+        <div class="ex-en">Look at that tiny kitten! It's adorable. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Look at that tiny kitten! It\'s adorable.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">저 작은 새끼 고양이를 봐! 정말 귀엽다. (작고 귀여운 것을 강조)</div>
         <div class="ex-en" style="margin-top:12px;">She wore a tiny hat that matched her dress.</div>
         <div class="ex-ko">그녀는 드레스와 어울리는 작은 모자를 썼다. (작고 섬세한 느낌을 강조)</div>
@@ -5265,7 +5265,7 @@ Reconsider
     <h2 class="insight-h2">② 미세한 차이 (Tiny Differences)</h2>
     <p class="insight-p">Tiny는 미세하고 거의 보이지 않는 차이를 나타낼 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">There's a tiny difference in color between the two shades.</div>
+        <div class="ex-en">There's a tiny difference in color between the two shades. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('There\'s a tiny difference in color between the two shades.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">두 색상 사이에는 미세한 색 차이가 있다. (거의 눈에 띄지 않는 차이를 강조)</div>
         <div class="ex-en" style="margin-top:12px;">Even a tiny amount of dust can affect the machine.</div>
         <div class="ex-ko">아주 작은 양의 먼지라도 기계에 영향을 줄 수 있다. (미세한 양의 중요성을 강조)</div>
@@ -5274,7 +5274,7 @@ Reconsider
     <h2 class="insight-h2">③ 제한된 공간 (Tiny Spaces)</h2>
     <p class="insight-p">Tiny는 제한적이고 비좁은 공간을 설명할 때 자주 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">They live in a tiny apartment downtown.</div>
+        <div class="ex-en">They live in a tiny apartment downtown. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('They live in a tiny apartment downtown.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그들은 도심의 작은 아파트에 산다. (비좁고 제한된 공간을 강조)</div>
         <div class="ex-en" style="margin-top:12px;">The car fits into that tiny parking spot.</div>
         <div class="ex-ko">차가 그 작은 주차 공간에 들어간다. (아주 작은 공간에 들어가는 것을 강조)</div>
@@ -5284,13 +5284,13 @@ Reconsider
     "Happy": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Happy</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Happy</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Happy')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Happy은 <strong>'기쁨과 만족감이 넘치는 상태'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Happy의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Happy</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Happy</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Happy')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"순수한 기쁨과 만족의 순간"</div>
         <p>입니다. 이 표현은 주로 긍정적이고 밝은 감정을 나타냅니다.</p>
     </div>
@@ -5309,7 +5309,7 @@ Reconsider
     <h2 class="insight-h2">① 기쁨의 순간 (Joyful Moments)</h2>
     <p class="insight-p">Happy는 순간적인 기쁨을 표현할 때 자주 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">I was so happy to see her after such a long time.</div>
+        <div class="ex-en">I was so happy to see her after such a long time. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I was so happy to see her after such a long time.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">오랜만에 그녀를 만나서 너무 기뻤어요. (오랜 기다림 후의 기쁨 표현)</div>
         <div class="ex-en" style="margin-top:12px;">The kids were happy playing in the park.</div>
         <div class="ex-ko">아이들은 공원에서 놀며 행복했어요. (순수한 놀이의 기쁨)</div>
@@ -5318,7 +5318,7 @@ Reconsider
     <h2 class="insight-h2">② 만족감 (Contentment)</h2>
     <p class="insight-p">Happy는 만족스러운 상태를 나타낼 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">She was happy with the results of the test.</div>
+        <div class="ex-en">She was happy with the results of the test. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('She was happy with the results of the test.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀는 시험 결과에 만족했어요. (결과에 대한 긍정적 평가)</div>
         <div class="ex-en" style="margin-top:12px;">I'm happy living in this quiet neighborhood.</div>
         <div class="ex-ko">나는 이 조용한 동네에 사는 것이 만족스러워요. (평온한 생활에 대한 만족)</div>
@@ -5327,7 +5327,7 @@ Reconsider
     <h2 class="insight-h2">③ 행복한 삶의 상태 (State of a Happy Life)</h2>
     <p class="insight-p">Happy는 지속적인 행복의 상태를 묘사할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">They lived a happy life together for over 50 years.</div>
+        <div class="ex-en">They lived a happy life together for over 50 years. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('They lived a happy life together for over 50 years.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그들은 50년 넘게 함께 행복한 삶을 살았어요. (오랜 시간의 지속적 행복)</div>
         <div class="ex-en" style="margin-top:12px;">He always has a happy disposition.</div>
         <div class="ex-ko">그는 항상 행복한 성격을 가지고 있어요. (성격적으로 긍정적이고 밝은 상태)</div>
@@ -5337,13 +5337,13 @@ Reconsider
     "Glad": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Glad</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Glad</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Glad')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Glad은 <strong>'기쁨과 안도의 핵심 조화'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Glad의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Glad</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Glad</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Glad')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"기쁨과 만족감의 즉각적인 표현"</div>
         <p>입니다. (이 표현은 긍정적인 상황에서 자주 사용됩니다.)</p>
     </div>
@@ -5361,7 +5361,7 @@ Reconsider
     <h2 class="insight-h2">① 기쁨의 표현 (Expression of Joy)</h2>
     <p class="insight-p">'Glad'는 주로 기쁨을 표현할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">"I'm glad you came to the party."</div>
+        <div class="ex-en">"I'm glad you came to the party." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;I\'m glad you came to the party.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"네가 파티에 와서 기뻐." (기쁨과 함께 감사의 느낌도 포함)</div>
         <div class="ex-en" style="margin-top:12px;">"She's glad about her new job."</div>
         <div class="ex-ko">"그녀는 새 직장에 대해 기뻐하고 있어." (새로운 시작에 대한 기쁨)</div>
@@ -5370,7 +5370,7 @@ Reconsider
     <h2 class="insight-h2">② 안도의 표현 (Expression of Relief)</h2>
     <p class="insight-p">'Glad'는 안도의 느낌을 함께 나타낼 수 있습니다.</p>
     <div class="example-group">
-        <div class="ex-en">"I'm glad that's over."</div>
+        <div class="ex-en">"I'm glad that's over." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;I\'m glad that\'s over.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"그게 끝나서 다행이야." (긴장된 상황이 끝나서 느끼는 안도)</div>
         <div class="ex-en" style="margin-top:12px;">"We're glad to hear you're safe."</div>
         <div class="ex-ko">"네가 안전하다는 소식을 들으니 다행이야." (안전함에 대한 안도)</div>
@@ -5379,7 +5379,7 @@ Reconsider
     <h2 class="insight-h2">③ 환영의 표현 (Expression of Welcome)</h2>
     <p class="insight-p">'Glad'는 환영의 의미를 전달할 때도 쓰입니다.</p>
     <div class="example-group">
-        <div class="ex-en">"Glad to meet you!"</div>
+        <div class="ex-en">"Glad to meet you!" <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;Glad to meet you!&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"만나서 반가워!" (처음 만남에서의 환영과 기쁨)</div>
         <div class="ex-en" style="margin-top:12px;">"I'm glad you could join us."</div>
         <div class="ex-ko">"네가 우리와 함께 할 수 있어서 기뻐." (함께 함에 대한 환영의 뜻)</div>
@@ -5389,13 +5389,13 @@ Reconsider
     "Pleased": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Pleased</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Pleased</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Pleased')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Pleased은 <strong>'만족과 기쁨을 느끼는 상태'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Pleased의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Pleased</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Pleased</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Pleased')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"내면에서 우러나오는 만족감"</div>
         <p>입니다. 이 표현은 종종 성취감이나 기대한 결과를 얻었을 때 사용됩니다.</p>
     </div>
@@ -5413,7 +5413,7 @@ Reconsider
     <h2 class="insight-h2">① 만족의 표현 (Expression of Satisfaction)</h2>
     <p class="insight-p">Pleased는 어떤 일이 잘 되었을 때 느끼는 만족감을 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">I'm pleased with the results of the project.</div>
+        <div class="ex-en">I'm pleased with the results of the project. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I\'m pleased with the results of the project.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">나는 프로젝트 결과에 만족합니다. (성과가 기대에 부응했음을 나타냄)</div>
         <div class="ex-en" style="margin-top:12px;">She was pleased to hear the good news.</div>
         <div class="ex-ko">그녀는 좋은 소식을 듣고 기뻤습니다. (기대 이상의 좋은 소식에 대한 반응)</div>
@@ -5422,7 +5422,7 @@ Reconsider
     <h2 class="insight-h2">② 기쁨의 표현 (Expression of Joy)</h2>
     <p class="insight-p">Pleased는 기쁨을 느낄 때도 사용됩니다, 특히 예상치 못한 기쁨을.</p>
     <div class="example-group">
-        <div class="ex-en">We were pleased to see everyone at the reunion.</div>
+        <div class="ex-en">We were pleased to see everyone at the reunion. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('We were pleased to see everyone at the reunion.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">우리는 동창회에서 모두를 보게 되어 기뻤습니다. (예상치 못한 즐거운 재회)</div>
         <div class="ex-en" style="margin-top:12px;">He was pleased with his performance on stage.</div>
         <div class="ex-ko">그는 무대에서의 자신의 공연에 기뻤습니다. (자신의 기대를 충족시킨 공연)</div>
@@ -5431,7 +5431,7 @@ Reconsider
     <h2 class="insight-h2">③ 감사의 표현 (Expression of Gratitude)</h2>
     <p class="insight-p">Pleased는 감사의 감정을 표현할 때 사용되기도 합니다.</p>
     <div class="example-group">
-        <div class="ex-en">I'm pleased you could join us today.</div>
+        <div class="ex-en">I'm pleased you could join us today. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I\'m pleased you could join us today.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">당신이 오늘 우리와 함께할 수 있어서 기쁩니다. (함께해 준 것에 대한 감사)</div>
         <div class="ex-en" style="margin-top:12px;">We're pleased to have your support.</div>
         <div class="ex-ko">당신의 지원을 받아 기쁩니다. (지원에 대한 감사의 표현)</div>
@@ -5441,13 +5441,13 @@ Reconsider
     "Tired": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Tired</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Tired</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Tired')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Tired은 <strong>'완전히 에너지가 고갈된 상태'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Tired의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Tired</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Tired</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Tired')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"완전히 소진된 상태"</div>
         <p>입니다. 에너지가 모두 소모되어 더 이상 활동할 수 없는 상태를 뜻합니다.</p>
     </div>
@@ -5468,7 +5468,7 @@ Reconsider
     <h2 class="insight-h2">① 피로감의 표현 Tired + Exhausted</h2>
     <p class="insight-p">"Tired"는 육체적 피로를 표현할 때 자주 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">I'm so tired after the long hike.</div>
+        <div class="ex-en">I'm so tired after the long hike. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I\'m so tired after the long hike.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">긴 하이킹 후에 너무 피곤해요. (육체적으로 지친 상태를 표현)</div>
         <div class="ex-en" style="margin-top:12px;">She was tired and fell asleep immediately.</div>
         <div class="ex-ko">그녀는 피곤해서 바로 잠들었어요. (지쳐서 더 이상 깨어있기 어려운 상황)</div>
@@ -5477,7 +5477,7 @@ Reconsider
     <h2 class="insight-h2">② 감정적으로 지친 상태 Tired + Drained</h2>
     <p class="insight-p">감정적으로 지쳤을 때도 Tired를 사용합니다.</p>
     <div class="example-group">
-        <div class="ex-en">I'm emotionally tired from all the stress at work.</div>
+        <div class="ex-en">I'm emotionally tired from all the stress at work. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I\'m emotionally tired from all the stress at work.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">직장에서의 스트레스로 감정적으로 지쳤어요. (일로 인한 감정적 소진)</div>
         <div class="ex-en" style="margin-top:12px;">After the argument, he felt tired of fighting.</div>
         <div class="ex-ko">말다툼 후에 그는 싸우는 것에 지쳤다고 느꼈어요. (더 이상 감정적으로 소모되기 싫은 상태)</div>
@@ -5486,7 +5486,7 @@ Reconsider
     <h2 class="insight-h2">③ 반복적인 상황에 대한 피곤 Tired + Fed Up</h2>
     <p class="insight-p">반복적인 상황에 대한 질림을 표현할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">I'm tired of the same routine every day.</div>
+        <div class="ex-en">I'm tired of the same routine every day. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I\'m tired of the same routine every day.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">매일 같은 일상에 질렸어요. (반복되는 상황에 대한 피곤함)</div>
         <div class="ex-en" style="margin-top:12px;">He's tired of hearing the same excuses.</div>
         <div class="ex-ko">그는 같은 변명을 듣는 것에 질렸어요. (지겹고 더 이상 듣고 싶지 않은 상태)</div>
@@ -5496,13 +5496,13 @@ Reconsider
     "Exhausted": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Exhausted</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Exhausted</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Exhausted')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Exhausted은 <strong>'완전히 소진된 상태를 나타내는 깊은 피로감'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Exhausted의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Exhausted</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Exhausted</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Exhausted')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"더 이상 에너지가 남아있지 않은 상태"</div>
         <p>입니다. (이 표현은 극한의 피로를 표현할 때 사용됩니다.)</p>
     </div>
@@ -5522,7 +5522,7 @@ Reconsider
     <h2 class="insight-h2">① 완전한 소진 Complete Depletion</h2>
     <p class="insight-p">Exhausted는 에너지를 모두 소진하고 아무것도 남지 않은 상태를 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">After running the marathon, I was completely exhausted.</div>
+        <div class="ex-en">After running the marathon, I was completely exhausted. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('After running the marathon, I was completely exhausted.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">마라톤을 뛰고 나서 나는 완전히 지쳤다. (체력과 에너지가 모두 소진된 상태)</div>
         <div class="ex-en" style="margin-top:12px;">She felt exhausted after a long day at work.</div>
         <div class="ex-ko">그녀는 긴 하루의 일을 마친 후 지쳤다. (일로 인해 에너지가 다 소진된 상태)</div>
@@ -5531,7 +5531,7 @@ Reconsider
     <h2 class="insight-h2">② 정신적 피로 Mental Fatigue</h2>
     <p class="insight-p">Exhausted는 육체적 피로뿐 아니라 정신적 피로를 나타낼 때도 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">By the end of the meeting, I was mentally exhausted.</div>
+        <div class="ex-en">By the end of the meeting, I was mentally exhausted. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('By the end of the meeting, I was mentally exhausted.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">회의가 끝날 즈음 나는 정신적으로 지쳤다. (정신적 에너지가 고갈된 상태)</div>
         <div class="ex-en" style="margin-top:12px;">He was exhausted from studying all night for the exam.</div>
         <div class="ex-ko">그는 밤새 시험 공부를 하느라 지쳤다. (정신적 피로와 함께 에너지가 소진된 상태)</div>
@@ -5540,7 +5540,7 @@ Reconsider
     <h2 class="insight-h2">③ 감정적 소모 Emotional Drain</h2>
     <p class="insight-p">Exhausted는 감정적으로 소모된 상태를 묘사할 때도 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Dealing with the breakup left her emotionally exhausted.</div>
+        <div class="ex-en">Dealing with the breakup left her emotionally exhausted. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Dealing with the breakup left her emotionally exhausted.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">이별을 겪고 나서 그녀는 감정적으로 지쳤다. (감정적 에너지가 소진된 상태)</div>
         <div class="ex-en" style="margin-top:12px;">He felt exhausted after the intense argument.</div>
         <div class="ex-ko">그는 격렬한 논쟁 후에 지쳤다. (감정적으로 소모되어 에너지가 다한 상태)</div>
@@ -5550,13 +5550,13 @@ Reconsider
     "Worn out": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Worn out</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Worn out</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Worn out')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Worn out은 <strong>'완전히 지친 상태를 표현하는 느낌'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Worn out의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Worn out</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Worn out</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Worn out')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"모든 에너지를 소진한 상태"</div>
         <p>입니다. (완전히 지쳐 더 이상 할 수 없는 상태를 나타냅니다.)</p>
     </div>
@@ -5575,7 +5575,7 @@ Reconsider
     <h2 class="insight-h2">① 완전히 지친 상태 (Completely Exhausted)</h2>
     <p class="insight-p">하루 종일 일하거나 활동한 후 모든 에너지를 소진했을 때의 상태를 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">After the marathon, I was completely worn out.</div>
+        <div class="ex-en">After the marathon, I was completely worn out. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('After the marathon, I was completely worn out.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">마라톤 후에 나는 완전히 지쳤다. (마라톤 때문에 모든 에너지를 소진한 상태)</div>
         <div class="ex-en" style="margin-top:12px;">She felt worn out after working late every night this week.</div>
         <div class="ex-ko">그녀는 이번 주 매일 늦게까지 일한 후 완전히 지쳤다. (매일 야근으로 인한 극도의 피로)</div>
@@ -5584,7 +5584,7 @@ Reconsider
     <h2 class="insight-h2">② 낡고 닳은 상태 (Worn Out from Use)</h2>
     <p class="insight-p">자주 사용되어 더 이상 쓸 수 없을 정도로 낡은 상태를 설명할 때 사용합니다.</p>
     <div class="example-group">
-        <div class="ex-en">The shoes were worn out after years of daily use.</div>
+        <div class="ex-en">The shoes were worn out after years of daily use. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The shoes were worn out after years of daily use.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그 신발은 몇 년간 매일 사용해서 낡아버렸다. (지속적인 사용으로 인해 닳아버린 상태)</div>
         <div class="ex-en" style="margin-top:12px;">My old backpack is completely worn out.</div>
         <div class="ex-ko">내 오래된 배낭은 완전히 낡았다. (오랜 사용으로 인해 흠집이 많고 닳아버린 상태)</div>
@@ -5593,7 +5593,7 @@ Reconsider
     <h2 class="insight-h2">③ 감정적으로 지친 상태 (Emotionally Drained)</h2>
     <p class="insight-p">정서적으로 힘들거나 스트레스를 많이 받아 지친 상태를 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">After the argument, he felt emotionally worn out.</div>
+        <div class="ex-en">After the argument, he felt emotionally worn out. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('After the argument, he felt emotionally worn out.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">언쟁 후에 그는 정서적으로 지쳐버렸다. (감정적인 소모로 인해 지친 상태)</div>
         <div class="ex-en" style="margin-top:12px;">She was worn out from all the stress at work.</div>
         <div class="ex-ko">그녀는 직장에서의 모든 스트레스로 인해 지쳤다. (정신적 스트레스로 인한 피로)</div>
@@ -5603,13 +5603,13 @@ Reconsider
     "Mad": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Mad</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Mad</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Mad')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Mad은 <strong>'강렬한 감정의 폭발'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Mad의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Mad</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Mad</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Mad')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"감정이 폭발하는 순간"</div>
         <p>입니다. 이는 통제되지 않는 감정의 표현을 의미합니다.</p>
     </div>
@@ -5629,7 +5629,7 @@ Reconsider
     <h2 class="insight-h2">① 화난 상태 Anger</h2>
     <p class="insight-p">화가 나서 이성을 잃을 정도의 상태를 표현합니다.</p>
     <div class="example-group">
-        <div class="ex-en">He's mad because his team lost the game.</div>
+        <div class="ex-en">He's mad because his team lost the game. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('He\'s mad because his team lost the game.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그는 그의 팀이 경기에서 져서 화가 났다. (패배로 인한 감정의 폭발)</div>
         <div class="ex-en" style="margin-top:12px;">Don't talk to her, she's mad right now.</div>
         <div class="ex-ko">그녀에게 말 걸지 마, 지금 화가 나 있어. (현재 감정이 격해진 상태)</div>
@@ -5638,7 +5638,7 @@ Reconsider
     <h2 class="insight-h2">② 미친 행동 Crazy behavior</h2>
     <p class="insight-p">이해하기 힘든 이상한 행동이나 상태를 묘사합니다.</p>
     <div class="example-group">
-        <div class="ex-en">The plan sounds mad, but it might just work.</div>
+        <div class="ex-en">The plan sounds mad, but it might just work. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The plan sounds mad, but it might just work.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그 계획은 미친 것 같지만, 아마 성공할지도 몰라. (비논리적이지만 가능성 있는 상황)</div>
         <div class="ex-en" style="margin-top:12px;">He's mad to try and climb that mountain in winter.</div>
         <div class="ex-ko">그가 겨울에 그 산을 오르려 하다니 미쳤어. (비상식적인 도전)</div>
@@ -5647,7 +5647,7 @@ Reconsider
     <h2 class="insight-h2">③ 열정적으로 Enthusiastic</h2>
     <p class="insight-p">어떤 것에 대단히 열정적이거나 몰두한 상태를 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">She's mad about painting these days.</div>
+        <div class="ex-en">She's mad about painting these days. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('She\'s mad about painting these days.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀는 요즘 그림 그리는 것에 빠져있다. (열정적으로 몰두한 상태)</div>
         <div class="ex-en" style="margin-top:12px;">He's mad for football and watches every match.</div>
         <div class="ex-ko">그는 축구에 열광해서 모든 경기를 본다. (열정적으로 좋아하는 상태)</div>
@@ -5657,13 +5657,13 @@ Reconsider
     "Angry": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Angry</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Angry</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Angry')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Angry은 <strong>'내면의 강렬한 감정이 폭발하는 순간'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Angry의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Angry</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Angry</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Angry')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"감정의 화산이 폭발하는 순간"</div>
         <p>입니다. 이 감정은 종종 통제하기 힘든 강한 감정입니다.</p>
     </div>
@@ -5682,7 +5682,7 @@ Reconsider
     <h2 class="insight-h2">① 화남의 시작과 진행 - Initial Anger</h2>
     <p class="insight-p">'Angry'는 처음에 감정이 느껴질 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">"I was angry when I found out the truth."</div>
+        <div class="ex-en">"I was angry when I found out the truth." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;I was angry when I found out the truth.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"나는 진실을 알게 되었을 때 화가 났다." (진실을 알게 된 순간 감정이 시작됨)</div>
         <div class="ex-en" style="margin-top:12px;">"She got angry after reading the email."</div>
         <div class="ex-ko">"그녀는 이메일을 읽은 후 화가 났다." (이메일 내용으로 인해 감정이 시작됨)</div>
@@ -5691,7 +5691,7 @@ Reconsider
     <h2 class="insight-h2">② 지속적이고 강렬한 분노 - Sustained Anger</h2>
     <p class="insight-p">이 표현은 감정이 지속되고 강렬할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">"He remained angry for days after the argument."</div>
+        <div class="ex-en">"He remained angry for days after the argument." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;He remained angry for days after the argument.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"그는 그 논쟁 후 여러 날 동안 화가 나 있었다." (감정이 오랫동안 지속됨)</div>
         <div class="ex-en" style="margin-top:12px;">"They were still angry about the decision."</div>
         <div class="ex-ko">"그들은 그 결정에 여전히 화가 나 있었다." (결정에 대한 감정이 지속됨)</div>
@@ -5700,7 +5700,7 @@ Reconsider
     <h2 class="insight-h2">③ 분노의 표출 - Expression of Anger</h2>
     <p class="insight-p">분노가 외적으로 표출될 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">"She shouted angrily at the unfair treatment."</div>
+        <div class="ex-en">"She shouted angrily at the unfair treatment." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;She shouted angrily at the unfair treatment.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"그녀는 불공정한 대우에 화를 내며 소리쳤다." (화가 나서 감정을 표출함)</div>
         <div class="ex-en" style="margin-top:12px;">"He slammed the door in anger."</div>
         <div class="ex-ko">"그는 화가 나서 문을 쾅 닫았다." (문을 닫으며 감정을 표출함)</div>
@@ -5710,13 +5710,13 @@ Reconsider
     "Furious": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Furious</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Furious</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Furious')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Furious은 <strong>'강렬하고 폭발적인 분노의 정수'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Furious의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Furious</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Furious</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Furious')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"통제 불가능한 분노"</div>
         <p>입니다. 이 표현은 감정이 극단적으로 고조된 상태를 뜻합니다.</p>
     </div>
@@ -5736,7 +5736,7 @@ Reconsider
     <h2 class="insight-h2">① 극도의 분노 Extreme Anger</h2>
     <p class="insight-p">Furious는 감정이 극에 달해 폭발하기 직전의 상태를 표현합니다.</p>
     <div class="example-group">
-        <div class="ex-en">She was furious when she found out the truth.</div>
+        <div class="ex-en">She was furious when she found out the truth. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('She was furious when she found out the truth.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀는 진실을 알았을 때 몹시 화가 났습니다. (진실을 알게 되어 감정이 폭발 직전의 상태)</div>
         <div class="ex-en" style="margin-top:12px;">He left the meeting, furious at the decision.</div>
         <div class="ex-ko">그는 결정에 화가 나서 회의장을 떠났습니다. (회의 결정에 대한 극도의 분노)</div>
@@ -5745,7 +5745,7 @@ Reconsider
     <h2 class="insight-h2">② 빠르게 치솟는 감정 Quickly Rising Emotion</h2>
     <p class="insight-p">Furious는 감정이 순식간에 강하게 치솟는 상황을 묘사합니다.</p>
     <div class="example-group">
-        <div class="ex-en">The news made him furious in an instant.</div>
+        <div class="ex-en">The news made him furious in an instant. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The news made him furious in an instant.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그 소식을 듣자마자 그는 화가 났습니다. (소식을 듣고 순간적으로 치솟는 감정)</div>
         <div class="ex-en" style="margin-top:12px;">She became furious after reading the email.</div>
         <div class="ex-ko">이메일을 읽고 그녀는 화가 났습니다. (이메일 내용을 보고 갑작스러운 감정 폭발)</div>
@@ -5754,7 +5754,7 @@ Reconsider
     <h2 class="insight-h2">③ 통제 불가능한 상태 Uncontrollable State</h2>
     <p class="insight-p">Furious는 감정이 너무 강해 통제할 수 없는 상태를 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">He was so furious that he couldn't speak.</div>
+        <div class="ex-en">He was so furious that he couldn't speak. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('He was so furious that he couldn\'t speak.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그는 너무 화가 나서 말을 할 수 없었습니다. (감정이 너무 커서 통제가 안 되는 상태)</div>
         <div class="ex-en" style="margin-top:12px;">Furious at the betrayal, she stormed out.</div>
         <div class="ex-ko">배신에 화가 나서 그녀는 나가버렸습니다. (배신에 대한 감정이 통제 불가능한 상태)</div>
@@ -5764,13 +5764,13 @@ Reconsider
     "Afraid": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Afraid</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Afraid</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Afraid')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Afraid은 <strong>'불안하고 두려운 감정을 표현하는 것'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Afraid의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Afraid</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Afraid</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Afraid')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"위협을 느끼며 위축되는 감정"</div>
         <p>입니다. 불안과 두려움이 혼합된 상태를 나타냅니다.</p>
     </div>
@@ -5791,7 +5791,7 @@ Reconsider
     <h2 class="insight-h2">① 두려움과 불안 (Fear and Anxiety)</h2>
     <p class="insight-p">Afraid는 무언가가 잘못될 수 있다는 불안과 두려움을 동시에 표현합니다.</p>
     <div class="example-group">
-        <div class="ex-en">I'm afraid of the dark.</div>
+        <div class="ex-en">I'm afraid of the dark. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I\'m afraid of the dark.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">나는 어두움이 무섭다. (어둠 속에서 발생할 수 있는 위험에 대한 두려움)</div>
         <div class="ex-en" style="margin-top:12px;">She was afraid to speak up in the meeting.</div>
         <div class="ex-ko">그녀는 회의에서 발언하는 것이 두려웠다. (자신감 부족과 부정적 반응에 대한 불안)</div>
@@ -5800,7 +5800,7 @@ Reconsider
     <h2 class="insight-h2">② 사과와 배려 (Apology and Consideration)</h2>
     <p class="insight-p">Afraid는 때때로 상대방에게 실망을 줄 때 예의 바르게 표현하는 데 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">I'm afraid I can't make it to the party.</div>
+        <div class="ex-en">I'm afraid I can't make it to the party. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I\'m afraid I can\'t make it to the party.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">파티에 갈 수 없을 것 같아 미안해. (상대방의 기대를 저버리는 것에 대한 미안함)</div>
         <div class="ex-en" style="margin-top:12px;">I'm afraid we've run out of time.</div>
         <div class="ex-ko">안타깝게도 시간이 다 된 것 같아요. (시간 부족에 대한 아쉬움과 예의)</div>
@@ -5809,7 +5809,7 @@ Reconsider
     <h2 class="insight-h2">③ 경고와 주의 (Warning and Caution)</h2>
     <p class="insight-p">Afraid는 경고나 주의를 줄 때 사용하여 상대방이 위험을 인지하도록 합니다.</p>
     <div class="example-group">
-        <div class="ex-en">I'm afraid this area is off-limits.</div>
+        <div class="ex-en">I'm afraid this area is off-limits. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I\'m afraid this area is off-limits.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">이 지역은 출입 금지입니다. (안전 문제에 대한 경고)</div>
         <div class="ex-en" style="margin-top:12px;">I'm afraid you can't park here.</div>
         <div class="ex-ko">여기에 주차하실 수 없습니다. (규칙 위반에 대한 주의)</div>
@@ -5819,13 +5819,13 @@ Reconsider
     "Scared": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Scared</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Scared</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Scared')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Scared은 <strong>'두려움과 불안이 엄습해오는 순간의 감정'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Scared의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Scared</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Scared</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Scared')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"갑작스러운 두려움과 불안의 순간"</div>
         <p>입니다. (어떤 상황에서든 마음이 움츠러드는 느낌을 표현합니다.)</p>
     </div>
@@ -5844,7 +5844,7 @@ Reconsider
     <h2 class="insight-h2">① 두려움의 순간 (Moment of Fear)</h2>
     <p class="insight-p">Scared는 갑작스럽게 두려움이 몰려오는 순간을 표현합니다.</p>
     <div class="example-group">
-        <div class="ex-en">I was scared when I heard the loud noise.</div>
+        <div class="ex-en">I was scared when I heard the loud noise. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I was scared when I heard the loud noise.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">큰 소리를 들었을 때 무서웠어요. (순간적으로 두려움을 느낄 때 사용)</div>
         <div class="ex-en" style="margin-top:12px;">She felt scared walking alone at night.</div>
         <div class="ex-ko">그녀는 밤에 혼자 걸을 때 무서움을 느꼈어요. (불안함과 두려움이 동시에 존재하는 상황)</div>
@@ -5853,7 +5853,7 @@ Reconsider
     <h2 class="insight-h2">② 예상치 못한 상황 (Unexpected Situations)</h2>
     <p class="insight-p">Scared는 예상치 못한, 준비되지 않은 상황에서의 두려움을 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">He was scared when the dog barked suddenly.</div>
+        <div class="ex-en">He was scared when the dog barked suddenly. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('He was scared when the dog barked suddenly.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">개가 갑자기 짖었을 때 그는 놀랐어요. (갑작스러운 상황으로 인한 두려움)</div>
         <div class="ex-en" style="margin-top:12px;">I got scared during the thunderstorm.</div>
         <div class="ex-ko">뇌우 동안에 무서웠어요. (자연현상으로 인한 두려움)</div>
@@ -5862,7 +5862,7 @@ Reconsider
     <h2 class="insight-h2">③ 불안과 긴장 (Anxiety and Tension)</h2>
     <p class="insight-p">Scared는 불안하고 긴장된 상태를 묘사합니다.</p>
     <div class="example-group">
-        <div class="ex-en">I'm scared about the exam results.</div>
+        <div class="ex-en">I'm scared about the exam results. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I\'m scared about the exam results.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">시험 결과가 걱정돼요. (결과에 대한 불안과 긴장감을 표현)</div>
         <div class="ex-en" style="margin-top:12px;">They were scared to speak in public.</div>
         <div class="ex-ko">그들은 대중 앞에서 말하는 것이 두려웠어요. (긴장감과 불안함이 섞인 감정)</div>
@@ -5872,13 +5872,13 @@ Reconsider
     "Terrified": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Terrified</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Terrified</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Terrified')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Terrified은 <strong>'극도의 공포와 두려움으로 얼어붙은 상태'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Terrified의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Terrified</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Terrified</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Terrified')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"얼어붙을 정도의 무서움"</div>
         <p>입니다. 즉시 도망가고 싶지만 몸이 굳어버리는 느낌입니다.</p>
     </div>
@@ -5898,7 +5898,7 @@ Reconsider
     <h2 class="insight-h2">① 두려움이 최고조에 이른 상태 (Peak of Fear)</h2>
     <p class="insight-p">Terrified는 단순한 두려움이 아니라 공포가 최고조에 이른 상태를 묘사합니다.</p>
     <div class="example-group">
-        <div class="ex-en">She was terrified when she saw the shadow moving in her room.</div>
+        <div class="ex-en">She was terrified when she saw the shadow moving in her room. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('She was terrified when she saw the shadow moving in her room.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀는 방 안에서 그림자가 움직이는 것을 보고 겁에 질렸다. (그림자에 의해 최고조의 공포를 느꼈음)</div>
         <div class="ex-en" style="margin-top:12px;">I was terrified of speaking in front of the large crowd.</div>
         <div class="ex-ko">나는 많은 사람들 앞에서 말하는 것이 무서웠다. (큰 사람들 앞에서의 말하기에 대한 극도의 두려움)</div>
@@ -5907,7 +5907,7 @@ Reconsider
     <h2 class="insight-h2">② 즉각적인 반응 불능 (Inability to React)</h2>
     <p class="insight-p">Terrified 상태에서는 종종 몸이 얼어붙어 즉각적인 반응이 어려운 상태가 됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">He was so terrified that he couldn't move a muscle.</div>
+        <div class="ex-en">He was so terrified that he couldn't move a muscle. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('He was so terrified that he couldn\'t move a muscle.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그는 너무 무서워서 꼼짝도 할 수 없었다. (공포로 인해 즉각적인 반응이 불가능한 상태)</div>
         <div class="ex-en" style="margin-top:12px;">The terrified child clung to his mother, unable to let go.</div>
         <div class="ex-ko">겁에 질린 아이는 엄마에게 매달려 떨어지지 않았다. (엄마에게 매달려 있는 상태에서 벗어날 수 없는 공포)</div>
@@ -5916,7 +5916,7 @@ Reconsider
     <h2 class="insight-h2">③ 생생한 경험의 기억 (Vivid Memory of Experience)</h2>
     <p class="insight-p">Terrified는 종종 오래도록 기억에 남아 생생하게 떠오르는 경험을 의미합니다.</p>
     <div class="example-group">
-        <div class="ex-en">Even years later, she was still terrified by the memory of the accident.</div>
+        <div class="ex-en">Even years later, she was still terrified by the memory of the accident. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Even years later, she was still terrified by the memory of the accident.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">몇 년이 지난 후에도, 그녀는 사고의 기억 때문에 여전히 무서워했다. (사고의 기억이 생생하게 남아 있음)</div>
         <div class="ex-en" style="margin-top:12px;">He was terrified by the horror movie, and the scenes haunted him for days.</div>
         <div class="ex-ko">그는 공포 영화를 보고 무서워했고, 그 장면들이 며칠 동안 그를 괴롭혔다. (영화의 장면들이 두려움으로 기억에 남아 있음)</div>
@@ -5926,13 +5926,13 @@ Reconsider
     "Fast": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Fast</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Fast</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Fast')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Fast은 <strong>'속도와 효율, 즉각적인 반응을 강조한 표현'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Fast의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Fast</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Fast</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Fast')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"빠르게 움직이고 반응하는 본질적 의미"</div>
         <p>입니다. (즉각적인 동작이나 반응을 강조합니다.)</p>
     </div>
@@ -5950,7 +5950,7 @@ Reconsider
     <h2 class="insight-h2">① 속도와 신속함 Speed and Swiftness</h2>
     <p class="insight-p">빠른 속도로 무언가를 수행하거나 반응하는 것을 의미합니다.</p>
     <div class="example-group">
-        <div class="ex-en">He runs very fast.</div>
+        <div class="ex-en">He runs very fast. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('He runs very fast.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그는 매우 빨리 달립니다. (속도를 강조하여 그의 달리기를 묘사)</div>
         <div class="ex-en" style="margin-top:12px;">She finished her work fast.</div>
         <div class="ex-ko">그녀는 일을 빠르게 끝냈습니다. (신속하게 완료한 것을 강조)</div>
@@ -5959,7 +5959,7 @@ Reconsider
     <h2 class="insight-h2">② 효율적이고 신속한 서비스 Efficient and Quick Service</h2>
     <p class="insight-p">빠르고 효율적인 서비스 제공을 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">The fast-food restaurant lives up to its name.</div>
+        <div class="ex-en">The fast-food restaurant lives up to its name. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The fast-food restaurant lives up to its name.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">패스트푸드 레스토랑은 그 이름에 걸맞습니다. (빠르고 효율적인 서비스를 강조)</div>
         <div class="ex-en" style="margin-top:12px;">We offer fast delivery.</div>
         <div class="ex-ko">우리는 빠른 배송을 제공합니다. (빨리 도착하는 것을 강조)</div>
@@ -5968,7 +5968,7 @@ Reconsider
     <h2 class="insight-h2">③ 즉각적인 반응 Immediate Reaction</h2>
     <p class="insight-p">즉각적이고 빠른 반응을 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">His fast reply surprised me.</div>
+        <div class="ex-en">His fast reply surprised me. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('His fast reply surprised me.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그의 빠른 답장이 나를 놀라게 했습니다. (즉각적 반응을 강조)</div>
         <div class="ex-en" style="margin-top:12px;">She had a fast reaction to the news.</div>
         <div class="ex-ko">그녀는 그 소식에 빠르게 반응했습니다. (즉각적인 감정적 반응을 강조)</div>
@@ -5978,13 +5978,13 @@ Reconsider
     "Quick": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Quick</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Quick</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Quick')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Quick은 <strong>'빠르고 효율적인 속성'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Quick의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Quick</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Quick</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Quick')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"즉각적이고 신속한 움직임"</div>
         <p>입니다. 빠른 반응이나 행동을 강조합니다.</p>
     </div>
@@ -6003,7 +6003,7 @@ Reconsider
     <h2 class="insight-h2">① 빠른 반응 - Swift Response</h2>
     <p class="insight-p">빠르게 반응하는 것을 나타낼 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">He gave a quick reply to her question.</div>
+        <div class="ex-en">He gave a quick reply to her question. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('He gave a quick reply to her question.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그는 그녀의 질문에 빠르게 대답했다. (즉각적이고 빠른 대답을 강조)</div>
         <div class="ex-en" style="margin-top:12px;">She made a quick decision under pressure.</div>
         <div class="ex-ko">그녀는 압박 속에서 빠르게 결정을 내렸다. (즉각적인 결정을 강조)</div>
@@ -6012,7 +6012,7 @@ Reconsider
     <h2 class="insight-h2">② 짧은 시간 - Short Duration</h2>
     <p class="insight-p">시간이 짧음을 강조할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Let's have a quick meeting before lunch.</div>
+        <div class="ex-en">Let's have a quick meeting before lunch. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Let\'s have a quick meeting before lunch.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">점심 전에 짧게 회의하자. (짧은 시간 동안의 회의를 강조)</div>
         <div class="ex-en" style="margin-top:12px;">I'll take a quick shower.</div>
         <div class="ex-ko">나는 빨리 샤워할 것이다. (짧은 시간에 끝나는 샤워를 강조)</div>
@@ -6021,7 +6021,7 @@ Reconsider
     <h2 class="insight-h2">③ 기민함 - Agility</h2>
     <p class="insight-p">신속하고 날렵한 움직임을 나타낼 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">The cat was quick to jump over the fence.</div>
+        <div class="ex-en">The cat was quick to jump over the fence. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The cat was quick to jump over the fence.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">고양이는 울타리를 빠르게 뛰어넘었다. (날렵한 움직임을 강조)</div>
         <div class="ex-en" style="margin-top:12px;">He is quick on his feet.</div>
         <div class="ex-ko">그는 발이 빠르다. (기민하고 능숙한 움직임을 강조)</div>
@@ -6031,13 +6031,13 @@ Reconsider
     "Rapid": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Rapid</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Rapid</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Rapid')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Rapid은 <strong>'빠르고 강렬한 움직임의 핵심적인 원어민 뉘앙스 요약'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Rapid의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Rapid</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Rapid</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Rapid')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"순간적으로 빠르게 변하는 속도"</div>
         <p>입니다. 이는 빠르고 즉각적인 변화를 설명할 때 주로 사용됩니다.</p>
     </div>
@@ -6055,7 +6055,7 @@ Reconsider
     <h2 class="insight-h2">① 빠른 속도감 (Speedy sensation)</h2>
     <p class="insight-p">무언가가 매우 빠르게 진행될 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">The rapid development of technology is astounding.</div>
+        <div class="ex-en">The rapid development of technology is astounding. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The rapid development of technology is astounding.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">기술의 급속한 발전은 놀랍습니다. (기술이 빠르게 발전하고 있는 상황)</div>
         <div class="ex-en" style="margin-top:12px;">She made a rapid decision to join the project.</div>
         <div class="ex-ko">그녀는 프로젝트에 참여하기로 빠르게 결정했습니다. (즉각적으로 결정한 상황)</div>
@@ -6064,7 +6064,7 @@ Reconsider
     <h2 class="insight-h2">② 급격한 변화 (Sudden change)</h2>
     <p class="insight-p">갑작스러운 변화나 전환을 표현할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">There was a rapid shift in the weather.</div>
+        <div class="ex-en">There was a rapid shift in the weather. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('There was a rapid shift in the weather.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">날씨가 급격히 변했습니다. (날씨가 갑자기 변한 상황)</div>
         <div class="ex-en" style="margin-top:12px;">The rapid decline in sales worried the team.</div>
         <div class="ex-ko">매출의 급격한 감소가 팀을 걱정하게 했습니다. (매출이 갑자기 떨어진 상황)</div>
@@ -6073,7 +6073,7 @@ Reconsider
     <h2 class="insight-h2">③ 즉각적인 반응 (Immediate response)</h2>
     <p class="insight-p">즉각적이고 빠른 반응을 나타낼 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">His rapid response to the question impressed everyone.</div>
+        <div class="ex-en">His rapid response to the question impressed everyone. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('His rapid response to the question impressed everyone.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">질문에 대한 그의 즉각적인 반응은 모두를 감동시켰습니다. (빠르게 대답한 상황)</div>
         <div class="ex-en" style="margin-top:12px;">The rapid support from the team was crucial.</div>
         <div class="ex-ko">팀의 즉각적인 지원은 중요했습니다. (바로 지원을 받은 상황)</div>
@@ -6083,13 +6083,13 @@ Reconsider
     "Overwhelmed": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Overwhelmed</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Overwhelmed</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Overwhelmed')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Overwhelmed은 <strong>'감당할 수 없을 정도로 많은 감정이나 상황'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Overwhelmed의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Overwhelmed</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Overwhelmed</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Overwhelmed')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"압도당한 상태"</div>
         <p>입니다. (어떤 것에 의해 지나치게 많은 감정을 느끼는 상태를 의미합니다.)</p>
     </div>
@@ -6109,7 +6109,7 @@ Reconsider
     <h2 class="insight-h2">① 감정의 홍수 (Flooded with Emotions)</h2>
     <p class="insight-p">감정이 너무 많아 감당하기 어려운 상태를 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">I was overwhelmed with joy when I heard the news.</div>
+        <div class="ex-en">I was overwhelmed with joy when I heard the news. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I was overwhelmed with joy when I heard the news.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">소식을 들었을 때 기쁨으로 가득 찼어요. (기쁨이 너무 커서 감정적으로 압도된 상태)</div>
         <div class="ex-en" style="margin-top:12px;">She felt overwhelmed by sadness after the movie.</div>
         <div class="ex-ko">그녀는 영화를 보고 난 후 슬픔에 압도되었어요. (슬픔이 너무 커서 감당하기 힘든 상태)</div>
@@ -6118,7 +6118,7 @@ Reconsider
     <h2 class="insight-h2">② 과중한 업무 (Overloaded with Work)</h2>
     <p class="insight-p">일이나 책임이 너무 많아 버거운 상태를 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">He is overwhelmed with work at the office.</div>
+        <div class="ex-en">He is overwhelmed with work at the office. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('He is overwhelmed with work at the office.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그는 사무실에서 업무에 압도되어 있어요. (일이 너무 많아 감당하기 힘든 상태)</div>
         <div class="ex-en" style="margin-top:12px;">I'm overwhelmed by all these deadlines.</div>
         <div class="ex-ko">이 모든 마감일에 의해 압도되어 있어요. (마감일이 너무 많아 버거운 상태)</div>
@@ -6127,7 +6127,7 @@ Reconsider
     <h2 class="insight-h2">③ 감정적 압박 (Emotional Pressure)</h2>
     <p class="insight-p">정서적인 압박이 너무 커서 무기력해진 상태를 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">She was overwhelmed by the pressure to succeed.</div>
+        <div class="ex-en">She was overwhelmed by the pressure to succeed. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('She was overwhelmed by the pressure to succeed.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀는 성공해야 한다는 압박에 의해 압도되었습니다. (압박감이 너무 커서 무기력한 상태)</div>
         <div class="ex-en" style="margin-top:12px;">They felt overwhelmed by the expectations set upon them.</div>
         <div class="ex-ko">그들은 그들에게 주어진 기대에 의해 압도되었습니다. (기대가 너무 커서 부담스러운 상태)</div>
@@ -6138,13 +6138,13 @@ Reconsider
 
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Stressed</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Stressed</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Stressed')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Stressed은 <strong>'감정이 압도되어 긴장이 최고조에 달한 상태'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Stressed의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Stressed</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Stressed</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Stressed')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"압박과 긴장의 최고조 상태"</div>
         <p>입니다. 주로 상황이나 책임이 과중할 때 사용됩니다.</p>
     </div>
@@ -6165,7 +6165,7 @@ Reconsider
     <h2 class="insight-h2">① 과도한 부담과 압박감 Overwhelming Pressure</h2>
     <p class="insight-p">Stressed는 주로 과도한 압박감과 책임으로 인해 나타나는 감정을 설명합니다.</p>
     <div class="example-group">
-        <div class="ex-en">I'm so stressed about the upcoming exams.</div>
+        <div class="ex-en">I'm so stressed about the upcoming exams. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I\'m so stressed about the upcoming exams.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">다가오는 시험 때문에 너무 스트레스를 받고 있어요. (시험 준비로 인한 과중한 부담감)</div>
         <div class="ex-en" style="margin-top:12px;">She's stressed from juggling work and family.</div>
         <div class="ex-ko">그녀는 일과 가정을 병행하느라 스트레스를 받고 있어요. (동시다발적 책임의 압박)</div>
@@ -6174,7 +6174,7 @@ Reconsider
     <h2 class="insight-h2">② 긴장과 불안 Anxiety and Tension</h2>
     <p class="insight-p">Stressed는 긴장과 불안으로 인해 마음이 평온하지 않은 상태를 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">He felt stressed waiting for the job interview results.</div>
+        <div class="ex-en">He felt stressed waiting for the job interview results. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('He felt stressed waiting for the job interview results.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그는 면접 결과를 기다리며 스트레스를 느꼈습니다. (기다림의 불안감과 긴장)</div>
         <div class="ex-en" style="margin-top:12px;">The stressed student couldn't focus during the test.</div>
         <div class="ex-ko">스트레스를 받은 학생은 시험 중에 집중할 수 없었습니다. (긴장으로 인한 집중력 저하)</div>
@@ -6183,7 +6183,7 @@ Reconsider
     <h2 class="insight-h2">③ 벼랑 끝에 몰린 상태 Feeling On Edge</h2>
     <p class="insight-p">Stressed는 더 이상 감당할 수 없는 상태에 도달했음을 의미하기도 합니다.</p>
     <div class="example-group">
-        <div class="ex-en">I'm stressed to the point of breaking down.</div>
+        <div class="ex-en">I'm stressed to the point of breaking down. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I\'m stressed to the point of breaking down.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">난 무너질 지경까지 스트레스를 받고 있어요. (감정의 한계점에 도달)</div>
         <div class="ex-en" style="margin-top:12px;">After the long day, she felt completely stressed and overwhelmed.</div>
         <div class="ex-ko">긴 하루가 끝난 후 그녀는 완전히 스트레스 받고 압도된 상태였습니다. (모든 것을 감당하기 힘든 상태)</div>
@@ -6194,13 +6194,13 @@ Reconsider
     "Burned out": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Burned out</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Burned out</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Burned out')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Burned out은 <strong>'완전히 지치고 에너지가 고갈된 상태'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Burned out의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Burned out</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Burned out</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Burned out')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"완전히 소모된 상태"</div>
         <p>입니다. 이 표현은 더 이상 일을 지속할 수 없을 정도로 지친 상태를 나타냅니다.</p>
     </div>
@@ -6220,7 +6220,7 @@ Reconsider
     <h2 class="insight-h2">① 완전한 소진 상태 (Complete Exhaustion)</h2>
     <p class="insight-p">모든 에너지를 다 써버려 더 이상 무엇도 할 수 없는 상태를 설명합니다.</p>
     <div class="example-group">
-        <div class="ex-en">After working 80 hours this week, I'm completely burned out.</div>
+        <div class="ex-en">After working 80 hours this week, I'm completely burned out. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('After working 80 hours this week, I\'m completely burned out.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">이번 주에 80시간을 일한 후, 나는 완전히 지쳤다. (일로 인한 에너지 고갈)</div>
         <div class="ex-en" style="margin-top:12px;">She felt burned out from studying for the finals.</div>
         <div class="ex-ko">그녀는 기말고사를 위해 공부하느라 완전히 지쳤다. (공부로 인한 에너지 고갈)</div>
@@ -6229,7 +6229,7 @@ Reconsider
     <h2 class="insight-h2">② 감정적 소진 (Emotional Burnout)</h2>
     <p class="insight-p">정신적, 감정적으로 더 이상 감당할 수 없는 상태를 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">He was burned out after dealing with constant stress at work.</div>
+        <div class="ex-en">He was burned out after dealing with constant stress at work. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('He was burned out after dealing with constant stress at work.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그는 직장에서의 지속적인 스트레스로 인해 감정적으로 소진되었다. (스트레스에 의한 감정적 소진)</div>
         <div class="ex-en" style="margin-top:12px;">The caregiver felt burned out from the emotional demands of her job.</div>
         <div class="ex-ko">돌봄 제공자는 그녀의 직업에서 오는 감정적 요구 때문에 소진된 기분이었다. (감정적 요구에 의한 소진)</div>
@@ -6238,7 +6238,7 @@ Reconsider
     <h2 class="insight-h2">③ 동기 상실 (Loss of Motivation)</h2>
     <p class="insight-p">더 이상 동기나 열정을 느끼지 못하는 상태를 설명합니다.</p>
     <div class="example-group">
-        <div class="ex-en">He used to love painting, but now he's just burned out.</div>
+        <div class="ex-en">He used to love painting, but now he's just burned out. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('He used to love painting, but now he\'s just burned out.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그는 예전에 그림 그리기를 좋아했지만, 이제는 완전히 흥미를 잃었다. (열정의 상실)</div>
         <div class="ex-en" style="margin-top:12px;">She was burned out on the project after months of hard work.</div>
         <div class="ex-ko">몇 달간의 힘든 작업 끝에 그녀는 그 프로젝트에 대한 열정을 잃었다. (동기의 상실)</div>
@@ -6248,13 +6248,13 @@ Reconsider
     "Excited": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Excited</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Excited</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Excited')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Excited은 <strong>'기대와 에너지가 고조된 상태'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Excited의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Excited</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Excited</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Excited')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"활기차고 긍정적인 에너지의 폭발"</div>
         <p>입니다. 이 표현은 흔히 미래의 일이나 새로운 경험에 대한 기대감을 나타냅니다.</p>
     </div>
@@ -6274,7 +6274,7 @@ Reconsider
     <h2 class="insight-h2">① 기대감과 희망 / Anticipation and Hope</h2>
     <p class="insight-p">어떤 일이 일어날 것이라는 기대와 그에 대한 희망을 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">I'm so excited for the concert this weekend!</div>
+        <div class="ex-en">I'm so excited for the concert this weekend! <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I\'m so excited for the concert this weekend!')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">이번 주말 콘서트가 너무 기대돼! (콘서트를 기다리는 기대감과 희망을 표현)</div>
         <div class="ex-en" style="margin-top:12px;">She was excited about her new job.</div>
         <div class="ex-ko">그녀는 새 직장에 대해 기대하고 있다. (새로운 직장에 대한 기대와 희망을 표현)</div>
@@ -6283,7 +6283,7 @@ Reconsider
     <h2 class="insight-h2">② 활기와 에너지 / Energy and Enthusiasm</h2>
     <p class="insight-p">활기차고 열정적인 에너지를 표현합니다.</p>
     <div class="example-group">
-        <div class="ex-en">The children were excited to meet Santa Claus.</div>
+        <div class="ex-en">The children were excited to meet Santa Claus. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The children were excited to meet Santa Claus.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">아이들은 산타클로스를 만나게 되어 신이 났다. (산타클로스를 만나기 전의 활기와 에너지를 표현)</div>
         <div class="ex-en" style="margin-top:12px;">He's excited about the upcoming match.</div>
         <div class="ex-ko">그는 다가오는 경기에 대해 신이 나 있다. (경기에 대한 열정과 에너지를 표현)</div>
@@ -6292,7 +6292,7 @@ Reconsider
     <h2 class="insight-h2">③ 긍정적 긴장감 / Positive Tension</h2>
     <p class="insight-p">긍정적이고 약간의 긴장감을 동반한 상태를 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">We were excited and a bit nervous before the presentation.</div>
+        <div class="ex-en">We were excited and a bit nervous before the presentation. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('We were excited and a bit nervous before the presentation.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">우리는 발표 전에 신이 나면서도 약간 긴장되었다. (긍정적인 긴장감을 동반한 기대를 표현)</div>
         <div class="ex-en" style="margin-top:12px;">He felt excited about the challenge ahead.</div>
         <div class="ex-ko">그는 앞에 놓인 도전에 대해 신이 났다. (앞으로의 도전에 대한 긍정적 긴장감을 표현)</div>
@@ -6302,13 +6302,13 @@ Reconsider
     "Thrilled": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Thrilled</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Thrilled</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Thrilled')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Thrilled은 <strong>'극도의 기쁨과 흥분을 느끼는 상태'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Thrilled의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Thrilled</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Thrilled</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Thrilled')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"마치 전율을 느끼는 듯한 큰 기쁨"</div>
         <p>입니다. 이 표현은 종종 기대 이상의 놀라운 경험을 묘사할 때 사용됩니다.</p>
     </div>
@@ -6327,7 +6327,7 @@ Reconsider
     <h2 class="insight-h2">① 기쁨과 흥분 (Excitement and Joy)</h2>
     <p class="insight-p">Thrilled는 극도의 기쁨과 흥분을 나타내며, 긍정적인 감정이 가득 찬 상태를 표현합니다.</p>
     <div class="example-group">
-        <div class="ex-en">I'm thrilled to announce that I got the job!</div>
+        <div class="ex-en">I'm thrilled to announce that I got the job! <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I\'m thrilled to announce that I got the job!')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">저는 일자리를 얻었다는 것을 발표하게 되어 너무 기쁩니다! (기대 이상의 결과에 대한 기쁨)</div>
         <div class="ex-en" style="margin-top:12px;">She was thrilled to see her favorite band live.</div>
         <div class="ex-ko">그녀는 좋아하는 밴드를 직접 보게 되어 너무 흥분했습니다. (큰 기대감과 흥분)</div>
@@ -6336,7 +6336,7 @@ Reconsider
     <h2 class="insight-h2">② 놀라움과 즐거움 (Surprise and Delight)</h2>
     <p class="insight-p">Thrilled는 놀라움과 함께 오는 기쁨을 표현할 때도 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">He was thrilled by the surprise party his friends threw for him.</div>
+        <div class="ex-en">He was thrilled by the surprise party his friends threw for him. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('He was thrilled by the surprise party his friends threw for him.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그는 친구들이 준비한 깜짝 파티에 매우 놀라며 기뻐했습니다. (갑작스러운 놀라움과 즐거움)</div>
         <div class="ex-en" style="margin-top:12px;">The children were thrilled to find the hidden treasure.</div>
         <div class="ex-ko">아이들은 숨겨진 보물을 찾아내어 매우 즐거워했습니다. (예상치 못한 발견의 기쁨)</div>
@@ -6345,7 +6345,7 @@ Reconsider
     <h2 class="insight-h2">③ 성취감과 만족 (Sense of Accomplishment and Satisfaction)</h2>
     <p class="insight-p">어떤 목표를 이루었을 때 느끼는 성취감과 만족감도 Thrilled로 표현할 수 있습니다.</p>
     <div class="example-group">
-        <div class="ex-en">I was thrilled to complete the marathon after months of training.</div>
+        <div class="ex-en">I was thrilled to complete the marathon after months of training. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I was thrilled to complete the marathon after months of training.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">수개월간의 훈련 끝에 마라톤을 완주하여 매우 만족스러웠습니다. (오랜 노력의 결실에 대한 성취감)</div>
         <div class="ex-en" style="margin-top:12px;">Winning the award left her thrilled and proud.</div>
         <div class="ex-ko">상을 받게 되어 그녀는 매우 기쁘고 자랑스러웠습니다. (노력의 보상을 받았을 때의 기쁨)</div>
@@ -6355,13 +6355,13 @@ Reconsider
     "Pumped": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Pumped</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Pumped</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Pumped')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Pumped은 <strong>'흥분과 기대감으로 가득 찬 상태'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Pumped의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Pumped</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Pumped</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Pumped')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"에너지와 열정이 넘치는 상태"</div>
         <p>입니다. (이 표현은 어떤 일을 앞두고 기대감에 차 있을 때 자주 사용됩니다)</p>
     </div>
@@ -6382,7 +6382,7 @@ Reconsider
     <h2 class="insight-h2">① 기대감과 흥분 Anticipation and Excitement</h2>
     <p class="insight-p">어떤 일이 일어나기 전 기대와 흥분에 찬 상태를 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">I'm so pumped for the concert tonight!</div>
+        <div class="ex-en">I'm so pumped for the concert tonight! <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I\'m so pumped for the concert tonight!')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">오늘 밤 콘서트가 너무 기대돼! (콘서트를 앞두고 기대감이 가득 차 있는 상태)</div>
         <div class="ex-en" style="margin-top:12px;">She's pumped about her new job.</div>
         <div class="ex-ko">그녀는 새 직장이 너무 기대돼 하고 있어. (새 직장에 대한 기대와 흥분을 느끼고 있음)</div>
@@ -6391,7 +6391,7 @@ Reconsider
     <h2 class="insight-h2">② 에너지가 넘침 Full of Energy</h2>
     <p class="insight-p">신체적으로 활력이 넘치고 에너지가 가득 찬 상태를 나타내기도 합니다.</p>
     <div class="example-group">
-        <div class="ex-en">After the workout, I felt totally pumped.</div>
+        <div class="ex-en">After the workout, I felt totally pumped. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('After the workout, I felt totally pumped.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">운동 후에 완전히 에너지가 넘쳤어. (운동 후 신체적 에너지가 충만한 상태)</div>
         <div class="ex-en" style="margin-top:12px;">He's pumped after drinking that energy drink.</div>
         <div class="ex-ko">그는 에너지 음료를 마신 후 에너지가 넘쳐. (음료의 효과로 활력이 넘치는 상태)</div>
@@ -6400,7 +6400,7 @@ Reconsider
     <h2 class="insight-h2">③ 준비된 상태 Being Ready</h2>
     <p class="insight-p">어떤 일을 시작할 준비가 되어 있고, 그 일을 할 의지가 충만한 상태를 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">The team is pumped and ready to win the match.</div>
+        <div class="ex-en">The team is pumped and ready to win the match. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The team is pumped and ready to win the match.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">팀은 경기를 이길 준비가 되어 있어. (경기 승리를 위해 의욕이 넘치는 상태)</div>
         <div class="ex-en" style="margin-top:12px;">I'm pumped to start the new project.</div>
         <div class="ex-ko">새 프로젝트를 시작할 준비가 되었어. (새로운 시작에 대한 준비와 의지가 가득한 상태)</div>
@@ -6410,13 +6410,13 @@ Reconsider
     "Confused": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Confused</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Confused</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Confused')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Confused은 <strong>'혼란스러움과 무언가를 이해하려는 노력의 상황'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Confused의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Confused</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Confused</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Confused')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"명확하지 않은 상황에서 방향을 찾으려는 상태"</div>
         <p>입니다. 혼란 속에서도 해답을 찾으려는 시도를 나타냅니다.</p>
     </div>
@@ -6436,7 +6436,7 @@ Reconsider
     <h2 class="insight-h2">① 일시적 혼동 Temporary Confusion</h2>
     <p class="insight-p">일시적인 혼동은 순간적인 정보 부족으로 인한 혼란을 뜻합니다.</p>
     <div class="example-group">
-        <div class="ex-en">I'm confused about the instructions given in the meeting.</div>
+        <div class="ex-en">I'm confused about the instructions given in the meeting. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I\'m confused about the instructions given in the meeting.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">회의에서 받은 지침이 헷갈립니다. (순간적으로 이해가 되지 않는 상태)</div>
         <div class="ex-en" style="margin-top:12px;">Sarah looked confused when she saw the math problem.</div>
         <div class="ex-ko">Sarah는 수학 문제를 봤을 때 혼란스러워 보였습니다. (문제를 이해하는 데 어려움을 겪는 순간)</div>
@@ -6445,7 +6445,7 @@ Reconsider
     <h2 class="insight-h2">② 지속적 혼란 Ongoing Confusion</h2>
     <p class="insight-p">지속적 혼란은 이해가 잘 안 되는 상황이 계속되는 것을 의미합니다.</p>
     <div class="example-group">
-        <div class="ex-en">He's been confused about his career path for years.</div>
+        <div class="ex-en">He's been confused about his career path for years. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('He\'s been confused about his career path for years.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그는 수년 동안 자신의 진로에 대해 혼란스러워 하고 있습니다. (장기간 지속되는 이해의 어려움)</div>
         <div class="ex-en" style="margin-top:12px;">The new policy has left many employees confused.</div>
         <div class="ex-ko">새로운 정책은 많은 직원들을 혼란스럽게 만들었습니다. (정책이 계속해서 이해되지 않음)</div>
@@ -6454,7 +6454,7 @@ Reconsider
     <h2 class="insight-h2">③ 복잡한 상황 Complex Situation</h2>
     <p class="insight-p">복잡한 상황은 여러 가지 요소가 얽혀 있어 이해하기 어려운 상태를 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">I'm confused about the legal terms in this contract.</div>
+        <div class="ex-en">I'm confused about the legal terms in this contract. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I\'m confused about the legal terms in this contract.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">이 계약서의 법적 용어가 헷갈립니다. (복잡한 용어들이 얽혀 이해하기 어려운 상태)</div>
         <div class="ex-en" style="margin-top:12px;">The plot of the movie was so complex that I left the theater confused.</div>
         <div class="ex-ko">영화의 줄거리가 너무 복잡해서 극장을 나올 때 혼란스러웠습니다. (복잡한 줄거리가 이해를 방해함)</div>
@@ -6464,13 +6464,13 @@ Reconsider
     "Lost": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Lost</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Lost</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Lost')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Lost은 <strong>'방향 감각을 잃고 혼란스러운 상태'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Lost의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Lost</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Lost</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Lost')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"혼란과 방향 감각의 상실"</div>
         <p>입니다. 이것은 물리적, 정신적 모두에 적용될 수 있습니다.</p>
     </div>
@@ -6488,7 +6488,7 @@ Reconsider
     <h2 class="insight-h2">① 길을 잃다 + Lost</h2>
     <p class="insight-p">길을 잃고 방향을 찾지 못하는 상태를 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">I got lost in the city.</div>
+        <div class="ex-en">I got lost in the city. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I got lost in the city.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">나는 도시에서 길을 잃었다. (도시의 복잡함 속에서 방향을 잃은 상태)</div>
         <div class="ex-en" style="margin-top:12px;">She felt lost in the forest.</div>
         <div class="ex-ko">그녀는 숲에서 길을 잃었다. (숲의 광대함 속에서 방향을 잃은 상태)</div>
@@ -6497,7 +6497,7 @@ Reconsider
     <h2 class="insight-h2">② 정신적 혼란 + Lost</h2>
     <p class="insight-p">어떤 상황에서 정신적으로 혼란스러운 상태를 표현합니다.</p>
     <div class="example-group">
-        <div class="ex-en">He seemed lost after the meeting.</div>
+        <div class="ex-en">He seemed lost after the meeting. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('He seemed lost after the meeting.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그는 회의 후에 혼란스러워 보였다. (회의 내용이 너무 복잡해서 이해하기 어려운 상태)</div>
         <div class="ex-en" style="margin-top:12px;">She was lost in her thoughts.</div>
         <div class="ex-ko">그녀는 생각에 잠겨 있었다. (자신의 생각에 깊이 빠져 주변을 인식하지 못하는 상태)</div>
@@ -6506,7 +6506,7 @@ Reconsider
     <h2 class="insight-h2">③ 물질적 손실 + Lost</h2>
     <p class="insight-p">물리적인 손실이나 상실을 나타낼 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">We lost our luggage at the airport.</div>
+        <div class="ex-en">We lost our luggage at the airport. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('We lost our luggage at the airport.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">우리는 공항에서 짐을 잃어버렸다. (물리적으로 물건을 찾을 수 없는 상태)</div>
         <div class="ex-en" style="margin-top:12px;">The team lost the game.</div>
         <div class="ex-ko">팀이 경기를 졌다. (경쟁에서 패배한 상태)</div>
@@ -6516,13 +6516,13 @@ Reconsider
     "Puzzled": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Puzzled</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Puzzled</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Puzzled')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Puzzled은 <strong>'혼란스럽고 이해되지 않는 상황에서의 당혹감'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Puzzled의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Puzzled</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Puzzled</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Puzzled')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"어떤 문제나 상황이 이해되지 않음"</div>
         <p>입니다. (마치 퍼즐 조각이 맞지 않는 기분이 들 때 사용됩니다.)</p>
     </div>
@@ -6542,7 +6542,7 @@ Reconsider
     <h2 class="insight-h2">① 이해되지 않는 상황 Feeling Confused</h2>
     <p class="insight-p">상황이 명확하지 않거나 예상하지 못한 경우에 당황스러움을 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">She looked puzzled when she saw the instructions.</div>
+        <div class="ex-en">She looked puzzled when she saw the instructions. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('She looked puzzled when she saw the instructions.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀는 설명서를 보고 당혹스러워 보였다. (설명서가 이해되지 않기 때문에 혼란스러운 상태)</div>
         <div class="ex-en" style="margin-top:12px;">He felt puzzled by the sudden change in plans.</div>
         <div class="ex-ko">그는 계획의 갑작스런 변화에 당혹감을 느꼈다. (변화가 예상치 못했기 때문에)</div>
@@ -6551,7 +6551,7 @@ Reconsider
     <h2 class="insight-h2">② 예상 밖의 반응 Unexpected Reaction</h2>
     <p class="insight-p">상대방의 반응이 예상과 다를 때 나타나는 감정입니다.</p>
     <div class="example-group">
-        <div class="ex-en">I was puzzled by her reaction to the news.</div>
+        <div class="ex-en">I was puzzled by her reaction to the news. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I was puzzled by her reaction to the news.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">나는 그 소식에 대한 그녀의 반응에 당황했다. (반응이 예상과 달랐기 때문에)</div>
         <div class="ex-en" style="margin-top:12px;">His puzzled expression made it clear he didn't understand.</div>
         <div class="ex-ko">그의 혼란스러운 표정은 그가 이해하지 못했다는 것을 분명히 보여주었다. (표정에서 이해하지 못함을 드러냄)</div>
@@ -6560,7 +6560,7 @@ Reconsider
     <h2 class="insight-h2">③ 복잡한 문제 Complex Problem</h2>
     <p class="insight-p">문제가 복잡하거나 풀기 어려울 때의 심정을 표현합니다.</p>
     <div class="example-group">
-        <div class="ex-en">The problem left everyone in the team puzzled.</div>
+        <div class="ex-en">The problem left everyone in the team puzzled. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The problem left everyone in the team puzzled.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그 문제는 팀의 모두를 당혹스럽게 만들었다. (문제가 복잡하여 해결이 어려운 상태)</div>
         <div class="ex-en" style="margin-top:12px;">She was puzzled by the math problem on the test.</div>
         <div class="ex-ko">그녀는 시험의 수학 문제에 당황했다. (문제가 복잡하고 이해하기 어려웠기 때문에)</div>
@@ -6570,13 +6570,13 @@ Reconsider
     "Disappointed": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Disappointed</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Disappointed</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Disappointed')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Disappointed은 <strong>'기대가 무너진 후의 상실감'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Disappointed의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Disappointed</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Disappointed</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Disappointed')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"기대했던 결과가 이루어지지 않았을 때의 씁쓸함"</div>
         <p>입니다. 기대했던 것이 현실이 되지 않았을 때 생기는 감정입니다.</p>
     </div>
@@ -6597,7 +6597,7 @@ Reconsider
     <h2 class="insight-h2">① 기대가 무너질 때의 실망감 (The Disappointment of Broken Expectations)</h2>
     <p class="insight-p">기대했던 결과가 이루어지지 않았을 때 느끼는 실망감입니다.</p>
     <div class="example-group">
-        <div class="ex-en">I was disappointed when the concert was canceled.</div>
+        <div class="ex-en">I was disappointed when the concert was canceled. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I was disappointed when the concert was canceled.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">콘서트가 취소되었을 때 실망했습니다. (기대했던 이벤트가 취소되며 실망감이 듬)</div>
         <div class="ex-en" style="margin-top:12px;">She felt disappointed by the exam results.</div>
         <div class="ex-ko">그녀는 시험 결과에 실망했습니다. (기대했던 성적이 나오지 않아서 실망)</div>
@@ -6606,7 +6606,7 @@ Reconsider
     <h2 class="insight-h2">② 사람에 대한 실망 (Being Disappointed in Someone)</h2>
     <p class="insight-p">사람에게 기대했던 행동을 보지 못했을 때의 실망입니다.</p>
     <div class="example-group">
-        <div class="ex-en">I'm disappointed in you for lying to me.</div>
+        <div class="ex-en">I'm disappointed in you for lying to me. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I\'m disappointed in you for lying to me.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">나에게 거짓말을 해서 실망했어. (신뢰했던 사람에게 실망)</div>
         <div class="ex-en" style="margin-top:12px;">He was disappointed in his friend's lack of support.</div>
         <div class="ex-ko">그는 친구의 지지가 부족해서 실망했어. (기대했던 지지를 받지 못해 실망)</div>
@@ -6615,7 +6615,7 @@ Reconsider
     <h2 class="insight-h2">③ 자기 자신에 대한 실망 (Being Disappointed in Oneself)</h2>
     <p class="insight-p">자신의 기대에 미치지 못했을 때 느끼는 실망입니다.</p>
     <div class="example-group">
-        <div class="ex-en">She was disappointed in herself for not finishing the project.</div>
+        <div class="ex-en">She was disappointed in herself for not finishing the project. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('She was disappointed in herself for not finishing the project.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀는 프로젝트를 완성하지 못해서 스스로에게 실망했습니다. (자기 기대에 못 미친 것에 대한 실망)</div>
         <div class="ex-en" style="margin-top:12px;">I felt disappointed in myself for not speaking up during the meeting.</div>
         <div class="ex-ko">회의 중에 발언하지 못해서 스스로에게 실망했어. (자신의 용기 부족에 실망)</div>
@@ -6625,13 +6625,13 @@ Reconsider
     "Let down": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Let down</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Let down</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Let down')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Let down은 <strong>'기대에 미치지 못하는 실망감'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Let down의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Let down</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Let down</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Let down')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"기대가 무너지는 순간"</div>
         <p>입니다. 이 표현은 누군가의 기대를 충족시키지 못했을 때 자주 사용됩니다.</p>
     </div>
@@ -6653,7 +6653,7 @@ Reconsider
     <h2 class="insight-h2">① 실망시키다 (Disappoint)</h2>
     <p class="insight-p">친구나 가족의 기대를 충족시키지 못했을 때 자주 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">I didn't mean to let you down, I'm really sorry.</div>
+        <div class="ex-en">I didn't mean to let you down, I'm really sorry. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I didn\'t mean to let you down, I\'m really sorry.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">너를 실망시키려던 건 아니었어, 정말 미안해. (상대방의 기대를 충족시키지 못한 미안함)</div>
         <div class="ex-en" style="margin-top:12px;">She felt let down when he forgot her birthday.</div>
         <div class="ex-ko">그가 그녀의 생일을 잊었을 때 그녀는 실망감을 느꼈다. (기대했던 것을 받지 못한 실망)</div>
@@ -6662,7 +6662,7 @@ Reconsider
     <h2 class="insight-h2">② 수준에 못 미치다 (Fail to meet expectations)</h2>
     <p class="insight-p">어떤 기준이나 수준에 도달하지 못했을 때 사용합니다.</p>
     <div class="example-group">
-        <div class="ex-en">The movie let me down; I expected it to be much better.</div>
+        <div class="ex-en">The movie let me down; I expected it to be much better. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The movie let me down; I expected it to be much better.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그 영화는 나를 실망시켰어; 나는 훨씬 더 좋을 거라고 기대했어. (기대한 수준에 미치지 못한 실망)</div>
         <div class="ex-en" style="margin-top:12px;">The team's performance let the fans down.</div>
         <div class="ex-ko">팀의 성적이 팬들을 실망시켰다. (팬들의 기대를 충족시키지 못함)</div>
@@ -6671,7 +6671,7 @@ Reconsider
     <h2 class="insight-h2">③ 의지가 꺾이다 (Lose morale)</h2>
     <p class="insight-p">실망스러운 결과로 인해 의욕이나 의지가 꺾일 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">After the rejection, he felt completely let down.</div>
+        <div class="ex-en">After the rejection, he felt completely let down. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('After the rejection, he felt completely let down.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">거절당한 후, 그는 완전히 의욕이 꺾였다. (기대가 무너져 의지가 약해짐)</div>
         <div class="ex-en" style="margin-top:12px;">The news let her down, and she lost her motivation.</div>
         <div class="ex-ko">그 소식에 그녀는 실망했고, 의욕을 잃었다. (실망으로 인해 동기를 잃음)</div>
@@ -6681,13 +6681,13 @@ Reconsider
     "Discouraged": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Discouraged</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Discouraged</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Discouraged')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Discouraged은 <strong>'기운이 빠져 더 이상 시도할 의욕이 없는 상태'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Discouraged의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Discouraged</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Discouraged</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Discouraged')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"기운이 꺾인 상태"</div>
         <p>입니다. (어떤 일에 실패하여 더 이상 도전할 의지가 없는 상태를 나타냅니다.)</p>
     </div>
@@ -6706,7 +6706,7 @@ Reconsider
     <h2 class="insight-h2">① 실망과 좌절의 감정 (Feeling of Disappointment and Frustration)</h2>
     <p class="insight-p">어떤 일에 실패하거나 기대에 미치지 못해 실망하고 좌절한 상태를 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">"After failing the exam, she felt discouraged."</div>
+        <div class="ex-en">"After failing the exam, she felt discouraged." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;After failing the exam, she felt discouraged.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"시험에 떨어진 후, 그녀는 기운이 빠졌다." (시험 실패로 인한 실망과 좌절감)</div>
         <div class="ex-en" style="margin-top:12px;">"He was discouraged by the lack of progress."</div>
         <div class="ex-ko">"그는 진전이 없어서 좌절했다." (기대했던 결과가 나오지 않아 실망)</div>
@@ -6715,7 +6715,7 @@ Reconsider
     <h2 class="insight-h2">② 동기 부여의 상실 (Loss of Motivation)</h2>
     <p class="insight-p">계속해서 시도할 의욕을 잃은 상태를 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">"She felt discouraged to continue the project after the setbacks."</div>
+        <div class="ex-en">"She felt discouraged to continue the project after the setbacks." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;She felt discouraged to continue the project after the setbacks.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"그녀는 차질 후에 프로젝트를 계속할 의욕을 잃었다." (계속할 동기를 잃은 상태)</div>
         <div class="ex-en" style="margin-top:12px;">"The constant rejections left him discouraged."</div>
         <div class="ex-ko">"계속되는 거절로 그는 의욕을 잃었다." (반복되는 실패로 인한 동기 상실)</div>
@@ -6724,7 +6724,7 @@ Reconsider
     <h2 class="insight-h2">③ 환경적 요인에 의한 낙담 (Discouragement Due to External Factors)</h2>
     <p class="insight-p">외부 요인으로 인해 의욕을 잃은 상태를 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">"The negative feedback from his boss discouraged him."</div>
+        <div class="ex-en">"The negative feedback from his boss discouraged him." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;The negative feedback from his boss discouraged him.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"상사의 부정적인 피드백에 그는 낙담했다." (외부의 부정적 평가로 인한 낙담)</div>
         <div class="ex-en" style="margin-top:12px;">"The team's criticism left her feeling discouraged."</div>
         <div class="ex-ko">"팀의 비판에 그녀는 낙담했다." (주변의 비판으로 인해 의욕 상실)</div>
@@ -6734,13 +6734,13 @@ Reconsider
     "Relieved": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Relieved</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Relieved</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Relieved')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Relieved은 <strong>'긴장이 풀리면서 안도하는 순간'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Relieved의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Relieved</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Relieved</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Relieved')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"긴장으로부터 해방되는 순간"</div>
         <p>입니다. (이 표현은 특히 압박감이 해소될 때 자주 사용됩니다.)</p>
     </div>
@@ -6760,7 +6760,7 @@ Reconsider
     <h2 class="insight-h2">① 안도의 한숨 Sigh of Relief</h2>
     <p class="insight-p">긴장이 풀리면서 안도감을 느끼는 순간을 묘사합니다.</p>
     <div class="example-group">
-        <div class="ex-en">"I was so relieved when I found my keys."</div>
+        <div class="ex-en">"I was so relieved when I found my keys." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;I was so relieved when I found my keys.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"열쇠를 찾았을 때 정말 안도했어요." (잃어버린 줄 알고 긴장했는데, 결국 찾아서 안도하는 상황)</div>
         <div class="ex-en" style="margin-top:12px;">"She felt relieved after the exam was over."</div>
         <div class="ex-ko">"그녀는 시험이 끝나고 나서 안도감을 느꼈어요." (시험 전의 긴장감을 해소하고 안도하는 상황)</div>
@@ -6769,7 +6769,7 @@ Reconsider
     <h2 class="insight-h2">② 문제 해결 Resolution of a Problem</h2>
     <p class="insight-p">어려운 상황이나 문제가 해결되어 안도하는 느낌을 표현합니다.</p>
     <div class="example-group">
-        <div class="ex-en">"He was relieved to hear that the project was successful."</div>
+        <div class="ex-en">"He was relieved to hear that the project was successful." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;He was relieved to hear that the project was successful.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"그는 프로젝트가 성공적이라는 소식을 듣고 안도했어요." (프로젝트 결과에 대한 불안이 해소된 상황)</div>
         <div class="ex-en" style="margin-top:12px;">"I'm relieved the meeting went well."</div>
         <div class="ex-ko">"회의가 잘 끝나서 안도했어요." (회의 전의 긴장이 풀린 상황)</div>
@@ -6778,7 +6778,7 @@ Reconsider
     <h2 class="insight-h2">③ 불안 해소 Alleviation of Worry</h2>
     <p class="insight-p">걱정이나 불안이 풀려 편안해지는 상태를 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">"It was a relief to hear that everyone was safe."</div>
+        <div class="ex-en">"It was a relief to hear that everyone was safe." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;It was a relief to hear that everyone was safe.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"모두가 안전하다는 말을 듣고 안도했어요." (안전 여부에 대한 불안이 해소된 상황)</div>
         <div class="ex-en" style="margin-top:12px;">"Knowing the results were good, she felt relieved."</div>
         <div class="ex-ko">"결과가 좋다는 것을 알고 그녀는 안도했어요." (결과에 대한 불안이 해소된 상황)</div>
@@ -6788,13 +6788,13 @@ Reconsider
     "Grateful": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Grateful</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Grateful</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Grateful')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Grateful은 <strong>'깊은 감사와 마음의 따뜻함'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Grateful의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Grateful</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Grateful</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Grateful')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"진심 어린 감사의 마음"</div>
         <p>입니다. (이 표현은 주로 진심으로 느끼는 감사를 나타낼 때 사용됩니다.)</p>
     </div>
@@ -6814,7 +6814,7 @@ Reconsider
     <h2 class="insight-h2">① 진심 어린 감사 표현하기 (Expressing heartfelt gratitude)</h2>
     <p class="insight-p">진심으로 누군가에게 감사할 때 이 표현을 사용합니다.</p>
     <div class="example-group">
-        <div class="ex-en">I'm so grateful for your help today.</div>
+        <div class="ex-en">I'm so grateful for your help today. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I\'m so grateful for your help today.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">오늘 당신의 도움에 정말 감사해요. (상대방의 도움에 깊은 감사를 표할 때)</div>
         <div class="ex-en" style="margin-top:12px;">She felt grateful for the opportunity to learn.</div>
         <div class="ex-ko">그녀는 배울 수 있는 기회에 감사함을 느꼈다. (배움의 기회를 진심으로 감사할 때)</div>
@@ -6823,7 +6823,7 @@ Reconsider
     <h2 class="insight-h2">② 인생의 축복에 대한 감사 (Appreciating life's blessings)</h2>
     <p class="insight-p">일상에서 주어지는 축복에 대해 감사하는 마음을 표현합니다.</p>
     <div class="example-group">
-        <div class="ex-en">I'm grateful for having such supportive friends.</div>
+        <div class="ex-en">I'm grateful for having such supportive friends. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I\'m grateful for having such supportive friends.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">이렇게 지지해주는 친구들이 있어 감사해요. (친구들의 지원에 대한 감사의 표현)</div>
         <div class="ex-en" style="margin-top:12px;">He’s grateful for the small joys in life.</div>
         <div class="ex-ko">그는 삶의 작은 기쁨들에 감사한다. (일상 속 작은 기쁨들에 대한 감사)</div>
@@ -6832,7 +6832,7 @@ Reconsider
     <h2 class="insight-h2">③ 긍정적인 태도 유지하기 (Maintaining a positive attitude)</h2>
     <p class="insight-p">어려운 상황에서도 긍정적인 태도로 감사함을 표현합니다.</p>
     <div class="example-group">
-        <div class="ex-en">Even in tough times, she remains grateful.</div>
+        <div class="ex-en">Even in tough times, she remains grateful. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Even in tough times, she remains grateful.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">힘든 시기에도 그녀는 감사함을 유지한다. (어려움 속에서도 긍정적인 태도로 감사하는 모습)</div>
         <div class="ex-en" style="margin-top:12px;">He tries to be grateful for every experience.</div>
         <div class="ex-ko">그는 모든 경험에 감사하려고 노력한다. (모든 경험을 긍정적으로 받아들이며 감사하려는 노력)</div>
@@ -6842,13 +6842,13 @@ Reconsider
     "Thankful": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Thankful</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Thankful</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Thankful')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Thankful은 <strong>'진심에서 우러나오는 감사의 느낌'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Thankful의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Thankful</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Thankful</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Thankful')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"마음 깊이 느껴지는 감사함"</div>
         <p>입니다. 이 표현은 주로 개인적이고 진솔한 감사의 순간에 사용됩니다.</p>
     </div>
@@ -6867,7 +6867,7 @@ Reconsider
     <h2 class="insight-h2">① 진심 어린 감사 Heartfelt Gratitude</h2>
     <p class="insight-p">Thankful은 개인적이고 진심 어린 감사를 표현할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">I'm so thankful for your support during tough times.</div>
+        <div class="ex-en">I'm so thankful for your support during tough times. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I\'m so thankful for your support during tough times.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">힘든 시기에 당신의 지원에 정말 감사드립니다. (개인적이고 진심 어린 감사의 표현)</div>
         <div class="ex-en" style="margin-top:12px;">She felt thankful for the kindness of strangers.</div>
         <div class="ex-ko">그녀는 낯선 사람들의 친절에 감사함을 느꼈다. (진심으로 우러나오는 감사의 느낌)</div>
@@ -6876,7 +6876,7 @@ Reconsider
     <h2 class="insight-h2">② 안도의 감사 Relief and Gratitude</h2>
     <p class="insight-p">어려운 상황에서 벗어났을 때 느끼는 안도의 감사를 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">I'm thankful that the surgery went well.</div>
+        <div class="ex-en">I'm thankful that the surgery went well. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I\'m thankful that the surgery went well.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">수술이 잘 되어 정말 다행입니다. (안도의 감사의 느낌)</div>
         <div class="ex-en" style="margin-top:12px;">We're thankful the storm didn't hit our town.</div>
         <div class="ex-ko">폭풍이 우리 마을을 비켜가서 정말 다행입니다. (위기를 넘긴 후의 안도와 감사)</div>
@@ -6885,7 +6885,7 @@ Reconsider
     <h2 class="insight-h2">③ 삶의 교훈에 대한 감사 Gratitude for Life Lessons</h2>
     <p class="insight-p">삶의 경험이나 교훈으로부터 배운 것에 대해 감사할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">I'm thankful for the challenges that taught me resilience.</div>
+        <div class="ex-en">I'm thankful for the challenges that taught me resilience. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I\'m thankful for the challenges that taught me resilience.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">나에게 끈기를 가르쳐준 도전에 감사합니다. (삶의 교훈에 대한 감사)</div>
         <div class="ex-en" style="margin-top:12px;">He felt thankful for the mistakes that helped him grow.</div>
         <div class="ex-ko">그는 자신이 성장할 수 있도록 도와준 실수들에 감사함을 느꼈다. (경험을 통한 배움에 대한 감사)</div>
@@ -6895,13 +6895,13 @@ Reconsider
     "Awkward": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Awkward</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Awkward</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Awkward')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Awkward은 <strong>'상황이 부자연스럽고 어색한 느낌이 드는 것'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Awkward의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Awkward</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Awkward</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Awkward')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"불편하고 부자연스러운 상황"</div>
         <p>입니다. (무언가가 어긋나서 자연스럽지 않은 느낌을 줍니다.)</p>
     </div>
@@ -6921,7 +6921,7 @@ Reconsider
     <h2 class="insight-h2">① 어색한 분위기 (Awkward Atmosphere)</h2>
     <p class="insight-p">어떤 상황에서 분위기가 자연스럽지 않고 어색할 때 사용합니다.</p>
     <div class="example-group">
-        <div class="ex-en">The dinner party was fun, but there was an awkward silence at times.</div>
+        <div class="ex-en">The dinner party was fun, but there was an awkward silence at times. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The dinner party was fun, but there was an awkward silence at times.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">저녁 파티는 재미있었지만, 가끔씩 어색한 침묵이 있었습니다. (자연스럽지 않은 침묵)</div>
         <div class="ex-en" style="margin-top:12px;">She felt awkward when no one laughed at her joke.</div>
         <div class="ex-ko">그녀는 아무도 그녀의 농담에 웃지 않았을 때 어색함을 느꼈습니다. (농담이 통하지 않아 불편한 상황)</div>
@@ -6930,7 +6930,7 @@ Reconsider
     <h2 class="insight-h2">② 서툰 행동 (Clumsy Action)</h2>
     <p class="insight-p">어떤 행동이 서툴고 매끄럽지 않을 때 사용합니다.</p>
     <div class="example-group">
-        <div class="ex-en">He made an awkward attempt to dance at the wedding.</div>
+        <div class="ex-en">He made an awkward attempt to dance at the wedding. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('He made an awkward attempt to dance at the wedding.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그는 결혼식에서 춤을 추려는 서툰 시도를 했습니다. (춤이 매끄럽지 않고 어색함)</div>
         <div class="ex-en" style="margin-top:12px;">Her awkward movements revealed she was new to yoga.</div>
         <div class="ex-ko">그녀의 서툰 동작들은 그녀가 요가에 익숙하지 않다는 것을 드러냈습니다. (자연스럽지 않게 움직임)</div>
@@ -6939,7 +6939,7 @@ Reconsider
     <h2 class="insight-h2">③ 불편한 상황 (Uncomfortable Situation)</h2>
     <p class="insight-p">사람들이 불편해할 수 있는 상황에서 사용합니다.</p>
     <div class="example-group">
-        <div class="ex-en">It was awkward when both of his ex-girlfriends showed up at the party.</div>
+        <div class="ex-en">It was awkward when both of his ex-girlfriends showed up at the party. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('It was awkward when both of his ex-girlfriends showed up at the party.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그의 두 명의 전 여자친구가 파티에 나타났을 때 상황이 불편했습니다. (서로에게 불편한 상황)</div>
         <div class="ex-en" style="margin-top:12px;">The meeting became awkward when no one knew how to respond to the criticism.</div>
         <div class="ex-ko">그 비판에 어떻게 반응해야 할지 아무도 몰랐을 때 회의가 불편해졌습니다. (반응하기 힘든 상황)</div>
@@ -6949,13 +6949,13 @@ Reconsider
     "Uncomfortable": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Uncomfortable</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Uncomfortable</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Uncomfortable')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Uncomfortable은 <strong>'불편함을 느낄 때의 미묘한 감정의 복합체'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Uncomfortable의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Uncomfortable</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Uncomfortable</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Uncomfortable')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"안정감을 잃고 불안해지는 순간"</div>
         <p>입니다. (마음이 불편해져서 신경이 쓰이는 상태를 포착합니다)</p>
     </div>
@@ -6974,7 +6974,7 @@ Reconsider
     <h2 class="insight-h2">① 신체적 불편함 Physical Discomfort</h2>
     <p class="insight-p">신체의 상태가 안 좋은 상황에서 쓰입니다.</p>
     <div class="example-group">
-        <div class="ex-en">"This chair makes me uncomfortable."</div>
+        <div class="ex-en">"This chair makes me uncomfortable." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;This chair makes me uncomfortable.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"이 의자는 나를 불편하게 해." (의자가 몸에 맞지 않아 신체적으로 불편함)</div>
         <div class="ex-en" style="margin-top:12px;">"I feel uncomfortable in tight clothes."</div>
         <div class="ex-ko">"꽉 끼는 옷을 입으니 불편해." (옷이 몸을 죄어 신체적으로 불편함)</div>
@@ -6983,7 +6983,7 @@ Reconsider
     <h2 class="insight-h2">② 심리적 불편함 Psychological Discomfort</h2>
     <p class="insight-p">마음이 불안하거나 신경이 쓰이는 상황에서 쓰입니다.</p>
     <div class="example-group">
-        <div class="ex-en">"I'm uncomfortable with this decision."</div>
+        <div class="ex-en">"I'm uncomfortable with this decision." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;I\'m uncomfortable with this decision.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"이 결정이 마음에 걸려." (결정이 마음에 들지 않아 심리적으로 불편함)</div>
         <div class="ex-en" style="margin-top:12px;">"She looked uncomfortable during the meeting."</div>
         <div class="ex-ko">"그녀는 회의 동안 불편해 보였어." (회의가 그녀를 심리적으로 불안하게 만듦)</div>
@@ -6992,7 +6992,7 @@ Reconsider
     <h2 class="insight-h2">③ 사회적 불편함 Social Discomfort</h2>
     <p class="insight-p">사람들과의 상호작용에서 불편함을 느낄 때 쓰입니다.</p>
     <div class="example-group">
-        <div class="ex-en">"He seemed uncomfortable talking to strangers."</div>
+        <div class="ex-en">"He seemed uncomfortable talking to strangers." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;He seemed uncomfortable talking to strangers.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"그는 낯선 사람들과 이야기하는 것을 불편해하는 것 같았어." (사회적 상황에서의 불편함)</div>
         <div class="ex-en" style="margin-top:12px;">"The silence made everyone uncomfortable."</div>
         <div class="ex-ko">"침묵이 모두를 불편하게 만들었어." (침묵이 사회적 긴장을 유발함)</div>
@@ -7002,13 +7002,13 @@ Reconsider
     "Uneasy": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Uneasy</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Uneasy</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Uneasy')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Uneasy은 <strong>'불안하고 마음이 편치 않은 상태'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Uneasy의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Uneasy</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Uneasy</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Uneasy')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"속으로 끓어오르는 불안감"</div>
         <p>입니다. (어떤 이유에서든 편안하지 않은 기분을 나타냅니다.)</p>
     </div>
@@ -7028,7 +7028,7 @@ Reconsider
     <h2 class="insight-h2">① 불편한 감정 Uneasy Feelings</h2>
     <p class="insight-p">주변 상황이나 사람들 때문에 불편함을 느끼는 상황을 표현합니다.</p>
     <div class="example-group">
-        <div class="ex-en">She felt uneasy at the party with so many strangers.</div>
+        <div class="ex-en">She felt uneasy at the party with so many strangers. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('She felt uneasy at the party with so many strangers.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀는 많은 낯선 사람들과 함께 있는 파티에서 불편함을 느꼈다. (주변 사람들 때문에 마음이 편치 않음)</div>
         <div class="ex-en" style="margin-top:12px;">He seemed uneasy when asked about his past.</div>
         <div class="ex-ko">그는 과거에 대해 질문을 받았을 때 불편해 보였다. (자신의 과거에 대한 질문이 그의 마음을 불편하게 만듦)</div>
@@ -7037,7 +7037,7 @@ Reconsider
     <h2 class="insight-h2">② 불안한 예감 Uneasy Premonition</h2>
     <p class="insight-p">뭔가 좋지 않은 일이 일어날 것 같은 예감을 표현합니다.</p>
     <div class="example-group">
-        <div class="ex-en">There's an uneasy feeling in the air before the storm hits.</div>
+        <div class="ex-en">There's an uneasy feeling in the air before the storm hits. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('There\'s an uneasy feeling in the air before the storm hits.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">폭풍이 몰아치기 전에 공기 중에 불안한 느낌이 있다. (곧 닥칠 위험에 대한 예감)</div>
         <div class="ex-en" style="margin-top:12px;">He had an uneasy sense that something was wrong.</div>
         <div class="ex-ko">그는 뭔가 잘못되었다는 불안한 느낌이 들었다. (불길한 느낌)</div>
@@ -7046,7 +7046,7 @@ Reconsider
     <h2 class="insight-h2">③ 마음이 놓이지 않는 상황 Uneasy Situations</h2>
     <p class="insight-p">상황 자체가 마음을 놓을 수 없을 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">The uneasy truce between the two countries could break at any moment.</div>
+        <div class="ex-en">The uneasy truce between the two countries could break at any moment. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The uneasy truce between the two countries could break at any moment.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">두 나라 사이의 불안한 휴전은 언제든지 깨질 수 있다. (휴전이 지속될지 확신할 수 없는 상황)</div>
         <div class="ex-en" style="margin-top:12px;">She waited with an uneasy heart for the test results.</div>
         <div class="ex-ko">그녀는 시험 결과를 불안한 마음으로 기다렸다. (결과가 나올 때까지 확신할 수 없는 불안한 상황)</div>
@@ -7056,13 +7056,13 @@ Reconsider
     "Proud": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Proud</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Proud</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Proud')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Proud은 <strong>'자신감과 성취감의 내면적 드러냄'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Proud의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Proud</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Proud</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Proud')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"내면의 성취감을 바깥으로 표현하는 것"</div>
         <p>입니다. (자신이나 다른 사람의 성취를 자랑스럽게 여김)</p>
     </div>
@@ -7082,7 +7082,7 @@ Reconsider
     <h2 class="insight-h2">① 성취감의 표현 (Expression of Achievement)</h2>
     <p class="insight-p">Proud는 자신의 노력과 결과에 대한 긍정적 느낌을 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">I'm proud of what I've accomplished.</div>
+        <div class="ex-en">I'm proud of what I've accomplished. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I\'m proud of what I\'ve accomplished.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">내가 이룬 것에 대해 자랑스러워. (자신의 성취에 대한 긍정적 감정)</div>
         <div class="ex-en" style="margin-top:12px;">She felt proud after finishing her project.</div>
         <div class="ex-ko">그녀는 프로젝트를 완료한 후 자랑스러워했다. (완료된 일에 대한 만족감)</div>
@@ -7091,7 +7091,7 @@ Reconsider
     <h2 class="insight-h2">② 자부심의 표현 (Expression of Self-esteem)</h2>
     <p class="insight-p">Proud는 자신의 가치에 대한 긍정적 인식을 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">He is proud of his heritage.</div>
+        <div class="ex-en">He is proud of his heritage. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('He is proud of his heritage.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그는 자신의 유산을 자랑스러워한다. (자신의 뿌리에 대한 긍정적 인식)</div>
         <div class="ex-en" style="margin-top:12px;">They are proud to be part of the team.</div>
         <div class="ex-ko">그들은 팀의 일원이 된 것을 자랑스럽게 여긴다. (소속감과 가치 인식)</div>
@@ -7100,7 +7100,7 @@ Reconsider
     <h2 class="insight-h2">③ 타인의 성취를 자랑스러워함 (Feeling Proud of Others)</h2>
     <p class="insight-p">Proud는 타인의 성취를 보고 느끼는 긍정적 감정을 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">I'm so proud of you for graduating.</div>
+        <div class="ex-en">I'm so proud of you for graduating. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I\'m so proud of you for graduating.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">졸업한 너를 정말 자랑스럽게 생각해. (타인의 성취에 대한 칭찬)</div>
         <div class="ex-en" style="margin-top:12px;">We are proud of our children's achievements.</div>
         <div class="ex-ko">우리는 아이들의 성취를 자랑스럽게 여긴다. (자녀들의 성공에 대한 긍정적 감정)</div>
@@ -7110,13 +7110,13 @@ Reconsider
     "Accomplished": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Accomplished</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Accomplished</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Accomplished')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Accomplished은 <strong>'탁월함과 성취의 정점'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Accomplished의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Accomplished</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Accomplished</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Accomplished')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"완벽한 능력과 이룬 성과"</div>
         <p>입니다. 이 표현은 높은 수준의 기술이나 업적을 묘사합니다.</p>
     </div>
@@ -7138,7 +7138,7 @@ Reconsider
     <h2 class="insight-h2">① 뛰어난 기술력과 능력 (Mastery and Skill)</h2>
     <p class="insight-p">Accomplished는 매우 능숙한 기술이나 능력을 가진 사람을 설명할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">She is an accomplished pianist.</div>
+        <div class="ex-en">She is an accomplished pianist. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('She is an accomplished pianist.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀는 뛰어난 피아니스트입니다. (기술적 완성도를 강조)</div>
         <div class="ex-en" style="margin-top:12px;">He became an accomplished chef by the age of 30.</div>
         <div class="ex-ko">그는 30살에 이미 뛰어난 요리사가 되었습니다. (젊은 나이에 이룬 높은 성취)</div>
@@ -7147,7 +7147,7 @@ Reconsider
     <h2 class="insight-h2">② 인정받은 성취 (Recognized Achievement)</h2>
     <p class="insight-p">어떤 분야에서 공식적으로 인정받는 성과를 설명할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">The accomplished author won several awards.</div>
+        <div class="ex-en">The accomplished author won several awards. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The accomplished author won several awards.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그 뛰어난 작가는 여러 상을 수상했습니다. (공식적으로 인정받는 성과)</div>
         <div class="ex-en" style="margin-top:12px;">His accomplished career in law is well-known.</div>
         <div class="ex-ko">그의 법률 분야에서의 뛰어난 경력은 잘 알려져 있습니다. (경력과 성과의 공식적 인정)</div>
@@ -7156,7 +7156,7 @@ Reconsider
     <h2 class="insight-h2">③ 목표 달성 (Goal Achievement)</h2>
     <p class="insight-p">특정 목표를 성공적으로 달성했을 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">They felt accomplished after finishing the project.</div>
+        <div class="ex-en">They felt accomplished after finishing the project. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('They felt accomplished after finishing the project.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그들은 프로젝트를 완료한 후 성취감을 느꼈습니다. (목표 달성의 만족감)</div>
         <div class="ex-en" style="margin-top:12px;">Completing the marathon left him feeling accomplished.</div>
         <div class="ex-ko">마라톤을 완주한 후 그는 성취감을 느꼈습니다. (개인 목표 달성의 성취)</div>
@@ -7166,13 +7166,13 @@ Reconsider
     "Fulfilled": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Fulfilled</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Fulfilled</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Fulfilled')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Fulfilled은 <strong>'완전한 만족과 성취의 상태'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Fulfilled의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Fulfilled</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Fulfilled</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Fulfilled')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"마음이 꽉 찬 상태"</div>
         <p>입니다. (성취감을 통해 마음이 충족된 상태를 나타냅니다.)</p>
     </div>
@@ -7193,7 +7193,7 @@ Reconsider
     <h2 class="insight-h2">① 성취감과 만족감 Feeling of Achievement and Satisfaction</h2>
     <p class="insight-p">목표를 이루어 성취감과 만족감을 느낄 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">"I feel so fulfilled after completing the project."</div>
+        <div class="ex-en">"I feel so fulfilled after completing the project." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;I feel so fulfilled after completing the project.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"프로젝트를 완료한 후 정말 만족감을 느낍니다." (목표를 이루고 성취감으로 마음이 채워짐)</div>
         <div class="ex-en" style="margin-top:12px;">"Her career makes her feel fulfilled."</div>
         <div class="ex-ko">"그녀의 직업은 그녀에게 만족감을 줍니다." (직업을 통해 지속적인 만족감을 느낌)</div>
@@ -7202,7 +7202,7 @@ Reconsider
     <h2 class="insight-h2">② 내적 평화와 행복 Inner Peace and Happiness</h2>
     <p class="insight-p">내면의 평화와 행복감을 느낄 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">"Meditation leaves me feeling fulfilled."</div>
+        <div class="ex-en">"Meditation leaves me feeling fulfilled." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;Meditation leaves me feeling fulfilled.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"명상을 하고 나면 내면의 평화로 가득 찹니다." (명상으로 마음이 평온하고 행복해짐)</div>
         <div class="ex-en" style="margin-top:12px;">"Volunteering gives me a fulfilled sense of purpose."</div>
         <div class="ex-ko">"자원봉사는 나에게 충만한 목적의식을 줍니다." (봉사를 통해 삶의 의미를 찾고 만족감을 느낌)</div>
@@ -7211,7 +7211,7 @@ Reconsider
     <h2 class="insight-h2">③ 삶의 의미를 찾음 Finding Meaning in Life</h2>
     <p class="insight-p">삶의 의미를 찾고 충만함을 느낄 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">"Raising children makes me feel fulfilled."</div>
+        <div class="ex-en">"Raising children makes me feel fulfilled." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;Raising children makes me feel fulfilled.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"아이를 키우는 것이 나에게 삶의 의미를 줍니다." (아이를 돌보는 과정에서 삶의 의미를 발견)</div>
         <div class="ex-en" style="margin-top:12px;">"He feels fulfilled in his role as a teacher."</div>
         <div class="ex-ko">"그는 교사로서의 역할에서 충만함을 느낍니다." (교육을 통해 삶의 가치를 느낌)</div>
@@ -7221,13 +7221,13 @@ Reconsider
     "Anxious": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Anxious</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Anxious</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Anxious')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Anxious은 <strong>'기대와 걱정이 뒤섞인 복합적 감정'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Anxious의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Anxious</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Anxious</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Anxious')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"기대와 불안이 혼재된 상태"</div>
         <p>입니다. (이 표현은 동시에 두 가지 감정을 포함합니다.)</p>
     </div>
@@ -7248,7 +7248,7 @@ Reconsider
     <h2 class="insight-h2">① 기대와 불안의 혼합 (Mix of Anticipation and Anxiety)</h2>
     <p class="insight-p">Anxious는 어떤 일이 일어나길 기대하면서도 동시에 걱정되는 상태를 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">I am anxious about the job interview tomorrow.</div>
+        <div class="ex-en">I am anxious about the job interview tomorrow. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I am anxious about the job interview tomorrow.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">내일 있을 면접이 기대되면서도 걱정된다. (면접에 대한 기대와 불안이 혼재)</div>
         <div class="ex-en" style="margin-top:12px;">She's anxious to hear back from the university.</div>
         <div class="ex-ko">그녀는 대학에서 답변을 듣기를 기대하면서도 불안해하고 있다. (기대와 불안의 공존)</div>
@@ -7257,7 +7257,7 @@ Reconsider
     <h2 class="insight-h2">② 긴장감 (Tension)</h2>
     <p class="insight-p">Anxious는 긴장감이나 스트레스를 느끼는 상황에서도 자주 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">He felt anxious during the final exam.</div>
+        <div class="ex-en">He felt anxious during the final exam. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('He felt anxious during the final exam.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그는 기말 시험 동안 긴장감을 느꼈다. (시험으로 인한 긴장과 스트레스)</div>
         <div class="ex-en" style="margin-top:12px;">The anxious wait for results was unbearable.</div>
         <div class="ex-ko">결과를 기다리며 느끼는 긴장감은 참기 어려웠다. (기다림에서 오는 긴장)</div>
@@ -7266,7 +7266,7 @@ Reconsider
     <h2 class="insight-h2">③ 긍정적 기대감 (Positive Anticipation)</h2>
     <p class="insight-p">때로는 긍정적인 기대감으로 사용하는 경우도 있습니다.</p>
     <div class="example-group">
-        <div class="ex-en">I'm anxious to see my family again after so long.</div>
+        <div class="ex-en">I'm anxious to see my family again after so long. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I\'m anxious to see my family again after so long.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">오랜만에 가족을 다시 볼 생각에 기대가 된다. (긍정적인 기대감)</div>
         <div class="ex-en" style="margin-top:12px;">She was anxious to start her new job.</div>
         <div class="ex-ko">그녀는 새 직장을 시작할 생각에 기대하고 있다. (새로운 시작에 대한 긍정적인 기대)</div>
@@ -7276,13 +7276,13 @@ Reconsider
     "Nervous": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Nervous</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Nervous</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Nervous')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Nervous은 <strong>'긴장과 불안이 복합된 감정'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Nervous의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Nervous</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Nervous</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Nervous')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"불확실함으로 인한 심리적 압박"</div>
         <p>입니다. 이 표현은 주로 중요한 순간을 앞둔 심리 상태를 묘사합니다.</p>
     </div>
@@ -7301,7 +7301,7 @@ Reconsider
     <h2 class="insight-h2">① 긴장감의 고조 Rising Tension</h2>
     <p class="insight-p">중요한 순간이나 결과를 앞두고 느껴지는 고조된 긴장 상태.</p>
     <div class="example-group">
-        <div class="ex-en">I was nervous before my job interview.</div>
+        <div class="ex-en">I was nervous before my job interview. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I was nervous before my job interview.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">나는 면접 전 긴장했다. (중요한 순간을 앞두고 긴장감이 느껴짐)</div>
         <div class="ex-en" style="margin-top:12px;">She gets nervous when she speaks in public.</div>
         <div class="ex-ko">그녀는 대중 앞에서 말할 때 긴장한다. (공식적인 자리에서의 긴장감)</div>
@@ -7310,7 +7310,7 @@ Reconsider
     <h2 class="insight-h2">② 불안과 기대감 Anxious Expectation</h2>
     <p class="insight-p">결과를 기다리면서 불안과 기대가 섞인 감정.</p>
     <div class="example-group">
-        <div class="ex-en">He's nervous about the test results.</div>
+        <div class="ex-en">He's nervous about the test results. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('He\'s nervous about the test results.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그는 시험 결과에 대해 불안해하고 있다. (결과에 대한 기대와 불안의 혼합)</div>
         <div class="ex-en" style="margin-top:12px;">They felt nervous waiting for the plane to land.</div>
         <div class="ex-ko">그들은 비행기가 착륙할 때까지 불안했다. (기다림 속의 불안감)</div>
@@ -7319,7 +7319,7 @@ Reconsider
     <h2 class="insight-h2">③ 새로운 경험에 대한 두려움 Fear of the Unknown</h2>
     <p class="insight-p">익숙하지 않은 상황에서 느껴지는 두려움과 불안.</p>
     <div class="example-group">
-        <div class="ex-en">I'm nervous about starting a new job.</div>
+        <div class="ex-en">I'm nervous about starting a new job. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I\'m nervous about starting a new job.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">나는 새 직장을 시작하는 것이 두렵다. (새로운 경험에 대한 불확실함)</div>
         <div class="ex-en" style="margin-top:12px;">She was nervous moving to a new city.</div>
         <div class="ex-ko">그녀는 새로운 도시로 이사하는 것이 불안했다. (낯선 환경에 대한 두려움)</div>
@@ -7329,13 +7329,13 @@ Reconsider
     "On edge": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>On edge</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>On edge</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('On edge')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 On edge은 <strong>'긴장하고 예민한 상태'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">On edge의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>On edge</strong>의 핵심은</p>
+        <p>원어민에게 <strong>On edge</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('On edge')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"긴장감이 극에 달한 상태"</div>
         <p>입니다. (마치 금방이라도 폭발할 것 같은 상태를 묘사합니다.)</p>
     </div>
@@ -7356,7 +7356,7 @@ Reconsider
     <h2 class="insight-h2">① 긴장 상태를 나타낼 때 (Anxious State)</h2>
     <p class="insight-p">이 표현은 사람이 무언가에 대해 불안하고 긴장할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">I'm feeling on edge about the exam tomorrow.</div>
+        <div class="ex-en">I'm feeling on edge about the exam tomorrow. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I\'m feeling on edge about the exam tomorrow.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">내일 시험 때문에 긴장돼. (시험에 대한 불안감과 긴장감을 표현)</div>
         <div class="ex-en" style="margin-top:12px;">She seemed on edge all day.</div>
         <div class="ex-ko">그녀는 하루 종일 예민해 보였다. (계속해서 불안하고 예민한 상태를 나타냄)</div>
@@ -7365,7 +7365,7 @@ Reconsider
     <h2 class="insight-h2">② 예민한 반응 (Sensitive Reaction)</h2>
     <p class="insight-p">작은 일에도 쉽게 반응하는 예민한 상태를 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">He's been on edge ever since the meeting.</div>
+        <div class="ex-en">He's been on edge ever since the meeting. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('He\'s been on edge ever since the meeting.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그는 회의 이후로 계속 예민해 있다. (작은 자극에도 쉽게 영향을 받는 상태)</div>
         <div class="ex-en" style="margin-top:12px;">Don't mind him, he's just on edge today.</div>
         <div class="ex-ko">그를 신경 쓰지 마, 그냥 오늘 좀 예민해. (오늘따라 예민한 상태를 설명)</div>
@@ -7374,7 +7374,7 @@ Reconsider
     <h2 class="insight-h2">③ 임박한 사건에 대한 긴장 (Tension Before an Event)</h2>
     <p class="insight-p">중요한 일이나 사건을 앞두고 긴장감을 느낄 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Everyone is on edge before the big presentation.</div>
+        <div class="ex-en">Everyone is on edge before the big presentation. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Everyone is on edge before the big presentation.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">모두가 큰 발표 전에 긴장하고 있다. (중요한 발표를 앞둔 긴장 상태)</div>
         <div class="ex-en" style="margin-top:12px;">The team was on edge waiting for the results.</div>
         <div class="ex-ko">팀은 결과를 기다리며 긴장했다. (결과 발표를 앞둔 긴장된 상태)</div>
@@ -7384,13 +7384,13 @@ Reconsider
     "Nostalgic": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Nostalgic</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Nostalgic</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Nostalgic')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Nostalgic은 <strong>'과거의 따뜻한 기억을 떠올리며 느끼는 감정'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Nostalgic의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Nostalgic</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Nostalgic</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Nostalgic')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"따뜻하고 애틋한 과거 회상"</div>
         <p>입니다. (과거의 기억을 떠올리며 현재의 감정에 영향을 미치는 느낌)</p>
     </div>
@@ -7409,7 +7409,7 @@ Reconsider
     <h2 class="insight-h2">① 과거에 대한 그리움과 따뜻함 Nostalgic for the Past</h2>
     <p class="insight-p">과거의 좋은 시절을 그리워하며 따뜻한 감정을 느끼는 상태입니다.</p>
     <div class="example-group">
-        <div class="ex-en">Listening to that song makes me feel so nostalgic.</div>
+        <div class="ex-en">Listening to that song makes me feel so nostalgic. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Listening to that song makes me feel so nostalgic.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그 노래를 들으면 정말 향수를 느껴. (과거의 좋은 기억이 떠오르며 따뜻한 감정이 듦)</div>
         <div class="ex-en" style="margin-top:12px;">She felt nostalgic about her childhood summers.</div>
         <div class="ex-ko">그녀는 어린 시절의 여름을 그리워했다. (과거의 추억을 떠올리며 그리운 감정이 듦)</div>
@@ -7418,7 +7418,7 @@ Reconsider
     <h2 class="insight-h2">② 시간이 지나도 잊을 수 없는 순간 Timeless Moments</h2>
     <p class="insight-p">특별한 순간들이 시간이 지나도 여전히 마음속에 남아 있는 상태입니다.</p>
     <div class="example-group">
-        <div class="ex-en">He often gets nostalgic about his college days.</div>
+        <div class="ex-en">He often gets nostalgic about his college days. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('He often gets nostalgic about his college days.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그는 종종 대학 시절을 그리워한다. (시간이 지나도 잊을 수 없는 순간들이 기억에 남아 있음)</div>
         <div class="ex-en" style="margin-top:12px;">The smell of fresh bread makes me nostalgic for my grandma's kitchen.</div>
         <div class="ex-ko">신선한 빵 냄새는 할머니의 부엌을 그리워하게 만든다. (특별한 순간들이 여전히 생생하게 기억됨)</div>
@@ -7427,7 +7427,7 @@ Reconsider
     <h2 class="insight-h2">③ 단순한 회상이 아닌 감정의 여운 Emotional Resonance</h2>
     <p class="insight-p">기억이 단순한 회상을 넘어서 감정적으로 깊은 여운을 남기는 상태입니다.</p>
     <div class="example-group">
-        <div class="ex-en">Watching old movies makes me feel nostalgic.</div>
+        <div class="ex-en">Watching old movies makes me feel nostalgic. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Watching old movies makes me feel nostalgic.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">옛날 영화를 보면 향수를 느낀다. (과거의 감정이 다시 떠오르며 감정적으로 여운이 남음)</div>
         <div class="ex-en" style="margin-top:12px;">The old photographs brought a wave of nostalgia over him.</div>
         <div class="ex-ko">오래된 사진들이 그에게 향수의 물결을 가져왔다. (단순한 기억이 아닌 감정적으로 깊은 여운을 남김)</div>
@@ -7437,13 +7437,13 @@ Reconsider
     "Sentimental": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Sentimental</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Sentimental</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Sentimental')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Sentimental은 <strong>'감정적으로 연결된 추억이나 생각에 쉽게 영향을 받는 상태'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Sentimental의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Sentimental</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Sentimental</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Sentimental')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"감정이 풍부하고 쉽게 움직이는 상태"</div>
         <p>입니다. 감정의 깊이가 혼합된 복합적인 감정 상태를 나타냅니다.</p>
     </div>
@@ -7462,7 +7462,7 @@ Reconsider
     <h2 class="insight-h2">① 감정적으로 민감한 상태 Emotional Sensitivity</h2>
     <p class="insight-p">Sentimental은 쉽게 감정이 움직이는 상태를 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">"She gets sentimental every time she listens to that song."</div>
+        <div class="ex-en">"She gets sentimental every time she listens to that song." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;She gets sentimental every time she listens to that song.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"그녀는 그 노래를 들을 때마다 감정적으로 흔들린다." (특정 노래가 감정적으로 큰 영향을 줌)</div>
         <div class="ex-en" style="margin-top:12px;">"He's sentimental about his childhood home."</div>
         <div class="ex-ko">"그는 어린 시절 집에 대해 감정적으로 민감하다." (추억이 감정을 자극함)</div>
@@ -7471,7 +7471,7 @@ Reconsider
     <h2 class="insight-h2">② 과거에 대한 향수 Nostalgia for the Past</h2>
     <p class="insight-p">과거의 추억을 떠올리며 감정에 젖는 상태를 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">"I felt sentimental as I walked through my old neighborhood."</div>
+        <div class="ex-en">"I felt sentimental as I walked through my old neighborhood." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;I felt sentimental as I walked through my old neighborhood.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"오래된 동네를 걸을 때 감상에 젖었다." (과거의 기억이 감정을 자극함)</div>
         <div class="ex-en" style="margin-top:12px;">"Looking at old photos makes me sentimental."</div>
         <div class="ex-ko">"옛 사진을 보면 감상에 젖는다." (추억이 감정을 불러일으킴)</div>
@@ -7480,7 +7480,7 @@ Reconsider
     <h2 class="insight-h2">③ 감정의 과잉 표현 Overexpression of Emotions</h2>
     <p class="insight-p">감정을 과도하게 드러내는 상태를 설명합니다.</p>
     <div class="example-group">
-        <div class="ex-en">"He gets overly sentimental during movies."</div>
+        <div class="ex-en">"He gets overly sentimental during movies." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;He gets overly sentimental during movies.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"그는 영화 보면서 지나치게 감정적으로 된다." (영화가 감정 과잉을 유발)</div>
         <div class="ex-en" style="margin-top:12px;">"Don't mind her, she's just being sentimental."</div>
         <div class="ex-ko">"신경 쓰지 마, 그녀는 그냥 감정적으로 행동하는 거야." (감정 과잉으로 행동 함)</div>
@@ -7490,13 +7490,13 @@ Reconsider
     "Homesick": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Homesick</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Homesick</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Homesick')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Homesick은 <strong>'고향에 대한 그리움과 향수병'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Homesick의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Homesick</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Homesick</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Homesick')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"고향을 그리워하는 마음의 상태"</div>
         <p>입니다. (특히 집이나 가족의 부재로 인해 느끼는 감정입니다.)</p>
     </div>
@@ -7515,7 +7515,7 @@ Reconsider
     <h2 class="insight-h2">① 그리움의 감정 - Feeling of Longing</h2>
     <p class="insight-p">고향이나 가족을 그리워하며 느끼는 감정입니다.</p>
     <div class="example-group">
-        <div class="ex-en">"I've been feeling really homesick since I moved here."</div>
+        <div class="ex-en">"I've been feeling really homesick since I moved here." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;I\'ve been feeling really homesick since I moved here.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"여기로 이사 온 이후로 정말 향수병이 심해요." (고향을 그리워하는 감정의 표현)</div>
         <div class="ex-en" style="margin-top:12px;">"Whenever I hear that song, I get homesick."</div>
         <div class="ex-ko">"그 노래를 들을 때마다, 고향이 그리워져요." (노래가 추억을 불러일으키며 향수병을 유발)</div>
@@ -7524,7 +7524,7 @@ Reconsider
     <h2 class="insight-h2">② 집의 부재 - Absence of Home</h2>
     <p class="insight-p">집의 부재로 인해 느끼는 정서적 불편함입니다.</p>
     <div class="example-group">
-        <div class="ex-en">"Being away from home for so long has made me homesick."</div>
+        <div class="ex-en">"Being away from home for so long has made me homesick." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;Being away from home for so long has made me homesick.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"오랫동안 집을 떠나 있어서 향수병이 생겼어요." (장기간 집을 떠나 있어 발생하는 그리움)</div>
         <div class="ex-en" style="margin-top:12px;">"The holidays always make me feel a bit homesick."</div>
         <div class="ex-ko">"휴일이 되면 항상 약간의 향수병을 느껴요." (특별한 날에 더욱 커지는 고향에 대한 그리움)</div>
@@ -7533,7 +7533,7 @@ Reconsider
     <h2 class="insight-h2">③ 시간과 거리 - Time and Distance</h2>
     <p class="insight-p">시간과 거리가 그리움을 더 깊게 만들 수 있습니다.</p>
     <div class="example-group">
-        <div class="ex-en">"The distance from home is making me more homesick every day."</div>
+        <div class="ex-en">"The distance from home is making me more homesick every day." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;The distance from home is making me more homesick every day.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"고향과의 거리가 매일 더 큰 향수병을 만들고 있어요." (거리로 인해 심화되는 감정)</div>
         <div class="ex-en" style="margin-top:12px;">"After a year abroad, I'm still homesick."</div>
         <div class="ex-ko">"해외에서 1년이 지났지만, 여전히 집이 그리워요." (오랜 시간에도 불구하고 지속되는 그리움)</div>
@@ -7543,13 +7543,13 @@ Reconsider
     "Determined": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Determined</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Determined</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Determined')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Determined은 <strong>'결코 포기하지 않는 강한 의지'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Determined의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Determined</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Determined</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Determined')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"강한 의지로 목표를 향해 전진하는 상태"</div>
         <p>입니다. 어떤 어려움이 있어도 포기하지 않는 모습입니다.</p>
     </div>
@@ -7568,7 +7568,7 @@ Reconsider
     <h2 class="insight-h2">① 결단력/의지력 (Resolve/Willpower)</h2>
     <p class="insight-p">어떤 목표를 달성하기 위해 강력한 결심을 하고 있는 상태를 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">She was determined to finish the marathon.</div>
+        <div class="ex-en">She was determined to finish the marathon. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('She was determined to finish the marathon.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀는 마라톤을 완주하겠다는 결심을 했다. (어떤 어려움에도 굴하지 않는 결단력)</div>
         <div class="ex-en" style="margin-top:12px;">He looked determined as he entered the exam hall.</div>
         <div class="ex-ko">그는 시험장에 들어가면서 결연한 표정을 지었다. (시험을 잘 보려는 확고한 의지)</div>
@@ -7577,7 +7577,7 @@ Reconsider
     <h2 class="insight-h2">② 결의에 찬 태도 (Steadfast Attitude)</h2>
     <p class="insight-p">목표를 이루기 위해 흔들리지 않는 태도를 보여주는 상황입니다.</p>
     <div class="example-group">
-        <div class="ex-en">Despite the challenges, they remained determined to succeed.</div>
+        <div class="ex-en">Despite the challenges, they remained determined to succeed. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Despite the challenges, they remained determined to succeed.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">어려움에도 불구하고, 그들은 성공하기로 결의했다. (어떤 상황에도 흔들리지 않는 태도)</div>
         <div class="ex-en" style="margin-top:12px;">Her determined expression told me she wouldn't give up.</div>
         <div class="ex-ko">그녀의 결의에 찬 표정은 포기하지 않겠다는 것을 보여줬다. (포기하지 않겠다는 강한 태도)</div>
@@ -7586,7 +7586,7 @@ Reconsider
     <h2 class="insight-h2">③ 목표 지향적 (Goal-Oriented)</h2>
     <p class="insight-p">명확한 목표를 설정하고 이를 달성하려는 의지를 갖고 있는 상태입니다.</p>
     <div class="example-group">
-        <div class="ex-en">He is determined to become a doctor, no matter how long it takes.</div>
+        <div class="ex-en">He is determined to become a doctor, no matter how long it takes. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('He is determined to become a doctor, no matter how long it takes.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그는 의사가 되기로 결심했으며, 시간이 얼마나 걸리든 상관없다. (구체적인 목표를 향한 의지)</div>
         <div class="ex-en" style="margin-top:12px;">Their determined efforts finally paid off.</div>
         <div class="ex-ko">그들의 목표 지향적인 노력이 마침내 결실을 맺었다. (목표를 이루기 위한 지속적인 노력)</div>
@@ -7596,13 +7596,13 @@ Reconsider
     "Focused": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Focused</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Focused</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Focused')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Focused은 <strong>'집중력 있게 하나에 몰두함'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Focused의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Focused</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Focused</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Focused')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"한 점에 모든 주의를 기울이는 상태"</div>
         <p>입니다. (이 단어는 주의 집중의 강한 상태를 나타냅니다.)</p>
     </div>
@@ -7620,7 +7620,7 @@ Reconsider
     <h2 class="insight-h2">① 집중된 노력 + Focused Effort</h2>
     <p class="insight-p">어떤 목표나 과제에 모든 주의와 에너지를 쏟고 있는 상태를 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">She is focused on finishing her thesis by the end of the month.</div>
+        <div class="ex-en">She is focused on finishing her thesis by the end of the month. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('She is focused on finishing her thesis by the end of the month.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀는 이달 말까지 논문을 끝내는 데 집중하고 있습니다. (하나의 목표를 위해 전념하고 있는 상태)</div>
         <div class="ex-en" style="margin-top:12px;">The team remained focused despite the challenges.</div>
         <div class="ex-ko">팀은 어려움에도 불구하고 집중력을 유지했습니다. (어려움을 이겨내며 한 목표에 집중)</div>
@@ -7629,7 +7629,7 @@ Reconsider
     <h2 class="insight-h2">② 명확한 목표 집중 + Clear Objective Focus</h2>
     <p class="insight-p">명확한 목표를 향해 집중하는 상태를 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">He stayed focused on his career goals.</div>
+        <div class="ex-en">He stayed focused on his career goals. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('He stayed focused on his career goals.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그는 자신의 커리어 목표에 집중했습니다. (명확한 목표를 가지고 집중)</div>
         <div class="ex-en" style="margin-top:12px;">With a focused mind, she tackled the project.</div>
         <div class="ex-ko">집중된 마음으로 그녀는 프로젝트에 착수했습니다. (명확한 계획으로 집중해서 시작)</div>
@@ -7638,7 +7638,7 @@ Reconsider
     <h2 class="insight-h2">③ 방해 없이 몰입 + Undistracted Immersion</h2>
     <p class="insight-p">외부 방해 없이 어떤 일에 몰입하는 상태를 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">He was so focused that he didn't notice the time passing.</div>
+        <div class="ex-en">He was so focused that he didn't notice the time passing. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('He was so focused that he didn\'t notice the time passing.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그는 너무 집중해서 시간이 지나가는 줄 몰랐습니다. (외부 방해 없이 완전한 몰입)</div>
         <div class="ex-en" style="margin-top:12px;">She found herself focused entirely on the task at hand.</div>
         <div class="ex-ko">그녀는 자신이 맡은 일에 완전히 몰입되어 있는 것을 발견했습니다. (다른 것에 주의가 뺏기지 않은 상태)</div>
@@ -7648,13 +7648,13 @@ Reconsider
     "Driven": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Driven</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Driven</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Driven')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Driven은 <strong>'끈질기고 목표 지향적인 노력'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Driven의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Driven</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Driven</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Driven')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"멈추지 않고 앞으로 나아가는 힘"</div>
         <p>입니다. 이는 목표를 향한 지속적인 추진력을 보여줍니다.</p>
     </div>
@@ -7672,7 +7672,7 @@ Reconsider
     <h2 class="insight-h2">① 목표 지향적인 태도 (Goal-oriented Attitude)</h2>
     <p class="insight-p">목표를 달성하기 위해 끊임없이 노력하는 태도를 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">She is driven to succeed in her career.</div>
+        <div class="ex-en">She is driven to succeed in her career. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('She is driven to succeed in her career.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀는 자신의 경력에서 성공하기 위해 열심히 노력합니다. (자신의 목표를 향한 강한 의지가 느껴짐)</div>
         <div class="ex-en" style="margin-top:12px;">His driven nature led him to start his own business.</div>
         <div class="ex-ko">그의 목표 지향적인 성격이 그를 자신의 사업을 시작하게 했습니다. (목표를 향한 추진력이 강조됨)</div>
@@ -7681,7 +7681,7 @@ Reconsider
     <h2 class="insight-h2">② 내적인 동기 (Inner Motivation)</h2>
     <p class="insight-p">내부에서 우러나오는 강한 동기를 묘사합니다.</p>
     <div class="example-group">
-        <div class="ex-en">Despite the challenges, he is driven by a desire to help others.</div>
+        <div class="ex-en">Despite the challenges, he is driven by a desire to help others. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Despite the challenges, he is driven by a desire to help others.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">어려움에도 불구하고, 그는 다른 사람들을 돕고자 하는 욕구에 의해 움직입니다. (내적인 동기가 주된 원동력임)</div>
         <div class="ex-en" style="margin-top:12px;">She is driven to improve herself every day.</div>
         <div class="ex-ko">그녀는 매일 자신을 발전시키려는 동기로 가득 차 있습니다. (자신의 성장에 대한 내부의 강한 의지)</div>
@@ -7690,7 +7690,7 @@ Reconsider
     <h2 class="insight-h2">③ 외부의 압박과 자극 (External Pressure and Stimuli)</h2>
     <p class="insight-p">외부로부터의 압박이나 자극으로 인해 행동하게 되는 상황을 설명합니다.</p>
     <div class="example-group">
-        <div class="ex-en">He was driven to finish the project by the tight deadline.</div>
+        <div class="ex-en">He was driven to finish the project by the tight deadline. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('He was driven to finish the project by the tight deadline.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그는 촉박한 마감일로 인해 프로젝트를 끝내야 했습니다. (외부의 압박이 주요 동기로 작용)</div>
         <div class="ex-en" style="margin-top:12px;">The competition drove her to work harder.</div>
         <div class="ex-ko">경쟁이 그녀를 더 열심히 일하게 만들었습니다. (외부의 자극이 행동을 촉발함)</div>
@@ -7700,13 +7700,13 @@ Reconsider
     "beyond": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>beyond</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>beyond</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('beyond')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 beyond은 <strong>'넘어서 확장된 관점'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">beyond의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>beyond</strong>의 핵심은</p>
+        <p>원어민에게 <strong>beyond</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('beyond')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"한계를 초월하는 것"</div>
         <p>입니다. (즉, 현재 상태를 넘어 더 많은 것을 포함합니다.)</p>
     </div>
@@ -7727,7 +7727,7 @@ Beyond (무엇을 넘어서)
     <h2 class="insight-h2">① 초월적 의미 + Transcendental Meaning</h2>
     <p class="insight-p">무언가의 경계를 넘어 더 높은 차원이나 상태를 암시합니다.</p>
     <div class="example-group">
-        <div class="ex-en">Her talent goes beyond the ordinary.</div>
+        <div class="ex-en">Her talent goes beyond the ordinary. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Her talent goes beyond the ordinary.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀의 재능은 평범함을 넘어섭니다. (그녀의 재능이 아주 특별하다는 의미)</div>
         <div class="ex-en" style="margin-top:12px;">The beauty of the landscape is beyond description.</div>
         <div class="ex-ko">경치의 아름다움은 형언할 수 없습니다. (말로 표현할 수 없을 정도로 아름답다는 뜻)</div>
@@ -7736,7 +7736,7 @@ Beyond (무엇을 넘어서)
     <h2 class="insight-h2">② 한계를 넘어서 + Beyond Limits</h2>
     <p class="insight-p">일반적인 범위를 넘어서 더 많은 것을 포함하거나 초월합니다.</p>
     <div class="example-group">
-        <div class="ex-en">The project went beyond our initial expectations.</div>
+        <div class="ex-en">The project went beyond our initial expectations. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The project went beyond our initial expectations.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그 프로젝트는 우리의 초기 기대를 넘었습니다. (예상보다 더 잘 되었다는 의미)</div>
         <div class="ex-en" style="margin-top:12px;">His generosity is beyond compare.</div>
         <div class="ex-ko">그의 관대함은 비교할 수 없습니다. (매우 관대하다는 의미)</div>
@@ -7745,7 +7745,7 @@ Beyond (무엇을 넘어서)
     <h2 class="insight-h2">③ 시간과 공간을 넘어 + Beyond Time and Space</h2>
     <p class="insight-p">물리적, 시간적 한계를 넘어선 개념을 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">The legend of King Arthur extends beyond time.</div>
+        <div class="ex-en">The legend of King Arthur extends beyond time. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The legend of King Arthur extends beyond time.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">아서 왕의 전설은 시간을 초월합니다. (시대를 넘어 여전히 영향력이 있다는 의미)</div>
         <div class="ex-en" style="margin-top:12px;">Their friendship remains strong beyond years and distance.</div>
         <div class="ex-ko">그들의 우정은 세월과 거리를 넘어 여전히 굳건합니다. (시간과 거리에도 불구하고 변함없다는 뜻)</div>
@@ -7755,13 +7755,13 @@ Beyond (무엇을 넘어서)
     "under": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>under</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>under</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('under')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 under은 <strong>'아래에 위치하거나 영향을 받는 상태'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">under의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>under</strong>의 핵심은</p>
+        <p>원어민에게 <strong>under</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('under')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"아래에 있는 상태 또는 보호/영향을 받는 상태"</div>
         <p>입니다. 이것은 물리적인 위치뿐만 아니라, 감정적 또는 상황적 의미를 포함합니다.</p>
     </div>
@@ -7781,7 +7781,7 @@ Beyond (무엇을 넘어서)
     <h2 class="insight-h2">① 위치적 의미 (Physical Location)</h2>
     <p class="insight-p">어떤 물체가 다른 물체의 아래에 있을 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">The cat is under the table.</div>
+        <div class="ex-en">The cat is under the table. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The cat is under the table.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">고양이가 테이블 아래에 있다. (고양이가 물리적으로 테이블 아래에 위치해 있는 상태)</div>
         <div class="ex-en" style="margin-top:12px;">The book fell under the couch.</div>
         <div class="ex-ko">책이 소파 아래로 떨어졌다. (책이 물리적으로 소파 아래에 위치하게 된 상태)</div>
@@ -7790,7 +7790,7 @@ Beyond (무엇을 넘어서)
     <h2 class="insight-h2">② 보호 또는 영향 (Protection or Influence)</h2>
     <p class="insight-p">어떤 사람이 보호받거나 영향을 받을 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">The child is under his mother's care.</div>
+        <div class="ex-en">The child is under his mother's care. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The child is under his mother\'s care.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">아이가 엄마의 보호 아래 있다. (엄마의 보호를 받고 있는 상태)</div>
         <div class="ex-en" style="margin-top:12px;">The country is under foreign rule.</div>
         <div class="ex-ko">그 나라는 외국의 지배를 받고 있다. (외국의 영향 아래에 있는 상태)</div>
@@ -7799,7 +7799,7 @@ Beyond (무엇을 넘어서)
     <h2 class="insight-h2">③ 기준 이하 (Below a Standard)</h2>
     <p class="insight-p">어떤 것이 기준이나 수치 이하일 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">His performance was under expectations.</div>
+        <div class="ex-en">His performance was under expectations. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('His performance was under expectations.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그의 성과는 기대 이하였다. (기대 기준에 미치지 못하는 상태)</div>
         <div class="ex-en" style="margin-top:12px;">The temperature is under zero degrees.</div>
         <div class="ex-ko">온도가 영하로 떨어졌다. (온도가 기준인 0도 이하인 상태)</div>
@@ -7809,13 +7809,13 @@ Beyond (무엇을 넘어서)
     "against": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>against</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>against</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('against')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 against은 <strong>'대립하거나 반대하는 상황에서의 긴장감'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">against의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>against</strong>의 핵심은</p>
+        <p>원어민에게 <strong>against</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('against')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"저항감 또는 대조적 위치"</div>
         <p>입니다. 이를 통해 대립이나 반대 관계를 표현합니다.</p>
     </div>
@@ -7833,7 +7833,7 @@ Beyond (무엇을 넘어서)
     <h2 class="insight-h2">① 대립 관계 (Opposition)</h2>
     <p class="insight-p">두 대상이 서로 반대되거나 충돌하는 상황을 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">The team played against their rivals.</div>
+        <div class="ex-en">The team played against their rivals. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The team played against their rivals.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그 팀은 라이벌 팀과 맞붙었다. (경쟁하는 두 팀이 대립하고 있음)</div>
         <div class="ex-en" style="margin-top:12px;">He stood against the new policy.</div>
         <div class="ex-ko">그는 새로운 정책에 반대했다. (정책에 대한 반대 입장)</div>
@@ -7842,7 +7842,7 @@ Beyond (무엇을 넘어서)
     <h2 class="insight-h2">② 배경 또는 대비 (Contrast or Background)</h2>
     <p class="insight-p">하나의 대상이 다른 것과 대비되어 배경으로 사용될 때 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">The painting looks beautiful against the white wall.</div>
+        <div class="ex-en">The painting looks beautiful against the white wall. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The painting looks beautiful against the white wall.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그 그림은 흰 벽을 배경으로 아름답게 보인다. (흰 벽과의 대비)</div>
         <div class="ex-en" style="margin-top:12px;">Her dress stood out against the crowd.</div>
         <div class="ex-ko">그녀의 드레스는 군중 속에서 돋보였다. (군중과의 대조)</div>
@@ -7851,7 +7851,7 @@ Beyond (무엇을 넘어서)
     <h2 class="insight-h2">③ 물리적 접촉 또는 저항 (Physical Contact or Resistance)</h2>
     <p class="insight-p">물리적 접촉이나 힘의 저항을 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">He leaned against the wall.</div>
+        <div class="ex-en">He leaned against the wall. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('He leaned against the wall.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그는 벽에 기대었다. (벽에 물리적으로 기대어 있음)</div>
         <div class="ex-en" style="margin-top:12px;">The boat struggled against the current.</div>
         <div class="ex-ko">그 배는 물살에 저항하며 나아갔다. (물살에 대한 물리적 저항)</div>
@@ -7861,13 +7861,13 @@ Beyond (무엇을 넘어서)
     "over": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>over</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>over</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('over')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 over은 <strong>'위치나 상태의 변화를 나타내는 것'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">over의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>over</strong>의 핵심은</p>
+        <p>원어민에게 <strong>over</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('over')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"넘어서거나 위에 있는 상태"</div>
         <p>입니다. (어떤 것을 초월하거나 넘는다는 의미를 함축합니다.)</p>
     </div>
@@ -7888,7 +7888,7 @@ Beyond (무엇을 넘어서)
     <h2 class="insight-h2">① (위치적 의미의 over + English)</h2>
     <p class="insight-p">무언가의 위에 있는 상태를 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">The lamp hangs over the table.</div>
+        <div class="ex-en">The lamp hangs over the table. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The lamp hangs over the table.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">램프가 테이블 위에 매달려 있다. (램프가 테이블의 위쪽에 위치함을 나타냄)</div>
         <div class="ex-en" style="margin-top:12px;">The cat jumped over the fence.</div>
         <div class="ex-ko">고양이가 울타리를 넘었다. (고양이가 울타리를 초월하는 움직임을 나타냄)</div>
@@ -7897,7 +7897,7 @@ Beyond (무엇을 넘어서)
     <h2 class="insight-h2">② (시간적 의미의 over + English)</h2>
     <p class="insight-p">시간의 경과를 나타내는 데 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Over the years, he became more confident.</div>
+        <div class="ex-en">Over the years, he became more confident. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Over the years, he became more confident.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">세월이 흐르면서 그는 더 자신감이 생겼다. (시간이 경과하면서 변화를 나타냄)</div>
         <div class="ex-en" style="margin-top:12px;">We discussed the project over lunch.</div>
         <div class="ex-ko">우리는 점심시간 동안 프로젝트에 대해 논의했다. (특정 시간 동안의 활동을 나타냄)</div>
@@ -7906,7 +7906,7 @@ Beyond (무엇을 넘어서)
     <h2 class="insight-h2">③ (비교적 의미의 over + English)</h2>
     <p class="insight-p">어떤 것보다 더 우월하거나 뛰어남을 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">She chose the red dress over the blue one.</div>
+        <div class="ex-en">She chose the red dress over the blue one. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('She chose the red dress over the blue one.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀는 파란 드레스보다 빨간 드레스를 선택했다. (빨간 드레스가 더 매력적임을 나타냄)</div>
         <div class="ex-en" style="margin-top:12px;">He values quality over quantity.</div>
         <div class="ex-ko">그는 양보다 질을 중시한다. (질이 양보다 더 중요함을 나타냄)</div>
@@ -7916,13 +7916,13 @@ Beyond (무엇을 넘어서)
     "through": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>through</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>through</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('through')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 through은 <strong>'무언가를 거쳐 통과하는 과정과 그 결과'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">through의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>through</strong>의 핵심은</p>
+        <p>원어민에게 <strong>through</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('through')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"중간의 장애물이나 경로를 거쳐 나아가는 것"</div>
         <p>입니다. 이 표현은 종종 물리적, 비유적 이동을 나타냅니다.</p>
     </div>
@@ -7939,7 +7939,7 @@ Beyond (무엇을 넘어서)
     <h2 class="insight-h2">① 물리적 통과 Physical Passage</h2>
     <p class="insight-p">어떤 물리적 공간이나 장소를 지나가는 것을 표현합니다.</p>
     <div class="example-group">
-        <div class="ex-en">We walked through the forest.</div>
+        <div class="ex-en">We walked through the forest. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('We walked through the forest.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">우리는 숲을 걸어 통과했다. (숲이라는 물리적 공간을 지나감)</div>
         <div class="ex-en" style="margin-top:12px;">The tunnel goes through the mountain.</div>
         <div class="ex-ko">터널은 산을 관통한다. (산을 물리적으로 통과하는 경로)</div>
@@ -7948,7 +7948,7 @@ Beyond (무엇을 넘어서)
     <h2 class="insight-h2">② 시간의 경과 Passage of Time</h2>
     <p class="insight-p">시간의 흐름을 통해 무언가가 변화하거나 진행되는 것을 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">She has matured through the years.</div>
+        <div class="ex-en">She has matured through the years. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('She has matured through the years.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀는 세월을 지나며 성숙해졌다. (시간의 흐름을 통해 발전)</div>
         <div class="ex-en" style="margin-top:12px;">The project evolved through several phases.</div>
         <div class="ex-ko">프로젝트는 여러 단계를 거치며 발전했다. (시간에 따른 단계적 변화)</div>
@@ -7957,7 +7957,7 @@ Beyond (무엇을 넘어서)
     <h2 class="insight-h2">③ 매개를 통한 성취 Achievement Through Means</h2>
     <p class="insight-p">어떤 수단이나 방법을 통해 목표를 달성하는 것을 의미합니다.</p>
     <div class="example-group">
-        <div class="ex-en">He succeeded through hard work.</div>
+        <div class="ex-en">He succeeded through hard work. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('He succeeded through hard work.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그는 열심히 일한 덕분에 성공했다. (노력을 통한 성취)</div>
         <div class="ex-en" style="margin-top:12px;">She learned French through practice.</div>
         <div class="ex-ko">그녀는 연습을 통해 프랑스어를 배웠다. (연습이라는 수단을 통한 학습)</div>
@@ -7967,13 +7967,13 @@ Beyond (무엇을 넘어서)
     "around": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>around</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>around</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('around')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 around은 <strong>'주변에 있는 것과의 연관성'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">around의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>around</strong>의 핵심은</p>
+        <p>원어민에게 <strong>around</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('around')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"주변을 돌아다니며 관련된 것들"</div>
         <p>입니다. 이 표현은 주변에 있는 것들과의 관계를 강조합니다.</p>
     </div>
@@ -7993,7 +7993,7 @@ O   O   O
     <h2 class="insight-h2">① 주변에 있는 (Surroundings)</h2>
     <p class="insight-p">어떤 장소나 환경을 둘러싼 것들을 의미합니다.</p>
     <div class="example-group">
-        <div class="ex-en">There are many trees around the house.</div>
+        <div class="ex-en">There are many trees around the house. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('There are many trees around the house.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">집 주변에 많은 나무가 있습니다. (집을 둘러싼 환경을 강조)</div>
         <div class="ex-en" style="margin-top:12px;">She looked around the room.</div>
         <div class="ex-ko">그녀는 방을 둘러보았습니다. (방의 모든 것을 살펴보는 것을 의미)</div>
@@ -8002,7 +8002,7 @@ O   O   O
     <h2 class="insight-h2">② 대략적인 (Approximation)</h2>
     <p class="insight-p">정확하지 않은 수치나 시간을 나타낼 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">The project will take around two weeks to complete.</div>
+        <div class="ex-en">The project will take around two weeks to complete. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The project will take around two weeks to complete.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">프로젝트는 완료하는 데 대략 2주가 걸릴 것입니다. (정확한 시간보다 대략적인 것을 강조)</div>
         <div class="ex-en" style="margin-top:12px;">There were around 50 people at the event.</div>
         <div class="ex-ko">행사에는 대략 50명이 있었습니다. (정확한 숫자보다 대략적인 수를 나타냄)</div>
@@ -8011,7 +8011,7 @@ O   O   O
     <h2 class="insight-h2">③ 돌아다니며 (Moving About)</h2>
     <p class="insight-p">특정 장소나 주위를 이동하는 것을 표현합니다.</p>
     <div class="example-group">
-        <div class="ex-en">He wandered around the city all day.</div>
+        <div class="ex-en">He wandered around the city all day. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('He wandered around the city all day.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그는 온종일 도시를 돌아다녔습니다. (특정 목적 없이 여기저기 이동하는 것을 의미)</div>
         <div class="ex-en" style="margin-top:12px;">The dog runs around the yard.</div>
         <div class="ex-ko">개가 마당을 돌아다닙니다. (마당 이곳저곳을 이동하는 것을 의미)</div>
@@ -8021,13 +8021,13 @@ O   O   O
     "Over": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Over</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Over</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Over')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Over은 <strong>'위에서 아우르는 감각'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Over의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Over</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Over</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Over')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"위에서 덮는 듯한 느낌"</div>
         <p>입니다. 이 표현은 위치나 상태의 우위를 나타낼 때 자주 사용됩니다.</p>
     </div>
@@ -8048,7 +8048,7 @@ O   O   O
     <h2 class="insight-h2">① 위로 지나감: Above and Beyond</h2>
     <p class="insight-p">Over는 물리적으로 위를 지나가는 상황을 설명할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">The plane flew over the mountains.</div>
+        <div class="ex-en">The plane flew over the mountains. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The plane flew over the mountains.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">비행기가 산 위로 날아갔다. (비행기가 산의 위를 지나갔다는 의미)</div>
         <div class="ex-en" style="margin-top:12px;">The cat jumped over the fence.</div>
         <div class="ex-ko">고양이가 울타리를 뛰어넘었다. (고양이가 울타리의 위를 넘었다는 의미)</div>
@@ -8057,7 +8057,7 @@ O   O   O
     <h2 class="insight-h2">② 종료와 완성: Ending</h2>
     <p class="insight-p">Over는 어떤 일이 끝나거나 완료되었음을 나타낼 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">The meeting is over.</div>
+        <div class="ex-en">The meeting is over. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The meeting is over.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">회의가 끝났다. (회의가 완료되었음을 나타냄)</div>
         <div class="ex-en" style="margin-top:12px;">The game is over now.</div>
         <div class="ex-ko">게임이 이제 끝났다. (게임이 종료되었음을 나타냄)</div>
@@ -8066,7 +8066,7 @@ O   O   O
     <h2 class="insight-h2">③ 우세와 통제: Dominance</h2>
     <p class="insight-p">Over는 통제하거나 우위를 점하는 상황을 설명할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">She has control over the project.</div>
+        <div class="ex-en">She has control over the project. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('She has control over the project.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀는 프로젝트에 대한 통제권을 가지고 있다. (프로젝트에 대한 우위를 가지고 있음을 나타냄)</div>
         <div class="ex-en" style="margin-top:12px;">He triumphed over his rivals.</div>
         <div class="ex-ko">그는 경쟁자들에게 승리했다. (경쟁자들에 대한 우위를 점했음을 나타냄)</div>
@@ -8076,13 +8076,13 @@ O   O   O
     "Through": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Through</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Through</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Through')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Through은 <strong>'경험의 이동과 통과를 나타내는 것'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Through의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Through</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Through</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Through')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"경로를 거쳐 나아가는 것"</div>
         <p>입니다. 이 표현은 무언가를 지나가는 과정을 강조합니다.</p>
     </div>
@@ -8098,7 +8098,7 @@ O   O   O
     <h2 class="insight-h2">① 경로의 이동 Pathway + English</h2>
     <p class="insight-p">Through는 물리적 경로를 이동할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">We walked through the forest.</div>
+        <div class="ex-en">We walked through the forest. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('We walked through the forest.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">우리는 숲을 걸어 통과했다. (숲이라는 경로를 지나갔음을 강조)</div>
         <div class="ex-en" style="margin-top:12px;">The train passed through the tunnel.</div>
         <div class="ex-ko">기차는 터널을 통과했다. (터널을 경유하는 과정을 나타냄)</div>
@@ -8107,7 +8107,7 @@ O   O   O
     <h2 class="insight-h2">② 시간의 흐름 Passage of Time + English</h2>
     <p class="insight-p">Through는 시간의 흐름이나 과정을 나타낼 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">He worked through the night.</div>
+        <div class="ex-en">He worked through the night. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('He worked through the night.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그는 밤새 일했다. (밤이라는 시간적 경로를 경험했다는 의미)</div>
         <div class="ex-en" style="margin-top:12px;">She studied through the summer.</div>
         <div class="ex-ko">그녀는 여름 내내 공부했다. (여름이라는 시간 동안 지속됨을 강조)</div>
@@ -8116,7 +8116,7 @@ O   O   O
     <h2 class="insight-h2">③ 매체나 방법의 사용 Medium or Means + English</h2>
     <p class="insight-p">Through는 매체나 방법을 통해 목표를 달성하는 것을 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">She found out the news through social media.</div>
+        <div class="ex-en">She found out the news through social media. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('She found out the news through social media.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀는 소셜 미디어를 통해 소식을 알게 되었다. (소셜 미디어라는 매개체 사용)</div>
         <div class="ex-en" style="margin-top:12px;">He succeeded through hard work.</div>
         <div class="ex-ko">그는 열심히 일한 덕분에 성공했다. (노동이라는 방법을 통해 목표 달성)</div>
@@ -8126,13 +8126,13 @@ O   O   O
     "Around": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Around</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Around</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Around')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Around은 <strong>'주변을 둘러싸고 있는 느낌'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Around의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Around</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Around</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Around')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"포위하거나 둘러싸고 있는 상태"</div>
         <p>입니다. 이는 사람이나 사물이 주위에 있는 상황을 묘사합니다.</p>
     </div>
@@ -8152,7 +8152,7 @@ O   O   O
     <h2 class="insight-h2">① 주변에 있는 상태 (Surrounding)</h2>
     <p class="insight-p">무엇인가 주변에 위치하거나 둘러싸고 있는 상태를 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">The children gathered around the teacher.</div>
+        <div class="ex-en">The children gathered around the teacher. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The children gathered around the teacher.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">아이들이 선생님 주위에 모였습니다. (선생님을 둘러싸고 있는 상태)</div>
         <div class="ex-en" style="margin-top:12px;">There are trees all around the house.</div>
         <div class="ex-ko">집 주위에 나무들이 있습니다. (집을 둘러싸고 있는 나무들)</div>
@@ -8161,7 +8161,7 @@ O   O   O
     <h2 class="insight-h2">② 대략적인 위치나 시간 (Approximate Location or Time)</h2>
     <p class="insight-p">정확하지 않지만 대략적인 위치나 시간을 표현할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Let's meet around 3 PM.</div>
+        <div class="ex-en">Let's meet around 3 PM. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Let\'s meet around 3 PM.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">오후 3시쯤에 만나자. (정확한 시간보다 대략적인 시간)</div>
         <div class="ex-en" style="margin-top:12px;">He lives somewhere around here.</div>
         <div class="ex-ko">그는 이 근처 어딘가에 삽니다. (정확한 위치가 아닌 대략적인 위치)</div>
@@ -8170,7 +8170,7 @@ O   O   O
     <h2 class="insight-h2">③ 여기저기 이동 (Moving Here and There)</h2>
     <p class="insight-p">여러 장소를 이동하거나 돌아다니는 상황을 표현합니다.</p>
     <div class="example-group">
-        <div class="ex-en">She walked around the park.</div>
+        <div class="ex-en">She walked around the park. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('She walked around the park.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀는 공원을 돌아다녔습니다. (공원 여기저기를 걸어 다님)</div>
         <div class="ex-en" style="margin-top:12px;">They traveled around Europe.</div>
         <div class="ex-ko">그들은 유럽 전역을 여행했습니다. (유럽 여러 곳을 돌아다님)</div>
@@ -8180,13 +8180,13 @@ O   O   O
     "on": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>on</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>on</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('on')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 on은 <strong>'연결과 접촉의 상태를 암시하는 뉘앙스'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">on의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>on</strong>의 핵심은</p>
+        <p>원어민에게 <strong>on</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('on')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"접촉과 지속적인 연결"</div>
         <p>입니다. on은 물리적, 시간적 연결을 나타낼 때 사용됩니다.</p>
     </div>
@@ -8205,7 +8205,7 @@ O   O   O
     <h2 class="insight-h2">① 물리적 접촉 Physical Contact</h2>
     <p class="insight-p">on은 두 물체가 물리적으로 접촉해 있는 상태를 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">The book is on the table.</div>
+        <div class="ex-en">The book is on the table. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The book is on the table.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">책이 탁자 위에 있다. (책이 탁자와 물리적으로 접촉해 있는 상태)</div>
         <div class="ex-en" style="margin-top:12px;">There is a stain on your shirt.</div>
         <div class="ex-ko">네 셔츠에 얼룩이 있다. (얼룩이 셔츠와 접촉해 있는 상태)</div>
@@ -8214,7 +8214,7 @@ O   O   O
     <h2 class="insight-h2">② 시간적 지속 Duration in Time</h2>
     <p class="insight-p">on은 시간의 지속성을 나타낼 때도 쓰입니다.</p>
     <div class="example-group">
-        <div class="ex-en">The meeting is on Monday.</div>
+        <div class="ex-en">The meeting is on Monday. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The meeting is on Monday.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">회의는 월요일에 있다. (월요일이라는 시간과의 연결)</div>
         <div class="ex-en" style="margin-top:12px;">I work on weekdays.</div>
         <div class="ex-ko">나는 주중에 일한다. (주중이라는 시간의 지속성)</div>
@@ -8223,7 +8223,7 @@ O   O   O
     <h2 class="insight-h2">③ 상태의 지속 Continuation of State</h2>
     <p class="insight-p">on은 특정 상태가 계속됨을 표현할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">The light is on.</div>
+        <div class="ex-en">The light is on. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The light is on.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">불이 켜져 있다. (불이 켜진 상태가 지속됨)</div>
         <div class="ex-en" style="margin-top:12px;">The radio is on.</div>
         <div class="ex-ko">라디오가 켜져 있다. (라디오가 작동 중인 상태)</div>
@@ -8233,13 +8233,13 @@ O   O   O
     "in": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>in</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>in</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('in')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 in은 <strong>'내부에 위치하거나 포함됨'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">in의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>in</strong>의 핵심은</p>
+        <p>원어민에게 <strong>in</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('in')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"내부 공간에 있는 상태"</div>
         <p>입니다. 이는 물리적 또는 추상적 공간을 포함합니다.</p>
     </div>
@@ -8258,7 +8258,7 @@ O   O   O
     <h2 class="insight-h2">① 포함됨 + Inclusion</h2>
     <p class="insight-p">어떤 것이 다른 것의 일부로 포함되어 있을 때 사용합니다.</p>
     <div class="example-group">
-        <div class="ex-en">She is in the team.</div>
+        <div class="ex-en">She is in the team. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('She is in the team.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀는 팀에 포함되어 있다. (팀의 일원으로 포함됨을 나타냄)</div>
         <div class="ex-en" style="margin-top:12px;">There are apples in the basket.</div>
         <div class="ex-ko">바구니 안에 사과가 있다. (바구니 내부에 사과가 있음)</div>
@@ -8267,7 +8267,7 @@ O   O   O
     <h2 class="insight-h2">② 상태 + State</h2>
     <p class="insight-p">어떤 상태나 조건에 있을 때 사용합니다.</p>
     <div class="example-group">
-        <div class="ex-en">He is in trouble.</div>
+        <div class="ex-en">He is in trouble. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('He is in trouble.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그는 곤경에 처해 있다. (곤경이라는 상태에 있음)</div>
         <div class="ex-en" style="margin-top:12px;">The house is in good condition.</div>
         <div class="ex-ko">그 집은 좋은 상태이다. (좋은 상태에 놓여 있음)</div>
@@ -8276,7 +8276,7 @@ O   O   O
     <h2 class="insight-h2">③ 시간 + Time</h2>
     <p class="insight-p">특정 시간 안에 일어나는 것을 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">The meeting is in an hour.</div>
+        <div class="ex-en">The meeting is in an hour. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The meeting is in an hour.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">회의는 한 시간 후에 있다. (한 시간 내에 시작됨)</div>
         <div class="ex-en" style="margin-top:12px;">I will finish in two days.</div>
         <div class="ex-ko">나는 이틀 안에 끝낼 것이다. (이틀 내에 완료됨)</div>
@@ -8286,13 +8286,13 @@ O   O   O
     "at": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>at</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>at</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('at')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 at은 <strong>'정확한 지점 또는 위치를 가리키는 핵심적인 표현'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">at의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>at</strong>의 핵심은</p>
+        <p>원어민에게 <strong>at</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('at')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"정확한 지점에 대한 집중"</div>
         <p>입니다. (특정 지점이나 순간을 가리킬 때 사용됩니다.)</p>
     </div>
@@ -8311,7 +8311,7 @@ O   O   O
     <h2 class="insight-h2">① 장소의 정확한 지점 (Exact Point in Place)</h2>
     <p class="insight-p">at은 장소의 특정한 지점을 가리킬 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">She is at the door.</div>
+        <div class="ex-en">She is at the door. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('She is at the door.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀는 문에 있다. (문이라는 특정한 지점을 가리킴)</div>
         <div class="ex-en" style="margin-top:12px;">He is waiting at the station.</div>
         <div class="ex-ko">그는 역에서 기다리고 있다. (역이라는 특정한 지점을 가리킴)</div>
@@ -8320,7 +8320,7 @@ O   O   O
     <h2 class="insight-h2">② 시간의 특정 순간 (Specific Moment in Time)</h2>
     <p class="insight-p">at은 특정한 시간을 가리킬 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">The meeting starts at 3 PM.</div>
+        <div class="ex-en">The meeting starts at 3 PM. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The meeting starts at 3 PM.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">회의는 오후 3시에 시작한다. (3시라는 특정한 시간을 가리킴)</div>
         <div class="ex-en" style="margin-top:12px;">We will meet at noon.</div>
         <div class="ex-ko">우리는 정오에 만날 것이다. (정오라는 특정한 시간을 가리킴)</div>
@@ -8329,7 +8329,7 @@ O   O   O
     <h2 class="insight-h2">③ 사건의 특정 지점 (Specific Point in an Event)</h2>
     <p class="insight-p">at은 사건이나 활동의 특정한 지점을 가리킬 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">She laughed at his joke.</div>
+        <div class="ex-en">She laughed at his joke. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('She laughed at his joke.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀는 그의 농담에 웃었다. (농담이라는 특정한 사건의 지점을 가리킴)</div>
         <div class="ex-en" style="margin-top:12px;">He excelled at the competition.</div>
         <div class="ex-ko">그는 대회에서 뛰어났다. (대회라는 특정한 사건의 지점을 가리킴)</div>
@@ -8339,13 +8339,13 @@ O   O   O
     "Across": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Across</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Across</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Across')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Across은 <strong>'이 표현의 가장 핵심적인 원어민 뉘앙스 요약'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Across의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Across</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Across</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Across')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"경계를 넘어 확장되는 느낌"</div>
         <p>입니다. 이는 두 지점 사이를 연결하거나 가로지르는 이미지를 전달합니다.</p>
     </div>
@@ -8365,7 +8365,7 @@ O   O   O
     <h2 class="insight-h2">① 가로질러 가는 느낌 (Crossing Over)</h2>
     <p class="insight-p">Across는 한 지점을 지나 다른 지점으로 가는 이동의 느낌을 줍니다.</p>
     <div class="example-group">
-        <div class="ex-en">She walked across the street.</div>
+        <div class="ex-en">She walked across the street. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('She walked across the street.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀는 길을 건넜다. (길이라는 경계를 가로질러 이동하는 느낌)</div>
         <div class="ex-en" style="margin-top:12px;">The bridge stretches across the river.</div>
         <div class="ex-ko">다리가 강을 가로질러 있다. (다리가 강의 양쪽을 연결하는 느낌)</div>
@@ -8374,7 +8374,7 @@ O   O   O
     <h2 class="insight-h2">② 전체에 걸쳐 있는 느낌 (Spanning Over)</h2>
     <p class="insight-p">Across는 특정 영역이나 전체 범위를 아우르는 느낌을 줍니다.</p>
     <div class="example-group">
-        <div class="ex-en">The news spread quickly across the country.</div>
+        <div class="ex-en">The news spread quickly across the country. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The news spread quickly across the country.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">뉴스가 전국적으로 빠르게 퍼졌다. (나라 전체를 아우르는 느낌)</div>
         <div class="ex-en" style="margin-top:12px;">She has friends across the globe.</div>
         <div class="ex-ko">그녀는 전 세계에 친구가 있다. (지구 전체를 아우르는 느낌)</div>
@@ -8383,7 +8383,7 @@ O   O   O
     <h2 class="insight-h2">③ 반대편에 있는 느낌 (Opposite Side)</h2>
     <p class="insight-p">Across는 어떤 위치의 반대편에 있는 느낌을 전달할 수 있습니다.</p>
     <div class="example-group">
-        <div class="ex-en">The bakery is across the street from the library.</div>
+        <div class="ex-en">The bakery is across the street from the library. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The bakery is across the street from the library.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">빵집은 도서관 맞은편에 있다. (길을 사이에 두고 반대편에 위치한 느낌)</div>
         <div class="ex-en" style="margin-top:12px;">He sat across from me at the table.</div>
         <div class="ex-ko">그는 테이블에서 내 맞은편에 앉았다. (테이블을 두고 반대편에 위치한 느낌)</div>
@@ -8393,13 +8393,13 @@ O   O   O
     "up": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>up</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>up</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('up')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 up은 <strong>'상승과 완성의 상태'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">up의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>up</strong>의 핵심은</p>
+        <p>원어민에게 <strong>up</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('up')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"상승 또는 완성"</div>
         <p>입니다. 이는 물리적, 비유적으로 무언가의 상태가 나아지는 것을 의미합니다.</p>
     </div>
@@ -8419,7 +8419,7 @@ O   O   O
     <h2 class="insight-h2">① 상승 또는 향상 (Elevation or Improvement)</h2>
     <p class="insight-p">무언가가 위로 올라가거나 개선되는 것을 의미합니다.</p>
     <div class="example-group">
-        <div class="ex-en">She moved up to a higher position at work.</div>
+        <div class="ex-en">She moved up to a higher position at work. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('She moved up to a higher position at work.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀는 직장에서 더 높은 위치로 승진했다. (위로 올라가는 상승의 뉘앙스)</div>
         <div class="ex-en" style="margin-top:12px;">The stock prices went up significantly.</div>
         <div class="ex-ko">주가가 상당히 올랐다. (가격이 상승하는 뉘앙스)</div>
@@ -8428,7 +8428,7 @@ O   O   O
     <h2 class="insight-h2">② 준비 완료 또는 끝남 (Completion or Readiness)</h2>
     <p class="insight-p">어떤 일이 끝났거나 준비가 되었음을 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">The setup is all done, you're ready to go.</div>
+        <div class="ex-en">The setup is all done, you're ready to go. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The setup is all done, you\'re ready to go.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">설치가 모두 끝났으니, 이제 시작할 준비가 됐습니다. (완성의 뉘앙스)</div>
         <div class="ex-en" style="margin-top:12px;">The time is up, please stop writing.</div>
         <div class="ex-ko">시간이 다 됐으니, 필기를 멈춰 주세요. (시간이 끝났다는 뉘앙스)</div>
@@ -8437,7 +8437,7 @@ O   O   O
     <h2 class="insight-h2">③ 방향성과 위치 (Direction and Position)</h2>
     <p class="insight-p">위치를 위쪽으로 이동하거나 특정 방향을 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">Lift your chin up for the photo.</div>
+        <div class="ex-en">Lift your chin up for the photo. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Lift your chin up for the photo.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">사진을 위해 턱을 위로 올리세요. (위쪽 방향의 뉘앙스)</div>
         <div class="ex-en" style="margin-top:12px;">The balloon floated up into the sky.</div>
         <div class="ex-ko">풍선이 하늘로 떠올랐다. (위로 올라가는 방향의 뉘앙스)</div>
@@ -8447,13 +8447,13 @@ O   O   O
     "down": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>down</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>down</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('down')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 down은 <strong>'방향성과 상태의 변화'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">down의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>down</strong>의 핵심은</p>
+        <p>원어민에게 <strong>down</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('down')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"위에서 아래로 가는 움직임"</div>
         <p>입니다. (이 표현은 물리적 뿐만 아니라 심리적, 상황적 하락을 나타낼 수 있습니다.)</p>
     </div>
@@ -8472,7 +8472,7 @@ O   O   O
     <h2 class="insight-h2">① 물리적 방향성 (Physical Direction)</h2>
     <p class="insight-p">물리적으로 위에서 아래로 움직이는 것을 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">The ball rolled down the hill.</div>
+        <div class="ex-en">The ball rolled down the hill. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The ball rolled down the hill.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">공이 언덕 아래로 굴러갔다. (공의 물리적 방향이 위에서 아래로 향하고 있음)</div>
         <div class="ex-en" style="margin-top:12px;">She looked down from the balcony.</div>
         <div class="ex-ko">그녀는 발코니에서 아래를 내려다보았다. (시선이 위에서 아래로 향하고 있음)</div>
@@ -8481,7 +8481,7 @@ O   O   O
     <h2 class="insight-h2">② 상태의 변화 (State Change)</h2>
     <p class="insight-p">상태가 감소하거나 악화되는 상황을 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">His health went down after the illness.</div>
+        <div class="ex-en">His health went down after the illness. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('His health went down after the illness.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그의 건강은 병 이후로 악화되었다. (건강 상태의 하락을 나타냄)</div>
         <div class="ex-en" style="margin-top:12px;">The stock prices went down yesterday.</div>
         <div class="ex-ko">어제 주가가 하락했다. (주가가 떨어짐을 나타냄)</div>
@@ -8490,7 +8490,7 @@ O   O   O
     <h2 class="insight-h2">③ 감정적 상태 (Emotional State)</h2>
     <p class="insight-p">기분이 좋지 않거나 우울한 상태를 표현합니다.</p>
     <div class="example-group">
-        <div class="ex-en">I've been feeling down lately.</div>
+        <div class="ex-en">I've been feeling down lately. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I\'ve been feeling down lately.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">나는 최근에 기분이 좋지 않다. (감정적 상태가 좋지 않음을 의미)</div>
         <div class="ex-en" style="margin-top:12px;">She seemed down after hearing the news.</div>
         <div class="ex-ko">그녀는 소식을 듣고 기분이 가라앉은 것 같았다. (감정의 하락을 나타냄)</div>
@@ -8500,13 +8500,13 @@ O   O   O
     "leverage": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>leverage</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>leverage</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('leverage')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 leverage은 <strong>'효과적으로 자원을 활용하여 이점이나 목표를 달성하는 것'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">leverage의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>leverage</strong>의 핵심은</p>
+        <p>원어민에게 <strong>leverage</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('leverage')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"적은 노력으로 큰 결과를 얻는 능력"</div>
         <p>입니다. (이는 최소한의 자원으로 최대한의 효과를 얻는 것을 뜻합니다)</p>
     </div>
@@ -8525,7 +8525,7 @@ O   O   O
     <h2 class="insight-h2">① 자원을 활용한 이점 (Using Resources to Gain Advantage)</h2>
     <p class="insight-p">leverage는 자원을 활용하여 이점이나 목표를 달성하는 것을 의미합니다.</p>
     <div class="example-group">
-        <div class="ex-en">She used her experience to leverage a higher salary in her new job.</div>
+        <div class="ex-en">She used her experience to leverage a higher salary in her new job. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('She used her experience to leverage a higher salary in her new job.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀는 자신의 경험을 이용하여 새 직장에서 더 높은 급여를 얻었습니다. (경험을 자원으로 사용하여 이점을 얻음)</div>
         <div class="ex-en" style="margin-top:12px;">By leveraging their network, they expanded the business rapidly.</div>
         <div class="ex-ko">그들은 네트워크를 활용하여 사업을 빠르게 확장했습니다. (네트워크를 자원으로 사용하여 이점을 얻음)</div>
@@ -8534,7 +8534,7 @@ O   O   O
     <h2 class="insight-h2">② 영향력 확대 (Expanding Influence)</h2>
     <p class="insight-p">leverage는 기존의 영향력을 확대하는 데 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">The company leveraged its brand to enter new markets.</div>
+        <div class="ex-en">The company leveraged its brand to enter new markets. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The company leveraged its brand to enter new markets.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그 회사는 브랜드를 활용하여 새로운 시장에 진출했습니다. (브랜드의 영향력을 확대함)</div>
         <div class="ex-en" style="margin-top:12px;">He leveraged his connections to gain political support.</div>
         <div class="ex-ko">그는 자신의 인맥을 활용하여 정치적 지지를 얻었습니다. (인맥을 통해 영향력을 확대함)</div>
@@ -8543,7 +8543,7 @@ O   O   O
     <h2 class="insight-h2">③ 위험과 보상의 균형 (Balancing Risk and Reward)</h2>
     <p class="insight-p">leverage는 종종 위험과 보상을 균형 있게 조정하는 것을 수반합니다.</p>
     <div class="example-group">
-        <div class="ex-en">Investors often leverage their assets to increase potential returns.</div>
+        <div class="ex-en">Investors often leverage their assets to increase potential returns. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Investors often leverage their assets to increase potential returns.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">투자자들은 종종 자산을 활용하여 잠재적 수익을 늘립니다. (위험을 감수하고 보상을 극대화함)</div>
         <div class="ex-en" style="margin-top:12px;">By leveraging debt, the company aims to grow faster.</div>
         <div class="ex-ko">회사는 부채를 활용하여 더 빠르게 성장하려고 합니다. (위험을 감수하면서 보상을 추구함)</div>
@@ -8553,13 +8553,13 @@ O   O   O
     "articulate": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>articulate</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>articulate</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('articulate')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 articulate은 <strong>'명료하게 표현하는 능력'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">articulate의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>articulate</strong>의 핵심은</p>
+        <p>원어민에게 <strong>articulate</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('articulate')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"명확하고 유창하게 표현하기"</div>
         <p>입니다. 이는 복잡한 생각을 명료하게 전달하는 능력을 강조합니다.</p>
     </div>
@@ -8578,7 +8578,7 @@ O   O   O
     <h2 class="insight-h2">① 명료하게 설명하다 (Explain Clearly)</h2>
     <p class="insight-p">상대방이 이해할 수 있도록 명확하게 설명하는 능력을 뜻합니다.</p>
     <div class="example-group">
-        <div class="ex-en">She was able to articulate her ideas during the meeting.</div>
+        <div class="ex-en">She was able to articulate her ideas during the meeting. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('She was able to articulate her ideas during the meeting.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀는 회의에서 자신의 아이디어를 명확하게 설명할 수 있었습니다. (복잡한 아이디어를 명확하게 전달하는 뉘앙스)</div>
         <div class="ex-en" style="margin-top:12px;">He struggled to articulate his thoughts under pressure.</div>
         <div class="ex-ko">그는 압박 속에서 자신의 생각을 명료하게 표현하는 데 어려움을 겪었습니다. (압박 속에서도 명료함을 유지하려는 노력의 뉘앙스)</div>
@@ -8587,7 +8587,7 @@ O   O   O
     <h2 class="insight-h2">② 발음이 정확하다 (Pronounce Clearly)</h2>
     <p class="insight-p">단어와 문장을 정확하고 명확하게 발음하는 능력을 의미합니다.</p>
     <div class="example-group">
-        <div class="ex-en">The teacher asked the students to articulate every syllable.</div>
+        <div class="ex-en">The teacher asked the students to articulate every syllable. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The teacher asked the students to articulate every syllable.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">선생님은 학생들에게 모든 음절을 정확하게 발음하라고 요청했습니다. (정확한 발음을 중시하는 뉘앙스)</div>
         <div class="ex-en" style="margin-top:12px;">He articulated each word with precision.</div>
         <div class="ex-ko">그는 각 단어를 정확하게 발음했습니다. (정확성을 강조하는 발음의 뉘앙스)</div>
@@ -8596,7 +8596,7 @@ O   O   O
     <h2 class="insight-h2">③ 명백히 표현하다 (Express Clearly)</h2>
     <p class="insight-p">자신의 감정이나 생각을 명백히 드러내는 것을 뜻합니다.</p>
     <div class="example-group">
-        <div class="ex-en">She articulated her dissatisfaction with the decision.</div>
+        <div class="ex-en">She articulated her dissatisfaction with the decision. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('She articulated her dissatisfaction with the decision.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀는 그 결정에 대한 불만을 명백히 표현했습니다. (감정을 숨기지 않고 드러내는 뉘앙스)</div>
         <div class="ex-en" style="margin-top:12px;">He is known for his ability to articulate complex emotions.</div>
         <div class="ex-ko">그는 복잡한 감정을 명확하게 표현하는 능력으로 유명합니다. (복잡한 감정도 명료하게 드러내는 능력의 뉘앙스)</div>
@@ -8606,13 +8606,13 @@ O   O   O
     "milestone": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>milestone</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>milestone</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('milestone')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 milestone은 <strong>'중요한 이정표 또는 성취의 순간'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">milestone의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>milestone</strong>의 핵심은</p>
+        <p>원어민에게 <strong>milestone</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('milestone')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"성취의 이정표"</div>
         <p>입니다. 이는 주로 목표나 과정에서 중요한 단계로 사용됩니다.</p>
     </div>
@@ -8633,7 +8633,7 @@ O   O   O
     <h2 class="insight-h2">① 중요한 성취의 상징 Symbol of Significant Achievement</h2>
     <p class="insight-p">밀스톤은 목표 달성을 위한 중요한 성취를 상징합니다.</p>
     <div class="example-group">
-        <div class="ex-en">Graduating from college was a significant milestone in her life.</div>
+        <div class="ex-en">Graduating from college was a significant milestone in her life. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Graduating from college was a significant milestone in her life.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">대학 졸업은 그녀의 인생에서 중요한 이정표였습니다. (중요한 성취를 나타냄)</div>
         <div class="ex-en" style="margin-top:12px;">The launch of the new product was a milestone for the company.</div>
         <div class="ex-ko">신제품 출시가 회사에 중요한 이정표였습니다. (중요한 진전을 나타냄)</div>
@@ -8642,7 +8642,7 @@ O   O   O
     <h2 class="insight-h2">② 과정의 전환점 Turning Point in a Process</h2>
     <p class="insight-p">밀스톤은 프로젝트나 과정의 중요한 전환점을 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">The discovery of penicillin was a milestone in medical history.</div>
+        <div class="ex-en">The discovery of penicillin was a milestone in medical history. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The discovery of penicillin was a milestone in medical history.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">페니실린의 발견은 의학 역사에서 중요한 전환점이었습니다. (과정의 큰 변화를 의미)</div>
         <div class="ex-en" style="margin-top:12px;">Reaching the halfway mark is a major milestone in the marathon.</div>
         <div class="ex-ko">마라톤에서 절반을 넘는 것은 큰 전환점입니다. (과정의 중요한 지점)</div>
@@ -8651,7 +8651,7 @@ O   O   O
     <h2 class="insight-h2">③ 목표를 향한 진행 Progress Towards a Goal</h2>
     <p class="insight-p">밀스톤은 장기적 목표로 향하는 중요한 지점입니다.</p>
     <div class="example-group">
-        <div class="ex-en">Completing the first draft was a milestone in writing her novel.</div>
+        <div class="ex-en">Completing the first draft was a milestone in writing her novel. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Completing the first draft was a milestone in writing her novel.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">첫 번째 초안을 완성하는 것은 소설 쓰기의 중요한 지점이었습니다. (목표 진행의 중요한 지점)</div>
         <div class="ex-en" style="margin-top:12px;">Securing the first investor is a milestone in starting a business.</div>
         <div class="ex-ko">첫 번째 투자자를 확보하는 것은 사업 시작에서 중요한 단계입니다. (목표를 향한 중요한 진전)</div>
@@ -8661,13 +8661,13 @@ O   O   O
     "network": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>network</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>network</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('network')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 network은 <strong>'연결과 상호작용의 복잡한 시스템'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">network의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>network</strong>의 핵심은</p>
+        <p>원어민에게 <strong>network</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('network')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"상호 연결된 시스템"</div>
         <p>입니다. 네트워크는 정보나 자원을 공유하는 다수의 연결을 나타냅니다.</p>
     </div>
@@ -8687,7 +8687,7 @@ O   O   O
     <h2 class="insight-h2">① 사회적 연결망 (Social Network)</h2>
     <p class="insight-p">네트워크는 사람들 간의 관계와 상호작용을 강조합니다.</p>
     <div class="example-group">
-        <div class="ex-en">She built a strong network to advance her career.</div>
+        <div class="ex-en">She built a strong network to advance her career. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('She built a strong network to advance her career.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀는 경력을 쌓기 위해 강력한 네트워크를 구축했습니다. (사람들 간의 연결과 지원을 강조)</div>
         <div class="ex-en" style="margin-top:12px;">John's social network helped him find a new job quickly.</div>
         <div class="ex-ko">존의 사회적 네트워크는 그가 빠르게 새 직장을 찾는 데 도움을 주었습니다. (인맥의 중요성을 나타냄)</div>
@@ -8696,7 +8696,7 @@ O   O   O
     <h2 class="insight-h2">② 컴퓨터 네트워크 (Computer Network)</h2>
     <p class="insight-p">네트워크는 컴퓨터 시스템 간의 데이터 교환을 가능하게 합니다.</p>
     <div class="example-group">
-        <div class="ex-en">The office network crashed due to a power outage.</div>
+        <div class="ex-en">The office network crashed due to a power outage. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The office network crashed due to a power outage.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">정전으로 인해 사무실 네트워크가 다운되었습니다. (기술 시스템의 연결과 의존성을 강조)</div>
         <div class="ex-en" style="margin-top:12px;">Our network allows for seamless communication between departments.</div>
         <div class="ex-ko">우리의 네트워크는 부서 간의 원활한 소통을 가능하게 합니다. (정보 전달의 원활함을 강조)</div>
@@ -8705,7 +8705,7 @@ O   O   O
     <h2 class="insight-h2">③ 자연의 네트워크 (Network in Nature)</h2>
     <p class="insight-p">네트워크는 자연계의 유기적 연결을 설명하는 데 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">The forest is a complex network of plants and animals.</div>
+        <div class="ex-en">The forest is a complex network of plants and animals. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The forest is a complex network of plants and animals.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">숲은 식물과 동물의 복잡한 네트워크입니다. (자연계의 상호 연결성을 강조)</div>
         <div class="ex-en" style="margin-top:12px;">River networks sustain diverse ecosystems across the region.</div>
         <div class="ex-ko">강 네트워크는 지역 전반에 걸쳐 다양한 생태계를 유지합니다. (자연의 생태적 연결을 강조)</div>
@@ -8715,13 +8715,13 @@ O   O   O
     "negotiate": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>negotiate</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>negotiate</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('negotiate')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 negotiate은 <strong>'상호 이익을 위한 조정과 절충의 과정'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">negotiate의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>negotiate</strong>의 핵심은</p>
+        <p>원어민에게 <strong>negotiate</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('negotiate')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"상호 이익을 위한 합의점 찾기"</div>
         <p>입니다. 이는 양측의 요구를 고려하여 최적의 해결책을 찾는 과정입니다.</p>
     </div>
@@ -8742,7 +8742,7 @@ O   O   O
     <h2 class="insight-h2">① 협상 + Negotiation</h2>
     <p class="insight-p">이 표현은 주로 협상 테이블에서 양측이 합의점을 찾으려는 상황에서 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">The two companies negotiated a merger agreement.</div>
+        <div class="ex-en">The two companies negotiated a merger agreement. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The two companies negotiated a merger agreement.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">두 회사는 합병 계약을 협상했다. (양측 이익을 고려하여 최적의 합의점을 찾는 과정)</div>
         <div class="ex-en" style="margin-top:12px;">They negotiated for higher salaries with the management.</div>
         <div class="ex-ko">그들은 경영진과 더 높은 급여를 위해 협상했다. (급여 인상을 위한 상호 조정 과정)</div>
@@ -8751,7 +8751,7 @@ O   O   O
     <h2 class="insight-h2">② 극복 + Overcome</h2>
     <p class="insight-p">때로는 어려운 상황을 극복하거나 장애물을 통과하는 의미로 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">The hikers negotiated the steep trail with caution.</div>
+        <div class="ex-en">The hikers negotiated the steep trail with caution. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The hikers negotiated the steep trail with caution.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">등산객들은 가파른 산길을 조심스럽게 지나갔다. (어려운 길을 극복하며 지나가는 과정)</div>
         <div class="ex-en" style="margin-top:12px;">She negotiated the contract's terms despite the challenges.</div>
         <div class="ex-ko">그녀는 도전에도 불구하고 계약 조건을 극복했다. (장애물을 넘어서 계약 조건을 해결)</div>
@@ -8760,7 +8760,7 @@ O   O   O
     <h2 class="insight-h2">③ 조정 + Adjust</h2>
     <p class="insight-p">정해진 조건이나 상황을 조정하거나 맞추는 과정에서 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">We need to negotiate the schedule to fit everyone's needs.</div>
+        <div class="ex-en">We need to negotiate the schedule to fit everyone's needs. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('We need to negotiate the schedule to fit everyone\'s needs.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">우리는 모두의 필요에 맞도록 일정을 조정해야 한다. (서로 다른 요구를 맞추는 과정)</div>
         <div class="ex-en" style="margin-top:12px;">She negotiated her role in the project to manage her workload better.</div>
         <div class="ex-ko">그녀는 업무량을 더 잘 관리하기 위해 프로젝트에서 자신의 역할을 조정했다. (개인적 필요에 맞춰 역할을 조정)</div>
@@ -8770,13 +8770,13 @@ O   O   O
     "present": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>present</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>present</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('present')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 present은 <strong>'현재의 순간을 강조하는 것'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">present의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>present</strong>의 핵심은</p>
+        <p>원어민에게 <strong>present</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('present')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"지금 이 순간의 강조"</div>
         <p>입니다. 이는 현재를 명확하게 인식하고 있다는 것을 나타냅니다.</p>
     </div>
@@ -8794,7 +8794,7 @@ O   O   O
     <h2 class="insight-h2">① 현재 시점 강조 (Emphasis on Current Time)</h2>
     <p class="insight-p">현재의 순간을 강조할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">I am present in the meeting.</div>
+        <div class="ex-en">I am present in the meeting. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I am present in the meeting.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">나는 회의에 참석해 있습니다. (현재 회의에 집중하고 있음을 강조)</div>
         <div class="ex-en" style="margin-top:12px;">She is present in this moment, fully engaged.</div>
         <div class="ex-ko">그녀는 이 순간에 완전히 몰입해 있습니다. (지금 이 순간에 집중하고 있음을 나타냄)</div>
@@ -8803,7 +8803,7 @@ O   O   O
     <h2 class="insight-h2">② 존재의 확인 (Confirmation of Presence)</h2>
     <p class="insight-p">어떤 장소나 상황에 존재함을 확인할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">All members were present at the event.</div>
+        <div class="ex-en">All members were present at the event. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('All members were present at the event.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">모든 구성원이 행사에 참석했습니다. (행사에 실제로 참석했음을 확인)</div>
         <div class="ex-en" style="margin-top:12px;">The teacher took attendance to check who was present.</div>
         <div class="ex-ko">선생님은 출석을 확인하여 누가 참석했는지 확인했습니다. (참석 여부를 확인)</div>
@@ -8812,7 +8812,7 @@ O   O   O
     <h2 class="insight-h2">③ 선물의 의미 (Meaning of Gift)</h2>
     <p class="insight-p">'present'는 '선물'이라는 의미로도 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">He gave her a beautiful present for her birthday.</div>
+        <div class="ex-en">He gave her a beautiful present for her birthday. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('He gave her a beautiful present for her birthday.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그는 그녀의 생일에 아름다운 선물을 주었습니다. (선물이라는 의미로 사용)</div>
         <div class="ex-en" style="margin-top:12px;">The present was wrapped in a shiny paper.</div>
         <div class="ex-ko">선물은 반짝이는 종이로 포장되었습니다. (물리적 선물로서의 의미)</div>
@@ -8822,13 +8822,13 @@ O   O   O
     "negotiation": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>negotiation</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>negotiation</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('negotiation')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 negotiation은 <strong>'상호 이익을 위한 협상 과정'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">negotiation의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>negotiation</strong>의 핵심은</p>
+        <p>원어민에게 <strong>negotiation</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('negotiation')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"서로 다른 입장을 조율하는 과정"</div>
         <p>입니다. 이를 통해 새로운 합의를 도출합니다.</p>
     </div>
@@ -8856,7 +8856,7 @@ O   O   O
     <h2 class="insight-h2">① 합의 도출 과정 (Agreement Process)</h2>
     <p class="insight-p">negotiation은 주로 양측이 서로의 요구를 조율하여 합의를 도출하는 과정입니다.</p>
     <div class="example-group">
-        <div class="ex-en">The negotiation between the two companies led to a beneficial agreement.</div>
+        <div class="ex-en">The negotiation between the two companies led to a beneficial agreement. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The negotiation between the two companies led to a beneficial agreement.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">두 회사 간의 협상은 상호 이익이 되는 합의로 이어졌습니다. (서로의 이익을 고려하여 조율)</div>
         <div class="ex-en" style="margin-top:12px;">They reached a negotiation after several rounds of discussion.</div>
         <div class="ex-ko">그들은 여러 차례의 논의 끝에 협상에 도달했습니다. (상호 조율의 결과)</div>
@@ -8865,7 +8865,7 @@ O   O   O
     <h2 class="insight-h2">② 타협과 협력 (Compromise and Cooperation)</h2>
     <p class="insight-p">negotiation은 각자의 입장에서 타협과 협력을 통해 문제를 해결합니다.</p>
     <div class="example-group">
-        <div class="ex-en">Successful negotiation requires both parties to be willing to compromise.</div>
+        <div class="ex-en">Successful negotiation requires both parties to be willing to compromise. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Successful negotiation requires both parties to be willing to compromise.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">성공적인 협상은 양측이 기꺼이 타협하려는 의지가 필요합니다. (타협의 중요성)</div>
         <div class="ex-en" style="margin-top:12px;">Negotiation is about finding a middle ground.</div>
         <div class="ex-ko">협상은 중간 지점을 찾는 것입니다. (상호 양보와 협력)</div>
@@ -8874,7 +8874,7 @@ O   O   O
     <h2 class="insight-h2">③ 전략적 대화 (Strategic Dialogue)</h2>
     <p class="insight-p">negotiation은 전략적 대화를 통해 최선의 결과를 도출하려는 과정입니다.</p>
     <div class="example-group">
-        <div class="ex-en">The team's negotiation strategy was to focus on long-term benefits.</div>
+        <div class="ex-en">The team's negotiation strategy was to focus on long-term benefits. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The team\'s negotiation strategy was to focus on long-term benefits.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">팀의 협상 전략은 장기적인 이익에 초점을 맞추는 것이었습니다. (전략적 접근)</div>
         <div class="ex-en" style="margin-top:12px;">Negotiation involves understanding the other party's needs and goals.</div>
         <div class="ex-ko">협상은 상대방의 필요와 목표를 이해하는 것을 포함합니다. (상대방 이해와 전략)</div>
@@ -8884,13 +8884,13 @@ O   O   O
     "leadership": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>leadership</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>leadership</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('leadership')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 leadership은 <strong>'책임감과 방향성을 제시하는 능력'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">leadership의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>leadership</strong>의 핵심은</p>
+        <p>원어민에게 <strong>leadership</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('leadership')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"사람들을 이끄는 힘과 비전"</div>
         <p>입니다. 리더는 목표를 설정하고 그 방향으로 팀을 이끄는 역할을 합니다.</p>
     </div>
@@ -8909,7 +8909,7 @@ O   O   O
     <h2 class="insight-h2">① 리더십의 책임감 (Responsibility in Leadership)</h2>
     <p class="insight-p">리더십은 팀의 성패에 대한 책임을 지는 것을 포함합니다.</p>
     <div class="example-group">
-        <div class="ex-en">"Her leadership ensured the project's success."</div>
+        <div class="ex-en">"Her leadership ensured the project's success." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;Her leadership ensured the project\'s success.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"그녀의 리더십 덕분에 프로젝트가 성공했습니다." (리더가 프로젝트 성공을 책임짐)</div>
         <div class="ex-en" style="margin-top:12px;">"Leadership means being accountable for your team's results."</div>
         <div class="ex-ko">"리더십은 팀의 결과에 책임을 지는 것을 의미합니다." (책임감이 리더십의 핵심 요소)</div>
@@ -8918,7 +8918,7 @@ O   O   O
     <h2 class="insight-h2">② 비전 제시 (Vision Setting)</h2>
     <p class="insight-p">리더십은 명확한 비전을 설정하고 이를 공유하는 것을 의미합니다.</p>
     <div class="example-group">
-        <div class="ex-en">"Under his leadership, the company pursued a new vision."</div>
+        <div class="ex-en">"Under his leadership, the company pursued a new vision." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;Under his leadership, the company pursued a new vision.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"그의 리더십 아래 회사는 새로운 비전을 추구했습니다." (비전을 제시하고 이를 따름)</div>
         <div class="ex-en" style="margin-top:12px;">"Leadership involves guiding others towards a shared vision."</div>
         <div class="ex-ko">"리더십은 공동의 비전을 향해 다른 사람들을 이끄는 것을 포함합니다." (비전을 통해 방향 제시)</div>
@@ -8927,7 +8927,7 @@ O   O   O
     <h2 class="insight-h2">③ 팀원 동기부여 (Motivating Team Members)</h2>
     <p class="insight-p">리더십은 팀원들에게 동기를 부여하고 그들의 성장을 돕는 역할을 합니다.</p>
     <div class="example-group">
-        <div class="ex-en">"Effective leadership inspires team members to excel."</div>
+        <div class="ex-en">"Effective leadership inspires team members to excel." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;Effective leadership inspires team members to excel.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"효과적인 리더십은 팀원들이 탁월함을 발휘하도록 영감을 줍니다." (동기부여의 중요성)</div>
         <div class="ex-en" style="margin-top:12px;">"Good leadership boosts team morale and productivity."</div>
         <div class="ex-ko">"좋은 리더십은 팀 사기와 생산성을 높입니다." (팀원들의 동기와 성과 향상)</div>
@@ -8937,13 +8937,13 @@ O   O   O
     "communication": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>communication</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>communication</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('communication')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 communication은 <strong>'생각과 정보를 교환하는 과정'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">communication의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>communication</strong>의 핵심은</p>
+        <p>원어민에게 <strong>communication</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('communication')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"상호 연결과 이해의 다리"</div>
         <p>입니다. 사람들 사이의 이해를 돕는 다리 역할을 합니다.</p>
     </div>
@@ -8964,7 +8964,7 @@ O   O   O
     <h2 class="insight-h2">① 정보 전달의 과정</h2>
     <p class="insight-p">communication은 정보를 효과적으로 전달하는 과정을 뜻합니다.</p>
     <div class="example-group">
-        <div class="ex-en">Good communication is key to a successful project.</div>
+        <div class="ex-en">Good communication is key to a successful project. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Good communication is key to a successful project.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">좋은 의사소통은 성공적인 프로젝트의 열쇠입니다. (정보를 효과적으로 전달하는 중요성)</div>
         <div class="ex-en" style="margin-top:12px;">The communication between departments improved.</div>
         <div class="ex-ko">부서 간 의사소통이 개선되었습니다. (정보 흐름이 원활해졌음을 의미)</div>
@@ -8973,7 +8973,7 @@ O   O   O
     <h2 class="insight-h2">② 상호 이해와 교환</h2>
     <p class="insight-p">communication은 상호 이해와 의견 교환을 강조합니다.</p>
     <div class="example-group">
-        <div class="ex-en">Communication helps in building relationships.</div>
+        <div class="ex-en">Communication helps in building relationships. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Communication helps in building relationships.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">의사소통은 관계 구축에 도움이 됩니다. (상호 이해를 통해 관계를 형성)</div>
         <div class="ex-en" style="margin-top:12px;">Through communication, we resolve conflicts.</div>
         <div class="ex-ko">의사소통을 통해 우리는 갈등을 해결합니다. (의견 교환으로 문제 해결)</div>
@@ -8982,7 +8982,7 @@ O   O   O
     <h2 class="insight-h2">③ 다양한 형태의 표현</h2>
     <p class="insight-p">communication은 말, 글, 비언어적 신호 등 다양한 형태로 이루어집니다.</p>
     <div class="example-group">
-        <div class="ex-en">Non-verbal communication can be just as powerful.</div>
+        <div class="ex-en">Non-verbal communication can be just as powerful. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Non-verbal communication can be just as powerful.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">비언어적 의사소통도 강력할 수 있습니다. (말 외의 다양한 표현 방식)</div>
         <div class="ex-en" style="margin-top:12px;">Written communication is essential in business.</div>
         <div class="ex-ko">비즈니스에서 서면 의사소통은 필수적입니다. (글을 통한 정보 전달의 중요성)</div>
@@ -8992,13 +8992,13 @@ O   O   O
     "Clarify": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Clarify</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Clarify</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Clarify')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Clarify은 <strong>'이 표현의 가장 핵심적인 원어민 뉘앙스 요약'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Clarify의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Clarify</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Clarify</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Clarify')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"가장 짧고 강렬한 본질적 의미"</div>
         <p>입니다. 모호한 것을 명료하게 만드는 과정입니다.</p>
     </div>
@@ -9017,7 +9017,7 @@ O   O   O
     <h2 class="insight-h2">① 명확하게 설명하기 (Explain Clearly)</h2>
     <p class="insight-p">"Clarify"는 무언가를 명확하게 설명하여 이해를 돕는다는 의미입니다.</p>
     <div class="example-group">
-        <div class="ex-en">Could you clarify what you mean by "better results"?</div>
+        <div class="ex-en">Could you clarify what you mean by "better results"? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Could you clarify what you mean by &quot;better results&quot;?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"더 나은 결과"라는 것이 무슨 의미인지 설명해 주시겠어요? (혼란을 줄이고 명확하게 하기 위해)</div>
         <div class="ex-en" style="margin-top:12px;">The professor clarified the complex concept in simple terms.</div>
         <div class="ex-ko">교수님은 복잡한 개념을 간단한 용어로 설명하셨습니다. (학생들이 더 잘 이해할 수 있도록)</div>
@@ -9026,7 +9026,7 @@ O   O   O
     <h2 class="insight-h2">② 오해를 풀다 (Resolve Misunderstandings)</h2>
     <p class="insight-p">"Clarify"는 오해나 잘못된 정보를 바로잡는 데 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">I need to clarify the misunderstanding about our meeting time.</div>
+        <div class="ex-en">I need to clarify the misunderstanding about our meeting time. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I need to clarify the misunderstanding about our meeting time.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">우리 회의 시간에 대한 오해를 풀 필요가 있습니다. (잘못된 정보를 바로잡기 위해)</div>
         <div class="ex-en" style="margin-top:12px;">She clarified that the event was postponed, not canceled.</div>
         <div class="ex-ko">그녀는 행사가 취소된 것이 아니라 연기된 것임을 분명히 했습니다. (혼동을 방지하기 위해)</div>
@@ -9035,7 +9035,7 @@ O   O   O
     <h2 class="insight-h2">③ 세부사항을 명시하다 (Specify Details)</h2>
     <p class="insight-p">"Clarify"는 정보를 더 구체적으로 명시할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Can you clarify the steps we need to follow for the project?</div>
+        <div class="ex-en">Can you clarify the steps we need to follow for the project? <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Can you clarify the steps we need to follow for the project?')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">프로젝트를 위해 우리가 따라야 할 단계들을 명시해 주시겠어요? (세부사항을 분명히 하기 위해)</div>
         <div class="ex-en" style="margin-top:12px;">He clarified the rules to ensure everyone understood them.</div>
         <div class="ex-ko">그는 모두가 규칙을 이해할 수 있도록 규칙을 명확히 설명했습니다. (모두가 같은 이해 수준에 도달하도록)</div>
@@ -9045,13 +9045,13 @@ O   O   O
     "Compromise": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Compromise</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Compromise</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Compromise')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Compromise은 <strong>'서로 다른 입장의 조화에 도달하기 위한 상호 양보'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Compromise의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Compromise</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Compromise</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Compromise')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"각자 조금씩 양보하여 합의점에 도달하는 것"</div>
         <p>입니다. 서로의 의견 차이를 줄이고자 할 때 쓰입니다.</p>
     </div>
@@ -9071,7 +9071,7 @@ O   O   O
     <h2 class="insight-h2">① 상호 양보 (Mutual concession)</h2>
     <p class="insight-p">서로의 요구를 일부 포기하며 합의에 도달하는 과정을 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">They decided to compromise on the budget to avoid further conflict.</div>
+        <div class="ex-en">They decided to compromise on the budget to avoid further conflict. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('They decided to compromise on the budget to avoid further conflict.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그들은 추가적인 갈등을 피하기 위해 예산에 대해 타협하기로 결정했다. (양측이 요구를 일부 포기한 상황)</div>
         <div class="ex-en" style="margin-top:12px;">Both parties reached a compromise after long negotiations.</div>
         <div class="ex-ko">양측은 긴 협상 끝에 타협에 도달했다. (서로의 요구를 조정하여 합의에 이른 상황)</div>
@@ -9080,7 +9080,7 @@ O   O   O
     <h2 class="insight-h2">② 중간지점 찾기 (Finding a middle ground)</h2>
     <p class="insight-p">극단적인 입장 사이에서 중간 해법을 찾는 것을 의미합니다.</p>
     <div class="example-group">
-        <div class="ex-en">The team compromised on a plan that included elements of both ideas.</div>
+        <div class="ex-en">The team compromised on a plan that included elements of both ideas. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The team compromised on a plan that included elements of both ideas.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">팀은 두 아이디어의 요소를 포함한 계획에 타협했다. (중간 해법을 찾은 상황)</div>
         <div class="ex-en" style="margin-top:12px;">Instead of arguing, they sought a compromise that satisfied everyone.</div>
         <div class="ex-ko">논쟁 대신, 그들은 모두를 만족시키는 타협점을 찾았다. (모든 사람을 고려한 중간지점 찾기)</div>
@@ -9089,7 +9089,7 @@ O   O   O
     <h2 class="insight-h2">③ 손상/위험 (Risk or damage)</h2>
     <p class="insight-p">때로는 품질이나 안전을 위험에 빠뜨리는 의미로 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Using cheap materials could compromise the safety of the structure.</div>
+        <div class="ex-en">Using cheap materials could compromise the safety of the structure. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Using cheap materials could compromise the safety of the structure.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">저렴한 재료의 사용은 구조물의 안전을 위태롭게 할 수 있다. (품질을 손상시키는 위험)</div>
         <div class="ex-en" style="margin-top:12px;">He refused to compromise his principles for quick success.</div>
         <div class="ex-ko">그는 빠른 성공을 위해 자신의 원칙을 타협하지 않았다. (원칙을 손상시키는 위험을 거부)</div>
@@ -9099,13 +9099,13 @@ O   O   O
     "Engage": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Engage</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Engage</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Engage')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Engage은 <strong>'상호작용을 통해 연결을 형성하는 것'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Engage의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Engage</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Engage</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Engage')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"적극적으로 참여하여 연결을 맺는 것"</div>
         <p>입니다. 이는 단순히 참여하는 것 이상의 의미를 담고 있습니다.</p>
     </div>
@@ -9127,7 +9127,7 @@ O   O   O
     <h2 class="insight-h2">① 적극적 참여와 상호작용 (Active Participation and Interaction)</h2>
     <p class="insight-p">Engage는 단순히 무언가를 하는 것이 아니라, 적극적으로 참여하고 상호작용하는 것을 의미합니다.</p>
     <div class="example-group">
-        <div class="ex-en">The teacher encouraged students to engage in the discussion.</div>
+        <div class="ex-en">The teacher encouraged students to engage in the discussion. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The teacher encouraged students to engage in the discussion.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">선생님은 학생들이 토론에 참여하도록 격려했습니다. (단순한 참여가 아닌 적극적인 상호작용을 강조)</div>
         <div class="ex-en" style="margin-top:12px;">He engages with his audience through compelling storytelling.</div>
         <div class="ex-ko">그는 감동적인 이야기로 청중과 상호작용합니다. (이야기를 통해 청중과 연결을 맺음)</div>
@@ -9136,7 +9136,7 @@ O   O   O
     <h2 class="insight-h2">② 몰입과 집중 (Immersion and Focus)</h2>
     <p class="insight-p">Engage는 어떤 활동에 몰입하고 집중하는 것을 표현할 때도 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">She was so engaged in the book that she lost track of time.</div>
+        <div class="ex-en">She was so engaged in the book that she lost track of time. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('She was so engaged in the book that she lost track of time.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀는 책에 너무 몰입해서 시간 가는 줄 몰랐습니다. (깊은 몰입을 의미)</div>
         <div class="ex-en" style="margin-top:12px;">The audience was engaged throughout the entire performance.</div>
         <div class="ex-ko">청중은 공연 내내 집중했습니다. (공연에 완전히 몰입했음을 의미)</div>
@@ -9145,7 +9145,7 @@ O   O   O
     <h2 class="insight-h2">③ 고용과 계약 (Employment and Contract)</h2>
     <p class="insight-p">Engage는 사람을 고용하거나 계약을 맺는 상황에서도 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">The company engaged a new marketing director.</div>
+        <div class="ex-en">The company engaged a new marketing director. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The company engaged a new marketing director.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">회사는 새로운 마케팅 이사를 고용했습니다. (공식적인 고용 절차를 의미)</div>
         <div class="ex-en" style="margin-top:12px;">They engaged a consultant for the project.</div>
         <div class="ex-ko">그들은 프로젝트를 위해 컨설턴트를 고용했습니다. (전문가와의 계약을 의미)</div>
@@ -9155,13 +9155,13 @@ O   O   O
     "bargain": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>bargain</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>bargain</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('bargain')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 bargain은 <strong>'유리한 거래 또는 좋은 조건의 거래'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">bargain의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>bargain</strong>의 핵심은</p>
+        <p>원어민에게 <strong>bargain</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('bargain')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"가치 이상의 혜택을 얻는 것"</div>
         <p>입니다. 이 표현은 보통 좋은 조건으로 거래를 성사시킬 때 사용됩니다.</p>
     </div>
@@ -9181,7 +9181,7 @@ O   O   O
     <h2 class="insight-h2">① 좋은 거래 찾기 + Finding a Good Deal</h2>
     <p class="insight-p">bargain은 보통 가격 대비 가치가 높은 상품이나 서비스에 대한 표현입니다.</p>
     <div class="example-group">
-        <div class="ex-en">I found a bargain on a new laptop at the store.</div>
+        <div class="ex-en">I found a bargain on a new laptop at the store. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I found a bargain on a new laptop at the store.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">나는 가게에서 새 노트북을 저렴하게 샀다. (가격 대비 좋은 조건으로 구매했다는 의미)</div>
         <div class="ex-en" style="margin-top:12px;">This dress is a real bargain at 50% off.</div>
         <div class="ex-ko">이 드레스는 50% 할인이라 정말 싸게 산 것이다. (가치 이상의 혜택을 얻었다는 의미)</div>
@@ -9190,7 +9190,7 @@ O   O   O
     <h2 class="insight-h2">② 협상 + Negotiation</h2>
     <p class="insight-p">bargain은 협상 과정을 통해 유리한 조건을 얻는 상황에서도 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">They managed to bargain the price down to $200.</div>
+        <div class="ex-en">They managed to bargain the price down to $200. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('They managed to bargain the price down to $200.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그들은 가격을 200달러까지 흥정했다. (협상을 통해 가격을 낮췄다는 의미)</div>
         <div class="ex-en" style="margin-top:12px;">We bargained for a better contract.</div>
         <div class="ex-ko">우리는 더 나은 계약 조건을 위해 협상했다. (협상을 통해 더 좋은 조건을 이끌어냈다는 의미)</div>
@@ -9199,7 +9199,7 @@ O   O   O
     <h2 class="insight-h2">③ 기대 이상의 가치 + Beyond Expectations</h2>
     <p class="insight-p">bargain은 기대 이상의 가치를 제공하는 상황을 묘사할 때도 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">This old car was a bargain; it runs perfectly.</div>
+        <div class="ex-en">This old car was a bargain; it runs perfectly. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('This old car was a bargain; it runs perfectly.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">이 오래된 차는 싸게 샀다; 작동이 완벽하다. (보통 기대 이상의 성능을 보여준다는 의미)</div>
         <div class="ex-en" style="margin-top:12px;">The hotel stay was a bargain considering the amenities provided.</div>
         <div class="ex-ko">제공되는 편의시설을 고려하면 호텔 숙박은 정말 싸게 먹혔다. (가격 대비 높은 가치를 얻었다는 의미)</div>
@@ -9209,13 +9209,13 @@ O   O   O
     "prioritize": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>prioritize</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>prioritize</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('prioritize')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 prioritize은 <strong>'무엇이 가장 중요한지 정하고 거기에 집중한다'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">prioritize의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>prioritize</strong>의 핵심은</p>
+        <p>원어민에게 <strong>prioritize</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('prioritize')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"중요한 것을 앞세우는 것"</div>
         <p>입니다. 이 표현은 주어진 선택들 중 가장 중요한 것을 선택하는 과정을 나타냅니다.</p>
     </div>
@@ -9236,7 +9236,7 @@ O   O   O
     <h2 class="insight-h2">① 중요도 결정하기 - Deciding Importance</h2>
     <p class="insight-p">무엇이 더 중요한지를 결정하는 과정입니다.</p>
     <div class="example-group">
-        <div class="ex-en">She needs to prioritize her tasks to meet the deadline.</div>
+        <div class="ex-en">She needs to prioritize her tasks to meet the deadline. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('She needs to prioritize her tasks to meet the deadline.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀는 마감일을 맞추기 위해 할 일을 우선순위로 정해야 합니다. (중요한 일을 먼저 처리해야 하는 상황)</div>
         <div class="ex-en" style="margin-top:12px;">You must prioritize your health over work.</div>
         <div class="ex-ko">일보다 건강을 우선시해야 합니다. (건강이 더 중요하다는 의미)</div>
@@ -9245,7 +9245,7 @@ O   O   O
     <h2 class="insight-h2">② 우선순위 설정 - Setting Priorities</h2>
     <p class="insight-p">어떤 것들이 더 중요한지를 순서대로 나열하는 것입니다.</p>
     <div class="example-group">
-        <div class="ex-en">It is important to prioritize your goals to succeed.</div>
+        <div class="ex-en">It is important to prioritize your goals to succeed. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('It is important to prioritize your goals to succeed.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">성공하기 위해 목표의 우선순위를 정하는 것이 중요합니다. (목표를 명확히 하는 과정)</div>
         <div class="ex-en" style="margin-top:12px;">He prioritized his family over his career.</div>
         <div class="ex-ko">그는 경력보다 가족을 우선시했습니다. (가족을 가장 중요하게 여기는 행동)</div>
@@ -9254,7 +9254,7 @@ O   O   O
     <h2 class="insight-h2">③ 효율적 관리 - Efficient Management</h2>
     <p class="insight-p">효율적으로 일을 처리하기 위해 우선순위를 매기는 것입니다.</p>
     <div class="example-group">
-        <div class="ex-en">Managers need to prioritize tasks to enhance productivity.</div>
+        <div class="ex-en">Managers need to prioritize tasks to enhance productivity. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Managers need to prioritize tasks to enhance productivity.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">관리자들은 생산성을 높이기 위해 업무의 우선순위를 정해야 합니다. (업무 효율성을 높이기 위한 전략)</div>
         <div class="ex-en" style="margin-top:12px;">Prioritizing effectively can reduce stress.</div>
         <div class="ex-ko">효과적으로 우선순위를 정하면 스트레스를 줄일 수 있습니다. (효율적인 관리가 스트레스 감소로 이어짐)</div>
@@ -9264,13 +9264,13 @@ O   O   O
     "influence": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>influence</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>influence</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('influence')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 influence은 <strong>'무언가에 영향을 미쳐 변화를 일으키는 힘'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">influence의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>influence</strong>의 핵심은</p>
+        <p>원어민에게 <strong>influence</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('influence')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"보이지 않지만 강력한 힘의 작용"</div>
         <p>입니다. 이는 보이지 않는 힘이 변화를 일으키는 과정을 나타냅니다.</p>
     </div>
@@ -9290,7 +9290,7 @@ O   O   O
     <h2 class="insight-h2">① 영향력 있는 존재의 힘 (Powerful Influence)</h2>
     <p class="insight-p">influence는 어떤 존재가 다른 것에 미치는 강력한 힘을 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">Her speech had a profound influence on the audience.</div>
+        <div class="ex-en">Her speech had a profound influence on the audience. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Her speech had a profound influence on the audience.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀의 연설은 청중에게 깊은 영향을 미쳤다. (연설의 강력함이 청중의 생각에 변화를 일으킴)</div>
         <div class="ex-en" style="margin-top:12px;">The teacher's influence was evident in his students' success.</div>
         <div class="ex-ko">그 교사의 영향력은 학생들의 성공에서 분명히 드러났다. (교사의 가르침이 학생들의 결과에 영향을 미침)</div>
@@ -9299,7 +9299,7 @@ O   O   O
     <h2 class="insight-h2">② 간접적 영향 (Indirect Influence)</h2>
     <p class="insight-p">influence는 직접적이지 않지만 중요한 변화를 일으킬 수 있는 힘을 묘사합니다.</p>
     <div class="example-group">
-        <div class="ex-en">The weather can influence our mood indirectly.</div>
+        <div class="ex-en">The weather can influence our mood indirectly. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The weather can influence our mood indirectly.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">날씨는 우리 기분에 간접적으로 영향을 미칠 수 있다. (날씨라는 외적 요소가 기분에 미치는 간접적 영향)</div>
         <div class="ex-en" style="margin-top:12px;">Social media influences people's opinions subtly.</div>
         <div class="ex-ko">소셜 미디어는 사람들의 의견에 미묘하게 영향을 미친다. (직접적이지 않지만 의견 형성에 영향을 줌)</div>
@@ -9308,7 +9308,7 @@ O   O   O
     <h2 class="insight-h2">③ 긍정적 또는 부정적 효과 (Positive or Negative Effects)</h2>
     <p class="insight-p">influence는 결과적으로 긍정적이거나 부정적인 효과를 가져올 수 있습니다.</p>
     <div class="example-group">
-        <div class="ex-en">His positive influence helped the team succeed.</div>
+        <div class="ex-en">His positive influence helped the team succeed. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('His positive influence helped the team succeed.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그의 긍정적인 영향력은 팀이 성공하는 데 도움을 주었다. (긍정적인 영향력이 팀의 성공에 기여함)</div>
         <div class="ex-en" style="margin-top:12px;">Negative influences can derail your goals if you're not careful.</div>
         <div class="ex-ko">부정적인 영향은 조심하지 않으면 당신의 목표를 빗나가게 할 수 있다. (부정적인 요인이 목표 달성을 방해할 수 있음)</div>
@@ -9318,13 +9318,13 @@ O   O   O
     "Agenda": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Agenda</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Agenda</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Agenda')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Agenda은 <strong>'계획과 우선순위를 정한 목록'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Agenda의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Agenda</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Agenda</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Agenda')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"계획된 항목들의 목록"</div>
         <p>입니다. 이것은 회의나 사건에서 다룰 주제를 정리한 문서입니다.</p>
     </div>
@@ -9345,7 +9345,7 @@ O   O   O
     <h2 class="insight-h2">① 계획 및 준비 목록 + 영어</h2>
     <p class="insight-p">Agenda는 특정 목표를 위해 준비된 계획 목록을 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">"Let's stick to the agenda for today's meeting."</div>
+        <div class="ex-en">"Let's stick to the agenda for today's meeting." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;Let\'s stick to the agenda for today\'s meeting.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"오늘 회의에서는 의제에 충실합시다." (회의를 효율적으로 진행하기 위한 계획 목록)</div>
         <div class="ex-en" style="margin-top:12px;">"The agenda includes a review of the budget."</div>
         <div class="ex-ko">"의제에는 예산 검토가 포함되어 있습니다." (미리 정해진 토론 주제)</div>
@@ -9354,7 +9354,7 @@ O   O   O
     <h2 class="insight-h2">② 숨은 동기 + Hidden Motive</h2>
     <p class="insight-p">Agenda는 때로는 숨겨진 동기나 의도를 암시할 수 있습니다.</p>
     <div class="example-group">
-        <div class="ex-en">"I think he has a hidden agenda."</div>
+        <div class="ex-en">"I think he has a hidden agenda." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;I think he has a hidden agenda.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"그는 숨은 의도가 있는 것 같아요." (겉으로 드러나지 않은 의도)</div>
         <div class="ex-en" style="margin-top:12px;">"She seems nice, but what's her real agenda?"</div>
         <div class="ex-ko">"그녀는 친절해 보이지만, 진짜 의도가 뭘까요?" (겉모습과 다른 내면의 목적)</div>
@@ -9363,7 +9363,7 @@ O   O   O
     <h2 class="insight-h2">③ 의사 진행의 순서 + Order of Proceedings</h2>
     <p class="insight-p">Agenda는 회의나 이벤트에서 다룰 주제의 순서를 지칭합니다.</p>
     <div class="example-group">
-        <div class="ex-en">"Next on the agenda is the company's annual report."</div>
+        <div class="ex-en">"Next on the agenda is the company's annual report." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;Next on the agenda is the company\'s annual report.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"다음 의제는 회사의 연례 보고서입니다." (정해진 순서에 따라 진행)</div>
         <div class="ex-en" style="margin-top:12px;">"We will follow the agenda strictly to save time."</div>
         <div class="ex-ko">"시간을 절약하기 위해 의제를 엄격히 따를 것입니다." (효율적인 진행을 위한 순서)</div>
@@ -9406,7 +9406,7 @@ O   O   O
     <h2 class="insight-h2">① 후속 조치의 중요성 (Importance of Follow-up)</h2>
     <p class="insight-p">Follow-up은 초기 행동이 효과적이었는지 확인하기 위한 중요한 단계입니다.</p>
     <div class="example-group">
-        <div class="ex-en">"The doctor scheduled a follow-up appointment to check the patient's progress."</div>
+        <div class="ex-en">"The doctor scheduled a follow-up appointment to check the patient's progress." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;The doctor scheduled a follow-up appointment to check the patient\'s progress.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"의사는 환자의 진행 상황을 확인하기 위해 후속 진료를 예약했습니다." (초기 치료 후 진행을 확인하기 위한 후속 조치)</div>
         <div class="ex-en" style="margin-top:12px;">"We need to do a follow-up on last week's meeting to ensure tasks are being completed."</div>
         <div class="ex-ko">"우리는 지난주 회의에 대한 후속 조치를 취해 업무가 수행되고 있는지 확인해야 합니다." (회의 후 후속 상황을 확인하는 과정)</div>
@@ -9415,7 +9415,7 @@ O   O   O
     <h2 class="insight-h2">② 후속 대화 (Follow-up Conversation)</h2>
     <p class="insight-p">Follow-up은 대화나 논의가 끝난 후 더 깊은 논의를 위한 방법으로 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">"I sent a follow-up email to address the questions that were raised."</div>
+        <div class="ex-en">"I sent a follow-up email to address the questions that were raised." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;I sent a follow-up email to address the questions that were raised.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"제기된 질문들을 해결하기 위해 후속 이메일을 보냈습니다." (초기 대화 후 추가 논의를 위한 이메일)</div>
         <div class="ex-en" style="margin-top:12px;">"After the interview, I did a follow-up call to express my continued interest in the position."</div>
         <div class="ex-ko">"면접 후 해당 직무에 대한 지속적인 관심을 표현하기 위해 후속 전화를 했습니다." (면접 후 자신의 관심을 다시 강조하기 위한 전화)</div>
@@ -9424,7 +9424,7 @@ O   O   O
     <h2 class="insight-h2">③ 후속 모니터링 (Follow-up Monitoring)</h2>
     <p class="insight-p">Follow-up은 진행 상황을 지속적으로 모니터링하기 위한 방법입니다.</p>
     <div class="example-group">
-        <div class="ex-en">"We will conduct follow-up monitoring to ensure compliance with the new regulations."</div>
+        <div class="ex-en">"We will conduct follow-up monitoring to ensure compliance with the new regulations." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;We will conduct follow-up monitoring to ensure compliance with the new regulations.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"새 규정 준수를 보장하기 위해 후속 모니터링을 실시할 것입니다." (규정 준수를 확인하기 위한 지속적인 확인)</div>
         <div class="ex-en" style="margin-top:12px;">"The project manager scheduled follow-up reviews to track the team's progress."</div>
         <div class="ex-ko">"프로젝트 매니저는 팀의 진행 상황을 추적하기 위해 후속 검토를 일정에 추가했습니다." (진행 상황을 지속적으로 확인하기 위한 검토)</div>
@@ -9434,13 +9434,13 @@ O   O   O
     "Leverage": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Leverage</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Leverage</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Leverage')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Leverage은 <strong>'자원을 효과적으로 활용하여 최적의 결과를 얻는 것'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Leverage의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Leverage</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Leverage</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Leverage')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"최고의 이점을 얻기 위한 전략적 사용"</div>
         <p>입니다. (Leverage는 상황을 유리하게 활용하는 것을 강조합니다.)</p>
     </div>
@@ -9463,7 +9463,7 @@ Maximize Result
     <h2 class="insight-h2">① 전략적 활용 Strategic Utilization</h2>
     <p class="insight-p">Leverage는 특정 자원이나 상황을 최대한 활용하여 이익을 얻는 것을 의미합니다.</p>
     <div class="example-group">
-        <div class="ex-en">She leveraged her network to find a new job.</div>
+        <div class="ex-en">She leveraged her network to find a new job. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('She leveraged her network to find a new job.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀는 새로운 직장을 찾기 위해 자신의 인맥을 활용했다. (네트워크를 전략적으로 사용하여 이익을 얻음)</div>
         <div class="ex-en" style="margin-top:12px;">He leveraged his experience to secure the contract.</div>
         <div class="ex-ko">그는 계약을 따내기 위해 자신의 경험을 활용했다. (경험을 전략적으로 사용하여 결과를 얻음)</div>
@@ -9472,7 +9472,7 @@ Maximize Result
     <h2 class="insight-h2">② 영향력 Influence</h2>
     <p class="insight-p">Leverage는 특정 상황에서 더 큰 영향력을 행사하기 위한 수단으로 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">They used their influence to leverage the negotiations.</div>
+        <div class="ex-en">They used their influence to leverage the negotiations. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('They used their influence to leverage the negotiations.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그들은 협상을 유리하게 이끌기 위해 그들의 영향력을 사용했다. (영향력을 행사하여 협상에서 우위를 점함)</div>
         <div class="ex-en" style="margin-top:12px;">The company leveraged its brand reputation to enter new markets.</div>
         <div class="ex-ko">그 회사는 새로운 시장에 진입하기 위해 브랜드 명성을 활용했다. (브랜드 명성을 통해 더 큰 영향력을 행사함)</div>
@@ -9481,7 +9481,7 @@ Maximize Result
     <h2 class="insight-h2">③ 금융에서의 레버리지 Leverage in Finance</h2>
     <p class="insight-p">Leverage는 금융 분야에서 투자 수익을 극대화하기 위해 차입금을 사용하는 것을 의미합니다.</p>
     <div class="example-group">
-        <div class="ex-en">The investor leveraged his portfolio by borrowing funds.</div>
+        <div class="ex-en">The investor leveraged his portfolio by borrowing funds. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The investor leveraged his portfolio by borrowing funds.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">투자자는 자금을 차입하여 포트폴리오를 레버리지했다. (차입금을 사용하여 투자 수익을 극대화함)</div>
         <div class="ex-en" style="margin-top:12px;">Leverage can amplify both gains and losses in investments.</div>
         <div class="ex-ko">레버리지는 투자에서 이익과 손실을 모두 증폭시킬 수 있다. (금융 레버리지는 위험과 보상을 모두 증가시킴)</div>
@@ -9491,13 +9491,13 @@ Maximize Result
     "Connection": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Connection</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Connection</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Connection')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Connection은 <strong>'사람이나 사물 간의 본질적인 유대감'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Connection의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Connection</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Connection</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Connection')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"서로를 잇는 유대감과 연대"</div>
         <p>입니다. 이는 관계를 형성하고 유지하는 데 중요합니다.</p>
     </div>
@@ -9515,7 +9515,7 @@ Maximize Result
     <h2 class="insight-h2">① 인간관계 연결 Human Relationship Connection</h2>
     <p class="insight-p">사람들 간의 심리적 또는 정서적 유대감을 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">They felt a strong connection from the moment they met.</div>
+        <div class="ex-en">They felt a strong connection from the moment they met. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('They felt a strong connection from the moment they met.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그들은 만난 순간부터 강한 연결을 느꼈다. (즉각적인 유대감을 형성함)</div>
         <div class="ex-en" style="margin-top:12px;">Building connections with others can lead to meaningful friendships.</div>
         <div class="ex-ko">다른 사람들과의 연결을 구축하면 의미 있는 우정으로 이어질 수 있다. (유대감이 우정으로 발전)</div>
@@ -9524,7 +9524,7 @@ Maximize Result
     <h2 class="insight-h2">② 네트워크 연결 Network Connection</h2>
     <p class="insight-p">기술적 또는 인프라적 연결을 설명하는 데 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">The internet connection is quite slow today.</div>
+        <div class="ex-en">The internet connection is quite slow today. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The internet connection is quite slow today.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">오늘 인터넷 연결이 꽤 느리다. (기술적 연결의 상태)</div>
         <div class="ex-en" style="margin-top:12px;">Ensure your network connections are secure.</div>
         <div class="ex-ko">네트워크 연결이 안전한지 확인하세요. (기술적 연결의 보안 강조)</div>
@@ -9533,7 +9533,7 @@ Maximize Result
     <h2 class="insight-h2">③ 개념적 연결 Conceptual Connection</h2>
     <p class="insight-p">아이디어나 주제 간의 관계를 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">The connection between the two theories was groundbreaking.</div>
+        <div class="ex-en">The connection between the two theories was groundbreaking. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The connection between the two theories was groundbreaking.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">두 이론 간의 연결은 획기적이었다. (이론적 연결의 중요성)</div>
         <div class="ex-en" style="margin-top:12px;">She made a connection between the historical events and current issues.</div>
         <div class="ex-ko">그녀는 역사적 사건과 현재 문제들 간의 연결을 만들었다. (과거와 현재의 개념적 연결)</div>
@@ -9543,13 +9543,13 @@ Maximize Result
     "empower": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>empower</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>empower</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('empower')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 empower은 <strong>'능력을 부여하고 자신감을 주는 핵심적 행위'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">empower의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>empower</strong>의 핵심은</p>
+        <p>원어민에게 <strong>empower</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('empower')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"스스로 할 수 있도록 힘을 주는 것"</div>
         <p>입니다. 이는 상대방에게 자율성과 자신감을 심어주는 행위를 의미합니다.</p>
     </div>
@@ -9571,7 +9571,7 @@ Maximize Result
     <h2 class="insight-h2">① 권한 부여 + Authorization</h2>
     <p class="insight-p">누군가에게 공식적 권한이나 책임을 부여하는 상황에서 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">The manager empowered her team to make decisions.</div>
+        <div class="ex-en">The manager empowered her team to make decisions. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The manager empowered her team to make decisions.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그 매니저는 팀에게 결정을 내릴 권한을 주었습니다. (팀이 독자적으로 행동할 수 있도록 권한을 부여)</div>
         <div class="ex-en" style="margin-top:12px;">The new law empowers citizens to vote at 18.</div>
         <div class="ex-ko">새 법은 시민들이 18세에 투표할 수 있도록 권한을 줍니다. (공식적으로 행동할 수 있는 권한 부여)</div>
@@ -9580,7 +9580,7 @@ Maximize Result
     <h2 class="insight-h2">② 자신감 부여 + Confidence Boost</h2>
     <p class="insight-p">개인의 능력과 자신감을 키우도록 돕는 경우에 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">The workshop was designed to empower women in the community.</div>
+        <div class="ex-en">The workshop was designed to empower women in the community. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The workshop was designed to empower women in the community.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그 워크숍은 지역 사회의 여성들에게 자신감을 주기 위해 설계되었습니다. (자신감과 능력을 키우도록 도움)</div>
         <div class="ex-en" style="margin-top:12px;">She felt empowered after completing the training.</div>
         <div class="ex-ko">그녀는 훈련을 마친 후 더 자신감을 느꼈습니다. (훈련을 통해 자신감을 얻음)</div>
@@ -9589,7 +9589,7 @@ Maximize Result
     <h2 class="insight-h2">③ 자율성 부여 + Autonomy</h2>
     <p class="insight-p">개인이 자유롭게 행동하거나 결정을 내릴 수 있도록 자율성을 주는 상황에서 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Parents should empower their children to explore new interests.</div>
+        <div class="ex-en">Parents should empower their children to explore new interests. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Parents should empower their children to explore new interests.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">부모는 아이들이 새로운 관심사를 탐구할 수 있도록 자율성을 줘야 합니다. (자유롭게 탐구할 수 있는 기회 제공)</div>
         <div class="ex-en" style="margin-top:12px;">The policy empowers employees to work remotely.</div>
         <div class="ex-ko">그 정책은 직원들이 원격으로 근무할 수 있는 자율성을 줍니다. (자율적으로 근무 환경을 선택할 수 있는 권한 제공)</div>
@@ -9599,13 +9599,13 @@ Maximize Result
     "communicate": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>communicate</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>communicate</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('communicate')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 communicate은 <strong>'명확하고 직접적인 전달'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">communicate의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>communicate</strong>의 핵심은</p>
+        <p>원어민에게 <strong>communicate</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('communicate')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"생각과 감정을 명확히 전달하는 것"</div>
         <p>입니다. 이해하기 쉽게 전달하는 것이 중요합니다.</p>
     </div>
@@ -9625,7 +9625,7 @@ Maximize Result
     <h2 class="insight-h2">① 명확한 전달 Clear Expression</h2>
     <p class="insight-p">Communicate는 명확하게 의사를 전달하는 것에 중점을 둡니다.</p>
     <div class="example-group">
-        <div class="ex-en">She communicated her ideas clearly to the team.</div>
+        <div class="ex-en">She communicated her ideas clearly to the team. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('She communicated her ideas clearly to the team.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀는 팀에게 자신의 아이디어를 명확하게 전달했습니다. (명확한 전달의 뉘앙스)</div>
         <div class="ex-en" style="margin-top:12px;">It's important to communicate your needs to your partner.</div>
         <div class="ex-ko">파트너에게 당신의 필요를 전달하는 것이 중요합니다. (명확하고 직접적인 전달의 중요성)</div>
@@ -9634,7 +9634,7 @@ Maximize Result
     <h2 class="insight-h2">② 상호작용 Interaction</h2>
     <p class="insight-p">Communicate는 쌍방향의 상호작용을 포함합니다.</p>
     <div class="example-group">
-        <div class="ex-en">They use technology to communicate with clients worldwide.</div>
+        <div class="ex-en">They use technology to communicate with clients worldwide. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('They use technology to communicate with clients worldwide.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그들은 전 세계의 고객들과 소통하기 위해 기술을 사용합니다. (상호작용의 뉘앙스)</div>
         <div class="ex-en" style="margin-top:12px;">The teacher communicated with parents about the student's progress.</div>
         <div class="ex-ko">교사는 학생의 진도를 부모님과 상호작용하며 전달했습니다. (정보의 상호 교환)</div>
@@ -9643,7 +9643,7 @@ Maximize Result
     <h2 class="insight-h2">③ 감정의 전달 Conveying Emotions</h2>
     <p class="insight-p">Communicate는 감정을 전달하는 것을 포함합니다.</p>
     <div class="example-group">
-        <div class="ex-en">He found it difficult to communicate his feelings.</div>
+        <div class="ex-en">He found it difficult to communicate his feelings. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('He found it difficult to communicate his feelings.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그는 자신의 감정을 전달하는 데 어려움을 겪었습니다. (감정 전달의 어려움)</div>
         <div class="ex-en" style="margin-top:12px;">Art is a way to communicate complex emotions.</div>
         <div class="ex-ko">예술은 복잡한 감정을 전달하는 방법입니다. (감정을 표현하고 전달하는 수단)</div>
@@ -9653,13 +9653,13 @@ Maximize Result
     "empathy": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>empathy</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>empathy</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('empathy')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 empathy은 <strong>'타인의 감정을 진정으로 느끼고 이해하는 것'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">empathy의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>empathy</strong>의 핵심은</p>
+        <p>원어민에게 <strong>empathy</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('empathy')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"감정을 함께 느끼는 능력"</div>
         <p>입니다. 이는 단순한 동정심을 넘어서는 것입니다.</p>
     </div>
@@ -9679,7 +9679,7 @@ Maximize Result
     <h2 class="insight-h2">① 감정의 공유 (Sharing of Emotions)</h2>
     <p class="insight-p">empathy는 타인의 감정을 나의 것처럼 느끼고 공유하는 능력입니다.</p>
     <div class="example-group">
-        <div class="ex-en">She felt a deep empathy for the grieving family.</div>
+        <div class="ex-en">She felt a deep empathy for the grieving family. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('She felt a deep empathy for the grieving family.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀는 슬퍼하는 가족을 깊이 공감했다. (가족의 슬픔을 자신의 것처럼 느꼈음을 의미)</div>
         <div class="ex-en" style="margin-top:12px;">His empathy allowed him to comfort his friend effectively.</div>
         <div class="ex-ko">그의 공감 능력 덕분에 그는 친구를 효과적으로 위로할 수 있었다. (친구의 감정을 이해하고 함께 느꼈음을 뜻함)</div>
@@ -9688,7 +9688,7 @@ Maximize Result
     <h2 class="insight-h2">② 타인의 입장에서 생각하기 (Thinking from Others' Perspectives)</h2>
     <p class="insight-p">empathy는 타인의 입장에서 상황을 이해하려는 노력을 포함합니다.</p>
     <div class="example-group">
-        <div class="ex-en">By showing empathy, she could see the situation from her colleague's point of view.</div>
+        <div class="ex-en">By showing empathy, she could see the situation from her colleague's point of view. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('By showing empathy, she could see the situation from her colleague\'s point of view.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">공감을 통해 그녀는 동료의 관점에서 상황을 볼 수 있었다. (동료의 입장을 진정으로 이해하려 함)</div>
         <div class="ex-en" style="margin-top:12px;">Empathy helps us walk a mile in someone else's shoes.</div>
         <div class="ex-ko">공감은 우리가 다른 사람의 처지에서 상황을 이해하도록 돕는다. (그 사람의 입장이 되어 생각해보는 것을 의미)</div>
@@ -9697,7 +9697,7 @@ Maximize Result
     <h2 class="insight-h2">③ 진정한 연결 (True Connection)</h2>
     <p class="insight-p">empathy는 사람들 간의 진정한 연결을 형성하는 데 중요한 역할을 합니다.</p>
     <div class="example-group">
-        <div class="ex-en">Her empathy created a bond of trust with the team.</div>
+        <div class="ex-en">Her empathy created a bond of trust with the team. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Her empathy created a bond of trust with the team.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀의 공감은 팀과의 신뢰의 유대를 형성했다. (공감을 통해 신뢰감 있는 관계를 구축했음을 의미)</div>
         <div class="ex-en" style="margin-top:12px;">Empathy can bridge the gap between different cultures.</div>
         <div class="ex-ko">공감은 서로 다른 문화 간의 격차를 메울 수 있다. (공감을 통해 문화적 차이를 극복하고 연결할 수 있음을 뜻함)</div>
@@ -9707,13 +9707,13 @@ Maximize Result
     "kindness": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>kindness</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>kindness</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('kindness')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 kindness은 <strong>'진정한 배려와 따뜻함'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">kindness의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>kindness</strong>의 핵심은</p>
+        <p>원어민에게 <strong>kindness</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('kindness')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"조건 없는 따뜻함과 이해"</div>
         <p>입니다. (kindness는 주로 상대방에게 무언가를 기대하지 않고 베푸는 행동을 말합니다.)</p>
     </div>
@@ -9732,7 +9732,7 @@ Maximize Result
     <h2 class="insight-h2">① 진정한 관심과 배려</h2>
     <p class="insight-p">kindness는 상대방의 입장을 이해하고 그들에게 진심으로 관심을 갖는 것을 의미합니다.</p>
     <div class="example-group">
-        <div class="ex-en">She showed kindness by listening to his troubles without judgment.</div>
+        <div class="ex-en">She showed kindness by listening to his troubles without judgment. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('She showed kindness by listening to his troubles without judgment.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀는 그의 고민을 판단 없이 들어줌으로써 친절함을 보였다. (상대방의 입장을 이해하는 모습)</div>
         <div class="ex-en" style="margin-top:12px;">He offered his seat to the elderly, a simple act of kindness.</div>
         <div class="ex-ko">그는 노인에게 자리를 양보했다, 이는 간단한 친절의 행동이다. (작은 행동이지만 배려를 보여줌)</div>
@@ -9741,7 +9741,7 @@ Maximize Result
     <h2 class="insight-h2">② 무조건적인 도움</h2>
     <p class="insight-p">kindness는 보답을 바라지 않고 다른 사람을 돕는 행동을 포함합니다.</p>
     <div class="example-group">
-        <div class="ex-en">He helped his neighbor with the groceries, out of sheer kindness.</div>
+        <div class="ex-en">He helped his neighbor with the groceries, out of sheer kindness. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('He helped his neighbor with the groceries, out of sheer kindness.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그는 순수한 친절함으로 이웃의 장보기를 도왔다. (보답을 기대하지 않는 도움)</div>
         <div class="ex-en" style="margin-top:12px;">Her kindness was evident when she donated anonymously.</div>
         <div class="ex-ko">그녀의 친절함은 익명으로 기부했을 때 분명했다. (익명 기부를 통해 드러난 이타심)</div>
@@ -9750,7 +9750,7 @@ Maximize Result
     <h2 class="insight-h2">③ 긍정적인 영향</h2>
     <p class="insight-p">kindness는 주변 사람들에게 긍정적인 영향을 미치고, 그들 역시 다른 이들에게 친절하게 만듭니다.</p>
     <div class="example-group">
-        <div class="ex-en">His kindness inspired others to volunteer more in their community.</div>
+        <div class="ex-en">His kindness inspired others to volunteer more in their community. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('His kindness inspired others to volunteer more in their community.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그의 친절함은 다른 사람들이 지역 사회에서 더 많이 자원 봉사하도록 영감을 주었다. (친절은 전염성이 있음)</div>
         <div class="ex-en" style="margin-top:12px;">A simple act of kindness can create a ripple effect of goodwill.</div>
         <div class="ex-ko">간단한 친절의 행동이 선의의 물결 효과를 만들 수 있다. (한 사람의 행동이 널리 영향을 미침)</div>
@@ -9760,13 +9760,13 @@ Maximize Result
     "patience": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>patience</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>patience</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('patience')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 patience은 <strong>'끈기의 여유를 가지는 것'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">patience의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>patience</strong>의 핵심은</p>
+        <p>원어민에게 <strong>patience</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('patience')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"시간과 여유를 가지고 기다림"</div>
         <p>입니다. 이는 상황에 대한 이해와 포용력을 나타냅니다.</p>
     </div>
@@ -9787,7 +9787,7 @@ Maximize Result
     <h2 class="insight-h2">① 인내의 시간적 측면 Patience in Time</h2>
     <p class="insight-p">인내는 시간을 들여 무언가를 기다리는 능력을 의미합니다.</p>
     <div class="example-group">
-        <div class="ex-en">She showed great patience in waiting for the results.</div>
+        <div class="ex-en">She showed great patience in waiting for the results. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('She showed great patience in waiting for the results.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀는 결과를 기다리는데 큰 인내심을 보였다. (여기서 인내심은 시간이 걸리는 일에 대한 긍정적 태도를 의미합니다)</div>
         <div class="ex-en" style="margin-top:12px;">He has the patience to teach young children.</div>
         <div class="ex-ko">그는 어린 아이들을 가르칠 인내심이 있다. (여기서 인내심은 오래 걸리는 일을 참을성 있게 수행하는 능력을 말합니다)</div>
@@ -9796,7 +9796,7 @@ Maximize Result
     <h2 class="insight-h2">② 상황의 이해 Patience in Understanding</h2>
     <p class="insight-p">인내는 타인을 이해하고 그들의 입장을 고려하는 능력을 포함합니다.</p>
     <div class="example-group">
-        <div class="ex-en">Patience is needed when dealing with different opinions.</div>
+        <div class="ex-en">Patience is needed when dealing with different opinions. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Patience is needed when dealing with different opinions.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">다른 의견을 다룰 때는 인내가 필요하다. (여기서 인내는 다양한 관점을 수용하는 능력을 의미합니다)</div>
         <div class="ex-en" style="margin-top:12px;">His patience helped resolve the conflict peacefully.</div>
         <div class="ex-ko">그의 인내심은 갈등을 평화롭게 해결하는데 도움이 되었다. (여기서 인내는 상황을 이해하고 조율하는 능력을 말합니다)</div>
@@ -9805,7 +9805,7 @@ Maximize Result
     <h2 class="insight-h2">③ 끈기의 여유 Patience in Persistence</h2>
     <p class="insight-p">인내는 끈기를 가지고 목표를 향해 나아가는 태도를 의미합니다.</p>
     <div class="example-group">
-        <div class="ex-en">Success requires patience and determination.</div>
+        <div class="ex-en">Success requires patience and determination. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Success requires patience and determination.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">성공은 인내와 결단력을 요구한다. (여기서 인내는 목표를 향해 꾸준히 나아가는 끈기를 의미합니다)</div>
         <div class="ex-en" style="margin-top:12px;">With patience, she finally mastered the skill.</div>
         <div class="ex-ko">인내심을 가지고 그녀는 마침내 그 기술을 익혔다. (여기서 인내는 지속적인 노력과 끈기를 의미합니다)</div>
@@ -9815,13 +9815,13 @@ Maximize Result
     "I understand": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>I understand</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>I understand</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I understand')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 I understand은 <strong>'상대방의 말을 완전히 받아들이고 공감한다는 의미'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">I understand의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>I understand</strong>의 핵심은</p>
+        <p>원어민에게 <strong>I understand</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I understand')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"상대방의 입장을 진심으로 파악함"</div>
         <p>즉, 단순한 이해를 넘어서 감정적 교감을 포함합니다.</p>
     </div>
@@ -9840,7 +9840,7 @@ Maximize Result
     <h2 class="insight-h2">① 이해의 표현 Understanding</h2>
     <p class="insight-p">상대방의 설명이나 감정을 이해하고 있다는 것을 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">I understand how you feel about this situation.</div>
+        <div class="ex-en">I understand how you feel about this situation. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I understand how you feel about this situation.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">이 상황에 대해 어떻게 느끼는지 이해해요. (상대방의 감정을 받아들임)</div>
         <div class="ex-en" style="margin-top:12px;">I understand that this decision is difficult for you.</div>
         <div class="ex-ko">이 결정이 당신에게 어렵다는 것을 이해해요. (결정 과정의 어려움을 인정함)</div>
@@ -9849,7 +9849,7 @@ Maximize Result
     <h2 class="insight-h2">② 동의의 표현 Agreement</h2>
     <p class="insight-p">상대방의 의견에 동의하거나 수긍할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">I understand and agree with your point of view.</div>
+        <div class="ex-en">I understand and agree with your point of view. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I understand and agree with your point of view.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">당신의 관점을 이해하고 동의합니다. (의견에 대한 수긍)</div>
         <div class="ex-en" style="margin-top:12px;">I understand what you mean, and I think you're right.</div>
         <div class="ex-ko">당신의 말이 무슨 의미인지 이해했고, 당신이 옳다고 생각해요. (의견을 받아들임)</div>
@@ -9858,7 +9858,7 @@ Maximize Result
     <h2 class="insight-h2">③ 문제 해결의 표현 Problem-solving</h2>
     <p class="insight-p">상황을 이해하고 문제를 해결하려는 의지를 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">I understand the issue and will work on a solution.</div>
+        <div class="ex-en">I understand the issue and will work on a solution. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I understand the issue and will work on a solution.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">문제를 이해했고 해결책을 찾기 위해 노력할게요. (문제 해결을 약속함)</div>
         <div class="ex-en" style="margin-top:12px;">I understand your concerns and will address them promptly.</div>
         <div class="ex-ko">당신의 우려를 이해하며, 신속히 해결하겠습니다. (문제 해결의 의지 표명)</div>
@@ -9868,13 +9868,13 @@ Maximize Result
     "I hear you": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>I hear you</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>I hear you</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I hear you')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 I hear you은 <strong>'상대방의 감정과 상황을 이해하고 공감한다는 표현'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">I hear you의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>I hear you</strong>의 핵심은</p>
+        <p>원어민에게 <strong>I hear you</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I hear you')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"당신의 말을 듣고 이해합니다"</div>
         <p>입니다. 이 표현은 상대의 말을 적극적으로 수용하는 모습을 보여줍니다.</p>
     </div>
@@ -9893,7 +9893,7 @@ Maximize Result
     <h2 class="insight-h2">① 이해와 공감 - Understanding and Empathy</h2>
     <p class="insight-p">이 표현은 상대방의 감정을 이해하고 공감할 때 흔히 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">"I hear you, it's really tough to manage everything alone."</div>
+        <div class="ex-en">"I hear you, it's really tough to manage everything alone." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;I hear you, it\'s really tough to manage everything alone.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"네 마음 알아, 혼자서 모든 걸 관리하는 게 정말 힘들지." (상대의 고충을 이해하고 있음을 표현)</div>
         <div class="ex-en" style="margin-top:12px;">"I hear you, and I'm here if you need to talk."</div>
         <div class="ex-ko">"네 마음 알아, 얘기하고 싶으면 언제든지 말해." (상대방의 감정을 이해하고 지원을 제안하는 뉘앙스)</div>
@@ -9902,7 +9902,7 @@ Maximize Result
     <h2 class="insight-h2">② 문제 인식 - Acknowledging Issues</h2>
     <p class="insight-p">상대방이 제기한 문제를 인식하고 이를 해결하고자 하는 의지를 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">"I hear you, and we will work on fixing this issue."</div>
+        <div class="ex-en">"I hear you, and we will work on fixing this issue." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;I hear you, and we will work on fixing this issue.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"당신의 말을 이해했습니다. 이 문제를 해결하기 위해 노력하겠습니다." (문제를 인식하고 해결하려는 의지를 보임)</div>
         <div class="ex-en" style="margin-top:12px;">"I hear you, let's schedule a meeting to discuss this further."</div>
         <div class="ex-ko">"당신의 말을 이해했습니다. 이 문제를 더 논의하기 위해 회의를 잡아 봅시다." (문제를 더 깊이 논의하고자 하는 의지)</div>
@@ -9911,7 +9911,7 @@ Maximize Result
     <h2 class="insight-h2">③ 의견 수용 - Acceptance of Opinions</h2>
     <p class="insight-p">상대방의 의견을 존중하고 수용할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">"I hear you, and I think you have a valid point."</div>
+        <div class="ex-en">"I hear you, and I think you have a valid point." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;I hear you, and I think you have a valid point.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"당신의 의견을 이해합니다, 그리고 당신의 의견이 타당하다고 생각해요." (상대방의 의견을 수용하고 인정함)</div>
         <div class="ex-en" style="margin-top:12px;">"I hear you, let's consider this option."</div>
         <div class="ex-ko">"당신의 의견을 이해했습니다. 이 옵션을 고려해 보죠." (상대방의 제안을 수용하여 검토하고자 함)</div>
@@ -9921,13 +9921,13 @@ Maximize Result
     "I'm sorry to hear that": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>I'm sorry to hear that</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>I'm sorry to hear that</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I\'m sorry to hear that')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 I'm sorry to hear that은 <strong>'진심 어린 공감의 표현'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">I'm sorry to hear that의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>I'm sorry to hear that</strong>의 핵심은</p>
+        <p>원어민에게 <strong>I'm sorry to hear that</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I\'m sorry to hear that')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"상대방의 감정에 대한 진심 어린 공감"</div>
         <p>입니다. 이 표현은 상대의 감정 상태를 깊이 이해하고 있다는 메시지를 전달합니다.</p>
     </div>
@@ -9948,7 +9948,7 @@ Maximize Result
     <h2 class="insight-h2">① 위로와 공감 (Condolence and Empathy)</h2>
     <p class="insight-p">이 표현은 상대방의 슬픔이나 불행한 소식을 들었을 때 위로의 말로 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">I heard about your loss. I'm sorry to hear that.</div>
+        <div class="ex-en">I heard about your loss. I'm sorry to hear that. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I heard about your loss. I\'m sorry to hear that.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">당신의 상심에 대해 들었습니다. 참 안타깝네요. (상대방의 슬픔에 대한 진심 어린 공감)</div>
         <div class="ex-en" style="margin-top:12px;">I'm sorry to hear that you didn't get the job.</div>
         <div class="ex-ko">당신이 그 직장을 얻지 못했다니 안타깝네요. (상대방의 실망에 대한 위로)</div>
@@ -9957,7 +9957,7 @@ Maximize Result
     <h2 class="insight-h2">② 상황에 대한 이해 (Understanding the Situation)</h2>
     <p class="insight-p">상대가 처한 어려운 상황을 이해하고 있다는 것을 표현할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">I'm sorry to hear that your project was delayed.</div>
+        <div class="ex-en">I'm sorry to hear that your project was delayed. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I\'m sorry to hear that your project was delayed.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">프로젝트가 지연되었다니 안타깝네요. (상대방의 어려운 상황에 대한 이해)</div>
         <div class="ex-en" style="margin-top:12px;">It's unfortunate about the cancellation. I'm sorry to hear that.</div>
         <div class="ex-ko">취소되었다니 안타깝네요. (상황의 불편함에 대한 이해와 공감)</div>
@@ -9966,7 +9966,7 @@ Maximize Result
     <h2 class="insight-h2">③ 감정의 진정성 표현 (Expression of Genuine Emotion)</h2>
     <p class="insight-p">상대방의 감정에 진정으로 반응하고 있음을 보여줍니다.</p>
     <div class="example-group">
-        <div class="ex-en">I just heard about your accident. I'm really sorry to hear that.</div>
+        <div class="ex-en">I just heard about your accident. I'm really sorry to hear that. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I just heard about your accident. I\'m really sorry to hear that.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">당신의 사고 소식을 방금 들었어요. 정말 안타깝네요. (진정한 감정의 표현)</div>
         <div class="ex-en" style="margin-top:12px;">I'm sorry to hear that things are tough right now.</div>
         <div class="ex-ko">지금 상황이 힘들다니 안타깝네요. (상대방에게 진심 어린 관심과 걱정을 표현)</div>
@@ -9976,13 +9976,13 @@ Maximize Result
     "Empathy": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Empathy</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Empathy</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Empathy')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Empathy은 <strong>'타인의 감정을 이해하고 공감하는 능력'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Empathy의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Empathy</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Empathy</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Empathy')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"타인의 신발을 신고 걸어보기"</div>
         <p>입니다. Empathy는 단순한 동정이 아닌 타인의 입장에서 느껴보려는 진정한 노력입니다.</p>
     </div>
@@ -10004,7 +10004,7 @@ Maximize Result
     <h2 class="insight-h2">① 타인의 감정 이해하기 (Understanding Others' Feelings)</h2>
     <p class="insight-p">Empathy는 다른 사람의 감정을 이해하려는 능력입니다.</p>
     <div class="example-group">
-        <div class="ex-en">She showed great empathy when she listened to his problems.</div>
+        <div class="ex-en">She showed great empathy when she listened to his problems. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('She showed great empathy when she listened to his problems.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀는 그의 문제를 들으면서 큰 공감을 보여주었습니다. (다른 사람의 감정을 이해하고 있다는 뉘앙스)</div>
         <div class="ex-en" style="margin-top:12px;">His empathy towards the victims was evident in his speech.</div>
         <div class="ex-ko">그의 연설에서 피해자들에 대한 공감이 뚜렷했습니다. (말을 통해 타인의 감정을 이해하는 모습)</div>
@@ -10013,7 +10013,7 @@ Maximize Result
     <h2 class="insight-h2">② 감정 이입하기 (Putting Oneself in Others' Shoes)</h2>
     <p class="insight-p">Empathy는 다른 사람의 상황에 자신을 투영해보는 것입니다.</p>
     <div class="example-group">
-        <div class="ex-en">He tried to empathize with her situation by imagining himself in her place.</div>
+        <div class="ex-en">He tried to empathize with her situation by imagining himself in her place. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('He tried to empathize with her situation by imagining himself in her place.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그는 그녀의 입장에 자신을 대입하여 그녀의 상황에 공감하려고 노력했습니다. (타인의 입장이 되어보려는 시도)</div>
         <div class="ex-en" style="margin-top:12px;">Empathy requires us to step into another's shoes and feel their journey.</div>
         <div class="ex-ko">공감은 우리에게 다른 사람의 신발을 신고 그들의 여정을 느껴보도록 요구합니다. (타인의 경험을 느껴보려는 것)</div>
@@ -10022,7 +10022,7 @@ Maximize Result
     <h2 class="insight-h2">③ 진정한 연결 형성하기 (Forming Genuine Connections)</h2>
     <p class="insight-p">Empathy는 진정한 인간적 유대감을 형성하게 합니다.</p>
     <div class="example-group">
-        <div class="ex-en">Through empathy, we can build stronger relationships.</div>
+        <div class="ex-en">Through empathy, we can build stronger relationships. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Through empathy, we can build stronger relationships.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">공감을 통해 우리는 더 강한 관계를 형성할 수 있습니다. (공감이 관계 형성에 미치는 긍정적 영향)</div>
         <div class="ex-en" style="margin-top:12px;">Empathy allows us to connect with others on a deeper level.</div>
         <div class="ex-ko">공감은 우리가 더 깊은 수준에서 다른 사람들과 연결될 수 있게 합니다. (감정적으로 더 깊이 연결되는 것)</div>
@@ -10032,13 +10032,13 @@ Maximize Result
     "Compassion": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Compassion</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Compassion</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Compassion')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Compassion은 <strong>'타인의 아픔을 진심으로 이해하고 함께 느끼는 것'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Compassion의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Compassion</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Compassion</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Compassion')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"타인의 고통에 진정으로 공감하는 마음"</div>
         <p>입니다. 이는 단순한 동정심을 넘어선 깊은 이해와 연결이 수반됩니다.</p>
     </div>
@@ -10057,7 +10057,7 @@ Maximize Result
     <h2 class="insight-h2">① 진정한 이해와 공감 (True Understanding and Empathy)</h2>
     <p class="insight-p">Compassion은 타인의 감정을 진정으로 이해하고 공감하는 것을 의미합니다.</p>
     <div class="example-group">
-        <div class="ex-en">She showed compassion by listening to his troubles without judgment.</div>
+        <div class="ex-en">She showed compassion by listening to his troubles without judgment. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('She showed compassion by listening to his troubles without judgment.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀는 그의 고민을 판단 없이 들어주며 동정심을 보였다. (타인의 감정을 진정으로 이해하고 공감하는 행위)</div>
         <div class="ex-en" style="margin-top:12px;">His compassion was evident when he comforted his grieving friend.</div>
         <div class="ex-ko">그의 동정심은 슬픔에 잠긴 친구를 위로할 때 확연히 드러났다. (진정한 이해와 공감을 통한 위로)</div>
@@ -10066,7 +10066,7 @@ Maximize Result
     <h2 class="insight-h2">② 적극적인 행동 (Active Action)</h2>
     <p class="insight-p">Compassion은 단순한 감정 이상으로 행동을 통해 표현됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Volunteering at the shelter was her way of showing compassion.</div>
+        <div class="ex-en">Volunteering at the shelter was her way of showing compassion. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Volunteering at the shelter was her way of showing compassion.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">보호소에서 자원봉사를 하는 것은 그녀가 동정심을 표현하는 방법이었다. (감정을 행동으로 옮기는 것)</div>
         <div class="ex-en" style="margin-top:12px;">He showed compassion by donating to those in need.</div>
         <div class="ex-ko">그는 도움이 필요한 사람들에게 기부함으로써 동정심을 보였다. (적극적인 행동을 통한 표현)</div>
@@ -10075,7 +10075,7 @@ Maximize Result
     <h2 class="insight-h2">③ 연대와 연결 (Solidarity and Connection)</h2>
     <p class="insight-p">Compassion은 타인과의 연대와 정서적 연결을 강화합니다.</p>
     <div class="example-group">
-        <div class="ex-en">Compassion creates a strong sense of community among people.</div>
+        <div class="ex-en">Compassion creates a strong sense of community among people. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Compassion creates a strong sense of community among people.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">동정심은 사람들 간의 강한 공동체 의식을 형성한다. (연대와 정서적 연결을 강화)</div>
         <div class="ex-en" style="margin-top:12px;">Through compassion, we find common ground with others.</div>
         <div class="ex-ko">우리는 동정심을 통해 다른 사람들과 공통점을 찾는다. (정서적 연결을 통한 연대)</div>
@@ -10111,7 +10111,7 @@ Maximize Result
     <h2 class="insight-h2">① 자기 인식의 시작 (Beginning of Self-awareness)</h2>
     <p class="insight-p">자기 인식은 자신의 행동과 감정을 처음으로 깊게 이해하는 순간에서 시작됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">She realized her tendency to interrupt others during conversations.</div>
+        <div class="ex-en">She realized her tendency to interrupt others during conversations. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('She realized her tendency to interrupt others during conversations.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀는 대화 중 남의 말을 자주 끊는 경향이 있다는 것을 깨달았다. (자신의 행동을 인식하는 순간)</div>
         <div class="ex-en" style="margin-top:12px;">He understood that he often felt anxious in large crowds.</div>
         <div class="ex-ko">그는 큰 무리 속에서 자주 불안함을 느낀다는 것을 이해했다. (자신의 감정을 인식하는 순간)</div>
@@ -10120,7 +10120,7 @@ Maximize Result
     <h2 class="insight-h2">② 자기 수용 (Self-acceptance)</h2>
     <p class="insight-p">자기 인식은 자기 수용으로 이어지며, 이는 자신의 장단점을 수용하는 것을 의미합니다.</p>
     <div class="example-group">
-        <div class="ex-en">She accepted her introverted nature and stopped forcing herself to be outgoing.</div>
+        <div class="ex-en">She accepted her introverted nature and stopped forcing herself to be outgoing. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('She accepted her introverted nature and stopped forcing herself to be outgoing.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀는 자신의 내향적인 성격을 받아들이고 외향적이 되려고 애쓰는 것을 멈췄다. (자기 수용의 과정)</div>
         <div class="ex-en" style="margin-top:12px;">He embraced his creative side, even if it meant being different.</div>
         <div class="ex-ko">그는 다르다는 것을 의미하더라도 자신의 창의적인 면을 받아들였다. (자신의 차이를 수용하는 과정)</div>
@@ -10129,7 +10129,7 @@ Maximize Result
     <h2 class="insight-h2">③ 자기 성장 (Self-growth)</h2>
     <p class="insight-p">자기 인식은 궁극적으로 자기 성장을 가능하게 하며, 이는 지속적인 학습과 발전의 과정을 포함합니다.</p>
     <div class="example-group">
-        <div class="ex-en">By recognizing her weaknesses, she was able to work on improving them.</div>
+        <div class="ex-en">By recognizing her weaknesses, she was able to work on improving them. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('By recognizing her weaknesses, she was able to work on improving them.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">자신의 약점을 인식함으로써 그녀는 그것들을 개선하기 위해 노력할 수 있었다. (자기 성장의 시작)</div>
         <div class="ex-en" style="margin-top:12px;">He set new goals to enhance his skills in areas he felt less confident.</div>
         <div class="ex-ko">그는 자신이 덜 자신감을 느끼는 분야에서 기술을 향상시키기 위해 새로운 목표를 세웠다. (자기 발전의 과정)</div>
@@ -10139,13 +10139,13 @@ Maximize Result
     "empathize": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>empathize</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>empathize</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('empathize')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 empathize은 <strong>'상대방의 감정을 깊이 이해하고 함께 느낀다'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">empathize의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>empathize</strong>의 핵심은</p>
+        <p>원어민에게 <strong>empathize</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('empathize')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"마음의 연결과 이해"</div>
         <p>입니다. 상대방의 감정을 자신의 감정처럼 느끼는 것입니다.</p>
     </div>
@@ -10165,7 +10165,7 @@ Maximize Result
     <h2 class="insight-h2">① 감정 이입하기 - Emotional Identification</h2>
     <p class="insight-p">상대방의 감정을 이해하고 내면화하는 것을 의미합니다.</p>
     <div class="example-group">
-        <div class="ex-en">I could empathize with her sadness after losing her pet.</div>
+        <div class="ex-en">I could empathize with her sadness after losing her pet. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I could empathize with her sadness after losing her pet.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">나는 그녀의 애완동물을 잃고 난 후의 슬픔에 공감할 수 있었다. (그녀의 감정을 나도 느낄 수 있음을 의미)</div>
         <div class="ex-en" style="margin-top:12px;">He empathized with the character's struggles in the movie.</div>
         <div class="ex-ko">그는 영화 속 캐릭터의 고난에 공감했다. (그 캐릭터의 감정을 이해하고 느꼈음을 나타냄)</div>
@@ -10174,7 +10174,7 @@ Maximize Result
     <h2 class="insight-h2">② 관계 형성 - Building Connections</h2>
     <p class="insight-p">다른 사람들과의 감정적 유대를 강화합니다.</p>
     <div class="example-group">
-        <div class="ex-en">Teachers who empathize with their students can build better relationships.</div>
+        <div class="ex-en">Teachers who empathize with their students can build better relationships. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Teachers who empathize with their students can build better relationships.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">학생들과 공감하는 교사들은 더 나은 관계를 구축할 수 있다. (학생들의 감정을 이해하고 연결되는 것을 강조)</div>
         <div class="ex-en" style="margin-top:12px;">She empathizes with her colleagues, making her a great team leader.</div>
         <div class="ex-ko">그녀는 동료들과 공감하며, 훌륭한 팀 리더가 된다. (공감을 통해 더 나은 팀 관계를 형성함)</div>
@@ -10183,7 +10183,7 @@ Maximize Result
     <h2 class="insight-h2">③ 갈등 해소 - Conflict Resolution</h2>
     <p class="insight-p">감정의 이해를 통해 갈등을 해결하는 데 도움을 줍니다.</p>
     <div class="example-group">
-        <div class="ex-en">By empathizing with each other's perspectives, they resolved their dispute.</div>
+        <div class="ex-en">By empathizing with each other's perspectives, they resolved their dispute. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('By empathizing with each other\'s perspectives, they resolved their dispute.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">서로의 관점을 공감함으로써 그들은 분쟁을 해결했다. (감정적 이해가 갈등 해결에 기여함을 의미)</div>
         <div class="ex-en" style="margin-top:12px;">Empathizing with his opponent's feelings helped him negotiate better.</div>
         <div class="ex-ko">상대방의 감정에 공감하는 것이 그가 더 나은 협상을 하는 데 도움이 되었다. (공감이 협상에 긍정적 영향을 미침)</div>
@@ -10193,13 +10193,13 @@ Maximize Result
     "listen actively": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>listen actively</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>listen actively</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('listen actively')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 listen actively은 <strong>'집중하고 이해하려는 열린 마음의 태도'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">listen actively의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>listen actively</strong>의 핵심은</p>
+        <p>원어민에게 <strong>listen actively</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('listen actively')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"귀 기울여 듣고 반응하기"</div>
         <p>입니다. 상대방의 말을 이해하고 공감하려는 노력을 의미합니다.</p>
     </div>
@@ -10218,7 +10218,7 @@ Maximize Result
     <h2 class="insight-h2">① 적극적인 참여와 피드백 Active Participation and Feedback</h2>
     <p class="insight-p">상대방의 말에 반응하고 피드백을 주는 것이 중요합니다.</p>
     <div class="example-group">
-        <div class="ex-en">"I hear what you're saying, and it makes sense to me."</div>
+        <div class="ex-en">"I hear what you're saying, and it makes sense to me." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;I hear what you\'re saying, and it makes sense to me.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"당신이 하는 말을 듣고 이해되었습니다." (상대방의 말을 인정하고 피드백을 주는 경우)</div>
         <div class="ex-en" style="margin-top:12px;">"Can you clarify that point? I'm really interested."</div>
         <div class="ex-ko">"그 점을 명확히 해주실 수 있나요? 정말 관심이 있어요." (적극적으로 참여하고 싶음을 표현)</div>
@@ -10227,7 +10227,7 @@ Maximize Result
     <h2 class="insight-h2">② 공감과 이해 Empathy and Understanding</h2>
     <p class="insight-p">상대방의 감정을 이해하고 공감하는 것이 핵심입니다.</p>
     <div class="example-group">
-        <div class="ex-en">"That must have been really tough for you."</div>
+        <div class="ex-en">"That must have been really tough for you." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;That must have been really tough for you.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"그것은 정말 힘들었겠군요." (상대방의 감정을 이해하고 공감하는 표현)</div>
         <div class="ex-en" style="margin-top:12px;">"I can see why you feel that way."</div>
         <div class="ex-ko">"당신이 그렇게 느끼는 이유를 알겠어요." (상대방의 입장을 이해하고 인정)</div>
@@ -10236,7 +10236,7 @@ Maximize Result
     <h2 class="insight-h2">③ 비언어적 신호 Non-Verbal Cues</h2>
     <p class="insight-p">눈 맞춤, 끄덕임 등 비언어적 신호로 적극적인 경청을 표현합니다.</p>
     <div class="example-group">
-        <div class="ex-en">"She nodded as he spoke, showing she was engaged."</div>
+        <div class="ex-en">"She nodded as he spoke, showing she was engaged." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;She nodded as he spoke, showing she was engaged.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"그가 말할 때 그녀는 고개를 끄덕이며 듣고 있다는 신호를 보냈다." (비언어적 신호로 경청을 표현)</div>
         <div class="ex-en" style="margin-top:12px;">"His eye contact made me feel heard."</div>
         <div class="ex-ko">"그의 눈 맞춤이 내가 잘 듣고 있다는 느낌을 주었다." (눈 맞춤을 통해 경청을 표현)</div>
@@ -10246,13 +10246,13 @@ Maximize Result
     "appreciate": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>appreciate</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>appreciate</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('appreciate')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 appreciate은 <strong>'진정으로 가치를 인식하고 감사하는 것'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">appreciate의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>appreciate</strong>의 핵심은</p>
+        <p>원어민에게 <strong>appreciate</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('appreciate')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"진정한 가치를 이해하고 감사하는 것"</div>
         <p>입니다. (이 단어는 무언가의 진정한 가치를 인식하고 그것에 감사하는 느낌을 줍니다.)</p>
     </div>
@@ -10271,7 +10271,7 @@ Maximize Result
     <h2 class="insight-h2">① 인정하고 감사하기 + Recognizing and Valuing</h2>
     <p class="insight-p">appreciate는 무언가의 가치를 인정하고 그에 대해 감사를 표하는 것을 의미합니다.</p>
     <div class="example-group">
-        <div class="ex-en">I really appreciate your help with the project.</div>
+        <div class="ex-en">I really appreciate your help with the project. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I really appreciate your help with the project.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">당신의 프로젝트 도움에 정말 감사합니다. (도움을 인정하고 그 가치를 높이 평가함)</div>
         <div class="ex-en" style="margin-top:12px;">She appreciates the beauty of the sunset every evening.</div>
         <div class="ex-ko">그녀는 매일 저녁 노을의 아름다움을 감상합니다. (아름다움을 인정하고 감상함)</div>
@@ -10280,7 +10280,7 @@ Maximize Result
     <h2 class="insight-h2">② 상황의 중요성 인식하기 + Realizing Importance</h2>
     <p class="insight-p">appreciate는 상황의 중요성을 인식하고 그것을 충분히 이해하는 것을 의미합니다.</p>
     <div class="example-group">
-        <div class="ex-en">We appreciate the challenges you are facing.</div>
+        <div class="ex-en">We appreciate the challenges you are facing. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('We appreciate the challenges you are facing.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">우리는 당신이 직면한 도전을 이해합니다. (도전의 중요성을 인식하고 이해함)</div>
         <div class="ex-en" style="margin-top:12px;">He appreciates the need for immediate action.</div>
         <div class="ex-ko">그는 즉각적인 행동의 필요성을 인식합니다. (행동의 중요성을 이해함)</div>
@@ -10289,7 +10289,7 @@ Maximize Result
     <h2 class="insight-h2">③ 가치 상승 + Increase in Value</h2>
     <p class="insight-p">appreciate는 어떤 사물이나 자산의 가치가 상승하는 것을 의미하기도 합니다.</p>
     <div class="example-group">
-        <div class="ex-en">The house has appreciated in value over the years.</div>
+        <div class="ex-en">The house has appreciated in value over the years. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The house has appreciated in value over the years.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그 집은 몇 년 동안 가치가 상승했습니다. (시간이 지나면서 가치가 증가함)</div>
         <div class="ex-en" style="margin-top:12px;">Her investment has appreciated significantly.</div>
         <div class="ex-ko">그녀의 투자는 상당히 가치가 상승했습니다. (투자의 가치가 증가함)</div>
@@ -10299,13 +10299,13 @@ Maximize Result
     "active listening": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>active listening</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>active listening</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('active listening')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 active listening은 <strong>'상대방의 말을 깊이 있게 이해하는 집중적인 경청'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">active listening의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>active listening</strong>의 핵심은</p>
+        <p>원어민에게 <strong>active listening</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('active listening')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"상대방의 말을 진정으로 이해하고 반응하는 것"</div>
         <p>입니다. 이는 대화의 진정성과 상호작용을 촉진합니다.</p>
     </div>
@@ -10325,7 +10325,7 @@ Maximize Result
     <h2 class="insight-h2">① 집중과 이해 Focus and Understanding</h2>
     <p class="insight-p">상대방의 말을 들으면서 집중하고 그 내용을 이해하려는 적극적인 태도를 가집니다.</p>
     <div class="example-group">
-        <div class="ex-en">"During the meeting, she practiced active listening by nodding and asking clarifying questions."</div>
+        <div class="ex-en">"During the meeting, she practiced active listening by nodding and asking clarifying questions." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;During the meeting, she practiced active listening by nodding and asking clarifying questions.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"회의 중에 그녀는 고개를 끄덕이며 명확한 질문을 하면서 적극적으로 경청했습니다." (상대의 말을 깊이 이해하려는 태도)</div>
         <div class="ex-en" style="margin-top:12px;">"Active listening helped him understand the client's needs better."</div>
         <div class="ex-ko">"적극적인 경청 덕분에 그는 고객의 필요를 더 잘 이해할 수 있었습니다." (집중과 이해가 고객 이해로 이어짐)</div>
@@ -10334,7 +10334,7 @@ Maximize Result
     <h2 class="insight-h2">② 피드백 제공 Providing Feedback</h2>
     <p class="insight-p">상대방의 말을 듣고 적절한 피드백을 제공하여 대화에 적극적으로 참여합니다.</p>
     <div class="example-group">
-        <div class="ex-en">"He showed he was actively listening by summarizing what was said and giving his thoughts."</div>
+        <div class="ex-en">"He showed he was actively listening by summarizing what was said and giving his thoughts." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;He showed he was actively listening by summarizing what was said and giving his thoughts.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"그는 말한 내용을 요약하고 자신의 생각을 제공함으로써 적극적으로 듣고 있음을 보여주었습니다." (피드백 제공으로 대화에 참여)</div>
         <div class="ex-en" style="margin-top:12px;">"Active listening involves responding to both verbal and non-verbal cues."</div>
         <div class="ex-ko">"적극적인 경청은 언어적, 비언어적 신호에 모두 반응하는 것을 포함합니다." (다양한 신호에 대한 피드백)</div>
@@ -10343,7 +10343,7 @@ Maximize Result
     <h2 class="insight-h2">③ 감정 공감 Empathy and Connection</h2>
     <p class="insight-p">상대방의 감정을 이해하고 공감하며 심리적 연결을 강화합니다.</p>
     <div class="example-group">
-        <div class="ex-en">"By actively listening, she could empathize with her friend's situation."</div>
+        <div class="ex-en">"By actively listening, she could empathize with her friend's situation." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;By actively listening, she could empathize with her friend\'s situation.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"적극적으로 경청함으로써 그녀는 친구의 상황에 공감할 수 있었습니다." (감정적인 연결을 통한 공감)</div>
         <div class="ex-en" style="margin-top:12px;">"Active listening builds trust through empathetic engagement."</div>
         <div class="ex-ko">"적극적인 경청은 공감적인 참여를 통해 신뢰를 쌓습니다." (공감을 통한 신뢰 구축)</div>
@@ -10353,13 +10353,13 @@ Maximize Result
     "gratitude": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>gratitude</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>gratitude</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('gratitude')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 gratitude은 <strong>'진심 어린 감사의 표현'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">gratitude의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>gratitude</strong>의 핵심은</p>
+        <p>원어민에게 <strong>gratitude</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('gratitude')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"마음에서 우러나오는 고마움"</div>
         <p>입니다. 이 표현은 깊은 감사의 감정을 전달합니다.</p>
     </div>
@@ -10378,7 +10378,7 @@ Maximize Result
     <h2 class="insight-h2">① 감사의 감정 표현하기 + Expressing Thankfulness</h2>
     <p class="insight-p">gratitude는 누군가의 친절에 대한 깊은 감사를 표현합니다.</p>
     <div class="example-group">
-        <div class="ex-en">I feel immense gratitude for your help during the crisis.</div>
+        <div class="ex-en">I feel immense gratitude for your help during the crisis. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I feel immense gratitude for your help during the crisis.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">위기 동안 당신의 도움에 깊은 감사를 느낍니다. (큰 도움에 대한 진심 어린 감사)</div>
         <div class="ex-en" style="margin-top:12px;">She expressed her gratitude with a heartfelt letter.</div>
         <div class="ex-ko">그녀는 진심 어린 편지로 그녀의 감사를 표현했습니다. (편지를 통해 진심을 전함)</div>
@@ -10387,7 +10387,7 @@ Maximize Result
     <h2 class="insight-h2">② 일상 속의 감사 + Everyday Thankfulness</h2>
     <p class="insight-p">gratitude는 일상 속 작은 일에 대한 감사함을 나타낼 수 있습니다.</p>
     <div class="example-group">
-        <div class="ex-en">Every morning, I wake up with gratitude for another day.</div>
+        <div class="ex-en">Every morning, I wake up with gratitude for another day. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Every morning, I wake up with gratitude for another day.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">매일 아침, 또 다른 하루에 대한 감사함으로 일어납니다. (일상의 소중함에 대한 감사)</div>
         <div class="ex-en" style="margin-top:12px;">He practices gratitude by keeping a daily journal.</div>
         <div class="ex-ko">그는 일기장을 통해 매일 감사함을 실천합니다. (일상에서 감사함을 기록하는 습관)</div>
@@ -10396,7 +10396,7 @@ Maximize Result
     <h2 class="insight-h2">③ 관계에서의 감사 + Gratitude in Relationships</h2>
     <p class="insight-p">gratitude는 관계를 강화하는 긍정적인 감정입니다.</p>
     <div class="example-group">
-        <div class="ex-en">Our relationship grew stronger with mutual gratitude.</div>
+        <div class="ex-en">Our relationship grew stronger with mutual gratitude. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Our relationship grew stronger with mutual gratitude.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">우리의 관계는 상호 감사로 더욱 강해졌습니다. (감사를 통해 관계가 깊어짐)</div>
         <div class="ex-en" style="margin-top:12px;">Showing gratitude can heal and strengthen bonds.</div>
         <div class="ex-ko">감사를 표현하는 것은 관계를 치유하고 강화할 수 있습니다. (감사의 표현이 관계에 긍정적 영향을 줌)</div>
@@ -10406,13 +10406,13 @@ Maximize Result
     "listen": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>listen</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>listen</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('listen')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 listen은 <strong>'주의 깊게 듣고 이해하는 행동'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">listen의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>listen</strong>의 핵심은</p>
+        <p>원어민에게 <strong>listen</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('listen')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"주의 깊게 귀 기울이는 것"</div>
         <p>입니다. 주의와 관심을 가지고 듣는 행위를 강조합니다.</p>
     </div>
@@ -10432,7 +10432,7 @@ Maximize Result
     <h2 class="insight-h2">① 주의 깊게 듣기 + Attentive Listening</h2>
     <p class="insight-p">상대방의 말에 집중하여 듣는 것을 의미합니다.</p>
     <div class="example-group">
-        <div class="ex-en">She listened carefully to the instructions.</div>
+        <div class="ex-en">She listened carefully to the instructions. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('She listened carefully to the instructions.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀는 지시에 주의 깊게 귀 기울였다. (주의와 집중을 강조)</div>
         <div class="ex-en" style="margin-top:12px;">He listens intently to his teacher.</div>
         <div class="ex-ko">그는 선생님의 말씀을 열심히 듣는다. (집중과 관심을 반영)</div>
@@ -10441,7 +10441,7 @@ Maximize Result
     <h2 class="insight-h2">② 이해를 위한 듣기 + Listening for Understanding</h2>
     <p class="insight-p">이해를 목적으로 상대방의 말을 듣는 것을 의미합니다.</p>
     <div class="example-group">
-        <div class="ex-en">Listening to the lecture helped me understand the topic better.</div>
+        <div class="ex-en">Listening to the lecture helped me understand the topic better. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Listening to the lecture helped me understand the topic better.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">강의를 들으면서 주제를 더 잘 이해할 수 있었다. (이해를 위한 집중)</div>
         <div class="ex-en" style="margin-top:12px;">She listens to learn new things.</div>
         <div class="ex-ko">그녀는 새로운 것을 배우기 위해 듣는다. (학습을 위한 듣기)</div>
@@ -10450,7 +10450,7 @@ Maximize Result
     <h2 class="insight-h2">③ 감정을 담아 듣기 + Empathetic Listening</h2>
     <p class="insight-p">상대방의 감정에 공감하며 듣는 것을 의미합니다.</p>
     <div class="example-group">
-        <div class="ex-en">He listens to his friend with empathy.</div>
+        <div class="ex-en">He listens to his friend with empathy. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('He listens to his friend with empathy.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그는 친구의 말을 공감하며 듣는다. (감정을 이해하고 공감)</div>
         <div class="ex-en" style="margin-top:12px;">Listening with empathy can strengthen relationships.</div>
         <div class="ex-ko">공감하며 듣는 것은 관계를 강화할 수 있다. (감정적 연결 강조)</div>
@@ -10460,13 +10460,13 @@ Maximize Result
     "communicate with compassion": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>communicate with compassion</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>communicate with compassion</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('communicate with compassion')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 communicate with compassion은 <strong>'타인의 감정을 이해하고 따뜻하게 소통하는 것'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">communicate with compassion의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>communicate with compassion</strong>의 핵심은</p>
+        <p>원어민에게 <strong>communicate with compassion</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('communicate with compassion')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"상대방의 입장을 배려하며 소통하는 것"</div>
         <p>입니다. 이는 상대방의 감정을 존중하고 진심으로 이해하려는 노력을 포함합니다.</p>
     </div>
@@ -10486,7 +10486,7 @@ Maximize Result
     <h2 class="insight-h2">① 감정 이입 + Empathy</h2>
     <p class="insight-p">상대방의 감정을 이해하고 그들의 입장에서 생각하는 것을 의미합니다.</p>
     <div class="example-group">
-        <div class="ex-en">"I can see you're upset; let's talk about what's bothering you."</div>
+        <div class="ex-en">"I can see you're upset; let's talk about what's bothering you." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;I can see you\'re upset; let\'s talk about what\'s bothering you.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"당신이 화가 난 걸 알겠어요. 무엇이 당신을 괴롭히는지 이야기해봐요." (상대방의 감정을 이해하고 해결하고자 함)</div>
         <div class="ex-en" style="margin-top:12px;">"I understand this is difficult for you. How can I help?"</div>
         <div class="ex-ko">"이게 당신에게 어렵다는 걸 이해해요. 어떻게 도와드릴까요?" (상대방의 어려움을 이해하고 도움을 제공하려는 태도)</div>
@@ -10495,7 +10495,7 @@ Maximize Result
     <h2 class="insight-h2">② 진심 어린 관심 + Genuine Interest</h2>
     <p class="insight-p">상대방의 말을 진심으로 듣고 관심을 보이는 것을 강조합니다.</p>
     <div class="example-group">
-        <div class="ex-en">"Tell me more about your experience; I'm really interested."</div>
+        <div class="ex-en">"Tell me more about your experience; I'm really interested." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;Tell me more about your experience; I\'m really interested.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"당신의 경험에 대해 더 말해 주세요; 정말로 관심이 있어요." (상대방의 이야기를 진심으로 듣고 싶어 함)</div>
         <div class="ex-en" style="margin-top:12px;">"Your perspective is valuable to me; please share it."</div>
         <div class="ex-ko">"당신의 관점은 저에게 중요해요; 공유해 주세요." (상대방의 의견을 중요하게 여기는 태도)</div>
@@ -10504,7 +10504,7 @@ Maximize Result
     <h2 class="insight-h2">③ 친절한 소통 + Kind Communication</h2>
     <p class="insight-p">상대방에게 친절하고 부드럽게 대화하는 것을 포함합니다.</p>
     <div class="example-group">
-        <div class="ex-en">"I appreciate your effort and understand your concerns."</div>
+        <div class="ex-en">"I appreciate your effort and understand your concerns." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;I appreciate your effort and understand your concerns.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"당신의 노력을 감사히 여기며 당신의 우려를 이해합니다." (상대방의 노력과 우려를 인정하고 존중함)</div>
         <div class="ex-en" style="margin-top:12px;">"Let's work together to find a solution that works for both of us."</div>
         <div class="ex-ko">"우리 둘 다에게 좋은 해결책을 찾기 위해 함께 노력해 봅시다." (상호 협력을 통해 긍정적인 결과를 도출하려는 태도)</div>
@@ -10514,13 +10514,13 @@ Maximize Result
     "Gratitude": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Gratitude</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Gratitude</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Gratitude')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Gratitude은 <strong>'마음 깊은 곳에서 우러나오는 감사의 표현'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Gratitude의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Gratitude</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Gratitude</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Gratitude')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"마음 속 깊은 감사의 느낌"</div>
         <p>입니다. 이는 마음의 진정성을 강조합니다.</p>
     </div>
@@ -10540,7 +10540,7 @@ Maximize Result
     <h2 class="insight-h2">① 진심 어린 감사의 표현 (Heartfelt Appreciation)</h2>
     <p class="insight-p">Gratitude는 진심으로 누군가에게 깊은 감사를 전할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">I feel deep gratitude for your support during my tough times.</div>
+        <div class="ex-en">I feel deep gratitude for your support during my tough times. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I feel deep gratitude for your support during my tough times.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">당신이 어려운 시기에 보여준 지원에 깊은 감사를 느낍니다. (진심 어린 감사를 표현)</div>
         <div class="ex-en" style="margin-top:12px;">She expressed her gratitude with tears in her eyes.</div>
         <div class="ex-ko">그녀는 눈물로 그녀의 감사를 표현했습니다. (감동과 진정성을 담은 표현)</div>
@@ -10549,7 +10549,7 @@ Maximize Result
     <h2 class="insight-h2">② 감사의 일상적 습관 (Habitual Thankfulness)</h2>
     <p class="insight-p">Gratitude는 일상 생활에서 주기적으로 감사의 마음을 표현할 때 쓰입니다.</p>
     <div class="example-group">
-        <div class="ex-en">Practicing gratitude daily can change your outlook on life.</div>
+        <div class="ex-en">Practicing gratitude daily can change your outlook on life. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Practicing gratitude daily can change your outlook on life.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">매일 감사를 실천하는 것은 삶에 대한 관점을 바꿀 수 있습니다. (일상의 긍정적 습관 강조)</div>
         <div class="ex-en" style="margin-top:12px;">He maintains a gratitude journal to remind himself of his blessings.</div>
         <div class="ex-ko">그는 자신의 축복을 상기하기 위해 감사 일기를 씁니다. (감사의 지속적 습관화)</div>
@@ -10558,7 +10558,7 @@ Maximize Result
     <h2 class="insight-h2">③ 관계를 강화하는 감사 (Strengthening Relationships)</h2>
     <p class="insight-p">Gratitude는 관계를 강화하고 더 깊은 유대감을 형성할 때 중요합니다.</p>
     <div class="example-group">
-        <div class="ex-en">Expressing gratitude to coworkers can enhance teamwork and collaboration.</div>
+        <div class="ex-en">Expressing gratitude to coworkers can enhance teamwork and collaboration. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Expressing gratitude to coworkers can enhance teamwork and collaboration.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">동료에게 감사를 표현하는 것은 팀워크와 협력을 강화할 수 있습니다. (관계를 강화하는 역할)</div>
         <div class="ex-en" style="margin-top:12px;">Gratitude can transform a simple encounter into a warm friendship.</div>
         <div class="ex-ko">감사는 단순한 만남을 따뜻한 우정으로 변화시킬 수 있습니다. (감사가 관계에 미치는 긍정적 영향)</div>
@@ -10568,13 +10568,13 @@ Maximize Result
     "Patience": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Patience</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Patience</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Patience')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Patience은 <strong>'인내라는 덕목의 깊고도 조용한 힘'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Patience의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Patience</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Patience</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Patience')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"고요함 속의 강력함"</div>
         <p>입니다. 이는 시간이 걸리더라도 결과를 기다릴 수 있는 마음가짐을 뜻합니다.</p>
     </div>
@@ -10594,7 +10594,7 @@ Maximize Result
     <h2 class="insight-h2">① 꾸준함과 차분함 (Consistency and Calmness)</h2>
     <p class="insight-p">Patience는 흔들리지 않는 꾸준함과 차분함을 의미합니다.</p>
     <div class="example-group">
-        <div class="ex-en">She waited patiently for her turn to speak.</div>
+        <div class="ex-en">She waited patiently for her turn to speak. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('She waited patiently for her turn to speak.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀는 차분하게 자신의 차례를 기다렸다. (기다림 속에서도 차분함을 유지하는 꾸준함)</div>
         <div class="ex-en" style="margin-top:12px;">His patience paid off as he slowly mastered the skill.</div>
         <div class="ex-ko">그의 인내는 결실을 맺어 그가 서서히 그 기술을 숙달하게 되었다. (꾸준한 인내가 결과로 이어짐)</div>
@@ -10603,7 +10603,7 @@ Maximize Result
     <h2 class="insight-h2">② 자제력과 절제 (Self-Control and Restraint)</h2>
     <p class="insight-p">Patience는 감정을 억제하고 절제할 수 있는 능력을 포함합니다.</p>
     <div class="example-group">
-        <div class="ex-en">He showed remarkable patience by not reacting immediately.</div>
+        <div class="ex-en">He showed remarkable patience by not reacting immediately. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('He showed remarkable patience by not reacting immediately.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그는 즉각 반응하지 않음으로써 놀라운 인내를 보여주었다. (즉각적인 반응을 자제하는 능력)</div>
         <div class="ex-en" style="margin-top:12px;">Practicing patience helped her manage stressful situations better.</div>
         <div class="ex-ko">인내를 연습하는 것은 그녀가 스트레스 상황을 더 잘 관리할 수 있게 도와주었다. (자제력을 통해 스트레스를 관리함)</div>
@@ -10612,7 +10612,7 @@ Maximize Result
     <h2 class="insight-h2">③ 시간의 힘과 기다림 (Power of Time and Waiting)</h2>
     <p class="insight-p">Patience는 시간이 주는 힘과 그것을 기다릴 줄 아는 능력을 의미합니다.</p>
     <div class="example-group">
-        <div class="ex-en">With patience, the gardener waited for the seeds to sprout.</div>
+        <div class="ex-en">With patience, the gardener waited for the seeds to sprout. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('With patience, the gardener waited for the seeds to sprout.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">정원사는 씨앗이 싹트기를 인내심을 가지고 기다렸다. (시간이 지나며 자연스럽게 이루어질 것을 기다림)</div>
         <div class="ex-en" style="margin-top:12px;">Time and patience are the greatest healers.</div>
         <div class="ex-ko">시간과 인내는 가장 위대한 치유자다. (시간의 흐름 속에서 인내가 치유를 가져옴)</div>
@@ -10622,13 +10622,13 @@ Maximize Result
     "get the hang of": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>get the hang of</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>get the hang of</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('get the hang of')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 get the hang of은 <strong>'익숙해지다, 요령을 터득하다'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">get the hang of의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>get the hang of</strong>의 핵심은</p>
+        <p>원어민에게 <strong>get the hang of</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('get the hang of')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"익숙해지면서 감을 잡다"</div>
         <p>즉, 처음에 서툴렀던 일을 점차 익숙하게 잘 하게 되는 과정입니다.</p>
     </div>
@@ -10644,7 +10644,7 @@ Maximize Result
     <h2 class="insight-h2">① 익숙해지는 과정의 시작 - Beginning of Familiarization</h2>
     <p class="insight-p">처음에는 서툴지만, 점차 익숙해지는 과정을 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">I'm starting to get the hang of playing the guitar.</div>
+        <div class="ex-en">I'm starting to get the hang of playing the guitar. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I\'m starting to get the hang of playing the guitar.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">나는 기타 치는 것에 점점 익숙해지고 있다. (처음엔 서툴렀지만, 이제 점차 나아지고 있는 상태)</div>
         <div class="ex-en" style="margin-top:12px;">She got the hang of skiing after a few lessons.</div>
         <div class="ex-ko">몇 번의 레슨 후 그녀는 스키 타는 요령을 터득했다. (처음엔 어려웠으나 반복을 통해 익숙해짐)</div>
@@ -10653,7 +10653,7 @@ Maximize Result
     <h2 class="insight-h2">② 반복을 통한 능숙함 - Mastery Through Repetition</h2>
     <p class="insight-p">반복적인 연습을 통해 능숙해지는 것을 강조합니다.</p>
     <div class="example-group">
-        <div class="ex-en">Once you get the hang of it, coding becomes much easier.</div>
+        <div class="ex-en">Once you get the hang of it, coding becomes much easier. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Once you get the hang of it, coding becomes much easier.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">일단 요령을 터득하면, 코딩이 훨씬 쉬워진다. (반복을 통해 능숙해진 상태)</div>
         <div class="ex-en" style="margin-top:12px;">He finally got the hang of driving a manual car.</div>
         <div class="ex-ko">그는 마침내 수동차 운전의 요령을 터득했다. (반복적인 시도로 인해 능숙해짐)</div>
@@ -10662,7 +10662,7 @@ Maximize Result
     <h2 class="insight-h2">③ 처음의 어려움 극복 - Overcoming Initial Difficulty</h2>
     <p class="insight-p">처음에 느꼈던 어려움을 극복한 상태를 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">It took a while, but I got the hang of using chopsticks.</div>
+        <div class="ex-en">It took a while, but I got the hang of using chopsticks. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('It took a while, but I got the hang of using chopsticks.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">시간이 좀 걸렸지만, 젓가락 사용에 익숙해졌다. (초기 어려움을 극복하고 익숙해짐)</div>
         <div class="ex-en" style="margin-top:12px;">They got the hang of the new software after some practice.</div>
         <div class="ex-ko">그들은 약간의 연습 후에 새로운 소프트웨어를 익숙하게 다루게 되었다. (처음엔 어려웠으나 연습을 통해 극복)</div>
@@ -10672,13 +10672,13 @@ Maximize Result
     "call it a day": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>call it a day</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>call it a day</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('call it a day')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 call it a day은 <strong>'오늘의 일을 더 이상 진행하지 않고 마무리한다는 느낌'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">call it a day의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>call it a day</strong>의 핵심은</p>
+        <p>원어민에게 <strong>call it a day</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('call it a day')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"하루의 업무를 끝내고 쉬는 시간으로 들어가는 순간"</div>
         <p>즉, 이제 일을 그만하고 쉴 때라는 의미입니다.</p>
     </div>
@@ -10702,7 +10702,7 @@ Maximize Result
     <h2 class="insight-h2">① 일의 마무리 선언 - Wrapping up work</h2>
     <p class="insight-p">이 표현은 보통 하루의 업무나 특정 작업을 끝내는 것을 선언할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Let's call it a day and go home.</div>
+        <div class="ex-en">Let's call it a day and go home. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Let\'s call it a day and go home.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">오늘 일은 여기까지 하고 집에 갑시다. (일을 그만하고 퇴근하자는 의미)</div>
         <div class="ex-en" style="margin-top:12px;">After fixing the bug, we decided to call it a day.</div>
         <div class="ex-ko">버그를 고친 후 우리는 일을 끝내기로 했습니다. (작업을 마무리하기로 결정한 상황)</div>
@@ -10711,7 +10711,7 @@ Maximize Result
     <h2 class="insight-h2">② 피로로 인한 종료 - Ending due to fatigue</h2>
     <p class="insight-p">피곤하거나 더 이상의 진행이 어렵다고 느껴질 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">I'm too tired to continue. Let's call it a day.</div>
+        <div class="ex-en">I'm too tired to continue. Let's call it a day. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I\'m too tired to continue. Let\'s call it a day.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">너무 피곤해서 더 이상 할 수 없어요. 오늘은 여기까지 하죠. (피로로 일을 멈추기로 함)</div>
         <div class="ex-en" style="margin-top:12px;">We've been working for 10 hours, let's call it a day.</div>
         <div class="ex-ko">10시간 동안 일했으니, 오늘은 여기까지 하죠. (장시간 일한 후의 피로감을 나타냄)</div>
@@ -10720,7 +10720,7 @@ Maximize Result
     <h2 class="insight-h2">③ 작업의 자연스러운 종료 - Natural end of a task</h2>
     <p class="insight-p">특정 작업이 자연스럽게 끝날 때 이를 알리기 위해 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">We finished the project, so let's call it a day.</div>
+        <div class="ex-en">We finished the project, so let's call it a day. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('We finished the project, so let\'s call it a day.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">프로젝트를 끝냈으니, 오늘은 여기까지 하죠. (작업이 성공적으로 완료된 후)</div>
         <div class="ex-en" style="margin-top:12px;">The meeting has covered everything, let's call it a day.</div>
         <div class="ex-ko">회의에서 모든 것을 다루었으니, 오늘은 여기까지 하죠. (회의가 계획대로 완료된 후)</div>
@@ -10730,13 +10730,13 @@ Maximize Result
     "keep an eye on": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>keep an eye on</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>keep an eye on</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('keep an eye on')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 keep an eye on은 <strong>'지켜보고 주의를 기울이는 것'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">keep an eye on의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>keep an eye on</strong>의 핵심은</p>
+        <p>원어민에게 <strong>keep an eye on</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('keep an eye on')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"주의 깊게 관찰하는 것"</div>
         <p>입니다. 이 표현은 무언가를 계속해서 살피는 행동을 나타냅니다.</p>
     </div>
@@ -10755,7 +10755,7 @@ Maximize Result
     <h2 class="insight-h2">① 감시와 보호의 의미 (Surveillance and Protection)</h2>
     <p class="insight-p">keep an eye on은 누군가를 감시하거나 보호의 목적으로 주의를 기울이는 것을 의미합니다.</p>
     <div class="example-group">
-        <div class="ex-en">Please keep an eye on the baby while I am cooking.</div>
+        <div class="ex-en">Please keep an eye on the baby while I am cooking. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Please keep an eye on the baby while I am cooking.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">부엌에서 요리하는 동안 아기를 잘 봐주세요. (아기를 안전하게 지켜봐야 한다는 뉘앙스)</div>
         <div class="ex-en" style="margin-top:12px;">Can you keep an eye on my bag while I go to the restroom?</div>
         <div class="ex-ko">제가 화장실 가는 동안 가방 좀 봐주실 수 있나요? (가방을 잃어버리지 않도록 주의 깊게 봐달라는 의미)</div>
@@ -10764,7 +10764,7 @@ Maximize Result
     <h2 class="insight-h2">② 진행 상황의 모니터링 (Monitoring Progress)</h2>
     <p class="insight-p">이 표현은 어떤 것의 진행 상황을 계속해서 살피고 모니터링하는 것을 나타낼 수도 있습니다.</p>
     <div class="example-group">
-        <div class="ex-en">The manager kept an eye on the project's progress.</div>
+        <div class="ex-en">The manager kept an eye on the project's progress. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The manager kept an eye on the project\'s progress.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">매니저는 프로젝트의 진행 상황을 주시했습니다. (프로젝트가 계획대로 진행되고 있는지 계속 살핀다는 의미)</div>
         <div class="ex-en" style="margin-top:12px;">Keep an eye on the stock market for any sudden changes.</div>
         <div class="ex-ko">주식 시장의 갑작스러운 변화를 주시하세요. (시장의 변화를 빠르게 인지해야 한다는 뉘앙스)</div>
@@ -10773,7 +10773,7 @@ Maximize Result
     <h2 class="insight-h2">③ 문제 예방 및 대응 (Preventive and Responsive Action)</h2>
     <p class="insight-p">keep an eye on은 잠재적인 문제를 예방하고, 빠르게 대응하기 위해 주의를 기울이는 것을 의미합니다.</p>
     <div class="example-group">
-        <div class="ex-en">You should keep an eye on the weather reports during your vacation.</div>
+        <div class="ex-en">You should keep an eye on the weather reports during your vacation. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('You should keep an eye on the weather reports during your vacation.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">휴가 동안 날씨 예보를 잘 확인하세요. (날씨 변화에 빠르게 대응하기 위함)</div>
         <div class="ex-en" style="margin-top:12px;">Keep an eye on your health and exercise regularly.</div>
         <div class="ex-ko">건강을 유의하고 규칙적으로 운동하세요. (건강 문제를 예방하기 위한 주의)</div>
@@ -10783,13 +10783,13 @@ Maximize Result
     "Make Up": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Make Up</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Make Up</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Make Up')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Make Up은 <strong>'구성하고 보충하는 것'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Make Up의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Make Up</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Make Up</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Make Up')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"다양한 요소를 합쳐서 완성하는 것"</div>
         <p>입니다. 어떤 것이든 결합하여 전체를 이루는 과정입니다.</p>
     </div>
@@ -10809,7 +10809,7 @@ Maximize Result
     <h2 class="insight-h2">① 화해하다 (Reconcile)</h2>
     <p class="insight-p">갈등이나 다툼 후에 화해할 때 사용되는 표현입니다.</p>
     <div class="example-group">
-        <div class="ex-en">After their argument, they decided to make up.</div>
+        <div class="ex-en">After their argument, they decided to make up. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('After their argument, they decided to make up.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그들은 논쟁 후에 화해하기로 결정했다. (갈등을 해결하고 관계를 회복하는 것)</div>
         <div class="ex-en" style="margin-top:12px;">Let's make up and be friends again.</div>
         <div class="ex-ko">우리 화해하고 다시 친구가 되자. (다툼을 끝내고 다시 친밀해지는 것)</div>
@@ -10818,7 +10818,7 @@ Maximize Result
     <h2 class="insight-h2">② 구성하다 (Compose)</h2>
     <p class="insight-p">여러 요소가 모여 전체를 이룰 때 사용되는 표현입니다.</p>
     <div class="example-group">
-        <div class="ex-en">The committee is made up of experts from various fields.</div>
+        <div class="ex-en">The committee is made up of experts from various fields. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The committee is made up of experts from various fields.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그 위원회는 다양한 분야의 전문가들로 구성되어 있다. (여러 요소가 모여 하나의 그룹을 이루는 것)</div>
         <div class="ex-en" style="margin-top:12px;">Water is made up of hydrogen and oxygen.</div>
         <div class="ex-ko">물은 수소와 산소로 구성되어 있다. (두 가지 요소가 결합하여 물을 형성하는 것)</div>
@@ -10827,7 +10827,7 @@ Maximize Result
     <h2 class="insight-h2">③ 보충하다 (Compensate)</h2>
     <p class="insight-p">부족한 부분을 채우거나 보완할 때 사용하는 표현입니다.</p>
     <div class="example-group">
-        <div class="ex-en">She made up the lost time by working late.</div>
+        <div class="ex-en">She made up the lost time by working late. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('She made up the lost time by working late.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀는 늦게까지 일하며 잃어버린 시간을 보충했다. (부족한 시간을 열심히 일해서 채우는 것)</div>
         <div class="ex-en" style="margin-top:12px;">Can you make up the difference in price?</div>
         <div class="ex-ko">가격 차이를 보충해 주시겠어요? (부족한 금액을 채우는 것)</div>
@@ -10837,13 +10837,13 @@ Maximize Result
     "Run Out": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Run Out</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Run Out</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Run Out')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Run Out은 <strong>'어떤 것이 더 이상 존재하지 않거나 사용할 수 없는 상태의 절박함'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Run Out의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Run Out</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Run Out</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Run Out')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"완전히 소진되어 더 이상 남아있지 않은 상태"</div>
         <p>입니다. (이 표현은 특히 시간이나 자원과 관련이 깊습니다.)</p>
     </div>
@@ -10862,7 +10862,7 @@ Maximize Result
     <h2 class="insight-h2">① 자원의 고갈 Resource Depletion</h2>
     <p class="insight-p">무언가가 완전히 소진되어 더 사용할 수 없는 상황을 설명합니다.</p>
     <div class="example-group">
-        <div class="ex-en">We have run out of milk.</div>
+        <div class="ex-en">We have run out of milk. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('We have run out of milk.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">우유가 다 떨어졌어요. (우유라는 자원이 완전히 소진됨)</div>
         <div class="ex-en" style="margin-top:12px;">The printer ran out of ink.</div>
         <div class="ex-ko">프린터 잉크가 다 소진되었습니다. (잉크가 없어 더 이상 인쇄할 수 없음)</div>
@@ -10871,7 +10871,7 @@ Maximize Result
     <h2 class="insight-h2">② 시간의 부족 Lack of Time</h2>
     <p class="insight-p">시간이 다 되어 더 이상 주어진 일을 할 수 없는 상황을 표현합니다.</p>
     <div class="example-group">
-        <div class="ex-en">We ran out of time before we finished the project.</div>
+        <div class="ex-en">We ran out of time before we finished the project. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('We ran out of time before we finished the project.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">프로젝트를 끝내기 전에 시간이 다 되었습니다. (시간이 없어 더 이상 진행할 수 없음)</div>
         <div class="ex-en" style="margin-top:12px;">They ran out of time during the exam.</div>
         <div class="ex-ko">시험 중에 시간이 부족했습니다. (시간이 다 되어 더 이상 문제를 풀 수 없음)</div>
@@ -10880,7 +10880,7 @@ Maximize Result
     <h2 class="insight-h2">③ 기회 상실 Loss of Opportunity</h2>
     <p class="insight-p">기회가 사라져 더 이상 잡을 수 없는 상태를 의미합니다.</p>
     <div class="example-group">
-        <div class="ex-en">I wanted to buy the ticket, but they ran out.</div>
+        <div class="ex-en">I wanted to buy the ticket, but they ran out. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I wanted to buy the ticket, but they ran out.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">티켓을 사고 싶었지만, 모두 팔렸습니다. (기회가 사라져 더 이상 구매 불가)</div>
         <div class="ex-en" style="margin-top:12px;">The store ran out of the new game console.</div>
         <div class="ex-ko">가게에 새 게임 콘솔이 다 팔렸습니다. (기회가 사라져 더 이상 구매할 수 없음)</div>
@@ -10890,13 +10890,13 @@ Maximize Result
     "Take Off": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Take Off</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Take Off</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Take Off')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Take Off은 <strong>'수월하게 시작하거나 떠나는 느낌'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Take Off의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Take Off</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Take Off</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Take Off')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"순조로운 출발 또는 이륙"</div>
         <p>입니다. 이 표현은 종종 시작하는 순간의 에너지를 강조합니다.</p>
     </div>
@@ -10914,7 +10914,7 @@ Maximize Result
     <h2 class="insight-h2">① 이륙하다 (Depart, Launch)</h2>
     <p class="insight-p">주로 비행기나 프로젝트가 시작되는 장면을 묘사할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">The plane will take off at 6 PM.</div>
+        <div class="ex-en">The plane will take off at 6 PM. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The plane will take off at 6 PM.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">비행기는 오후 6시에 이륙할 것입니다. (이륙의 순간을 강조)</div>
         <div class="ex-en" style="margin-top:12px;">The project took off after the initial funding.</div>
         <div class="ex-ko">프로젝트는 초기 자금 이후에 시작되었습니다. (프로젝트가 순조롭게 시작됨을 의미)</div>
@@ -10923,7 +10923,7 @@ Maximize Result
     <h2 class="insight-h2">② 옷을 벗다 (Remove Clothing)</h2>
     <p class="insight-p">옷이나 액세서리를 몸에서 제거할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Please take off your shoes before entering.</div>
+        <div class="ex-en">Please take off your shoes before entering. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Please take off your shoes before entering.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">들어가기 전에 신발을 벗어 주세요. (신발을 벗는 동작을 강조)</div>
         <div class="ex-en" style="margin-top:12px;">He took off his hat as a sign of respect.</div>
         <div class="ex-ko">그는 존경의 표시로 모자를 벗었습니다. (예의 바른 행동을 나타냄)</div>
@@ -10932,7 +10932,7 @@ Maximize Result
     <h2 class="insight-h2">③ 급성장하다 (Rapidly Grow or Succeed)</h2>
     <p class="insight-p">사업이나 경력 등이 급격히 성장하거나 성공할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Her career really took off after she moved to New York.</div>
+        <div class="ex-en">Her career really took off after she moved to New York. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Her career really took off after she moved to New York.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">뉴욕으로 이사한 후 그녀의 경력은 정말로 급성장했습니다. (성공의 가속화를 의미)</div>
         <div class="ex-en" style="margin-top:12px;">The new product took off in the market.</div>
         <div class="ex-ko">신제품은 시장에서 급속히 인기를 끌었습니다. (제품이 빠르게 성공함을 의미)</div>
@@ -10942,13 +10942,13 @@ Maximize Result
     "get over": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>get over</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>get over</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('get over')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 get over은 <strong>'극복하거나 감정을 처리하고 앞으로 나아가는 것'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">get over의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>get over</strong>의 핵심은</p>
+        <p>원어민에게 <strong>get over</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('get over')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"장애물을 넘어가는 것"</div>
         <p>입니다. 이 표현은 감정적 혹은 상황적 어려움을 극복할 때 자주 사용됩니다.</p>
     </div>
@@ -10968,7 +10968,7 @@ Maximize Result
     <h2 class="insight-h2">① 감정 극복 Emotion Overcome</h2>
     <p class="insight-p">이 표현은 주로 실연이나 슬픔 같은 감정을 극복하는 데 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">She finally got over her breakup.</div>
+        <div class="ex-en">She finally got over her breakup. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('She finally got over her breakup.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀는 마침내 이별을 극복했다. (이별로 인한 슬픔을 이겨내고 앞으로 나아갔다는 의미)</div>
         <div class="ex-en" style="margin-top:12px;">He's finding it hard to get over the loss of his pet.</div>
         <div class="ex-ko">그는 애완동물의 죽음을 극복하기 힘들어하고 있다. (슬픔을 이겨내는 과정에 있다는 의미)</div>
@@ -10977,7 +10977,7 @@ Maximize Result
     <h2 class="insight-h2">② 질병 회복 Recovery from Illness</h2>
     <p class="insight-p">병이나 질환에서 회복하는 경우에도 이 표현을 사용할 수 있습니다.</p>
     <div class="example-group">
-        <div class="ex-en">It took him a few weeks to get over the flu.</div>
+        <div class="ex-en">It took him a few weeks to get over the flu. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('It took him a few weeks to get over the flu.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그는 독감을 극복하는 데 몇 주가 걸렸다. (병에서 완전히 회복되었다는 의미)</div>
         <div class="ex-en" style="margin-top:12px;">I'm still getting over my cold.</div>
         <div class="ex-ko">나는 아직 감기를 극복하고 있는 중이다. (완전히 회복되지 않은 상태라는 의미)</div>
@@ -10986,7 +10986,7 @@ Maximize Result
     <h2 class="insight-h2">③ 충격에서 벗어나기 Moving Past Shock</h2>
     <p class="insight-p">충격적이거나 놀라운 일을 겪고 나서 이를 받아들이고 넘어가는 경우 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">He couldn't get over the news of his promotion.</div>
+        <div class="ex-en">He couldn't get over the news of his promotion. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('He couldn\'t get over the news of his promotion.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그는 자신의 승진 소식을 믿을 수 없었다. (놀라운 소식에 감정적으로 반응했다는 의미)</div>
         <div class="ex-en" style="margin-top:12px;">She needs time to get over the accident.</div>
         <div class="ex-ko">그녀는 사고를 극복할 시간이 필요하다. (사고의 충격에서 벗어날 시간이 필요하다는 의미)</div>
@@ -10996,13 +10996,13 @@ Maximize Result
     "run out of": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>run out of</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>run out of</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('run out of')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 run out of은 <strong>'어떤 것이 다 떨어져 더 이상 사용할 수 없는 상태를 의미'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">run out of의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>run out of</strong>의 핵심은</p>
+        <p>원어민에게 <strong>run out of</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('run out of')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"완전히 소진된 상태"</div>
         <p>입니다. 이 표현은 종종 예상치 못한 상황에서 사용됩니다.</p>
     </div>
@@ -11022,7 +11022,7 @@ Maximize Result
     <h2 class="insight-h2">① 자원 부족 상황 Lack of Resources</h2>
     <p class="insight-p">주로 물리적 자원이 부족할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">We've run out of milk.</div>
+        <div class="ex-en">We've run out of milk. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('We\'ve run out of milk.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">우리는 우유가 다 떨어졌습니다. (우유가 더 이상 남아있지 않음을 나타냄)</div>
         <div class="ex-en" style="margin-top:12px;">I ran out of paper while printing.</div>
         <div class="ex-ko">프린트하다가 종이가 다 떨어졌습니다. (종이가 부족하여 작업을 중단하게 됨)</div>
@@ -11031,7 +11031,7 @@ Maximize Result
     <h2 class="insight-h2">② 시간 부족 상황 Lack of Time</h2>
     <p class="insight-p">시간이 부족해 일을 끝마칠 수 없을 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">We ran out of time during the exam.</div>
+        <div class="ex-en">We ran out of time during the exam. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('We ran out of time during the exam.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">시험 중에 시간이 다 떨어졌습니다. (시간이 부족하여 문제를 다 풀지 못함)</div>
         <div class="ex-en" style="margin-top:12px;">She ran out of time before finishing the project.</div>
         <div class="ex-ko">그녀는 프로젝트를 끝내기 전에 시간이 다 떨어졌습니다. (시간 부족으로 인해 완성을 못함)</div>
@@ -11040,7 +11040,7 @@ Maximize Result
     <h2 class="insight-h2">③ 에너지 고갈 상황 Lack of Energy</h2>
     <p class="insight-p">에너지가 고갈되어 더 이상 일을 할 수 없음을 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">I ran out of energy after the marathon.</div>
+        <div class="ex-en">I ran out of energy after the marathon. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I ran out of energy after the marathon.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">마라톤 후에 에너지가 다 소진되었습니다. (체력이 모두 소진되어 더 이상 활동할 수 없음)</div>
         <div class="ex-en" style="margin-top:12px;">He ran out of steam halfway through the meeting.</div>
         <div class="ex-ko">그는 회의 도중에 기운이 다 빠졌습니다. (더 이상 회의에 집중할 수 없음을 의미)</div>
@@ -11050,13 +11050,13 @@ Maximize Result
     "catch up": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>catch up</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>catch up</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('catch up')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 catch up은 <strong>'뒤처진 것을 따라잡아 균형을 맞추는 행동'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">catch up의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>catch up</strong>의 핵심은</p>
+        <p>원어민에게 <strong>catch up</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('catch up')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"뒤처진 것을 따라잡기"</div>
         <p>입니다. 이 표현은 종종 시간이나 정보의 격차를 줄일 때 사용됩니다.</p>
     </div>
@@ -11075,7 +11075,7 @@ Maximize Result
     <h2 class="insight-h2">① 정보 따라잡기 Information Catching Up</h2>
     <p class="insight-p">이 뉘앙스는 최신 정보를 확인하고 이해하는 것을 의미합니다.</p>
     <div class="example-group">
-        <div class="ex-en">I need to catch up on the latest news.</div>
+        <div class="ex-en">I need to catch up on the latest news. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I need to catch up on the latest news.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">나는 최신 뉴스에 대해 알아야 해. (정보의 격차를 줄이려는 시도)</div>
         <div class="ex-en" style="margin-top:12px;">She spent the weekend catching up on emails.</div>
         <div class="ex-ko">그녀는 주말 동안 이메일을 확인하며 보냈다. (쌓인 이메일을 처리하려는 노력)</div>
@@ -11084,7 +11084,7 @@ Maximize Result
     <h2 class="insight-h2">② 사람과의 관계 회복 Reconnecting with People</h2>
     <p class="insight-p">이 뉘앙스는 오랜만에 사람들과 다시 연락을 주고받는 것을 의미합니다.</p>
     <div class="example-group">
-        <div class="ex-en">Let's catch up over coffee soon.</div>
+        <div class="ex-en">Let's catch up over coffee soon. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Let\'s catch up over coffee soon.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">곧 커피 마시며 이야기 나누자. (오랜만에 만나 근황을 나누려는 제안)</div>
         <div class="ex-en" style="margin-top:12px;">We finally caught up with each other after years.</div>
         <div class="ex-ko">우리는 몇 년 만에 드디어 연락했다. (오랜만에 관계를 회복한 상황)</div>
@@ -11093,7 +11093,7 @@ Maximize Result
     <h2 class="insight-h2">③ 업무나 학업의 진행 따라잡기 Progress Catching Up</h2>
     <p class="insight-p">이 뉘앙스는 누락된 업무나 학업을 보충하는 것을 의미합니다.</p>
     <div class="example-group">
-        <div class="ex-en">I have to catch up on my assignments this weekend.</div>
+        <div class="ex-en">I have to catch up on my assignments this weekend. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I have to catch up on my assignments this weekend.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">이번 주말에 과제를 따라잡아야 해. (밀린 과제를 완료하려는 계획)</div>
         <div class="ex-en" style="margin-top:12px;">He is trying to catch up with his studies.</div>
         <div class="ex-ko">그는 학업을 따라잡으려 하고 있다. (뒤처진 공부를 보충하려는 노력)</div>
@@ -11103,13 +11103,13 @@ Maximize Result
     "break down": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>break down</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>break down</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('break down')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 break down은 <strong>'세부적으로 나누고 이해하는 것'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">break down의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>break down</strong>의 핵심은</p>
+        <p>원어민에게 <strong>break down</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('break down')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"분해하여 이해하다"</div>
         <p>입니다. 이는 복잡한 것을 단순하게 만드는 과정을 나타냅니다.</p>
     </div>
@@ -11129,7 +11129,7 @@ Maximize Result
     <h2 class="insight-h2">① 고장나다 + breakdown</h2>
     <p class="insight-p">기계나 시스템이 더 이상 작동하지 않을 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">The car broke down on the highway.</div>
+        <div class="ex-en">The car broke down on the highway. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The car broke down on the highway.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">차가 고속도로에서 고장 났다. (더 이상 작동하지 않는 상태를 나타냄)</div>
         <div class="ex-en" style="margin-top:12px;">Our washing machine broke down yesterday.</div>
         <div class="ex-ko">우리 세탁기가 어제 고장 났다. (기계의 기능이 멈춘 상황)</div>
@@ -11138,7 +11138,7 @@ Maximize Result
     <h2 class="insight-h2">② 분석하다 + break down</h2>
     <p class="insight-p">복잡한 것을 더 작은 부분으로 나누어 설명할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Let's break down the data to understand it better.</div>
+        <div class="ex-en">Let's break down the data to understand it better. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Let\'s break down the data to understand it better.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">데이터를 분석하여 더 잘 이해해보자. (세부적으로 나누어 이해하는 과정)</div>
         <div class="ex-en" style="margin-top:12px;">The report breaks down the results by age group.</div>
         <div class="ex-ko">그 보고서는 결과를 연령대별로 분석하고 있다. (결과를 분류하여 더욱 명확히 함)</div>
@@ -11147,7 +11147,7 @@ Maximize Result
     <h2 class="insight-h2">③ 감정 폭발 + break down</h2>
     <p class="insight-p">감정이 극도로 고조되어 통제할 수 없는 상태가 될 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">She broke down in tears after hearing the news.</div>
+        <div class="ex-en">She broke down in tears after hearing the news. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('She broke down in tears after hearing the news.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀는 그 소식을 듣고 눈물을 터뜨렸다. (감정이 폭발하여 눈물이 흘러내림)</div>
         <div class="ex-en" style="margin-top:12px;">He broke down and couldn't continue speaking.</div>
         <div class="ex-ko">그는 감정이 폭발하여 말을 잇지 못했다. (감정의 통제가 불가능해진 상황)</div>
@@ -11157,13 +11157,13 @@ Maximize Result
     "run into": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>run into</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>run into</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('run into')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 run into은 <strong>'뜻밖의 만남이나 마주침'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">run into의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>run into</strong>의 핵심은</p>
+        <p>원어민에게 <strong>run into</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('run into')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"예상치 못한 만남"</div>
         <p>입니다. 이 표현은 계획 없이 갑작스럽게 일어나는 만남을 의미합니다.</p>
     </div>
@@ -11183,7 +11183,7 @@ Maximize Result
     <h2 class="insight-h2">① 우연한 만남 (Unexpected Encounter)</h2>
     <p class="insight-p">이 표현은 길을 가다가 예기치 않게 사람을 만났을 때 자주 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">I ran into my old friend at the supermarket.</div>
+        <div class="ex-en">I ran into my old friend at the supermarket. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I ran into my old friend at the supermarket.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">나는 슈퍼마켓에서 옛 친구를 우연히 만났다. (예기치 않게 친구를 만난 상황)</div>
         <div class="ex-en" style="margin-top:12px;">She ran into her professor at the conference.</div>
         <div class="ex-ko">그녀는 컨퍼런스에서 교수님과 우연히 마주쳤다. (계획되지 않은 만남)</div>
@@ -11192,7 +11192,7 @@ Maximize Result
     <h2 class="insight-h2">② 곤란한 상황에 처하다 (Encounter Trouble)</h2>
     <p class="insight-p">이 표현은 예상치 못한 문제나 어려움을 겪을 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">We ran into some problems while setting up the tent.</div>
+        <div class="ex-en">We ran into some problems while setting up the tent. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('We ran into some problems while setting up the tent.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">우리는 텐트를 치다가 몇 가지 문제에 부딪혔다. (예상치 못한 문제 발생)</div>
         <div class="ex-en" style="margin-top:12px;">They ran into financial difficulties last year.</div>
         <div class="ex-ko">그들은 작년에 재정적인 어려움에 처했다. (갑작스럽게 어려움을 겪은 상황)</div>
@@ -11201,7 +11201,7 @@ Maximize Result
     <h2 class="insight-h2">③ 숫자나 양에 도달하다 (Reach a Number or Amount)</h2>
     <p class="insight-p">이 표현은 어떤 수치나 양에 도달했을 때도 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">The project costs ran into millions of dollars.</div>
+        <div class="ex-en">The project costs ran into millions of dollars. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The project costs ran into millions of dollars.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그 프로젝트 비용은 수백만 달러에 달했다. (큰 비용에 도달한 상황)</div>
         <div class="ex-en" style="margin-top:12px;">His debts ran into thousands.</div>
         <div class="ex-ko">그의 빚은 수천 달러에 이르렀다. (빚이 많이 쌓인 상황)</div>
@@ -11211,13 +11211,13 @@ Maximize Result
     "get the ball rolling": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>get the ball rolling</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>get the ball rolling</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('get the ball rolling')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 get the ball rolling은 <strong>'시작을 촉발하고 추진력을 얻는 것'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">get the ball rolling의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>get the ball rolling</strong>의 핵심은</p>
+        <p>원어민에게 <strong>get the ball rolling</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('get the ball rolling')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"활동을 시작하여 추진력을 얻는 것"</div>
         <p>입니다. 이 표현은 무언가를 시작하고 이를 이어가고자 할 때 사용됩니다.</p>
     </div>
@@ -11237,7 +11237,7 @@ Maximize Result
     <h2 class="insight-h2">① 시작을 알리다 - Initiate</h2>
     <p class="insight-p">이 표현은 어떤 프로젝트나 활동을 시작할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Let's get the ball rolling on the new marketing campaign.</div>
+        <div class="ex-en">Let's get the ball rolling on the new marketing campaign. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Let\'s get the ball rolling on the new marketing campaign.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">새로운 마케팅 캠페인을 시작해보자. (캠페인을 시작하고자 하는 의지와 추진력 강조)</div>
         <div class="ex-en" style="margin-top:12px;">The meeting got the ball rolling on the project.</div>
         <div class="ex-ko">회의가 프로젝트의 시작을 알렸다. (회의가 시작의 촉발점이 되었음을 강조)</div>
@@ -11246,7 +11246,7 @@ Maximize Result
     <h2 class="insight-h2">② 모멘텀을 얻다 - Gain Momentum</h2>
     <p class="insight-p">일단 시작하면 계속해서 추진력을 얻어가는 과정을 의미합니다.</p>
     <div class="example-group">
-        <div class="ex-en">Once we get the ball rolling, everything will fall into place.</div>
+        <div class="ex-en">Once we get the ball rolling, everything will fall into place. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Once we get the ball rolling, everything will fall into place.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">일단 시작하면 모든 것이 제자리를 찾을 것이다. (시작 후 자연스러운 진행을 기대)</div>
         <div class="ex-en" style="margin-top:12px;">We got the ball rolling, and soon the team was in full swing.</div>
         <div class="ex-ko">우리는 시작했고 곧 팀이 본격적으로 움직이기 시작했다. (모멘텀을 얻어 활발해진 팀의 모습 묘사)</div>
@@ -11255,7 +11255,7 @@ Maximize Result
     <h2 class="insight-h2">③ 주도권을 잡다 - Take Initiative</h2>
     <p class="insight-p">이 표현은 주도적으로 무언가를 시작하려는 의지를 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">She decided to get the ball rolling by volunteering first.</div>
+        <div class="ex-en">She decided to get the ball rolling by volunteering first. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('She decided to get the ball rolling by volunteering first.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀는 먼저 자원하여 시작하기로 결심했다. (주도적으로 시작하려는 의지)</div>
         <div class="ex-en" style="margin-top:12px;">He got the ball rolling by presenting his ideas to the group.</div>
         <div class="ex-ko">그는 자신의 아이디어를 그룹에 제시하여 시작했다. (주도적으로 아이디어를 제안하여 시작)</div>
@@ -11265,13 +11265,13 @@ Maximize Result
     "bite the bullet": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>bite the bullet</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>bite the bullet</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('bite the bullet')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 bite the bullet은 <strong>'어려움을 감내하며 결단을 내리다'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">bite the bullet의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>bite the bullet</strong>의 핵심은</p>
+        <p>원어민에게 <strong>bite the bullet</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('bite the bullet')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"불가피한 상황에서 용기를 내다"</div>
         <p>입니다. 특히, 고통이나 불편을 직면할 때 사용됩니다.</p>
     </div>
@@ -11290,7 +11290,7 @@ Maximize Result
     <h2 class="insight-h2">① 고통을 감내하다 - Enduring Pain</h2>
     <p class="insight-p">고통스러운 상황을 감내하며 결단을 내리는 것을 의미합니다.</p>
     <div class="example-group">
-        <div class="ex-en">He had to bite the bullet and undergo the surgery.</div>
+        <div class="ex-en">He had to bite the bullet and undergo the surgery. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('He had to bite the bullet and undergo the surgery.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그는 수술을 받아야만 했습니다. (고통을 감내하는 결단)</div>
         <div class="ex-en" style="margin-top:12px;">Despite the fear, she decided to bite the bullet and tell the truth.</div>
         <div class="ex-ko">두려움에도 불구하고, 그녀는 진실을 말하기로 결단했습니다. (진실을 말하는 용기의 결단)</div>
@@ -11299,7 +11299,7 @@ Maximize Result
     <h2 class="insight-h2">② 불가피한 상황 - Facing the Inevitable</h2>
     <p class="insight-p">피할 수 없는 상황을 맞닥뜨릴 때 이 표현을 씁니다.</p>
     <div class="example-group">
-        <div class="ex-en">The company had to bite the bullet and lay off several employees.</div>
+        <div class="ex-en">The company had to bite the bullet and lay off several employees. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The company had to bite the bullet and lay off several employees.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">회사는 어쩔 수 없이 여러 직원을 해고해야 했습니다. (불가피한 현실을 직면)</div>
         <div class="ex-en" style="margin-top:12px;">She knew she had to bite the bullet and finish the project by the deadline.</div>
         <div class="ex-ko">그녀는 마감일까지 프로젝트를 끝내야 한다는 것을 알고 있었습니다. (불가피한 상황을 받아들이는 결단)</div>
@@ -11308,7 +11308,7 @@ Maximize Result
     <h2 class="insight-h2">③ 용기를 내다 - Summoning Courage</h2>
     <p class="insight-p">두려움을 이기고 용기를 내야 할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">He bit the bullet and asked his boss for a raise.</div>
+        <div class="ex-en">He bit the bullet and asked his boss for a raise. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('He bit the bullet and asked his boss for a raise.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그는 용기를 내어 상사에게 급여 인상을 요청했습니다. (용기를 내는 행동)</div>
         <div class="ex-en" style="margin-top:12px;">Finally, she bit the bullet and moved to a new city for a fresh start.</div>
         <div class="ex-ko">마침내, 그녀는 새로운 시작을 위해 새로운 도시로 이사했습니다. (새로운 도전을 위한 용기)</div>
@@ -11318,13 +11318,13 @@ Maximize Result
     "hit the nail on the head": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>hit the nail on the head</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>hit the nail on the head</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('hit the nail on the head')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 hit the nail on the head은 <strong>'정확히 맞히다, 적중하다'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">hit the nail on the head의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>hit the nail on the head</strong>의 핵심은</p>
+        <p>원어민에게 <strong>hit the nail on the head</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('hit the nail on the head')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"정확성을 강조하는 표현"</div>
         <p>입니다. 이 표현은 문제의 본질을 제대로 이해하거나 맞힐 때 사용됩니다.</p>
     </div>
@@ -11345,7 +11345,7 @@ Maximize Result
     <h2 class="insight-h2">① 정확한 판단이나 의견을 제시하다 (Making an accurate judgment or statement)</h2>
     <p class="insight-p">이 표현은 누군가가 문제나 상황의 핵심을 정확히 짚어냈을 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">"You really hit the nail on the head with your analysis of the market trends."</div>
+        <div class="ex-en">"You really hit the nail on the head with your analysis of the market trends." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;You really hit the nail on the head with your analysis of the market trends.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"당신의 시장 동향 분석은 정말 정확했어요." (분석이 매우 정확함을 칭찬하는 뉘앙스)</div>
         <div class="ex-en" style="margin-top:12px;">"When she said the system was outdated, she hit the nail on the head."</div>
         <div class="ex-ko">"그녀가 시스템이 구식이라고 말했을 때, 정말 정확했어요." (상황을 정확히 꿰뚫어 봄)</div>
@@ -11354,7 +11354,7 @@ Maximize Result
     <h2 class="insight-h2">② 문제의 핵심을 이해하다 (Understanding the core of a problem)</h2>
     <p class="insight-p">문제의 중심을 제대로 파악했을 때, 이 표현을 사용합니다.</p>
     <div class="example-group">
-        <div class="ex-en">"By identifying the root cause, he hit the nail on the head."</div>
+        <div class="ex-en">"By identifying the root cause, he hit the nail on the head." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;By identifying the root cause, he hit the nail on the head.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"근본 원인을 찾아냄으로써 그는 문제의 핵심을 짚었어요." (문제 해결에 있어 정확한 이해를 가짐)</div>
         <div class="ex-en" style="margin-top:12px;">"Her comment about the lack of communication hit the nail on the head."</div>
         <div class="ex-ko">"의사소통 부족에 대한 그녀의 언급은 정확히 핵심을 짚었어요." (문제의 본질을 이해함)</div>
@@ -11363,7 +11363,7 @@ Maximize Result
     <h2 class="insight-h2">③ 상황에 맞는 적절한 행동을 하다 (Taking appropriate actions in a situation)</h2>
     <p class="insight-p">상황에 적합한 행동이나 반응을 보였을 때 사용합니다.</p>
     <div class="example-group">
-        <div class="ex-en">"By deciding to expand into the new market, the company hit the nail on the head."</div>
+        <div class="ex-en">"By deciding to expand into the new market, the company hit the nail on the head." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;By deciding to expand into the new market, the company hit the nail on the head.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"신규 시장으로 확장하기로 결정하면서, 회사는 적절한 결정을 내렸어요." (상황에 딱 맞는 결정을 내림)</div>
         <div class="ex-en" style="margin-top:12px;">"His response to the complaint hit the nail on the head, calming the customer instantly."</div>
         <div class="ex-ko">"그의 불만에 대한 답변은 적절해서 고객을 바로 진정시켰어요." (상황에 알맞은 대응을 함)</div>
@@ -11373,13 +11373,13 @@ Maximize Result
     "take off": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>take off</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>take off</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('take off')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 take off은 <strong>'빠르게 떠나는 것 또는 성공적으로 시작하는 것'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">take off의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>take off</strong>의 핵심은</p>
+        <p>원어민에게 <strong>take off</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('take off')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"빠르게 이륙하거나 출발하는 동작"</div>
         <p>입니다. 이 표현은 급격한 시작이나 상승을 의미합니다.</p>
     </div>
@@ -11396,7 +11396,7 @@ Maximize Result
     <h2 class="insight-h2">① 이륙하다/떠나다 (Take off as departure)</h2>
     <p class="insight-p">이 표현은 물리적으로 장소를 떠날 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">The plane will take off at 3 PM.</div>
+        <div class="ex-en">The plane will take off at 3 PM. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The plane will take off at 3 PM.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">비행기는 오후 3시에 이륙할 것입니다. (이륙 또는 출발의 의미)</div>
         <div class="ex-en" style="margin-top:12px;">The bird took off into the sky.</div>
         <div class="ex-ko">새가 하늘로 날아올랐습니다. (빠르게 하늘로 떠나는 동작)</div>
@@ -11405,7 +11405,7 @@ Maximize Result
     <h2 class="insight-h2">② 성공적으로 시작하다 (Take off as success)</h2>
     <p class="insight-p">이 표현은 어떤 일이 갑자기 성공하기 시작할 때 쓰입니다.</p>
     <div class="example-group">
-        <div class="ex-en">Her career really took off after the promotion.</div>
+        <div class="ex-en">Her career really took off after the promotion. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Her career really took off after the promotion.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀의 경력은 승진 후에 정말로 급성장했습니다. (성공적이고 급속한 시작)</div>
         <div class="ex-en" style="margin-top:12px;">The product took off after the advertisement.</div>
         <div class="ex-ko">광고 후에 그 제품은 인기를 끌었습니다. (갑자기 인기를 얻는 성공)</div>
@@ -11414,7 +11414,7 @@ Maximize Result
     <h2 class="insight-h2">③ 옷을 벗다 (Take off as removal)</h2>
     <p class="insight-p">이 표현은 옷이나 액세서리를 제거할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Please take off your shoes before entering.</div>
+        <div class="ex-en">Please take off your shoes before entering. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Please take off your shoes before entering.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">들어가기 전에 신발을 벗어 주세요. (신발을 벗는 행위)</div>
         <div class="ex-en" style="margin-top:12px;">He took off his hat as he entered the room.</div>
         <div class="ex-ko">그는 방에 들어서면서 모자를 벗었습니다. (모자 제거의 의미)</div>
@@ -11424,13 +11424,13 @@ Maximize Result
     "give up": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>give up</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>give up</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('give up')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 give up은 <strong>'포기하거나 더 이상 시도하지 않는 것'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">give up의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>give up</strong>의 핵심은</p>
+        <p>원어민에게 <strong>give up</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('give up')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"노력을 멈추고 포기하는 순간"</div>
         <p>입니다. (즉, 더 이상 그 일을 계속할 의지가 없음을 나타냅니다.)</p>
     </div>
@@ -11449,7 +11449,7 @@ Maximize Result
     <h2 class="insight-h2">① 포기하다 (To Quit)</h2>
     <p class="insight-p">이 뉘앙스는 어떤 것을 더 이상 지속하지 않기로 결정했을 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">She decided to give up smoking.</div>
+        <div class="ex-en">She decided to give up smoking. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('She decided to give up smoking.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀는 담배를 끊기로 결정했다. (더 이상 담배를 피우지 않기로 했다는 의미)</div>
         <div class="ex-en" style="margin-top:12px;">He gave up on his dream of becoming a musician.</div>
         <div class="ex-ko">그는 음악가가 되려는 꿈을 포기했다. (꿈을 이루기 위한 노력을 중단했다는 의미)</div>
@@ -11458,7 +11458,7 @@ Maximize Result
     <h2 class="insight-h2">② 항복하다 (To Surrender)</h2>
     <p class="insight-p">특정 상황에서 더 이상 저항하지 않고 받아들이는 것을 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">The soldiers had no choice but to give up.</div>
+        <div class="ex-en">The soldiers had no choice but to give up. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The soldiers had no choice but to give up.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">군인들은 항복할 수밖에 없었다. (더 이상 싸울 수 없는 상황이었음을 의미)</div>
         <div class="ex-en" style="margin-top:12px;">She finally gave up and admitted he was right.</div>
         <div class="ex-ko">그녀는 결국 포기하고 그가 옳다고 인정했다. (저항을 멈추고 받아들였다는 의미)</div>
@@ -11467,7 +11467,7 @@ Maximize Result
     <h2 class="insight-h2">③ 양보하다 (To Relinquish)</h2>
     <p class="insight-p">무언가를 다른 사람에게 넘기거나 포기할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">He gave up his seat for the elderly woman.</div>
+        <div class="ex-en">He gave up his seat for the elderly woman. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('He gave up his seat for the elderly woman.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그는 노인에게 자리를 양보했다. (자신의 자리를 포기하고 다른 사람에게 준다는 의미)</div>
         <div class="ex-en" style="margin-top:12px;">She gave up her position as team leader.</div>
         <div class="ex-ko">그녀는 팀 리더의 자리를 포기했다. (직책을 다른 사람에게 넘겼다는 의미)</div>
@@ -11477,13 +11477,13 @@ Maximize Result
     "call off": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>call off</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>call off</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('call off')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 call off은 <strong>'취소의 확고한 결정'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">call off의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>call off</strong>의 핵심은</p>
+        <p>원어민에게 <strong>call off</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('call off')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"종료를 공식적으로 선언하다"</div>
         <p>입니다. (무언가를 중단하거나 취소하는 명확한 의사 표시입니다.)</p>
     </div>
@@ -11502,7 +11502,7 @@ Maximize Result
     <h2 class="insight-h2">① 취소하다 (Cancel)</h2>
     <p class="insight-p">일정이나 계획을 취소할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">The meeting was called off due to the storm.</div>
+        <div class="ex-en">The meeting was called off due to the storm. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The meeting was called off due to the storm.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">회의는 폭풍우 때문에 취소되었습니다. (폭풍우로 인해 회의를 공식적으로 취소함)</div>
         <div class="ex-en" style="margin-top:12px;">They decided to call off the wedding.</div>
         <div class="ex-ko">그들은 결혼식을 취소하기로 결정했습니다. (결혼식을 진행하지 않기로 한 공식적인 결정)</div>
@@ -11511,7 +11511,7 @@ Maximize Result
     <h2 class="insight-h2">② 중단하다 (Stop)</h2>
     <p class="insight-p">어떤 행동이나 일을 멈출 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">The search was called off as night fell.</div>
+        <div class="ex-en">The search was called off as night fell. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The search was called off as night fell.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">밤이 되자 수색이 중단되었습니다. (밤이 되면서 수색을 중단하기로 한 결정)</div>
         <div class="ex-en" style="margin-top:12px;">The referee called off the match due to rain.</div>
         <div class="ex-ko">심판은 비 때문에 경기를 중단시켰습니다. (비가 내려 경기를 더 이상 진행하지 않기로 함)</div>
@@ -11520,7 +11520,7 @@ Maximize Result
     <h2 class="insight-h2">③ 철수하다 (Withdraw)</h2>
     <p class="insight-p">어떤 계획이나 작전을 철수할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">The troops were called off after the peace treaty was signed.</div>
+        <div class="ex-en">The troops were called off after the peace treaty was signed. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The troops were called off after the peace treaty was signed.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">평화 조약이 체결된 후 군대가 철수되었습니다. (평화 조약 체결로 인해 군대를 철수하기로 함)</div>
         <div class="ex-en" style="margin-top:12px;">They called off the strike after negotiations.</div>
         <div class="ex-ko">협상 후에 파업을 철회했습니다. (협상 결과로 파업을 끝내기로 결정)</div>
@@ -11530,13 +11530,13 @@ Maximize Result
     "Break the Ice": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Break the Ice</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Break the Ice</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Break the Ice')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Break the Ice은 <strong>'어색한 분위기를 깨고 대화를 시작하는 것'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Break the Ice의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Break the Ice</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Break the Ice</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Break the Ice')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"어색함을 깨트려 대화를 시작하는 순간"</div>
         <p>입니다. 이 표현은 종종 사람들이 처음 만났을 때 사용됩니다.</p>
     </div>
@@ -11555,7 +11555,7 @@ Maximize Result
     <h2 class="insight-h2">① 첫 만남에서의 시도 (First Meeting Attempt)</h2>
     <p class="insight-p">처음 만난 사람들과의 어색함을 없애기 위해 사용합니다.</p>
     <div class="example-group">
-        <div class="ex-en">She told a joke to break the ice at the party.</div>
+        <div class="ex-en">She told a joke to break the ice at the party. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('She told a joke to break the ice at the party.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀는 파티에서 어색함을 깨기 위해 농담을 했다. (농담을 통해 처음 만남의 어색함을 없앰)</div>
         <div class="ex-en" style="margin-top:12px;">He broke the ice by asking everyone about their favorite books.</div>
         <div class="ex-ko">그는 모두에게 좋아하는 책에 대해 물어보며 어색함을 깼다. (공통 관심사를 통해 대화의 시작을 유도)</div>
@@ -11564,7 +11564,7 @@ Maximize Result
     <h2 class="insight-h2">② 긴장 완화 (Ease Tension)</h2>
     <p class="insight-p">긴장된 상황에서 분위기를 부드럽게 만들 때 사용합니다.</p>
     <div class="example-group">
-        <div class="ex-en">The funny video really helped to break the ice before the meeting.</div>
+        <div class="ex-en">The funny video really helped to break the ice before the meeting. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The funny video really helped to break the ice before the meeting.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">재미있는 비디오는 회의 전에 정말로 긴장을 풀어주었다. (비디오가 긴장된 분위기를 완화함)</div>
         <div class="ex-en" style="margin-top:12px;">A warm smile can break the ice in an interview setting.</div>
         <div class="ex-ko">따뜻한 미소는 면접 환경에서 긴장을 풀 수 있다. (미소가 면접의 긴장감을 덜어줌)</div>
@@ -11573,7 +11573,7 @@ Maximize Result
     <h2 class="insight-h2">③ 관계 발전 (Relationship Building)</h2>
     <p class="insight-p">사람들 간의 관계를 시작하고 발전시킬 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">The team-building activities were designed to break the ice among coworkers.</div>
+        <div class="ex-en">The team-building activities were designed to break the ice among coworkers. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The team-building activities were designed to break the ice among coworkers.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">팀 빌딩 활동은 동료들 간의 어색함을 없애기 위해 고안되었다. (활동을 통해 관계를 발전시킴)</div>
         <div class="ex-en" style="margin-top:12px;">Playing games can often break the ice in a group of strangers.</div>
         <div class="ex-ko">게임을 하는 것은 종종 낯선 사람들 간의 어색함을 없앨 수 있다. (공동 활동이 관계 형성에 도움)</div>
@@ -11583,13 +11583,13 @@ Maximize Result
     "Hit the Books": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Hit the Books</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Hit the Books</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Hit the Books')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Hit the Books은 <strong>'공부를 시작하다'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Hit the Books의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Hit the Books</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Hit the Books</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Hit the Books')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"열심히 공부하다"</div>
         <p>입니다. 공부에 집중하는 모습을 연상하게 합니다.</p>
     </div>
@@ -11609,7 +11609,7 @@ Maximize Result
     <h2 class="insight-h2">① 집중적으로 공부하다 (Focus Intently on Studying)</h2>
     <p class="insight-p">이 표현은 주로 시험이나 중요한 과제를 앞두고 공부에 몰두하는 상황에서 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">I need to hit the books if I want to pass the exam tomorrow.</div>
+        <div class="ex-en">I need to hit the books if I want to pass the exam tomorrow. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I need to hit the books if I want to pass the exam tomorrow.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">나는 내일 시험에 합격하려면 공부를 열심히 해야 해. (시험 준비를 위해 집중해서 공부한다는 뉘앙스)</div>
         <div class="ex-en" style="margin-top:12px;">She hit the books all weekend to finish her project.</div>
         <div class="ex-ko">그녀는 프로젝트를 끝내기 위해 주말 내내 공부에 몰두했다. (주말 내내 집중적으로 공부했다는 뉘앙스)</div>
@@ -11618,7 +11618,7 @@ Maximize Result
     <h2 class="insight-h2">② 시작하다 (Begin Studying)</h2>
     <p class="insight-p">공부를 시작하는 순간을 강조할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">After dinner, I'm going to hit the books.</div>
+        <div class="ex-en">After dinner, I'm going to hit the books. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('After dinner, I\'m going to hit the books.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">저녁 먹고 나서 공부 시작할 거야. (식사 후 공부를 시작할 것이라는 뉘앙스)</div>
         <div class="ex-en" style="margin-top:12px;">It's time to hit the books if you want to succeed in the course.</div>
         <div class="ex-ko">이 강좌에서 성공하고 싶다면 이제 공부를 시작할 때야. (성공을 위해 지금부터 공부를 시작해야 한다는 뉘앙스)</div>
@@ -11627,7 +11627,7 @@ Maximize Result
     <h2 class="insight-h2">③ 규칙적으로 공부하다 (Study Regularly)</h2>
     <p class="insight-p">주기적으로 공부하는 습관을 나타낼 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">He hits the books every evening to keep up with his studies.</div>
+        <div class="ex-en">He hits the books every evening to keep up with his studies. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('He hits the books every evening to keep up with his studies.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그는 학업을 따라가기 위해 매일 저녁 공부한다. (일정한 시간에 규칙적으로 공부한다는 뉘앙스)</div>
         <div class="ex-en" style="margin-top:12px;">They hit the books daily to improve their grades.</div>
         <div class="ex-ko">그들은 성적을 올리기 위해 매일 공부한다. (매일 꾸준히 공부한다는 뉘앙스)</div>
@@ -11637,13 +11637,13 @@ Maximize Result
     "Bite the Bullet": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>Bite the Bullet</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>Bite the Bullet</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Bite the Bullet')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 Bite the Bullet은 <strong>'불가피한 상황에서 용기를 내어 맞서는 행동'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">Bite the Bullet의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>Bite the Bullet</strong>의 핵심은</p>
+        <p>원어민에게 <strong>Bite the Bullet</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Bite the Bullet')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"어려운 상황을 극복하기 위해 결단력 있게 맞서는 것"</div>
         <p>입니다. 이 표현은 불편한 상황을 피하지 않고 직면한다는 의미를 내포합니다.</p>
     </div>
@@ -11662,7 +11662,7 @@ Maximize Result
     <h2 class="insight-h2">① 불가피한 상황에서의 결단력 Decision in Unavoidable Circumstances</h2>
     <p class="insight-p">이 표현은 피할 수 없는 상황에서 결단을 내려야 할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">I didn't want to move to a new city, but I had to bite the bullet and accept the job offer.</div>
+        <div class="ex-en">I didn't want to move to a new city, but I had to bite the bullet and accept the job offer. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I didn\'t want to move to a new city, but I had to bite the bullet and accept the job offer.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">나는 새로운 도시로 이사 가고 싶지 않았지만, 일자리를 수락하기 위해 이를 악물고 결단을 내렸다. (불가피한 상황에서 결단력 필요)</div>
         <div class="ex-en" style="margin-top:12px;">Sometimes you just need to bite the bullet and do what needs to be done.</div>
         <div class="ex-ko">때로는 그저 이를 악물고 필요한 일을 해야 할 때가 있다. (필요한 행동을 해야 하는 상황)</div>
@@ -11671,7 +11671,7 @@ Maximize Result
     <h2 class="insight-h2">② 고통이나 두려움을 직면함 Facing Pain or Fear</h2>
     <p class="insight-p">이 표현은 고통스럽거나 두려운 상황에 맞닥뜨리면서도 이를 견딜 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">The patient had to bite the bullet and undergo surgery despite his fear.</div>
+        <div class="ex-en">The patient had to bite the bullet and undergo surgery despite his fear. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The patient had to bite the bullet and undergo surgery despite his fear.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">환자는 두려움에도 불구하고 수술을 받아들여야만 했다. (고통이나 두려움을 직면)</div>
         <div class="ex-en" style="margin-top:12px;">She decided to bite the bullet and confront her boss about the unfair treatment.</div>
         <div class="ex-ko">그녀는 부당한 대우에 대해 상사와 맞서기로 결심했다. (두려움을 마주하고 문제를 직면)</div>
@@ -11680,7 +11680,7 @@ Maximize Result
     <h2 class="insight-h2">③ 고난을 극복하기 위한 의지 Willingness to Overcome Hardship</h2>
     <p class="insight-p">이 표현은 어렵거나 불쾌한 일을 견뎌내겠다는 의지를 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">They had to bite the bullet and work overtime to meet the deadline.</div>
+        <div class="ex-en">They had to bite the bullet and work overtime to meet the deadline. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('They had to bite the bullet and work overtime to meet the deadline.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그들은 마감일을 맞추기 위해 추가 근무를 해야만 했다. (고난을 극복하기 위한 의지)</div>
         <div class="ex-en" style="margin-top:12px;">Biting the bullet, he decided to apologize and mend the relationship.</div>
         <div class="ex-ko">그는 이를 악물고 사과하여 관계를 회복하기로 결정했다. (관계를 회복하기 위한 의지)</div>
@@ -11690,13 +11690,13 @@ Maximize Result
     "make up": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>make up</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>make up</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('make up')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 make up은 <strong>'새로운 것을 만들어내다 혹은 보충하다'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">make up의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>make up</strong>의 핵심은</p>
+        <p>원어민에게 <strong>make up</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('make up')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"기존의 것을 더하거나 보충하여 새로운 상태나 결과를 만드는 것"</div>
         <p>입니다. 주로 부족한 것을 채우거나 새로운 것을 만들어낼 때 사용됩니다.</p>
     </div>
@@ -11716,7 +11716,7 @@ Maximize Result
     <h2 class="insight-h2">① 보충하다 - Compensate</h2>
     <p class="insight-p">make up은 부족한 부분을 보충하거나 만회할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">I need to make up the missed classes.</div>
+        <div class="ex-en">I need to make up the missed classes. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I need to make up the missed classes.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">나는 놓친 수업을 보충해야 한다. (수업을 놓친 부분을 보충하려는 의미)</div>
         <div class="ex-en" style="margin-top:12px;">She made up for her mistake by working extra hours.</div>
         <div class="ex-ko">그녀는 실수를 만회하기 위해 추가 근무를 했다. (실수를 보충하려는 의미)</div>
@@ -11725,7 +11725,7 @@ Maximize Result
     <h2 class="insight-h2">② 창작하다 - Create</h2>
     <p class="insight-p">make up은 새로운 이야기를 만들어낼 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">The children love to make up stories about dragons and knights.</div>
+        <div class="ex-en">The children love to make up stories about dragons and knights. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The children love to make up stories about dragons and knights.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">아이들은 용과 기사에 대한 이야기를 만들어내는 것을 좋아한다. (새로운 이야기를 창작하는 의미)</div>
         <div class="ex-en" style="margin-top:12px;">He made up an excuse for being late.</div>
         <div class="ex-ko">그는 늦은 것에 대한 변명을 만들어냈다. (변명이라는 새로운 이야기를 창작하는 의미)</div>
@@ -11734,7 +11734,7 @@ Maximize Result
     <h2 class="insight-h2">③ 구성하다 - Compose</h2>
     <p class="insight-p">make up은 여러 요소가 모여 하나의 전체를 구성할 때 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">Women make up 50% of the workforce.</div>
+        <div class="ex-en">Women make up 50% of the workforce. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Women make up 50% of the workforce.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">여성은 노동력의 50%를 구성한다. (전체의 일부로서 구성하는 의미)</div>
         <div class="ex-en" style="margin-top:12px;">The committee is made up of experts in various fields.</div>
         <div class="ex-ko">위원회는 다양한 분야의 전문가들로 구성되어 있다. (여러 요소가 모여 하나의 단체를 구성하는 의미)</div>
@@ -11744,13 +11744,13 @@ Maximize Result
     "make a decision": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>make a decision</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>make a decision</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('make a decision')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 make a decision은 <strong>'결정을 내리는 과정과 확고한 의지를 가지는 것'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">make a decision의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>make a decision</strong>의 핵심은</p>
+        <p>원어민에게 <strong>make a decision</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('make a decision')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"결정의 순간 그리고 확신"</div>
         <p>입니다. 이 표현은 어떤 선택을 확정하는 순간을 강조합니다.</p>
     </div>
@@ -11770,7 +11770,7 @@ Maximize Result
     <h2 class="insight-h2">① 결단의 순간 - The Moment of Decision</h2>
     <p class="insight-p">결정을 내리는 순간의 중요성과 그 시점을 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">She had to make a decision quickly to catch the last train.</div>
+        <div class="ex-en">She had to make a decision quickly to catch the last train. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('She had to make a decision quickly to catch the last train.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀는 마지막 기차를 잡기 위해 빠르게 결정을 내려야 했다. (결정의 속도와 순간이 중요함)</div>
         <div class="ex-en" style="margin-top:12px;">He made a decision to switch careers after much deliberation.</div>
         <div class="ex-ko">그는 깊이 고민한 후 직업을 바꾸기로 결정했다. (고민 끝에 내린 확고한 결정)</div>
@@ -11779,7 +11779,7 @@ Maximize Result
     <h2 class="insight-h2">② 결단력 - Determination</h2>
     <p class="insight-p">결정을 내릴 때의 강한 의지와 확신을 강조합니다.</p>
     <div class="example-group">
-        <div class="ex-en">Once you make a decision, stick to it.</div>
+        <div class="ex-en">Once you make a decision, stick to it. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Once you make a decision, stick to it.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">일단 결정을 내렸다면, 그것을 지켜라. (결정에 대한 확고한 의지)</div>
         <div class="ex-en" style="margin-top:12px;">He made a decision to stand by his principles, no matter what.</div>
         <div class="ex-ko">그는 어떤 상황에서도 자신의 원칙을 지키기로 결심했다. (원칙에 대한 강한 결단력)</div>
@@ -11788,7 +11788,7 @@ Maximize Result
     <h2 class="insight-h2">③ 과정의 중요성 - Importance of the Process</h2>
     <p class="insight-p">결정을 내리는 과정 자체의 중요성을 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">The board needs more information to make an informed decision.</div>
+        <div class="ex-en">The board needs more information to make an informed decision. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The board needs more information to make an informed decision.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">이사회는 신중한 결정을 내리기 위해 더 많은 정보가 필요하다. (결정 과정의 철저함)</div>
         <div class="ex-en" style="margin-top:12px;">Making a decision involves weighing all possible outcomes.</div>
         <div class="ex-ko">결정은 모든 가능한 결과를 고려하는 과정을 포함한다. (결정 과정의 중요성 강조)</div>
@@ -11798,13 +11798,13 @@ Maximize Result
     "take responsibility": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>take responsibility</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>take responsibility</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('take responsibility')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 take responsibility은 <strong>'스스로의 행동에 대해 책임을 지는 것'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">take responsibility의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>take responsibility</strong>의 핵심은</p>
+        <p>원어민에게 <strong>take responsibility</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('take responsibility')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"자신의 행동을 주도적으로 수용하는 자세"</div>
         <p>입니다. 이 표현은 주체적인 태도를 강조합니다.</p>
     </div>
@@ -11826,7 +11826,7 @@ Maximize Result
     <h2 class="insight-h2">① 주체적인 수용 Attentive Ownership</h2>
     <p class="insight-p">이 표현은 자신의 행동이나 결과를 스스로 인식하고 수용하는 의미입니다.</p>
     <div class="example-group">
-        <div class="ex-en">She decided to take responsibility for the team's failure.</div>
+        <div class="ex-en">She decided to take responsibility for the team's failure. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('She decided to take responsibility for the team\'s failure.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀는 팀의 실패에 대한 책임을 지기로 결정했다. (스스로의 판단에 따른 주체적 수용)</div>
         <div class="ex-en" style="margin-top:12px;">He took responsibility for the mistake and apologized.</div>
         <div class="ex-ko">그는 실수에 대한 책임을 지고 사과했다. (자신의 행동을 인정하고 해결하려는 태도)</div>
@@ -11835,7 +11835,7 @@ Maximize Result
     <h2 class="insight-h2">② 결과의 수용 Acceptance of Consequences</h2>
     <p class="insight-p">이 표현은 자신의 행동 결과에 대해 책임을 지고 수용하는 의미입니다.</p>
     <div class="example-group">
-        <div class="ex-en">The CEO took responsibility for the company's losses.</div>
+        <div class="ex-en">The CEO took responsibility for the company's losses. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The CEO took responsibility for the company\'s losses.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">CEO는 회사의 손실에 대한 책임을 졌다. (결과에 대한 책임을 수용하는 자세)</div>
         <div class="ex-en" style="margin-top:12px;">He took responsibility for his part in the accident.</div>
         <div class="ex-ko">그는 사고에 대한 자신의 책임을 인정했다. (행동의 결과를 받아들이는 태도)</div>
@@ -11844,7 +11844,7 @@ Maximize Result
     <h2 class="insight-h2">③ 책임감 있는 행동 Responsible Action</h2>
     <p class="insight-p">이 표현은 책임감 있게 행동하는 것을 강조합니다.</p>
     <div class="example-group">
-        <div class="ex-en">Taking responsibility means you're ready to take action.</div>
+        <div class="ex-en">Taking responsibility means you're ready to take action. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Taking responsibility means you\'re ready to take action.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">책임을 진다는 것은 행동할 준비가 되어 있다는 것을 의미한다. (행동을 통해 책임을 실천)</div>
         <div class="ex-en" style="margin-top:12px;">She showed her maturity by taking responsibility for the project.</div>
         <div class="ex-ko">그녀는 프로젝트에 대한 책임을 짐으로써 성숙함을 보여주었다. (책임감 있는 태도와 행동)</div>
@@ -11854,13 +11854,13 @@ Maximize Result
     "break a habit": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>break a habit</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>break a habit</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('break a habit')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 break a habit은 <strong>'습관을 끊는 결단과 노력'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">break a habit의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>break a habit</strong>의 핵심은</p>
+        <p>원어민에게 <strong>break a habit</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('break a habit')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"과감히 습관의 틀을 깨는 것"</div>
         <p>입니다. (이 표현은 행동의 변화를 강조합니다.)</p>
     </div>
@@ -11881,7 +11881,7 @@ Maximize Result
     <h2 class="insight-h2">① 습관을 깨는 행동력 + Determination to Change</h2>
     <p class="insight-p">이 표현은 습관을 깨기 위한 강력한 결심과 행동력을 강조합니다.</p>
     <div class="example-group">
-        <div class="ex-en">She decided to break her habit of biting her nails.</div>
+        <div class="ex-en">She decided to break her habit of biting her nails. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('She decided to break her habit of biting her nails.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀는 손톱을 물어뜯는 습관을 고치기로 결심했다. (여기서는 의지와 행동의 결단을 나타냅니다.)</div>
         <div class="ex-en" style="margin-top:12px;">He is trying hard to break his habit of smoking.</div>
         <div class="ex-ko">그는 흡연 습관을 끊으려고 열심히 노력하고 있다. (습관을 깨기 위한 노력과 결단을 표현합니다.)</div>
@@ -11890,7 +11890,7 @@ Maximize Result
     <h2 class="insight-h2">② 새로운 시작 + New Beginning</h2>
     <p class="insight-p">이 표현은 습관을 깨면서 시작되는 새로운 출발을 암시합니다.</p>
     <div class="example-group">
-        <div class="ex-en">Breaking the habit of procrastination opened up new opportunities for her.</div>
+        <div class="ex-en">Breaking the habit of procrastination opened up new opportunities for her. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Breaking the habit of procrastination opened up new opportunities for her.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">미루는 습관을 고치면서 그녀에게 새로운 기회가 열렸다. (새로운 시작과 가능성을 강조합니다.)</div>
         <div class="ex-en" style="margin-top:12px;">By breaking his gaming habit, he found more time for his studies.</div>
         <div class="ex-ko">게임 습관을 끊으면서 그는 공부에 더 많은 시간을 쓸 수 있게 되었다. (변화를 통해 얻는 이점을 나타냅니다.)</div>
@@ -11899,7 +11899,7 @@ Maximize Result
     <h2 class="insight-h2">③ 지속적인 노력 + Continuous Effort</h2>
     <p class="insight-p">습관을 깨는 과정은 꾸준한 노력이 필요함을 나타냅니다.</p>
     <div class="example-group">
-        <div class="ex-en">Breaking a habit requires patience and persistence.</div>
+        <div class="ex-en">Breaking a habit requires patience and persistence. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Breaking a habit requires patience and persistence.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">습관을 고치는 것은 인내와 지속적인 노력이 필요하다. (꾸준한 노력을 요구하는 과정을 설명합니다.)</div>
         <div class="ex-en" style="margin-top:12px;">He learned that breaking a habit is not a one-time effort but a continuous journey.</div>
         <div class="ex-ko">그는 습관을 고치는 것이 일회성 노력이 아닌 지속적인 여정이라는 것을 배웠다. (계속적인 노력이 중요하다는 것을 강조합니다.)</div>
@@ -11909,13 +11909,13 @@ Maximize Result
     "encourage": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>encourage</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>encourage</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('encourage')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 encourage은 <strong>'지원과 용기를 북돋아주는 따뜻한 손길'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">encourage의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>encourage</strong>의 핵심은</p>
+        <p>원어민에게 <strong>encourage</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('encourage')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"용기를 북돋아 주는 동기 부여"</div>
         <p>입니다. 주로 누군가에게 힘을 실어주는 상황에서 사용됩니다.</p>
     </div>
@@ -11937,7 +11937,7 @@ Maximize Result
     <h2 class="insight-h2">① 지원과 동기부여 (Support and Motivation)</h2>
     <p class="insight-p">누군가에게 도전할 수 있는 힘과 의지를 주는 상황에서 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">"The teacher encouraged her students to ask questions."</div>
+        <div class="ex-en">"The teacher encouraged her students to ask questions." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;The teacher encouraged her students to ask questions.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"선생님은 학생들이 질문하도록 격려했습니다." (질문을 통해 학습을 장려하는 상황)</div>
         <div class="ex-en" style="margin-top:12px;">"His words encouraged me to continue my studies."</div>
         <div class="ex-ko">"그의 말은 내가 공부를 계속하도록 격려했습니다." (공부를 지속하도록 동기를 부여하는 상황)</div>
@@ -11946,7 +11946,7 @@ Maximize Result
     <h2 class="insight-h2">② 자신감 부여 (Boosting Confidence)</h2>
     <p class="insight-p">상대방이 자신의 능력을 믿고 더 나아가도록 돕는 상황에서 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">"Her smile encouraged him to speak up."</div>
+        <div class="ex-en">"Her smile encouraged him to speak up." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;Her smile encouraged him to speak up.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"그녀의 미소는 그가 말하도록 용기를 주었습니다." (자신감 회복을 돕는 상황)</div>
         <div class="ex-en" style="margin-top:12px;">"Parents should encourage their children to try new things."</div>
         <div class="ex-ko">"부모는 자녀가 새로운 것을 시도하도록 격려해야 합니다." (새로운 도전에 대한 자신감을 심어주는 상황)</div>
@@ -11955,7 +11955,7 @@ Maximize Result
     <h2 class="insight-h2">③ 긍정적 지지 (Positive Support)</h2>
     <p class="insight-p">긍정적인 피드백을 통해 상대방을 지지하는 상황에서 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">"The coach encouraged the team despite their loss."</div>
+        <div class="ex-en">"The coach encouraged the team despite their loss." <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('&quot;The coach encouraged the team despite their loss.&quot;')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">"코치는 팀이 패배에도 불구하고 격려했습니다." (지속적인 긍정적 지원을 제공하는 상황)</div>
         <div class="ex-en" style="margin-top:12px;">"She encouraged him by acknowledging his efforts."</div>
         <div class="ex-ko">"그녀는 그의 노력을 인정하며 그를 격려했습니다." (노력에 대한 긍정적인 피드백을 주는 상황)</div>
@@ -11965,13 +11965,13 @@ Maximize Result
     "patient": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>patient</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>patient</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('patient')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 patient은 <strong>'인내하며 기다리는 마음의 여유'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">patient의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>patient</strong>의 핵심은</p>
+        <p>원어민에게 <strong>patient</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('patient')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"고요한 기다림과 마음의 평화"</div>
         <p>입니다. (이 단어는 상황을 받아들이는 침착함을 나타냅니다)</p>
     </div>
@@ -11990,7 +11990,7 @@ Maximize Result
     <h2 class="insight-h2">① 참을성 있는 행동 + Patient Behavior</h2>
     <p class="insight-p">어떤 상황에서도 성급하지 않고 차분하게 행동하는 것을 의미합니다.</p>
     <div class="example-group">
-        <div class="ex-en">She was patient with the crying child.</div>
+        <div class="ex-en">She was patient with the crying child. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('She was patient with the crying child.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀는 우는 아이에게 참을성을 보였다. (아이의 감정을 받아들이고 차분히 기다림)</div>
         <div class="ex-en" style="margin-top:12px;">He remained patient despite the long wait.</div>
         <div class="ex-ko">그는 긴 기다림에도 불구하고 참을성을 유지했다. (상황을 받아들이고 침착함을 유지함)</div>
@@ -11999,7 +11999,7 @@ Maximize Result
     <h2 class="insight-h2">② 의료적 맥락 + Medical Context</h2>
     <p class="insight-p">의료 환경에서 치료를 받는 사람을 지칭하는 데 사용됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">The doctor saw five patients this morning.</div>
+        <div class="ex-en">The doctor saw five patients this morning. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The doctor saw five patients this morning.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">의사는 오늘 아침 다섯 명의 환자를 보았다. (의료적 치료를 받는 사람을 의미)</div>
         <div class="ex-en" style="margin-top:12px;">Each patient has a unique treatment plan.</div>
         <div class="ex-ko">각 환자는 고유한 치료 계획을 가지고 있다. (의료의 대상인 사람을 의미)</div>
@@ -12008,7 +12008,7 @@ Maximize Result
     <h2 class="insight-h2">③ 인내의 미덕 + Virtue of Patience</h2>
     <p class="insight-p">인내는 좋은 성품의 한 부분으로 여겨집니다.</p>
     <div class="example-group">
-        <div class="ex-en">Patience is a virtue that many admire.</div>
+        <div class="ex-en">Patience is a virtue that many admire. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Patience is a virtue that many admire.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">인내는 많은 사람들이 존경하는 미덕이다. (인내심은 존경받는 성품으로 여겨짐)</div>
         <div class="ex-en" style="margin-top:12px;">Practicing patience can improve relationships.</div>
         <div class="ex-ko">인내를 연습하는 것은 관계를 개선할 수 있다. (인내심은 관계를 긍정적으로 만듦)</div>
@@ -12018,13 +12018,13 @@ Maximize Result
     "sympathy": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>sympathy</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>sympathy</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('sympathy')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 sympathy은 <strong>'타인의 감정을 함께 느끼는 것'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">sympathy의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>sympathy</strong>의 핵심은</p>
+        <p>원어민에게 <strong>sympathy</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('sympathy')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"함께 느끼는 마음의 연결"</div>
         <p>입니다. 이 표현은 상대방의 감정에 대한 이해와 동감을 나타냅니다.</p>
     </div>
@@ -12043,7 +12043,7 @@ Maximize Result
     <h2 class="insight-h2">① 감정의 동감 Sympathy as Emotional Resonance</h2>
     <p class="insight-p">Sympathy는 다른 사람의 감정에 대해 공감하고 함께 느끼는 것을 의미합니다.</p>
     <div class="example-group">
-        <div class="ex-en">I felt sympathy for her when she lost her dog.</div>
+        <div class="ex-en">I felt sympathy for her when she lost her dog. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('I felt sympathy for her when she lost her dog.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">나는 그녀가 개를 잃었을 때 그녀에게 동정심을 느꼈다. (그녀의 슬픔을 함께 느끼고 있음)</div>
         <div class="ex-en" style="margin-top:12px;">He expressed his sympathy by sending flowers.</div>
         <div class="ex-ko">그는 꽃을 보내며 그의 동정심을 표현했다. (상대의 슬픔에 대한 이해와 공유를 표현)</div>
@@ -12052,7 +12052,7 @@ Maximize Result
     <h2 class="insight-h2">② 위로의 표현 Sympathy as Comfort</h2>
     <p class="insight-p">Sympathy는 어려운 상황에 처한 사람에게 위로를 제공하는 것을 포함할 수 있습니다.</p>
     <div class="example-group">
-        <div class="ex-en">She offered her sympathy to the grieving family.</div>
+        <div class="ex-en">She offered her sympathy to the grieving family. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('She offered her sympathy to the grieving family.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀는 슬픔에 잠긴 가족에게 위로를 전했다. (그들의 고통을 이해하고 위로함)</div>
         <div class="ex-en" style="margin-top:12px;">His sympathy was a great comfort during the tough times.</div>
         <div class="ex-ko">그의 동정심은 힘든 시기에 큰 위로가 되었다. (상대방의 감정을 이해하고 지지함)</div>
@@ -12061,7 +12061,7 @@ Maximize Result
     <h2 class="insight-h2">③ 관계의 형성 Sympathy as Relationship Building</h2>
     <p class="insight-p">Sympathy는 사람들 간의 관계를 형성하고 강화하는 역할을 할 수 있습니다.</p>
     <div class="example-group">
-        <div class="ex-en">Their mutual sympathy brought them closer together.</div>
+        <div class="ex-en">Their mutual sympathy brought them closer together. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('Their mutual sympathy brought them closer together.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그들의 상호 동정심은 그들을 더 가깝게 만들었다. (공감대를 형성하여 관계를 강화함)</div>
         <div class="ex-en" style="margin-top:12px;">Sympathy can be the foundation of a strong friendship.</div>
         <div class="ex-ko">동정심은 강한 우정의 기초가 될 수 있다. (공감과 이해를 통해 관계를 구축함)</div>
@@ -12071,13 +12071,13 @@ Maximize Result
     "compassion": `
 <div class="insight-article">
     <div class="insight-intro">
-        <strong>compassion</strong>은 단순히 번역되는 뜻이 아닙니다.<br/>
+        <strong>compassion</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('compassion')" title="발음 듣기">🔊</button>은 단순히 번역되는 뜻이 아닙니다.<br/>
         원어민에게 compassion은 <strong>'타인의 고통을 진심으로 이해하고 돕고자 하는 마음'</strong>을 의미합니다.
     </div>
 
     <h2 class="insight-h2">compassion의 핵심 이미지</h2>
     <div class="insight-box highlight-box">
-        <p>원어민에게 <strong>compassion</strong>의 핵심은</p>
+        <p>원어민에게 <strong>compassion</strong> <button class="voice-btn" style="background:none; border:none; padding:0 2px; font-size:14px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px; vertical-align: baseline;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('compassion')" title="발음 듣기">🔊</button>의 핵심은</p>
         <div class="quote-text">"타인에 대한 진정한 연민과 이해"</div>
         <p>입니다. (이것은 단순한 연민을 넘어 행동으로 이어지는 감정입니다.)</p>
     </div>
@@ -12096,7 +12096,7 @@ Maximize Result
     <h2 class="insight-h2">① 깊은 이해와 배려 (Deep Understanding and Care)</h2>
     <p class="insight-p">compassion은 타인의 상황을 깊이 이해하고 그에 대한 배려를 포함합니다.</p>
     <div class="example-group">
-        <div class="ex-en">She showed great compassion towards the homeless by volunteering every weekend.</div>
+        <div class="ex-en">She showed great compassion towards the homeless by volunteering every weekend. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('She showed great compassion towards the homeless by volunteering every weekend.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그녀는 매주 주말마다 자원봉사를 하며 노숙자들에 대한 깊은 이해와 배려를 보여주었다. (단순한 동정이 아닌, 행동으로 옮기는 배려의 의미)</div>
         <div class="ex-en" style="margin-top:12px;">His compassion for animals led him to become a veterinarian.</div>
         <div class="ex-ko">그의 동물에 대한 연민은 그를 수의사가 되게 했다. (동물의 고통을 이해하고 이를 돕고자 하는 마음)</div>
@@ -12105,7 +12105,7 @@ Maximize Result
     <h2 class="insight-h2">② 고통을 함께 나누다 (Sharing Suffering)</h2>
     <p class="insight-p">compassion은 타인의 고통을 자신의 것으로 느끼고 함께 나누는 것을 의미합니다.</p>
     <div class="example-group">
-        <div class="ex-en">He felt a deep compassion for his friend who lost a loved one.</div>
+        <div class="ex-en">He felt a deep compassion for his friend who lost a loved one. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('He felt a deep compassion for his friend who lost a loved one.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">그는 사랑하는 이를 잃은 친구에게 깊은 연민을 느꼈다. (친구의 고통을 자신의 것으로 느끼는 마음)</div>
         <div class="ex-en" style="margin-top:12px;">Her compassion was evident when she listened patiently to her colleague's troubles.</div>
         <div class="ex-ko">그녀의 연민은 동료의 고민을 참을성 있게 들어줄 때 분명히 드러났다. (고통을 함께 나누고 이해하는 자세)</div>
@@ -12114,7 +12114,7 @@ Maximize Result
     <h2 class="insight-h2">③ 행동으로 옮기는 연민 (Compassion in Action)</h2>
     <p class="insight-p">compassion은 단순한 감정이 아니라, 실제 행동으로 연결됩니다.</p>
     <div class="example-group">
-        <div class="ex-en">The community's compassion led to the establishment of a new shelter.</div>
+        <div class="ex-en">The community's compassion led to the establishment of a new shelter. <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('The community\'s compassion led to the establishment of a new shelter.')" title="발음 듣기">🔊</button></div>
         <div class="ex-ko">지역사회의 연민은 새로운 쉼터 설립으로 이어졌다. (연민을 행동으로 옮기는 모습)</div>
         <div class="ex-en" style="margin-top:12px;">Compassion drove her to donate a significant portion of her income to charities.</div>
         <div class="ex-ko">연민은 그녀가 소득의 상당 부분을 자선단체에 기부하도록 했다. (단순한 연민을 넘어서는 실질적인 행동)</div>
