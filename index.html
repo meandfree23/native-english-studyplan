@@ -8199,20 +8199,48 @@
       });
   }
 
+  function getVoiceScore(voice) {
+      const name = voice.name.toLowerCase();
+      let score = 0;
+      if (name.includes('enhanced')) score += 100;
+      if (name.includes('siri')) score += 90;
+      if (name.includes('natural')) score += 80;
+      if (name.includes('google')) score += 70;
+      if (name.includes('neural')) score += 60;
+      if (name.includes('online')) score += 50;
+      if (name.includes('premium')) score += 40;
+      if (name.includes('samantha') || name.includes('daniel') || name.includes('kate') || name.includes('oliver')) {
+          score += 10;
+      }
+      return score;
+  }
+
   function globalPickVoice(voices, gender, accent) {
       const langPrefix = accent === 'UK' ? 'en-GB' : 'en-US';
       let pool = voices.filter(v => v.lang.toLowerCase().startsWith(langPrefix.toLowerCase()));
       if (pool.length === 0) {
           pool = voices.filter(v => v.lang.startsWith('en'));
       }
+      
+      const roboticVoices = ['Fred', 'Victoria', 'Zarvox', 'Trinoids', 'Cellos', 'Hysterical', 'Pipe Organ', 'Whisper', 'Bells', 'Boing', 'Bubbles', 'Good News', 'Organ', 'Ralph', 'Kathy', 'Princess', 'Junior', 'Albert', 'Bad News', 'Bahh', 'Kathy', 'Whisper'];
+      pool = pool.filter(v => !roboticVoices.some(name => v.name.toLowerCase().includes(name.toLowerCase())));
+      
       const maleKw   = ['male', 'man', 'guy', 'daniel', 'alex', 'david', 'fred', 'mark', 'tom', 'aaron', 'arthur', 'oliver', 'james', 'rishi'];
       const femaleKw = ['female', 'woman', 'girl', 'samantha', 'victoria', 'kate', 'karen', 'emma', 'alice', 'martha', 'moira', 'fiona', 'sandy', 'stephanie'];
       const kw = gender === 'M' ? maleKw : femaleKw;
-      const match = pool.find(v => kw.some(k => v.name.toLowerCase().includes(k)));
-      if (match) return match;
-      const half = Math.ceil(pool.length / 2);
-      const subPool = gender === 'M' ? pool.slice(0, half) : pool.slice(half);
-      return subPool[0] || pool[0] || voices[0];
+      
+      let genderMatched = pool.filter(v => kw.some(k => v.name.toLowerCase().includes(k)));
+      if (genderMatched.length === 0) {
+          genderMatched = pool;
+      }
+      
+      genderMatched.sort((a, b) => {
+          const scoreA = getVoiceScore(a);
+          const scoreB = getVoiceScore(b);
+          return scoreB - scoreA;
+      });
+      
+      return genderMatched[0] || pool[0] || voices[0];
   }
 
   async function speakText(text, accent) {
