@@ -1041,7 +1041,7 @@
   <script src="master/data/month10.js?v=1783997030"></script>
   <script src="master/data/month11.js?v=1783997030"></script>
   <script src="master/data/month12.js?v=1783997030"></script>
-<script src="master/data/core_insights_v2.js?v=1783998887"></script>
+<script src="master/data/core_insights_v2.js?v=1783998888"></script>
 <link rel="stylesheet" href="index.css">
 <script src="master/data/dictionary.js?v=1783997030"></script>
 </head>
@@ -8199,31 +8199,36 @@
       });
   }
 
-  function globalPickVoice(voices, gender) {
-      const en = voices.filter(v => v.lang.startsWith('en'));
+  function globalPickVoice(voices, gender, accent) {
+      const langPrefix = accent === 'UK' ? 'en-GB' : 'en-US';
+      let pool = voices.filter(v => v.lang.toLowerCase().startsWith(langPrefix.toLowerCase()));
+      if (pool.length === 0) {
+          pool = voices.filter(v => v.lang.startsWith('en'));
+      }
       const maleKw   = ['male', 'man', 'guy', 'daniel', 'alex', 'david', 'fred', 'mark', 'tom', 'aaron', 'arthur', 'oliver', 'james', 'rishi'];
       const femaleKw = ['female', 'woman', 'girl', 'samantha', 'victoria', 'kate', 'karen', 'emma', 'alice', 'martha', 'moira', 'fiona', 'sandy', 'stephanie'];
       const kw = gender === 'M' ? maleKw : femaleKw;
-      const match = en.find(v => kw.some(k => v.name.toLowerCase().includes(k)));
+      const match = pool.find(v => kw.some(k => v.name.toLowerCase().includes(k)));
       if (match) return match;
-      const half = Math.ceil(en.length / 2);
-      const pool = gender === 'M' ? en.slice(0, half) : en.slice(half);
-      return pool[0] || en[0] || voices[0];
+      const half = Math.ceil(pool.length / 2);
+      const subPool = gender === 'M' ? pool.slice(0, half) : pool.slice(half);
+      return subPool[0] || pool[0] || voices[0];
   }
 
-  async function speakText(text) {
+  async function speakText(text, accent) {
     if ('speechSynthesis' in window) {
       window.speechSynthesis.cancel();
       if (!globalVoiceCache) globalVoiceCache = await globalLoadVoices();
       
-      const gender = Math.random() < 0.5 ? 'M' : 'F';
-      const voice = globalPickVoice(globalVoiceCache, gender);
+      accent = accent || 'US';
+      const gender = accent === 'US' ? 'M' : 'F';
+      const voice = globalPickVoice(globalVoiceCache, gender, accent);
       
       const utterance = new SpeechSynthesisUtterance(text);
-      utterance.lang = voice ? voice.lang : 'en-US';
+      utterance.lang = voice ? voice.lang : (accent === 'UK' ? 'en-GB' : 'en-US');
       utterance.voice = voice || null;
       utterance.rate = 1.0; 
-      utterance.pitch = gender === 'M' ? 0.85 : 1.15;
+      utterance.pitch = gender === 'M' ? 0.90 : 1.10;
       utterance.volume = 1;
       window.speechSynthesis.speak(utterance);
     } else {
@@ -8282,7 +8287,10 @@
             <div class="sentence-en" style="font-size: 17px; font-weight: 800; color: var(--accent); padding-right: 80px; margin-bottom: 6px;">${l.t}</div>
             <div class="sentence-ko" style="font-size: 13px; color: var(--text-dim);">${l.d}</div>
             <button class="star-btn ${starredSentences[lid] ? 'active' : ''}" onclick="toggleStar(event, '${lid}')" style="position: absolute; top: 15px; right: 50px;" title="오답 노트에 저장">${starredSentences[lid] ? '★' : '☆'}</button>
-            <button class="voice-btn" style="position: absolute; top: 12px; right: 15px; background:none; border:none; font-size:18px; cursor:pointer; opacity:0.6;" onclick="event.stopPropagation(); speakText('${l.t.replace(/'/g, "\\'").replace(/"/g, '&quot;')}')" title="듣기">🔊</button>
+            <div style="position: absolute; top: 12px; right: 15px; display: flex; gap: 4px; align-items: center; z-index: 10;">
+                <button class="voice-btn-card" style="background:none; border:none; font-size:16px; cursor:pointer; opacity:0.6; padding: 2px;" onclick="event.stopPropagation(); speakText('${l.t.replace(/'/g, "\\'").replace(/"/g, '&quot;')}', 'US')" title="미국식 발음">🇺🇸</button>
+                <button class="voice-btn-card" style="background:none; border:none; font-size:16px; cursor:pointer; opacity:0.6; padding: 2px;" onclick="event.stopPropagation(); speakText('${l.t.replace(/'/g, "\\'").replace(/"/g, '&quot;')}', 'UK')" title="영국식 발음">🇬🇧</button>
+            </div>
             <div class="writing-section" style="margin-top:12px; display:none;" id="writing-${lid}">
               <textarea class="writing-input" id="input-${lid}" placeholder="나만의 문장을 써보세요...">${userSentences[lid]||""}</textarea>
             </div>
@@ -8309,7 +8317,7 @@
           <div class="section-title" style="color:var(--ember)">General / Textbook</div>
           ${data.compare.map(c => `
             <div class="compare-item">
-              <div>"${c.b}" <button class="speak-btn" style="margin-left:8px;" onclick="speakText('${c.b.replace(/'/g, "\\'")}')">🔊</button></div>
+              <div>"${c.b}" <button class="speak-btn" onclick="speakText('${c.b.replace(/'/g, "\\'")}', 'US')" title="미국식 발음">🇺🇸</button><button class="speak-btn" style="margin-left:4px;" onclick="speakText('${c.b.replace(/'/g, "\\'")}', 'UK')" title="영국식 발음">🇬🇧</button></div>
               ${c.kb ? `<div style="font-size:14px; color:var(--text-dim); margin-top:6px; font-weight:400;">${c.kb}</div>` : ''}
             </div>
           `).join('')}
@@ -8318,7 +8326,7 @@
           <div class="section-title">Sophisticated / Native</div>
           ${data.compare.map(c => `
             <div class="compare-item" style="font-weight:700">
-              <div>"${c.g}" <button class="speak-btn" style="margin-left:8px;" onclick="speakText('${c.g.replace(/'/g, "\\'")}')">🔊</button></div>
+              <div>"${c.g}" <button class="speak-btn" onclick="speakText('${c.g.replace(/'/g, "\\'")}', 'US')" title="미국식 발음">🇺🇸</button><button class="speak-btn" style="margin-left:4px;" onclick="speakText('${c.g.replace(/'/g, "\\'")}', 'UK')" title="영국식 발음">🇬🇧</button></div>
               ${c.kg ? `<div style="font-size:14px; color:var(--text-dim); margin-top:6px; font-weight:400;">${c.kg}</div>` : ''}
             </div>
           `).join('')}
@@ -8333,12 +8341,12 @@
       <div class="expr-card">
         <div class="expr-en">
           ${e.e} 
-          <button class="speak-btn" onclick="speakText('${e.e.replace(/'/g, "\\'")}')">🔊</button>
+          <button class="speak-btn" onclick="speakText('${e.e.replace(/'/g, "\\'")}', 'US')" title="미국식 발음">🇺🇸</button><button class="speak-btn" style="margin-left:4px;" onclick="speakText('${e.e.replace(/'/g, "\\'")}', 'UK')" title="영국식 발음">🇬🇧</button>
         </div>
         <div class="expr-ko">${e.ko || e.k}</div>
         <div class="expr-example">
           "${e.x}" 
-          <button class="speak-btn" onclick="speakText('${e.x.replace(/'/g, "\\'")}')">🔊</button>
+          <button class="speak-btn" onclick="speakText('${e.x.replace(/'/g, "\\'")}', 'US')" title="미국식 발음">🇺🇸</button><button class="speak-btn" style="margin-left:4px;" onclick="speakText('${e.x.replace(/'/g, "\\'")}', 'UK')" title="영국식 발음">🇬🇧</button>
         </div>
       </div>
     `).join('');
@@ -9944,7 +9952,10 @@
                   <div style="padding: 8px 12px; background: rgba(255,255,255,0.03); border-radius: 8px; font-size: 12px; color: var(--text-dim); line-height: 1.4; border: 1px solid rgba(255,255,255,0.05);">
                       <strong style="color: var(--text); font-weight: 700;">Essence:</strong> ${s.eD || ''}
                   </div>
-                  <button class="voice-btn" style="position: absolute; top: 16px; right: 16px; background:none; border:none; font-size:20px; cursor:pointer; opacity:0.4; transition: opacity 0.2s;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.4" onclick="speakText('${s.txt.replace(/'/g, "\\'").replace(/"/g, '&quot;')}')" title="듣기">🔊</button>
+                  <div style="position: absolute; top: 16px; right: 16px; display: flex; gap: 4px; align-items: center; z-index: 10;">
+                      <button class="voice-btn-card" style="background:none; border:none; font-size:18px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; padding: 2px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('${s.txt.replace(/'/g, "\\'").replace(/"/g, '&quot;')}', 'US')" title="미국식 발음">🇺🇸</button>
+                      <button class="voice-btn-card" style="background:none; border:none; font-size:18px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; padding: 2px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="event.stopPropagation(); speakText('${s.txt.replace(/'/g, "\\'").replace(/"/g, '&quot;')}', 'UK')" title="영국식 발음">🇬🇧</button>
+                  </div>
               </div>
               `;
           });
@@ -9968,7 +9979,7 @@
           }
           
           if (foundVocab.length > 0) {
-              let vocabItems = foundVocab.map(v => `<li style="display: flex; align-items: center; flex-wrap: wrap;"><strong>${v.word}</strong> <button class="voice-btn" style="background:none; border:none; padding:0 4px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="speakText('${v.word.replace(/'/g, "\\'").replace(/"/g, '&quot;')}')" title="발음 듣기">🔊</button> <span style="margin-left: 4px;">: ${v.meaning}</span></li>`).join('');
+              let vocabItems = foundVocab.map(v => `<li style="display: flex; align-items: center; flex-wrap: wrap;"><strong>${v.word}</strong> <button class="voice-btn-inline" style="background:none; border:none; padding:0 2px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:4px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="speakText('${v.word.replace(/'/g, "\\'").replace(/"/g, '&quot;')}', 'US')" title="미국식 발음">🇺🇸</button><button class="voice-btn-inline" style="background:none; border:none; padding:0 2px; font-size:16px; cursor:pointer; opacity:0.5; transition: opacity 0.2s; outline: none; margin-left:2px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" onclick="speakText('${v.word.replace(/'/g, "\\'").replace(/"/g, '&quot;')}', 'UK')" title="영국식 발음">🇬🇧</button> <span style="margin-left: 4px;">: ${v.meaning}</span></li>`).join('');
               html += `
               <div class="vocab-notes">
                   <div class="vocab-title">💡 핵심 단어 및 표현 (Vocabulary)</div>
@@ -11115,7 +11126,10 @@ function masterLoadDay(lessonIdx, topicIdx) {
             <div class="sentence-nuance" style="margin-top:10px; border-top: 1px dashed var(--border); padding-top:10px;">
                 💡 <b>상세 설명:</b> ${s.nu}
             </div>
-            <button class="voice-btn" style="position: absolute; top: 12px; right: 15px; background:none; border:none; font-size:18px; cursor:pointer; opacity:0.6;" onclick="event.stopPropagation(); speakText('${s.en.replace(/'/g, "\\'").replace(/"/g, '&quot;')}')" title="듣기">🔊</button>
+            <div style="position: absolute; top: 12px; right: 15px; display: flex; gap: 4px; align-items: center; z-index: 10;">
+                <button class="voice-btn-card" style="background:none; border:none; font-size:16px; cursor:pointer; opacity:0.6; padding: 2px;" onclick="event.stopPropagation(); speakText('${s.en.replace(/'/g, "\\'").replace(/"/g, '&quot;')}', 'US')" title="미국식 발음">🇺🇸</button>
+                <button class="voice-btn-card" style="background:none; border:none; font-size:16px; cursor:pointer; opacity:0.6; padding: 2px;" onclick="event.stopPropagation(); speakText('${s.en.replace(/'/g, "\\'").replace(/"/g, '&quot;')}', 'UK')" title="영국식 발음">🇬🇧</button>
+            </div>
         </div>
     `).join('');
 }
